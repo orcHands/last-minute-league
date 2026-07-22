@@ -1,0 +1,432 @@
+{
+  "generated": "2026-07-18",
+  "method": "Franchise = Yahoo team-slot chain. Succession links inferred from keeper eligibility (new manager's keepers all present on one departing manager's final-week roster) unless noted. Sara inherits David Laskey's 2014 team per owner decision 2026-07-18. Kelly Brown is the one person-based merge.",
+  "franchises": [
+    {
+      "id": "brice",
+      "founder": "Brice",
+      "status": "active",
+      "current": "Brice",
+      "label": "Brice",
+      "stints": [
+        {
+          "manager": "Brice",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carter",
+      "founder": "Carter",
+      "status": "active",
+      "current": "Carter",
+      "label": "Carter",
+      "stints": [
+        {
+          "manager": "Carter",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "whitaker",
+      "founder": "whitaker",
+      "status": "active",
+      "current": "whitaker",
+      "label": "whitaker",
+      "stints": [
+        {
+          "manager": "whitaker",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jay",
+      "founder": "Jay",
+      "status": "active",
+      "current": "Kevin",
+      "label": "Jay \u2192 Kevin",
+      "stints": [
+        {
+          "manager": "Jay",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022
+          ]
+        },
+        {
+          "manager": "Kevin",
+          "seasons": [
+            2023,
+            2024,
+            2025
+          ],
+          "evidence": "keeper-containment (2023 keeps Lamar Jackson + Kirk Cousins on Jay's final 2022 roster); owner-confirmed 2026-07-18"
+        }
+      ]
+    },
+    {
+      "id": "benedict",
+      "founder": "Benedict",
+      "status": "active",
+      "current": "Alex",
+      "label": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+      "stints": [
+        {
+          "manager": "Benedict",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ]
+        },
+        {
+          "manager": "Aboubacar",
+          "seasons": [
+            2021
+          ],
+          "evidence": "keeper-containment (2021 keep Antonio Gibson on Benedict's final 2020 roster)"
+        },
+        {
+          "manager": "Kat",
+          "seasons": [
+            2022,
+            2023,
+            2024
+          ],
+          "evidence": "timing only (Aboubacar out / Kat in, no 2022 keepers); owner-confirmed 2026-07-18"
+        },
+        {
+          "manager": "Alex",
+          "seasons": [
+            2025
+          ],
+          "evidence": "keeper-containment (2025 keeps JSN + Chuba Hubbard on Kat's final 2024 roster)"
+        }
+      ]
+    },
+    {
+      "id": "dylan",
+      "founder": "Dylan Snyder",
+      "status": "active",
+      "current": "Megan",
+      "label": "Dylan Snyder \u2192 becca \u2192 Megan",
+      "stints": [
+        {
+          "manager": "Dylan Snyder",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ]
+        },
+        {
+          "manager": "becca",
+          "seasons": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "evidence": "keeper-containment (2018 keeps Burkhead + Rudolph on Dylan's final 2017 roster)"
+        },
+        {
+          "manager": "Megan",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "evidence": "keeper-containment (2024 keeps Richardson + Kincaid on becca's final 2023 roster)"
+        }
+      ]
+    },
+    {
+      "id": "pb",
+      "founder": "pb",
+      "status": "active",
+      "current": "pb",
+      "label": "pb",
+      "stints": [
+        {
+          "manager": "pb",
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "michael",
+      "founder": "Michael",
+      "status": "active",
+      "current": "Michael",
+      "label": "Michael",
+      "stints": [
+        {
+          "manager": "Michael",
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ryan",
+      "founder": "Ryan",
+      "status": "active",
+      "current": "Ryan",
+      "label": "Ryan",
+      "stints": [
+        {
+          "manager": "Ryan",
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tommy",
+      "founder": "Tommy",
+      "status": "active",
+      "current": "Tommy",
+      "label": "Tommy",
+      "stints": [
+        {
+          "manager": "Tommy",
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laskey",
+      "founder": "David Laskey",
+      "status": "active",
+      "current": "Jason",
+      "label": "David Laskey \u2192 Sara \u2192 Jason",
+      "stints": [
+        {
+          "manager": "David Laskey",
+          "seasons": [
+            2014
+          ]
+        },
+        {
+          "manager": "Sara",
+          "seasons": [
+            2015,
+            2016
+          ],
+          "evidence": "owner decision 2026-07-18 (pre-keeper era, no roster evidence)"
+        },
+        {
+          "manager": "Jason",
+          "seasons": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "evidence": "keeper-containment (2017 keeps Henry + Rudolph on Sara's final 2016 roster)"
+        }
+      ]
+    },
+    {
+      "id": "zac",
+      "founder": "Zac",
+      "status": "active",
+      "current": "Zac",
+      "label": "Zac",
+      "note": "2017 expansion team; 2017 keepers were offseason claims of other rosters' dropped players (league quirk)",
+      "stints": [
+        {
+          "manager": "Zac",
+          "seasons": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kyle",
+      "founder": "Kyle",
+      "status": "retired",
+      "current": null,
+      "label": "Kyle",
+      "retired_after": 2018,
+      "stints": [
+        {
+          "manager": "Kyle",
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kelly-brown",
+      "founder": "Kelly Brown",
+      "status": "retired",
+      "current": null,
+      "label": "Kelly Brown",
+      "retired_after": 2018,
+      "note": "person-based merge per owner decision 2026-07-18: two unrelated team slots (2014 RemembertheTightEnds; 2017-18 Spicy Meatballs expansion) treated as one franchise",
+      "stints": [
+        {
+          "manager": "Kelly Brown",
+          "seasons": [
+            2014
+          ]
+        },
+        {
+          "manager": "Kelly Brown",
+          "seasons": [
+            2017,
+            2018
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dave-lang",
+      "founder": "Dave Lang",
+      "status": "retired",
+      "current": null,
+      "label": "Dave Lang",
+      "retired_after": 2014,
+      "stints": [
+        {
+          "manager": "Dave Lang",
+          "seasons": [
+            2013,
+            2014
+          ]
+        }
+      ]
+    }
+  ]
+}

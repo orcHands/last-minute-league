@@ -1,0 +1,1185 @@
+{
+ "_method": {
+  "default": "Highest scorer on the WINNING team.",
+  "surprise_bonus": "composite = game_pts + 0.5*(game_pts - player prior-season avg); a surprise pick must be within 3 pts of the winner top raw score. (Desmond Howard lever.)",
+  "losing_team_mvp": "A losing player takes MVP only if they are the single highest scorer of the entire game AND beat the winner best by >=5 pts. (Chuck Howley rule.)",
+  "baseline": "player avg STARTED points that season in weeks BEFORE the bowl game.",
+  "tags": {
+   "standard": "winner top scorer",
+   "howard": "winner surprise eruption vs own norm",
+   "howley": "losing-team hero, best on the field"
+  }
+ },
+ "bowls": {
+  "2013": {
+   "Teremana Tequila Bowl": {
+    "season": 2013,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 17,
+    "winner_manager": "Carter",
+    "winner_team": "Ice Kingdom Gunters",
+    "loser_manager": "Jay",
+    "loser_team": "Lunar Giants Suck",
+    "final_score": "135.62-126.56",
+    "mvp": {
+     "player": "Demaryius Thomas",
+     "position": "WR",
+     "points": 30.3,
+     "manager": "Carter",
+     "team": "Ice Kingdom Gunters",
+     "side": "winning team",
+     "season_avg": 19.77,
+     "delta_vs_avg": 10.53,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2013,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 17,
+    "winner_manager": "Benedict",
+    "winner_team": "Tom Brady's Uggs",
+    "loser_manager": "whitaker",
+    "loser_team": "Fixpoint Enforcers",
+    "final_score": "161.45-139.33",
+    "mvp": {
+     "player": "Panthers - DEF",
+     "position": "DEF",
+     "points": 37.27,
+     "manager": "Benedict",
+     "team": "Tom Brady's Uggs",
+     "side": "winning team",
+     "season_avg": 20.18,
+     "delta_vs_avg": 17.09,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2013,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 17,
+    "winner_manager": "Brice",
+    "winner_team": "Beep Burpips",
+    "loser_manager": "Kyle",
+    "loser_team": "THE MONKEYS",
+    "final_score": "148.58-124.81",
+    "mvp": {
+     "player": "Chris Johnson",
+     "position": "RB",
+     "points": 23.1,
+     "manager": "Brice",
+     "team": "Beep Burpips",
+     "side": "winning team",
+     "season_avg": 17.12,
+     "delta_vs_avg": 5.98,
+     "type": "howard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2013,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 17,
+    "winner_manager": "Dylan Snyder",
+    "winner_team": "AMERICA",
+    "loser_manager": "Dave Lang",
+    "loser_team": "Non-Dairy Caucasians",
+    "final_score": "175.07-137.11",
+    "mvp": {
+     "player": "Drew Brees",
+     "position": "QB",
+     "points": 41.04,
+     "manager": "Dylan Snyder",
+     "team": "AMERICA",
+     "side": "winning team",
+     "season_avg": 22.44,
+     "delta_vs_avg": 18.6,
+     "type": "standard"
+    }
+   }
+  },
+  "2014": {
+   "Teremana Tequila Bowl": {
+    "season": 2014,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Jay",
+    "winner_team": "Magnetron",
+    "loser_manager": "Carter",
+    "loser_team": "HE ATE ME",
+    "final_score": "121.04-98.52",
+    "mvp": {
+     "player": "C.J. Anderson",
+     "position": "RB",
+     "points": 27.8,
+     "manager": "Jay",
+     "team": "Magnetron",
+     "side": "winning team",
+     "season_avg": 22.18,
+     "delta_vs_avg": 5.62,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2014,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "whitaker",
+    "winner_team": "Touchdown();",
+    "loser_manager": "Ryan",
+    "loser_team": "Henne's Epic Stache",
+    "final_score": "119.44-88.84",
+    "mvp": {
+     "player": "Ryan Tannehill",
+     "position": "QB",
+     "points": 32.84,
+     "manager": "whitaker",
+     "team": "Touchdown();",
+     "side": "winning team",
+     "season_avg": 11.28,
+     "delta_vs_avg": 21.56,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2014,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Benedict",
+    "winner_team": "Benny Football",
+    "loser_manager": "Brice",
+    "loser_team": "Kedrek Knightssss",
+    "final_score": "167.36-137.08",
+    "mvp": {
+     "player": "Russell Wilson",
+     "position": "QB",
+     "points": 39.36,
+     "manager": "Benedict",
+     "team": "Benny Football",
+     "side": "winning team",
+     "season_avg": 20.67,
+     "delta_vs_avg": 18.69,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2014,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "pb",
+    "winner_team": "(ノಠ益ಠ)ノ彡┻━┻",
+    "loser_manager": "David Laskey",
+    "loser_team": "A Moderate Breakfast",
+    "final_score": "85.18-83.38",
+    "mvp": {
+     "player": "Odell Beckham Jr.",
+     "position": "WR",
+     "points": 35.8,
+     "manager": "pb",
+     "team": "(ノಠ益ಠ)ノ彡┻━┻",
+     "side": "winning team",
+     "season_avg": 28.7,
+     "delta_vs_avg": 7.1,
+     "type": "standard"
+    }
+   }
+  },
+  "2015": {
+   "Teremana Tequila Bowl": {
+    "season": 2015,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Jay",
+    "winner_team": "Magnetron",
+    "loser_manager": "pb",
+    "loser_team": "People's Army Team",
+    "final_score": "122.78-91.36",
+    "mvp": {
+     "player": "Cardinals - DEF",
+     "position": "DEF",
+     "points": 33.0,
+     "manager": "Jay",
+     "team": "Magnetron",
+     "side": "winning team",
+     "season_avg": 9.69,
+     "delta_vs_avg": 23.31,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2015,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "Benedict",
+    "winner_team": "Benny Football",
+    "loser_manager": "Tommy",
+    "loser_team": "Tommy's Turbos",
+    "final_score": "133.16-106.46",
+    "mvp": {
+     "player": "Jordan Reed",
+     "position": "TE",
+     "points": 33.9,
+     "manager": "Benedict",
+     "team": "Benny Football",
+     "side": "winning team",
+     "season_avg": 13.92,
+     "delta_vs_avg": 19.98,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2015,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Ryan",
+    "winner_team": "The Trail of Pears",
+    "loser_manager": "Kyle",
+    "loser_team": "Biscuits",
+    "final_score": "132.06-116.90",
+    "mvp": {
+     "player": "DeAngelo Williams",
+     "position": "RB",
+     "points": 31.3,
+     "manager": "Ryan",
+     "team": "The Trail of Pears",
+     "side": "winning team",
+     "season_avg": 21.94,
+     "delta_vs_avg": 9.36,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2015,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "Dylan Snyder",
+    "winner_team": "AMERICA",
+    "loser_manager": "whitaker",
+    "loser_team": "Touchdown();",
+    "final_score": "75.34-53.64",
+    "mvp": {
+     "player": "Matthew Stafford",
+     "position": "QB",
+     "points": 21.14,
+     "manager": "Dylan Snyder",
+     "team": "AMERICA",
+     "side": "winning team",
+     "season_avg": 21.16,
+     "delta_vs_avg": -0.02,
+     "type": "standard"
+    }
+   }
+  },
+  "2016": {
+   "Teremana Tequila Bowl": {
+    "season": 2016,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Michael",
+    "winner_team": "The Fumblers",
+    "loser_manager": "Kyle",
+    "loser_team": "Monchhichis",
+    "final_score": "118.70-87.96",
+    "mvp": {
+     "player": "Russell Wilson",
+     "position": "QB",
+     "points": 34.6,
+     "manager": "Michael",
+     "team": "The Fumblers",
+     "side": "winning team",
+     "season_avg": 19.68,
+     "delta_vs_avg": 14.92,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2016,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "Brice",
+    "winner_team": "Bricing The Kicker",
+    "loser_manager": "Jay",
+    "loser_team": "Magnetron",
+    "final_score": "171.76-128.02",
+    "mvp": {
+     "player": "Travis Kelce",
+     "position": "TE",
+     "points": 34.0,
+     "manager": "Brice",
+     "team": "Bricing The Kicker",
+     "side": "winning team",
+     "season_avg": 13.62,
+     "delta_vs_avg": 20.38,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2016,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Dylan Snyder",
+    "winner_team": "AMERICA",
+    "loser_manager": "pb",
+    "loser_team": "SEC Speed",
+    "final_score": "101.10-84.08",
+    "mvp": {
+     "player": "Kirk Cousins",
+     "position": "QB",
+     "points": 31.8,
+     "manager": "Dylan Snyder",
+     "team": "AMERICA",
+     "side": "winning team",
+     "season_avg": 19.86,
+     "delta_vs_avg": 11.94,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2016,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "Sara",
+    "winner_team": "Dat VFL",
+    "loser_manager": "Tommy",
+    "loser_team": "Tommy's Turbos",
+    "final_score": "111.16-105.42",
+    "mvp": {
+     "player": "Antonio Brown",
+     "position": "WR",
+     "points": 25.6,
+     "manager": "Sara",
+     "team": "Dat VFL",
+     "side": "winning team",
+     "season_avg": 20.92,
+     "delta_vs_avg": 4.68,
+     "type": "standard"
+    }
+   }
+  },
+  "2017": {
+   "Teremana Tequila Bowl": {
+    "season": 2017,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Jay",
+    "winner_team": "Magnetron",
+    "loser_manager": "Michael",
+    "loser_team": "The Fumblers",
+    "final_score": "134.04-95.60",
+    "mvp": {
+     "player": "Todd Gurley",
+     "position": "RB",
+     "points": 50.6,
+     "manager": "Jay",
+     "team": "Magnetron",
+     "side": "winning team",
+     "season_avg": 24.12,
+     "delta_vs_avg": 26.48,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2017,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "Zac",
+    "winner_team": "Goffsides",
+    "loser_manager": "Kelly Brown",
+    "loser_team": "Spicy Meatballs",
+    "final_score": "97.74-97.00",
+    "mvp": {
+     "player": "Dion Lewis",
+     "position": "RB",
+     "points": 32.3,
+     "manager": "Zac",
+     "team": "Goffsides",
+     "side": "winning team",
+     "season_avg": 14.76,
+     "delta_vs_avg": 17.54,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2017,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Ryan",
+    "winner_team": "Good King Wentzeslas",
+    "loser_manager": "Brice",
+    "loser_team": "Bricing The Kicker",
+    "final_score": "92.72-90.66",
+    "mvp": {
+     "player": "Kirk Cousins",
+     "position": "QB",
+     "points": 24.76,
+     "manager": "Brice",
+     "team": "Bricing The Kicker",
+     "side": "losing team",
+     "season_avg": 19.12,
+     "delta_vs_avg": 5.64,
+     "type": "howley"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2017,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "Benedict",
+    "winner_team": "GaroppoGOAT",
+    "loser_manager": "pb",
+    "loser_team": "Super Bolsheviks",
+    "final_score": "112.28-74.10",
+    "mvp": {
+     "player": "Jimmy Garoppolo",
+     "position": "QB",
+     "points": 23.98,
+     "manager": "Benedict",
+     "team": "GaroppoGOAT",
+     "side": "winning team",
+     "season_avg": 22.24,
+     "delta_vs_avg": 1.74,
+     "type": "standard"
+    }
+   }
+  },
+  "2018": {
+   "Teremana Tequila Bowl": {
+    "season": 2018,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Benedict",
+    "winner_team": "Vontaze Benedict",
+    "loser_manager": "Carter",
+    "loser_team": "Bortles' Burgers",
+    "final_score": "126.42-82.94",
+    "mvp": {
+     "player": "Patrick Mahomes",
+     "position": "QB",
+     "points": 28.22,
+     "manager": "Benedict",
+     "team": "Vontaze Benedict",
+     "side": "winning team",
+     "season_avg": 28.45,
+     "delta_vs_avg": -0.23,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2018,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "Ryan",
+    "winner_team": "Vike and Subscribe",
+    "loser_manager": "Jay",
+    "loser_team": "Magnetron",
+    "final_score": "144.16-106.80",
+    "mvp": {
+     "player": "Robert Woods",
+     "position": "WR",
+     "points": 28.4,
+     "manager": "Ryan",
+     "team": "Vike and Subscribe",
+     "side": "winning team",
+     "season_avg": 16.69,
+     "delta_vs_avg": 11.71,
+     "type": "howard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2018,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Tommy",
+    "winner_team": "Tommy's Turbos",
+    "loser_manager": "Jason",
+    "loser_team": "Garopalypse Now",
+    "final_score": "109.94-99.04",
+    "mvp": {
+     "player": "Deshaun Watson",
+     "position": "QB",
+     "points": 36.46,
+     "manager": "Tommy",
+     "team": "Tommy's Turbos",
+     "side": "winning team",
+     "season_avg": 20.19,
+     "delta_vs_avg": 16.27,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2018,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "pb",
+    "winner_team": "Super Bolsheviks",
+    "loser_manager": "Kelly Brown",
+    "loser_team": "Spicy Meatballs",
+    "final_score": "135.48-67.44",
+    "mvp": {
+     "player": "Antonio Brown",
+     "position": "WR",
+     "points": 44.5,
+     "manager": "pb",
+     "team": "Super Bolsheviks",
+     "side": "winning team",
+     "season_avg": 21.28,
+     "delta_vs_avg": 23.22,
+     "type": "standard"
+    }
+   }
+  },
+  "2019": {
+   "Teremana Tequila Bowl": {
+    "season": 2019,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Zac",
+    "winner_team": "Goffsides",
+    "loser_manager": "pb",
+    "loser_team": "H U B R I S",
+    "final_score": "123.58-118.12",
+    "mvp": {
+     "player": "Alvin Kamara",
+     "position": "RB",
+     "points": 30.0,
+     "manager": "pb",
+     "team": "H U B R I S",
+     "side": "losing team",
+     "season_avg": 16.21,
+     "delta_vs_avg": 13.79,
+     "type": "howley"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2019,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "Carter",
+    "winner_team": "Cash Carter McCarron",
+    "loser_manager": "Ryan",
+    "loser_team": "Touched By McVayngel",
+    "final_score": "146.04-82.82",
+    "mvp": {
+     "player": "Kenyan Drake",
+     "position": "RB",
+     "points": 34.4,
+     "manager": "Carter",
+     "team": "Cash Carter McCarron",
+     "side": "winning team",
+     "season_avg": 8.97,
+     "delta_vs_avg": 25.43,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2019,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Michael",
+    "winner_team": "The Fumblers",
+    "loser_manager": "Jason",
+    "loser_team": "On To Cincinnati",
+    "final_score": "138.12-131.26",
+    "mvp": {
+     "player": "Christian McCaffrey",
+     "position": "RB",
+     "points": 32.3,
+     "manager": "Jason",
+     "team": "On To Cincinnati",
+     "side": "losing team",
+     "season_avg": 30.43,
+     "delta_vs_avg": 1.87,
+     "type": "howley"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2019,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "Brice",
+    "winner_team": "Coming Up Rosen",
+    "loser_manager": "Benedict",
+    "loser_team": "Brady Hosedown",
+    "final_score": "97.44-90.46",
+    "mvp": {
+     "player": "Aaron Jones Sr.",
+     "position": "RB",
+     "points": 29.0,
+     "manager": "Brice",
+     "team": "Coming Up Rosen",
+     "side": "winning team",
+     "season_avg": 18.57,
+     "delta_vs_avg": 10.43,
+     "type": "standard"
+    }
+   }
+  },
+  "2020": {
+   "Teremana Tequila Bowl": {
+    "season": 2020,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 16,
+    "winner_manager": "Tommy",
+    "winner_team": "Tommy's Turbos",
+    "loser_manager": "Zac",
+    "loser_team": "Goffsides",
+    "final_score": "108.56-102.44",
+    "mvp": {
+     "player": "Adam Thielen",
+     "position": "WR",
+     "points": 23.7,
+     "manager": "Tommy",
+     "team": "Tommy's Turbos",
+     "side": "winning team",
+     "season_avg": 17.89,
+     "delta_vs_avg": 5.81,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2020,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 16,
+    "winner_manager": "Brice",
+    "winner_team": "Takes Tua To Tango",
+    "loser_manager": "Carter",
+    "loser_team": "Free Cheeseburgers",
+    "final_score": "126.34-100.12",
+    "mvp": {
+     "player": "Davante Adams",
+     "position": "WR",
+     "points": 43.2,
+     "manager": "Brice",
+     "team": "Takes Tua To Tango",
+     "side": "winning team",
+     "season_avg": 25.3,
+     "delta_vs_avg": 17.9,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2020,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 16,
+    "winner_manager": "Jason",
+    "winner_team": "Clyde Edwards Eclair",
+    "loser_manager": "Ryan",
+    "loser_team": "A Tale of Trubisky's",
+    "final_score": "97.30-87.48",
+    "mvp": {
+     "player": "Allen Robinson",
+     "position": "WR",
+     "points": 20.3,
+     "manager": "Jason",
+     "team": "Clyde Edwards Eclair",
+     "side": "winning team",
+     "season_avg": 16.21,
+     "delta_vs_avg": 4.09,
+     "type": "howard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2020,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 16,
+    "winner_manager": "Jay",
+    "winner_team": "A Well-Designed Hole",
+    "loser_manager": "Michael",
+    "loser_team": "The Fumblers",
+    "final_score": "124.74-115.92",
+    "mvp": {
+     "player": "Mike Evans",
+     "position": "WR",
+     "points": 40.1,
+     "manager": "Michael",
+     "team": "The Fumblers",
+     "side": "losing team",
+     "season_avg": 14.09,
+     "delta_vs_avg": 26.01,
+     "type": "howley"
+    }
+   }
+  },
+  "2021": {
+   "Teremana Tequila Bowl": {
+    "season": 2021,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 17,
+    "winner_manager": "Zac",
+    "winner_team": "Goffsides",
+    "loser_manager": "Jay",
+    "loser_team": "No",
+    "final_score": "179.90-112.66",
+    "mvp": {
+     "player": "Ja'Marr Chase",
+     "position": "WR",
+     "points": 57.6,
+     "manager": "Zac",
+     "team": "Goffsides",
+     "side": "winning team",
+     "season_avg": 17.99,
+     "delta_vs_avg": 39.61,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2021,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 17,
+    "winner_manager": "whitaker",
+    "winner_team": "The Double Doinkers",
+    "loser_manager": "Brice",
+    "loser_team": "Takes Tua To Tango",
+    "final_score": "137.38-112.70",
+    "mvp": {
+     "player": "Davante Adams",
+     "position": "WR",
+     "points": 30.6,
+     "manager": "whitaker",
+     "team": "The Double Doinkers",
+     "side": "winning team",
+     "season_avg": 22.77,
+     "delta_vs_avg": 7.83,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2021,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 17,
+    "winner_manager": "Ryan",
+    "winner_team": "A Tale of Trubisky's",
+    "loser_manager": "Michael",
+    "loser_team": "The Fumblers",
+    "final_score": "131.32-102.04",
+    "mvp": {
+     "player": "Rhamondre Stevenson",
+     "position": "RB",
+     "points": 22.7,
+     "manager": "Ryan",
+     "team": "A Tale of Trubisky's",
+     "side": "winning team",
+     "season_avg": 6.55,
+     "delta_vs_avg": 16.15,
+     "type": "howard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2021,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 17,
+    "winner_manager": "Tommy",
+    "winner_team": "Tommy's Turbos",
+    "loser_manager": "Jason",
+    "loser_team": "Clyde Edwards Eclair",
+    "final_score": "87.70-87.26",
+    "mvp": {
+     "player": "Tom Brady",
+     "position": "QB",
+     "points": 27.4,
+     "manager": "Tommy",
+     "team": "Tommy's Turbos",
+     "side": "winning team",
+     "season_avg": 23.69,
+     "delta_vs_avg": 3.71,
+     "type": "standard"
+    }
+   }
+  },
+  "2022": {
+   "Teremana Tequila Bowl": {
+    "season": 2022,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 17,
+    "winner_manager": "Carter",
+    "winner_team": "Amon-Ra St. Patrick Brown",
+    "loser_manager": "Jason",
+    "loser_team": "Clyde Edwards Eclair",
+    "final_score": "93.48-85.88",
+    "mvp": {
+     "player": "Brandon Aiyuk",
+     "position": "WR",
+     "points": 26.7,
+     "manager": "Jason",
+     "team": "Clyde Edwards Eclair",
+     "side": "losing team",
+     "season_avg": 12.17,
+     "delta_vs_avg": 14.53,
+     "type": "howley"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2022,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 17,
+    "winner_manager": "Tommy",
+    "winner_team": "Tommy's Turbos",
+    "loser_manager": "becca",
+    "loser_team": "chubb a dub dub",
+    "final_score": "118.38-101.16",
+    "mvp": {
+     "player": "Daniel Jones",
+     "position": "QB",
+     "points": 36.18,
+     "manager": "Tommy",
+     "team": "Tommy's Turbos",
+     "side": "winning team",
+     "season_avg": 18.49,
+     "delta_vs_avg": 17.69,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2022,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 17,
+    "winner_manager": "whitaker",
+    "winner_team": "The Double Doinkers",
+    "loser_manager": "Brice",
+    "loser_team": "America's Next Top Waddle",
+    "final_score": "141.92-96.38",
+    "mvp": {
+     "player": "Davante Adams",
+     "position": "WR",
+     "points": 36.3,
+     "manager": "whitaker",
+     "team": "The Double Doinkers",
+     "side": "winning team",
+     "season_avg": 20.54,
+     "delta_vs_avg": 15.76,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2022,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 17,
+    "winner_manager": "Ryan",
+    "winner_team": "A Tale of Trubisky's",
+    "loser_manager": "Zac",
+    "loser_team": "Goffsides",
+    "final_score": "109.18-75.10",
+    "mvp": {
+     "player": "Tom Brady",
+     "position": "QB",
+     "points": 39.68,
+     "manager": "Ryan",
+     "team": "A Tale of Trubisky's",
+     "side": "winning team",
+     "season_avg": 16.05,
+     "delta_vs_avg": 23.63,
+     "type": "standard"
+    }
+   }
+  },
+  "2023": {
+   "Teremana Tequila Bowl": {
+    "season": 2023,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 17,
+    "winner_manager": "Brice",
+    "winner_team": "Tu-jitsu",
+    "loser_manager": "Michael",
+    "loser_team": "The Fumblers",
+    "final_score": "127.06-106.46",
+    "mvp": {
+     "player": "CeeDee Lamb",
+     "position": "WR",
+     "points": 41.2,
+     "manager": "Michael",
+     "team": "The Fumblers",
+     "side": "losing team",
+     "season_avg": 21.97,
+     "delta_vs_avg": 19.23,
+     "type": "howley"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2023,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 17,
+    "winner_manager": "Carter",
+    "winner_team": "Jaylen Waddle Dee",
+    "loser_manager": "whitaker",
+    "loser_team": "The Double Doinkers",
+    "final_score": "147.06-98.70",
+    "mvp": {
+     "player": "Travis Etienne Jr.",
+     "position": "RB",
+     "points": 26.8,
+     "manager": "Carter",
+     "team": "Jaylen Waddle Dee",
+     "side": "winning team",
+     "season_avg": 16.57,
+     "delta_vs_avg": 10.23,
+     "type": "standard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2023,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 17,
+    "winner_manager": "Jason",
+    "winner_team": "Clyde Edwards Eclair",
+    "loser_manager": "Ryan",
+    "loser_team": "A Tale of Trubisky's",
+    "final_score": "140.28-88.80",
+    "mvp": {
+     "player": "Kyren Williams",
+     "position": "RB",
+     "points": 30.1,
+     "manager": "Jason",
+     "team": "Clyde Edwards Eclair",
+     "side": "winning team",
+     "season_avg": 17.65,
+     "delta_vs_avg": 12.45,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2023,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 17,
+    "winner_manager": "Zac",
+    "winner_team": "Goffsides",
+    "loser_manager": "Kat",
+    "loser_team": "Katatonic",
+    "final_score": "122.82-55.50",
+    "mvp": {
+     "player": "Davante Adams",
+     "position": "WR",
+     "points": 37.6,
+     "manager": "Zac",
+     "team": "Goffsides",
+     "side": "winning team",
+     "season_avg": 14.28,
+     "delta_vs_avg": 23.32,
+     "type": "standard"
+    }
+   }
+  },
+  "2024": {
+   "Teremana Tequila Bowl": {
+    "season": 2024,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 17,
+    "winner_manager": "Tommy",
+    "winner_team": "Koo-nosha Kickers",
+    "loser_manager": "Jason",
+    "loser_team": "Clyde Edwards Eclair",
+    "final_score": "160.36-138.88",
+    "mvp": {
+     "player": "DeVonta Smith",
+     "position": "WR",
+     "points": 31.0,
+     "manager": "Tommy",
+     "team": "Koo-nosha Kickers",
+     "side": "winning team",
+     "season_avg": 13.15,
+     "delta_vs_avg": 17.85,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2024,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 17,
+    "winner_manager": "Kevin",
+    "winner_team": "Justin Fields of Dreams",
+    "loser_manager": "whitaker",
+    "loser_team": "The Caleb Will-Wins",
+    "final_score": "152.82-108.18",
+    "mvp": {
+     "player": "Trey McBride",
+     "position": "TE",
+     "points": 30.3,
+     "manager": "Kevin",
+     "team": "Justin Fields of Dreams",
+     "side": "winning team",
+     "season_avg": 14.25,
+     "delta_vs_avg": 16.05,
+     "type": "howard"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2024,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 17,
+    "winner_manager": "Ryan",
+    "winner_team": "J.T. O'Sulli-win",
+    "loser_manager": "Brice",
+    "loser_team": "Coming Tuamerica",
+    "final_score": "108.68-105.48",
+    "mvp": {
+     "player": "Brock Purdy",
+     "position": "QB",
+     "points": 34.28,
+     "manager": "Ryan",
+     "team": "J.T. O'Sulli-win",
+     "side": "winning team",
+     "season_avg": 19.49,
+     "delta_vs_avg": 14.79,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2024,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 17,
+    "winner_manager": "Zac",
+    "winner_team": "Goffsides",
+    "loser_manager": "Megan",
+    "loser_team": "Cult of the Lamb",
+    "final_score": "106.48-101.78",
+    "mvp": {
+     "player": "Malik Nabers",
+     "position": "WR",
+     "points": 37.1,
+     "manager": "Zac",
+     "team": "Goffsides",
+     "side": "winning team",
+     "season_avg": 16.98,
+     "delta_vs_avg": 20.12,
+     "type": "standard"
+    }
+   }
+  },
+  "2025": {
+   "Teremana Tequila Bowl": {
+    "season": 2025,
+    "bowl": "Teremana Tequila Bowl",
+    "bowl_label": "Teremana Tequila Bowl (Championship)",
+    "week": 17,
+    "winner_manager": "Kevin",
+    "winner_team": "The Princess McBride",
+    "loser_manager": "Ryan",
+    "loser_team": "The Kittle Prince",
+    "final_score": "111.50-101.74",
+    "mvp": {
+     "player": "Chase Brown",
+     "position": "RB",
+     "points": 29.1,
+     "manager": "Kevin",
+     "team": "The Princess McBride",
+     "side": "winning team",
+     "season_avg": 16.09,
+     "delta_vs_avg": 13.01,
+     "type": "standard"
+    }
+   },
+   "Kumho Tires Tokyo Drift Bowl": {
+    "season": 2025,
+    "bowl": "Kumho Tires Tokyo Drift Bowl",
+    "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+    "week": 17,
+    "winner_manager": "Megan",
+    "winner_team": "Tiny Panthers",
+    "loser_manager": "Carter",
+    "loser_team": "Arc the Ladd McConkey",
+    "final_score": "134.08-128.22",
+    "mvp": {
+     "player": "Brock Purdy",
+     "position": "QB",
+     "points": 34.92,
+     "manager": "Carter",
+     "team": "Arc the Ladd McConkey",
+     "side": "losing team",
+     "season_avg": 16.7,
+     "delta_vs_avg": 18.22,
+     "type": "howley"
+    }
+   },
+   "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+    "season": 2025,
+    "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+    "week": 17,
+    "winner_manager": "Brice",
+    "winner_team": "Tua Fault",
+    "loser_manager": "Tommy",
+    "loser_team": "Kenosha Kickers",
+    "final_score": "122.60-87.96",
+    "mvp": {
+     "player": "Bijan Robinson",
+     "position": "RB",
+     "points": 40.9,
+     "manager": "Brice",
+     "team": "Tua Fault",
+     "side": "winning team",
+     "season_avg": 21.36,
+     "delta_vs_avg": 19.54,
+     "type": "standard"
+    }
+   },
+   "Voltron Global Bowl Hosted by Tyrese Gibson": {
+    "season": 2025,
+    "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "bowl_label": "Voltron Global Bowl (9th place)",
+    "week": 17,
+    "winner_manager": "Zac",
+    "winner_team": "Goffsides",
+    "loser_manager": "whitaker",
+    "loser_team": "The Caleb Will-Wins",
+    "final_score": "100.44-91.18",
+    "mvp": {
+     "player": "Vikings - DEF",
+     "position": "DEF",
+     "points": 21.0,
+     "manager": "Zac",
+     "team": "Goffsides",
+     "side": "winning team",
+     "season_avg": 7.0,
+     "delta_vs_avg": 14.0,
+     "type": "standard"
+    }
+   }
+  }
+ }
+}

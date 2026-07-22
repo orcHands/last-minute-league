@@ -1,0 +1,4236 @@
+{
+ "_notes": {
+  "source": "Transcribed from Yahoo screenshots in data/standings, data/consolation_bracket, data/DraftDay_Projections; podium/PF/ranks from league.json",
+  "delta": "projected_rank - actual_rank; positive = outperformed Yahoo draft-day projection",
+  "consolation_final": "Name of the deciding game (5th or 7th Place Game depending on league size that year)",
+  "caveat": "Yahoo projections assume draft-day rosters; over/underperformance mixes draft luck with in-season management",
+  "2013": "Consolation structure differs in 2013 (see seasons.2013.consolation_winner.note)",
+  "lore": {
+   "divisions": "Yahoo division names kept as historical record; canonical league names: first listed each season = O'Conner Memorial Division (winner: Brian O'Conner Trophy), second = Toretto Family Division (winner: Toretto Family Division Trophy).",
+   "championship": "Champion wins the Teremana Añejo trophy, runner-up the Teremana Blanco. The Teremana Reposado was RETIRED in the 2026-07-18 lore drop (Teremana branding is now championship-exclusive). Venue rotation and attendance are league canon per seasons.<yr>.championship; only repeat host is Hard Rock Stadium (2013, and the 2020 LMFL Bubble that hosted every postseason game).",
+   "consolation": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl — the consolation bracket championship, hosted in Atlanta (Bobby Dodd 2013, The Georgia Dome 2014-2016, Mercedes-Benz Stadium 2017+; 2020 in the LMFL Bubble). Decided by the 7th Place Game (5th Place Game in 2013's 8-team year). Supersedes the Han Lue Tokyo Drift Classic-at-Tokyo-Dome consolation canon of 2026-07-12.",
+   "points_leader": "Letty Ortiz Award for Excellence in Roster Management.",
+   "attendance": "Attendance figures are canon exactly as given per game in seasons.<yr> (2026-07-18 drop). The old 'capacity sellout every year' rule is dead; 2020 postseason games all drew 26,130 in the LMFL Bubble.",
+   "third_place_game": "Kumho Tires Tokyo Drift Bowl — the 3rd Place Finals, home: Tokyo Dome, Tokyo. Winner takes the Han Lue Tokyo Drift Classic trophy (the Han Lue name traveled with Tokyo when the Tokyo Drift branding moved from the consolation bracket to the 3rd place game, 2026-07-18). Exceptions: 2020 Hard Rock (LMFL Bubble), 2021 Camping World Orlando, 2022 Raymond James Tampa.",
+   "ninth_place_game": "Voltron Global Bowl Hosted by Tyrese Gibson (Tyrese's conglomerate, Voltron Global) — the 9th Place Finals (7th Place Game in 2013's 8-team year), hosted in the most exciting and dangerous places on earth. Attendance is canon exactly as recorded, including '41 Vehicles', '1 Fatality', '97 Arrests', and the zeroes.",
+   "superseded": "2026-07-18 lore drop replaced: Rose Bowl/Camping World 3rd-place alternation, Tokyo-Dome consolation, Brice-biography championship venue rationale (U.S. Bank Minneapolis is out of the rotation), sellout attendance rule."
+  },
+  "participants": "All bowl participants derive from league.json final ranks: championship 1v2, Tokyo Drift 3v4, Wing Bowl 7v8 (5v6 in 2013), Voltron 9v10 (7v8 in 2013). Verified 2026-07-18; the source graphics contained four Kyle/Dylan Snyder swaps (2013 Voltron winner, 2013 Wing runner-up, 2016 Wing winner, 2016 championship runner-up) — this file is correct, graphics need fixing."
+ },
+ "seasons": {
+  "2013": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Ice Kingdom Gunters",
+     "manager": "Carter",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "Lunar Giants Suck",
+     "manager": "Jay",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Tom Brady's Uggs",
+     "manager": "Benedict",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Division 1",
+     "team": "Non-Dairy Caucasians",
+     "manager": "Dave Lang",
+     "overall_wlt": "6-2-0",
+     "division_wlt": "4-1-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Division 2",
+     "team": "Fixpoint Enforcers",
+     "manager": "whitaker",
+     "overall_wlt": "6-2-0",
+     "division_wlt": "4-1-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "5th Place Game",
+    "venue": "Bobby Dodd Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 32321,
+    "winner": {
+     "place": 5,
+     "team": "Beep Burpips",
+     "manager": "Brice"
+    },
+    "runner_up": {
+     "place": 6,
+     "team": "THE MONKEYS",
+     "manager": "Kyle"
+    },
+    "note": "8-team league: all teams made a bracket; consolation = QF losers, winner decided by 5th Place Game"
+   },
+   "points_leader": {
+    "team": "Non-Dairy Caucasians",
+    "manager": "Dave Lang",
+    "pf": 1278.71,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Division 1": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Beep Burpips",
+       "manager": "Brice",
+       "division_wlt": "3-2-0",
+       "overall_wlt": "3-5-0"
+      },
+      {
+       "team": "THE MONKEYS",
+       "manager": "Kyle",
+       "division_wlt": "2-3-0",
+       "overall_wlt": "5-3-0"
+      },
+      {
+       "team": "AMERICA",
+       "manager": "Dylan Snyder",
+       "division_wlt": "1-4-0",
+       "overall_wlt": "2-6-0"
+      },
+      {
+       "team": "Non-Dairy Caucasians",
+       "manager": "Dave Lang",
+       "division_wlt": "4-1-0",
+       "overall_wlt": "6-2-0"
+      }
+     ]
+    },
+    "Division 2": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Ice Kingdom Gunters",
+       "manager": "Carter",
+       "division_wlt": "3-2-0",
+       "overall_wlt": "5-3-0"
+      },
+      {
+       "team": "Lunar Giants Suck",
+       "manager": "Jay",
+       "division_wlt": "3-2-0",
+       "overall_wlt": "4-4-0"
+      },
+      {
+       "team": "Tom Brady's Uggs",
+       "manager": "Benedict",
+       "division_wlt": "0-5-0",
+       "overall_wlt": "1-7-0"
+      },
+      {
+       "team": "Fixpoint Enforcers",
+       "manager": "whitaker",
+       "division_wlt": "4-1-0",
+       "overall_wlt": "6-2-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Fixpoint Enforcers",
+     "manager": "whitaker",
+     "projected_rank": 1,
+     "projected_wlt": "6-2-0",
+     "actual_rank": 4,
+     "delta": -3
+    },
+    {
+     "team": "Lunar Giants Suck",
+     "manager": "Jay",
+     "projected_rank": 2,
+     "projected_wlt": "6-2-0",
+     "actual_rank": 2,
+     "delta": 0
+    },
+    {
+     "team": "THE MONKEYS",
+     "manager": "Kyle",
+     "projected_rank": 3,
+     "projected_wlt": "5-3-0",
+     "actual_rank": 6,
+     "delta": -3
+    },
+    {
+     "team": "Ice Kingdom Gunters",
+     "manager": "Carter",
+     "projected_rank": 4,
+     "projected_wlt": "4-4-0",
+     "actual_rank": 1,
+     "delta": 3
+    },
+    {
+     "team": "Beep Burpips",
+     "manager": "Brice",
+     "projected_rank": 5,
+     "projected_wlt": "4-4-0",
+     "actual_rank": 5,
+     "delta": 0
+    },
+    {
+     "team": "Non-Dairy Caucasians",
+     "manager": "Dave Lang",
+     "projected_rank": 6,
+     "projected_wlt": "4-4-0",
+     "actual_rank": 8,
+     "delta": -2
+    },
+    {
+     "team": "AMERICA",
+     "manager": "Dylan Snyder",
+     "projected_rank": 7,
+     "projected_wlt": "2-6-0",
+     "actual_rank": 7,
+     "delta": 0
+    },
+    {
+     "team": "Tom Brady's Uggs",
+     "manager": "Benedict",
+     "projected_rank": 8,
+     "projected_wlt": "1-7-0",
+     "actual_rank": 3,
+     "delta": 5
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami",
+    "state": "Florida",
+    "attendance": 32150
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 38742,
+    "winner": {
+     "place": 3,
+     "team": "Tom Brady's Uggs",
+     "manager": "Benedict"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Fixpoint Enforcers",
+     "manager": "whitaker"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "7th Place Game",
+    "venue": "Edward James Dome",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "attendance": 33910,
+    "winner": {
+     "place": 7,
+     "team": "AMERICA",
+     "manager": "Dylan Snyder"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Non-Dairy Caucasians",
+     "manager": "Dave Lang"
+    },
+    "note": "8-team year: the Voltron Global Bowl is the 7th Place Game (last-place game); 9th place does not exist"
+   }
+  },
+  "2014": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Magnetron",
+     "manager": "Jay",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "HE ATE ME",
+     "manager": "Carter",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Touchdown();",
+     "manager": "whitaker",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "The Buttercup Gang",
+     "team": "Touchdown();",
+     "manager": "whitaker",
+     "overall_wlt": "10-3-0",
+     "division_wlt": "9-2-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Division 3 With A Twist",
+     "team": "HE ATE ME",
+     "manager": "Carter",
+     "overall_wlt": "10-3-0",
+     "division_wlt": "9-2-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "The Georgia Dome",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 40891,
+    "winner": {
+     "place": 7,
+     "team": "Benny Football",
+     "manager": "Benedict"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Kedrek Knightssss",
+     "manager": "Brice"
+    }
+   },
+   "points_leader": {
+    "team": "Uncle Grumbles",
+    "manager": "Michael",
+    "pf": 1612.42,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "The Buttercup Gang": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Magnetron",
+       "manager": "Jay",
+       "division_wlt": "7-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Touchdown();",
+       "manager": "whitaker",
+       "division_wlt": "9-2-0",
+       "overall_wlt": "10-3-0"
+      },
+      {
+       "team": "Uncle Grumbles",
+       "manager": "Michael",
+       "division_wlt": "6-5-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Kedrek Knightssss",
+       "manager": "Brice",
+       "division_wlt": "5-5-1",
+       "overall_wlt": "6-6-1"
+      },
+      {
+       "team": "(ノಠ益ಠ)ノ彡┻━┻",
+       "manager": "pb",
+       "division_wlt": "4-7-1",
+       "overall_wlt": "5-7-1"
+      },
+      {
+       "team": "RemembertheTightEnds",
+       "manager": "Kelly Brown",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "AMERICA",
+       "manager": "Dylan Snyder",
+       "division_wlt": "2-9-0",
+       "overall_wlt": "3-10-0"
+      }
+     ]
+    },
+    "Division 3 With A Twist": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "HE ATE ME",
+       "manager": "Carter",
+       "division_wlt": "9-2-0",
+       "overall_wlt": "10-3-0"
+      },
+      {
+       "team": "Henne's Epic Stache",
+       "manager": "Ryan",
+       "division_wlt": "8-3-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Non-Dairy Caucasians",
+       "manager": "Dave Lang",
+       "division_wlt": "6-5-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Benny Football",
+       "manager": "Benedict",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "A Moderate Breakfast",
+       "manager": "David Laskey",
+       "division_wlt": "4-8-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "🐒🐒🍌",
+       "manager": "Kyle",
+       "division_wlt": "2-9-0",
+       "overall_wlt": "3-10-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Touchdown();",
+     "manager": "whitaker",
+     "projected_rank": 1,
+     "projected_wlt": "12-1-0",
+     "actual_rank": 3,
+     "delta": -2
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 2,
+     "projected_wlt": "10-3-0",
+     "actual_rank": 11,
+     "delta": -9
+    },
+    {
+     "team": "HE ATE ME",
+     "manager": "Carter",
+     "projected_rank": 3,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 2,
+     "delta": 1
+    },
+    {
+     "team": "Kedrek Knightssss",
+     "manager": "Brice",
+     "projected_rank": 4,
+     "projected_wlt": "8-5-0",
+     "actual_rank": 8,
+     "delta": -4
+    },
+    {
+     "team": "(ノಠ益ಠ)ノ彡┻━┻",
+     "manager": "pb",
+     "projected_rank": 5,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 9,
+     "delta": -4
+    },
+    {
+     "team": "Non-Dairy Caucasians",
+     "manager": "Dave Lang",
+     "projected_rank": 6,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 6,
+     "delta": 0
+    },
+    {
+     "team": "Benny Football",
+     "manager": "Benedict",
+     "projected_rank": 7,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 7,
+     "delta": 0
+    },
+    {
+     "team": "A Moderate Breakfast",
+     "manager": "David Laskey",
+     "projected_rank": 8,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 10,
+     "delta": -2
+    },
+    {
+     "team": "Magnetron",
+     "manager": "Jay",
+     "projected_rank": 9,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 1,
+     "delta": 8
+    },
+    {
+     "team": "Henne's Epic Stache",
+     "manager": "Ryan",
+     "projected_rank": 10,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 4,
+     "delta": 6
+    },
+    {
+     "team": "🐒🐒🍌",
+     "manager": "Kyle",
+     "projected_rank": 11,
+     "projected_wlt": "4-9-0",
+     "actual_rank": 13,
+     "delta": -2
+    },
+    {
+     "team": "AMERICA",
+     "manager": "Dylan Snyder",
+     "projected_rank": 12,
+     "projected_wlt": "4-9-0",
+     "actual_rank": 14,
+     "delta": -2
+    },
+    {
+     "team": "Uncle Grumbles",
+     "manager": "Michael",
+     "projected_rank": 13,
+     "projected_wlt": "4-9-0",
+     "actual_rank": 5,
+     "delta": 8
+    },
+    {
+     "team": "RemembertheTightEnds",
+     "manager": "Kelly Brown",
+     "projected_rank": 14,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 12,
+     "delta": 2
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Cotton Bowl",
+    "city": "Dallas",
+    "state": "Texas",
+    "attendance": 58720
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 46105,
+    "winner": {
+     "place": 3,
+     "team": "Touchdown();",
+     "manager": "whitaker"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Henne's Epic Stache",
+     "manager": "Ryan"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Estadio Chivas",
+    "city": "Guadalajara",
+    "state": "Mexico",
+    "attendance": 49850,
+    "winner": {
+     "place": 9,
+     "team": "(ノಠ益ಠ)ノ彡┻━┻",
+     "manager": "pb"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "A Moderate Breakfast",
+     "manager": "David Laskey"
+    }
+   }
+  },
+  "2015": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Magnetron",
+     "manager": "Jay",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "People's Army Team",
+     "manager": "pb",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Benny Football",
+     "manager": "Benedict",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Jay Division",
+     "team": "Benny Football",
+     "manager": "Benedict",
+     "overall_wlt": "9-4-0",
+     "division_wlt": "7-2-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "The Jay Division",
+     "team": "Magnetron",
+     "manager": "Jay",
+     "overall_wlt": "10-3-0",
+     "division_wlt": "6-3-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "The Georgia Dome",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 47766,
+    "winner": {
+     "place": 7,
+     "team": "The Trail of Pears",
+     "manager": "Ryan"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Biscuits",
+     "manager": "Kyle"
+    }
+   },
+   "points_leader": {
+    "team": "Magnetron",
+    "manager": "Jay",
+    "pf": 1719.12,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Jay Division": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Benny Football",
+       "manager": "Benedict",
+       "division_wlt": "7-2-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Bricing The Kicker",
+       "manager": "Brice",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "MORE LIKE BADELL",
+       "manager": "Carter",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "The Trail of Pears",
+       "manager": "Ryan",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Biscuits",
+       "manager": "Kyle",
+       "division_wlt": "3-6-0",
+       "overall_wlt": "3-10-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "2-7-0",
+       "overall_wlt": "5-8-0"
+      }
+     ]
+    },
+    "The Jay Division": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Magnetron",
+       "manager": "Jay",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "10-3-0"
+      },
+      {
+       "team": "People's Army Team",
+       "manager": "pb",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "AMERICA",
+       "manager": "Dylan Snyder",
+       "division_wlt": "3-6-0",
+       "overall_wlt": "4-9-0"
+      },
+      {
+       "team": "Touchdown();",
+       "manager": "whitaker",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Dat VFL",
+       "manager": "Sara",
+       "division_wlt": "2-7-0",
+       "overall_wlt": "3-10-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Magnetron",
+     "manager": "Jay",
+     "projected_rank": 1,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 1,
+     "delta": 0
+    },
+    {
+     "team": "The Trail of Pears",
+     "manager": "Ryan",
+     "projected_rank": 2,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 7,
+     "delta": -5
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 3,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 4,
+     "delta": -1
+    },
+    {
+     "team": "Dat VFL",
+     "manager": "Sara",
+     "projected_rank": 4,
+     "projected_wlt": "8-5-0",
+     "actual_rank": 12,
+     "delta": -8
+    },
+    {
+     "team": "MORE LIKE BADELL",
+     "manager": "Carter",
+     "projected_rank": 5,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 6,
+     "delta": -1
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 6,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 11,
+     "delta": -5
+    },
+    {
+     "team": "Bricing The Kicker",
+     "manager": "Brice",
+     "projected_rank": 7,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 5,
+     "delta": 2
+    },
+    {
+     "team": "People's Army Team",
+     "manager": "pb",
+     "projected_rank": 8,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 2,
+     "delta": 6
+    },
+    {
+     "team": "Benny Football",
+     "manager": "Benedict",
+     "projected_rank": 9,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 3,
+     "delta": 6
+    },
+    {
+     "team": "Touchdown();",
+     "manager": "whitaker",
+     "projected_rank": 10,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 10,
+     "delta": 0
+    },
+    {
+     "team": "Biscuits",
+     "manager": "Kyle",
+     "projected_rank": 11,
+     "projected_wlt": "3-10-0",
+     "actual_rank": 8,
+     "delta": 3
+    },
+    {
+     "team": "AMERICA",
+     "manager": "Dylan Snyder",
+     "projected_rank": 12,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 9,
+     "delta": 3
+    }
+   ],
+   "division_winner_notes": "Jay Division tie 9-4 Benny vs MORE LIKE BADELL; Benny wins div record 7-2 vs 6-3 and holds seed 3 vs 6",
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Mercedes-Benz Superdome",
+    "city": "New Orleans",
+    "state": "Louisiana",
+    "attendance": 67400
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 51887,
+    "winner": {
+     "place": 3,
+     "team": "Benny Football",
+     "manager": "Benedict"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Qadisiyah Airbase",
+    "city": "Al-Anbar",
+    "state": "Iraq",
+    "attendance": 8078,
+    "winner": {
+     "place": 9,
+     "team": "AMERICA",
+     "manager": "Dylan Snyder"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Touchdown();",
+     "manager": "whitaker"
+    }
+   }
+  },
+  "2016": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "Monchhichis",
+     "manager": "Kyle",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Bricing The Kicker",
+     "manager": "Brice",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "FumbleSeed",
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "overall_wlt": "9-4-0",
+     "division_wlt": "5-4-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Still The Jay Division",
+     "team": "Monchhichis",
+     "manager": "Kyle",
+     "overall_wlt": "8-5-0",
+     "division_wlt": "6-3-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "The Georgia Dome",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 53400,
+    "winner": {
+     "place": 7,
+     "team": "AMERICA",
+     "manager": "Dylan Snyder"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "SEC Speed",
+     "manager": "pb"
+    }
+   },
+   "points_leader": {
+    "team": "Bricing The Kicker",
+    "manager": "Brice",
+    "pf": 1675.7,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "FumbleSeed": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Bricing The Kicker",
+       "manager": "Brice",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Tannehill For Prison",
+       "manager": "Carter",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Benny Football",
+       "manager": "Benedict",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Dat VFL",
+       "manager": "Sara",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "2-7-0",
+       "overall_wlt": "3-10-0"
+      }
+     ]
+    },
+    "Still The Jay Division": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Monchhichis",
+       "manager": "Kyle",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Magnetron",
+       "manager": "Jay",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "AMERICA",
+       "manager": "Dylan Snyder",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "SEC Speed",
+       "manager": "pb",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Touchdown();",
+       "manager": "whitaker",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "Glaine Blabbert",
+       "manager": "Ryan",
+       "division_wlt": "3-6-0",
+       "overall_wlt": "5-8-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Bricing The Kicker",
+     "manager": "Brice",
+     "projected_rank": 1,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 3,
+     "delta": -2
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 2,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 1,
+     "delta": 1
+    },
+    {
+     "team": "Tannehill For Prison",
+     "manager": "Carter",
+     "projected_rank": 3,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 5,
+     "delta": -2
+    },
+    {
+     "team": "AMERICA",
+     "manager": "Dylan Snyder",
+     "projected_rank": 4,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 7,
+     "delta": -3
+    },
+    {
+     "team": "Glaine Blabbert",
+     "manager": "Ryan",
+     "projected_rank": 5,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 12,
+     "delta": -7
+    },
+    {
+     "team": "Magnetron",
+     "manager": "Jay",
+     "projected_rank": 6,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 4,
+     "delta": 2
+    },
+    {
+     "team": "Dat VFL",
+     "manager": "Sara",
+     "projected_rank": 7,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 9,
+     "delta": -2
+    },
+    {
+     "team": "Monchhichis",
+     "manager": "Kyle",
+     "projected_rank": 8,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 2,
+     "delta": 6
+    },
+    {
+     "team": "Benny Football",
+     "manager": "Benedict",
+     "projected_rank": 9,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 6,
+     "delta": 3
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 10,
+     "projected_wlt": "4-9-0",
+     "actual_rank": 10,
+     "delta": 0
+    },
+    {
+     "team": "SEC Speed",
+     "manager": "pb",
+     "projected_rank": 11,
+     "projected_wlt": "3-10-0",
+     "actual_rank": 8,
+     "delta": 3
+    },
+    {
+     "team": "Touchdown();",
+     "manager": "whitaker",
+     "projected_rank": 12,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 11,
+     "delta": 1
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Lambeau Field",
+    "city": "Green Bay",
+    "state": "Wisconsin",
+    "attendance": 74890
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 43219,
+    "winner": {
+     "place": 3,
+     "team": "Bricing The Kicker",
+     "manager": "Brice"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Magnetron",
+     "manager": "Jay"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Baikonur Cosmodrome",
+    "city": "Jezkazgan",
+    "state": "Kazakhstan",
+    "attendance": 28,
+    "winner": {
+     "place": 9,
+     "team": "Dat VFL",
+     "manager": "Sara"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy"
+    }
+   }
+  },
+  "2017": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Magnetron",
+     "manager": "Jay",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Goffsides",
+     "manager": "Zac",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Skull Squadron",
+     "team": "Spicy Meatballs",
+     "manager": "Kelly Brown",
+     "overall_wlt": "7-6-0",
+     "division_wlt": "7-4-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Division By Zero",
+     "team": "Goffsides",
+     "manager": "Zac",
+     "overall_wlt": "12-1-0",
+     "division_wlt": "11-1-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 59100,
+    "winner": {
+     "place": 7,
+     "team": "Good King Wentzeslas",
+     "manager": "Ryan"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Bricing The Kicker",
+     "manager": "Brice"
+    }
+   },
+   "points_leader": {
+    "team": "Goffsides",
+    "manager": "Zac",
+    "pf": 1571.86,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Skull Squadron": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Spicy Meatballs",
+       "manager": "Kelly Brown",
+       "division_wlt": "7-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Bortles' Burgers",
+       "manager": "Carter",
+       "division_wlt": "7-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Good King Wentzeslas",
+       "manager": "Ryan",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Bricing The Kicker",
+       "manager": "Brice",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "GaroppoGOAT",
+       "manager": "Benedict",
+       "division_wlt": "4-7-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "Monchhichis",
+       "manager": "Kyle",
+       "division_wlt": "6-6-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "5-8-0"
+      }
+     ]
+    },
+    "Division By Zero": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Magnetron",
+       "manager": "Jay",
+       "division_wlt": "6-5-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "11-1-0",
+       "overall_wlt": "12-1-0"
+      },
+      {
+       "team": "Fourth Downers",
+       "manager": "whitaker",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Super Bolsheviks",
+       "manager": "pb",
+       "division_wlt": "4-7-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "AMERICA",
+       "manager": "Dylan Snyder",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Garopalypse Now",
+       "manager": "Jason",
+       "division_wlt": "3-8-0",
+       "overall_wlt": "4-9-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Bortles' Burgers",
+     "manager": "Carter",
+     "projected_rank": 1,
+     "projected_wlt": "12-1-0",
+     "actual_rank": 5,
+     "delta": -4
+    },
+    {
+     "team": "Spicy Meatballs",
+     "manager": "Kelly Brown",
+     "projected_rank": 2,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 4,
+     "delta": -2
+    },
+    {
+     "team": "Magnetron",
+     "manager": "Jay",
+     "projected_rank": 3,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 1,
+     "delta": 2
+    },
+    {
+     "team": "Fourth Downers",
+     "manager": "whitaker",
+     "projected_rank": 4,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 6,
+     "delta": -2
+    },
+    {
+     "team": "GaroppoGOAT",
+     "manager": "Benedict",
+     "projected_rank": 5,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 9,
+     "delta": -4
+    },
+    {
+     "team": "Super Bolsheviks",
+     "manager": "pb",
+     "projected_rank": 6,
+     "projected_wlt": "8-5-0",
+     "actual_rank": 10,
+     "delta": -4
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 7,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 3,
+     "delta": 4
+    },
+    {
+     "team": "AMERICA",
+     "manager": "Dylan Snyder",
+     "projected_rank": 8,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 12,
+     "delta": -4
+    },
+    {
+     "team": "Bricing The Kicker",
+     "manager": "Brice",
+     "projected_rank": 9,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 8,
+     "delta": 1
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 10,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 13,
+     "delta": -3
+    },
+    {
+     "team": "Monchhichis",
+     "manager": "Kyle",
+     "projected_rank": 11,
+     "projected_wlt": "3-10-0",
+     "actual_rank": 11,
+     "delta": 0
+    },
+    {
+     "team": "Good King Wentzeslas",
+     "manager": "Ryan",
+     "projected_rank": 12,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 7,
+     "delta": 5
+    },
+    {
+     "team": "Garopalypse Now",
+     "manager": "Jason",
+     "projected_rank": 13,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 14,
+     "delta": -1
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 14,
+     "projected_wlt": "0-13-0",
+     "actual_rank": 2,
+     "delta": 12
+    }
+   ],
+   "division_winner_notes": "Skull Squadron 3-way 7-6 tie: Spicy Meatballs confirmed by champ bracket seed 2 (Bortles 6)",
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "AT&T Field",
+    "city": "Arlington",
+    "state": "Texas",
+    "attendance": 71200
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 49563,
+    "winner": {
+     "place": 3,
+     "team": "Goffsides",
+     "manager": "Zac"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Spicy Meatballs",
+     "manager": "Kelly Brown"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Cathy Parker Field",
+    "city": "Utqiaġvik",
+    "state": "Alaska",
+    "attendance": "41 Vehicles",
+    "winner": {
+     "place": 9,
+     "team": "GaroppoGOAT",
+     "manager": "Benedict"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Super Bolsheviks",
+     "manager": "pb"
+    }
+   }
+  },
+  "2018": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Vontaze Benedict",
+     "manager": "Benedict",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "Bortles' Burgers",
+     "manager": "Carter",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Vike and Subscribe",
+     "manager": "Ryan",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Skull Squadron",
+     "team": "Bortles' Burgers",
+     "manager": "Carter",
+     "overall_wlt": "9-4-0",
+     "division_wlt": "7-4-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Division By Zero",
+     "team": "Vontaze Benedict",
+     "manager": "Benedict",
+     "overall_wlt": "9-4-0",
+     "division_wlt": "8-3-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 62700,
+    "winner": {
+     "place": 7,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Garopalypse Now",
+     "manager": "Jason"
+    }
+   },
+   "points_leader": {
+    "team": "Vontaze Benedict",
+    "manager": "Benedict",
+    "pf": 1670.5,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Skull Squadron": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Bortles' Burgers",
+       "manager": "Carter",
+       "division_wlt": "7-4-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Magnetron",
+       "manager": "Jay",
+       "division_wlt": "6-5-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "7-5-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Garopalypse Now",
+       "manager": "Jason",
+       "division_wlt": "6-5-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Spicy Meatballs",
+       "manager": "Kelly Brown",
+       "division_wlt": "4-7-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "6-7-0"
+      },
+      {
+       "team": "Bricing The Kicker",
+       "manager": "Brice",
+       "division_wlt": "4-7-0",
+       "overall_wlt": "4-9-0"
+      }
+     ]
+    },
+    "Division By Zero": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Vontaze Benedict",
+       "manager": "Benedict",
+       "division_wlt": "8-3-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Vike and Subscribe",
+       "manager": "Ryan",
+       "division_wlt": "7-4-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Fourth Downers",
+       "manager": "whitaker",
+       "division_wlt": "7-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "6-6-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Super Bolsheviks",
+       "manager": "pb",
+       "division_wlt": "5-6-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "Monchhichis",
+       "manager": "Kyle",
+       "division_wlt": "4-7-0",
+       "overall_wlt": "4-9-0"
+      },
+      {
+       "team": "lightning mackqueen",
+       "manager": "becca",
+       "division_wlt": "2-9-0",
+       "overall_wlt": "4-9-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Magnetron",
+     "manager": "Jay",
+     "projected_rank": 1,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 4,
+     "delta": -3
+    },
+    {
+     "team": "Monchhichis",
+     "manager": "Kyle",
+     "projected_rank": 2,
+     "projected_wlt": "10-3-0",
+     "actual_rank": 12,
+     "delta": -10
+    },
+    {
+     "team": "Bricing The Kicker",
+     "manager": "Brice",
+     "projected_rank": 3,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 14,
+     "delta": -11
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 4,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 7,
+     "delta": -3
+    },
+    {
+     "team": "lightning mackqueen",
+     "manager": "becca",
+     "projected_rank": 5,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 13,
+     "delta": -8
+    },
+    {
+     "team": "Bortles' Burgers",
+     "manager": "Carter",
+     "projected_rank": 6,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 2,
+     "delta": 4
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 7,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 6,
+     "delta": 1
+    },
+    {
+     "team": "Vontaze Benedict",
+     "manager": "Benedict",
+     "projected_rank": 8,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 1,
+     "delta": 7
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 9,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 11,
+     "delta": -2
+    },
+    {
+     "team": "Vike and Subscribe",
+     "manager": "Ryan",
+     "projected_rank": 10,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 3,
+     "delta": 7
+    },
+    {
+     "team": "Fourth Downers",
+     "manager": "whitaker",
+     "projected_rank": 11,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 5,
+     "delta": 6
+    },
+    {
+     "team": "Garopalypse Now",
+     "manager": "Jason",
+     "projected_rank": 12,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 8,
+     "delta": 4
+    },
+    {
+     "team": "Spicy Meatballs",
+     "manager": "Kelly Brown",
+     "projected_rank": 13,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 10,
+     "delta": 3
+    },
+    {
+     "team": "Super Bolsheviks",
+     "manager": "pb",
+     "projected_rank": 14,
+     "projected_wlt": "1-12-0",
+     "actual_rank": 9,
+     "delta": 5
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara",
+    "state": "California",
+    "attendance": 56430
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 52000,
+    "winner": {
+     "place": 3,
+     "team": "Vike and Subscribe",
+     "manager": "Ryan"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Magnetron",
+     "manager": "Jay"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Superior Dome",
+    "city": "Marquette",
+    "state": "Michigan",
+    "attendance": 7569,
+    "winner": {
+     "place": 9,
+     "team": "Super Bolsheviks",
+     "manager": "pb"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Spicy Meatballs",
+     "manager": "Kelly Brown"
+    }
+   }
+  },
+  "2019": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Goffsides",
+     "manager": "Zac",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "H U B R I S",
+     "manager": "pb",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Cash Carter McCarron",
+     "manager": "Carter",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Hnnnnng",
+     "team": "Goffsides",
+     "manager": "Zac",
+     "overall_wlt": "8-5-0",
+     "division_wlt": "6-3-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "uo!s!ʌ!p",
+     "team": "H U B R I S",
+     "manager": "pb",
+     "overall_wlt": "9-4-0",
+     "division_wlt": "6-3-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 64500,
+    "winner": {
+     "place": 7,
+     "team": "The Fumblers",
+     "manager": "Michael"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "On To Cincinnati",
+     "manager": "Jason"
+    }
+   },
+   "points_leader": {
+    "team": "On To Cincinnati",
+    "manager": "Jason",
+    "pf": 1661.16,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Hnnnnng": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Touched By McVayngel",
+       "manager": "Ryan",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "A Well-Designed Hole",
+       "manager": "Jay",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "3-6-0",
+       "overall_wlt": "4-9-0"
+      },
+      {
+       "team": "Coming Up Rosen",
+       "manager": "Brice",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "The Double Doinkers",
+       "manager": "whitaker",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "5-8-0"
+      }
+     ]
+    },
+    "uo!s!ʌ!p": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "H U B R I S",
+       "manager": "pb",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Cash Carter McCarron",
+       "manager": "Carter",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "On To Cincinnati",
+       "manager": "Jason",
+       "division_wlt": "3-6-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "Brady Hosedown",
+       "manager": "Benedict",
+       "division_wlt": "2-7-0",
+       "overall_wlt": "4-9-0"
+      },
+      {
+       "team": "chicken macknuggets",
+       "manager": "becca",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "5-8-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "H U B R I S",
+     "manager": "pb",
+     "projected_rank": 1,
+     "projected_wlt": "12-1-0",
+     "actual_rank": 2,
+     "delta": -1
+    },
+    {
+     "team": "Touched By McVayngel",
+     "manager": "Ryan",
+     "projected_rank": 2,
+     "projected_wlt": "10-3-0",
+     "actual_rank": 4,
+     "delta": -2
+    },
+    {
+     "team": "A Well-Designed Hole",
+     "manager": "Jay",
+     "projected_rank": 3,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 5,
+     "delta": -2
+    },
+    {
+     "team": "chicken macknuggets",
+     "manager": "becca",
+     "projected_rank": 4,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 12,
+     "delta": -8
+    },
+    {
+     "team": "Cash Carter McCarron",
+     "manager": "Carter",
+     "projected_rank": 5,
+     "projected_wlt": "8-5-0",
+     "actual_rank": 3,
+     "delta": 2
+    },
+    {
+     "team": "On To Cincinnati",
+     "manager": "Jason",
+     "projected_rank": 6,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 8,
+     "delta": -2
+    },
+    {
+     "team": "Coming Up Rosen",
+     "manager": "Brice",
+     "projected_rank": 7,
+     "projected_wlt": "7-6-0",
+     "actual_rank": 9,
+     "delta": -2
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 8,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 6,
+     "delta": 2
+    },
+    {
+     "team": "Brady Hosedown",
+     "manager": "Benedict",
+     "projected_rank": 9,
+     "projected_wlt": "4-9-0",
+     "actual_rank": 10,
+     "delta": -1
+    },
+    {
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "projected_rank": 10,
+     "projected_wlt": "4-9-0",
+     "actual_rank": 11,
+     "delta": -1
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 11,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 1,
+     "delta": 10
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 12,
+     "projected_wlt": "1-12-0",
+     "actual_rank": 7,
+     "delta": 5
+    }
+   ],
+   "division_winner_notes": "Hnnnnng tie 8-5 Goffsides vs A Well-Designed Hole; Goffsides wins div record 6-3 vs 5-4 (seed 1)",
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Tottenham Hotspur Stadium",
+    "city": "London",
+    "state": "United Kingdom",
+    "attendance": 53210
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 41338,
+    "winner": {
+     "place": 3,
+     "team": "Cash Carter McCarron",
+     "manager": "Carter"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Touched By McVayngel",
+     "manager": "Ryan"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Rungrado 1st of May Stadium",
+    "city": "Pyongyang",
+    "state": "DPRK",
+    "attendance": 150000,
+    "winner": {
+     "place": 9,
+     "team": "Coming Up Rosen",
+     "manager": "Brice"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Brady Hosedown",
+     "manager": "Benedict"
+    }
+   }
+  },
+  "2020": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "Goffsides",
+     "manager": "Zac",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Takes Tua To Tango",
+     "manager": "Brice",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Presented by Teremana Blanco",
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "overall_wlt": "9-4-0",
+     "division_wlt": "7-2-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "The Denver Boncos",
+     "team": "Goffsides",
+     "manager": "Zac",
+     "overall_wlt": "11-2-0",
+     "division_wlt": "9-0-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Hard Rock Stadium (LMFL Bubble)",
+    "city": "Miami",
+    "state": "Florida",
+    "attendance": 26130,
+    "winner": {
+     "place": 7,
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan"
+    }
+   },
+   "points_leader": {
+    "team": "Tommy's Turbos",
+    "manager": "Tommy",
+    "pf": 1697.76,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Presented by Teremana Blanco": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "7-2-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "Takes Tua To Tango",
+       "manager": "Brice",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Minnesota Lichens",
+       "manager": "pb",
+       "division_wlt": "5-4-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "The Double Doinkers",
+       "manager": "whitaker",
+       "division_wlt": "6-3-0",
+       "overall_wlt": "9-4-0"
+      },
+      {
+       "team": "JonathanTaylorThomas",
+       "manager": "Benedict",
+       "division_wlt": "0-9-0",
+       "overall_wlt": "3-10-0"
+      },
+      {
+       "team": "mack in the ussr",
+       "manager": "becca",
+       "division_wlt": "3-6-0",
+       "overall_wlt": "5-8-0"
+      }
+     ]
+    },
+    "The Denver Boncos": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "9-0-0",
+       "overall_wlt": "11-2-0"
+      },
+      {
+       "team": "Free Cheeseburgers",
+       "manager": "Carter",
+       "division_wlt": "7-2-0",
+       "overall_wlt": "8-5-0"
+      },
+      {
+       "team": "Clyde Edwards Eclair",
+       "manager": "Jason",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "5-8-0"
+      },
+      {
+       "team": "A Tale of Trubisky's",
+       "manager": "Ryan",
+       "division_wlt": "4-5-0",
+       "overall_wlt": "7-6-0"
+      },
+      {
+       "team": "A Well-Designed Hole",
+       "manager": "Jay",
+       "division_wlt": "2-7-0",
+       "overall_wlt": "3-10-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "1-8-0",
+       "overall_wlt": "2-11-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Free Cheeseburgers",
+     "manager": "Carter",
+     "projected_rank": 1,
+     "projected_wlt": "13-0-0",
+     "actual_rank": 4,
+     "delta": -3
+    },
+    {
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "projected_rank": 2,
+     "projected_wlt": "11-2-0",
+     "actual_rank": 6,
+     "delta": -4
+    },
+    {
+     "team": "mack in the ussr",
+     "manager": "becca",
+     "projected_rank": 3,
+     "projected_wlt": "9-4-0",
+     "actual_rank": 12,
+     "delta": -9
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 4,
+     "projected_wlt": "8-5-0",
+     "actual_rank": 10,
+     "delta": -6
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 5,
+     "projected_wlt": "8-5-0",
+     "actual_rank": 1,
+     "delta": 4
+    },
+    {
+     "team": "A Well-Designed Hole",
+     "manager": "Jay",
+     "projected_rank": 6,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 9,
+     "delta": -3
+    },
+    {
+     "team": "JonathanTaylorThomas",
+     "manager": "Benedict",
+     "projected_rank": 7,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 11,
+     "delta": -4
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 8,
+     "projected_wlt": "6-7-0",
+     "actual_rank": 2,
+     "delta": 6
+    },
+    {
+     "team": "Takes Tua To Tango",
+     "manager": "Brice",
+     "projected_rank": 9,
+     "projected_wlt": "5-8-0",
+     "actual_rank": 3,
+     "delta": 6
+    },
+    {
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan",
+     "projected_rank": 10,
+     "projected_wlt": "3-10-0",
+     "actual_rank": 8,
+     "delta": 2
+    },
+    {
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "projected_rank": 11,
+     "projected_wlt": "2-11-0",
+     "actual_rank": 7,
+     "delta": 4
+    },
+    {
+     "team": "Minnesota Lichens",
+     "manager": "pb",
+     "projected_rank": 12,
+     "projected_wlt": "1-12-0",
+     "actual_rank": 5,
+     "delta": 7
+    }
+   ],
+   "division_winner_notes": "Blanco tie 9-4 Tommy's vs Double Doinkers; Tommy's wins div record 7-2 vs 6-3 (seed 1)",
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Hard Rock Stadium (LMFL Bubble)",
+    "city": "Miami",
+    "state": "Florida",
+    "attendance": 26130
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Hard Rock Stadium (LMFL Bubble)",
+    "city": "Miami",
+    "state": "Florida",
+    "attendance": 26130,
+    "winner": {
+     "place": 3,
+     "team": "Takes Tua To Tango",
+     "manager": "Brice"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Free Cheeseburgers",
+     "manager": "Carter"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Hard Rock Stadium (LMFL Bubble)",
+    "city": "Miami",
+    "state": "Florida",
+    "attendance": 26130,
+    "winner": {
+     "place": 9,
+     "team": "A Well-Designed Hole",
+     "manager": "Jay"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "The Fumblers",
+     "manager": "Michael"
+    }
+   }
+  },
+  "2021": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Goffsides",
+     "manager": "Zac",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "No",
+     "manager": "Jay",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Presented by Teremana Blanco",
+     "team": "Takes Tua To Tango",
+     "manager": "Brice",
+     "overall_wlt": "10-4-0",
+     "division_wlt": "8-2-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Jerry Jones' Salted McGriddle",
+     "team": "Goffsides",
+     "manager": "Zac",
+     "overall_wlt": "10-4-0",
+     "division_wlt": "7-3-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 55000,
+    "winner": {
+     "place": 7,
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "The Fumblers",
+     "manager": "Michael"
+    }
+   },
+   "points_leader": {
+    "team": "The Double Doinkers",
+    "manager": "whitaker",
+    "pf": 1814.74,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Presented by Teremana Blanco": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "No",
+       "manager": "Jay",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "9-5-0"
+      },
+      {
+       "team": "Takes Tua To Tango",
+       "manager": "Brice",
+       "division_wlt": "8-2-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "Certified Toyota Siena Owner",
+       "manager": "pb",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "7-7-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "1996 Toyota Avalon",
+       "manager": "Carter",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "5-9-0"
+      },
+      {
+       "team": "TuckRuleEverlasting",
+       "manager": "Aboubacar",
+       "division_wlt": "2-8-0",
+       "overall_wlt": "4-10-0"
+      }
+     ]
+    },
+    "Jerry Jones' Salted McGriddle": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "The Double Doinkers",
+       "manager": "whitaker",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "big stinky football man",
+       "manager": "becca",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "7-7-0"
+      },
+      {
+       "team": "A Tale of Trubisky's",
+       "manager": "Ryan",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "Clyde Edwards Eclair",
+       "manager": "Jason",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Certified Toyota Siena Owner",
+     "manager": "pb",
+     "projected_rank": 1,
+     "projected_wlt": "12-2-0",
+     "actual_rank": 6,
+     "delta": -5
+    },
+    {
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan",
+     "projected_rank": 2,
+     "projected_wlt": "12-2-0",
+     "actual_rank": 7,
+     "delta": -5
+    },
+    {
+     "team": "1996 Toyota Avalon",
+     "manager": "Carter",
+     "projected_rank": 3,
+     "projected_wlt": "11-3-0",
+     "actual_rank": 11,
+     "delta": -8
+    },
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 4,
+     "projected_wlt": "10-4-0",
+     "actual_rank": 9,
+     "delta": -5
+    },
+    {
+     "team": "Takes Tua To Tango",
+     "manager": "Brice",
+     "projected_rank": 5,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 4,
+     "delta": 1
+    },
+    {
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "projected_rank": 6,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 3,
+     "delta": 3
+    },
+    {
+     "team": "No",
+     "manager": "Jay",
+     "projected_rank": 7,
+     "projected_wlt": "6-8-0",
+     "actual_rank": 2,
+     "delta": 5
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 8,
+     "projected_wlt": "5-9-0",
+     "actual_rank": 1,
+     "delta": 7
+    },
+    {
+     "team": "big stinky football man",
+     "manager": "becca",
+     "projected_rank": 9,
+     "projected_wlt": "4-10-0",
+     "actual_rank": 5,
+     "delta": 4
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 10,
+     "projected_wlt": "4-10-0",
+     "actual_rank": 8,
+     "delta": 2
+    },
+    {
+     "team": "TuckRuleEverlasting",
+     "manager": "Aboubacar",
+     "projected_rank": 11,
+     "projected_wlt": "2-12-0",
+     "actual_rank": 12,
+     "delta": -1
+    },
+    {
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "projected_rank": 12,
+     "projected_wlt": "2-12-0",
+     "actual_rank": 10,
+     "delta": 2
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "SoFi Stadium",
+    "city": "Los Angeles",
+    "state": "California",
+    "attendance": 61850
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Camping World Stadium",
+    "city": "Orlando",
+    "state": "Florida",
+    "attendance": 65438,
+    "winner": {
+     "place": 3,
+     "team": "The Double Doinkers",
+     "manager": "whitaker"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Takes Tua To Tango",
+     "manager": "Brice"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "North Sentinel Island",
+    "city": "Andaman & Nicobar Islands",
+    "state": "India",
+    "attendance": "1 Fatality",
+    "winner": {
+     "place": 9,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason"
+    }
+   }
+  },
+  "2022": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Amon-Ra St. Patrick Brown",
+     "manager": "Carter",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Presented by Teremana Blanco",
+     "team": "Amon-Ra St. Patrick Brown",
+     "manager": "Carter",
+     "overall_wlt": "10-4-0",
+     "division_wlt": "9-1-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Jerry Jones' Salted McGriddle",
+     "team": "chubb a dub dub",
+     "manager": "becca",
+     "overall_wlt": "11-3-0",
+     "division_wlt": "9-1-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 66300,
+    "winner": {
+     "place": 7,
+     "team": "The Double Doinkers",
+     "manager": "whitaker"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "America's Next Top Waddle",
+     "manager": "Brice"
+    }
+   },
+   "points_leader": {
+    "team": "Clyde Edwards Eclair",
+    "manager": "Jason",
+    "pf": 1720.84,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Presented by Teremana Blanco": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Amon-Ra St. Patrick Brown",
+       "manager": "Carter",
+       "division_wlt": "9-1-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "Katatonic",
+       "manager": "Kat",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "9-5-0"
+      },
+      {
+       "team": "America's Next Top Waddle",
+       "manager": "Brice",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "Etienne Ass",
+       "manager": "pb",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "5-9-0"
+      },
+      {
+       "team": "No",
+       "manager": "Jay",
+       "division_wlt": "1-9-0",
+       "overall_wlt": "2-12-0"
+      }
+     ]
+    },
+    "Jerry Jones' Salted McGriddle": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Clyde Edwards Eclair",
+       "manager": "Jason",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Tommy's Turbos",
+       "manager": "Tommy",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "chubb a dub dub",
+       "manager": "becca",
+       "division_wlt": "9-1-0",
+       "overall_wlt": "11-3-0"
+      },
+      {
+       "team": "The Double Doinkers",
+       "manager": "whitaker",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "A Tale of Trubisky's",
+       "manager": "Ryan",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "5-9-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Tommy's Turbos",
+     "manager": "Tommy",
+     "projected_rank": 1,
+     "projected_wlt": "12-2-0",
+     "actual_rank": 3,
+     "delta": -2
+    },
+    {
+     "team": "America's Next Top Waddle",
+     "manager": "Brice",
+     "projected_rank": 2,
+     "projected_wlt": "11-3-0",
+     "actual_rank": 8,
+     "delta": -6
+    },
+    {
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan",
+     "projected_rank": 3,
+     "projected_wlt": "11-3-0",
+     "actual_rank": 9,
+     "delta": -6
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 4,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 10,
+     "delta": -6
+    },
+    {
+     "team": "Etienne Ass",
+     "manager": "pb",
+     "projected_rank": 5,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 11,
+     "delta": -6
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 6,
+     "projected_wlt": "7-7-0",
+     "actual_rank": 6,
+     "delta": 0
+    },
+    {
+     "team": "Amon-Ra St. Patrick Brown",
+     "manager": "Carter",
+     "projected_rank": 7,
+     "projected_wlt": "7-7-0",
+     "actual_rank": 1,
+     "delta": 6
+    },
+    {
+     "team": "Katatonic",
+     "manager": "Kat",
+     "projected_rank": 8,
+     "projected_wlt": "6-8-0",
+     "actual_rank": 5,
+     "delta": 3
+    },
+    {
+     "team": "chubb a dub dub",
+     "manager": "becca",
+     "projected_rank": 9,
+     "projected_wlt": "5-9-0",
+     "actual_rank": 4,
+     "delta": 5
+    },
+    {
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "projected_rank": 10,
+     "projected_wlt": "5-9-0",
+     "actual_rank": 7,
+     "delta": 3
+    },
+    {
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "projected_rank": 11,
+     "projected_wlt": "4-10-0",
+     "actual_rank": 2,
+     "delta": 9
+    },
+    {
+     "team": "No",
+     "manager": "Jay",
+     "projected_rank": 12,
+     "projected_wlt": "0-14-0",
+     "actual_rank": 12,
+     "delta": 0
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "Texas Motor Speedway",
+    "city": "Fort Worth",
+    "state": "Texas",
+    "attendance": 104700
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Raymond James Stadium",
+    "city": "Tampa",
+    "state": "Florida",
+    "attendance": 74023,
+    "winner": {
+     "place": 3,
+     "team": "Tommy's Turbos",
+     "manager": "Tommy"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "chubb a dub dub",
+     "manager": "becca"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Avanhard Stadium",
+    "city": "Prypiat",
+    "state": "Ukraine",
+    "attendance": 0,
+    "winner": {
+     "place": 9,
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Goffsides",
+     "manager": "Zac"
+    }
+   }
+  },
+  "2023": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Tu-jitsu",
+     "manager": "Brice",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Jaylen Waddle Dee",
+     "manager": "Carter",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Presented by Teremana Blanco",
+     "team": "Jaylen Waddle Dee",
+     "manager": "Carter",
+     "overall_wlt": "9-5-0",
+     "division_wlt": "7-3-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Jerry Jones' Salted McGriddle",
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "overall_wlt": "11-3-0",
+     "division_wlt": "8-2-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 68900,
+    "winner": {
+     "place": 7,
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan"
+    }
+   },
+   "points_leader": {
+    "team": "Jaylen Waddle Dee",
+    "manager": "Carter",
+    "pf": 1695.08,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Presented by Teremana Blanco": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Tu-jitsu",
+       "manager": "Brice",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "9-5-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Jaylen Waddle Dee",
+       "manager": "Carter",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "9-5-0"
+      },
+      {
+       "team": "Nacua Matata",
+       "manager": "pb",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Katatonic",
+       "manager": "Kat",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Wheel-burrow Fire",
+       "manager": "Kevin",
+       "division_wlt": "1-9-0",
+       "overall_wlt": "2-12-0"
+      }
+     ]
+    },
+    "Jerry Jones' Salted McGriddle": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "The Double Doinkers",
+       "manager": "whitaker",
+       "division_wlt": "8-2-0",
+       "overall_wlt": "11-3-0"
+      },
+      {
+       "team": "Koo-nosha Kickers",
+       "manager": "Tommy",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "Clyde Edwards Eclair",
+       "manager": "Jason",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "5-9-0"
+      },
+      {
+       "team": "A Tale of Trubisky's",
+       "manager": "Ryan",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "7-7-0"
+      },
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "5-9-0"
+      },
+      {
+       "team": "chubb a dub dub",
+       "manager": "becca",
+       "division_wlt": "1-9-0",
+       "overall_wlt": "2-12-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "A Tale of Trubisky's",
+     "manager": "Ryan",
+     "projected_rank": 1,
+     "projected_wlt": "10-4-0",
+     "actual_rank": 8,
+     "delta": -7
+    },
+    {
+     "team": "The Double Doinkers",
+     "manager": "whitaker",
+     "projected_rank": 2,
+     "projected_wlt": "9-5-0",
+     "actual_rank": 4,
+     "delta": -2
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 3,
+     "projected_wlt": "9-5-0",
+     "actual_rank": 9,
+     "delta": -6
+    },
+    {
+     "team": "Wheel-burrow Fire",
+     "manager": "Kevin",
+     "projected_rank": 4,
+     "projected_wlt": "9-5-0",
+     "actual_rank": 12,
+     "delta": -8
+    },
+    {
+     "team": "Tu-jitsu",
+     "manager": "Brice",
+     "projected_rank": 5,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 1,
+     "delta": 4
+    },
+    {
+     "team": "Katatonic",
+     "manager": "Kat",
+     "projected_rank": 6,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 10,
+     "delta": -4
+    },
+    {
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "projected_rank": 7,
+     "projected_wlt": "7-7-0",
+     "actual_rank": 7,
+     "delta": 0
+    },
+    {
+     "team": "Jaylen Waddle Dee",
+     "manager": "Carter",
+     "projected_rank": 8,
+     "projected_wlt": "7-7-0",
+     "actual_rank": 3,
+     "delta": 5
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 9,
+     "projected_wlt": "7-7-0",
+     "actual_rank": 2,
+     "delta": 7
+    },
+    {
+     "team": "Koo-nosha Kickers",
+     "manager": "Tommy",
+     "projected_rank": 10,
+     "projected_wlt": "4-10-0",
+     "actual_rank": 6,
+     "delta": 4
+    },
+    {
+     "team": "chubb a dub dub",
+     "manager": "becca",
+     "projected_rank": 11,
+     "projected_wlt": "3-11-0",
+     "actual_rank": 11,
+     "delta": 0
+    },
+    {
+     "team": "Nacua Matata",
+     "manager": "pb",
+     "projected_rank": 12,
+     "projected_wlt": "3-11-0",
+     "actual_rank": 5,
+     "delta": 7
+    }
+   ],
+   "division_winner_notes": "Blanco tie 9-5: JWD over Tu-jitsu — confirmed by champ bracket seeds (JWD 2, Tu-jitsu 4)",
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "National Stadium",
+    "city": "Kallang",
+    "state": "Singapore",
+    "attendance": 55000
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 35691,
+    "winner": {
+     "place": 3,
+     "team": "Jaylen Waddle Dee",
+     "manager": "Carter"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "The Double Doinkers",
+     "manager": "whitaker"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Waffle House #1706 Parking Lot at 1 AM",
+    "city": "Conway",
+    "state": "South Carolina",
+    "attendance": "97 Arrests",
+    "winner": {
+     "place": 9,
+     "team": "Goffsides",
+     "manager": "Zac"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Katatonic",
+     "manager": "Kat"
+    }
+   }
+  },
+  "2024": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "Koo-nosha Kickers",
+     "manager": "Tommy",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Justin Fields of Dreams",
+     "manager": "Kevin",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Presented by Teremana Blanco",
+     "team": "Justin Fields of Dreams",
+     "manager": "Kevin",
+     "overall_wlt": "10-4-0",
+     "division_wlt": "7-3-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Jerry Jones' Salted McGriddle",
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "overall_wlt": "10-4-0",
+     "division_wlt": "8-2-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 70200,
+    "winner": {
+     "place": 7,
+     "team": "J.T. O'Sulli-win",
+     "manager": "Ryan"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Coming Tuamerica",
+     "manager": "Brice"
+    }
+   },
+   "points_leader": {
+    "team": "Clyde Edwards Eclair",
+    "manager": "Jason",
+    "pf": 1861.22,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Presented by Teremana Blanco": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Justin Fields of Dreams",
+       "manager": "Kevin",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "Jaylen Waddle Dee",
+       "manager": "Carter",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "Certified Toyota Sienna Owner",
+       "manager": "pb",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "9-5-0"
+      },
+      {
+       "team": "Coming Tuamerica",
+       "manager": "Brice",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "5-9-0"
+      },
+      {
+       "team": "Katatonic",
+       "manager": "Kat",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "5-9-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "5-9-0"
+      }
+     ]
+    },
+    "Jerry Jones' Salted McGriddle": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "Koo-nosha Kickers",
+       "manager": "Tommy",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "7-7-0"
+      },
+      {
+       "team": "Clyde Edwards Eclair",
+       "manager": "Jason",
+       "division_wlt": "8-2-0",
+       "overall_wlt": "10-4-0"
+      },
+      {
+       "team": "The Caleb Will-Wins",
+       "manager": "whitaker",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "J.T. O'Sulli-win",
+       "manager": "Ryan",
+       "division_wlt": "2-8-0",
+       "overall_wlt": "4-10-0"
+      },
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "4-10-0"
+      },
+      {
+       "team": "Cult of the Lamb",
+       "manager": "Megan",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "7-7-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "projected_rank": 1,
+     "projected_wlt": "12-2-0",
+     "actual_rank": 2,
+     "delta": -1
+    },
+    {
+     "team": "Jaylen Waddle Dee",
+     "manager": "Carter",
+     "projected_rank": 2,
+     "projected_wlt": "12-2-0",
+     "actual_rank": 5,
+     "delta": -3
+    },
+    {
+     "team": "Certified Toyota Sienna Owner",
+     "manager": "pb",
+     "projected_rank": 3,
+     "projected_wlt": "11-3-0",
+     "actual_rank": 6,
+     "delta": -3
+    },
+    {
+     "team": "Justin Fields of Dreams",
+     "manager": "Kevin",
+     "projected_rank": 4,
+     "projected_wlt": "10-4-0",
+     "actual_rank": 3,
+     "delta": 1
+    },
+    {
+     "team": "Koo-nosha Kickers",
+     "manager": "Tommy",
+     "projected_rank": 5,
+     "projected_wlt": "9-5-0",
+     "actual_rank": 1,
+     "delta": 4
+    },
+    {
+     "team": "Cult of the Lamb",
+     "manager": "Megan",
+     "projected_rank": 6,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 10,
+     "delta": -4
+    },
+    {
+     "team": "J.T. O'Sulli-win",
+     "manager": "Ryan",
+     "projected_rank": 7,
+     "projected_wlt": "6-8-0",
+     "actual_rank": 7,
+     "delta": 0
+    },
+    {
+     "team": "The Caleb Will-Wins",
+     "manager": "whitaker",
+     "projected_rank": 8,
+     "projected_wlt": "5-9-0",
+     "actual_rank": 4,
+     "delta": 4
+    },
+    {
+     "team": "Katatonic",
+     "manager": "Kat",
+     "projected_rank": 9,
+     "projected_wlt": "4-10-0",
+     "actual_rank": 11,
+     "delta": -2
+    },
+    {
+     "team": "Coming Tuamerica",
+     "manager": "Brice",
+     "projected_rank": 10,
+     "projected_wlt": "3-11-0",
+     "actual_rank": 8,
+     "delta": 2
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 11,
+     "projected_wlt": "3-11-0",
+     "actual_rank": 12,
+     "delta": -1
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 12,
+     "projected_wlt": "1-13-0",
+     "actual_rank": 9,
+     "delta": 3
+    }
+   ],
+   "division_winner_notes": "Blanco tie 10-4: JFoD over JWD — confirmed by champ bracket seeds (JFoD 2, JWD 3)",
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "State Farm Stadium",
+    "city": "Glendale",
+    "state": "Arizona",
+    "attendance": 64200
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 47924,
+    "winner": {
+     "place": 3,
+     "team": "Justin Fields of Dreams",
+     "manager": "Kevin"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "The Caleb Will-Wins",
+     "manager": "whitaker"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "McMurdo Station",
+    "city": "Ross Island Ice Shelf",
+    "state": "Antarctica",
+    "attendance": 171,
+    "winner": {
+     "place": 9,
+     "team": "Goffsides",
+     "manager": "Zac"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "Cult of the Lamb",
+     "manager": "Megan"
+    }
+   }
+  },
+  "2025": {
+   "podium": [
+    {
+     "place": 1,
+     "team": "The Princess McBride",
+     "manager": "Kevin",
+     "trophy": "Teremana Añejo"
+    },
+    {
+     "place": 2,
+     "team": "The Kittle Prince",
+     "manager": "Ryan",
+     "trophy": "Teremana Blanco"
+    },
+    {
+     "place": 3,
+     "team": "Tiny Panthers",
+     "manager": "Megan",
+     "trophy": "Han Lue Tokyo Drift Classic"
+    }
+   ],
+   "division_winners": [
+    {
+     "division": "Presented by Teremana Blanco",
+     "team": "Arc the Ladd McConkey",
+     "manager": "Carter",
+     "overall_wlt": "11-3-0",
+     "division_wlt": "7-3-0",
+     "canonical_division": "O'Conner Memorial Division",
+     "trophy": "Brian O'Conner Trophy"
+    },
+    {
+     "division": "Jerry Jones' Salted McGriddle",
+     "team": "Tiny Panthers",
+     "manager": "Megan",
+     "overall_wlt": "11-3-0",
+     "division_wlt": "9-1-0",
+     "canonical_division": "Toretto Family Division",
+     "trophy": "Toretto Family Division Trophy"
+    }
+   ],
+   "consolation_winner": {
+    "name": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+    "final": "7th Place Game",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "attendance": 71400,
+    "winner": {
+     "place": 7,
+     "team": "Tua Fault",
+     "manager": "Brice"
+    },
+    "runner_up": {
+     "place": 8,
+     "team": "Kenosha Kickers",
+     "manager": "Tommy"
+    }
+   },
+   "points_leader": {
+    "team": "Arc the Ladd McConkey",
+    "manager": "Carter",
+    "pf": 1772.4,
+    "award": "Letty Ortiz Award for Excellence in Roster Management"
+   },
+   "divisions": {
+    "Presented by Teremana Blanco": {
+     "canonical_name": "O'Conner Memorial Division",
+     "teams": [
+      {
+       "team": "Arc the Ladd McConkey",
+       "manager": "Carter",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "11-3-0"
+      },
+      {
+       "team": "Clyde Edwards Eclair",
+       "manager": "Jason",
+       "division_wlt": "6-4-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Cocaine Bears",
+       "manager": "Alex",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Tua Fault",
+       "manager": "Brice",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "Goffsides",
+       "manager": "Zac",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "6-8-0"
+      },
+      {
+       "team": "The Caleb Will-Wins",
+       "manager": "whitaker",
+       "division_wlt": "2-8-0",
+       "overall_wlt": "4-10-0"
+      }
+     ]
+    },
+    "Jerry Jones' Salted McGriddle": {
+     "canonical_name": "Toretto Family Division",
+     "teams": [
+      {
+       "team": "The Princess McBride",
+       "manager": "Kevin",
+       "division_wlt": "7-3-0",
+       "overall_wlt": "9-5-0"
+      },
+      {
+       "team": "The Kittle Prince",
+       "manager": "Ryan",
+       "division_wlt": "5-5-0",
+       "overall_wlt": "8-6-0"
+      },
+      {
+       "team": "Tiny Panthers",
+       "manager": "Megan",
+       "division_wlt": "9-1-0",
+       "overall_wlt": "11-3-0"
+      },
+      {
+       "team": "Kenosha Kickers",
+       "manager": "Tommy",
+       "division_wlt": "4-6-0",
+       "overall_wlt": "7-7-0"
+      },
+      {
+       "team": "The Fumblers",
+       "manager": "Michael",
+       "division_wlt": "3-7-0",
+       "overall_wlt": "4-10-0"
+      },
+      {
+       "team": "Who Killed Charbonnet Ramsey?",
+       "manager": "pb",
+       "division_wlt": "2-8-0",
+       "overall_wlt": "2-12-0"
+      }
+     ]
+    }
+   },
+   "projections": [
+    {
+     "team": "Clyde Edwards Eclair",
+     "manager": "Jason",
+     "projected_rank": 1,
+     "projected_wlt": "13-1-0",
+     "actual_rank": 5,
+     "delta": -4
+    },
+    {
+     "team": "Kenosha Kickers",
+     "manager": "Tommy",
+     "projected_rank": 2,
+     "projected_wlt": "11-3-0",
+     "actual_rank": 8,
+     "delta": -6
+    },
+    {
+     "team": "Arc the Ladd McConkey",
+     "manager": "Carter",
+     "projected_rank": 3,
+     "projected_wlt": "10-4-0",
+     "actual_rank": 4,
+     "delta": -1
+    },
+    {
+     "team": "Goffsides",
+     "manager": "Zac",
+     "projected_rank": 4,
+     "projected_wlt": "9-5-0",
+     "actual_rank": 9,
+     "delta": -5
+    },
+    {
+     "team": "The Princess McBride",
+     "manager": "Kevin",
+     "projected_rank": 5,
+     "projected_wlt": "9-5-0",
+     "actual_rank": 1,
+     "delta": 4
+    },
+    {
+     "team": "The Caleb Will-Wins",
+     "manager": "whitaker",
+     "projected_rank": 6,
+     "projected_wlt": "8-6-0",
+     "actual_rank": 10,
+     "delta": -4
+    },
+    {
+     "team": "Tiny Panthers",
+     "manager": "Megan",
+     "projected_rank": 7,
+     "projected_wlt": "6-8-0",
+     "actual_rank": 3,
+     "delta": 4
+    },
+    {
+     "team": "Who Killed Charbonnet Ramsey?",
+     "manager": "pb",
+     "projected_rank": 8,
+     "projected_wlt": "6-8-0",
+     "actual_rank": 12,
+     "delta": -4
+    },
+    {
+     "team": "Cocaine Bears",
+     "manager": "Alex",
+     "projected_rank": 9,
+     "projected_wlt": "5-9-0",
+     "actual_rank": 6,
+     "delta": 3
+    },
+    {
+     "team": "Tua Fault",
+     "manager": "Brice",
+     "projected_rank": 10,
+     "projected_wlt": "4-10-0",
+     "actual_rank": 7,
+     "delta": 3
+    },
+    {
+     "team": "The Kittle Prince",
+     "manager": "Ryan",
+     "projected_rank": 11,
+     "projected_wlt": "2-12-0",
+     "actual_rank": 2,
+     "delta": 9
+    },
+    {
+     "team": "The Fumblers",
+     "manager": "Michael",
+     "projected_rank": 12,
+     "projected_wlt": "1-13-0",
+     "actual_rank": 11,
+     "delta": 1
+    }
+   ],
+   "championship": {
+    "name": "Teremana Tequila Bowl",
+    "venue": "UFC Fight Island - Yas Marina",
+    "city": "Abu Dhabi",
+    "state": "United Arab Emirates",
+    "attendance": 18065
+   },
+   "third_place_game": {
+    "name": "Kumho Tires Tokyo Drift Bowl",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "state": "Japan",
+    "attendance": 51780,
+    "winner": {
+     "place": 3,
+     "team": "Tiny Panthers",
+     "manager": "Megan"
+    },
+    "runner_up": {
+     "place": 4,
+     "team": "Arc the Ladd McConkey",
+     "manager": "Carter"
+    },
+    "trophy": "Han Lue Tokyo Drift Classic"
+   },
+   "ninth_place_game": {
+    "name": "Voltron Global Bowl Hosted by Tyrese Gibson",
+    "final": "9th Place Game",
+    "venue": "Uēkahuna Caldera Rim",
+    "city": "Kīlauea",
+    "state": "Hawaii",
+    "attendance": 0,
+    "winner": {
+     "place": 9,
+     "team": "Goffsides",
+     "manager": "Zac"
+    },
+    "runner_up": {
+     "place": 10,
+     "team": "The Caleb Will-Wins",
+     "manager": "whitaker"
+    }
+   }
+  }
+ },
+ "career": {
+  "Aboubacar": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 1,
+   "proj_avg_delta": -1.0,
+   "proj_beats": 0,
+   "proj_misses": 1,
+   "voltron_titles": 0
+  },
+  "Alex": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 1,
+   "proj_avg_delta": 3.0,
+   "proj_beats": 1,
+   "proj_misses": 0,
+   "voltron_titles": 0
+  },
+  "Benedict": {
+   "championships": 1,
+   "runner_up": 0,
+   "third_place": 2,
+   "consolation_titles": 1,
+   "division_titles": 2,
+   "points_titles": 1,
+   "proj_seasons": 8,
+   "proj_avg_delta": 1.5,
+   "proj_beats": 4,
+   "proj_misses": 3,
+   "voltron_titles": 1
+  },
+  "Brice": {
+   "championships": 1,
+   "runner_up": 0,
+   "third_place": 2,
+   "consolation_titles": 2,
+   "division_titles": 1,
+   "points_titles": 1,
+   "proj_seasons": 13,
+   "proj_avg_delta": -0.46,
+   "proj_beats": 7,
+   "proj_misses": 5,
+   "voltron_titles": 1
+  },
+  "Carter": {
+   "championships": 2,
+   "runner_up": 2,
+   "third_place": 2,
+   "consolation_titles": 0,
+   "division_titles": 5,
+   "points_titles": 2,
+   "proj_seasons": 13,
+   "proj_avg_delta": -0.08,
+   "proj_beats": 6,
+   "proj_misses": 7,
+   "voltron_titles": 0
+  },
+  "Dave Lang": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 1,
+   "proj_seasons": 2,
+   "proj_avg_delta": -1.0,
+   "proj_beats": 0,
+   "proj_misses": 1,
+   "voltron_titles": 0
+  },
+  "David Laskey": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 1,
+   "proj_avg_delta": -2.0,
+   "proj_beats": 0,
+   "proj_misses": 1,
+   "voltron_titles": 0
+  },
+  "Dylan Snyder": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 1,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 5,
+   "proj_avg_delta": -1.2,
+   "proj_beats": 1,
+   "proj_misses": 3,
+   "voltron_titles": 2
+  },
+  "Jason": {
+   "championships": 0,
+   "runner_up": 2,
+   "third_place": 0,
+   "consolation_titles": 2,
+   "division_titles": 1,
+   "points_titles": 3,
+   "proj_seasons": 9,
+   "proj_avg_delta": 1.22,
+   "proj_beats": 4,
+   "proj_misses": 4,
+   "voltron_titles": 0
+  },
+  "Jay": {
+   "championships": 3,
+   "runner_up": 2,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 1,
+   "proj_seasons": 10,
+   "proj_avg_delta": 0.9,
+   "proj_beats": 4,
+   "proj_misses": 3,
+   "voltron_titles": 1
+  },
+  "Kat": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 3,
+   "proj_avg_delta": -1.0,
+   "proj_beats": 1,
+   "proj_misses": 2,
+   "voltron_titles": 0
+  },
+  "Kelly Brown": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 0,
+   "proj_seasons": 3,
+   "proj_avg_delta": 1.0,
+   "proj_beats": 2,
+   "proj_misses": 1,
+   "voltron_titles": 0
+  },
+  "Kevin": {
+   "championships": 1,
+   "runner_up": 0,
+   "third_place": 1,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 0,
+   "proj_seasons": 3,
+   "proj_avg_delta": -1.0,
+   "proj_beats": 2,
+   "proj_misses": 1,
+   "voltron_titles": 0
+  },
+  "Kyle": {
+   "championships": 0,
+   "runner_up": 1,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 0,
+   "proj_seasons": 6,
+   "proj_avg_delta": -1.0,
+   "proj_beats": 2,
+   "proj_misses": 3,
+   "voltron_titles": 0
+  },
+  "Megan": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 1,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 0,
+   "proj_seasons": 2,
+   "proj_avg_delta": 0.0,
+   "proj_beats": 1,
+   "proj_misses": 1,
+   "voltron_titles": 0
+  },
+  "Michael": {
+   "championships": 1,
+   "runner_up": 2,
+   "third_place": 0,
+   "consolation_titles": 1,
+   "division_titles": 1,
+   "points_titles": 1,
+   "proj_seasons": 12,
+   "proj_avg_delta": 1.83,
+   "proj_beats": 7,
+   "proj_misses": 4,
+   "voltron_titles": 0
+  },
+  "Ryan": {
+   "championships": 0,
+   "runner_up": 1,
+   "third_place": 1,
+   "consolation_titles": 4,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 12,
+   "proj_avg_delta": -0.25,
+   "proj_beats": 5,
+   "proj_misses": 6,
+   "voltron_titles": 1
+  },
+  "Sara": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 0,
+   "points_titles": 0,
+   "proj_seasons": 2,
+   "proj_avg_delta": -5.0,
+   "proj_beats": 0,
+   "proj_misses": 2,
+   "voltron_titles": 1
+  },
+  "Tommy": {
+   "championships": 2,
+   "runner_up": 0,
+   "third_place": 1,
+   "consolation_titles": 1,
+   "division_titles": 1,
+   "points_titles": 1,
+   "proj_seasons": 12,
+   "proj_avg_delta": -1.25,
+   "proj_beats": 4,
+   "proj_misses": 7,
+   "voltron_titles": 1
+  },
+  "Zac": {
+   "championships": 2,
+   "runner_up": 1,
+   "third_place": 1,
+   "consolation_titles": 0,
+   "division_titles": 4,
+   "points_titles": 1,
+   "proj_seasons": 9,
+   "proj_avg_delta": 1.56,
+   "proj_beats": 6,
+   "proj_misses": 3,
+   "voltron_titles": 3
+  },
+  "becca": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 0,
+   "proj_seasons": 6,
+   "proj_avg_delta": -2.67,
+   "proj_beats": 2,
+   "proj_misses": 3,
+   "voltron_titles": 0
+  },
+  "pb": {
+   "championships": 0,
+   "runner_up": 2,
+   "third_place": 0,
+   "consolation_titles": 0,
+   "division_titles": 1,
+   "points_titles": 0,
+   "proj_seasons": 12,
+   "proj_avg_delta": 0.08,
+   "proj_beats": 5,
+   "proj_misses": 7,
+   "voltron_titles": 2
+  },
+  "whitaker": {
+   "championships": 0,
+   "runner_up": 0,
+   "third_place": 2,
+   "consolation_titles": 1,
+   "division_titles": 3,
+   "points_titles": 1,
+   "proj_seasons": 13,
+   "proj_avg_delta": -0.08,
+   "proj_beats": 5,
+   "proj_misses": 7,
+   "voltron_titles": 0
+  }
+ },
+ "future_hosts": {
+  "_note": "Announced future venues (2026-2028) and open bids (2029-2032) per 2026-07-18 lore drop",
+  "Teremana Tequila Bowl": {
+   "venues": {
+    "2026": {
+     "venue": "Allegiant Stadium",
+     "city": "Paradise",
+     "state": "Nevada"
+    },
+    "2027": {
+     "venue": "Melbourne Cricket Ground",
+     "city": "Richmond",
+     "state": "Australia"
+    },
+    "2028": {
+     "venue": "NRG Stadium",
+     "city": "Houston",
+     "state": "Texas"
+    }
+   },
+   "bids_2029_2032": [
+    "Madrid",
+    "Ann Arbor",
+    "Rio de Janeiro",
+    "Indianapolis",
+    "Tampa",
+    "Riyadh"
+   ]
+  },
+  "Kumho Tires Tokyo Drift Bowl": {
+   "venues": {
+    "2026": {
+     "venue": "Tokyo Dome",
+     "city": "Tokyo",
+     "state": "Japan"
+    },
+    "2027": {
+     "venue": "Tokyo Dome",
+     "city": "Tokyo",
+     "state": "Japan"
+    },
+    "2028": {
+     "venue": "Tokyo Dome",
+     "city": "Tokyo",
+     "state": "Japan"
+    }
+   }
+  },
+  "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+   "venues": {
+    "2026": {
+     "venue": "Mercedes-Benz Stadium",
+     "city": "Atlanta",
+     "state": "Georgia"
+    },
+    "2027": {
+     "venue": "Mercedes-Benz Stadium",
+     "city": "Atlanta",
+     "state": "Georgia"
+    },
+    "2028": {
+     "venue": "Mercedes-Benz Stadium",
+     "city": "Atlanta",
+     "state": "Georgia"
+    }
+   }
+  },
+  "Voltron Global Bowl Hosted by Tyrese Gibson": {
+   "venues": {
+    "2026": {
+     "venue": "Hammond Central High School",
+     "city": "Hammond",
+     "state": "Indiana"
+    },
+    "2027": {
+     "venue": "Great Pacific Ocean Garbage Patch",
+     "city": "Eastern Gyre",
+     "state": "Pacific Ocean"
+    },
+    "2028": {
+     "venue": "Ilha da Queimada Grande",
+     "city": "Itanhaém",
+     "state": "Brazil"
+    }
+   },
+   "bids_2029_2032": [
+    "Longyearbyen",
+    "Ashgabat",
+    "Challenger Deep",
+    "Bonneville Salt Flats",
+    "The Moon"
+   ]
+  }
+ }
+}

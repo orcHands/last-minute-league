@@ -1,0 +1,10 @@
+{
+  "description": "This interactive dashboard visualizes data insights for data science enthusiasts, offering a user-friendly experience tailored for both desktop and mobile users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

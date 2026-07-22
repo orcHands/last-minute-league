@@ -1,0 +1,479 @@
+{
+ "meta": {
+  "built": "2026-07-21",
+  "metric": "Manager performance by season phase. pts_vs_mean = avg (weekly score - that week's league mean); all_play_pct = share of all same-week manager-scores beaten. Schedule- and era-neutral. Covers all 13 seasons incl. 2020 (needs only fantasy scores, no external data).",
+  "phases": {
+   "early": "weeks 1-4 (~draft quality proxy)",
+   "mid": "weeks 5-14 (mid-season; NOT isolated bye-juggling \u2014 see caveat)",
+   "late": "weeks 15+ (playoff push)"
+  },
+  "caveats": [
+   "early = draft proxy, imperfect (a little early waiver churn)",
+   "mid measures general mid-season scoring, not bye-week juggling specifically",
+   "late samples are thin (2-3 wks/season) \u2014 ranks noisier",
+   "2013 has no early weeks (half-season) + variant scoring"
+  ]
+ },
+ "managers": {
+  "Brice": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": 3.45,
+    "all_play_pct": 52.8
+   },
+   "mid": {
+    "weeks": 124,
+    "seasons": 13,
+    "pts_vs_mean": 4.14,
+    "all_play_pct": 54.6
+   },
+   "late": {
+    "weeks": 25,
+    "seasons": 12,
+    "pts_vs_mean": 6.81,
+    "all_play_pct": 61.6
+   }
+  },
+  "Kyle": {
+   "early": {
+    "weeks": 20,
+    "seasons": 5,
+    "pts_vs_mean": -12.12,
+    "all_play_pct": 33.2
+   },
+   "mid": {
+    "weeks": 56,
+    "seasons": 6,
+    "pts_vs_mean": -7.12,
+    "all_play_pct": 38.8
+   },
+   "late": {
+    "weeks": 9,
+    "seasons": 5,
+    "pts_vs_mean": -5.95,
+    "all_play_pct": 40.5
+   }
+  },
+  "whitaker": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": 1.44,
+    "all_play_pct": 50.4
+   },
+   "mid": {
+    "weeks": 126,
+    "seasons": 13,
+    "pts_vs_mean": 0.03,
+    "all_play_pct": 50.9
+   },
+   "late": {
+    "weeks": 25,
+    "seasons": 13,
+    "pts_vs_mean": -5.56,
+    "all_play_pct": 43.5
+   }
+  },
+  "Benedict": {
+   "early": {
+    "weeks": 28,
+    "seasons": 7,
+    "pts_vs_mean": 0.72,
+    "all_play_pct": 51.5
+   },
+   "mid": {
+    "weeks": 75,
+    "seasons": 8,
+    "pts_vs_mean": -2.01,
+    "all_play_pct": 48.8
+   },
+   "late": {
+    "weeks": 15,
+    "seasons": 8,
+    "pts_vs_mean": 10.7,
+    "all_play_pct": 66.2
+   }
+  },
+  "Dylan Snyder": {
+   "early": {
+    "weeks": 16,
+    "seasons": 4,
+    "pts_vs_mean": -8.48,
+    "all_play_pct": 39.6
+   },
+   "mid": {
+    "weeks": 47,
+    "seasons": 5,
+    "pts_vs_mean": -12.34,
+    "all_play_pct": 36.8
+   },
+   "late": {
+    "weeks": 8,
+    "seasons": 4,
+    "pts_vs_mean": -13.14,
+    "all_play_pct": 32.4
+   }
+  },
+  "Dave Lang": {
+   "early": {
+    "weeks": 4,
+    "seasons": 1,
+    "pts_vs_mean": -9.17,
+    "all_play_pct": 40.4
+   },
+   "mid": {
+    "weeks": 18,
+    "seasons": 2,
+    "pts_vs_mean": 0.6,
+    "all_play_pct": 41.1
+   },
+   "late": {
+    "weeks": 4,
+    "seasons": 2,
+    "pts_vs_mean": -9.82,
+    "all_play_pct": 25.0
+   }
+  },
+  "Carter": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": -0.45,
+    "all_play_pct": 47.0
+   },
+   "mid": {
+    "weeks": 126,
+    "seasons": 13,
+    "pts_vs_mean": 5.75,
+    "all_play_pct": 57.9
+   },
+   "late": {
+    "weeks": 24,
+    "seasons": 13,
+    "pts_vs_mean": 5.72,
+    "all_play_pct": 58.8
+   }
+  },
+  "Jay": {
+   "early": {
+    "weeks": 36,
+    "seasons": 9,
+    "pts_vs_mean": 6.28,
+    "all_play_pct": 59.8
+   },
+   "mid": {
+    "weeks": 97,
+    "seasons": 10,
+    "pts_vs_mean": 6.69,
+    "all_play_pct": 57.6
+   },
+   "late": {
+    "weeks": 21,
+    "seasons": 10,
+    "pts_vs_mean": 11.87,
+    "all_play_pct": 67.2
+   }
+  },
+  "pb": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": -5.81,
+    "all_play_pct": 42.8
+   },
+   "mid": {
+    "weeks": 117,
+    "seasons": 12,
+    "pts_vs_mean": -0.81,
+    "all_play_pct": 48.5
+   },
+   "late": {
+    "weeks": 23,
+    "seasons": 12,
+    "pts_vs_mean": -4.07,
+    "all_play_pct": 43.5
+   }
+  },
+  "Ryan": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": -1.19,
+    "all_play_pct": 51.8
+   },
+   "mid": {
+    "weeks": 117,
+    "seasons": 12,
+    "pts_vs_mean": 0.63,
+    "all_play_pct": 49.5
+   },
+   "late": {
+    "weeks": 27,
+    "seasons": 12,
+    "pts_vs_mean": -0.84,
+    "all_play_pct": 48.1
+   }
+  },
+  "Michael": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": -3.28,
+    "all_play_pct": 44.0
+   },
+   "mid": {
+    "weeks": 119,
+    "seasons": 12,
+    "pts_vs_mean": -2.61,
+    "all_play_pct": 45.0
+   },
+   "late": {
+    "weeks": 23,
+    "seasons": 12,
+    "pts_vs_mean": -1.84,
+    "all_play_pct": 45.0
+   }
+  },
+  "Tommy": {
+   "early": {
+    "weeks": 48,
+    "seasons": 12,
+    "pts_vs_mean": 7.4,
+    "all_play_pct": 60.3
+   },
+   "mid": {
+    "weeks": 117,
+    "seasons": 12,
+    "pts_vs_mean": 0.68,
+    "all_play_pct": 50.3
+   },
+   "late": {
+    "weeks": 22,
+    "seasons": 11,
+    "pts_vs_mean": -2.29,
+    "all_play_pct": 48.5
+   }
+  },
+  "Kelly Brown": {
+   "early": {
+    "weeks": 12,
+    "seasons": 3,
+    "pts_vs_mean": -8.56,
+    "all_play_pct": 39.7
+   },
+   "mid": {
+    "weeks": 29,
+    "seasons": 3,
+    "pts_vs_mean": -0.72,
+    "all_play_pct": 52.3
+   },
+   "late": {
+    "weeks": 5,
+    "seasons": 3,
+    "pts_vs_mean": -8.44,
+    "all_play_pct": 48.9
+   }
+  },
+  "David Laskey": {
+   "early": {
+    "weeks": 4,
+    "seasons": 1,
+    "pts_vs_mean": -15.59,
+    "all_play_pct": 34.6
+   },
+   "mid": {
+    "weeks": 10,
+    "seasons": 1,
+    "pts_vs_mean": -17.19,
+    "all_play_pct": 33.1
+   },
+   "late": {
+    "weeks": 2,
+    "seasons": 1,
+    "pts_vs_mean": -14.29,
+    "all_play_pct": 27.8
+   }
+  },
+  "Sara": {
+   "early": {
+    "weeks": 8,
+    "seasons": 2,
+    "pts_vs_mean": 1.4,
+    "all_play_pct": 54.5
+   },
+   "mid": {
+    "weeks": 19,
+    "seasons": 2,
+    "pts_vs_mean": -2.78,
+    "all_play_pct": 47.3
+   },
+   "late": {
+    "weeks": 3,
+    "seasons": 2,
+    "pts_vs_mean": -17.77,
+    "all_play_pct": 24.1
+   }
+  },
+  "Jason": {
+   "early": {
+    "weeks": 36,
+    "seasons": 9,
+    "pts_vs_mean": 7.02,
+    "all_play_pct": 57.0
+   },
+   "mid": {
+    "weeks": 87,
+    "seasons": 9,
+    "pts_vs_mean": 4.78,
+    "all_play_pct": 56.1
+   },
+   "late": {
+    "weeks": 18,
+    "seasons": 8,
+    "pts_vs_mean": 7.44,
+    "all_play_pct": 60.1
+   }
+  },
+  "Zac": {
+   "early": {
+    "weeks": 36,
+    "seasons": 9,
+    "pts_vs_mean": 4.84,
+    "all_play_pct": 57.5
+   },
+   "mid": {
+    "weeks": 87,
+    "seasons": 9,
+    "pts_vs_mean": -1.31,
+    "all_play_pct": 49.3
+   },
+   "late": {
+    "weeks": 21,
+    "seasons": 9,
+    "pts_vs_mean": 1.82,
+    "all_play_pct": 50.8
+   }
+  },
+  "becca": {
+   "early": {
+    "weeks": 24,
+    "seasons": 6,
+    "pts_vs_mean": -3.34,
+    "all_play_pct": 48.9
+   },
+   "mid": {
+    "weeks": 59,
+    "seasons": 6,
+    "pts_vs_mean": -3.76,
+    "all_play_pct": 47.3
+   },
+   "late": {
+    "weeks": 8,
+    "seasons": 5,
+    "pts_vs_mean": -9.33,
+    "all_play_pct": 38.2
+   }
+  },
+  "Aboubacar": {
+   "early": {
+    "weeks": 4,
+    "seasons": 1,
+    "pts_vs_mean": -9.7,
+    "all_play_pct": 38.6
+   },
+   "mid": {
+    "weeks": 10,
+    "seasons": 1,
+    "pts_vs_mean": -45.14,
+    "all_play_pct": 4.5
+   },
+   "late": {
+    "weeks": 2,
+    "seasons": 1,
+    "pts_vs_mean": -36.39,
+    "all_play_pct": 0.0
+   }
+  },
+  "Kat": {
+   "early": {
+    "weeks": 12,
+    "seasons": 3,
+    "pts_vs_mean": -0.46,
+    "all_play_pct": 50.0
+   },
+   "mid": {
+    "weeks": 30,
+    "seasons": 3,
+    "pts_vs_mean": -5.58,
+    "all_play_pct": 42.7
+   },
+   "late": {
+    "weeks": 6,
+    "seasons": 3,
+    "pts_vs_mean": -20.05,
+    "all_play_pct": 22.2
+   }
+  },
+  "Kevin": {
+   "early": {
+    "weeks": 12,
+    "seasons": 3,
+    "pts_vs_mean": -7.22,
+    "all_play_pct": 43.9
+   },
+   "mid": {
+    "weeks": 30,
+    "seasons": 3,
+    "pts_vs_mean": 1.53,
+    "all_play_pct": 54.5
+   },
+   "late": {
+    "weeks": 7,
+    "seasons": 3,
+    "pts_vs_mean": 9.59,
+    "all_play_pct": 60.7
+   }
+  },
+  "Megan": {
+   "early": {
+    "weeks": 8,
+    "seasons": 2,
+    "pts_vs_mean": 0.25,
+    "all_play_pct": 45.5
+   },
+   "mid": {
+    "weeks": 20,
+    "seasons": 2,
+    "pts_vs_mean": 5.9,
+    "all_play_pct": 55.5
+   },
+   "late": {
+    "weeks": 4,
+    "seasons": 2,
+    "pts_vs_mean": -4.84,
+    "all_play_pct": 38.9
+   }
+  },
+  "Alex": {
+   "early": {
+    "weeks": 4,
+    "seasons": 1,
+    "pts_vs_mean": 7.27,
+    "all_play_pct": 61.4
+   },
+   "mid": {
+    "weeks": 10,
+    "seasons": 1,
+    "pts_vs_mean": 10.01,
+    "all_play_pct": 62.7
+   },
+   "late": {
+    "weeks": 2,
+    "seasons": 1,
+    "pts_vs_mean": 0.28,
+    "all_play_pct": 55.6
+   }
+  }
+ }
+}

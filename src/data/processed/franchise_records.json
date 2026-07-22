@@ -1,0 +1,528 @@
+{
+  "generated": "2026-07-18",
+  "notes": "Aggregated by franchises.json chains from league.json standings + honors.json. Trophy names per league canon (Teremana Tequila Bowl podium, Brian O'Conner / Toretto Family division trophies, Han Lue Tokyo Drift Classic consolation, Letty Ortiz points award). 2013 is a half season (week 7 start, 8 teams) and 2020 is the COVID season \u2014 both carry the league's standard asterisk. Ring plaque counts include Josh Gordon's league-lore induction (Ryan franchise).",
+  "franchises": [
+    {
+      "id": "jay",
+      "label": "Jay \u2192 Kevin",
+      "status": "active",
+      "seasons": 13,
+      "games": 169,
+      "w": 85,
+      "l": 84,
+      "t": 0,
+      "win_pct": 0.503,
+      "pf": 20024.56,
+      "pa": 19074.17,
+      "playoff_appearances": 10,
+      "championships": [
+        2014,
+        2015,
+        2017,
+        2025
+      ],
+      "runner_up": [
+        2013,
+        2021
+      ],
+      "third_place": [
+        2024
+      ],
+      "division_titles": [
+        2015,
+        2024
+      ],
+      "points_titles": [
+        2015
+      ],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 1,
+        "season": 2014
+      },
+      "ring_of_honor_plaques": 9
+    },
+    {
+      "id": "carter",
+      "label": "Carter",
+      "status": "active",
+      "seasons": 13,
+      "games": 169,
+      "w": 108,
+      "l": 61,
+      "t": 0,
+      "win_pct": 0.6391,
+      "pf": 19942.2,
+      "pa": 18632.43,
+      "playoff_appearances": 12,
+      "championships": [
+        2013,
+        2022
+      ],
+      "runner_up": [
+        2014,
+        2018
+      ],
+      "third_place": [
+        2019,
+        2023
+      ],
+      "division_titles": [
+        2014,
+        2018,
+        2022,
+        2023,
+        2025
+      ],
+      "points_titles": [
+        2023,
+        2025
+      ],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 1,
+        "season": 2013
+      },
+      "ring_of_honor_plaques": 4
+    },
+    {
+      "id": "zac",
+      "label": "Zac",
+      "status": "active",
+      "seasons": 9,
+      "games": 122,
+      "w": 69,
+      "l": 53,
+      "t": 0,
+      "win_pct": 0.5656,
+      "pf": 13823.82,
+      "pa": 13440.42,
+      "playoff_appearances": 5,
+      "championships": [
+        2019,
+        2021
+      ],
+      "runner_up": [
+        2020
+      ],
+      "third_place": [
+        2017
+      ],
+      "division_titles": [
+        2017,
+        2019,
+        2020,
+        2021
+      ],
+      "points_titles": [
+        2017
+      ],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 1,
+        "season": 2019
+      },
+      "ring_of_honor_plaques": 2
+    },
+    {
+      "id": "tommy",
+      "label": "Tommy",
+      "status": "active",
+      "seasons": 12,
+      "games": 161,
+      "w": 84,
+      "l": 77,
+      "t": 0,
+      "win_pct": 0.5217,
+      "pf": 18595.38,
+      "pa": 18442.76,
+      "playoff_appearances": 6,
+      "championships": [
+        2020,
+        2024
+      ],
+      "runner_up": [],
+      "third_place": [
+        2022
+      ],
+      "division_titles": [
+        2020
+      ],
+      "points_titles": [
+        2020
+      ],
+      "consolation_titles": [
+        2018
+      ],
+      "best_finish": {
+        "rank": 1,
+        "season": 2020
+      },
+      "ring_of_honor_plaques": 4
+    },
+    {
+      "id": "brice",
+      "label": "Brice",
+      "status": "active",
+      "seasons": 13,
+      "games": 169,
+      "w": 84,
+      "l": 84,
+      "t": 1,
+      "win_pct": 0.497,
+      "pf": 19884.24,
+      "pa": 19367.55,
+      "playoff_appearances": 6,
+      "championships": [
+        2023
+      ],
+      "runner_up": [],
+      "third_place": [
+        2016,
+        2020
+      ],
+      "division_titles": [
+        2021
+      ],
+      "points_titles": [
+        2016
+      ],
+      "consolation_titles": [
+        2013,
+        2025
+      ],
+      "best_finish": {
+        "rank": 1,
+        "season": 2023
+      },
+      "ring_of_honor_plaques": 4
+    },
+    {
+      "id": "benedict",
+      "label": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+      "status": "active",
+      "seasons": 13,
+      "games": 169,
+      "w": 78,
+      "l": 91,
+      "t": 0,
+      "win_pct": 0.4615,
+      "pf": 18596.39,
+      "pa": 19276.47,
+      "playoff_appearances": 6,
+      "championships": [
+        2018
+      ],
+      "runner_up": [],
+      "third_place": [
+        2013,
+        2015
+      ],
+      "division_titles": [
+        2015,
+        2018
+      ],
+      "points_titles": [
+        2018
+      ],
+      "consolation_titles": [
+        2014
+      ],
+      "best_finish": {
+        "rank": 1,
+        "season": 2018
+      },
+      "ring_of_honor_plaques": 5
+    },
+    {
+      "id": "michael",
+      "label": "Michael",
+      "status": "active",
+      "seasons": 12,
+      "games": 161,
+      "w": 73,
+      "l": 88,
+      "t": 0,
+      "win_pct": 0.4534,
+      "pf": 17670.14,
+      "pa": 18242.2,
+      "playoff_appearances": 5,
+      "championships": [
+        2016
+      ],
+      "runner_up": [
+        2017,
+        2023
+      ],
+      "third_place": [],
+      "division_titles": [
+        2016
+      ],
+      "points_titles": [
+        2014
+      ],
+      "consolation_titles": [
+        2019
+      ],
+      "best_finish": {
+        "rank": 1,
+        "season": 2016
+      },
+      "ring_of_honor_plaques": 2
+    },
+    {
+      "id": "dave-lang",
+      "label": "Dave Lang",
+      "status": "retired",
+      "seasons": 2,
+      "games": 21,
+      "w": 13,
+      "l": 8,
+      "t": 0,
+      "win_pct": 0.619,
+      "pf": 2571.13,
+      "pa": 2495.78,
+      "playoff_appearances": 2,
+      "championships": [],
+      "runner_up": [],
+      "third_place": [],
+      "division_titles": [
+        2013
+      ],
+      "points_titles": [
+        2013
+      ],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 6,
+        "season": 2014
+      },
+      "ring_of_honor_plaques": 0
+    },
+    {
+      "id": "whitaker",
+      "label": "whitaker",
+      "status": "active",
+      "seasons": 13,
+      "games": 169,
+      "w": 92,
+      "l": 77,
+      "t": 0,
+      "win_pct": 0.5444,
+      "pf": 19351.03,
+      "pa": 19211.22,
+      "playoff_appearances": 8,
+      "championships": [],
+      "runner_up": [],
+      "third_place": [
+        2014,
+        2021
+      ],
+      "division_titles": [
+        2013,
+        2014,
+        2023
+      ],
+      "points_titles": [
+        2021
+      ],
+      "consolation_titles": [
+        2022
+      ],
+      "best_finish": {
+        "rank": 3,
+        "season": 2014
+      },
+      "ring_of_honor_plaques": 6
+    },
+    {
+      "id": "pb",
+      "label": "pb",
+      "status": "active",
+      "seasons": 12,
+      "games": 161,
+      "w": 80,
+      "l": 80,
+      "t": 1,
+      "win_pct": 0.4969,
+      "pf": 17659.76,
+      "pa": 17680.62,
+      "playoff_appearances": 6,
+      "championships": [],
+      "runner_up": [
+        2015,
+        2019
+      ],
+      "third_place": [],
+      "division_titles": [
+        2019
+      ],
+      "points_titles": [],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 2,
+        "season": 2015
+      },
+      "ring_of_honor_plaques": 4
+    },
+    {
+      "id": "ryan",
+      "label": "Ryan",
+      "status": "active",
+      "seasons": 12,
+      "games": 161,
+      "w": 80,
+      "l": 81,
+      "t": 0,
+      "win_pct": 0.4969,
+      "pf": 18106.6,
+      "pa": 18116.94,
+      "playoff_appearances": 4,
+      "championships": [],
+      "runner_up": [
+        2025
+      ],
+      "third_place": [
+        2018
+      ],
+      "division_titles": [],
+      "points_titles": [],
+      "consolation_titles": [
+        2015,
+        2017,
+        2021,
+        2024
+      ],
+      "best_finish": {
+        "rank": 2,
+        "season": 2025
+      },
+      "ring_of_honor_plaques": 4
+    },
+    {
+      "id": "laskey",
+      "label": "David Laskey \u2192 Sara \u2192 Jason",
+      "status": "active",
+      "seasons": 12,
+      "games": 161,
+      "w": 72,
+      "l": 89,
+      "t": 0,
+      "win_pct": 0.4472,
+      "pf": 18474.5,
+      "pa": 18598.16,
+      "playoff_appearances": 3,
+      "championships": [],
+      "runner_up": [
+        2022,
+        2024
+      ],
+      "third_place": [],
+      "division_titles": [
+        2024
+      ],
+      "points_titles": [
+        2019,
+        2022,
+        2024
+      ],
+      "consolation_titles": [
+        2020,
+        2023
+      ],
+      "best_finish": {
+        "rank": 2,
+        "season": 2022
+      },
+      "ring_of_honor_plaques": 4
+    },
+    {
+      "id": "kelly-brown",
+      "label": "Kelly Brown",
+      "status": "retired",
+      "seasons": 3,
+      "games": 39,
+      "w": 17,
+      "l": 22,
+      "t": 0,
+      "win_pct": 0.4359,
+      "pf": 4138.58,
+      "pa": 4298.96,
+      "playoff_appearances": 1,
+      "championships": [],
+      "runner_up": [],
+      "third_place": [],
+      "division_titles": [
+        2017
+      ],
+      "points_titles": [],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 4,
+        "season": 2017
+      },
+      "ring_of_honor_plaques": 1
+    },
+    {
+      "id": "dylan",
+      "label": "Dylan Snyder \u2192 becca \u2192 Megan",
+      "status": "active",
+      "seasons": 13,
+      "games": 169,
+      "w": 72,
+      "l": 97,
+      "t": 0,
+      "win_pct": 0.426,
+      "pf": 18351.38,
+      "pa": 19667.84,
+      "playoff_appearances": 4,
+      "championships": [],
+      "runner_up": [],
+      "third_place": [
+        2025
+      ],
+      "division_titles": [
+        2022,
+        2025
+      ],
+      "points_titles": [],
+      "consolation_titles": [
+        2016
+      ],
+      "best_finish": {
+        "rank": 3,
+        "season": 2025
+      },
+      "ring_of_honor_plaques": 1
+    },
+    {
+      "id": "kyle",
+      "label": "Kyle",
+      "status": "retired",
+      "seasons": 6,
+      "games": 73,
+      "w": 29,
+      "l": 44,
+      "t": 0,
+      "win_pct": 0.3973,
+      "pf": 7823.03,
+      "pa": 8467.22,
+      "playoff_appearances": 2,
+      "championships": [],
+      "runner_up": [
+        2016
+      ],
+      "third_place": [],
+      "division_titles": [
+        2016
+      ],
+      "points_titles": [],
+      "consolation_titles": [],
+      "best_finish": {
+        "rank": 2,
+        "season": 2016
+      },
+      "ring_of_honor_plaques": 1
+    }
+  ]
+}

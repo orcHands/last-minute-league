@@ -1,0 +1,3061 @@
+{
+ "meta": {
+  "built": "2026-07-21",
+  "enemy": "opponent who has scored the most total points against you, all-time (league.json matchups); avg + their H2H record shown since division rivals play more often",
+  "biggest_day": "largest single-game started performance an opponent dropped on you, by position"
+ },
+ "nfl_defense_scoring": {
+  "ranking": [
+   [
+    "Patriots",
+    1283
+   ],
+   [
+    "Ravens",
+    1227
+   ],
+   [
+    "Rams",
+    1224
+   ],
+   [
+    "Seahawks",
+    1011
+   ],
+   [
+    "Broncos",
+    989
+   ],
+   [
+    "Steelers",
+    962
+   ],
+   [
+    "Bills",
+    930
+   ],
+   [
+    "49ers",
+    914
+   ],
+   [
+    "Chiefs",
+    904
+   ],
+   [
+    "Eagles",
+    808
+   ],
+   [
+    "Texans",
+    805
+   ],
+   [
+    "Cowboys",
+    699
+   ],
+   [
+    "Vikings",
+    628
+   ],
+   [
+    "Packers",
+    616
+   ],
+   [
+    "Cardinals",
+    613
+   ],
+   [
+    "Bears",
+    605
+   ],
+   [
+    "Bengals",
+    577
+   ],
+   [
+    "Dolphins",
+    572
+   ],
+   [
+    "Colts",
+    566
+   ],
+   [
+    "Chargers",
+    539
+   ],
+   [
+    "Saints",
+    527
+   ],
+   [
+    "Buccaneers",
+    518
+   ],
+   [
+    "Panthers",
+    507
+   ],
+   [
+    "Browns",
+    449
+   ],
+   [
+    "Titans",
+    426
+   ],
+   [
+    "Falcons",
+    357
+   ],
+   [
+    "Lions",
+    356
+   ],
+   [
+    "Jaguars",
+    341
+   ],
+   [
+    "Jets",
+    281
+   ],
+   [
+    "Raiders",
+    232
+   ],
+   [
+    "Giants",
+    213
+   ],
+   [
+    "Commanders",
+    203
+   ]
+  ],
+  "single_best_game": {
+   "defense": "Chiefs",
+   "pts": 57.5,
+   "started_by": "Dave Lang",
+   "season": 2013,
+   "week": 14
+  }
+ },
+ "manager_enemies": {
+  "Kyle": {
+   "franchise": "Kyle",
+   "top_enemies": [
+    {
+     "opponent": "Benedict",
+     "pts_against": 1169.1,
+     "games": 9,
+     "avg": 129.9,
+     "their_record_vs_you": "2-7"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 1117.8,
+     "games": 9,
+     "avg": 124.2,
+     "their_record_vs_you": "3-6"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 1084.3,
+     "games": 9,
+     "avg": 120.5,
+     "their_record_vs_you": "5-4"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1080.8,
+     "games": 10,
+     "avg": 108.1,
+     "their_record_vs_you": "3-7"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 36.66,
+     "player": "Cam Newton",
+     "by": "Kelly Brown",
+     "season": 2017,
+     "week": 10
+    },
+    "RB": {
+     "pts": 61.5,
+     "player": "Jamaal Charles",
+     "by": "Jay",
+     "season": 2013,
+     "week": 15
+    },
+    "WR": {
+     "pts": 50.1,
+     "player": "Josh Gordon",
+     "by": "Dave Lang",
+     "season": 2013,
+     "week": 13
+    },
+    "TE": {
+     "pts": 36.0,
+     "player": "George Kittle",
+     "by": "Jason",
+     "season": 2018,
+     "week": 14
+    },
+    "K": {
+     "pts": 23.0,
+     "player": "Justin Tucker",
+     "by": "Jay",
+     "season": 2013,
+     "week": 15
+    },
+    "DEF": {
+     "pts": 45.6,
+     "player": "Bengals - DEF",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 11
+    }
+   }
+  },
+  "Brice": {
+   "franchise": "Brice",
+   "top_enemies": [
+    {
+     "opponent": "Carter",
+     "pts_against": 3203.7,
+     "games": 26,
+     "avg": 123.2,
+     "their_record_vs_you": "11-15"
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 2275.1,
+     "games": 21,
+     "avg": 108.3,
+     "their_record_vs_you": "13-8"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 2191.6,
+     "games": 19,
+     "avg": 115.3,
+     "their_record_vs_you": "12-7"
+    },
+    {
+     "opponent": "Jay",
+     "pts_against": 2014.1,
+     "games": 16,
+     "avg": 125.9,
+     "their_record_vs_you": "6-10"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 45.3,
+     "player": "Drew Brees",
+     "by": "Ryan",
+     "season": 2015,
+     "week": 8
+    },
+    "RB": {
+     "pts": 48.7,
+     "player": "Christian McCaffrey",
+     "by": "Jason",
+     "season": 2019,
+     "week": 5
+    },
+    "WR": {
+     "pts": 51.0,
+     "player": "Julio Jones",
+     "by": "Dylan Snyder",
+     "season": 2016,
+     "week": 4
+    },
+    "TE": {
+     "pts": 41.7,
+     "player": "Mark Andrews",
+     "by": "Jason",
+     "season": 2021,
+     "week": 5
+    },
+    "K": {
+     "pts": 20.0,
+     "player": "Adam Vinatieri",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 13
+    },
+    "DEF": {
+     "pts": 33.5,
+     "player": "Bengals - DEF",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 16
+    }
+   }
+  },
+  "Benedict": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_enemies": [
+    {
+     "opponent": "Tommy",
+     "pts_against": 1390.3,
+     "games": 12,
+     "avg": 115.9,
+     "their_record_vs_you": "6-6"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 1369.3,
+     "games": 11,
+     "avg": 124.5,
+     "their_record_vs_you": "3-8"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 1319.5,
+     "games": 12,
+     "avg": 110.0,
+     "their_record_vs_you": "4-8"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 1192.3,
+     "games": 9,
+     "avg": 132.5,
+     "their_record_vs_you": "3-6"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 39.98,
+     "player": "Ben Roethlisberger",
+     "by": "becca",
+     "season": 2018,
+     "week": 2
+    },
+    "RB": {
+     "pts": 51.8,
+     "player": "Le'Veon Bell",
+     "by": "Jay",
+     "season": 2016,
+     "week": 14
+    },
+    "WR": {
+     "pts": 54.0,
+     "player": "Tyler Lockett",
+     "by": "becca",
+     "season": 2020,
+     "week": 7
+    },
+    "TE": {
+     "pts": 33.8,
+     "player": "Jimmy Graham",
+     "by": "Carter",
+     "season": 2014,
+     "week": 2
+    },
+    "K": {
+     "pts": 19.0,
+     "player": "Justin Tucker",
+     "by": "Jay",
+     "season": 2013,
+     "week": 13
+    },
+    "DEF": {
+     "pts": 41.2,
+     "player": "Bengals - DEF",
+     "by": "Jay",
+     "season": 2013,
+     "week": 8
+    }
+   }
+  },
+  "whitaker": {
+   "franchise": "whitaker",
+   "top_enemies": [
+    {
+     "opponent": "Ryan",
+     "pts_against": 2337.3,
+     "games": 21,
+     "avg": 111.3,
+     "their_record_vs_you": "11-10"
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 2325.5,
+     "games": 18,
+     "avg": 129.2,
+     "their_record_vs_you": "7-11"
+    },
+    {
+     "opponent": "Jason",
+     "pts_against": 1869.1,
+     "games": 15,
+     "avg": 124.6,
+     "their_record_vs_you": "7-8"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 1809.8,
+     "games": 16,
+     "avg": 113.1,
+     "their_record_vs_you": "9-7"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 43.74,
+     "player": "Deshaun Watson",
+     "by": "becca",
+     "season": 2019,
+     "week": 5
+    },
+    "RB": {
+     "pts": 54.4,
+     "player": "Jonathan Taylor",
+     "by": "Tommy",
+     "season": 2021,
+     "week": 11
+    },
+    "WR": {
+     "pts": 42.4,
+     "player": "Amon-Ra St. Brown",
+     "by": "Michael",
+     "season": 2025,
+     "week": 15
+    },
+    "TE": {
+     "pts": 43.3,
+     "player": "Brock Bowers",
+     "by": "Tommy",
+     "season": 2025,
+     "week": 9
+    },
+    "K": {
+     "pts": 14.0,
+     "player": "Nick Novak",
+     "by": "Dave Lang",
+     "season": 2013,
+     "week": 14
+    },
+    "DEF": {
+     "pts": 57.5,
+     "player": "Chiefs - DEF",
+     "by": "Dave Lang",
+     "season": 2013,
+     "week": 14
+    }
+   }
+  },
+  "Dave Lang": {
+   "franchise": "Dave Lang",
+   "top_enemies": [
+    {
+     "opponent": "Kyle",
+     "pts_against": 609.1,
+     "games": 5,
+     "avg": 121.8,
+     "their_record_vs_you": "2-3"
+    },
+    {
+     "opponent": "Benedict",
+     "pts_against": 569.1,
+     "games": 4,
+     "avg": 142.3,
+     "their_record_vs_you": "2-2"
+    },
+    {
+     "opponent": "Dylan Snyder",
+     "pts_against": 413.4,
+     "games": 3,
+     "avg": 137.8,
+     "their_record_vs_you": "2-1"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 394.5,
+     "games": 3,
+     "avg": 131.5,
+     "their_record_vs_you": "0-3"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 41.04,
+     "player": "Drew Brees",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 17
+    },
+    "RB": {
+     "pts": 37.1,
+     "player": "LeSean McCoy",
+     "by": "whitaker",
+     "season": 2013,
+     "week": 14
+    },
+    "WR": {
+     "pts": 50.9,
+     "player": "Alshon Jeffery",
+     "by": "Kyle",
+     "season": 2013,
+     "week": 13
+    },
+    "TE": {
+     "pts": 35.4,
+     "player": "Julius Thomas",
+     "by": "Tommy",
+     "season": 2014,
+     "week": 1
+    },
+    "K": {
+     "pts": 17.0,
+     "player": "Phil Dawson",
+     "by": "Benedict",
+     "season": 2013,
+     "week": 15
+    },
+    "DEF": {
+     "pts": 33.33,
+     "player": "Bengals - DEF",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 17
+    }
+   }
+  },
+  "Dylan Snyder": {
+   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "top_enemies": [
+    {
+     "opponent": "Jay",
+     "pts_against": 1229.2,
+     "games": 9,
+     "avg": 136.6,
+     "their_record_vs_you": "2-7"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 1065.0,
+     "games": 8,
+     "avg": 133.1,
+     "their_record_vs_you": "2-6"
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 997.2,
+     "games": 9,
+     "avg": 110.8,
+     "their_record_vs_you": "4-5"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 892.2,
+     "games": 9,
+     "avg": 99.1,
+     "their_record_vs_you": "5-4"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 35.92,
+     "player": "Aaron Rodgers",
+     "by": "whitaker",
+     "season": 2015,
+     "week": 3
+    },
+    "RB": {
+     "pts": 41.3,
+     "player": "Marshawn Lynch",
+     "by": "Michael",
+     "season": 2014,
+     "week": 10
+    },
+    "WR": {
+     "pts": 51.4,
+     "player": "Eric Decker",
+     "by": "Brice",
+     "season": 2013,
+     "week": 13
+    },
+    "TE": {
+     "pts": 29.2,
+     "player": "Rob Gronkowski",
+     "by": "Ryan",
+     "season": 2016,
+     "week": 6
+    },
+    "K": {
+     "pts": 19.0,
+     "player": "Stephen Hauschka",
+     "by": "Jay",
+     "season": 2013,
+     "week": 10
+    },
+    "DEF": {
+     "pts": 34.3,
+     "player": "Patriots - DEF",
+     "by": "whitaker",
+     "season": 2013,
+     "week": 9
+    }
+   }
+  },
+  "Jay": {
+   "franchise": "Jay \u2192 Kevin",
+   "top_enemies": [
+    {
+     "opponent": "Carter",
+     "pts_against": 1964.7,
+     "games": 16,
+     "avg": 122.8,
+     "their_record_vs_you": "7-9"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 1844.9,
+     "games": 16,
+     "avg": 115.3,
+     "their_record_vs_you": "10-6"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 1800.4,
+     "games": 16,
+     "avg": 112.5,
+     "their_record_vs_you": "7-9"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 1784.7,
+     "games": 15,
+     "avg": 119.0,
+     "their_record_vs_you": "6-9"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 40.22,
+     "player": "Russell Wilson",
+     "by": "Jason",
+     "season": 2019,
+     "week": 9
+    },
+    "RB": {
+     "pts": 46.6,
+     "player": "Aaron Jones Sr.",
+     "by": "Zac",
+     "season": 2020,
+     "week": 2
+    },
+    "WR": {
+     "pts": 57.6,
+     "player": "Ja'Marr Chase",
+     "by": "Zac",
+     "season": 2021,
+     "week": 17
+    },
+    "TE": {
+     "pts": 40.9,
+     "player": "T.J. Hockenson",
+     "by": "whitaker",
+     "season": 2022,
+     "week": 4
+    },
+    "K": {
+     "pts": 13.5,
+     "player": "Greg Zuerlein",
+     "by": "Jason",
+     "season": 2017,
+     "week": 4
+    },
+    "DEF": {
+     "pts": 32.67,
+     "player": "Broncos - DEF",
+     "by": "Benedict",
+     "season": 2013,
+     "week": 8
+    }
+   }
+  },
+  "Carter": {
+   "franchise": "Carter",
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 3150.4,
+     "games": 26,
+     "avg": 121.2,
+     "their_record_vs_you": "15-11"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 2105.2,
+     "games": 19,
+     "avg": 110.8,
+     "their_record_vs_you": "10-9"
+    },
+    {
+     "opponent": "Jay",
+     "pts_against": 1902.7,
+     "games": 16,
+     "avg": 118.9,
+     "their_record_vs_you": "9-7"
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 1819.8,
+     "games": 17,
+     "avg": 107.0,
+     "their_record_vs_you": "8-9"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 39.38,
+     "player": "Justin Fields",
+     "by": "Zac",
+     "season": 2022,
+     "week": 10
+    },
+    "RB": {
+     "pts": 45.9,
+     "player": "David Johnson",
+     "by": "Brice",
+     "season": 2015,
+     "week": 15
+    },
+    "WR": {
+     "pts": 44.3,
+     "player": "Allen Robinson",
+     "by": "Brice",
+     "season": 2015,
+     "week": 13
+    },
+    "TE": {
+     "pts": 40.5,
+     "player": "Zach Ertz",
+     "by": "Kyle",
+     "season": 2018,
+     "week": 10
+    },
+    "K": {
+     "pts": 15.0,
+     "player": "Justin Tucker",
+     "by": "Jay",
+     "season": 2013,
+     "week": 12
+    },
+    "DEF": {
+     "pts": 42.7,
+     "player": "Patriots - DEF",
+     "by": "whitaker",
+     "season": 2013,
+     "week": 16
+    }
+   }
+  },
+  "pb": {
+   "franchise": "pb",
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 2497.1,
+     "games": 21,
+     "avg": 118.9,
+     "their_record_vs_you": "7-14"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 1943.6,
+     "games": 16,
+     "avg": 121.5,
+     "their_record_vs_you": "5-11"
+    },
+    {
+     "opponent": "Jay",
+     "pts_against": 1691.4,
+     "games": 14,
+     "avg": 120.8,
+     "their_record_vs_you": "4-10"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 1668.7,
+     "games": 18,
+     "avg": 92.7,
+     "their_record_vs_you": "12-6"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 44.82,
+     "player": "Justin Herbert",
+     "by": "whitaker",
+     "season": 2021,
+     "week": 5
+    },
+    "RB": {
+     "pts": 58.4,
+     "player": "Jahmyr Gibbs",
+     "by": "Megan",
+     "season": 2025,
+     "week": 12
+    },
+    "WR": {
+     "pts": 52.8,
+     "player": "Julio Jones",
+     "by": "Dylan Snyder",
+     "season": 2017,
+     "week": 12
+    },
+    "TE": {
+     "pts": 42.9,
+     "player": "Rob Gronkowski",
+     "by": "Jay",
+     "season": 2014,
+     "week": 8
+    },
+    "K": {
+     "pts": 11.0,
+     "player": "Blair Walsh",
+     "by": "Jay",
+     "season": 2015,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 33.0,
+     "player": "Cardinals - DEF",
+     "by": "Jay",
+     "season": 2015,
+     "week": 16
+    }
+   }
+  },
+  "Ryan": {
+   "franchise": "Ryan",
+   "top_enemies": [
+    {
+     "opponent": "Tommy",
+     "pts_against": 2500.3,
+     "games": 22,
+     "avg": 113.6,
+     "their_record_vs_you": "11-11"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 2389.3,
+     "games": 21,
+     "avg": 113.8,
+     "their_record_vs_you": "10-11"
+    },
+    {
+     "opponent": "Zac",
+     "pts_against": 2055.5,
+     "games": 17,
+     "avg": 120.9,
+     "their_record_vs_you": "5-12"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 1876.9,
+     "games": 16,
+     "avg": 117.3,
+     "their_record_vs_you": "6-10"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 45.76,
+     "player": "Aaron Rodgers",
+     "by": "Brice",
+     "season": 2019,
+     "week": 7
+    },
+    "RB": {
+     "pts": 49.6,
+     "player": "Dalvin Cook",
+     "by": "Jason",
+     "season": 2020,
+     "week": 8
+    },
+    "WR": {
+     "pts": 57.4,
+     "player": "Ja'Marr Chase",
+     "by": "Carter",
+     "season": 2024,
+     "week": 10
+    },
+    "TE": {
+     "pts": 42.1,
+     "player": "Travis Kelce",
+     "by": "Carter",
+     "season": 2021,
+     "week": 15
+    },
+    "K": {
+     "pts": 10.5,
+     "player": "Jason Sanders",
+     "by": "Megan",
+     "season": 2024,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 25.0,
+     "player": "Colts - DEF",
+     "by": "Zac",
+     "season": 2020,
+     "week": 3
+    }
+   }
+  },
+  "Michael": {
+   "franchise": "Michael",
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 2322.8,
+     "games": 19,
+     "avg": 122.3,
+     "their_record_vs_you": "7-12"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 2085.6,
+     "games": 19,
+     "avg": 109.8,
+     "their_record_vs_you": "9-10"
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 1917.1,
+     "games": 18,
+     "avg": 106.5,
+     "their_record_vs_you": "6-12"
+    },
+    {
+     "opponent": "Jay",
+     "pts_against": 1852.9,
+     "games": 16,
+     "avg": 115.8,
+     "their_record_vs_you": "9-7"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 41.0,
+     "player": "Patrick Mahomes",
+     "by": "Carter",
+     "season": 2020,
+     "week": 3
+    },
+    "RB": {
+     "pts": 50.6,
+     "player": "Todd Gurley",
+     "by": "Jay",
+     "season": 2017,
+     "week": 16
+    },
+    "WR": {
+     "pts": 45.5,
+     "player": "Stefon Diggs",
+     "by": "Brice",
+     "season": 2019,
+     "week": 6
+    },
+    "TE": {
+     "pts": 40.6,
+     "player": "George Kittle",
+     "by": "Jay",
+     "season": 2021,
+     "week": 13
+    },
+    "K": {
+     "pts": 9.7,
+     "player": "Matt Bryant",
+     "by": "Kyle",
+     "season": 2016,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 27.0,
+     "player": "Giants - DEF",
+     "by": "Jay",
+     "season": 2014,
+     "week": 14
+    }
+   }
+  },
+  "Tommy": {
+   "franchise": "Tommy",
+   "top_enemies": [
+    {
+     "opponent": "Ryan",
+     "pts_against": 2411.3,
+     "games": 22,
+     "avg": 109.6,
+     "their_record_vs_you": "11-11"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 2078.8,
+     "games": 18,
+     "avg": 115.5,
+     "their_record_vs_you": "11-7"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 1971.9,
+     "games": 17,
+     "avg": 116.0,
+     "their_record_vs_you": "9-8"
+    },
+    {
+     "opponent": "Jason",
+     "pts_against": 1860.9,
+     "games": 15,
+     "avg": 124.1,
+     "their_record_vs_you": "8-7"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 43.34,
+     "player": "Russell Wilson",
+     "by": "Jason",
+     "season": 2019,
+     "week": 3
+    },
+    "RB": {
+     "pts": 55.1,
+     "player": "Joe Mixon",
+     "by": "Michael",
+     "season": 2022,
+     "week": 9
+    },
+    "WR": {
+     "pts": 46.9,
+     "player": "Antonio Brown",
+     "by": "Jay",
+     "season": 2015,
+     "week": 15
+    },
+    "TE": {
+     "pts": 43.52,
+     "player": "Taysom Hill",
+     "by": "Megan",
+     "season": 2024,
+     "week": 11
+    },
+    "K": {
+     "pts": 13.0,
+     "player": "Jake Moody",
+     "by": "whitaker",
+     "season": 2024,
+     "week": 1
+    },
+    "DEF": {
+     "pts": 30.0,
+     "player": "Seahawks - DEF",
+     "by": "Kevin",
+     "season": 2025,
+     "week": 13
+    }
+   }
+  },
+  "David Laskey": {
+   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "top_enemies": [
+    {
+     "opponent": "Tommy",
+     "pts_against": 353.0,
+     "games": 3,
+     "avg": 117.7,
+     "their_record_vs_you": "2-1"
+    },
+    {
+     "opponent": "Benedict",
+     "pts_against": 328.2,
+     "games": 3,
+     "avg": 109.4,
+     "their_record_vs_you": "2-1"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 266.9,
+     "games": 2,
+     "avg": 133.4,
+     "their_record_vs_you": "0-2"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 266.4,
+     "games": 2,
+     "avg": 133.2,
+     "their_record_vs_you": "0-2"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 28.82,
+     "player": "Aaron Rodgers",
+     "by": "Carter",
+     "season": 2014,
+     "week": 8
+    },
+    "RB": {
+     "pts": 31.8,
+     "player": "Jamaal Charles",
+     "by": "Dave Lang",
+     "season": 2014,
+     "week": 4
+    },
+    "WR": {
+     "pts": 39.3,
+     "player": "T.Y. Hilton",
+     "by": "Carter",
+     "season": 2014,
+     "week": 6
+    },
+    "TE": {
+     "pts": 30.4,
+     "player": "Larry Donnell",
+     "by": "Dave Lang",
+     "season": 2014,
+     "week": 4
+    },
+    "K": {
+     "pts": 7.0,
+     "player": "Justin Tucker",
+     "by": "Ryan",
+     "season": 2014,
+     "week": 2
+    },
+    "DEF": {
+     "pts": 29.0,
+     "player": "Dolphins - DEF",
+     "by": "Carter",
+     "season": 2014,
+     "week": 8
+    }
+   }
+  },
+  "Kelly Brown": {
+   "franchise": "Kelly Brown",
+   "top_enemies": [
+    {
+     "opponent": "Jay",
+     "pts_against": 790.3,
+     "games": 6,
+     "avg": 131.7,
+     "their_record_vs_you": "1-5"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 668.4,
+     "games": 5,
+     "avg": 133.7,
+     "their_record_vs_you": "2-3"
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 543.3,
+     "games": 5,
+     "avg": 108.7,
+     "their_record_vs_you": "1-4"
+    },
+    {
+     "opponent": "Zac",
+     "pts_against": 451.2,
+     "games": 4,
+     "avg": 112.8,
+     "their_record_vs_you": "2-2"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 34.78,
+     "player": "Deshaun Watson",
+     "by": "Tommy",
+     "season": 2017,
+     "week": 8
+    },
+    "RB": {
+     "pts": 47.6,
+     "player": "Kareem Hunt",
+     "by": "Zac",
+     "season": 2017,
+     "week": 1
+    },
+    "WR": {
+     "pts": 46.8,
+     "player": "DeAndre Hopkins",
+     "by": "Benedict",
+     "season": 2014,
+     "week": 13
+    },
+    "TE": {
+     "pts": 25.2,
+     "player": "Heath Miller",
+     "by": "Michael",
+     "season": 2014,
+     "week": 8
+    },
+    "K": {
+     "pts": 9.0,
+     "player": "Matt Prater",
+     "by": "Tommy",
+     "season": 2017,
+     "week": 8
+    },
+    "DEF": {
+     "pts": 27.0,
+     "player": "Rams - DEF",
+     "by": "pb",
+     "season": 2014,
+     "week": 14
+    }
+   }
+  },
+  "Sara": {
+   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "top_enemies": [
+    {
+     "opponent": "Tommy",
+     "pts_against": 530.8,
+     "games": 5,
+     "avg": 106.2,
+     "their_record_vs_you": "3-2"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 496.8,
+     "games": 4,
+     "avg": 124.2,
+     "their_record_vs_you": "1-3"
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 426.0,
+     "games": 3,
+     "avg": 142.0,
+     "their_record_vs_you": "0-3"
+    },
+    {
+     "opponent": "Jay",
+     "pts_against": 370.6,
+     "games": 3,
+     "avg": 123.5,
+     "their_record_vs_you": "2-1"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 38.92,
+     "player": "Marcus Mariota",
+     "by": "pb",
+     "season": 2015,
+     "week": 13
+    },
+    "RB": {
+     "pts": 35.0,
+     "player": "David Johnson",
+     "by": "Brice",
+     "season": 2016,
+     "week": 11
+    },
+    "WR": {
+     "pts": 37.3,
+     "player": "Keenan Allen",
+     "by": "Jay",
+     "season": 2015,
+     "week": 3
+    },
+    "TE": {
+     "pts": 31.4,
+     "player": "Tyler Eifert",
+     "by": "whitaker",
+     "season": 2015,
+     "week": 1
+    },
+    "K": {
+     "pts": 11.0,
+     "player": "Mason Crosby",
+     "by": "Tommy",
+     "season": 2015,
+     "week": 11
+    },
+    "DEF": {
+     "pts": 27.0,
+     "player": "Cardinals - DEF",
+     "by": "Jay",
+     "season": 2015,
+     "week": 3
+    }
+   }
+  },
+  "Jason": {
+   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "top_enemies": [
+    {
+     "opponent": "Zac",
+     "pts_against": 1792.1,
+     "games": 16,
+     "avg": 112.0,
+     "their_record_vs_you": "6-10"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 1770.6,
+     "games": 15,
+     "avg": 118.0,
+     "their_record_vs_you": "8-7"
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 1698.0,
+     "games": 15,
+     "avg": 113.2,
+     "their_record_vs_you": "7-8"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1618.3,
+     "games": 14,
+     "avg": 115.6,
+     "their_record_vs_you": "9-5"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 42.88,
+     "player": "Lamar Jackson",
+     "by": "Brice",
+     "season": 2021,
+     "week": 5
+    },
+    "RB": {
+     "pts": 49.2,
+     "player": "Aaron Jones Sr.",
+     "by": "Brice",
+     "season": 2019,
+     "week": 5
+    },
+    "WR": {
+     "pts": 45.8,
+     "player": "Stefon Diggs",
+     "by": "Ryan",
+     "season": 2022,
+     "week": 2
+    },
+    "TE": {
+     "pts": 40.1,
+     "player": "George Kittle",
+     "by": "whitaker",
+     "season": 2020,
+     "week": 4
+    },
+    "K": {
+     "pts": 10.5,
+     "player": "Ka'imi Fairbairn",
+     "by": "Zac",
+     "season": 2018,
+     "week": 13
+    },
+    "DEF": {
+     "pts": 32.0,
+     "player": "Bills - DEF",
+     "by": "Ryan",
+     "season": 2023,
+     "week": 3
+    }
+   }
+  },
+  "Zac": {
+   "franchise": "Zac",
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 1801.3,
+     "games": 15,
+     "avg": 120.1,
+     "their_record_vs_you": "6-9"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1797.4,
+     "games": 17,
+     "avg": 105.7,
+     "their_record_vs_you": "12-5"
+    },
+    {
+     "opponent": "Jason",
+     "pts_against": 1733.3,
+     "games": 16,
+     "avg": 108.3,
+     "their_record_vs_you": "10-6"
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 1727.0,
+     "games": 16,
+     "avg": 107.9,
+     "their_record_vs_you": "7-9"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 39.68,
+     "player": "Tom Brady",
+     "by": "Ryan",
+     "season": 2022,
+     "week": 17
+    },
+    "RB": {
+     "pts": 40.26,
+     "player": "Christian McCaffrey",
+     "by": "becca",
+     "season": 2022,
+     "week": 8
+    },
+    "WR": {
+     "pts": 53.5,
+     "player": "Amari Cooper",
+     "by": "Ryan",
+     "season": 2023,
+     "week": 16
+    },
+    "TE": {
+     "pts": 29.9,
+     "player": "Travis Kelce",
+     "by": "Jay",
+     "season": 2018,
+     "week": 2
+    },
+    "K": {
+     "pts": 11.5,
+     "player": "Tyler Bass",
+     "by": "Tommy",
+     "season": 2022,
+     "week": 11
+    },
+    "DEF": {
+     "pts": 38.0,
+     "player": "Cowboys - DEF",
+     "by": "Tommy",
+     "season": 2023,
+     "week": 1
+    }
+   }
+  },
+  "becca": {
+   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "top_enemies": [
+    {
+     "opponent": "whitaker",
+     "pts_against": 1684.7,
+     "games": 13,
+     "avg": 129.6,
+     "their_record_vs_you": "2-11"
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 1559.9,
+     "games": 13,
+     "avg": 120.0,
+     "their_record_vs_you": "5-8"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1068.6,
+     "games": 9,
+     "avg": 118.7,
+     "their_record_vs_you": "3-6"
+    },
+    {
+     "opponent": "Zac",
+     "pts_against": 1060.9,
+     "games": 9,
+     "avg": 117.9,
+     "their_record_vs_you": "4-5"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 39.84,
+     "player": "Patrick Mahomes",
+     "by": "Benedict",
+     "season": 2018,
+     "week": 2
+    },
+    "RB": {
+     "pts": 47.7,
+     "player": "Christian McCaffrey",
+     "by": "Ryan",
+     "season": 2018,
+     "week": 12
+    },
+    "WR": {
+     "pts": 59.9,
+     "player": "Tyreek Hill",
+     "by": "Tommy",
+     "season": 2020,
+     "week": 12
+    },
+    "TE": {
+     "pts": 45.0,
+     "player": "Darren Waller",
+     "by": "pb",
+     "season": 2020,
+     "week": 13
+    },
+    "K": {
+     "pts": 9.5,
+     "player": "Matt Gay",
+     "by": "Jason",
+     "season": 2022,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 21.0,
+     "player": "Rams - DEF",
+     "by": "Jason",
+     "season": 2019,
+     "week": 7
+    }
+   }
+  },
+  "Aboubacar": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_enemies": [
+    {
+     "opponent": "Carter",
+     "pts_against": 378.1,
+     "games": 3,
+     "avg": 126.0,
+     "their_record_vs_you": "0-3"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 288.3,
+     "games": 3,
+     "avg": 96.1,
+     "their_record_vs_you": "1-2"
+    },
+    {
+     "opponent": "Jay",
+     "pts_against": 248.6,
+     "games": 2,
+     "avg": 124.3,
+     "their_record_vs_you": "0-2"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 223.3,
+     "games": 2,
+     "avg": 111.6,
+     "their_record_vs_you": "1-1"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 28.42,
+     "player": "Dak Prescott",
+     "by": "Michael",
+     "season": 2021,
+     "week": 1
+    },
+    "RB": {
+     "pts": 22.1,
+     "player": "Nick Chubb",
+     "by": "Michael",
+     "season": 2021,
+     "week": 1
+    },
+    "WR": {
+     "pts": 44.4,
+     "player": "Tee Higgins",
+     "by": "Carter",
+     "season": 2021,
+     "week": 16
+    },
+    "TE": {
+     "pts": 21.3,
+     "player": "Pat Freiermuth",
+     "by": "Jason",
+     "season": 2021,
+     "week": 9
+    },
+    "K": {
+     "pts": 10.5,
+     "player": "Daniel Carlson",
+     "by": "Brice",
+     "season": 2021,
+     "week": 12
+    },
+    "DEF": {
+     "pts": 25.0,
+     "player": "Dolphins - DEF",
+     "by": "Carter",
+     "season": 2021,
+     "week": 16
+    }
+   }
+  },
+  "Kat": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_enemies": [
+    {
+     "opponent": "Michael",
+     "pts_against": 792.4,
+     "games": 8,
+     "avg": 99.0,
+     "their_record_vs_you": "5-3"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 779.9,
+     "games": 6,
+     "avg": 130.0,
+     "their_record_vs_you": "0-6"
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 660.4,
+     "games": 6,
+     "avg": 110.1,
+     "their_record_vs_you": "4-2"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 599.3,
+     "games": 6,
+     "avg": 99.9,
+     "their_record_vs_you": "3-3"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 43.72,
+     "player": "Justin Fields",
+     "by": "Zac",
+     "season": 2022,
+     "week": 9
+    },
+    "RB": {
+     "pts": 36.3,
+     "player": "Joe Mixon",
+     "by": "pb",
+     "season": 2024,
+     "week": 11
+    },
+    "WR": {
+     "pts": 45.8,
+     "player": "Davante Adams",
+     "by": "Ryan",
+     "season": 2024,
+     "week": 15
+    },
+    "TE": {
+     "pts": 26.1,
+     "player": "Travis Kelce",
+     "by": "Carter",
+     "season": 2022,
+     "week": 1
+    },
+    "K": {
+     "pts": 10.0,
+     "player": "Younghoe Koo",
+     "by": "Tommy",
+     "season": 2024,
+     "week": 4
+    },
+    "DEF": {
+     "pts": 27.0,
+     "player": "Patriots - DEF",
+     "by": "Zac",
+     "season": 2022,
+     "week": 9
+    }
+   }
+  },
+  "Kevin": {
+   "franchise": "Jay \u2192 Kevin",
+   "top_enemies": [
+    {
+     "opponent": "pb",
+     "pts_against": 720.1,
+     "games": 6,
+     "avg": 120.0,
+     "their_record_vs_you": "2-4"
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 621.3,
+     "games": 6,
+     "avg": 103.5,
+     "their_record_vs_you": "3-3"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 592.3,
+     "games": 5,
+     "avg": 118.5,
+     "their_record_vs_you": "2-3"
+    },
+    {
+     "opponent": "Kat",
+     "pts_against": 510.4,
+     "games": 4,
+     "avg": 127.6,
+     "their_record_vs_you": "1-3"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 46.68,
+     "player": "Josh Allen",
+     "by": "Megan",
+     "season": 2025,
+     "week": 11
+    },
+    "RB": {
+     "pts": 41.8,
+     "player": "Jonathan Taylor",
+     "by": "Tommy",
+     "season": 2024,
+     "week": 16
+    },
+    "WR": {
+     "pts": 46.46,
+     "player": "Keenan Allen",
+     "by": "Kat",
+     "season": 2023,
+     "week": 3
+    },
+    "TE": {
+     "pts": 36.9,
+     "player": "Travis Kelce",
+     "by": "Carter",
+     "season": 2023,
+     "week": 7
+    },
+    "K": {
+     "pts": 10.5,
+     "player": "Jason Myers",
+     "by": "Jason",
+     "season": 2023,
+     "week": 10
+    },
+    "DEF": {
+     "pts": 25.0,
+     "player": "Raiders - DEF",
+     "by": "Jason",
+     "season": 2023,
+     "week": 15
+    }
+   }
+  },
+  "Megan": {
+   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "top_enemies": [
+    {
+     "opponent": "Ryan",
+     "pts_against": 607.6,
+     "games": 5,
+     "avg": 121.5,
+     "their_record_vs_you": "4-1"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 421.4,
+     "games": 3,
+     "avg": 140.5,
+     "their_record_vs_you": "1-2"
+    },
+    {
+     "opponent": "Kevin",
+     "pts_against": 420.5,
+     "games": 4,
+     "avg": 105.1,
+     "their_record_vs_you": "2-2"
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 419.8,
+     "games": 4,
+     "avg": 105.0,
+     "their_record_vs_you": "4-0"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 53.88,
+     "player": "Josh Allen",
+     "by": "whitaker",
+     "season": 2024,
+     "week": 14
+    },
+    "RB": {
+     "pts": 41.5,
+     "player": "De'Von Achane",
+     "by": "Carter",
+     "season": 2025,
+     "week": 10
+    },
+    "WR": {
+     "pts": 43.3,
+     "player": "Ja'Marr Chase",
+     "by": "Carter",
+     "season": 2024,
+     "week": 5
+    },
+    "TE": {
+     "pts": 31.6,
+     "player": "Brock Bowers",
+     "by": "Tommy",
+     "season": 2024,
+     "week": 11
+    },
+    "K": {
+     "pts": 10.5,
+     "player": "Brandon Aubrey",
+     "by": "Ryan",
+     "season": 2024,
+     "week": 1
+    },
+    "DEF": {
+     "pts": 21.0,
+     "player": "Packers - DEF",
+     "by": "Zac",
+     "season": 2024,
+     "week": 3
+    }
+   }
+  },
+  "Alex": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_enemies": [
+    {
+     "opponent": "Jason",
+     "pts_against": 347.6,
+     "games": 3,
+     "avg": 115.9,
+     "their_record_vs_you": "1-2"
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 261.9,
+     "games": 2,
+     "avg": 130.9,
+     "their_record_vs_you": "1-1"
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 239.2,
+     "games": 2,
+     "avg": 119.6,
+     "their_record_vs_you": "2-0"
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 237.5,
+     "games": 2,
+     "avg": 118.7,
+     "their_record_vs_you": "0-2"
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 28.4,
+     "player": "Matthew Stafford",
+     "by": "Tommy",
+     "season": 2025,
+     "week": 4
+    },
+    "RB": {
+     "pts": 35.1,
+     "player": "Christian McCaffrey",
+     "by": "Carter",
+     "season": 2025,
+     "week": 11
+    },
+    "WR": {
+     "pts": 49.5,
+     "player": "Puka Nacua",
+     "by": "Jason",
+     "season": 2025,
+     "week": 16
+    },
+    "TE": {
+     "pts": 23.9,
+     "player": "Jake Ferguson",
+     "by": "Ryan",
+     "season": 2025,
+     "week": 5
+    },
+    "K": {
+     "pts": 11.0,
+     "player": "Brandon Aubrey",
+     "by": "Carter",
+     "season": 2025,
+     "week": 2
+    },
+    "DEF": {
+     "pts": 17.0,
+     "player": "Rams - DEF",
+     "by": "Jason",
+     "season": 2025,
+     "week": 6
+    }
+   }
+  }
+ },
+ "franchise_enemies": {
+  "Kyle": {
+   "top_enemies": [
+    {
+     "opponent": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+     "pts_against": 1169.1,
+     "games": 9,
+     "avg": 129.9,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 1117.8,
+     "games": 9,
+     "avg": 124.2,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 1084.3,
+     "games": 9,
+     "avg": 120.5,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1080.8,
+     "games": 10,
+     "avg": 108.1,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 36.66,
+     "player": "Cam Newton",
+     "by": "Kelly Brown",
+     "season": 2017,
+     "week": 10
+    },
+    "RB": {
+     "pts": 61.5,
+     "player": "Jamaal Charles",
+     "by": "Jay",
+     "season": 2013,
+     "week": 15
+    },
+    "WR": {
+     "pts": 50.1,
+     "player": "Josh Gordon",
+     "by": "Dave Lang",
+     "season": 2013,
+     "week": 13
+    },
+    "TE": {
+     "pts": 36.0,
+     "player": "George Kittle",
+     "by": "Jason",
+     "season": 2018,
+     "week": 14
+    },
+    "K": {
+     "pts": 23.0,
+     "player": "Justin Tucker",
+     "by": "Jay",
+     "season": 2013,
+     "week": 15
+    },
+    "DEF": {
+     "pts": 45.6,
+     "player": "Bengals - DEF",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 11
+    }
+   }
+  },
+  "Brice": {
+   "top_enemies": [
+    {
+     "opponent": "Carter",
+     "pts_against": 3203.7,
+     "games": 26,
+     "avg": 123.2,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Jay \u2192 Kevin",
+     "pts_against": 2598.4,
+     "games": 21,
+     "avg": 123.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+     "pts_against": 2350.1,
+     "games": 21,
+     "avg": 111.9,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 2275.1,
+     "games": 21,
+     "avg": 108.3,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 45.3,
+     "player": "Drew Brees",
+     "by": "Ryan",
+     "season": 2015,
+     "week": 8
+    },
+    "RB": {
+     "pts": 48.7,
+     "player": "Christian McCaffrey",
+     "by": "Jason",
+     "season": 2019,
+     "week": 5
+    },
+    "WR": {
+     "pts": 51.0,
+     "player": "Julio Jones",
+     "by": "Dylan Snyder",
+     "season": 2016,
+     "week": 4
+    },
+    "TE": {
+     "pts": 41.7,
+     "player": "Mark Andrews",
+     "by": "Jason",
+     "season": 2021,
+     "week": 5
+    },
+    "K": {
+     "pts": 20.0,
+     "player": "Adam Vinatieri",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 13
+    },
+    "DEF": {
+     "pts": 33.5,
+     "player": "Bengals - DEF",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 16
+    }
+   }
+  },
+  "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex": {
+   "top_enemies": [
+    {
+     "opponent": "Carter",
+     "pts_against": 2739.4,
+     "games": 23,
+     "avg": 119.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 2431.2,
+     "games": 21,
+     "avg": 115.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "pts_against": 2180.9,
+     "games": 19,
+     "avg": 114.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 2112.6,
+     "games": 19,
+     "avg": 111.2,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 43.72,
+     "player": "Justin Fields",
+     "by": "Zac",
+     "season": 2022,
+     "week": 9
+    },
+    "RB": {
+     "pts": 51.8,
+     "player": "Le'Veon Bell",
+     "by": "Jay",
+     "season": 2016,
+     "week": 14
+    },
+    "WR": {
+     "pts": 54.0,
+     "player": "Tyler Lockett",
+     "by": "becca",
+     "season": 2020,
+     "week": 7
+    },
+    "TE": {
+     "pts": 33.8,
+     "player": "Jimmy Graham",
+     "by": "Carter",
+     "season": 2014,
+     "week": 2
+    },
+    "K": {
+     "pts": 19.0,
+     "player": "Justin Tucker",
+     "by": "Jay",
+     "season": 2013,
+     "week": 13
+    },
+    "DEF": {
+     "pts": 41.2,
+     "player": "Bengals - DEF",
+     "by": "Jay",
+     "season": 2013,
+     "week": 8
+    }
+   }
+  },
+  "whitaker": {
+   "top_enemies": [
+    {
+     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "pts_against": 2643.2,
+     "games": 25,
+     "avg": 105.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 2337.3,
+     "games": 21,
+     "avg": 111.3,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 2325.5,
+     "games": 18,
+     "avg": 129.2,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "pts_against": 2243.8,
+     "games": 18,
+     "avg": 124.7,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 43.74,
+     "player": "Deshaun Watson",
+     "by": "becca",
+     "season": 2019,
+     "week": 5
+    },
+    "RB": {
+     "pts": 54.4,
+     "player": "Jonathan Taylor",
+     "by": "Tommy",
+     "season": 2021,
+     "week": 11
+    },
+    "WR": {
+     "pts": 42.4,
+     "player": "Amon-Ra St. Brown",
+     "by": "Michael",
+     "season": 2025,
+     "week": 15
+    },
+    "TE": {
+     "pts": 43.3,
+     "player": "Brock Bowers",
+     "by": "Tommy",
+     "season": 2025,
+     "week": 9
+    },
+    "K": {
+     "pts": 14.0,
+     "player": "Nick Novak",
+     "by": "Dave Lang",
+     "season": 2013,
+     "week": 14
+    },
+    "DEF": {
+     "pts": 57.5,
+     "player": "Chiefs - DEF",
+     "by": "Dave Lang",
+     "season": 2013,
+     "week": 14
+    }
+   }
+  },
+  "Dave Lang": {
+   "top_enemies": [
+    {
+     "opponent": "Kyle",
+     "pts_against": 609.1,
+     "games": 5,
+     "avg": 121.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+     "pts_against": 569.1,
+     "games": 4,
+     "avg": 142.3,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "pts_against": 413.4,
+     "games": 3,
+     "avg": 137.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 394.5,
+     "games": 3,
+     "avg": 131.5,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 41.04,
+     "player": "Drew Brees",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 17
+    },
+    "RB": {
+     "pts": 37.1,
+     "player": "LeSean McCoy",
+     "by": "whitaker",
+     "season": 2013,
+     "week": 14
+    },
+    "WR": {
+     "pts": 50.9,
+     "player": "Alshon Jeffery",
+     "by": "Kyle",
+     "season": 2013,
+     "week": 13
+    },
+    "TE": {
+     "pts": 35.4,
+     "player": "Julius Thomas",
+     "by": "Tommy",
+     "season": 2014,
+     "week": 1
+    },
+    "K": {
+     "pts": 17.0,
+     "player": "Phil Dawson",
+     "by": "Benedict",
+     "season": 2013,
+     "week": 15
+    },
+    "DEF": {
+     "pts": 33.33,
+     "player": "Bengals - DEF",
+     "by": "Dylan Snyder",
+     "season": 2013,
+     "week": 17
+    }
+   }
+  },
+  "Dylan Snyder \u2192 becca \u2192 Megan": {
+   "top_enemies": [
+    {
+     "opponent": "whitaker",
+     "pts_against": 2978.2,
+     "games": 25,
+     "avg": 119.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Tommy",
+     "pts_against": 2344.5,
+     "games": 21,
+     "avg": 111.6,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Jay \u2192 Kevin",
+     "pts_against": 2318.5,
+     "games": 19,
+     "avg": 122.0,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 2270.8,
+     "games": 21,
+     "avg": 108.1,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 53.88,
+     "player": "Josh Allen",
+     "by": "whitaker",
+     "season": 2024,
+     "week": 14
+    },
+    "RB": {
+     "pts": 47.7,
+     "player": "Christian McCaffrey",
+     "by": "Ryan",
+     "season": 2018,
+     "week": 12
+    },
+    "WR": {
+     "pts": 59.9,
+     "player": "Tyreek Hill",
+     "by": "Tommy",
+     "season": 2020,
+     "week": 12
+    },
+    "TE": {
+     "pts": 45.0,
+     "player": "Darren Waller",
+     "by": "pb",
+     "season": 2020,
+     "week": 13
+    },
+    "K": {
+     "pts": 19.0,
+     "player": "Stephen Hauschka",
+     "by": "Jay",
+     "season": 2013,
+     "week": 10
+    },
+    "DEF": {
+     "pts": 34.3,
+     "player": "Patriots - DEF",
+     "by": "whitaker",
+     "season": 2013,
+     "week": 9
+    }
+   }
+  },
+  "Jay \u2192 Kevin": {
+   "top_enemies": [
+    {
+     "opponent": "Carter",
+     "pts_against": 2557.0,
+     "games": 21,
+     "avg": 121.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 2421.7,
+     "games": 22,
+     "avg": 110.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 2291.2,
+     "games": 21,
+     "avg": 109.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 2198.1,
+     "games": 19,
+     "avg": 115.7,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 46.68,
+     "player": "Josh Allen",
+     "by": "Megan",
+     "season": 2025,
+     "week": 11
+    },
+    "RB": {
+     "pts": 46.6,
+     "player": "Aaron Jones Sr.",
+     "by": "Zac",
+     "season": 2020,
+     "week": 2
+    },
+    "WR": {
+     "pts": 57.6,
+     "player": "Ja'Marr Chase",
+     "by": "Zac",
+     "season": 2021,
+     "week": 17
+    },
+    "TE": {
+     "pts": 40.9,
+     "player": "T.J. Hockenson",
+     "by": "whitaker",
+     "season": 2022,
+     "week": 4
+    },
+    "K": {
+     "pts": 13.5,
+     "player": "Greg Zuerlein",
+     "by": "Jason",
+     "season": 2017,
+     "week": 4
+    },
+    "DEF": {
+     "pts": 32.67,
+     "player": "Broncos - DEF",
+     "by": "Benedict",
+     "season": 2013,
+     "week": 8
+    }
+   }
+  },
+  "Carter": {
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 3150.4,
+     "games": 26,
+     "avg": 121.2,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Jay \u2192 Kevin",
+     "pts_against": 2474.9,
+     "games": 21,
+     "avg": 117.9,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+     "pts_against": 2348.2,
+     "games": 23,
+     "avg": 102.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 2105.2,
+     "games": 19,
+     "avg": 110.8,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 39.38,
+     "player": "Justin Fields",
+     "by": "Zac",
+     "season": 2022,
+     "week": 10
+    },
+    "RB": {
+     "pts": 45.9,
+     "player": "David Johnson",
+     "by": "Brice",
+     "season": 2015,
+     "week": 15
+    },
+    "WR": {
+     "pts": 44.3,
+     "player": "Allen Robinson",
+     "by": "Brice",
+     "season": 2015,
+     "week": 13
+    },
+    "TE": {
+     "pts": 40.5,
+     "player": "Zach Ertz",
+     "by": "Kyle",
+     "season": 2018,
+     "week": 10
+    },
+    "K": {
+     "pts": 15.0,
+     "player": "Justin Tucker",
+     "by": "Jay",
+     "season": 2013,
+     "week": 12
+    },
+    "DEF": {
+     "pts": 42.7,
+     "player": "Patriots - DEF",
+     "by": "whitaker",
+     "season": 2013,
+     "week": 16
+    }
+   }
+  },
+  "pb": {
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 2497.1,
+     "games": 21,
+     "avg": 118.9,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Jay \u2192 Kevin",
+     "pts_against": 2321.7,
+     "games": 20,
+     "avg": 116.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "pts_against": 2178.2,
+     "games": 21,
+     "avg": 103.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+     "pts_against": 1973.2,
+     "games": 19,
+     "avg": 103.9,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 44.82,
+     "player": "Justin Herbert",
+     "by": "whitaker",
+     "season": 2021,
+     "week": 5
+    },
+    "RB": {
+     "pts": 58.4,
+     "player": "Jahmyr Gibbs",
+     "by": "Megan",
+     "season": 2025,
+     "week": 12
+    },
+    "WR": {
+     "pts": 52.8,
+     "player": "Julio Jones",
+     "by": "Dylan Snyder",
+     "season": 2017,
+     "week": 12
+    },
+    "TE": {
+     "pts": 42.9,
+     "player": "Rob Gronkowski",
+     "by": "Jay",
+     "season": 2014,
+     "week": 8
+    },
+    "K": {
+     "pts": 11.0,
+     "player": "Blair Walsh",
+     "by": "Jay",
+     "season": 2015,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 33.0,
+     "player": "Cardinals - DEF",
+     "by": "Jay",
+     "season": 2015,
+     "week": 16
+    }
+   }
+  },
+  "Ryan": {
+   "top_enemies": [
+    {
+     "opponent": "Tommy",
+     "pts_against": 2500.3,
+     "games": 22,
+     "avg": 113.6,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 2389.3,
+     "games": 21,
+     "avg": 113.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Zac",
+     "pts_against": 2055.5,
+     "games": 17,
+     "avg": 120.9,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "pts_against": 1975.8,
+     "games": 17,
+     "avg": 116.2,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 45.76,
+     "player": "Aaron Rodgers",
+     "by": "Brice",
+     "season": 2019,
+     "week": 7
+    },
+    "RB": {
+     "pts": 49.6,
+     "player": "Dalvin Cook",
+     "by": "Jason",
+     "season": 2020,
+     "week": 8
+    },
+    "WR": {
+     "pts": 57.4,
+     "player": "Ja'Marr Chase",
+     "by": "Carter",
+     "season": 2024,
+     "week": 10
+    },
+    "TE": {
+     "pts": 42.1,
+     "player": "Travis Kelce",
+     "by": "Carter",
+     "season": 2021,
+     "week": 15
+    },
+    "K": {
+     "pts": 10.5,
+     "player": "Jason Sanders",
+     "by": "Megan",
+     "season": 2024,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 25.0,
+     "player": "Colts - DEF",
+     "by": "Zac",
+     "season": 2020,
+     "week": 3
+    }
+   }
+  },
+  "Michael": {
+   "top_enemies": [
+    {
+     "opponent": "Jay \u2192 Kevin",
+     "pts_against": 2528.3,
+     "games": 22,
+     "avg": 114.9,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Brice",
+     "pts_against": 2322.8,
+     "games": 19,
+     "avg": 122.3,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+     "pts_against": 2256.7,
+     "games": 20,
+     "avg": 112.8,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Carter",
+     "pts_against": 2085.6,
+     "games": 19,
+     "avg": 109.8,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 41.0,
+     "player": "Patrick Mahomes",
+     "by": "Carter",
+     "season": 2020,
+     "week": 3
+    },
+    "RB": {
+     "pts": 50.6,
+     "player": "Todd Gurley",
+     "by": "Jay",
+     "season": 2017,
+     "week": 16
+    },
+    "WR": {
+     "pts": 45.5,
+     "player": "Stefon Diggs",
+     "by": "Brice",
+     "season": 2019,
+     "week": 6
+    },
+    "TE": {
+     "pts": 40.6,
+     "player": "George Kittle",
+     "by": "Jay",
+     "season": 2021,
+     "week": 13
+    },
+    "K": {
+     "pts": 9.7,
+     "player": "Matt Bryant",
+     "by": "Kyle",
+     "season": 2016,
+     "week": 16
+    },
+    "DEF": {
+     "pts": 27.0,
+     "player": "Giants - DEF",
+     "by": "Jay",
+     "season": 2014,
+     "week": 14
+    }
+   }
+  },
+  "Tommy": {
+   "top_enemies": [
+    {
+     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "pts_against": 2746.6,
+     "games": 23,
+     "avg": 119.4,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "pts_against": 2444.7,
+     "games": 21,
+     "avg": 116.4,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 2411.3,
+     "games": 22,
+     "avg": 109.6,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 2078.8,
+     "games": 18,
+     "avg": 115.5,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 43.34,
+     "player": "Russell Wilson",
+     "by": "Jason",
+     "season": 2019,
+     "week": 3
+    },
+    "RB": {
+     "pts": 55.1,
+     "player": "Joe Mixon",
+     "by": "Michael",
+     "season": 2022,
+     "week": 9
+    },
+    "WR": {
+     "pts": 46.9,
+     "player": "Antonio Brown",
+     "by": "Jay",
+     "season": 2015,
+     "week": 15
+    },
+    "TE": {
+     "pts": 43.52,
+     "player": "Taysom Hill",
+     "by": "Megan",
+     "season": 2024,
+     "week": 11
+    },
+    "K": {
+     "pts": 13.0,
+     "player": "Jake Moody",
+     "by": "whitaker",
+     "season": 2024,
+     "week": 1
+    },
+    "DEF": {
+     "pts": 30.0,
+     "player": "Seahawks - DEF",
+     "by": "Kevin",
+     "season": 2025,
+     "week": 13
+    }
+   }
+  },
+  "David Laskey \u2192 Sara \u2192 Jason": {
+   "top_enemies": [
+    {
+     "opponent": "Tommy",
+     "pts_against": 2581.8,
+     "games": 23,
+     "avg": 112.3,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 2118.8,
+     "games": 18,
+     "avg": 117.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1981.0,
+     "games": 17,
+     "avg": 116.5,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 1975.8,
+     "games": 16,
+     "avg": 123.5,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 42.88,
+     "player": "Lamar Jackson",
+     "by": "Brice",
+     "season": 2021,
+     "week": 5
+    },
+    "RB": {
+     "pts": 49.2,
+     "player": "Aaron Jones Sr.",
+     "by": "Brice",
+     "season": 2019,
+     "week": 5
+    },
+    "WR": {
+     "pts": 45.8,
+     "player": "Stefon Diggs",
+     "by": "Ryan",
+     "season": 2022,
+     "week": 2
+    },
+    "TE": {
+     "pts": 40.1,
+     "player": "George Kittle",
+     "by": "whitaker",
+     "season": 2020,
+     "week": 4
+    },
+    "K": {
+     "pts": 11.0,
+     "player": "Mason Crosby",
+     "by": "Tommy",
+     "season": 2015,
+     "week": 11
+    },
+    "DEF": {
+     "pts": 32.0,
+     "player": "Bills - DEF",
+     "by": "Ryan",
+     "season": 2023,
+     "week": 3
+    }
+   }
+  },
+  "Kelly Brown": {
+   "top_enemies": [
+    {
+     "opponent": "Jay \u2192 Kevin",
+     "pts_against": 790.3,
+     "games": 6,
+     "avg": 131.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Michael",
+     "pts_against": 668.4,
+     "games": 5,
+     "avg": 133.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "pb",
+     "pts_against": 543.3,
+     "games": 5,
+     "avg": 108.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Zac",
+     "pts_against": 451.2,
+     "games": 4,
+     "avg": 112.8,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 34.78,
+     "player": "Deshaun Watson",
+     "by": "Tommy",
+     "season": 2017,
+     "week": 8
+    },
+    "RB": {
+     "pts": 47.6,
+     "player": "Kareem Hunt",
+     "by": "Zac",
+     "season": 2017,
+     "week": 1
+    },
+    "WR": {
+     "pts": 46.8,
+     "player": "DeAndre Hopkins",
+     "by": "Benedict",
+     "season": 2014,
+     "week": 13
+    },
+    "TE": {
+     "pts": 25.2,
+     "player": "Heath Miller",
+     "by": "Michael",
+     "season": 2014,
+     "week": 8
+    },
+    "K": {
+     "pts": 9.0,
+     "player": "Matt Prater",
+     "by": "Tommy",
+     "season": 2017,
+     "week": 8
+    },
+    "DEF": {
+     "pts": 27.0,
+     "player": "Rams - DEF",
+     "by": "pb",
+     "season": 2014,
+     "week": 14
+    }
+   }
+  },
+  "Zac": {
+   "top_enemies": [
+    {
+     "opponent": "Brice",
+     "pts_against": 1801.3,
+     "games": 15,
+     "avg": 120.1,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "Ryan",
+     "pts_against": 1797.4,
+     "games": 17,
+     "avg": 105.7,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "pts_against": 1733.3,
+     "games": 16,
+     "avg": 108.3,
+     "their_record_vs_you": null
+    },
+    {
+     "opponent": "whitaker",
+     "pts_against": 1727.0,
+     "games": 16,
+     "avg": 107.9,
+     "their_record_vs_you": null
+    }
+   ],
+   "biggest_days_by_pos": {
+    "QB": {
+     "pts": 39.68,
+     "player": "Tom Brady",
+     "by": "Ryan",
+     "season": 2022,
+     "week": 17
+    },
+    "RB": {
+     "pts": 40.26,
+     "player": "Christian McCaffrey",
+     "by": "becca",
+     "season": 2022,
+     "week": 8
+    },
+    "WR": {
+     "pts": 53.5,
+     "player": "Amari Cooper",
+     "by": "Ryan",
+     "season": 2023,
+     "week": 16
+    },
+    "TE": {
+     "pts": 29.9,
+     "player": "Travis Kelce",
+     "by": "Jay",
+     "season": 2018,
+     "week": 2
+    },
+    "K": {
+     "pts": 11.5,
+     "player": "Tyler Bass",
+     "by": "Tommy",
+     "season": 2022,
+     "week": 11
+    },
+    "DEF": {
+     "pts": 38.0,
+     "player": "Cowboys - DEF",
+     "by": "Tommy",
+     "season": 2023,
+     "week": 1
+    }
+   }
+  }
+ }
+}

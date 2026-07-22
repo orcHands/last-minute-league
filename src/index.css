@@ -1,0 +1,143 @@
+@import 'tailwindcss';
+
+/* ─── IBM Plex Sans (variable, covers 100–900) ─── */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://static.figma.com/font/IBMPlexSans_wdth_wght__1') format('woff2');
+}
+
+/* ─── IBM Plex Mono ─── */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://static.figma.com/font/IBMPlexMono-Light_3') format('woff2');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://static.figma.com/font/IBMPlexMono-Regular_2') format('woff2');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://static.figma.com/font/IBMPlexMono-SemiBold_3') format('woff2');
+}
+
+/* ─── Tailwind v4 theme tokens ─── */
+@theme {
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  /* Carbon Gray 100 dark — semantic color tokens */
+  --color-c-bg:            #161616;
+  --color-c-layer-01:      #262626;
+  --color-c-layer-02:      #393939;
+  --color-c-layer-03:      #525252;
+  --color-c-border-subtle: #393939;
+  --color-c-border-strong: #6f6f6f;
+  --color-c-text-primary:  #f4f4f4;
+  --color-c-text-secondary:#c6c6c6;
+  --color-c-text-helper:   #8d8d8d;
+  --color-c-link:          #78a9ff;
+  --color-c-focus:         #ffffff;
+  --color-c-error:         #fa4d56;
+  --color-c-success:       #42be65;
+  --color-c-warning:       #f1c21b;
+  --color-c-info:          #4589ff;
+
+  /* Division accent colors */
+  --color-div-oconner:     #FF3B30;
+  --color-div-toretto:     #006FFF;
+
+  /* Carbon spacing scale */
+  --spacing-01: 2px;
+  --spacing-02: 4px;
+  --spacing-03: 8px;
+  --spacing-04: 12px;
+  --spacing-05: 16px;
+  --spacing-06: 24px;
+  --spacing-07: 32px;
+  --spacing-08: 40px;
+  --spacing-09: 48px;
+  --spacing-10: 64px;
+  --spacing-11: 80px;
+  --spacing-12: 96px;
+  --spacing-13: 160px;
+
+  /* Carbon square corners */
+  --radius: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+
+  /* Carbon breakpoints */
+  --breakpoint-sm:  320px;
+  --breakpoint-md:  672px;
+  --breakpoint-lg:  1056px;
+  --breakpoint-xl:  1312px;
+  --breakpoint-2xl: 1584px;
+  --breakpoint-4k:  1920px;
+
+  /* Carbon productive motion */
+  --ease-productive: cubic-bezier(0.2, 0, 0.38, 0.9);
+  --duration-fast: 70ms;
+  --duration-moderate: 150ms;
+  --duration-standard: 240ms;
+}
+
+/* ─── Base ─── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #161616;
+  color: #f4f4f4;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #161616;
+}
+
+/* Scrollbars — thin, only visible when scrolling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #393939 transparent;
+}
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background-color: #393939; border-radius: 0; }
+
+/* Tabular numerals utility (used on all data) */
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Focus ring — Carbon white */
+:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 0;
+}
+
+/* Carbon data table reset */
+table { border-collapse: collapse; width: 100%; }
+
+/* Carbon motion */
+.transition-productive {
+  transition-timing-function: cubic-bezier(0.2, 0, 0.38, 0.9);
+  transition-duration: 150ms;
+}

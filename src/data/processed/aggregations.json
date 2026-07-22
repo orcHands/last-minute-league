@@ -1,0 +1,2820 @@
+{
+ "leaderboard_started": [
+  {
+   "player": "Travis Kelce",
+   "pos": "TE",
+   "pts": 2612.76
+  },
+  {
+   "player": "Patrick Mahomes",
+   "pos": "QB",
+   "pts": 2586.74
+  },
+  {
+   "player": "Davante Adams",
+   "pos": "WR",
+   "pts": 2418.7
+  },
+  {
+   "player": "Mike Evans",
+   "pos": "WR",
+   "pts": 2380.5
+  },
+  {
+   "player": "Christian McCaffrey",
+   "pos": "RB",
+   "pts": 2328.16
+  },
+  {
+   "player": "Tom Brady",
+   "pos": "QB",
+   "pts": 2318.9
+  },
+  {
+   "player": "Aaron Rodgers",
+   "pos": "QB",
+   "pts": 2252.48
+  },
+  {
+   "player": "Tyreek Hill",
+   "pos": "WR",
+   "pts": 2251.2
+  },
+  {
+   "player": "Keenan Allen",
+   "pos": "WR",
+   "pts": 2165.26
+  },
+  {
+   "player": "Russell Wilson",
+   "pos": "QB",
+   "pts": 2153.08
+  },
+  {
+   "player": "Stefon Diggs",
+   "pos": "WR",
+   "pts": 2136.12
+  },
+  {
+   "player": "Josh Allen",
+   "pos": "QB",
+   "pts": 2099.62
+  },
+  {
+   "player": "Alvin Kamara",
+   "pos": "RB",
+   "pts": 2067.52
+  },
+  {
+   "player": "DeAndre Hopkins",
+   "pos": "WR",
+   "pts": 2046.64
+  },
+  {
+   "player": "Lamar Jackson",
+   "pos": "QB",
+   "pts": 2013.78
+  },
+  {
+   "player": "Antonio Brown",
+   "pos": "WR",
+   "pts": 1929.2
+  },
+  {
+   "player": "Dak Prescott",
+   "pos": "QB",
+   "pts": 1903.12
+  },
+  {
+   "player": "Matthew Stafford",
+   "pos": "QB",
+   "pts": 1859.04
+  },
+  {
+   "player": "Julio Jones",
+   "pos": "WR",
+   "pts": 1768.6
+  },
+  {
+   "player": "Derrick Henry",
+   "pos": "RB",
+   "pts": 1763.36
+  },
+  {
+   "player": "Drew Brees",
+   "pos": "QB",
+   "pts": 1752.36
+  },
+  {
+   "player": "Ezekiel Elliott",
+   "pos": "RB",
+   "pts": 1749.36
+  },
+  {
+   "player": "Saquon Barkley",
+   "pos": "RB",
+   "pts": 1728.6
+  },
+  {
+   "player": "Jalen Hurts",
+   "pos": "QB",
+   "pts": 1634.12
+  },
+  {
+   "player": "Cooper Kupp",
+   "pos": "WR",
+   "pts": 1629.6
+  },
+  {
+   "player": "Amari Cooper",
+   "pos": "WR",
+   "pts": 1594.3
+  },
+  {
+   "player": "Brandin Cooks",
+   "pos": "WR",
+   "pts": 1559.9
+  },
+  {
+   "player": "Matt Ryan",
+   "pos": "QB",
+   "pts": 1538.12
+  },
+  {
+   "player": "Cam Newton",
+   "pos": "QB",
+   "pts": 1530.28
+  },
+  {
+   "player": "Joe Mixon",
+   "pos": "RB",
+   "pts": 1506.8
+  },
+  {
+   "player": "Justin Jefferson",
+   "pos": "WR",
+   "pts": 1493.64
+  },
+  {
+   "player": "Le'Veon Bell",
+   "pos": "RB",
+   "pts": 1453.2
+  },
+  {
+   "player": "Josh Jacobs",
+   "pos": "RB",
+   "pts": 1447.0
+  },
+  {
+   "player": "Adam Thielen",
+   "pos": "WR",
+   "pts": 1435.6
+  },
+  {
+   "player": "CeeDee Lamb",
+   "pos": "WR",
+   "pts": 1429.0
+  },
+  {
+   "player": "Aaron Jones Sr.",
+   "pos": "RB",
+   "pts": 1423.8
+  },
+  {
+   "player": "Kyler Murray",
+   "pos": "QB",
+   "pts": 1416.22
+  },
+  {
+   "player": "Todd Gurley",
+   "pos": "RB",
+   "pts": 1411.3
+  },
+  {
+   "player": "George Kittle",
+   "pos": "TE",
+   "pts": 1392.4
+  },
+  {
+   "player": "Austin Ekeler",
+   "pos": "RB",
+   "pts": 1386.9
+  },
+  {
+   "player": "Kirk Cousins",
+   "pos": "QB",
+   "pts": 1385.24
+  },
+  {
+   "player": "Odell Beckham Jr.",
+   "pos": "WR",
+   "pts": 1376.66
+  },
+  {
+   "player": "Justin Herbert",
+   "pos": "QB",
+   "pts": 1367.64
+  },
+  {
+   "player": "A.J. Brown",
+   "pos": "WR",
+   "pts": 1349.3
+  },
+  {
+   "player": "Jonathan Taylor",
+   "pos": "RB",
+   "pts": 1305.9
+  },
+  {
+   "player": "Patriots - DEF",
+   "pos": "DEF",
+   "pts": 1282.81
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "pos": "WR",
+   "pts": 1281.4
+  },
+  {
+   "player": "A.J. Green",
+   "pos": "WR",
+   "pts": 1256.7
+  },
+  {
+   "player": "Tyler Lockett",
+   "pos": "WR",
+   "pts": 1247.4
+  },
+  {
+   "player": "Zach Ertz",
+   "pos": "TE",
+   "pts": 1246.6
+  },
+  {
+   "player": "Ravens - DEF",
+   "pos": "DEF",
+   "pts": 1227.21
+  },
+  {
+   "player": "Rams - DEF",
+   "pos": "DEF",
+   "pts": 1223.77
+  },
+  {
+   "player": "Dalvin Cook",
+   "pos": "RB",
+   "pts": 1220.0
+  },
+  {
+   "player": "DJ Moore",
+   "pos": "WR",
+   "pts": 1217.58
+  },
+  {
+   "player": "LeSean McCoy",
+   "pos": "RB",
+   "pts": 1217.2
+  },
+  {
+   "player": "Demaryius Thomas",
+   "pos": "WR",
+   "pts": 1204.0
+  },
+  {
+   "player": "Ben Roethlisberger",
+   "pos": "QB",
+   "pts": 1198.38
+  },
+  {
+   "player": "James Conner",
+   "pos": "RB",
+   "pts": 1189.8
+  },
+  {
+   "player": "Mark Ingram II",
+   "pos": "RB",
+   "pts": 1149.7
+  },
+  {
+   "player": "DK Metcalf",
+   "pos": "WR",
+   "pts": 1147.6
+  },
+  {
+   "player": "Melvin Gordon III",
+   "pos": "RB",
+   "pts": 1130.9
+  },
+  {
+   "player": "T.Y. Hilton",
+   "pos": "WR",
+   "pts": 1129.6
+  },
+  {
+   "player": "Larry Fitzgerald",
+   "pos": "WR",
+   "pts": 1128.82
+  },
+  {
+   "player": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "pts": 1120.28
+  },
+  {
+   "player": "Rob Gronkowski",
+   "pos": "TE",
+   "pts": 1118.7
+  },
+  {
+   "player": "Terry McLaurin",
+   "pos": "WR",
+   "pts": 1114.6
+  },
+  {
+   "player": "Nick Chubb",
+   "pos": "RB",
+   "pts": 1114.0
+  },
+  {
+   "player": "Julian Edelman",
+   "pos": "WR",
+   "pts": 1098.92
+  },
+  {
+   "player": "Joe Burrow",
+   "pos": "QB",
+   "pts": 1095.26
+  },
+  {
+   "player": "David Montgomery",
+   "pos": "RB",
+   "pts": 1080.54
+  },
+  {
+   "player": "Kareem Hunt",
+   "pos": "RB",
+   "pts": 1076.4
+  },
+  {
+   "player": "Allen Robinson",
+   "pos": "WR",
+   "pts": 1060.2
+  },
+  {
+   "player": "DeMarco Murray",
+   "pos": "RB",
+   "pts": 1054.9
+  },
+  {
+   "player": "Michael Thomas",
+   "pos": "WR",
+   "pts": 1050.3
+  },
+  {
+   "player": "Chris Godwin Jr.",
+   "pos": "WR",
+   "pts": 1039.2
+  },
+  {
+   "player": "Jarvis Landry",
+   "pos": "WR",
+   "pts": 1024.08
+  },
+  {
+   "player": "Seahawks - DEF",
+   "pos": "DEF",
+   "pts": 1011.17
+  },
+  {
+   "player": "Robert Woods",
+   "pos": "WR",
+   "pts": 989.1
+  },
+  {
+   "player": "Broncos - DEF",
+   "pos": "DEF",
+   "pts": 988.64
+  },
+  {
+   "player": "Alshon Jeffery",
+   "pos": "WR",
+   "pts": 986.4
+  },
+  {
+   "player": "Deshaun Watson",
+   "pos": "QB",
+   "pts": 984.08
+  },
+  {
+   "player": "Emmanuel Sanders",
+   "pos": "WR",
+   "pts": 972.92
+  },
+  {
+   "player": "Golden Tate",
+   "pos": "WR",
+   "pts": 964.4
+  },
+  {
+   "player": "Steelers - DEF",
+   "pos": "DEF",
+   "pts": 962.3
+  },
+  {
+   "player": "Greg Olsen",
+   "pos": "TE",
+   "pts": 957.9
+  },
+  {
+   "player": "Bills - DEF",
+   "pos": "DEF",
+   "pts": 929.84
+  },
+  {
+   "player": "Jimmy Graham",
+   "pos": "TE",
+   "pts": 929.8
+  },
+  {
+   "player": "Matt Forte",
+   "pos": "RB",
+   "pts": 927.2
+  },
+  {
+   "player": "DeVonta Smith",
+   "pos": "WR",
+   "pts": 921.6
+  },
+  {
+   "player": "Andrew Luck",
+   "pos": "QB",
+   "pts": 917.34
+  },
+  {
+   "player": "49ers - DEF",
+   "pos": "DEF",
+   "pts": 914.28
+  },
+  {
+   "player": "Chiefs - DEF",
+   "pos": "DEF",
+   "pts": 903.69
+  },
+  {
+   "player": "Jared Goff",
+   "pos": "QB",
+   "pts": 889.36
+  },
+  {
+   "player": "T.J. Hockenson",
+   "pos": "TE",
+   "pts": 882.5
+  },
+  {
+   "player": "Lamar Miller",
+   "pos": "RB",
+   "pts": 878.1
+  },
+  {
+   "player": "David Johnson",
+   "pos": "RB",
+   "pts": 872.7
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "pos": "RB",
+   "pts": 871.1
+  },
+  {
+   "player": "Philip Rivers",
+   "pos": "QB",
+   "pts": 867.2
+  },
+  {
+   "player": "Mark Andrews",
+   "pos": "TE",
+   "pts": 861.5
+  },
+  {
+   "player": "Bijan Robinson",
+   "pos": "RB",
+   "pts": 859.0
+  }
+ ],
+ "leaderboard_bench": [
+  {
+   "player": "Jared Goff",
+   "pos": "QB",
+   "pts": 1019.34
+  },
+  {
+   "player": "Russell Wilson",
+   "pos": "QB",
+   "pts": 920.02
+  },
+  {
+   "player": "Philip Rivers",
+   "pos": "QB",
+   "pts": 896.5
+  },
+  {
+   "player": "Kirk Cousins",
+   "pos": "QB",
+   "pts": 861.58
+  },
+  {
+   "player": "Matthew Stafford",
+   "pos": "QB",
+   "pts": 846.0
+  },
+  {
+   "player": "Andy Dalton",
+   "pos": "QB",
+   "pts": 836.54
+  },
+  {
+   "player": "Baker Mayfield",
+   "pos": "QB",
+   "pts": 806.6
+  },
+  {
+   "player": "Trevor Lawrence",
+   "pos": "QB",
+   "pts": 772.56
+  },
+  {
+   "player": "Derek Carr",
+   "pos": "QB",
+   "pts": 712.98
+  },
+  {
+   "player": "Jameis Winston",
+   "pos": "QB",
+   "pts": 691.7
+  },
+  {
+   "player": "Alex Smith",
+   "pos": "QB",
+   "pts": 676.42
+  },
+  {
+   "player": "Matt Ryan",
+   "pos": "QB",
+   "pts": 671.58
+  },
+  {
+   "player": "Carson Wentz",
+   "pos": "QB",
+   "pts": 650.74
+  },
+  {
+   "player": "Jordan Love",
+   "pos": "QB",
+   "pts": 618.02
+  },
+  {
+   "player": "Ben Roethlisberger",
+   "pos": "QB",
+   "pts": 593.9
+  },
+  {
+   "player": "Emmanuel Sanders",
+   "pos": "WR",
+   "pts": 580.1
+  },
+  {
+   "player": "Joe Flacco",
+   "pos": "QB",
+   "pts": 578.4
+  },
+  {
+   "player": "Marvin Jones Jr.",
+   "pos": "WR",
+   "pts": 550.2
+  },
+  {
+   "player": "Josh Allen",
+   "pos": "QB",
+   "pts": 538.22
+  },
+  {
+   "player": "Aaron Rodgers",
+   "pos": "QB",
+   "pts": 529.46
+  },
+  {
+   "player": "Dak Prescott",
+   "pos": "QB",
+   "pts": 529.24
+  },
+  {
+   "player": "Geno Smith",
+   "pos": "QB",
+   "pts": 523.8
+  },
+  {
+   "player": "DeAndre Hopkins",
+   "pos": "WR",
+   "pts": 513.6
+  },
+  {
+   "player": "Ryan Tannehill",
+   "pos": "QB",
+   "pts": 490.66
+  },
+  {
+   "player": "Latavius Murray",
+   "pos": "RB",
+   "pts": 488.0
+  },
+  {
+   "player": "Jerry Jeudy",
+   "pos": "WR",
+   "pts": 448.2
+  },
+  {
+   "player": "Eli Manning",
+   "pos": "QB",
+   "pts": 442.08
+  },
+  {
+   "player": "Cole Beasley",
+   "pos": "WR",
+   "pts": 442.0
+  },
+  {
+   "player": "Evan Engram",
+   "pos": "TE",
+   "pts": 437.0
+  },
+  {
+   "player": "Christian Kirk",
+   "pos": "WR",
+   "pts": 419.7
+  },
+  {
+   "player": "DeSean Jackson",
+   "pos": "WR",
+   "pts": 418.8
+  },
+  {
+   "player": "Mitchell Trubisky",
+   "pos": "QB",
+   "pts": 413.72
+  },
+  {
+   "player": "Hollywood Brown",
+   "pos": "WR",
+   "pts": 411.0
+  },
+  {
+   "player": "Blake Bortles",
+   "pos": "QB",
+   "pts": 409.72
+  },
+  {
+   "player": "Tyrell Williams",
+   "pos": "WR",
+   "pts": 409.3
+  },
+  {
+   "player": "Courtland Sutton",
+   "pos": "WR",
+   "pts": 408.0
+  },
+  {
+   "player": "Frank Gore",
+   "pos": "RB",
+   "pts": 404.2
+  },
+  {
+   "player": "Zach Ertz",
+   "pos": "TE",
+   "pts": 403.7
+  },
+  {
+   "player": "Jakobi Meyers",
+   "pos": "WR",
+   "pts": 402.68
+  },
+  {
+   "player": "Tua Tagovailoa",
+   "pos": "QB",
+   "pts": 399.98
+  },
+  {
+   "player": "Marcus Mariota",
+   "pos": "QB",
+   "pts": 397.24
+  },
+  {
+   "player": "Jamaal Williams",
+   "pos": "RB",
+   "pts": 397.1
+  },
+  {
+   "player": "Deebo Samuel",
+   "pos": "WR",
+   "pts": 396.2
+  },
+  {
+   "player": "Duke Johnson",
+   "pos": "RB",
+   "pts": 390.0
+  },
+  {
+   "player": "Corey Davis",
+   "pos": "WR",
+   "pts": 389.3
+  },
+  {
+   "player": "Cam Newton",
+   "pos": "QB",
+   "pts": 386.1
+  },
+  {
+   "player": "Jamison Crowder",
+   "pos": "WR",
+   "pts": 385.1
+  },
+  {
+   "player": "D'Andre Swift",
+   "pos": "RB",
+   "pts": 379.7
+  },
+  {
+   "player": "Devin Singletary",
+   "pos": "RB",
+   "pts": 373.2
+  },
+  {
+   "player": "DeVante Parker",
+   "pos": "WR",
+   "pts": 371.1
+  },
+  {
+   "player": "Kenyan Drake",
+   "pos": "RB",
+   "pts": 363.7
+  },
+  {
+   "player": "Tyrod Taylor",
+   "pos": "QB",
+   "pts": 363.58
+  },
+  {
+   "player": "Tevin Coleman",
+   "pos": "RB",
+   "pts": 359.8
+  },
+  {
+   "player": "Andrew Luck",
+   "pos": "QB",
+   "pts": 357.52
+  },
+  {
+   "player": "Mohamed Sanu",
+   "pos": "WR",
+   "pts": 354.76
+  },
+  {
+   "player": "DJ Moore",
+   "pos": "WR",
+   "pts": 351.2
+  },
+  {
+   "player": "Curtis Samuel",
+   "pos": "WR",
+   "pts": 347.1
+  },
+  {
+   "player": "Mark Andrews",
+   "pos": "TE",
+   "pts": 347.1
+  },
+  {
+   "player": "Anquan Boldin",
+   "pos": "WR",
+   "pts": 346.4
+  },
+  {
+   "player": "Jonnu Smith",
+   "pos": "TE",
+   "pts": 345.8
+  },
+  {
+   "player": "Drew Brees",
+   "pos": "QB",
+   "pts": 341.7
+  },
+  {
+   "player": "Chris Godwin Jr.",
+   "pos": "WR",
+   "pts": 340.2
+  },
+  {
+   "player": "Tom Brady",
+   "pos": "QB",
+   "pts": 339.52
+  },
+  {
+   "player": "Hunter Henry",
+   "pos": "TE",
+   "pts": 338.8
+  },
+  {
+   "player": "Romeo Doubs",
+   "pos": "WR",
+   "pts": 338.3
+  },
+  {
+   "player": "Kendall Wright",
+   "pos": "WR",
+   "pts": 335.0
+  },
+  {
+   "player": "Randall Cobb",
+   "pos": "WR",
+   "pts": 334.2
+  },
+  {
+   "player": "C.J. Stroud",
+   "pos": "QB",
+   "pts": 334.12
+  },
+  {
+   "player": "Melvin Gordon III",
+   "pos": "RB",
+   "pts": 333.2
+  },
+  {
+   "player": "Derrick Henry",
+   "pos": "RB",
+   "pts": 333.02
+  },
+  {
+   "player": "Vikings - DEF",
+   "pos": "DEF",
+   "pts": 328.0
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "pos": "RB",
+   "pts": 328.0
+  },
+  {
+   "player": "John Brown",
+   "pos": "WR",
+   "pts": 327.8
+  },
+  {
+   "player": "Jarvis Landry",
+   "pos": "WR",
+   "pts": 323.46
+  },
+  {
+   "player": "Leonard Fournette",
+   "pos": "RB",
+   "pts": 320.8
+  },
+  {
+   "player": "Tyler Boyd",
+   "pos": "WR",
+   "pts": 319.92
+  },
+  {
+   "player": "Mike Wallace",
+   "pos": "WR",
+   "pts": 314.0
+  },
+  {
+   "player": "Chiefs - DEF",
+   "pos": "DEF",
+   "pts": 313.3
+  },
+  {
+   "player": "Nyheim Miller-Hines",
+   "pos": "RB",
+   "pts": 310.4
+  },
+  {
+   "player": "Nelson Agholor",
+   "pos": "WR",
+   "pts": 309.3
+  },
+  {
+   "player": "Darnell Mooney",
+   "pos": "WR",
+   "pts": 308.6
+  },
+  {
+   "player": "Kyle Rudolph",
+   "pos": "TE",
+   "pts": 307.7
+  },
+  {
+   "player": "Dalton Schultz",
+   "pos": "TE",
+   "pts": 306.9
+  },
+  {
+   "player": "Bo Nix",
+   "pos": "QB",
+   "pts": 303.42
+  },
+  {
+   "player": "Pierre Garcon",
+   "pos": "WR",
+   "pts": 302.4
+  },
+  {
+   "player": "Tyler Higbee",
+   "pos": "TE",
+   "pts": 302.3
+  },
+  {
+   "player": "Tyler Lockett",
+   "pos": "WR",
+   "pts": 301.0
+  },
+  {
+   "player": "Kareem Hunt",
+   "pos": "RB",
+   "pts": 299.7
+  },
+  {
+   "player": "Kyle Pitts Sr.",
+   "pos": "TE",
+   "pts": 298.8
+  },
+  {
+   "player": "Cole Kmet",
+   "pos": "TE",
+   "pts": 298.8
+  },
+  {
+   "player": "Jared Cook",
+   "pos": "TE",
+   "pts": 298.5
+  },
+  {
+   "player": "Teddy Bridgewater",
+   "pos": "QB",
+   "pts": 297.12
+  },
+  {
+   "player": "Amari Cooper",
+   "pos": "WR",
+   "pts": 297.0
+  },
+  {
+   "player": "Vincent Jackson",
+   "pos": "WR",
+   "pts": 293.3
+  },
+  {
+   "player": "Mike Williams",
+   "pos": "WR",
+   "pts": 293.1
+  },
+  {
+   "player": "Sterling Shepard",
+   "pos": "WR",
+   "pts": 289.7
+  },
+  {
+   "player": "Eagles - DEF",
+   "pos": "DEF",
+   "pts": 289.0
+  },
+  {
+   "player": "Carson Palmer",
+   "pos": "QB",
+   "pts": 288.38
+  },
+  {
+   "player": "Jimmy Garoppolo",
+   "pos": "QB",
+   "pts": 287.04
+  },
+  {
+   "player": "Calvin Ridley",
+   "pos": "WR",
+   "pts": 286.6
+  }
+ ],
+ "leaderboard_combined": [
+  {
+   "player": "Russell Wilson",
+   "pos": "QB",
+   "pts": 3073.1
+  },
+  {
+   "player": "Aaron Rodgers",
+   "pos": "QB",
+   "pts": 2781.94
+  },
+  {
+   "player": "Matthew Stafford",
+   "pos": "QB",
+   "pts": 2705.04
+  },
+  {
+   "player": "Patrick Mahomes",
+   "pos": "QB",
+   "pts": 2681.0
+  },
+  {
+   "player": "Travis Kelce",
+   "pos": "TE",
+   "pts": 2676.56
+  },
+  {
+   "player": "Davante Adams",
+   "pos": "WR",
+   "pts": 2664.0
+  },
+  {
+   "player": "Tom Brady",
+   "pos": "QB",
+   "pts": 2658.42
+  },
+  {
+   "player": "Josh Allen",
+   "pos": "QB",
+   "pts": 2637.84
+  },
+  {
+   "player": "DeAndre Hopkins",
+   "pos": "WR",
+   "pts": 2560.24
+  },
+  {
+   "player": "Mike Evans",
+   "pos": "WR",
+   "pts": 2540.4
+  },
+  {
+   "player": "Dak Prescott",
+   "pos": "QB",
+   "pts": 2432.36
+  },
+  {
+   "player": "Christian McCaffrey",
+   "pos": "RB",
+   "pts": 2390.66
+  },
+  {
+   "player": "Keenan Allen",
+   "pos": "WR",
+   "pts": 2378.46
+  },
+  {
+   "player": "Tyreek Hill",
+   "pos": "WR",
+   "pts": 2332.3
+  },
+  {
+   "player": "Stefon Diggs",
+   "pos": "WR",
+   "pts": 2290.32
+  },
+  {
+   "player": "Lamar Jackson",
+   "pos": "QB",
+   "pts": 2263.78
+  },
+  {
+   "player": "Kirk Cousins",
+   "pos": "QB",
+   "pts": 2246.82
+  },
+  {
+   "player": "Matt Ryan",
+   "pos": "QB",
+   "pts": 2209.7
+  },
+  {
+   "player": "Alvin Kamara",
+   "pos": "RB",
+   "pts": 2163.72
+  },
+  {
+   "player": "Derrick Henry",
+   "pos": "RB",
+   "pts": 2096.38
+  },
+  {
+   "player": "Drew Brees",
+   "pos": "QB",
+   "pts": 2094.06
+  },
+  {
+   "player": "Antonio Brown",
+   "pos": "WR",
+   "pts": 2022.1
+  },
+  {
+   "player": "Cam Newton",
+   "pos": "QB",
+   "pts": 1916.38
+  },
+  {
+   "player": "Jared Goff",
+   "pos": "QB",
+   "pts": 1908.7
+  },
+  {
+   "player": "Amari Cooper",
+   "pos": "WR",
+   "pts": 1891.3
+  },
+  {
+   "player": "Julio Jones",
+   "pos": "WR",
+   "pts": 1855.0
+  },
+  {
+   "player": "Ezekiel Elliott",
+   "pos": "RB",
+   "pts": 1854.46
+  },
+  {
+   "player": "Brandin Cooks",
+   "pos": "WR",
+   "pts": 1831.1
+  },
+  {
+   "player": "Ben Roethlisberger",
+   "pos": "QB",
+   "pts": 1792.28
+  },
+  {
+   "player": "Cooper Kupp",
+   "pos": "WR",
+   "pts": 1788.9
+  },
+  {
+   "player": "Philip Rivers",
+   "pos": "QB",
+   "pts": 1763.7
+  },
+  {
+   "player": "Saquon Barkley",
+   "pos": "RB",
+   "pts": 1752.6
+  },
+  {
+   "player": "Jalen Hurts",
+   "pos": "QB",
+   "pts": 1696.8
+  },
+  {
+   "player": "Zach Ertz",
+   "pos": "TE",
+   "pts": 1650.3
+  },
+  {
+   "player": "Aaron Jones Sr.",
+   "pos": "RB",
+   "pts": 1643.3
+  },
+  {
+   "player": "Kyler Murray",
+   "pos": "QB",
+   "pts": 1616.76
+  },
+  {
+   "player": "Adam Thielen",
+   "pos": "WR",
+   "pts": 1605.1
+  },
+  {
+   "player": "Justin Herbert",
+   "pos": "QB",
+   "pts": 1600.5
+  },
+  {
+   "player": "Josh Jacobs",
+   "pos": "RB",
+   "pts": 1591.5
+  },
+  {
+   "player": "Joe Mixon",
+   "pos": "RB",
+   "pts": 1585.9
+  },
+  {
+   "player": "Odell Beckham Jr.",
+   "pos": "WR",
+   "pts": 1578.16
+  },
+  {
+   "player": "Austin Ekeler",
+   "pos": "RB",
+   "pts": 1573.5
+  },
+  {
+   "player": "DJ Moore",
+   "pos": "WR",
+   "pts": 1568.78
+  },
+  {
+   "player": "Emmanuel Sanders",
+   "pos": "WR",
+   "pts": 1553.02
+  },
+  {
+   "player": "Tyler Lockett",
+   "pos": "WR",
+   "pts": 1548.4
+  },
+  {
+   "player": "CeeDee Lamb",
+   "pos": "WR",
+   "pts": 1531.4
+  },
+  {
+   "player": "George Kittle",
+   "pos": "TE",
+   "pts": 1524.9
+  },
+  {
+   "player": "Justin Jefferson",
+   "pos": "WR",
+   "pts": 1520.54
+  },
+  {
+   "player": "Todd Gurley",
+   "pos": "RB",
+   "pts": 1501.4
+  },
+  {
+   "player": "Le'Veon Bell",
+   "pos": "RB",
+   "pts": 1498.2
+  },
+  {
+   "player": "Melvin Gordon III",
+   "pos": "RB",
+   "pts": 1464.1
+  },
+  {
+   "player": "Patriots - DEF",
+   "pos": "DEF",
+   "pts": 1453.61
+  },
+  {
+   "player": "A.J. Brown",
+   "pos": "WR",
+   "pts": 1435.0
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "pos": "WR",
+   "pts": 1420.0
+  },
+  {
+   "player": "James Conner",
+   "pos": "RB",
+   "pts": 1408.6
+  },
+  {
+   "player": "DK Metcalf",
+   "pos": "WR",
+   "pts": 1408.3
+  },
+  {
+   "player": "Ravens - DEF",
+   "pos": "DEF",
+   "pts": 1397.54
+  },
+  {
+   "player": "Jonathan Taylor",
+   "pos": "RB",
+   "pts": 1387.5
+  },
+  {
+   "player": "Chris Godwin Jr.",
+   "pos": "WR",
+   "pts": 1379.4
+  },
+  {
+   "player": "Kareem Hunt",
+   "pos": "RB",
+   "pts": 1376.1
+  },
+  {
+   "player": "A.J. Green",
+   "pos": "WR",
+   "pts": 1374.5
+  },
+  {
+   "player": "Baker Mayfield",
+   "pos": "QB",
+   "pts": 1358.02
+  },
+  {
+   "player": "Mark Ingram II",
+   "pos": "RB",
+   "pts": 1354.1
+  },
+  {
+   "player": "Jarvis Landry",
+   "pos": "WR",
+   "pts": 1347.54
+  },
+  {
+   "player": "T.Y. Hilton",
+   "pos": "WR",
+   "pts": 1339.9
+  },
+  {
+   "player": "Larry Fitzgerald",
+   "pos": "WR",
+   "pts": 1332.12
+  },
+  {
+   "player": "Demaryius Thomas",
+   "pos": "WR",
+   "pts": 1322.7
+  },
+  {
+   "player": "Derek Carr",
+   "pos": "QB",
+   "pts": 1321.02
+  },
+  {
+   "player": "Rob Gronkowski",
+   "pos": "TE",
+   "pts": 1320.6
+  },
+  {
+   "player": "LeSean McCoy",
+   "pos": "RB",
+   "pts": 1312.0
+  },
+  {
+   "player": "Joe Burrow",
+   "pos": "QB",
+   "pts": 1308.84
+  },
+  {
+   "player": "Rams - DEF",
+   "pos": "DEF",
+   "pts": 1305.44
+  },
+  {
+   "player": "Michael Thomas",
+   "pos": "WR",
+   "pts": 1302.1
+  },
+  {
+   "player": "Allen Robinson",
+   "pos": "WR",
+   "pts": 1282.4
+  },
+  {
+   "player": "David Montgomery",
+   "pos": "RB",
+   "pts": 1278.54
+  },
+  {
+   "player": "Andrew Luck",
+   "pos": "QB",
+   "pts": 1274.86
+  },
+  {
+   "player": "Terry McLaurin",
+   "pos": "WR",
+   "pts": 1263.9
+  },
+  {
+   "player": "Dalvin Cook",
+   "pos": "RB",
+   "pts": 1244.8
+  },
+  {
+   "player": "Deebo Samuel",
+   "pos": "WR",
+   "pts": 1244.4
+  },
+  {
+   "player": "Nick Chubb",
+   "pos": "RB",
+   "pts": 1228.1
+  },
+  {
+   "player": "Chiefs - DEF",
+   "pos": "DEF",
+   "pts": 1216.99
+  },
+  {
+   "player": "Golden Tate",
+   "pos": "WR",
+   "pts": 1216.8
+  },
+  {
+   "player": "Bills - DEF",
+   "pos": "DEF",
+   "pts": 1215.27
+  },
+  {
+   "player": "Carson Wentz",
+   "pos": "QB",
+   "pts": 1214.5
+  },
+  {
+   "player": "Mark Andrews",
+   "pos": "TE",
+   "pts": 1208.6
+  },
+  {
+   "player": "Leonard Fournette",
+   "pos": "RB",
+   "pts": 1174.9
+  },
+  {
+   "player": "Deshaun Watson",
+   "pos": "QB",
+   "pts": 1167.5
+  },
+  {
+   "player": "Julian Edelman",
+   "pos": "WR",
+   "pts": 1167.32
+  },
+  {
+   "player": "Courtland Sutton",
+   "pos": "WR",
+   "pts": 1162.22
+  },
+  {
+   "player": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "pts": 1158.98
+  },
+  {
+   "player": "Robert Woods",
+   "pos": "WR",
+   "pts": 1158.7
+  },
+  {
+   "player": "Broncos - DEF",
+   "pos": "DEF",
+   "pts": 1156.61
+  },
+  {
+   "player": "Alshon Jeffery",
+   "pos": "WR",
+   "pts": 1154.8
+  },
+  {
+   "player": "Calvin Ridley",
+   "pos": "WR",
+   "pts": 1141.9
+  },
+  {
+   "player": "D'Andre Swift",
+   "pos": "RB",
+   "pts": 1121.4
+  },
+  {
+   "player": "Jimmy Graham",
+   "pos": "TE",
+   "pts": 1121.2
+  },
+  {
+   "player": "Ryan Tannehill",
+   "pos": "QB",
+   "pts": 1114.42
+  },
+  {
+   "player": "Tee Higgins",
+   "pos": "WR",
+   "pts": 1100.9
+  },
+  {
+   "player": "Seahawks - DEF",
+   "pos": "DEF",
+   "pts": 1100.17
+  },
+  {
+   "player": "Eagles - DEF",
+   "pos": "DEF",
+   "pts": 1097.0
+  }
+ ],
+ "seasons_played": {
+  "Brice": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Kyle": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "whitaker": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Benedict": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "Dylan Snyder": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "Dave Lang": [
+   2013,
+   2014
+  ],
+  "Carter": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Jay": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "pb": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Ryan": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Michael": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Tommy": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Kelly Brown": [
+   2014,
+   2017,
+   2018
+  ],
+  "David Laskey": [
+   2014
+  ],
+  "Sara": [
+   2015,
+   2016
+  ],
+  "Jason": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "Zac": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "becca": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "Aboubacar": [
+   2021
+  ],
+  "Kat": [
+   2022,
+   2023,
+   2024
+  ],
+  "Kevin": [
+   2023,
+   2024,
+   2025
+  ],
+  "Megan": [
+   2024,
+   2025
+  ],
+  "Alex": [
+   2025
+  ]
+ },
+ "waiver_value": [
+  {
+   "manager": "Aboubacar",
+   "pos": "DEF",
+   "waiver_pts": 131.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 15,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Aboubacar",
+   "pos": "K",
+   "waiver_pts": 0.0,
+   "drafted_pts": 42.9,
+   "waiver_starts": 0,
+   "drafted_starts": 12
+  },
+  {
+   "manager": "Aboubacar",
+   "pos": "QB",
+   "waiver_pts": 0.0,
+   "drafted_pts": 281.14,
+   "waiver_starts": 0,
+   "drafted_starts": 16
+  },
+  {
+   "manager": "Aboubacar",
+   "pos": "RB",
+   "waiver_pts": 0.1,
+   "drafted_pts": 274.5,
+   "waiver_starts": 3,
+   "drafted_starts": 28
+  },
+  {
+   "manager": "Aboubacar",
+   "pos": "TE",
+   "waiver_pts": 0.0,
+   "drafted_pts": 148.4,
+   "waiver_starts": 0,
+   "drafted_starts": 23
+  },
+  {
+   "manager": "Aboubacar",
+   "pos": "WR",
+   "waiver_pts": 20.9,
+   "drafted_pts": 343.2,
+   "waiver_starts": 7,
+   "drafted_starts": 33
+  },
+  {
+   "manager": "Alex",
+   "pos": "DEF",
+   "waiver_pts": 147.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 16,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Alex",
+   "pos": "K",
+   "waiver_pts": 52.1,
+   "drafted_pts": 7.3,
+   "waiver_starts": 14,
+   "drafted_starts": 2
+  },
+  {
+   "manager": "Alex",
+   "pos": "QB",
+   "waiver_pts": 79.9,
+   "drafted_pts": 210.0,
+   "waiver_starts": 5,
+   "drafted_starts": 11
+  },
+  {
+   "manager": "Alex",
+   "pos": "RB",
+   "waiver_pts": 98.2,
+   "drafted_pts": 295.9,
+   "waiver_starts": 10,
+   "drafted_starts": 22
+  },
+  {
+   "manager": "Alex",
+   "pos": "TE",
+   "waiver_pts": 43.7,
+   "drafted_pts": 153.9,
+   "waiver_starts": 6,
+   "drafted_starts": 10
+  },
+  {
+   "manager": "Alex",
+   "pos": "WR",
+   "waiver_pts": 0.0,
+   "drafted_pts": 798.6,
+   "waiver_starts": 0,
+   "drafted_starts": 48
+  },
+  {
+   "manager": "Benedict",
+   "pos": "DEF",
+   "waiver_pts": 1170.05,
+   "drafted_pts": 0.0,
+   "waiver_starts": 118,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Benedict",
+   "pos": "K",
+   "waiver_pts": 393.05,
+   "drafted_pts": 130.95,
+   "waiver_starts": 87,
+   "drafted_starts": 31
+  },
+  {
+   "manager": "Benedict",
+   "pos": "QB",
+   "waiver_pts": 516.94,
+   "drafted_pts": 1894.42,
+   "waiver_starts": 30,
+   "drafted_starts": 88
+  },
+  {
+   "manager": "Benedict",
+   "pos": "RB",
+   "waiver_pts": 162.0,
+   "drafted_pts": 3937.4,
+   "waiver_starts": 17,
+   "drafted_starts": 263
+  },
+  {
+   "manager": "Benedict",
+   "pos": "TE",
+   "waiver_pts": 215.5,
+   "drafted_pts": 988.8,
+   "waiver_starts": 37,
+   "drafted_starts": 86
+  },
+  {
+   "manager": "Benedict",
+   "pos": "WR",
+   "waiver_pts": 449.5,
+   "drafted_pts": 3701.2,
+   "waiver_starts": 36,
+   "drafted_starts": 267
+  },
+  {
+   "manager": "Brice",
+   "pos": "DEF",
+   "waiver_pts": 1721.31,
+   "drafted_pts": 0.0,
+   "waiver_starts": 197,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Brice",
+   "pos": "K",
+   "waiver_pts": 550.1,
+   "drafted_pts": 323.5,
+   "waiver_starts": 136,
+   "drafted_starts": 61
+  },
+  {
+   "manager": "Brice",
+   "pos": "QB",
+   "waiver_pts": 331.64,
+   "drafted_pts": 3473.16,
+   "waiver_starts": 21,
+   "drafted_starts": 176
+  },
+  {
+   "manager": "Brice",
+   "pos": "RB",
+   "waiver_pts": 1894.1,
+   "drafted_pts": 4757.4,
+   "waiver_starts": 136,
+   "drafted_starts": 309
+  },
+  {
+   "manager": "Brice",
+   "pos": "TE",
+   "waiver_pts": 1009.8,
+   "drafted_pts": 1210.3,
+   "waiver_starts": 85,
+   "drafted_starts": 117
+  },
+  {
+   "manager": "Brice",
+   "pos": "WR",
+   "waiver_pts": 1136.7,
+   "drafted_pts": 6903.08,
+   "waiver_starts": 92,
+   "drafted_starts": 443
+  },
+  {
+   "manager": "Carter",
+   "pos": "DEF",
+   "waiver_pts": 1796.54,
+   "drafted_pts": 0.0,
+   "waiver_starts": 198,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Carter",
+   "pos": "K",
+   "waiver_pts": 323.1,
+   "drafted_pts": 565.1,
+   "waiver_starts": 81,
+   "drafted_starts": 117
+  },
+  {
+   "manager": "Carter",
+   "pos": "QB",
+   "waiver_pts": 815.78,
+   "drafted_pts": 2968.08,
+   "waiver_starts": 43,
+   "drafted_starts": 153
+  },
+  {
+   "manager": "Carter",
+   "pos": "RB",
+   "waiver_pts": 1210.4,
+   "drafted_pts": 5889.7,
+   "waiver_starts": 102,
+   "drafted_starts": 381
+  },
+  {
+   "manager": "Carter",
+   "pos": "TE",
+   "waiver_pts": 377.06,
+   "drafted_pts": 2366.0,
+   "waiver_starts": 34,
+   "drafted_starts": 167
+  },
+  {
+   "manager": "Carter",
+   "pos": "WR",
+   "waiver_pts": 819.36,
+   "drafted_pts": 6245.94,
+   "waiver_starts": 73,
+   "drafted_starts": 432
+  },
+  {
+   "manager": "Dave Lang",
+   "pos": "DEF",
+   "waiver_pts": 405.97,
+   "drafted_pts": 0.0,
+   "waiver_starts": 26,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Dave Lang",
+   "pos": "K",
+   "waiver_pts": 80.6,
+   "drafted_pts": 72.8,
+   "waiver_starts": 14,
+   "drafted_starts": 12
+  },
+  {
+   "manager": "Dave Lang",
+   "pos": "QB",
+   "waiver_pts": 36.2,
+   "drafted_pts": 372.84,
+   "waiver_starts": 3,
+   "drafted_starts": 23
+  },
+  {
+   "manager": "Dave Lang",
+   "pos": "RB",
+   "waiver_pts": 204.4,
+   "drafted_pts": 607.6,
+   "waiver_starts": 18,
+   "drafted_starts": 43
+  },
+  {
+   "manager": "Dave Lang",
+   "pos": "TE",
+   "waiver_pts": 223.8,
+   "drafted_pts": 56.2,
+   "waiver_starts": 21,
+   "drafted_starts": 7
+  },
+  {
+   "manager": "Dave Lang",
+   "pos": "WR",
+   "waiver_pts": 18.8,
+   "drafted_pts": 1078.3,
+   "waiver_starts": 1,
+   "drafted_starts": 66
+  },
+  {
+   "manager": "David Laskey",
+   "pos": "DEF",
+   "waiver_pts": 91.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 15,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "David Laskey",
+   "pos": "K",
+   "waiver_pts": 0.0,
+   "drafted_pts": 56.2,
+   "waiver_starts": 0,
+   "drafted_starts": 16
+  },
+  {
+   "manager": "David Laskey",
+   "pos": "QB",
+   "waiver_pts": 0.0,
+   "drafted_pts": 235.96,
+   "waiver_starts": 0,
+   "drafted_starts": 16
+  },
+  {
+   "manager": "David Laskey",
+   "pos": "RB",
+   "waiver_pts": 0.0,
+   "drafted_pts": 316.0,
+   "waiver_starts": 0,
+   "drafted_starts": 32
+  },
+  {
+   "manager": "David Laskey",
+   "pos": "TE",
+   "waiver_pts": 109.5,
+   "drafted_pts": 20.0,
+   "waiver_starts": 13,
+   "drafted_starts": 3
+  },
+  {
+   "manager": "David Laskey",
+   "pos": "WR",
+   "waiver_pts": 113.2,
+   "drafted_pts": 575.9,
+   "waiver_starts": 9,
+   "drafted_starts": 39
+  },
+  {
+   "manager": "Dylan Snyder",
+   "pos": "DEF",
+   "waiver_pts": 796.27,
+   "drafted_pts": 0.0,
+   "waiver_starts": 70,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Dylan Snyder",
+   "pos": "K",
+   "waiver_pts": 167.45,
+   "drafted_pts": 162.8,
+   "waiver_starts": 27,
+   "drafted_starts": 43
+  },
+  {
+   "manager": "Dylan Snyder",
+   "pos": "QB",
+   "waiver_pts": 284.52,
+   "drafted_pts": 1068.38,
+   "waiver_starts": 15,
+   "drafted_starts": 56
+  },
+  {
+   "manager": "Dylan Snyder",
+   "pos": "RB",
+   "waiver_pts": 565.7,
+   "drafted_pts": 1053.1,
+   "waiver_starts": 57,
+   "drafted_starts": 85
+  },
+  {
+   "manager": "Dylan Snyder",
+   "pos": "TE",
+   "waiver_pts": 246.8,
+   "drafted_pts": 559.9,
+   "waiver_starts": 27,
+   "drafted_starts": 53
+  },
+  {
+   "manager": "Dylan Snyder",
+   "pos": "WR",
+   "waiver_pts": 772.8,
+   "drafted_pts": 1656.7,
+   "waiver_starts": 70,
+   "drafted_starts": 132
+  },
+  {
+   "manager": "Jason",
+   "pos": "DEF",
+   "waiver_pts": 1207.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 141,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Jason",
+   "pos": "K",
+   "waiver_pts": 363.6,
+   "drafted_pts": 216.9,
+   "waiver_starts": 87,
+   "drafted_starts": 53
+  },
+  {
+   "manager": "Jason",
+   "pos": "QB",
+   "waiver_pts": 229.0,
+   "drafted_pts": 2884.08,
+   "waiver_starts": 12,
+   "drafted_starts": 129
+  },
+  {
+   "manager": "Jason",
+   "pos": "RB",
+   "waiver_pts": 1417.7,
+   "drafted_pts": 3079.22,
+   "waiver_starts": 107,
+   "drafted_starts": 204
+  },
+  {
+   "manager": "Jason",
+   "pos": "TE",
+   "waiver_pts": 464.7,
+   "drafted_pts": 1409.7,
+   "waiver_starts": 45,
+   "drafted_starts": 115
+  },
+  {
+   "manager": "Jason",
+   "pos": "WR",
+   "waiver_pts": 656.5,
+   "drafted_pts": 4741.6,
+   "waiver_starts": 65,
+   "drafted_starts": 308
+  },
+  {
+   "manager": "Jay",
+   "pos": "DEF",
+   "waiver_pts": 1447.64,
+   "drafted_pts": 0.0,
+   "waiver_starts": 152,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Jay",
+   "pos": "K",
+   "waiver_pts": 362.05,
+   "drafted_pts": 366.7,
+   "waiver_starts": 74,
+   "drafted_starts": 78
+  },
+  {
+   "manager": "Jay",
+   "pos": "QB",
+   "waiver_pts": 495.28,
+   "drafted_pts": 2573.26,
+   "waiver_starts": 26,
+   "drafted_starts": 128
+  },
+  {
+   "manager": "Jay",
+   "pos": "RB",
+   "waiver_pts": 1218.8,
+   "drafted_pts": 4488.5,
+   "waiver_starts": 88,
+   "drafted_starts": 290
+  },
+  {
+   "manager": "Jay",
+   "pos": "TE",
+   "waiver_pts": 313.8,
+   "drafted_pts": 1669.5,
+   "waiver_starts": 31,
+   "drafted_starts": 122
+  },
+  {
+   "manager": "Jay",
+   "pos": "WR",
+   "waiver_pts": 999.34,
+   "drafted_pts": 4763.94,
+   "waiver_starts": 77,
+   "drafted_starts": 315
+  },
+  {
+   "manager": "Kat",
+   "pos": "DEF",
+   "waiver_pts": 333.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 48,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Kat",
+   "pos": "K",
+   "waiver_pts": 171.8,
+   "drafted_pts": 14.6,
+   "waiver_starts": 42,
+   "drafted_starts": 6
+  },
+  {
+   "manager": "Kat",
+   "pos": "QB",
+   "waiver_pts": 147.06,
+   "drafted_pts": 653.62,
+   "waiver_starts": 9,
+   "drafted_starts": 39
+  },
+  {
+   "manager": "Kat",
+   "pos": "RB",
+   "waiver_pts": 502.1,
+   "drafted_pts": 996.7,
+   "waiver_starts": 38,
+   "drafted_starts": 66
+  },
+  {
+   "manager": "Kat",
+   "pos": "TE",
+   "waiver_pts": 138.0,
+   "drafted_pts": 321.7,
+   "waiver_starts": 17,
+   "drafted_starts": 32
+  },
+  {
+   "manager": "Kat",
+   "pos": "WR",
+   "waiver_pts": 248.1,
+   "drafted_pts": 1614.16,
+   "waiver_starts": 22,
+   "drafted_starts": 113
+  },
+  {
+   "manager": "Kelly Brown",
+   "pos": "DEF",
+   "waiver_pts": 416.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 46,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Kelly Brown",
+   "pos": "K",
+   "waiver_pts": 97.7,
+   "drafted_pts": 105.3,
+   "waiver_starts": 24,
+   "drafted_starts": 22
+  },
+  {
+   "manager": "Kelly Brown",
+   "pos": "QB",
+   "waiver_pts": 174.08,
+   "drafted_pts": 640.34,
+   "waiver_starts": 10,
+   "drafted_starts": 36
+  },
+  {
+   "manager": "Kelly Brown",
+   "pos": "RB",
+   "waiver_pts": 212.2,
+   "drafted_pts": 1334.2,
+   "waiver_starts": 17,
+   "drafted_starts": 100
+  },
+  {
+   "manager": "Kelly Brown",
+   "pos": "TE",
+   "waiver_pts": 87.3,
+   "drafted_pts": 268.6,
+   "waiver_starts": 14,
+   "drafted_starts": 31
+  },
+  {
+   "manager": "Kelly Brown",
+   "pos": "WR",
+   "waiver_pts": 368.9,
+   "drafted_pts": 1166.4,
+   "waiver_starts": 32,
+   "drafted_starts": 81
+  },
+  {
+   "manager": "Kevin",
+   "pos": "DEF",
+   "waiver_pts": 381.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 49,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Kevin",
+   "pos": "K",
+   "waiver_pts": 178.7,
+   "drafted_pts": 50.0,
+   "waiver_starts": 39,
+   "drafted_starts": 10
+  },
+  {
+   "manager": "Kevin",
+   "pos": "QB",
+   "waiver_pts": 97.2,
+   "drafted_pts": 913.6,
+   "waiver_starts": 5,
+   "drafted_starts": 44
+  },
+  {
+   "manager": "Kevin",
+   "pos": "RB",
+   "waiver_pts": 258.1,
+   "drafted_pts": 1309.4,
+   "waiver_starts": 29,
+   "drafted_starts": 89
+  },
+  {
+   "manager": "Kevin",
+   "pos": "TE",
+   "waiver_pts": 41.2,
+   "drafted_pts": 741.2,
+   "waiver_starts": 5,
+   "drafted_starts": 48
+  },
+  {
+   "manager": "Kevin",
+   "pos": "WR",
+   "waiver_pts": 290.3,
+   "drafted_pts": 1290.78,
+   "waiver_starts": 26,
+   "drafted_starts": 97
+  },
+  {
+   "manager": "Kyle",
+   "pos": "DEF",
+   "waiver_pts": 817.48,
+   "drafted_pts": 0.0,
+   "waiver_starts": 84,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Kyle",
+   "pos": "K",
+   "waiver_pts": 210.95,
+   "drafted_pts": 199.7,
+   "waiver_starts": 41,
+   "drafted_starts": 43
+  },
+  {
+   "manager": "Kyle",
+   "pos": "QB",
+   "waiver_pts": 140.74,
+   "drafted_pts": 1456.0,
+   "waiver_starts": 10,
+   "drafted_starts": 75
+  },
+  {
+   "manager": "Kyle",
+   "pos": "RB",
+   "waiver_pts": 519.7,
+   "drafted_pts": 1367.1,
+   "waiver_starts": 48,
+   "drafted_starts": 131
+  },
+  {
+   "manager": "Kyle",
+   "pos": "TE",
+   "waiver_pts": 65.1,
+   "drafted_pts": 1005.6,
+   "waiver_starts": 15,
+   "drafted_starts": 84
+  },
+  {
+   "manager": "Kyle",
+   "pos": "WR",
+   "waiver_pts": 516.6,
+   "drafted_pts": 2772.4,
+   "waiver_starts": 37,
+   "drafted_starts": 193
+  },
+  {
+   "manager": "Megan",
+   "pos": "DEF",
+   "waiver_pts": 239.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 32,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Megan",
+   "pos": "K",
+   "waiver_pts": 109.9,
+   "drafted_pts": 55.6,
+   "waiver_starts": 21,
+   "drafted_starts": 11
+  },
+  {
+   "manager": "Megan",
+   "pos": "QB",
+   "waiver_pts": 64.64,
+   "drafted_pts": 548.36,
+   "waiver_starts": 6,
+   "drafted_starts": 26
+  },
+  {
+   "manager": "Megan",
+   "pos": "RB",
+   "waiver_pts": 622.6,
+   "drafted_pts": 552.6,
+   "waiver_starts": 39,
+   "drafted_starts": 38
+  },
+  {
+   "manager": "Megan",
+   "pos": "TE",
+   "waiver_pts": 121.02,
+   "drafted_pts": 152.6,
+   "waiver_starts": 11,
+   "drafted_starts": 20
+  },
+  {
+   "manager": "Megan",
+   "pos": "WR",
+   "waiver_pts": 116.6,
+   "drafted_pts": 1141.3,
+   "waiver_starts": 9,
+   "drafted_starts": 74
+  },
+  {
+   "manager": "Michael",
+   "pos": "DEF",
+   "waiver_pts": 1586.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 187,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Michael",
+   "pos": "K",
+   "waiver_pts": 435.9,
+   "drafted_pts": 314.3,
+   "waiver_starts": 112,
+   "drafted_starts": 77
+  },
+  {
+   "manager": "Michael",
+   "pos": "QB",
+   "waiver_pts": 459.6,
+   "drafted_pts": 3368.78,
+   "waiver_starts": 25,
+   "drafted_starts": 165
+  },
+  {
+   "manager": "Michael",
+   "pos": "RB",
+   "waiver_pts": 1163.9,
+   "drafted_pts": 4640.16,
+   "waiver_starts": 105,
+   "drafted_starts": 324
+  },
+  {
+   "manager": "Michael",
+   "pos": "TE",
+   "waiver_pts": 854.66,
+   "drafted_pts": 1078.3,
+   "waiver_starts": 98,
+   "drafted_starts": 104
+  },
+  {
+   "manager": "Michael",
+   "pos": "WR",
+   "waiver_pts": 1724.18,
+   "drafted_pts": 5209.06,
+   "waiver_starts": 163,
+   "drafted_starts": 346
+  },
+  {
+   "manager": "Ryan",
+   "pos": "DEF",
+   "waiver_pts": 1550.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 191,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Ryan",
+   "pos": "K",
+   "waiver_pts": 267.2,
+   "drafted_pts": 553.2,
+   "waiver_starts": 70,
+   "drafted_starts": 122
+  },
+  {
+   "manager": "Ryan",
+   "pos": "QB",
+   "waiver_pts": 853.46,
+   "drafted_pts": 2967.6,
+   "waiver_starts": 50,
+   "drafted_starts": 142
+  },
+  {
+   "manager": "Ryan",
+   "pos": "RB",
+   "waiver_pts": 1477.2,
+   "drafted_pts": 4205.9,
+   "waiver_starts": 133,
+   "drafted_starts": 291
+  },
+  {
+   "manager": "Ryan",
+   "pos": "TE",
+   "waiver_pts": 612.0,
+   "drafted_pts": 1204.5,
+   "waiver_starts": 74,
+   "drafted_starts": 119
+  },
+  {
+   "manager": "Ryan",
+   "pos": "WR",
+   "waiver_pts": 994.56,
+   "drafted_pts": 6856.08,
+   "waiver_starts": 87,
+   "drafted_starts": 447
+  },
+  {
+   "manager": "Sara",
+   "pos": "DEF",
+   "waiver_pts": 209.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 30,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Sara",
+   "pos": "K",
+   "waiver_pts": 16.8,
+   "drafted_pts": 94.4,
+   "waiver_starts": 4,
+   "drafted_starts": 25
+  },
+  {
+   "manager": "Sara",
+   "pos": "QB",
+   "waiver_pts": 37.28,
+   "drafted_pts": 625.76,
+   "waiver_starts": 2,
+   "drafted_starts": 28
+  },
+  {
+   "manager": "Sara",
+   "pos": "RB",
+   "waiver_pts": 1.7,
+   "drafted_pts": 714.2,
+   "waiver_starts": 2,
+   "drafted_starts": 68
+  },
+  {
+   "manager": "Sara",
+   "pos": "TE",
+   "waiver_pts": 0.0,
+   "drafted_pts": 442.2,
+   "waiver_starts": 0,
+   "drafted_starts": 33
+  },
+  {
+   "manager": "Sara",
+   "pos": "WR",
+   "waiver_pts": 168.4,
+   "drafted_pts": 993.1,
+   "waiver_starts": 8,
+   "drafted_starts": 69
+  },
+  {
+   "manager": "Tommy",
+   "pos": "DEF",
+   "waiver_pts": 1416.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 185,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Tommy",
+   "pos": "K",
+   "waiver_pts": 292.4,
+   "drafted_pts": 484.2,
+   "waiver_starts": 73,
+   "drafted_starts": 113
+  },
+  {
+   "manager": "Tommy",
+   "pos": "QB",
+   "waiver_pts": 1025.58,
+   "drafted_pts": 2599.5,
+   "waiver_starts": 53,
+   "drafted_starts": 134
+  },
+  {
+   "manager": "Tommy",
+   "pos": "RB",
+   "waiver_pts": 1251.44,
+   "drafted_pts": 4931.36,
+   "waiver_starts": 103,
+   "drafted_starts": 320
+  },
+  {
+   "manager": "Tommy",
+   "pos": "TE",
+   "waiver_pts": 574.4,
+   "drafted_pts": 1732.16,
+   "waiver_starts": 58,
+   "drafted_starts": 137
+  },
+  {
+   "manager": "Tommy",
+   "pos": "WR",
+   "waiver_pts": 1293.86,
+   "drafted_pts": 5800.84,
+   "waiver_starts": 105,
+   "drafted_starts": 397
+  },
+  {
+   "manager": "Zac",
+   "pos": "DEF",
+   "waiver_pts": 1154.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 144,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "Zac",
+   "pos": "K",
+   "waiver_pts": 431.5,
+   "drafted_pts": 164.8,
+   "waiver_starts": 106,
+   "drafted_starts": 38
+  },
+  {
+   "manager": "Zac",
+   "pos": "QB",
+   "waiver_pts": 925.3,
+   "drafted_pts": 1734.94,
+   "waiver_starts": 54,
+   "drafted_starts": 90
+  },
+  {
+   "manager": "Zac",
+   "pos": "RB",
+   "waiver_pts": 414.9,
+   "drafted_pts": 4262.62,
+   "waiver_starts": 32,
+   "drafted_starts": 277
+  },
+  {
+   "manager": "Zac",
+   "pos": "TE",
+   "waiver_pts": 491.5,
+   "drafted_pts": 842.6,
+   "waiver_starts": 57,
+   "drafted_starts": 86
+  },
+  {
+   "manager": "Zac",
+   "pos": "WR",
+   "waiver_pts": 678.62,
+   "drafted_pts": 5179.4,
+   "waiver_starts": 71,
+   "drafted_starts": 339
+  },
+  {
+   "manager": "becca",
+   "pos": "DEF",
+   "waiver_pts": 741.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 89,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "becca",
+   "pos": "K",
+   "waiver_pts": 303.1,
+   "drafted_pts": 32.2,
+   "waiver_starts": 81,
+   "drafted_starts": 9
+  },
+  {
+   "manager": "becca",
+   "pos": "QB",
+   "waiver_pts": 248.32,
+   "drafted_pts": 1624.34,
+   "waiver_starts": 14,
+   "drafted_starts": 76
+  },
+  {
+   "manager": "becca",
+   "pos": "RB",
+   "waiver_pts": 420.0,
+   "drafted_pts": 2626.56,
+   "waiver_starts": 39,
+   "drafted_starts": 166
+  },
+  {
+   "manager": "becca",
+   "pos": "TE",
+   "waiver_pts": 133.76,
+   "drafted_pts": 683.4,
+   "waiver_starts": 16,
+   "drafted_starts": 76
+  },
+  {
+   "manager": "becca",
+   "pos": "WR",
+   "waiver_pts": 366.8,
+   "drafted_pts": 2781.1,
+   "waiver_starts": 27,
+   "drafted_starts": 222
+  },
+  {
+   "manager": "pb",
+   "pos": "DEF",
+   "waiver_pts": 1438.0,
+   "drafted_pts": 0.0,
+   "waiver_starts": 185,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "pb",
+   "pos": "K",
+   "waiver_pts": 606.2,
+   "drafted_pts": 119.5,
+   "waiver_starts": 155,
+   "drafted_starts": 30
+  },
+  {
+   "manager": "pb",
+   "pos": "QB",
+   "waiver_pts": 1546.4,
+   "drafted_pts": 1737.62,
+   "waiver_starts": 88,
+   "drafted_starts": 100
+  },
+  {
+   "manager": "pb",
+   "pos": "RB",
+   "waiver_pts": 1557.3,
+   "drafted_pts": 3759.52,
+   "waiver_starts": 148,
+   "drafted_starts": 264
+  },
+  {
+   "manager": "pb",
+   "pos": "TE",
+   "waiver_pts": 869.1,
+   "drafted_pts": 1304.9,
+   "waiver_starts": 85,
+   "drafted_starts": 109
+  },
+  {
+   "manager": "pb",
+   "pos": "WR",
+   "waiver_pts": 1629.5,
+   "drafted_pts": 6072.38,
+   "waiver_starts": 135,
+   "drafted_starts": 383
+  },
+  {
+   "manager": "whitaker",
+   "pos": "DEF",
+   "waiver_pts": 1689.12,
+   "drafted_pts": 0.0,
+   "waiver_starts": 198,
+   "drafted_starts": 0
+  },
+  {
+   "manager": "whitaker",
+   "pos": "K",
+   "waiver_pts": 486.95,
+   "drafted_pts": 337.0,
+   "waiver_starts": 109,
+   "drafted_starts": 88
+  },
+  {
+   "manager": "whitaker",
+   "pos": "QB",
+   "waiver_pts": 254.76,
+   "drafted_pts": 3737.14,
+   "waiver_starts": 16,
+   "drafted_starts": 181
+  },
+  {
+   "manager": "whitaker",
+   "pos": "RB",
+   "waiver_pts": 434.74,
+   "drafted_pts": 5072.72,
+   "waiver_starts": 53,
+   "drafted_starts": 358
+  },
+  {
+   "manager": "whitaker",
+   "pos": "TE",
+   "waiver_pts": 422.74,
+   "drafted_pts": 1661.8,
+   "waiver_starts": 55,
+   "drafted_starts": 156
+  },
+  {
+   "manager": "whitaker",
+   "pos": "WR",
+   "waiver_pts": 844.9,
+   "drafted_pts": 7643.26,
+   "waiver_starts": 72,
+   "drafted_starts": 497
+  }
+ ]
+}

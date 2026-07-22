@@ -1,0 +1,3520 @@
+{
+ "meta": {
+  "built": "2026-07-21",
+  "source": "college from DynastyProcess db_playerids.csv; conference = CURRENT (2024-25) alignment per Hoss (a Texas player counts SEC even pre-2024). Frequency = DRAFT picks (drafts.json); scoring = started pts (boxscores), D/ST excluded. 95%+ player college coverage.",
+  "note": "'acquired' (waiver/trade) and NFL-team splits not yet included \u2014 drafts only."
+ },
+ "league": {
+  "top_schools_drafted": [
+   [
+    "Alabama",
+    113
+   ],
+   [
+    "Oklahoma",
+    82
+   ],
+   [
+    "Ohio State",
+    65
+   ],
+   [
+    "California",
+    64
+   ],
+   [
+    "LSU",
+    59
+   ],
+   [
+    "Georgia",
+    57
+   ],
+   [
+    "USC",
+    56
+   ],
+   [
+    "Clemson",
+    56
+   ],
+   [
+    "Miami",
+    47
+   ],
+   [
+    "Stanford",
+    43
+   ],
+   [
+    "Penn State",
+    43
+   ],
+   [
+    "Florida State",
+    40
+   ],
+   [
+    "Mississippi",
+    39
+   ],
+   [
+    "Wisconsin",
+    39
+   ],
+   [
+    "Notre Dame",
+    39
+   ],
+   [
+    "Texas A&M",
+    38
+   ],
+   [
+    "Memphis",
+    34
+   ],
+   [
+    "Texas",
+    33
+   ],
+   [
+    "Florida",
+    33
+   ],
+   [
+    "Oklahoma State",
+    32
+   ],
+   [
+    "Pittsburgh",
+    29
+   ],
+   [
+    "North Carolina",
+    28
+   ],
+   [
+    "South Carolina",
+    28
+   ],
+   [
+    "Tennessee",
+    27
+   ],
+   [
+    "Maryland",
+    27
+   ]
+  ],
+  "conferences_drafted": [
+   [
+    "SEC",
+    579
+   ],
+   [
+    "Big Ten",
+    423
+   ],
+   [
+    "ACC",
+    418
+   ],
+   [
+    "Big XII",
+    224
+   ],
+   [
+    "FCS/Other",
+    149
+   ],
+   [
+    "American",
+    87
+   ],
+   [
+    "Mountain West",
+    75
+   ],
+   [
+    "MAC",
+    58
+   ],
+   [
+    "Independent",
+    43
+   ],
+   [
+    "Sun Belt",
+    42
+   ],
+   [
+    "C-USA",
+    32
+   ],
+   [
+    "Pac-12",
+    22
+   ]
+  ],
+  "top_schools_scoring": [
+   [
+    "Alabama",
+    16139.579999999987
+   ],
+   [
+    "Oklahoma",
+    11062.36
+   ],
+   [
+    "LSU",
+    8517.46
+   ],
+   [
+    "Ohio State",
+    8338.760000000004
+   ],
+   [
+    "California",
+    8299.1
+   ],
+   [
+    "Georgia",
+    7529.739999999996
+   ],
+   [
+    "Clemson",
+    7137.540000000004
+   ],
+   [
+    "USC",
+    6805.219999999996
+   ],
+   [
+    "Stanford",
+    6422.740000000004
+   ],
+   [
+    "Wisconsin",
+    5759.680000000005
+   ],
+   [
+    "Penn State",
+    5550.199999999997
+   ],
+   [
+    "Texas A&M",
+    5348.060000000001
+   ],
+   [
+    "Mississippi",
+    4753.959999999999
+   ],
+   [
+    "Pittsburgh",
+    4466.659999999997
+   ],
+   [
+    "Miami",
+    4408.9000000000015
+   ],
+   [
+    "Tennessee",
+    4188.2800000000025
+   ],
+   [
+    "Maryland",
+    4024.900000000002
+   ],
+   [
+    "Michigan State",
+    3644.419999999999
+   ],
+   [
+    "Oklahoma State",
+    3628.1
+   ],
+   [
+    "Notre Dame",
+    3545.7999999999997
+   ],
+   [
+    "Texas Tech",
+    3529.8199999999997
+   ],
+   [
+    "Florida State",
+    3387.9900000000016
+   ],
+   [
+    "Michigan",
+    3361.299999999999
+   ],
+   [
+    "Fresno State",
+    3166.939999999998
+   ],
+   [
+    "South Carolina",
+    3145.900000000002
+   ]
+  ],
+  "conferences_scoring": [
+   [
+    "SEC",
+    73383.1
+   ],
+   [
+    "Big Ten",
+    53279.0
+   ],
+   [
+    "ACC",
+    48416.6
+   ],
+   [
+    "Big XII",
+    24955.3
+   ],
+   [
+    "FCS/Other",
+    17173.3
+   ],
+   [
+    "Mountain West",
+    9594.8
+   ],
+   [
+    "MAC",
+    7573.2
+   ],
+   [
+    "American",
+    6448.4
+   ],
+   [
+    "C-USA",
+    3770.0
+   ],
+   [
+    "Independent",
+    3765.8
+   ],
+   [
+    "Sun Belt",
+    2805.1
+   ],
+   [
+    "Pac-12",
+    2103.7
+   ]
+  ]
+ },
+ "scoring_by_position": {
+  "QB": {
+   "schools": [
+    [
+     "Oklahoma",
+     3622.9600000000023
+    ],
+    [
+     "California",
+     3141.840000000002
+    ],
+    [
+     "Texas Tech",
+     2601.2599999999993
+    ],
+    [
+     "Michigan",
+     2326.9
+    ],
+    [
+     "Wisconsin",
+     2153.08
+    ],
+    [
+     "Wyoming",
+     2099.6200000000003
+    ],
+    [
+     "Oregon",
+     2065.6000000000004
+    ],
+    [
+     "Nebraska",
+     2013.7800000000007
+    ],
+    [
+     "Mississippi State",
+     1903.12
+    ],
+    [
+     "Georgia",
+     1859.0399999999997
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     13629.9
+    ],
+    [
+     "SEC",
+     13117.3
+    ],
+    [
+     "ACC",
+     9376.6
+    ],
+    [
+     "Big XII",
+     4862.0
+    ],
+    [
+     "Mountain West",
+     3164.4
+    ],
+    [
+     "FCS/Other",
+     1716.6
+    ],
+    [
+     "MAC",
+     1220.1
+    ],
+    [
+     "C-USA",
+     164.8
+    ],
+    [
+     "Pac-12",
+     71.4
+    ],
+    [
+     "Sun Belt",
+     9.4
+    ]
+   ]
+  },
+  "RB": {
+   "schools": [
+    [
+     "Alabama",
+     7469.920000000003
+    ],
+    [
+     "Georgia",
+     4308.499999999999
+    ],
+    [
+     "Oklahoma",
+     3796.5000000000023
+    ],
+    [
+     "Wisconsin",
+     3103.5000000000014
+    ],
+    [
+     "Ohio State",
+     2761.459999999999
+    ],
+    [
+     "Tennessee",
+     2701.8200000000006
+    ],
+    [
+     "Pittsburgh",
+     2668.1
+    ],
+    [
+     "Stanford",
+     2479.859999999999
+    ],
+    [
+     "Penn State",
+     2232.7999999999997
+    ],
+    [
+     "Florida State",
+     2183.6999999999994
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     24919.9
+    ],
+    [
+     "Big Ten",
+     15099.5
+    ],
+    [
+     "ACC",
+     13518.1
+    ],
+    [
+     "Big XII",
+     5941.0
+    ],
+    [
+     "FCS/Other",
+     4619.4
+    ],
+    [
+     "American",
+     3953.7
+    ],
+    [
+     "C-USA",
+     1719.9
+    ],
+    [
+     "Mountain West",
+     1651.5
+    ],
+    [
+     "Sun Belt",
+     1562.5
+    ],
+    [
+     "MAC",
+     1272.9
+    ],
+    [
+     "Independent",
+     906.3
+    ],
+    [
+     "Pac-12",
+     406.7
+    ]
+   ]
+  },
+  "WR": {
+   "schools": [
+    [
+     "Alabama",
+     7989.659999999997
+    ],
+    [
+     "LSU",
+     5125.339999999999
+    ],
+    [
+     "USC",
+     5073.859999999998
+    ],
+    [
+     "Ohio State",
+     4854.240000000002
+    ],
+    [
+     "Clemson",
+     4593.74
+    ],
+    [
+     "Maryland",
+     3585.700000000001
+    ],
+    [
+     "California",
+     3274.2599999999993
+    ],
+    [
+     "Mississippi",
+     3261.0999999999995
+    ],
+    [
+     "Texas A&M",
+     2992.8200000000006
+    ],
+    [
+     "Oklahoma",
+     2707.5999999999985
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     27199.3
+    ],
+    [
+     "Big Ten",
+     18247.9
+    ],
+    [
+     "ACC",
+     18040.2
+    ],
+    [
+     "Big XII",
+     8228.5
+    ],
+    [
+     "FCS/Other",
+     7507.6
+    ],
+    [
+     "MAC",
+     4504.8
+    ],
+    [
+     "Mountain West",
+     3996.4
+    ],
+    [
+     "Independent",
+     1893.3
+    ],
+    [
+     "Pac-12",
+     1610.8
+    ],
+    [
+     "C-USA",
+     1145.6
+    ],
+    [
+     "American",
+     551.4
+    ],
+    [
+     "Sun Belt",
+     125.5
+    ]
+   ]
+  },
+  "TE": {
+   "schools": [
+    [
+     "Iowa",
+     2881.700000000001
+    ],
+    [
+     "Cincinnati",
+     2615.2600000000007
+    ],
+    [
+     "Miami",
+     2396.3999999999983
+    ],
+    [
+     "Stanford",
+     2208.2999999999993
+    ],
+    [
+     "Arizona",
+     1118.6999999999998
+    ],
+    [
+     "Florida",
+     1070.3000000000002
+    ],
+    [
+     "Penn State",
+     895.7000000000004
+    ],
+    [
+     "Oklahoma",
+     890.3999999999997
+    ],
+    [
+     "South Dakota State",
+     813.2999999999997
+    ],
+    [
+     "Mississippi",
+     809.9
+    ]
+   ],
+   "conferences": [
+    [
+     "ACC",
+     6549.0
+    ],
+    [
+     "SEC",
+     5707.1
+    ],
+    [
+     "Big Ten",
+     5208.3
+    ],
+    [
+     "Big XII",
+     4180.2
+    ],
+    [
+     "FCS/Other",
+     2381.6
+    ],
+    [
+     "C-USA",
+     735.1
+    ],
+    [
+     "Independent",
+     724.6
+    ],
+    [
+     "Mountain West",
+     607.8
+    ],
+    [
+     "MAC",
+     575.3
+    ],
+    [
+     "American",
+     312.8
+    ],
+    [
+     "Sun Belt",
+     262.9
+    ],
+    [
+     "Pac-12",
+     14.8
+    ]
+   ]
+  },
+  "K": {
+   "schools": [
+    [
+     "Texas",
+     1151.549999999999
+    ],
+    [
+     "Memphis",
+     795.6999999999995
+    ],
+    [
+     "Georgia Southern",
+     483.70000000000016
+    ],
+    [
+     "Georgia Tech",
+     433.40000000000015
+    ],
+    [
+     "Colorado",
+     384.80000000000007
+    ],
+    [
+     "UCF",
+     382.3000000000001
+    ],
+    [
+     "Georgia State",
+     361.1000000000001
+    ],
+    [
+     "Rice",
+     358.50000000000006
+    ],
+    [
+     "UCLA",
+     324.4000000000001
+    ],
+    [
+     "South Dakota State",
+     296.75000000000006
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     2439.4
+    ],
+    [
+     "Big XII",
+     1743.6
+    ],
+    [
+     "American",
+     1630.5
+    ],
+    [
+     "Big Ten",
+     1093.4
+    ],
+    [
+     "FCS/Other",
+     948.1
+    ],
+    [
+     "ACC",
+     932.7
+    ],
+    [
+     "Sun Belt",
+     844.8
+    ],
+    [
+     "Independent",
+     241.6
+    ],
+    [
+     "Mountain West",
+     174.7
+    ],
+    [
+     "C-USA",
+     4.6
+    ]
+   ]
+  }
+ },
+ "by_manager": {
+  "Kyle": {
+   "franchise": "Kyle",
+   "top_schools": [
+    [
+     "California",
+     5
+    ],
+    [
+     "USC",
+     4
+    ],
+    [
+     "LSU",
+     4
+    ],
+    [
+     "Stanford",
+     4
+    ],
+    [
+     "Texas A&M",
+     3
+    ],
+    [
+     "Oregon State",
+     3
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     20
+    ],
+    [
+     "ACC",
+     19
+    ],
+    [
+     "Big Ten",
+     12
+    ],
+    [
+     "Big XII",
+     5
+    ],
+    [
+     "Mountain West",
+     4
+    ],
+    [
+     "FCS/Other",
+     3
+    ],
+    [
+     "Pac-12",
+     3
+    ],
+    [
+     "American",
+     3
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "Independent",
+     1
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Jay": {
+   "franchise": "Jay \u2192 Kevin",
+   "top_schools": [
+    [
+     "California",
+     9
+    ],
+    [
+     "Ohio State",
+     7
+    ],
+    [
+     "Georgia",
+     7
+    ],
+    [
+     "Auburn",
+     5
+    ],
+    [
+     "Texas",
+     4
+    ],
+    [
+     "Tennessee",
+     4
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     41
+    ],
+    [
+     "ACC",
+     26
+    ],
+    [
+     "Big Ten",
+     24
+    ],
+    [
+     "Big XII",
+     16
+    ],
+    [
+     "FCS/Other",
+     11
+    ],
+    [
+     "MAC",
+     8
+    ],
+    [
+     "American",
+     5
+    ],
+    [
+     "Mountain West",
+     3
+    ],
+    [
+     "Pac-12",
+     2
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Dylan Snyder": {
+   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "top_schools": [
+    [
+     "Miami",
+     4
+    ],
+    [
+     "LSU",
+     3
+    ],
+    [
+     "Boston College",
+     3
+    ],
+    [
+     "Stanford",
+     3
+    ],
+    [
+     "Texas",
+     2
+    ],
+    [
+     "Virginia Tech",
+     2
+    ]
+   ],
+   "conferences": [
+    [
+     "ACC",
+     19
+    ],
+    [
+     "SEC",
+     14
+    ],
+    [
+     "Big Ten",
+     12
+    ],
+    [
+     "Big XII",
+     5
+    ],
+    [
+     "FCS/Other",
+     5
+    ],
+    [
+     "Mountain West",
+     4
+    ],
+    [
+     "American",
+     3
+    ],
+    [
+     "Sun Belt",
+     2
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "Benedict": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_schools": [
+    [
+     "Wisconsin",
+     8
+    ],
+    [
+     "Pittsburgh",
+     5
+    ],
+    [
+     "California",
+     4
+    ],
+    [
+     "USC",
+     4
+    ],
+    [
+     "Baylor",
+     4
+    ],
+    [
+     "Oklahoma",
+     4
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     26
+    ],
+    [
+     "ACC",
+     24
+    ],
+    [
+     "SEC",
+     18
+    ],
+    [
+     "Big XII",
+     12
+    ],
+    [
+     "FCS/Other",
+     10
+    ],
+    [
+     "American",
+     6
+    ],
+    [
+     "Mountain West",
+     5
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "MAC",
+     3
+    ],
+    [
+     "Sun Belt",
+     2
+    ],
+    [
+     "C-USA",
+     1
+    ]
+   ]
+  },
+  "Carter": {
+   "franchise": "Carter",
+   "top_schools": [
+    [
+     "Alabama",
+     11
+    ],
+    [
+     "California",
+     7
+    ],
+    [
+     "Cincinnati",
+     6
+    ],
+    [
+     "Oklahoma",
+     5
+    ],
+    [
+     "UCF",
+     5
+    ],
+    [
+     "Arizona State",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     47
+    ],
+    [
+     "ACC",
+     35
+    ],
+    [
+     "Big XII",
+     32
+    ],
+    [
+     "Big Ten",
+     20
+    ],
+    [
+     "FCS/Other",
+     14
+    ],
+    [
+     "American",
+     6
+    ],
+    [
+     "C-USA",
+     5
+    ],
+    [
+     "Mountain West",
+     5
+    ],
+    [
+     "Pac-12",
+     4
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "Sun Belt",
+     2
+    ]
+   ]
+  },
+  "Brice": {
+   "franchise": "Brice",
+   "top_schools": [
+    [
+     "USC",
+     9
+    ],
+    [
+     "Alabama",
+     8
+    ],
+    [
+     "Clemson",
+     7
+    ],
+    [
+     "Georgia",
+     6
+    ],
+    [
+     "California",
+     6
+    ],
+    [
+     "Oklahoma State",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     44
+    ],
+    [
+     "Big Ten",
+     37
+    ],
+    [
+     "ACC",
+     33
+    ],
+    [
+     "Big XII",
+     19
+    ],
+    [
+     "FCS/Other",
+     13
+    ],
+    [
+     "American",
+     9
+    ],
+    [
+     "Mountain West",
+     8
+    ],
+    [
+     "MAC",
+     7
+    ],
+    [
+     "C-USA",
+     5
+    ],
+    [
+     "Independent",
+     3
+    ],
+    [
+     "Sun Belt",
+     3
+    ]
+   ]
+  },
+  "whitaker": {
+   "franchise": "whitaker",
+   "top_schools": [
+    [
+     "Alabama",
+     12
+    ],
+    [
+     "California",
+     7
+    ],
+    [
+     "Oklahoma",
+     7
+    ],
+    [
+     "Boston College",
+     5
+    ],
+    [
+     "Florida State",
+     5
+    ],
+    [
+     "Mississippi",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     46
+    ],
+    [
+     "ACC",
+     40
+    ],
+    [
+     "Big Ten",
+     29
+    ],
+    [
+     "Big XII",
+     20
+    ],
+    [
+     "FCS/Other",
+     13
+    ],
+    [
+     "American",
+     8
+    ],
+    [
+     "MAC",
+     8
+    ],
+    [
+     "Mountain West",
+     6
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "C-USA",
+     1
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Dave Lang": {
+   "franchise": "Dave Lang",
+   "top_schools": [
+    [
+     "Texas A&M",
+     2
+    ],
+    [
+     "USC",
+     2
+    ],
+    [
+     "Notre Dame",
+     2
+    ],
+    [
+     "Georgia",
+     1
+    ],
+    [
+     "Texas Tech",
+     1
+    ],
+    [
+     "Kansas State",
+     1
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     6
+    ],
+    [
+     "Big XII",
+     4
+    ],
+    [
+     "ACC",
+     4
+    ],
+    [
+     "FCS/Other",
+     3
+    ],
+    [
+     "Mountain West",
+     3
+    ],
+    [
+     "Big Ten",
+     3
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "American",
+     1
+    ]
+   ]
+  },
+  "Michael": {
+   "franchise": "Michael",
+   "top_schools": [
+    [
+     "Alabama",
+     8
+    ],
+    [
+     "Oklahoma",
+     6
+    ],
+    [
+     "Stanford",
+     5
+    ],
+    [
+     "LSU",
+     5
+    ],
+    [
+     "Georgia",
+     5
+    ],
+    [
+     "Penn State",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     41
+    ],
+    [
+     "ACC",
+     34
+    ],
+    [
+     "Big Ten",
+     27
+    ],
+    [
+     "Big XII",
+     16
+    ],
+    [
+     "FCS/Other",
+     9
+    ],
+    [
+     "Sun Belt",
+     8
+    ],
+    [
+     "American",
+     8
+    ],
+    [
+     "Mountain West",
+     7
+    ],
+    [
+     "Pac-12",
+     4
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "MAC",
+     1
+    ]
+   ]
+  },
+  "Tommy": {
+   "franchise": "Tommy",
+   "top_schools": [
+    [
+     "Alabama",
+     10
+    ],
+    [
+     "Oklahoma",
+     7
+    ],
+    [
+     "Georgia",
+     6
+    ],
+    [
+     "Clemson",
+     6
+    ],
+    [
+     "Arkansas",
+     5
+    ],
+    [
+     "Wisconsin",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     43
+    ],
+    [
+     "Big Ten",
+     35
+    ],
+    [
+     "ACC",
+     29
+    ],
+    [
+     "Big XII",
+     16
+    ],
+    [
+     "FCS/Other",
+     14
+    ],
+    [
+     "American",
+     5
+    ],
+    [
+     "Sun Belt",
+     5
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "Mountain West",
+     3
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "Kelly Brown": {
+   "franchise": "Kelly Brown",
+   "top_schools": [
+    [
+     "Miami",
+     3
+    ],
+    [
+     "Auburn",
+     2
+    ],
+    [
+     "Texas A&M",
+     2
+    ],
+    [
+     "Mississippi",
+     2
+    ],
+    [
+     "Indiana",
+     2
+    ],
+    [
+     "UCF",
+     2
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     13
+    ],
+    [
+     "ACC",
+     7
+    ],
+    [
+     "Big Ten",
+     7
+    ],
+    [
+     "Big XII",
+     4
+    ],
+    [
+     "FCS/Other",
+     4
+    ],
+    [
+     "American",
+     3
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ],
+    [
+     "Mountain West",
+     1
+    ]
+   ]
+  },
+  "Ryan": {
+   "franchise": "Ryan",
+   "top_schools": [
+    [
+     "Oklahoma",
+     13
+    ],
+    [
+     "Stanford",
+     7
+    ],
+    [
+     "Texas",
+     7
+    ],
+    [
+     "North Carolina",
+     6
+    ],
+    [
+     "Clemson",
+     6
+    ],
+    [
+     "Florida State",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     47
+    ],
+    [
+     "Big Ten",
+     40
+    ],
+    [
+     "ACC",
+     35
+    ],
+    [
+     "FCS/Other",
+     14
+    ],
+    [
+     "Big XII",
+     12
+    ],
+    [
+     "American",
+     6
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "Mountain West",
+     2
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "pb": {
+   "franchise": "pb",
+   "top_schools": [
+    [
+     "Alabama",
+     13
+    ],
+    [
+     "Ohio State",
+     8
+    ],
+    [
+     "Georgia",
+     8
+    ],
+    [
+     "Iowa",
+     6
+    ],
+    [
+     "Clemson",
+     6
+    ],
+    [
+     "Texas A&M",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     51
+    ],
+    [
+     "ACC",
+     31
+    ],
+    [
+     "Big Ten",
+     27
+    ],
+    [
+     "Big XII",
+     24
+    ],
+    [
+     "FCS/Other",
+     10
+    ],
+    [
+     "Mountain West",
+     6
+    ],
+    [
+     "Sun Belt",
+     5
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "MAC",
+     3
+    ],
+    [
+     "American",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "David Laskey": {
+   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "top_schools": [
+    [
+     "Oklahoma State",
+     2
+    ],
+    [
+     "Stanford",
+     1
+    ],
+    [
+     "Massachusetts",
+     1
+    ],
+    [
+     "Washington",
+     1
+    ],
+    [
+     "Arizona",
+     1
+    ],
+    [
+     "Tulsa",
+     1
+    ]
+   ],
+   "conferences": [
+    [
+     "Big XII",
+     3
+    ],
+    [
+     "Big Ten",
+     3
+    ],
+    [
+     "SEC",
+     2
+    ],
+    [
+     "ACC",
+     1
+    ],
+    [
+     "Independent",
+     1
+    ],
+    [
+     "American",
+     1
+    ],
+    [
+     "C-USA",
+     1
+    ],
+    [
+     "MAC",
+     1
+    ]
+   ]
+  },
+  "Sara": {
+   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "top_schools": [
+    [
+     "Miami",
+     3
+    ],
+    [
+     "Alabama",
+     2
+    ],
+    [
+     "Michigan",
+     2
+    ],
+    [
+     "Northern Colorado",
+     2
+    ],
+    [
+     "Oregon",
+     2
+    ],
+    [
+     "Clemson",
+     2
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     6
+    ],
+    [
+     "ACC",
+     6
+    ],
+    [
+     "SEC",
+     5
+    ],
+    [
+     "FCS/Other",
+     2
+    ],
+    [
+     "Big XII",
+     2
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "Mountain West",
+     1
+    ],
+    [
+     "Pac-12",
+     1
+    ],
+    [
+     "American",
+     1
+    ],
+    [
+     "Independent",
+     1
+    ]
+   ]
+  },
+  "Zac": {
+   "franchise": "Zac",
+   "top_schools": [
+    [
+     "LSU",
+     12
+    ],
+    [
+     "Alabama",
+     10
+    ],
+    [
+     "Mississippi",
+     4
+    ],
+    [
+     "Miami",
+     4
+    ],
+    [
+     "Penn State",
+     4
+    ],
+    [
+     "Oklahoma",
+     4
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     41
+    ],
+    [
+     "Big Ten",
+     22
+    ],
+    [
+     "ACC",
+     18
+    ],
+    [
+     "Big XII",
+     12
+    ],
+    [
+     "American",
+     9
+    ],
+    [
+     "Mountain West",
+     8
+    ],
+    [
+     "FCS/Other",
+     6
+    ],
+    [
+     "Sun Belt",
+     3
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "C-USA",
+     2
+    ],
+    [
+     "Independent",
+     1
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "Jason": {
+   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "top_schools": [
+    [
+     "Oklahoma",
+     7
+    ],
+    [
+     "Ohio State",
+     6
+    ],
+    [
+     "Penn State",
+     6
+    ],
+    [
+     "USC",
+     6
+    ],
+    [
+     "Clemson",
+     5
+    ],
+    [
+     "LSU",
+     4
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     38
+    ],
+    [
+     "SEC",
+     33
+    ],
+    [
+     "ACC",
+     21
+    ],
+    [
+     "FCS/Other",
+     7
+    ],
+    [
+     "Big XII",
+     6
+    ],
+    [
+     "Sun Belt",
+     5
+    ],
+    [
+     "C-USA",
+     4
+    ],
+    [
+     "Independent",
+     3
+    ],
+    [
+     "American",
+     2
+    ],
+    [
+     "MAC",
+     1
+    ]
+   ]
+  },
+  "becca": {
+   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "top_schools": [
+    [
+     "Georgia",
+     5
+    ],
+    [
+     "Alabama",
+     5
+    ],
+    [
+     "Penn State",
+     4
+    ],
+    [
+     "Oklahoma",
+     4
+    ],
+    [
+     "Notre Dame",
+     4
+    ],
+    [
+     "Florida",
+     4
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     25
+    ],
+    [
+     "Big Ten",
+     16
+    ],
+    [
+     "ACC",
+     15
+    ],
+    [
+     "Big XII",
+     7
+    ],
+    [
+     "American",
+     5
+    ],
+    [
+     "FCS/Other",
+     4
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "MAC",
+     3
+    ],
+    [
+     "Mountain West",
+     1
+    ],
+    [
+     "Pac-12",
+     1
+    ],
+    [
+     "C-USA",
+     1
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Aboubacar": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_schools": [
+    [
+     "Penn State",
+     1
+    ],
+    [
+     "California",
+     1
+    ],
+    [
+     "Central Michigan",
+     1
+    ],
+    [
+     "Minnesota State-Mankato",
+     1
+    ],
+    [
+     "Iowa",
+     1
+    ],
+    [
+     "Memphis",
+     1
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     4
+    ],
+    [
+     "ACC",
+     3
+    ],
+    [
+     "SEC",
+     2
+    ],
+    [
+     "MAC",
+     1
+    ],
+    [
+     "FCS/Other",
+     1
+    ],
+    [
+     "American",
+     1
+    ],
+    [
+     "Big XII",
+     1
+    ]
+   ]
+  },
+  "Kat": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_schools": [
+    [
+     "Oklahoma",
+     3
+    ],
+    [
+     "Alabama",
+     3
+    ],
+    [
+     "South Carolina",
+     2
+    ],
+    [
+     "California",
+     2
+    ],
+    [
+     "South Dakota State",
+     2
+    ],
+    [
+     "USC",
+     2
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     12
+    ],
+    [
+     "Big Ten",
+     10
+    ],
+    [
+     "ACC",
+     9
+    ],
+    [
+     "FCS/Other",
+     3
+    ],
+    [
+     "American",
+     2
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "Sun Belt",
+     2
+    ],
+    [
+     "Mountain West",
+     1
+    ]
+   ]
+  },
+  "Kevin": {
+   "franchise": "Jay \u2192 Kevin",
+   "top_schools": [
+    [
+     "Alabama",
+     6
+    ],
+    [
+     "Nebraska",
+     2
+    ],
+    [
+     "Rutgers",
+     2
+    ],
+    [
+     "Oklahoma",
+     2
+    ],
+    [
+     "Oregon",
+     2
+    ],
+    [
+     "Texas A&M",
+     2
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     15
+    ],
+    [
+     "SEC",
+     13
+    ],
+    [
+     "ACC",
+     5
+    ],
+    [
+     "Mountain West",
+     4
+    ],
+    [
+     "Big XII",
+     2
+    ],
+    [
+     "American",
+     1
+    ],
+    [
+     "Pac-12",
+     1
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Megan": {
+   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "top_schools": [
+    [
+     "Alabama",
+     3
+    ],
+    [
+     "Utah",
+     2
+    ],
+    [
+     "Texas",
+     2
+    ],
+    [
+     "Oklahoma",
+     1
+    ],
+    [
+     "Eastern Washington",
+     1
+    ],
+    [
+     "Clemson",
+     1
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     11
+    ],
+    [
+     "Big Ten",
+     6
+    ],
+    [
+     "ACC",
+     3
+    ],
+    [
+     "Big XII",
+     3
+    ],
+    [
+     "FCS/Other",
+     2
+    ],
+    [
+     "Mountain West",
+     2
+    ],
+    [
+     "Independent",
+     1
+    ]
+   ]
+  },
+  "Alex": {
+   "franchise": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+   "top_schools": [
+    [
+     "Alabama",
+     2
+    ],
+    [
+     "Ohio State",
+     2
+    ],
+    [
+     "Iowa",
+     1
+    ],
+    [
+     "Fresno State",
+     1
+    ],
+    [
+     "Arizona",
+     1
+    ],
+    [
+     "Iowa State",
+     1
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     4
+    ],
+    [
+     "Big Ten",
+     4
+    ],
+    [
+     "Big XII",
+     3
+    ],
+    [
+     "Mountain West",
+     1
+    ],
+    [
+     "FCS/Other",
+     1
+    ],
+    [
+     "ACC",
+     1
+    ]
+   ]
+  }
+ },
+ "by_franchise": {
+  "Kyle": {
+   "top_schools": [
+    [
+     "California",
+     5
+    ],
+    [
+     "USC",
+     4
+    ],
+    [
+     "LSU",
+     4
+    ],
+    [
+     "Stanford",
+     4
+    ],
+    [
+     "Texas A&M",
+     3
+    ],
+    [
+     "Oregon State",
+     3
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     20
+    ],
+    [
+     "ACC",
+     19
+    ],
+    [
+     "Big Ten",
+     12
+    ],
+    [
+     "Big XII",
+     5
+    ],
+    [
+     "Mountain West",
+     4
+    ],
+    [
+     "FCS/Other",
+     3
+    ],
+    [
+     "Pac-12",
+     3
+    ],
+    [
+     "American",
+     3
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "Independent",
+     1
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Jay \u2192 Kevin": {
+   "top_schools": [
+    [
+     "California",
+     10
+    ],
+    [
+     "Alabama",
+     10
+    ],
+    [
+     "Ohio State",
+     8
+    ],
+    [
+     "Georgia",
+     8
+    ],
+    [
+     "Auburn",
+     6
+    ],
+    [
+     "Oklahoma",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     54
+    ],
+    [
+     "Big Ten",
+     39
+    ],
+    [
+     "ACC",
+     31
+    ],
+    [
+     "Big XII",
+     18
+    ],
+    [
+     "FCS/Other",
+     11
+    ],
+    [
+     "MAC",
+     8
+    ],
+    [
+     "Mountain West",
+     7
+    ],
+    [
+     "American",
+     6
+    ],
+    [
+     "Pac-12",
+     3
+    ],
+    [
+     "Sun Belt",
+     2
+    ]
+   ]
+  },
+  "Dylan Snyder \u2192 becca \u2192 Megan": {
+   "top_schools": [
+    [
+     "Alabama",
+     10
+    ],
+    [
+     "LSU",
+     7
+    ],
+    [
+     "Notre Dame",
+     7
+    ],
+    [
+     "Florida",
+     6
+    ],
+    [
+     "Georgia",
+     6
+    ],
+    [
+     "Stanford",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     50
+    ],
+    [
+     "ACC",
+     37
+    ],
+    [
+     "Big Ten",
+     34
+    ],
+    [
+     "Big XII",
+     15
+    ],
+    [
+     "FCS/Other",
+     11
+    ],
+    [
+     "American",
+     8
+    ],
+    [
+     "Mountain West",
+     7
+    ],
+    [
+     "Independent",
+     7
+    ],
+    [
+     "Sun Belt",
+     3
+    ],
+    [
+     "MAC",
+     3
+    ],
+    [
+     "Pac-12",
+     2
+    ],
+    [
+     "C-USA",
+     1
+    ]
+   ]
+  },
+  "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex": {
+   "top_schools": [
+    [
+     "Wisconsin",
+     10
+    ],
+    [
+     "California",
+     8
+    ],
+    [
+     "Oklahoma",
+     8
+    ],
+    [
+     "South Carolina",
+     7
+    ],
+    [
+     "USC",
+     7
+    ],
+    [
+     "Alabama",
+     7
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     44
+    ],
+    [
+     "ACC",
+     37
+    ],
+    [
+     "SEC",
+     36
+    ],
+    [
+     "Big XII",
+     16
+    ],
+    [
+     "FCS/Other",
+     15
+    ],
+    [
+     "American",
+     9
+    ],
+    [
+     "Mountain West",
+     7
+    ],
+    [
+     "MAC",
+     6
+    ],
+    [
+     "Sun Belt",
+     4
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "C-USA",
+     1
+    ]
+   ]
+  },
+  "Carter": {
+   "top_schools": [
+    [
+     "Alabama",
+     11
+    ],
+    [
+     "California",
+     7
+    ],
+    [
+     "Cincinnati",
+     6
+    ],
+    [
+     "Oklahoma",
+     5
+    ],
+    [
+     "UCF",
+     5
+    ],
+    [
+     "Arizona State",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     47
+    ],
+    [
+     "ACC",
+     35
+    ],
+    [
+     "Big XII",
+     32
+    ],
+    [
+     "Big Ten",
+     20
+    ],
+    [
+     "FCS/Other",
+     14
+    ],
+    [
+     "American",
+     6
+    ],
+    [
+     "C-USA",
+     5
+    ],
+    [
+     "Mountain West",
+     5
+    ],
+    [
+     "Pac-12",
+     4
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "Sun Belt",
+     2
+    ]
+   ]
+  },
+  "Brice": {
+   "top_schools": [
+    [
+     "USC",
+     9
+    ],
+    [
+     "Alabama",
+     8
+    ],
+    [
+     "Clemson",
+     7
+    ],
+    [
+     "Georgia",
+     6
+    ],
+    [
+     "California",
+     6
+    ],
+    [
+     "Oklahoma State",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     44
+    ],
+    [
+     "Big Ten",
+     37
+    ],
+    [
+     "ACC",
+     33
+    ],
+    [
+     "Big XII",
+     19
+    ],
+    [
+     "FCS/Other",
+     13
+    ],
+    [
+     "American",
+     9
+    ],
+    [
+     "Mountain West",
+     8
+    ],
+    [
+     "MAC",
+     7
+    ],
+    [
+     "C-USA",
+     5
+    ],
+    [
+     "Independent",
+     3
+    ],
+    [
+     "Sun Belt",
+     3
+    ]
+   ]
+  },
+  "whitaker": {
+   "top_schools": [
+    [
+     "Alabama",
+     12
+    ],
+    [
+     "California",
+     7
+    ],
+    [
+     "Oklahoma",
+     7
+    ],
+    [
+     "Boston College",
+     5
+    ],
+    [
+     "Florida State",
+     5
+    ],
+    [
+     "Mississippi",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     46
+    ],
+    [
+     "ACC",
+     40
+    ],
+    [
+     "Big Ten",
+     29
+    ],
+    [
+     "Big XII",
+     20
+    ],
+    [
+     "FCS/Other",
+     13
+    ],
+    [
+     "American",
+     8
+    ],
+    [
+     "MAC",
+     8
+    ],
+    [
+     "Mountain West",
+     6
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "C-USA",
+     1
+    ],
+    [
+     "Sun Belt",
+     1
+    ]
+   ]
+  },
+  "Dave Lang": {
+   "top_schools": [
+    [
+     "Texas A&M",
+     2
+    ],
+    [
+     "USC",
+     2
+    ],
+    [
+     "Notre Dame",
+     2
+    ],
+    [
+     "Georgia",
+     1
+    ],
+    [
+     "Texas Tech",
+     1
+    ],
+    [
+     "Kansas State",
+     1
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     6
+    ],
+    [
+     "Big XII",
+     4
+    ],
+    [
+     "ACC",
+     4
+    ],
+    [
+     "FCS/Other",
+     3
+    ],
+    [
+     "Mountain West",
+     3
+    ],
+    [
+     "Big Ten",
+     3
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "American",
+     1
+    ]
+   ]
+  },
+  "Michael": {
+   "top_schools": [
+    [
+     "Alabama",
+     8
+    ],
+    [
+     "Oklahoma",
+     6
+    ],
+    [
+     "Stanford",
+     5
+    ],
+    [
+     "LSU",
+     5
+    ],
+    [
+     "Georgia",
+     5
+    ],
+    [
+     "Penn State",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     41
+    ],
+    [
+     "ACC",
+     34
+    ],
+    [
+     "Big Ten",
+     27
+    ],
+    [
+     "Big XII",
+     16
+    ],
+    [
+     "FCS/Other",
+     9
+    ],
+    [
+     "Sun Belt",
+     8
+    ],
+    [
+     "American",
+     8
+    ],
+    [
+     "Mountain West",
+     7
+    ],
+    [
+     "Pac-12",
+     4
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "MAC",
+     1
+    ]
+   ]
+  },
+  "Tommy": {
+   "top_schools": [
+    [
+     "Alabama",
+     10
+    ],
+    [
+     "Oklahoma",
+     7
+    ],
+    [
+     "Georgia",
+     6
+    ],
+    [
+     "Clemson",
+     6
+    ],
+    [
+     "Arkansas",
+     5
+    ],
+    [
+     "Wisconsin",
+     5
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     43
+    ],
+    [
+     "Big Ten",
+     35
+    ],
+    [
+     "ACC",
+     29
+    ],
+    [
+     "Big XII",
+     16
+    ],
+    [
+     "FCS/Other",
+     14
+    ],
+    [
+     "American",
+     5
+    ],
+    [
+     "Sun Belt",
+     5
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "Mountain West",
+     3
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "Kelly Brown": {
+   "top_schools": [
+    [
+     "Miami",
+     3
+    ],
+    [
+     "Auburn",
+     2
+    ],
+    [
+     "Texas A&M",
+     2
+    ],
+    [
+     "Mississippi",
+     2
+    ],
+    [
+     "Indiana",
+     2
+    ],
+    [
+     "UCF",
+     2
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     13
+    ],
+    [
+     "ACC",
+     7
+    ],
+    [
+     "Big Ten",
+     7
+    ],
+    [
+     "Big XII",
+     4
+    ],
+    [
+     "FCS/Other",
+     4
+    ],
+    [
+     "American",
+     3
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ],
+    [
+     "Mountain West",
+     1
+    ]
+   ]
+  },
+  "Ryan": {
+   "top_schools": [
+    [
+     "Oklahoma",
+     13
+    ],
+    [
+     "Stanford",
+     7
+    ],
+    [
+     "Texas",
+     7
+    ],
+    [
+     "North Carolina",
+     6
+    ],
+    [
+     "Clemson",
+     6
+    ],
+    [
+     "Florida State",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     47
+    ],
+    [
+     "Big Ten",
+     40
+    ],
+    [
+     "ACC",
+     35
+    ],
+    [
+     "FCS/Other",
+     14
+    ],
+    [
+     "Big XII",
+     12
+    ],
+    [
+     "American",
+     6
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "Mountain West",
+     2
+    ],
+    [
+     "Independent",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "pb": {
+   "top_schools": [
+    [
+     "Alabama",
+     13
+    ],
+    [
+     "Ohio State",
+     8
+    ],
+    [
+     "Georgia",
+     8
+    ],
+    [
+     "Iowa",
+     6
+    ],
+    [
+     "Clemson",
+     6
+    ],
+    [
+     "Texas A&M",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     51
+    ],
+    [
+     "ACC",
+     31
+    ],
+    [
+     "Big Ten",
+     27
+    ],
+    [
+     "Big XII",
+     24
+    ],
+    [
+     "FCS/Other",
+     10
+    ],
+    [
+     "Mountain West",
+     6
+    ],
+    [
+     "Sun Belt",
+     5
+    ],
+    [
+     "Independent",
+     4
+    ],
+    [
+     "C-USA",
+     3
+    ],
+    [
+     "MAC",
+     3
+    ],
+    [
+     "American",
+     2
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "David Laskey \u2192 Sara \u2192 Jason": {
+   "top_schools": [
+    [
+     "Ohio State",
+     8
+    ],
+    [
+     "Clemson",
+     7
+    ],
+    [
+     "Oklahoma",
+     7
+    ],
+    [
+     "Alabama",
+     6
+    ],
+    [
+     "Penn State",
+     6
+    ],
+    [
+     "USC",
+     6
+    ]
+   ],
+   "conferences": [
+    [
+     "Big Ten",
+     47
+    ],
+    [
+     "SEC",
+     40
+    ],
+    [
+     "ACC",
+     28
+    ],
+    [
+     "Big XII",
+     11
+    ],
+    [
+     "FCS/Other",
+     9
+    ],
+    [
+     "Independent",
+     5
+    ],
+    [
+     "C-USA",
+     5
+    ],
+    [
+     "Sun Belt",
+     5
+    ],
+    [
+     "American",
+     4
+    ],
+    [
+     "MAC",
+     4
+    ],
+    [
+     "Mountain West",
+     1
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  },
+  "Zac": {
+   "top_schools": [
+    [
+     "LSU",
+     12
+    ],
+    [
+     "Alabama",
+     10
+    ],
+    [
+     "Mississippi",
+     4
+    ],
+    [
+     "Miami",
+     4
+    ],
+    [
+     "Penn State",
+     4
+    ],
+    [
+     "Oklahoma",
+     4
+    ]
+   ],
+   "conferences": [
+    [
+     "SEC",
+     41
+    ],
+    [
+     "Big Ten",
+     22
+    ],
+    [
+     "ACC",
+     18
+    ],
+    [
+     "Big XII",
+     12
+    ],
+    [
+     "American",
+     9
+    ],
+    [
+     "Mountain West",
+     8
+    ],
+    [
+     "FCS/Other",
+     6
+    ],
+    [
+     "Sun Belt",
+     3
+    ],
+    [
+     "MAC",
+     2
+    ],
+    [
+     "C-USA",
+     2
+    ],
+    [
+     "Independent",
+     1
+    ],
+    [
+     "Pac-12",
+     1
+    ]
+   ]
+  }
+ }
+}
