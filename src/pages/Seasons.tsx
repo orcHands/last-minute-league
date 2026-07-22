@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { SEASONS, getManager } from '../data/league'
 import Badge from '../components/Badge'
 import AssetImage from '../components/AssetImage'
+import { withBase } from '../lib/assetPath'
 
 export default function Seasons() {
   const [selected, setSelected] = useState<number | null>(null)
@@ -120,7 +121,7 @@ export default function Seasons() {
                   { label: 'Runner-up', value: runnerUp?.teamName ?? '—', sub: season.runnerUpTeam, color: runnerUp?.primaryColor, icon: '🥈' },
                   { label: 'Tokyo Drift Bowl (3rd)', value: third?.teamName ?? '—', sub: season.thirdPlaceTeam, color: third?.primaryColor, icon: null },
                   { label: 'Wing Bowl (consolation)', value: consolation?.teamName ?? '—', sub: season.consolationTeam, color: consolation?.primaryColor, icon: null },
-                  { label: 'Letty Award (PF leader)', value: letty?.teamName ?? '—', sub: `${season.pointsLeaderPF.toFixed(2)} pts`, color: '#f1c21b', icon: <AssetImage src="/images/LettyAward_trophy.png" alt="Letty Award" size={20} fallback="🏅" /> },
+                  { label: 'Letty Award (PF leader)', value: letty?.teamName ?? '—', sub: `${season.pointsLeaderPF.toFixed(2)} pts`, color: '#f1c21b', icon: <AssetImage src={withBase('images/LettyAward_trophy.png')} alt="Letty Award" size={20} fallback="🏅" /> },
                 ].map((item) => (
                   <div key={item.label} style={{
                     padding: '20px 24px',

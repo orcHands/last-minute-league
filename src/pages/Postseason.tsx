@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { SEASONS, getManager } from '../data/league'
 import Badge from '../components/Badge'
+import { withBase } from '../lib/assetPath'
 
 const BOWLS = [
   {
@@ -10,7 +11,7 @@ const BOWLS = [
     rank: '1st–2nd',
     accent: '#f1c21b',
     description: 'The main event. The crown. Thirteen years of champions, four of them named Jay.',
-    logoPath: (year: number) => `/images/BowlGame_logos/TeremanaTequilaBowl_logos/TeremanaBowl_${year}.png`,
+    logoPath: (year: number) => withBase(`images/BowlGame_logos/TeremanaTequilaBowl_logos/TeremanaBowl_${year}.png`),
   },
   {
     id: 'tokyo',
@@ -19,7 +20,7 @@ const BOWLS = [
     rank: '3rd–4th',
     accent: '#4589ff',
     description: 'The race for bronze. More competitive than it gets credit for.',
-    logoPath: (year: number) => `/images/BowlGame_logos/TokyoDriftBowl_Logos/TokyoDriftBowl_${year}.png`,
+    logoPath: (year: number) => withBase(`images/BowlGame_logos/TokyoDriftBowl_Logos/TokyoDriftBowl_${year}.png`),
   },
   {
     id: 'wing',
@@ -28,7 +29,7 @@ const BOWLS = [
     rank: '5th–6th',
     accent: '#FF832B',
     description: 'The longest name in fantasy sports. A title worth having.',
-    logoPath: (year: number) => `/images/BowlGame_logos/LemonPepperWingBowl_Logos/WingBowl_${year}.png`,
+    logoPath: (year: number) => withBase(`images/BowlGame_logos/LemonPepperWingBowl_Logos/WingBowl_${year}.png`),
   },
   {
     id: 'voltron',
@@ -37,7 +38,7 @@ const BOWLS = [
     rank: '9th–10th',
     accent: '#8A3FFC',
     description: 'Rock bottom never looked so branded.',
-    logoPath: (year: number) => `/images/BowlGame_logos/VoltronGlobalBowl_Logos/VoltronGlobalBowl_${year}.png`,
+    logoPath: (year: number) => withBase(`images/BowlGame_logos/VoltronGlobalBowl_Logos/VoltronGlobalBowl_${year}.png`),
   },
 ]
 

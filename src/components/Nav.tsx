@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { withBase } from '../lib/assetPath'
 
 const NAV_LINKS = [
   { to: '/', label: 'League History' },
@@ -51,7 +52,7 @@ export default function Nav() {
           }}
         >
           <img
-            src="/images/LMFL_Logo_transparent.png"
+            src={withBase('images/LMFL_Logo_transparent.png')}
             alt="Last Minute Fantasy League"
             style={{ height: 32, width: 'auto', objectFit: 'contain', display: 'block' }}
           />

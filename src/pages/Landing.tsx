@@ -5,8 +5,9 @@ import Badge from '../components/Badge'
 import AssetImage from '../components/AssetImage'
 import H2HMatrix from '../components/H2HMatrix'
 import { SEASONS, MONDAY_NIGHT_MIRACLES, LEAGUE_STATS, getManager } from '../data/league'
+import { withBase } from '../lib/assetPath'
 
-const teremanaLogoPath = (year: number) => `/images/BowlGame_logos/TeremanaTequilaBowl_logos/TeremanaBowl_${year}.png`
+const teremanaLogoPath = (year: number) => withBase(`images/BowlGame_logos/TeremanaTequilaBowl_logos/TeremanaBowl_${year}.png`)
 
 const PAGE = {
   maxWidth: 1904,

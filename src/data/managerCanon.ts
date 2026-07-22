@@ -7,6 +7,8 @@
 // yet — see CLAUDE.md "Canon currently only in Cowork memory". Swap
 // placeholderTeamName() for real data once that file lands in data/processed/.
 
+import { withBase } from '../lib/assetPath'
+
 export const CANONICAL_IDS = [
   'jay', 'brice', 'zac', 'pb', 'whitaker', 'michael', 'ryan', 'tommy',
   'carter', 'kevin', 'benedict', 'laskey', 'sara', 'jason', 'dylan',
@@ -126,11 +128,11 @@ const LOGO_FILENAMES: Record<ManagerId, { large: string | null; small: string }>
 
 export function logoLarge(id: ManagerId): string | null {
   const file = LOGO_FILENAMES[id].large
-  return file ? `/images/large_logos/${file}.png` : null
+  return file ? withBase(`images/large_logos/${file}.png`) : null
 }
 
 export function logoSmall(id: ManagerId): string {
-  return `/images/small_logos/${LOGO_FILENAMES[id].small}.png`
+  return withBase(`images/small_logos/${LOGO_FILENAMES[id].small}.png`)
 }
 
 type ColorTriple = { primary: string; secondary: string; tertiary: string }

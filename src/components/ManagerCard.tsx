@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { Manager } from '../data/league'
 import AssetImage from './AssetImage'
+import { withBase } from '../lib/assetPath'
 
 interface ManagerCardProps {
   manager: Manager
@@ -178,7 +179,7 @@ export default function ManagerCard({ manager, compact = false }: ManagerCardPro
         {!compact && manager.division && (
           <div style={{ padding: '8px 16px 12px', display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
             <AssetImage
-              src={manager.division === 'oconner' ? '/images/BrianOConnerMemorialDivision_Logo.png' : '/images/TorettoFamilyDivision_logo.png'}
+              src={withBase(manager.division === 'oconner' ? 'images/BrianOConnerMemorialDivision_Logo.png' : 'images/TorettoFamilyDivision_logo.png')}
               alt=""
               size={16}
             />
