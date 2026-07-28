@@ -10,6 +10,8 @@ export type { GateTimelinePoint, MondayNightMiracle } from './build/mnm'
 export type { PhaseEntry, BenchRegretEntry, NemesisEntry, FandomEntry } from './build/boards'
 export type { StandingRow } from './build/leagueStats'
 export type { H2HRecord } from './build/headToHead'
+export type { FranchisePowerSeries, PowerRankPoint, PowerRankWeekLabel, PowerRankingRow } from './build/powerRankings'
+export type { ManagerSkillPoint, ManagerSkillMatrix } from './build/managerSkillMatrix'
 
 export interface LeaderboardEntry {
   rank: number
@@ -19,9 +21,11 @@ export interface LeaderboardEntry {
   context?: string
 }
 
-export { MANAGERS, getManager, ACTIVE_MANAGERS, FRANCHISES } from './build/managers'
+export { MANAGERS, getManager, ACTIVE_MANAGERS, FRANCHISES, getFranchise } from './build/managers'
 export { SEASONS } from './build/seasons'
 export { MONDAY_NIGHT_MIRACLES } from './build/mnm'
 export { PHASE_SPLITS, BENCH_REGRET, NEMESIS_DATA, FANDOM_DATA } from './build/boards'
-export { ALL_TIME_STANDINGS, LEAGUE_STATS } from './build/leagueStats'
+export { ALL_TIME_STANDINGS, ALL_TIME_FRANCHISE_STANDINGS, LEAGUE_STATS } from './build/leagueStats'
 export { getH2H } from './build/headToHead'
+export { FRANCHISE_POWER_SERIES, POWER_RANKING_WEEKS, POWER_RANKING_ROWS, POWER_RANKING_MAX_RANK } from './build/powerRankings'
+export { MANAGER_SKILL_MATRIX } from './build/managerSkillMatrix'

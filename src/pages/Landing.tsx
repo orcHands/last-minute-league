@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom'
-import StatTile from '../components/StatTile'
-import MatchupCard from '../components/MatchupCard'
 import Badge from '../components/Badge'
-import AssetImage from '../components/AssetImage'
 import H2HMatrix from '../components/H2HMatrix'
-import { SEASONS, MONDAY_NIGHT_MIRACLES, LEAGUE_STATS, getManager } from '../data/league'
+import AllTimeStandingsTable from '../components/AllTimeStandingsTable'
+import PowerRankingChart from '../components/PowerRankingChart'
+import ManagerSkillMatrix from '../components/ManagerSkillMatrix'
+import StatBar from '../components/StatBar'
 import { withBase } from '../lib/assetPath'
-
-const teremanaLogoPath = (year: number) => withBase(`images/BowlGame_logos/TeremanaTequilaBowl_logos/TeremanaBowl_${year}.png`)
 
 const PAGE = {
   maxWidth: 1904,
@@ -37,21 +35,11 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 }
 
 export default function Landing() {
-  const champions = SEASONS.map(s => ({
-    ...s,
-    manager: getManager(s.champion),
-  })).filter(s => s.manager)
-
   return (
     <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
       {/* ── Hero ── */}
-      <section
-        style={{
-          borderBottom: '1px solid #393939',
-          padding: '80px 16px 96px',
-        }}
-      >
-        <div style={{ maxWidth: PAGE.contentMax, margin: '0 auto' }}>
+      <section style={{ padding: '72px 16px 80px' }}>
+        <div style={{ maxWidth: PAGE.maxWidth, margin: '0 auto' }}>
           {/* Eyebrow */}
           <div
             style={{
@@ -61,248 +49,87 @@ export default function Landing() {
               color: '#8d8d8d',
               letterSpacing: '0.32em',
               textTransform: 'uppercase',
-              marginBottom: 24,
+              marginBottom: 8,
             }}
           >
-            2013 – present · {LEAGUE_STATS.seasons} seasons · {LEAGUE_STATS.managers} owners · {LEAGUE_STATS.franchises} franchises
+            Last Minute Football League · 2013–present
           </div>
 
-          {/* Hero title */}
-          <h1
+          {/* Ghosted wordmark — deliberately low-contrast, treated as decoration.
+              The accessible name lives on the eyebrow above, so this is aria-hidden. */}
+          <div
+            aria-hidden="true"
             style={{
               fontFamily: "'IBM Plex Sans', sans-serif",
-              fontWeight: 300,
-              fontSize: 'clamp(42px, 6vw, 96px)',
-              lineHeight: 1.05,
-              color: '#f4f4f4',
-              margin: '0 0 24px',
-              letterSpacing: '-0.02em',
-            }}
-          >
-            Last Minute
-          </h1>
-          <p
-            style={{
-              fontFamily: "'IBM Plex Sans', sans-serif",
-              fontWeight: 400,
-              fontSize: 20,
-              lineHeight: '28px',
-              color: '#c6c6c6',
-              maxWidth: 640,
+              fontWeight: 200,
+              fontSize: 'clamp(72px, 13vw, 180px)',
+              lineHeight: 1,
+              color: '#303030',
+              letterSpacing: '-0.03em',
               margin: '0 0 48px',
+              userSelect: 'none',
             }}
           >
-            A fantasy football league, thirteen years of history, twenty-three owners,
-            and approximately one comeback that defies probability every season.
-          </p>
+            LMFL
+          </div>
 
-          {/* Dedication */}
+          {/* Dedication pill */}
           <div
             style={{
-              display: 'inline-block',
-              borderLeft: '3px solid #41B6E6',
-              paddingLeft: 16,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 20,
+              backgroundColor: 'rgba(65, 182, 230, 0.10)',
+              border: '1px solid #41B6E6',
+              borderRadius: 999,
+              padding: '14px 32px 14px 14px',
             }}
           >
+            {/* Decorative — the sentence beside it already names him, so alt is empty. */}
+            <img
+              src={withBase('images/Brice.png')}
+              alt=""
+              width={56}
+              height={56}
+              style={{
+                borderRadius: '50%',
+                objectFit: 'cover',
+                flexShrink: 0,
+              }}
+            />
             <p
               style={{
                 fontFamily: "'IBM Plex Sans', sans-serif",
                 fontWeight: 400,
-                fontSize: 14,
-                lineHeight: '20px',
-                color: '#c6c6c6',
+                fontSize: 16,
+                lineHeight: '24px',
+                color: '#f4f4f4',
                 margin: 0,
               }}
             >
-              Dedicated to Brice — commissioner, rival, keeper of the spreadsheets.
-            </p>
-            <p
-              style={{
-                fontFamily: "'IBM Plex Mono', monospace",
-                fontSize: 12,
-                color: '#8d8d8d',
-                margin: '4px 0 0',
-              }}
-            >
-              Miami Brice · Brian O'Conner Memorial Division
+              Dedicated to Brice Marino — commissioner, social nexus, legend.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ── League Stats ── */}
+      {/* ── League Stat Bar ── */}
+      <section style={{ padding: '0 16px 64px', borderBottom: '1px solid #393939' }}>
+        <div style={{ maxWidth: PAGE.maxWidth, margin: '0 auto' }}>
+          <StatBar />
+        </div>
+      </section>
+
+      {/* ── All-Time Standings ── */}
       <section
         style={{
           padding: '64px 16px',
           borderBottom: '1px solid #393939',
         }}
       >
-        <div style={{ maxWidth: PAGE.contentMax, margin: '0 auto' }}>
-          <SectionLabel>League at a glance</SectionLabel>
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-              gap: 1,
-              backgroundColor: '#393939',
-              border: '1px solid #393939',
-            }}
-          >
-            <StatTile label="Avg pts / week" value={LEAGUE_STATS.avgPtsPerWeek.toFixed(1)} unit="pts" size="lg" />
-            <StatTile
-              label="Smallest margin ever"
-              value={LEAGUE_STATS.smallestMarginEver.value.toFixed(2)}
-              unit="pts"
-              size="lg"
-              accent="#f1c21b"
-            />
-            <StatTile
-              label="Bench regret (avg)"
-              value={LEAGUE_STATS.leagueAvgBenchRegret.toFixed(1)}
-              unit="pts/wk"
-              size="lg"
-              accent="#fa4d56"
-            />
-            <StatTile
-              label="Best MNF comeback"
-              value={Math.abs(MONDAY_NIGHT_MIRACLES[0]?.deficitAtSundayNight ?? 0).toFixed(1)}
-              unit="pts down"
-              size="lg"
-              accent="#24A148"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* ── Champions Roll ── */}
-      <section
-        style={{
-          padding: '64px 16px',
-          borderBottom: '1px solid #393939',
-        }}
-      >
-        <div style={{ maxWidth: PAGE.contentMax, margin: '0 auto' }}>
-          <SectionLabel>Champions roll</SectionLabel>
-          <div style={{ display: 'grid', gap: 1, backgroundColor: '#393939', border: '1px solid #393939' }}>
-            {champions.map(s => {
-              const mgr = s.manager!
-              const pointsLeaderMgr = getManager(s.pointsLeader)
-              return (
-                <div
-                  key={s.year}
-                  style={{
-                    display: 'grid',
-                    gridTemplateColumns: '80px 1fr 1fr auto',
-                    alignItems: 'center',
-                    backgroundColor: '#262626',
-                    padding: '12px 16px',
-                    gap: 16,
-                    borderLeft: `3px solid ${mgr.primaryColor}`,
-                    transition: 'background-color 150ms cubic-bezier(0.2,0,0.38,0.9)',
-                  }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#393939' }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#262626' }}
-                >
-                  {/* Year */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                    <span
-                      style={{
-                        fontFamily: "'IBM Plex Mono', monospace",
-                        fontWeight: 400,
-                        fontSize: 16,
-                        color: '#f4f4f4',
-                        fontVariantNumeric: 'tabular-nums',
-                      }}
-                    >
-                      {s.year}
-                    </span>
-                  </div>
-
-                  {/* Champion */}
-                  <div style={{ minWidth: 0 }}>
-                    <div
-                      style={{
-                        fontFamily: "'IBM Plex Sans', sans-serif",
-                        fontSize: 11,
-                        color: '#8d8d8d',
-                        letterSpacing: '0.16em',
-                        textTransform: 'uppercase',
-                        marginBottom: 2,
-                      }}
-                    >
-                      Champion
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'IBM Plex Sans', sans-serif",
-                        fontWeight: 600,
-                        fontSize: 14,
-                        color: mgr.primaryColor,
-                      }}
-                    >
-                      {mgr.teamName}
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'IBM Plex Sans', sans-serif",
-                        fontSize: 12,
-                        color: '#8d8d8d',
-                      }}
-                    >
-                      {s.championTeam}
-                    </div>
-                  </div>
-
-                  {/* Points leader */}
-                  <div style={{ minWidth: 0 }}>
-                    <div
-                      style={{
-                        fontFamily: "'IBM Plex Sans', sans-serif",
-                        fontSize: 11,
-                        color: '#8d8d8d',
-                        letterSpacing: '0.16em',
-                        textTransform: 'uppercase',
-                        marginBottom: 2,
-                      }}
-                    >
-                      Letty Award (PF leader)
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'IBM Plex Sans', sans-serif",
-                        fontWeight: 400,
-                        fontSize: 14,
-                        color: '#c6c6c6',
-                      }}
-                    >
-                      {pointsLeaderMgr?.name ?? s.pointsLeader}
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'IBM Plex Mono', monospace",
-                        fontWeight: 400,
-                        fontSize: 12,
-                        color: '#8d8d8d',
-                        fontVariantNumeric: 'tabular-nums',
-                      }}
-                    >
-                      {s.pointsLeaderPF.toFixed(2)} pts
-                    </div>
-                  </div>
-
-                  {/* Trophy indicator */}
-                  <div style={{ flexShrink: 0 }}>
-                    <AssetImage
-                      src={teremanaLogoPath(s.year)}
-                      alt={`Teremana Tequila Bowl ${s.year}`}
-                      size={56}
-                      fallback={<span style={{ fontSize: 20 }}>🏆</span>}
-                    />
-                  </div>
-                </div>
-              )
-            })}
-          </div>
+        <div style={{ maxWidth: PAGE.maxWidth, margin: '0 auto' }}>
+          <SectionLabel>All-time standings</SectionLabel>
+          <AllTimeStandingsTable />
         </div>
       </section>
 
@@ -332,15 +159,15 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* ── Monday Night Miracle ── */}
+      {/* ── Power Rankings ── */}
       <section
         style={{
           padding: '64px 16px',
           borderBottom: '1px solid #393939',
         }}
       >
-        <div style={{ maxWidth: PAGE.contentMax, margin: '0 auto' }}>
-          <SectionLabel>The Monday Night Miracle</SectionLabel>
+        <div style={{ maxWidth: PAGE.maxWidth, margin: '0 auto' }}>
+          <SectionLabel>Power rankings</SectionLabel>
           <p
             style={{
               fontFamily: "'IBM Plex Sans', sans-serif",
@@ -352,40 +179,39 @@ export default function Landing() {
               marginBottom: 40,
             }}
           >
-            Every season, there's a game that shouldn't be winnable. Down 43.9 after Sunday night.
-            Won by 0.04. Fantasy football distilled to its most absurd and glorious form.
+            Every franchise's cumulative all-play win rate, week by week, across all 208 weeks of
+            league history. Rank 1 sits on top; a ribbon ends the moment a franchise retires.
           </p>
+          <PowerRankingChart />
+        </div>
+      </section>
 
-          <div
+      {/* ── Manager Skill vs Roster Strength ── */}
+      <section
+        style={{
+          padding: '64px 16px',
+          borderBottom: '1px solid #393939',
+        }}
+      >
+        <div style={{ maxWidth: PAGE.maxWidth, margin: '0 auto' }}>
+          <SectionLabel>Manager skill vs roster strength</SectionLabel>
+          <p
             style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))',
-              gap: 1,
-              backgroundColor: '#393939',
+              fontFamily: "'IBM Plex Sans', sans-serif",
+              fontWeight: 400,
+              fontSize: 16,
+              lineHeight: '24px',
+              color: '#c6c6c6',
+              maxWidth: 680,
+              marginBottom: 40,
             }}
           >
-            {MONDAY_NIGHT_MIRACLES.map(m => (
-              <MatchupCard key={m.id} miracle={m} />
-            ))}
-          </div>
-
-          <div style={{ marginTop: 24 }}>
-            <Link
-              to="/leaderboards"
-              style={{
-                fontFamily: "'IBM Plex Sans', sans-serif",
-                fontWeight: 600,
-                fontSize: 14,
-                color: '#78a9ff',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: 8,
-              }}
-            >
-              All Monday Night Miracles →
-            </Link>
-          </div>
+            Two independent axes, career-long. Roster strength is the average optimal lineup a
+            manager's bench could have produced — pure draft-and-waiver talent. Manager skill is
+            how much less that manager left on the bench than the league average — pure
+            lineup-setting. Top-right is the dream: a stacked roster, started correctly every week.
+          </p>
+          <ManagerSkillMatrix />
         </div>
       </section>
 
@@ -416,16 +242,10 @@ export default function Landing() {
                 stat: '15 franchises',
               },
               {
-                to: '/postseason',
-                title: 'Post-season & Bowls',
-                desc: 'The Teremana Tequila Bowl, the Wing Bowl, the Tokyo Drift Bowl.',
-                stat: '4 named bowls',
-              },
-              {
-                to: '/leaderboards',
-                title: 'Leaderboards & Records',
-                desc: 'Phase splits, comeback records, bench regret, rivalries.',
-                stat: '7 leaderboards',
+                to: '/records',
+                title: 'Records',
+                desc: 'The four bowls, phase splits, comeback records, bench regret, rivalries.',
+                stat: '4 bowls · 7 boards',
               },
               {
                 to: '/players',

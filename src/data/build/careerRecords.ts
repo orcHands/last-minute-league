@@ -33,11 +33,14 @@ const leagueData = league as unknown as Record<string, SeasonEntry>
 export interface CareerRecord {
   w: number
   l: number
+  t: number
   pf: number
+  pa: number
+  playoffAppearances: number
   seasonsPlayed: Set<number>
 }
 
-/** Aggregate career W/L/PF per manager across every season's standings. */
+/** Aggregate career W/L/T/PF/PA per manager across every season's standings. */
 export function buildCareerRecords(): Map<ManagerId, CareerRecord> {
   const byManager = new Map<ManagerId, CareerRecord>()
 
@@ -45,14 +48,20 @@ export function buildCareerRecords(): Map<ManagerId, CareerRecord> {
     const year = Number(yearStr)
     for (const row of season.standings) {
       const id = normalizeManager(row.manager)
-      const [wStr, lStr] = row.wlt.split('-')
+      const [wStr, lStr, tStr] = row.wlt.split('-')
       const w = Number(wStr)
       const l = Number(lStr)
+      const t = Number(tStr ?? 0)
 
-      const existing = byManager.get(id) ?? { w: 0, l: 0, pf: 0, seasonsPlayed: new Set<number>() }
+      const existing = byManager.get(id) ?? {
+        w: 0, l: 0, t: 0, pf: 0, pa: 0, playoffAppearances: 0, seasonsPlayed: new Set<number>(),
+      }
       existing.w += w
       existing.l += l
+      existing.t += t
       existing.pf += row.pf
+      existing.pa += row.pa
+      if (row.playoffs) existing.playoffAppearances += 1
       existing.seasonsPlayed.add(year)
       byManager.set(id, existing)
     }

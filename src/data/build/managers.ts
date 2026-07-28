@@ -5,7 +5,7 @@ import {
   MANAGER_COLORS, placeholderTeamName, type ManagerId,
 } from '../managerCanon'
 import { buildCareerRecords } from './careerRecords'
-import { buildChampionshipCounts } from './honorsHelpers'
+import { buildChampionshipCounts, buildDivisionTitleCounts } from './honorsHelpers'
 
 export interface Manager {
   id: string
@@ -19,8 +19,13 @@ export interface Manager {
   logoSmall: string
   logoLarge: string | null
   seasons: number
-  careerRecord: { w: number; l: number }
+  careerRecord: { w: number; l: number; t: number }
   careerPF: number
+  careerPA: number
+  avgPF: number
+  avgPA: number
+  playoffAppearances: number
+  divisionTitles: number
   championships: number
   division: 'oconner' | 'toretto' | null
   bio?: string
@@ -52,13 +57,17 @@ function franchiseForManager(id: ManagerId): FranchiseRaw | undefined {
 
 const careerRecords = buildCareerRecords()
 const championshipCounts = buildChampionshipCounts()
+const divisionTitleCounts = buildDivisionTitleCounts()
 
 export const MANAGERS: Manager[] = CANONICAL_IDS.map((id): Manager => {
   const franchise = franchiseForManager(id)
   const stint = franchise?.stints.find(s => normalizeManager(s.manager) === id)
-  const career = careerRecords.get(id) ?? { w: 0, l: 0, pf: 0, seasonsPlayed: new Set<number>() }
+  const career = careerRecords.get(id) ?? {
+    w: 0, l: 0, t: 0, pf: 0, pa: 0, playoffAppearances: 0, seasonsPlayed: new Set<number>(),
+  }
   const seasonsPlayed = [...career.seasonsPlayed]
   const colors = MANAGER_COLORS[id]
+  const games = career.w + career.l + career.t
 
   const currentManager = franchise?.current
   const active = franchise?.status === 'active' && !!currentManager && normalizeManager(currentManager) === id
@@ -75,8 +84,13 @@ export const MANAGERS: Manager[] = CANONICAL_IDS.map((id): Manager => {
     logoSmall: logoSmall(id),
     logoLarge: logoLarge(id),
     seasons: stint?.seasons.length ?? seasonsPlayed.length,
-    careerRecord: { w: career.w, l: career.l },
+    careerRecord: { w: career.w, l: career.l, t: career.t },
     careerPF: career.pf,
+    careerPA: career.pa,
+    avgPF: games > 0 ? career.pf / games : 0,
+    avgPA: games > 0 ? career.pa / games : 0,
+    playoffAppearances: career.playoffAppearances,
+    divisionTitles: divisionTitleCounts.get(id) ?? 0,
     championships: championshipCounts.get(id) ?? 0,
     // Divisions are reshuffled every season — not a stable per-manager fact.
     // Brice is the one documented exception: always Brian O'Conner Memorial.
@@ -97,8 +111,13 @@ export interface Franchise {
   id: string
   nickname: string
   managers: string[]
-  allTimeRecord: { w: number; l: number }
+  allTimeRecord: { w: number; l: number; t: number }
   allTimePF: number
+  allTimePA: number
+  avgPF: number
+  avgPA: number
+  playoffAppearances: number
+  divisionTitles: number
   championships: number
   active: boolean
   lore?: string
@@ -118,6 +137,7 @@ interface FranchiseRecordRow {
   pa: number
   playoff_appearances: number
   championships: number[]
+  division_titles: number[]
   ring_of_honor_plaques: number
 }
 
@@ -130,15 +150,24 @@ export const FRANCHISES: Franchise[] = franchisesRaw.map((f): Franchise => {
     const id = normalizeManager(stint.manager)
     if (managerIds[managerIds.length - 1] !== id) managerIds.push(id)
   }
+  const games = (record?.w ?? 0) + (record?.l ?? 0) + (record?.t ?? 0)
 
   return {
     id: f.id,
     // PLACEHOLDER nickname (real franchise nicknames not yet exported — see managerCanon.ts header)
     nickname: f.label,
     managers: managerIds,
-    allTimeRecord: { w: record?.w ?? 0, l: record?.l ?? 0 },
+    allTimeRecord: { w: record?.w ?? 0, l: record?.l ?? 0, t: record?.t ?? 0 },
     allTimePF: record?.pf ?? 0,
+    allTimePA: record?.pa ?? 0,
+    avgPF: games > 0 ? (record?.pf ?? 0) / games : 0,
+    avgPA: games > 0 ? (record?.pa ?? 0) / games : 0,
+    playoffAppearances: record?.playoff_appearances ?? 0,
+    divisionTitles: record?.division_titles.length ?? 0,
     championships: record?.championships.length ?? 0,
     active: f.status === 'active',
   }
 })
+
+export const getFranchise = (id: string): Franchise | undefined =>
+  FRANCHISES.find(f => f.id === id)

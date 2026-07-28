@@ -1,12 +1,13 @@
 import enemiesJson from '../processed/enemies_analysis.json'
 import aggregationsJson from '../processed/aggregations.json'
+import playerPositionsJson from '../processed/player_positions.json'
 import { normalizeManager } from '../managerCanon'
 import { leagueData, leagueAvgPtsPerWeek } from './careerRecords'
 import { MANAGERS, FRANCHISES } from './managers'
 import { BENCH_REGRET } from './boards'
 
 export interface StandingRow {
-  managerId: string
+  id: string
   w: number
   l: number
   pct: number
@@ -17,13 +18,30 @@ export interface StandingRow {
 export const ALL_TIME_STANDINGS: StandingRow[] = MANAGERS
   .filter(m => m.careerRecord.w + m.careerRecord.l >= 20)
   .map(m => ({
-    managerId: m.id,
+    id: m.id,
     w: m.careerRecord.w,
     l: m.careerRecord.l,
     pct: m.careerRecord.w / (m.careerRecord.w + m.careerRecord.l),
     pf: m.careerPF,
     championships: m.championships,
   }))
+  .sort((a, b) => b.pct - a.pct)
+
+// Same shape, aggregated by franchise chain (see franchises.ts / franchise_records.json)
+// instead of by individual manager. Every franchise has enough games played that no
+// minimum-sample filter is needed (unlike ALL_TIME_STANDINGS above).
+export const ALL_TIME_FRANCHISE_STANDINGS: StandingRow[] = FRANCHISES
+  .map(f => {
+    const games = f.allTimeRecord.w + f.allTimeRecord.l
+    return {
+      id: f.id,
+      w: f.allTimeRecord.w,
+      l: f.allTimeRecord.l,
+      pct: games > 0 ? f.allTimeRecord.w / games : 0,
+      pf: f.allTimePF,
+      championships: f.championships,
+    }
+  })
   .sort((a, b) => b.pct - a.pct)
 
 function findAllTimePointsRecord() {
@@ -63,10 +81,41 @@ const topDefenseGame = (enemiesJson as {
 const leagueAvgBenchRegret =
   BENCH_REGRET.reduce((sum, r) => sum + r.avgRegretPerWeek, 0) / (BENCH_REGRET.length || 1)
 
+/** Total head-to-head games ever played (one per matchup, not per team). */
+function countGamesPlayed(): number {
+  let games = 0
+  for (const season of Object.values(leagueData)) {
+    for (const week of Object.values(season.matchups)) games += week.length
+  }
+  return games
+}
+
+/** Every point scored by anyone, ever — both sides of every matchup, regular season + playoffs. */
+function sumPointsScored(): number {
+  let pts = 0
+  for (const season of Object.values(leagueData)) {
+    for (const week of Object.values(season.matchups)) {
+      for (const g of week) pts += g.s1 + g.s2
+    }
+  }
+  return pts
+}
+
+// Distinct human players who have appeared on any roster. DEF units are team
+// defenses, not players, so they're excluded (989 total entries − 32 DEF = 957).
+const playersRostered = Object.values(playerPositionsJson as Record<string, string>)
+  .filter(pos => pos !== 'DEF').length
+
 export const LEAGUE_STATS = {
   seasons: new Set(Object.keys(leagueData)).size,
   managers: MANAGERS.length,
   franchises: FRANCHISES.length,
+  gamesPlayed: countGamesPlayed(),
+  pointsScored: sumPointsScored(),
+  playersRostered,
+  // League lore, not derived data: the Fast & Furious film count the league's
+  // bowl names riff on (11 films through Fast X).
+  fastFuriousFilms: 11,
   avgPtsPerWeek: leagueAvgPtsPerWeek(),
   leagueAvgBenchRegret,
   allTimePointsRecord: findAllTimePointsRecord(),

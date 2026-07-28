@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, ReferenceLine,
 } from 'recharts'
@@ -10,37 +9,10 @@ import collegeAnalysis from '../data/processed/college_analysis.json'
 import enemiesAnalysis from '../data/processed/enemies_analysis.json'
 import { NFL_TEAM_COLORS } from '../data/build/nflTeamColors'
 
-const BOARDS = [
-  { id: 'mnm', label: 'Monday Night Miracle' },
-  { id: 'phase', label: 'Drafter vs Closer' },
-  { id: 'bench', label: 'Points Left on Bench' },
-  { id: 'nemesis', label: 'Nemesis & Rivalries' },
-  { id: 'fandom', label: 'Fandom Scorecard' },
-  { id: 'recruiting', label: 'Recruiting Board' },
-  { id: 'defenses', label: 'NFL Defenses' },
-]
+// This module is a library of leaderboard boards, composed by pages/Records.tsx.
+// The board list and page chrome live there.
 
-function SectionLabel({ children }: { children: React.ReactNode }) {
-  return (
-    <div style={{
-      fontFamily: "'IBM Plex Sans', sans-serif",
-      fontWeight: 600,
-      fontSize: 11,
-      letterSpacing: '0.32em',
-      textTransform: 'uppercase',
-      color: '#8d8d8d',
-      marginBottom: 24,
-      display: 'flex',
-      alignItems: 'center',
-      gap: 12,
-    }}>
-      <span>{children}</span>
-      <div style={{ flex: 1, height: 1, backgroundColor: '#393939' }} />
-    </div>
-  )
-}
-
-function PhaseBoard() {
+export function PhaseBoard() {
   const data = PHASE_SPLITS.map(p => {
     const m = getManager(p.managerId)
     return { ...p, name: m?.name ?? p.managerId, color: m?.primaryColor ?? '#525252' }
@@ -164,7 +136,7 @@ function PhaseBoard() {
   )
 }
 
-function BenchBoard() {
+export function BenchBoard() {
   const leagueAvg = BENCH_REGRET.reduce((sum, r) => sum + r.avgRegretPerWeek, 0) / (BENCH_REGRET.length || 1)
   const worst = BENCH_REGRET
     .filter(r => r.worstWeek)
@@ -259,7 +231,7 @@ function BenchBoard() {
   )
 }
 
-function NemesisBoard() {
+export function NemesisBoard() {
   return (
     <div>
       <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6', marginBottom: 32, maxWidth: 680 }}>
@@ -322,7 +294,7 @@ function NemesisBoard() {
   )
 }
 
-function FandomBoard() {
+export function FandomBoard() {
   const verdictLabel = (v: string) => v === 'confirmed' ? '✓ confirmed' : v === 'partial' ? '~ partial' : '✗ busted'
   const verdictColor = (v: string) => v === 'confirmed' ? '#42be65' : v === 'partial' ? '#f1c21b' : '#fa4d56'
 
@@ -441,7 +413,7 @@ const conferencesScoring = collegeAnalysis.league.conferences_scoring as [string
 const topSchoolsDrafted = collegeAnalysis.league.top_schools_drafted as [string, number][]
 const topSchoolsScoring = collegeAnalysis.league.top_schools_scoring as [string, number][]
 
-function RecruitingBoard() {
+export function RecruitingBoard() {
   const ptsByConf: Record<string, number> = Object.fromEntries(conferencesScoring)
   const conferences = conferencesDrafted
     .slice(0, 6)
@@ -537,7 +509,7 @@ function RecruitingBoard() {
   )
 }
 
-function DefensesBoard() {
+export function DefensesBoard() {
   const best = enemiesAnalysis.nfl_defense_scoring.single_best_game
   const ranking = enemiesAnalysis.nfl_defense_scoring.ranking as [string, number][]
   const defenses = ranking.slice(0, 10).map(([team, pts]) => ({
@@ -582,83 +554,16 @@ function DefensesBoard() {
   )
 }
 
-export default function Leaderboards() {
-  const [active, setActive] = useState('mnm')
-
-  const BOARD_CONTENT: Record<string, React.ReactNode> = {
-    mnm: (
-      <div>
-        <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6', marginBottom: 32, maxWidth: 680 }}>
-          Comebacks ranked by deficit erased. The Monday Night Miracle isn't a single game — it's a recurring crisis that defines the league's character.
-        </p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: 1, backgroundColor: '#393939' }}>
-          {MONDAY_NIGHT_MIRACLES.map(m => <MatchupCard key={m.id} miracle={m} />)}
-        </div>
-      </div>
-    ),
-    phase: <PhaseBoard />,
-    bench: <BenchBoard />,
-    nemesis: <NemesisBoard />,
-    fandom: <FandomBoard />,
-    recruiting: <RecruitingBoard />,
-    defenses: <DefensesBoard />,
-  }
-
+export function MondayNightMiracleBoard() {
   return (
-    <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
-      {/* Page header */}
-      <div style={{ borderBottom: '1px solid #393939', padding: '48px 16px 40px' }}>
-        <div style={{ maxWidth: 1904, margin: '0 auto' }}>
-          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 32, lineHeight: '40px', color: '#f4f4f4', margin: '0 0 8px' }}>
-            Leaderboards & Records
-          </h1>
-          <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#8d8d8d', margin: 0 }}>
-            Seven named boards. Real numbers, real stories.
-          </p>
-        </div>
-      </div>
-
-      <div style={{ maxWidth: 1904, margin: '0 auto', display: 'grid', gridTemplateColumns: '220px 1fr', minHeight: 'calc(100vh - 130px)' }}>
-        {/* Sidebar nav */}
-        <div style={{ borderRight: '1px solid #393939', padding: '24px 0' }}>
-          {BOARDS.map(b => (
-            <button
-              key={b.id}
-              onClick={() => setActive(b.id)}
-              style={{
-                display: 'block',
-                width: '100%',
-                textAlign: 'left',
-                padding: '10px 16px',
-                background: 'none',
-                border: 'none',
-                borderLeft: `3px solid ${active === b.id ? '#f4f4f4' : 'transparent'}`,
-                cursor: 'pointer',
-                fontFamily: "'IBM Plex Sans', sans-serif",
-                fontWeight: active === b.id ? 600 : 400,
-                fontSize: 14,
-                color: active === b.id ? '#f4f4f4' : '#c6c6c6',
-                transition: 'all 150ms cubic-bezier(0.2,0,0.38,0.9)',
-                paddingLeft: active === b.id ? 13 : 16,
-              }}
-              onMouseEnter={e => {
-                if (active !== b.id) (e.currentTarget as HTMLElement).style.color = '#f4f4f4'
-              }}
-              onMouseLeave={e => {
-                if (active !== b.id) (e.currentTarget as HTMLElement).style.color = '#c6c6c6'
-              }}
-            >
-              {b.label}
-            </button>
-          ))}
-        </div>
-
-        {/* Board content */}
-        <div style={{ padding: '40px 32px 64px' }}>
-          <SectionLabel>{BOARDS.find(b => b.id === active)?.label}</SectionLabel>
-          {BOARD_CONTENT[active]}
-        </div>
+    <div>
+      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6', marginBottom: 32, maxWidth: 680 }}>
+        Comebacks ranked by deficit erased. The Monday Night Miracle isn't a single game — it's a recurring crisis that defines the league's character.
+      </p>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: 1, backgroundColor: '#393939' }}>
+        {MONDAY_NIGHT_MIRACLES.map(m => <MatchupCard key={m.id} miracle={m} />)}
       </div>
     </div>
   )
 }
+

@@ -2,13 +2,16 @@ import { useState } from 'react'
 import { MANAGERS, FRANCHISES, getManager } from '../data/league'
 import ManagerCard from '../components/ManagerCard'
 import StandingsTable from '../components/StandingsTable'
-import { ALL_TIME_STANDINGS } from '../data/league'
+import { ALL_TIME_STANDINGS, ALL_TIME_FRANCHISE_STANDINGS } from '../data/league'
 
 type View = 'managers' | 'franchises' | 'standings'
+type StandingsTab = 'franchise' | 'manager'
 
 export default function Franchises() {
   const [view, setView] = useState<View>('managers')
   const [filter, setFilter] = useState<'all' | 'active' | 'retired'>('all')
+  // Franchise first — matches the site's IA (franchise is the canonical unit; managers nest under it).
+  const [standingsTab, setStandingsTab] = useState<StandingsTab>('franchise')
 
   const visibleManagers = MANAGERS.filter(m => {
     if (filter === 'active') return m.active
@@ -180,11 +183,51 @@ export default function Franchises() {
         )}
 
         {view === 'standings' && (
-          <StandingsTable
-            rows={ALL_TIME_STANDINGS}
-            title="All-time standings — career"
-            showRank
-          />
+          <div>
+            <div style={{ display: 'flex', gap: 0, marginBottom: 32 }}>
+              {([
+                { t: 'franchise', label: `Franchise (${FRANCHISES.length})` },
+                { t: 'manager', label: `Manager (${ALL_TIME_STANDINGS.length})` },
+              ] as { t: StandingsTab; label: string }[]).map(({ t, label }) => (
+                <button
+                  key={t}
+                  onClick={() => setStandingsTab(t)}
+                  style={{
+                    padding: '6px 16px',
+                    background: 'none',
+                    border: '1px solid #393939',
+                    borderRight: t !== 'manager' ? 'none' : '1px solid #393939',
+                    cursor: 'pointer',
+                    fontFamily: "'IBM Plex Sans', sans-serif",
+                    fontWeight: 400,
+                    fontSize: 12,
+                    letterSpacing: '0.16em',
+                    textTransform: 'uppercase',
+                    color: standingsTab === t ? '#f4f4f4' : '#c6c6c6',
+                    backgroundColor: standingsTab === t ? '#393939' : '#262626',
+                  }}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+
+            {standingsTab === 'franchise' ? (
+              <StandingsTable
+                rows={ALL_TIME_FRANCHISE_STANDINGS}
+                kind="franchise"
+                title="All-time standings — franchise (2013–)"
+                showRank
+              />
+            ) : (
+              <StandingsTable
+                rows={ALL_TIME_STANDINGS}
+                kind="manager"
+                title="All-time standings — manager career"
+                showRank
+              />
+            )}
+          </div>
         )}
       </div>
     </div>

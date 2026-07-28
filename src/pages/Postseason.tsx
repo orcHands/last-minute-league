@@ -71,21 +71,15 @@ function BowlLogo({ src, alt, size = 64 }: { src: string; alt: string; size?: nu
   )
 }
 
-export default function Postseason() {
+/** Bowls + bracket history, rendered inside the Records page's board layout. */
+export default function PostseasonBoard() {
   return (
-    <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
-      <div style={{ borderBottom: '1px solid #393939', padding: '48px 16px 40px' }}>
-        <div style={{ maxWidth: 1904, margin: '0 auto' }}>
-          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 32, lineHeight: '40px', color: '#f4f4f4', margin: '0 0 8px' }}>
-            Post-season & Bowls
-          </h1>
-          <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#8d8d8d', margin: 0 }}>
-            Four named bowls · 13 seasons of bracket history · 52 Bowl MVPs
-          </p>
-        </div>
-      </div>
+    <div>
+      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6', marginBottom: 32, maxWidth: 680 }}>
+        Four named bowls · 13 seasons of bracket history · 52 Bowl MVPs
+      </p>
 
-      <div style={{ maxWidth: 1904, margin: '0 auto', padding: '40px 16px 80px' }}>
+      <div>
         {/* Bowl overview */}
         <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 11, letterSpacing: '0.32em', textTransform: 'uppercase', color: '#8d8d8d', marginBottom: 24, display: 'flex', alignItems: 'center', gap: 12 }}>
           <span>The four bowls</span>

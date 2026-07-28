@@ -3,12 +3,11 @@ import { Link, useLocation } from 'react-router-dom'
 import { withBase } from '../lib/assetPath'
 
 const NAV_LINKS = [
-  { to: '/', label: 'League History' },
-  { to: '/seasons', label: 'Seasons' },
+  { to: '/', label: 'LMFL' },
   { to: '/franchises', label: 'Franchises' },
+  { to: '/seasons', label: 'Seasons' },
   { to: '/players', label: 'Players' },
-  { to: '/postseason', label: 'Post-season & Bowls' },
-  { to: '/leaderboards', label: 'Leaderboards' },
+  { to: '/records', label: 'Records' },
   { to: '/about', label: 'About' },
 ]
 

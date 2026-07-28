@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { getManager } from '../data/league'
+import { getManager, getFranchise } from '../data/league'
 
 interface StandingRow {
-  managerId: string
+  id: string
   w: number
   l: number
   pct: number
@@ -14,15 +14,44 @@ interface StandingsTableProps {
   rows: StandingRow[]
   title?: string
   showRank?: boolean
+  /** 'manager' (default) resolves each row's `id` against MANAGERS; 'franchise' resolves
+   *  against FRANCHISES, showing the franchise nickname + its current/last owner's
+   *  logo and accent color (matches the franchise-view cards elsewhere on this page). */
+  kind?: 'manager' | 'franchise'
 }
 
 type SortKey = 'pct' | 'w' | 'pf' | 'championships'
 
-function ManagerAvatar({ managerId }: { managerId: string }) {
-  const manager = getManager(managerId)
-  if (!manager) return null
-
+function EntityAvatar({ id, kind }: { id: string; kind: 'manager' | 'franchise' }) {
   const [imgError, setImgError] = useState(false)
+
+  const entity =
+    kind === 'franchise'
+      ? (() => {
+          const franchise = getFranchise(id)
+          if (!franchise) return null
+          const owner = getManager(franchise.managers[franchise.managers.length - 1])
+          return {
+            label: franchise.nickname,
+            color: owner?.primaryColor ?? '#8d8d8d',
+            logo: owner?.logoSmall ?? null,
+            monogram: franchise.nickname.slice(0, 2).toUpperCase(),
+            retired: !franchise.active,
+          }
+        })()
+      : (() => {
+          const manager = getManager(id)
+          if (!manager) return null
+          return {
+            label: manager.teamName,
+            color: manager.primaryColor,
+            logo: manager.logoSmall ?? null,
+            monogram: manager.name.slice(0, 2).toUpperCase(),
+            retired: !manager.active,
+          }
+        })()
+
+  if (!entity) return null
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
@@ -31,14 +60,14 @@ function ManagerAvatar({ managerId }: { managerId: string }) {
         style={{
           width: 3,
           height: 28,
-          backgroundColor: manager.primaryColor,
+          backgroundColor: entity.color,
           flexShrink: 0,
         }}
       />
       {/* Small logo or monogram */}
-      {manager.logoSmall && !imgError ? (
+      {entity.logo && !imgError ? (
         <img
-          src={manager.logoSmall}
+          src={entity.logo}
           alt=""
           width={20}
           height={20}
@@ -50,7 +79,7 @@ function ManagerAvatar({ managerId }: { managerId: string }) {
           style={{
             width: 20,
             height: 20,
-            backgroundColor: manager.primaryColor + '22',
+            backgroundColor: entity.color + '22',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -62,10 +91,10 @@ function ManagerAvatar({ managerId }: { managerId: string }) {
               fontFamily: "'IBM Plex Mono', monospace",
               fontSize: 9,
               fontWeight: 600,
-              color: manager.primaryColor,
+              color: entity.color,
             }}
           >
-            {manager.name.slice(0, 2).toUpperCase()}
+            {entity.monogram}
           </span>
         </div>
       )}
@@ -81,9 +110,9 @@ function ManagerAvatar({ managerId }: { managerId: string }) {
           whiteSpace: 'nowrap',
         }}
       >
-        {manager.teamName}
+        {entity.label}
       </span>
-      {!manager.active && (
+      {entity.retired && (
         <span
           style={{
             fontFamily: "'IBM Plex Sans', sans-serif",
@@ -98,7 +127,7 @@ function ManagerAvatar({ managerId }: { managerId: string }) {
   )
 }
 
-export default function StandingsTable({ rows, title, showRank = true }: StandingsTableProps) {
+export default function StandingsTable({ rows, title, showRank = true, kind = 'manager' }: StandingsTableProps) {
   const [sortKey, setSortKey] = useState<SortKey>('pct')
   const [sortDir, setSortDir] = useState<'desc' | 'asc'>('desc')
 
@@ -237,7 +266,7 @@ export default function StandingsTable({ rows, title, showRank = true }: Standin
           <tbody>
             {sorted.map((row, i) => (
               <tr
-                key={row.managerId}
+                key={row.id}
                 style={{
                   borderBottom: '1px solid #393939',
                   backgroundColor: '#262626',
@@ -264,7 +293,7 @@ export default function StandingsTable({ rows, title, showRank = true }: Standin
                   </td>
                 )}
                 <td style={{ padding: '8px 12px 8px 16px', minWidth: 160 }}>
-                  <ManagerAvatar managerId={row.managerId} />
+                  <EntityAvatar id={row.id} kind={kind} />
                 </td>
                 <td style={cellMono}>
                   {row.w}–{row.l}

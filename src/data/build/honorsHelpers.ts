@@ -20,9 +20,19 @@ interface DivisionBlock {
   teams: DivisionTeam[]
 }
 
+interface DivisionWinner {
+  division: string
+  team: string
+  manager: string
+  overall_wlt: string
+  division_wlt: string
+  canonical_division: string
+  trophy: string
+}
+
 interface SeasonHonors {
   podium: PodiumEntry[]
-  division_winners: unknown[]
+  division_winners: DivisionWinner[]
   consolation_winner: { winner: { place: number; team: string; manager: string } }
   points_leader: { team: string; manager: string; pf: number; award: string }
   divisions: Record<string, DivisionBlock>
@@ -53,6 +63,18 @@ export function buildChampionshipCounts(): Map<ManagerId, number> {
     if (!champion) continue
     const id = normalizeManager(champion.manager)
     counts.set(id, (counts.get(id) ?? 0) + 1)
+  }
+  return counts
+}
+
+/** Count of division titles (O'Conner Memorial or Toretto Family) per manager, across every season. */
+export function buildDivisionTitleCounts(): Map<ManagerId, number> {
+  const counts = new Map<ManagerId, number>()
+  for (const season of Object.values(honorsData.seasons)) {
+    for (const winner of season.division_winners) {
+      const id = normalizeManager(winner.manager)
+      counts.set(id, (counts.get(id) ?? 0) + 1)
+    }
   }
   return counts
 }
