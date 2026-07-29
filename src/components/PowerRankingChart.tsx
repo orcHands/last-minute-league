@@ -5,7 +5,46 @@ import {
 import {
   FRANCHISE_POWER_SERIES, POWER_RANKING_ROWS, POWER_RANKING_MAX_RANK, POWER_RANKING_WEEKS,
 } from '../data/league'
-import type { FranchisePowerSeries } from '../data/league'
+import type { FranchisePowerSeries, ManagerSegment } from '../data/league'
+
+const GRADIENT_ID = (franchiseId: string) => `pr-grad-${franchiseId}`
+
+/** Colour stops along a ribbon, one run per manager who owned the franchise.
+ *  Each manager holds a solid colour across their own tenure, with a short
+ *  blend band centred on each handover so the change reads as a transition
+ *  rather than a hard seam. Offsets are objectBoundingBox units (0–1 across
+ *  the ribbon's own span), which is exactly what `segments` already provides. */
+function gradientStops(segments: ManagerSegment[]) {
+  const BLEND = 0.02
+  return segments.flatMap((seg, i) => {
+    const length = seg.endFraction - seg.startFraction
+    // Never eat more than 40% of a short tenure (Aboubacar's is ~8% of a span).
+    const blend = Math.min(BLEND, length * 0.4)
+    const from = i === 0 ? seg.startFraction : seg.startFraction + blend
+    const to = i === segments.length - 1 ? seg.endFraction : seg.endFraction - blend
+    return [
+      { key: `${seg.managerId}-${i}-a`, offset: from, color: seg.color },
+      { key: `${seg.managerId}-${i}-b`, offset: to, color: seg.color },
+    ]
+  })
+}
+
+/** Which manager held the franchise on a given week. */
+function segmentAt(segments: ManagerSegment[], weekIndex: number): ManagerSegment | undefined {
+  return (
+    segments.find(s => weekIndex >= s.startWeekIndex && weekIndex <= s.endWeekIndex) ??
+    segments[segments.length - 1]
+  )
+}
+
+/** CSS equivalent of the ribbon gradient, for the legend swatch. */
+function legendSwatch(series: FranchisePowerSeries): string {
+  if (series.segments.length < 2) return series.color
+  const stops = gradientStops(series.segments)
+    .map(s => `${s.color} ${(s.offset * 100).toFixed(1)}%`)
+    .join(', ')
+  return `linear-gradient(90deg, ${stops})`
+}
 
 const SEASON_TICKS = (() => {
   const seen = new Set<number>()
@@ -33,6 +72,7 @@ function PowerTooltip({ active, payload, label, hoveredId }: any) {
   const point = series?.points.find(p => p.weekIndex === label)
   const weekLabel = POWER_RANKING_WEEKS.find(w => w.weekIndex === label)
   if (!series || !point || !weekLabel) return null
+  const segment = segmentAt(series.segments, point.weekIndex)
 
   return (
     <div
@@ -44,11 +84,17 @@ function PowerTooltip({ active, payload, label, hoveredId }: any) {
         minWidth: 160,
       }}
     >
-      <div style={{ fontWeight: 600, fontSize: 14, color: series.color, marginBottom: 2 }}>
+      <div style={{ fontWeight: 600, fontSize: 14, color: segment?.color ?? series.color, marginBottom: 2 }}>
         {series.label}
       </div>
       <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: '#8d8d8d', marginBottom: 8 }}>
         {weekLabel.season} · Week {weekLabel.week}
+        {segment && series.segments.length > 1 && (
+          <>
+            {' · '}
+            <span style={{ color: segment.color }}>{segment.name}</span>
+          </>
+        )}
       </div>
       <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, color: '#f4f4f4' }}>
         Rank #{point.rank}
@@ -87,7 +133,17 @@ function LegendChip({
         transition: 'background-color 150ms cubic-bezier(0.2,0,0.38,0.9)',
       }}
     >
-      <div style={{ width: 10, height: 10, borderRadius: '50%', backgroundColor: series.color, flexShrink: 0 }} />
+      {/* Swatch mirrors the ribbon: a bar of every manager's colour in order
+          for handed-down franchises, a plain dot for single-owner ones. */}
+      <div
+        style={{
+          width: series.segments.length > 1 ? 22 : 10,
+          height: 10,
+          borderRadius: series.segments.length > 1 ? 2 : '50%',
+          background: legendSwatch(series),
+          flexShrink: 0,
+        }}
+      />
       <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 12, color: '#f4f4f4' }}>
         {series.label}
       </span>
@@ -128,6 +184,15 @@ export default function PowerRankingChart() {
       <div style={{ backgroundColor: '#262626', border: '1px solid #393939', padding: '20px 20px 8px' }}>
         <ResponsiveContainer width="100%" height={440}>
           <LineChart data={POWER_RANKING_ROWS} margin={{ top: 8, right: 24, left: 0, bottom: 8 }}>
+            <defs>
+              {FRANCHISE_POWER_SERIES.map(s => (
+                <linearGradient key={s.franchiseId} id={GRADIENT_ID(s.franchiseId)} x1="0" y1="0" x2="1" y2="0">
+                  {gradientStops(s.segments).map(stop => (
+                    <stop key={stop.key} offset={stop.offset} stopColor={stop.color} />
+                  ))}
+                </linearGradient>
+              ))}
+            </defs>
             <CartesianGrid stroke="#393939" strokeDasharray="0" horizontal={false} />
             <XAxis
               dataKey="weekIndex"
@@ -154,7 +219,7 @@ export default function PowerRankingChart() {
               <Line
                 key={s.franchiseId}
                 dataKey={s.franchiseId}
-                stroke={s.color}
+                stroke={`url(#${GRADIENT_ID(s.franchiseId)})`}
                 strokeWidth={hoveredId === s.franchiseId ? 4 : 2.5}
                 strokeOpacity={hoveredId === null ? 0.7 : hoveredId === s.franchiseId ? 1 : 0.12}
                 dot={false}

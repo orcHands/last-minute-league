@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Football: tilted ellipse with laces. Tuned for a 16px address-bar render —
+       the ball fills the frame and strokes are heavy so the silhouette and laces
+       survive downscaling. -->
+  <rect width="32" height="32" rx="4" fill="#161616"/>
+  <g transform="rotate(-45 16 16)">
+    <ellipse cx="16" cy="16" rx="16" ry="9.6" fill="#8B4A2B"/>
+    <ellipse cx="16" cy="16" rx="15" ry="8.8" fill="none" stroke="#f4f4f4" stroke-width="1.6"/>
+    <!-- tip seams -->
+    <path d="M2.2 16 H6.4 M25.6 16 H29.8" stroke="#f4f4f4" stroke-width="2" stroke-linecap="round"/>
+    <!-- centre lace bar + rungs -->
+    <path d="M10.6 16 H21.4" stroke="#f4f4f4" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M12.4 12.6 V19.4 M16 12.3 V19.7 M19.6 12.6 V19.4" stroke="#f4f4f4" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-18",
-  "method": "Franchise = Yahoo team-slot chain. Succession links inferred from keeper eligibility (new manager's keepers all present on one departing manager's final-week roster) unless noted. Sara inherits David Laskey's 2014 team per owner decision 2026-07-18. Kelly Brown is the one person-based merge.",
+  "method": "Franchise = Yahoo team-slot chain. Succession links inferred from keeper eligibility (new manager's keepers all present on one departing manager's final-week roster) unless noted. Sara inherits Laskey's 2014 team per owner decision 2026-07-18. Kelly Brown is the one person-based merge.",
   "franchises": [
     {
       "id": "brice",
@@ -163,13 +163,13 @@
     },
     {
       "id": "dylan",
-      "founder": "Dylan Snyder",
+      "founder": "Dylan",
       "status": "active",
       "current": "Megan",
-      "label": "Dylan Snyder \u2192 becca \u2192 Megan",
+      "label": "Dylan \u2192 becca \u2192 Megan",
       "stints": [
         {
-          "manager": "Dylan Snyder",
+          "manager": "Dylan",
           "seasons": [
             2013,
             2014,
@@ -306,13 +306,13 @@
     },
     {
       "id": "laskey",
-      "founder": "David Laskey",
+      "founder": "Laskey",
       "status": "active",
       "current": "Jason",
-      "label": "David Laskey \u2192 Sara \u2192 Jason",
+      "label": "Laskey \u2192 Sara \u2192 Jason",
       "stints": [
         {
-          "manager": "David Laskey",
+          "manager": "Laskey",
           "seasons": [
             2014
           ]
@@ -413,14 +413,14 @@
     },
     {
       "id": "dave-lang",
-      "founder": "Dave Lang",
+      "founder": "Lang",
       "status": "retired",
       "current": null,
-      "label": "Dave Lang",
+      "label": "Lang",
       "retired_after": 2014,
       "stints": [
         {
-          "manager": "Dave Lang",
+          "manager": "Lang",
           "seasons": [
             2013,
             2014

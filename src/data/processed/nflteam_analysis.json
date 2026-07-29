@@ -518,8 +518,8 @@
     ]
    ]
   },
-  "Dylan Snyder": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+  "Dylan": {
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_teams": [
     [
      "Seahawks",
@@ -543,8 +543,8 @@
     ]
    ]
   },
-  "Dave Lang": {
-   "franchise": "Dave Lang",
+  "Lang": {
+   "franchise": "Lang",
    "top_teams": [
     [
      "Chiefs",
@@ -743,8 +743,8 @@
     ]
    ]
   },
-  "David Laskey": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+  "Laskey": {
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_teams": [
     [
      "Eagles",
@@ -769,7 +769,7 @@
    ]
   },
   "Sara": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_teams": [
     [
      "Patriots",
@@ -794,7 +794,7 @@
    ]
   },
   "Jason": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_teams": [
     [
      "49ers",
@@ -844,7 +844,7 @@
    ]
   },
   "becca": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_teams": [
     [
      "Steelers",
@@ -944,7 +944,7 @@
    ]
   },
   "Megan": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_teams": [
     [
      "Packers",
@@ -1083,7 +1083,7 @@
     15
    ]
   ],
-  "Dylan Snyder \u2192 becca \u2192 Megan": [
+  "Dylan \u2192 becca \u2192 Megan": [
    [
     "Colts",
     21
@@ -1105,7 +1105,7 @@
     17
    ]
   ],
-  "Dave Lang": [
+  "Lang": [
    [
     "Chiefs",
     5
@@ -1281,7 +1281,7 @@
     4
    ]
   ],
-  "David Laskey \u2192 Sara \u2192 Jason": [
+  "Laskey \u2192 Sara \u2192 Jason": [
    [
     "49ers",
     27

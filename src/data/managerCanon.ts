@@ -32,20 +32,28 @@ export const DISPLAY_NAMES: Record<ManagerId, { name: string; fullName: string }
   carter: { name: 'Carter', fullName: 'Carter' },
   kevin: { name: 'Kevin', fullName: 'Kevin' },
   benedict: { name: 'Benedict', fullName: 'Benedict' },
-  laskey: { name: 'Laskey', fullName: 'David Laskey' },
+  laskey: { name: 'Laskey', fullName: 'Laskey' },
   sara: { name: 'Sara', fullName: 'Sara' },
   jason: { name: 'Jason', fullName: 'Jason' },
-  dylan: { name: 'Dylan', fullName: 'Dylan Snyder' },
+  dylan: { name: 'Dylan', fullName: 'Dylan' },
   becca: { name: 'Becca', fullName: 'Becca' },
   megan: { name: 'Megan', fullName: 'Megan' },
   aboubacar: { name: 'Aboubacar', fullName: 'Aboubacar' },
   kat: { name: 'Kat', fullName: 'Kat' },
   alex: { name: 'Alex', fullName: 'Alex' },
-  dave: { name: 'Lang', fullName: 'Dave Lang' },
+  dave: { name: 'Lang', fullName: 'Lang' },
   kelly: { name: 'Kelly', fullName: 'Kelly Brown' },
   kyle: { name: 'Kyle', fullName: 'Kyle' },
 }
 
+// PRIVACY: the app's copies of data/processed/*.json are scrubbed of full
+// legal names by scripts/sync_app_data.py before they land in src/, because
+// everything in src/data/ is bundled into the JS served publicly from GitHub
+// Pages. That means no full-name keys belong in this map either — a string
+// literal here ships just as publicly as one in the JSON. Sync app data with
+// that script, never a plain `cp`; if you see an unknown-alias warning in the
+// console after copying a file by hand, that's this invariant catching you.
+//
 // Every raw display string seen across league.json, honors.json,
 // franchises.json, gate_timelines.json, manager_phase_splits.json,
 // bench_regret.json, enemies_analysis.json, nflteam_analysis.json.
@@ -64,12 +72,10 @@ const ALIASES: Record<string, ManagerId> = {
   Aboubacar: 'aboubacar',
   Kat: 'kat',
   Alex: 'alex',
-  'Dylan Snyder': 'dylan',
   Dylan: 'dylan',
   becca: 'becca',
   Becca: 'becca',
   Megan: 'megan',
-  'David Laskey': 'laskey',
   Laskey: 'laskey',
   Sara: 'sara',
   Jason: 'jason',
@@ -77,8 +83,8 @@ const ALIASES: Record<string, ManagerId> = {
   Kyle: 'kyle',
   'Kelly Brown': 'kelly',
   Kelly: 'kelly',
-  'Dave Lang': 'dave',
   Dave: 'dave',
+  Lang: 'dave',
 }
 
 const unknownAliasesSeen = new Set<string>()

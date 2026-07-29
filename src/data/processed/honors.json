@@ -15,7 +15,7 @@
    "ninth_place_game": "Voltron Global Bowl Hosted by Tyrese Gibson (Tyrese's conglomerate, Voltron Global) — the 9th Place Finals (7th Place Game in 2013's 8-team year), hosted in the most exciting and dangerous places on earth. Attendance is canon exactly as recorded, including '41 Vehicles', '1 Fatality', '97 Arrests', and the zeroes.",
    "superseded": "2026-07-18 lore drop replaced: Rose Bowl/Camping World 3rd-place alternation, Tokyo-Dome consolation, Brice-biography championship venue rationale (U.S. Bank Minneapolis is out of the rotation), sellout attendance rule."
   },
-  "participants": "All bowl participants derive from league.json final ranks: championship 1v2, Tokyo Drift 3v4, Wing Bowl 7v8 (5v6 in 2013), Voltron 9v10 (7v8 in 2013). Verified 2026-07-18; the source graphics contained four Kyle/Dylan Snyder swaps (2013 Voltron winner, 2013 Wing runner-up, 2016 Wing winner, 2016 championship runner-up) — this file is correct, graphics need fixing."
+  "participants": "All bowl participants derive from league.json final ranks: championship 1v2, Tokyo Drift 3v4, Wing Bowl 7v8 (5v6 in 2013), Voltron 9v10 (7v8 in 2013). Verified 2026-07-18; the source graphics contained four Kyle/Dylan swaps (2013 Voltron winner, 2013 Wing runner-up, 2016 Wing winner, 2016 championship runner-up) — this file is correct, graphics need fixing."
  },
  "seasons": {
   "2013": {
@@ -43,7 +43,7 @@
     {
      "division": "Division 1",
      "team": "Non-Dairy Caucasians",
-     "manager": "Dave Lang",
+     "manager": "Lang",
      "overall_wlt": "6-2-0",
      "division_wlt": "4-1-0",
      "canonical_division": "O'Conner Memorial Division",
@@ -80,7 +80,7 @@
    },
    "points_leader": {
     "team": "Non-Dairy Caucasians",
-    "manager": "Dave Lang",
+    "manager": "Lang",
     "pf": 1278.71,
     "award": "Letty Ortiz Award for Excellence in Roster Management"
    },
@@ -102,13 +102,13 @@
       },
       {
        "team": "AMERICA",
-       "manager": "Dylan Snyder",
+       "manager": "Dylan",
        "division_wlt": "1-4-0",
        "overall_wlt": "2-6-0"
       },
       {
        "team": "Non-Dairy Caucasians",
-       "manager": "Dave Lang",
+       "manager": "Lang",
        "division_wlt": "4-1-0",
        "overall_wlt": "6-2-0"
       }
@@ -187,7 +187,7 @@
     },
     {
      "team": "Non-Dairy Caucasians",
-     "manager": "Dave Lang",
+     "manager": "Lang",
      "projected_rank": 6,
      "projected_wlt": "4-4-0",
      "actual_rank": 8,
@@ -195,7 +195,7 @@
     },
     {
      "team": "AMERICA",
-     "manager": "Dylan Snyder",
+     "manager": "Dylan",
      "projected_rank": 7,
      "projected_wlt": "2-6-0",
      "actual_rank": 7,
@@ -245,12 +245,12 @@
     "winner": {
      "place": 7,
      "team": "AMERICA",
-     "manager": "Dylan Snyder"
+     "manager": "Dylan"
     },
     "runner_up": {
      "place": 8,
      "team": "Non-Dairy Caucasians",
-     "manager": "Dave Lang"
+     "manager": "Lang"
     },
     "note": "8-team year: the Voltron Global Bowl is the 7th Place Game (last-place game); 9th place does not exist"
    }
@@ -362,7 +362,7 @@
       },
       {
        "team": "AMERICA",
-       "manager": "Dylan Snyder",
+       "manager": "Dylan",
        "division_wlt": "2-9-0",
        "overall_wlt": "3-10-0"
       }
@@ -385,7 +385,7 @@
       },
       {
        "team": "Non-Dairy Caucasians",
-       "manager": "Dave Lang",
+       "manager": "Lang",
        "division_wlt": "6-5-0",
        "overall_wlt": "7-6-0"
       },
@@ -397,7 +397,7 @@
       },
       {
        "team": "A Moderate Breakfast",
-       "manager": "David Laskey",
+       "manager": "Laskey",
        "division_wlt": "4-8-0",
        "overall_wlt": "5-8-0"
       },
@@ -459,7 +459,7 @@
     },
     {
      "team": "Non-Dairy Caucasians",
-     "manager": "Dave Lang",
+     "manager": "Lang",
      "projected_rank": 6,
      "projected_wlt": "7-6-0",
      "actual_rank": 6,
@@ -475,7 +475,7 @@
     },
     {
      "team": "A Moderate Breakfast",
-     "manager": "David Laskey",
+     "manager": "Laskey",
      "projected_rank": 8,
      "projected_wlt": "6-7-0",
      "actual_rank": 10,
@@ -507,7 +507,7 @@
     },
     {
      "team": "AMERICA",
-     "manager": "Dylan Snyder",
+     "manager": "Dylan",
      "projected_rank": 12,
      "projected_wlt": "4-9-0",
      "actual_rank": 14,
@@ -570,7 +570,7 @@
     "runner_up": {
      "place": 10,
      "team": "A Moderate Breakfast",
-     "manager": "David Laskey"
+     "manager": "Laskey"
     }
    }
   },
@@ -704,7 +704,7 @@
       },
       {
        "team": "AMERICA",
-       "manager": "Dylan Snyder",
+       "manager": "Dylan",
        "division_wlt": "3-6-0",
        "overall_wlt": "4-9-0"
       },
@@ -814,7 +814,7 @@
     },
     {
      "team": "AMERICA",
-     "manager": "Dylan Snyder",
+     "manager": "Dylan",
      "projected_rank": 12,
      "projected_wlt": "2-11-0",
      "actual_rank": 9,
@@ -857,7 +857,7 @@
     "winner": {
      "place": 9,
      "team": "AMERICA",
-     "manager": "Dylan Snyder"
+     "manager": "Dylan"
     },
     "runner_up": {
      "place": 10,
@@ -917,7 +917,7 @@
     "winner": {
      "place": 7,
      "team": "AMERICA",
-     "manager": "Dylan Snyder"
+     "manager": "Dylan"
     },
     "runner_up": {
      "place": 8,
@@ -990,7 +990,7 @@
       },
       {
        "team": "AMERICA",
-       "manager": "Dylan Snyder",
+       "manager": "Dylan",
        "division_wlt": "4-5-0",
        "overall_wlt": "5-8-0"
       },
@@ -1042,7 +1042,7 @@
     },
     {
      "team": "AMERICA",
-     "manager": "Dylan Snyder",
+     "manager": "Dylan",
      "projected_rank": 4,
      "projected_wlt": "9-4-0",
      "actual_rank": 7,
@@ -1305,7 +1305,7 @@
       },
       {
        "team": "AMERICA",
-       "manager": "Dylan Snyder",
+       "manager": "Dylan",
        "division_wlt": "5-6-0",
        "overall_wlt": "6-7-0"
       },
@@ -1377,7 +1377,7 @@
     },
     {
      "team": "AMERICA",
-     "manager": "Dylan Snyder",
+     "manager": "Dylan",
      "projected_rank": 8,
      "projected_wlt": "6-7-0",
      "actual_rank": 12,
@@ -3904,7 +3904,7 @@
    "proj_misses": 7,
    "voltron_titles": 0
   },
-  "Dave Lang": {
+  "Lang": {
    "championships": 0,
    "runner_up": 0,
    "third_place": 0,
@@ -3917,7 +3917,7 @@
    "proj_misses": 1,
    "voltron_titles": 0
   },
-  "David Laskey": {
+  "Laskey": {
    "championships": 0,
    "runner_up": 0,
    "third_place": 0,
@@ -3930,7 +3930,7 @@
    "proj_misses": 1,
    "voltron_titles": 0
   },
-  "Dylan Snyder": {
+  "Dylan": {
    "championships": 0,
    "runner_up": 0,
    "third_place": 0,

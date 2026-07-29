@@ -21,7 +21,7 @@ import { normalizeManager } from '../managerCanon'
 //     elimination playoff-bracket weeks where it drew a bye, so the ribbon
 //     doesn't gap out during the last 2-3 weeks of a season
 //   - ends after the last week of its final season if retired (Kyle,
-//     Kelly Brown, Dave Lang) — no more points are emitted past that week
+//     Kelly, Lang) — no more points are emitted past that week
 // ─────────────────────────────────────────────
 
 export interface PowerRankWeekLabel {
@@ -39,6 +39,22 @@ export interface PowerRankPoint {
   winPct: number
 }
 
+/** One manager's continuous tenure on a franchise, in weekIndex space.
+ *  Segments tile the franchise's whole span with no gaps, so they can be
+ *  turned straight into gradient stops along the ribbon. */
+export interface ManagerSegment {
+  managerId: string
+  name: string
+  color: string
+  startWeekIndex: number
+  endWeekIndex: number
+  /** Position of this segment's start/end along the franchise's own span, 0–1.
+   *  Matches SVG objectBoundingBox units, since a ribbon's bounding box is
+   *  exactly its own tenure. */
+  startFraction: number
+  endFraction: number
+}
+
 export interface FranchisePowerSeries {
   franchiseId: string
   label: string
@@ -47,6 +63,7 @@ export interface FranchisePowerSeries {
   retiredAfterSeason: number | null
   founded: number
   points: PowerRankPoint[]
+  segments: ManagerSegment[]
 }
 
 interface FranchiseStintRaw { manager: string; seasons: number[] }
@@ -166,6 +183,52 @@ function buildFranchisePowerSeries(): FranchisePowerSeries[] {
       retiredAfterSeason: raw.retired_after ?? null,
       founded: POWER_RANKING_WEEKS.find(w => w.weekIndex === bounds.start)!.season,
       points: points.get(f.id) ?? [],
+      segments: buildSegments(raw, bounds),
+    }
+  })
+}
+
+/** Split a franchise's span into one contiguous segment per owning manager.
+ *  Segments are built to tile: each runs until the next one starts, so the
+ *  gradient has no undefined gaps. Consecutive stints by the same manager
+ *  (rare, but the data allows it) are merged. */
+function buildSegments(
+  raw: FranchiseRaw,
+  bounds: { start: number; end: number },
+): ManagerSegment[] {
+  const span = bounds.end - bounds.start
+
+  // Earliest week each stint controls, in chronological order.
+  type Start = { managerId: string; weekIndex: number }
+  const starts: Start[] = raw.stints
+    .flatMap(stint => {
+      const firstSeason = Math.min(...stint.seasons)
+      const weekIndex = POWER_RANKING_WEEKS.find(w => w.season === firstSeason)?.weekIndex
+      return weekIndex === undefined
+        ? []
+        : [{ managerId: normalizeManager(stint.manager) as string, weekIndex }]
+    })
+    .sort((a, b) => a.weekIndex - b.weekIndex)
+
+  // Merge repeats and clamp the first segment to the franchise's own start.
+  const merged: Start[] = []
+  for (const s of starts) {
+    if (merged.length > 0 && merged[merged.length - 1].managerId === s.managerId) continue
+    merged.push({ managerId: s.managerId, weekIndex: Math.max(s.weekIndex, bounds.start) })
+  }
+  if (merged.length > 0) merged[0].weekIndex = bounds.start
+
+  return merged.map((s, i): ManagerSegment => {
+    const manager = getManager(s.managerId)
+    const end = i < merged.length - 1 ? merged[i + 1].weekIndex : bounds.end
+    return {
+      managerId: s.managerId,
+      name: manager?.name ?? s.managerId,
+      color: manager?.primaryColor ?? '#8d8d8d',
+      startWeekIndex: s.weekIndex,
+      endWeekIndex: end,
+      startFraction: span > 0 ? (s.weekIndex - bounds.start) / span : 0,
+      endFraction: span > 0 ? (end - bounds.start) / span : 1,
     }
   })
 }

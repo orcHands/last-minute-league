@@ -272,7 +272,7 @@
     },
     {
       "id": "dave-lang",
-      "label": "Dave Lang",
+      "label": "Lang",
       "status": "retired",
       "seasons": 2,
       "games": 21,
@@ -401,7 +401,7 @@
     },
     {
       "id": "laskey",
-      "label": "David Laskey \u2192 Sara \u2192 Jason",
+      "label": "Laskey \u2192 Sara \u2192 Jason",
       "status": "active",
       "seasons": 12,
       "games": 161,
@@ -465,7 +465,7 @@
     },
     {
       "id": "dylan",
-      "label": "Dylan Snyder \u2192 becca \u2192 Megan",
+      "label": "Dylan \u2192 becca \u2192 Megan",
       "status": "active",
       "seasons": 13,
       "games": 169,

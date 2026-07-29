@@ -917,8 +917,8 @@
     ]
    ]
   },
-  "Dylan Snyder": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+  "Dylan": {
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_schools": [
     [
      "Miami",
@@ -1292,8 +1292,8 @@
     ]
    ]
   },
-  "Dave Lang": {
-   "franchise": "Dave Lang",
+  "Lang": {
+   "franchise": "Lang",
    "top_schools": [
     [
      "Texas A&M",
@@ -1734,8 +1734,8 @@
     ]
    ]
   },
-  "David Laskey": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+  "Laskey": {
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_schools": [
     [
      "Oklahoma State",
@@ -1798,7 +1798,7 @@
    ]
   },
   "Sara": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_schools": [
     [
      "Miami",
@@ -1948,7 +1948,7 @@
    ]
   },
   "Jason": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_schools": [
     [
      "Oklahoma",
@@ -2019,7 +2019,7 @@
    ]
   },
   "becca": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_schools": [
     [
      "Georgia",
@@ -2283,7 +2283,7 @@
    ]
   },
   "Megan": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_schools": [
     [
      "Alabama",
@@ -2546,7 +2546,7 @@
     ]
    ]
   },
-  "Dylan Snyder \u2192 becca \u2192 Megan": {
+  "Dylan \u2192 becca \u2192 Megan": {
    "top_schools": [
     [
      "Alabama",
@@ -2924,7 +2924,7 @@
     ]
    ]
   },
-  "Dave Lang": {
+  "Lang": {
    "top_schools": [
     [
      "Texas A&M",
@@ -3360,7 +3360,7 @@
     ]
    ]
   },
-  "David Laskey \u2192 Sara \u2192 Jason": {
+  "Laskey \u2192 Sara \u2192 Jason": {
    "top_schools": [
     [
      "Ohio State",

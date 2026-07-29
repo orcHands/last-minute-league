@@ -1554,14 +1554,14 @@
    2019,
    2020
   ],
-  "Dylan Snyder": [
+  "Dylan": [
    2013,
    2014,
    2015,
    2016,
    2017
   ],
-  "Dave Lang": [
+  "Lang": [
    2013,
    2014
   ],
@@ -1653,7 +1653,7 @@
    2017,
    2018
   ],
-  "David Laskey": [
+  "Laskey": [
    2014
   ],
   "Sara": [
@@ -1953,7 +1953,7 @@
    "drafted_starts": 432
   },
   {
-   "manager": "Dave Lang",
+   "manager": "Lang",
    "pos": "DEF",
    "waiver_pts": 405.97,
    "drafted_pts": 0.0,
@@ -1961,7 +1961,7 @@
    "drafted_starts": 0
   },
   {
-   "manager": "Dave Lang",
+   "manager": "Lang",
    "pos": "K",
    "waiver_pts": 80.6,
    "drafted_pts": 72.8,
@@ -1969,7 +1969,7 @@
    "drafted_starts": 12
   },
   {
-   "manager": "Dave Lang",
+   "manager": "Lang",
    "pos": "QB",
    "waiver_pts": 36.2,
    "drafted_pts": 372.84,
@@ -1977,7 +1977,7 @@
    "drafted_starts": 23
   },
   {
-   "manager": "Dave Lang",
+   "manager": "Lang",
    "pos": "RB",
    "waiver_pts": 204.4,
    "drafted_pts": 607.6,
@@ -1985,7 +1985,7 @@
    "drafted_starts": 43
   },
   {
-   "manager": "Dave Lang",
+   "manager": "Lang",
    "pos": "TE",
    "waiver_pts": 223.8,
    "drafted_pts": 56.2,
@@ -1993,7 +1993,7 @@
    "drafted_starts": 7
   },
   {
-   "manager": "Dave Lang",
+   "manager": "Lang",
    "pos": "WR",
    "waiver_pts": 18.8,
    "drafted_pts": 1078.3,
@@ -2001,7 +2001,7 @@
    "drafted_starts": 66
   },
   {
-   "manager": "David Laskey",
+   "manager": "Laskey",
    "pos": "DEF",
    "waiver_pts": 91.0,
    "drafted_pts": 0.0,
@@ -2009,7 +2009,7 @@
    "drafted_starts": 0
   },
   {
-   "manager": "David Laskey",
+   "manager": "Laskey",
    "pos": "K",
    "waiver_pts": 0.0,
    "drafted_pts": 56.2,
@@ -2017,7 +2017,7 @@
    "drafted_starts": 16
   },
   {
-   "manager": "David Laskey",
+   "manager": "Laskey",
    "pos": "QB",
    "waiver_pts": 0.0,
    "drafted_pts": 235.96,
@@ -2025,7 +2025,7 @@
    "drafted_starts": 16
   },
   {
-   "manager": "David Laskey",
+   "manager": "Laskey",
    "pos": "RB",
    "waiver_pts": 0.0,
    "drafted_pts": 316.0,
@@ -2033,7 +2033,7 @@
    "drafted_starts": 32
   },
   {
-   "manager": "David Laskey",
+   "manager": "Laskey",
    "pos": "TE",
    "waiver_pts": 109.5,
    "drafted_pts": 20.0,
@@ -2041,7 +2041,7 @@
    "drafted_starts": 3
   },
   {
-   "manager": "David Laskey",
+   "manager": "Laskey",
    "pos": "WR",
    "waiver_pts": 113.2,
    "drafted_pts": 575.9,
@@ -2049,7 +2049,7 @@
    "drafted_starts": 39
   },
   {
-   "manager": "Dylan Snyder",
+   "manager": "Dylan",
    "pos": "DEF",
    "waiver_pts": 796.27,
    "drafted_pts": 0.0,
@@ -2057,7 +2057,7 @@
    "drafted_starts": 0
   },
   {
-   "manager": "Dylan Snyder",
+   "manager": "Dylan",
    "pos": "K",
    "waiver_pts": 167.45,
    "drafted_pts": 162.8,
@@ -2065,7 +2065,7 @@
    "drafted_starts": 43
   },
   {
-   "manager": "Dylan Snyder",
+   "manager": "Dylan",
    "pos": "QB",
    "waiver_pts": 284.52,
    "drafted_pts": 1068.38,
@@ -2073,7 +2073,7 @@
    "drafted_starts": 56
   },
   {
-   "manager": "Dylan Snyder",
+   "manager": "Dylan",
    "pos": "RB",
    "waiver_pts": 565.7,
    "drafted_pts": 1053.1,
@@ -2081,7 +2081,7 @@
    "drafted_starts": 85
   },
   {
-   "manager": "Dylan Snyder",
+   "manager": "Dylan",
    "pos": "TE",
    "waiver_pts": 246.8,
    "drafted_pts": 559.9,
@@ -2089,7 +2089,7 @@
    "drafted_starts": 53
   },
   {
-   "manager": "Dylan Snyder",
+   "manager": "Dylan",
    "pos": "WR",
    "waiver_pts": 772.8,
    "drafted_pts": 1656.7,

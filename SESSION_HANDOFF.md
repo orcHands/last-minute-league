@@ -1,78 +1,164 @@
-# Session Handoff — LMFL_Dashboard data wiring
+# Session Handoff — LMFL_Dashboard
 
-**Not a git repo** (checked at session start — no `.git`). There is no commit history to diff against; this doc plus the file tree *is* the record of what changed. If you set up git later, consider an initial commit before making further changes so you have a real baseline.
+Last updated: **2026-07-29**. Covers the landing-page redesign + power-rankings session. Supersedes the previous handoff (the original data-wiring session); the still-relevant parts of that one are folded in below under *Older context that still matters*.
 
-There's already a repo-root `HANDOFF.md` (data-pipeline recipe, scraping gotchas) — that's a **different document**, unrelated to this one. This file only covers the dashboard app build session.
+There's also a repo-root `HANDOFF.md` — that's a **different document** (data-pipeline / scraping recipe), unrelated to this one.
+
+## Current state
+
+The app is **live and deployed**: https://orchands.github.io/last-minute-league/
+
+- Repo `orcHands/last-minute-league`, **public**, `LMFL_Dashboard/` is the git root. Branch `main`.
+- Push to `main` → GitHub Actions builds with `VITE_BASE_PATH=/last-minute-league/` → Pages. **A push updates the live site.** Always `npm run build` first; a red build leaves a broken public site.
+- Last commit: `5c15968` "Redesign landing page, add power rankings, merge Records section". Working tree clean, in sync with origin.
 
 ## What this session did
 
-Started from a Figma Make export where `src/data/league.ts` was **100% hand-authored mock data** (fake managers, fake stats, fake team names). Ended with the dashboard wired entirely to the real `data/processed/*.json` files, plus several rounds of bug fixes and feature additions driven by user review of the live app.
+### 1. Landing page rebuilt against a Figma comp
+Hoss supplied a comp (Figma MCP couldn't read the file — access error; they pasted a screenshot instead, which worked fine). Three judgment calls were confirmed with them before building:
+- **The comp's white background was a Carbon-token artifact, not a light-mode request.** Everything stays dark `#161616`. If a future comp looks light, ask before converting.
+- The giant `LMFL` wordmark is a **deliberate ghosted watermark** (`#303030` on `#161616`, `aria-hidden`, decorative). The dedication text next to it was raised to `#f4f4f4` to clear WCAG AA — the comp had it at ~2:1, which was not intentional.
+- Nav was relabelled/reordered **and** Post-season + Leaderboards merged (see §3).
 
-### 1. Core data wiring
-- Copied `data/processed/*.json` → `src/data/processed/` (league, honors, franchises, franchise_records, gate_timelines, manager_phase_splits, bench_regret, enemies_analysis, nflteam_analysis, aggregations, bowl_mvps, college_analysis).
-- Built `src/data/managerCanon.ts`: the 23-manager identity layer. `ALIASES` maps every raw name string seen across the JSON files (`"Dave Lang"`, `"whitaker"`, `"Kelly Brown"`, etc.) to one canonical id. **If you ever see a console warning `[managerCanon] unknown manager alias: "X"`, add it here.**
-- Built `src/data/build/*.ts` — one module per data domain, all pure transforms over the copied JSON:
-  - `careerRecords.ts` — per-manager career W/L/PF aggregated from `league.json` standings; also `leagueAvgPtsPerWeek()`.
-  - `honorsHelpers.ts` — season-level honors lookups (championship counts, per-season podium/bowls).
-  - `managers.ts` — builds `MANAGERS[]` and `FRANCHISES[]`.
-  - `seasons.ts` — builds `SEASONS[]` from `honors.json` (champion, runner-up, third, consolation, Letty, **plus real per-season team names** — see below).
-  - `mnm.ts` — builds `MONDAY_NIGHT_MIRACLES[]` from `gate_timelines.json`, joining `mnf_comebacks` against the matching `timelines` entry by (season, week, manager pair) to build the gate-by-gate chart data.
-  - `boards.ts` — `PHASE_SPLITS`, `BENCH_REGRET`, `NEMESIS_DATA`, `FANDOM_DATA`.
-  - `leagueStats.ts` — `ALL_TIME_STANDINGS`, `LEAGUE_STATS` (all-time records, defense records, etc.)
-  - `nflTeamColors.ts` — NFL team → hex color lookup (for Fandom board swatches).
-  - `headToHead.ts` — new: all-pairs manager W-L-T, computed by replaying every `league.json` matchup.
-- `src/data/league.ts` is now just a **barrel re-export** with the exact same public API the mock had (`MANAGERS`, `getManager`, `SEASONS`, `MONDAY_NIGHT_MIRACLES`, etc.), so most page/component code needed zero changes.
-- `Players.tsx` and `Leaderboards.tsx` (RecruitingBoard, DefensesBoard) had their own hardcoded arrays *outside* `league.ts` — those were rewired separately, directly against `aggregations.json` / `bowl_mvps.json` / `college_analysis.json` / `enemies_analysis.json`.
+New landing structure, top to bottom: hero → stat bar → all-time standings → H2H matrix → power rankings → skill matrix → section nav → asterisk note.
 
-### 2. Real data overrode the mock in several places — this is expected, not a bug
-The mock's specific facts were often wrong; real data wins per explicit user decision. Confirmed corrections already baked in:
-- **Kyle** is a real 23rd manager, missing from the mock entirely (retired, no large logo, small logo only).
-- **2013 champion is Carter**, not Jay.
-- **Best lineup setter is David Laskey** (10.4 avg regret/wk), not Kelly.
-- **Brice's real top-rostered NFL team is the Dolphins** (matches his claimed fandom → "confirmed", not the mock's "partial/Packers").
-- Real MNF-miracle nemesis is **whitaker vs. pb** (2018 wk8), not whitaker vs. zac as the mock claimed.
-- There's a genuine **exact-tie game** (pb vs. Brice, 2014 wk11, 108.18–108.18) — real "smallest margin ever" is 0.00, better than the mock's fabricated 0.04.
-- **Divisions are reshuffled every season** — NOT a stable per-manager fact like the mock implied. The one documented exception: **Brice is always Brian O'Conner Memorial**. `Manager.division` is now `'oconner'` for Brice only, `null` for everyone else (see `managers.ts`). Don't try to "fix" this back to a computed-per-manager field — it was computed wrong before (from "most recent season", which is meaningless since it's random) and the user corrected it directly.
+### 2. New components
+- **`StatBar.tsx`** — 7 tiles with a Carbon rainbow of top rules: seasons 13, franchises 15, managers 23, games played 1,217, points scored 275,661.56, players rostered 957, Fast & Furious films 11. All derived from real data **except the film count, which is hardcoded lore** (commented as such).
+- **`AllTimeStandingsTable.tsx`** — replaced the champions roll. Sortable, tabbed franchise (15) / manager (23), with W–L–T, avg PF and PA per game (avg is the primary line, total is the sub-line, and sorting is by **average**), PF−PA delta, playoff apps, division titles, rings. Large logo per row with monogram fallback.
+- **`PowerRankingChart.tsx`** — replaced the Monday Night Miracle teaser. Cumulative **all-play win rate** per franchise across all **208 weeks** of league history, rank 1 on top. Legend split active/retired; hovering a chip highlights its ribbon.
+- **`ManagerSkillMatrix.tsx`** — scatter of lineup-setting skill (x: league-avg regret − own avg regret) vs roster ceiling (y: avg optimal pts/wk). Managers plotted as their small logo in a colored ring.
 
-### 3. Bugs fixed that were pre-existing in the Figma Make output (not introduced this session)
-- Unused imports (`Badge`, `MANAGERS`, `Cell`, `ReferenceLine`, `LEAGUE_AVG`) tripping `noUnusedLocals`.
-- A literal duplicate `borderTop` key in `ManagerCard.tsx`'s style object.
-- A duplicate React key (`'vs Avg'` used 3× as a `key` prop) in `Leaderboards.tsx`'s PhaseBoard table header — caused a real console error.
-- Recharts v3 `Tooltip` `formatter` type mismatch (value can be `undefined` per the newer types) in both `MatchupCard.tsx` and `Leaderboards.tsx`.
+### 3. Records merge (IA change)
+`/postseason` and `/leaderboards` are gone from the nav and merged into **`/records`**, an 8-item sidebar page (Post-season & Bowls first, then the 7 existing boards).
 
-### 4. Images (user added `public/images/` mid-session)
-- Manager large/small logos: needed **zero code changes** — `managerCanon.ts`'s logo path mapping was already correct, just needed the files to exist.
-- Bowl logos: `Postseason.tsx` had dead `logoPath` stubs pointing at **wrong folder names** (e.g. `TeremanaBowl_Logos` vs. the real `TeremanaTequilaBowl_logos`). Fixed, and added a `BowlLogo` component (image + emoji-trophy fallback on error) wired into both the 4 bowl overview cards and every row of the Teremana history table.
-- Added shared `src/components/AssetImage.tsx` (generic image-with-fallback) — used for division logos in `ManagerCard.tsx`, the Letty Award trophy in `Seasons.tsx`, and the manager avatars in the new H2H matrix.
-- `public/images/LMFL_Logo.png` (the nav wordmark) has an **opaque white background** — no ImageMagick on this machine, so Pillow was pip-installed and used to chroma-key white → transparent and crop to content bbox, saved as `public/images/LMFL_Logo_transparent.png` (original left untouched). `Nav.tsx` points at the transparent version.
+**Important structural consequence:** `Postseason.tsx` and `Leaderboards.tsx` are now **content modules, not pages**. They export board components (`PhaseBoard`, `BenchBoard`, `MondayNightMiracleBoard`, etc.) that `Records.tsx` composes. Neither has page chrome any more, and neither has a default page export in the old sense (`Postseason.tsx`'s default is now `PostseasonBoard`, a content-only component). Don't "restore" their headers.
 
-### 5. Real per-season team names
-Added `championTeam` / `runnerUpTeam` / `thirdPlaceTeam` / `consolationTeam` / `pointsLeaderTeam` to the `Season` interface (`seasons.ts`), sourced from the `"team"` field already present in `honors.json`'s podium/third_place_game/consolation_winner/points_leader entries. Wired into the grey sub-labels in Landing's Champions Roll, Seasons.tsx (grid + detail), and Postseason.tsx's history table — these used to just repeat the manager's name; now they show the actual fantasy team name for that specific year (e.g. Carter's 2013 team was "Ice Kingdom Gunters").
+Old routes redirect: `/postseason` and `/leaderboards` → `/records`, so shared links keep working.
 
-### 6. Polish requested via live review
-- Champions Roll: asterisk pills killed entirely (footer note already explains 2013/2020); generic 🏆 emoji replaced with the real per-season Teremana Bowl logo, enlarged to 56px.
-- Removed the "Kelce started pts" stat tile (unexplained/unnecessary per user).
-- "League at a Glance" trimmed from 7 tiles to 4 — dropped Seasons/Owners/Active-Franchises since those are already stated in the hero eyebrow line right above.
-- New **head-to-head matrix** (`src/components/H2HMatrix.tsx` + `src/data/build/headToHead.ts`): 23×23 grid under Champions Roll, sticky row/column headers with manager logos, green border = row-manager leads the series, red = trails, genuinely blank cells for pairs who never met (different eras, e.g. Jay vs. Kevin).
+Nav is now: LMFL · Franchises · Seasons · Players · Records · About.
 
-## Known open items / not done
+### 4. Data layer
+- `careerRecords.ts` now tracks **ties, points against, and playoff appearances** (`playoffs` flag on each standings row) alongside W/L/PF.
+- `honorsHelpers.ts` gained `buildDivisionTitleCounts()`.
+- `managers.ts` — `Manager` and `Franchise` both gained `avgPF`, `avgPA`, `playoffAppearances`, `divisionTitles`, and ties on the record.
+- **New `powerRankings.ts`** — the all-play computation. Three subtleties worth preserving:
+  - A franchise's ribbon starts at its **actual founding week** (Zac's starts 2017, not 2013).
+  - It **carries its cumulative record forward through playoff-bracket bye weeks**, so ribbons don't gap out over the last 2–3 weeks of a season.
+  - It **ends** at the last week of a retired franchise's final season (Dave Lang 2014; Kyle and Kelly Brown 2018). Verified by measuring the rendered SVG path bounding boxes.
+- **New `managerSkillMatrix.ts`** — derives both axes from `bench_regret.json`'s per-team-week actual/optimal/regret.
+- `leagueStats.ts` gained `gamesPlayed`, `pointsScored`, `playersRostered`.
 
-- **Colors are now real canon** (update, post-handoff-draft): Hoss supplied a manager-card sheet (23 managers, light/dark/accent swatches per card, listed top-to-bottom as light/dark/accent) and it's wired in — `managerCanon.ts`'s `MANAGER_COLORS` (was `PLACEHOLDER_COLORS`, HSL-generated). Final mapping (after a correction — it was accent/dark/light at first): `primary` = **light** (the top-listed swatch — the one actually rendered everywhere: card borders, chart lines, H2H matrix), `secondary` = dark, `tertiary` = accent. Verified all 23 render correctly via computed-style check in the browser (don't trust a screenshot thumbnail for color-accuracy checks — colors can look wrong at small scale even when correct; `getComputedStyle` is the reliable check). **`team_names.json` is still NOT exported** — `teamName` is still just the manager's short display name (`placeholderTeamName()` in `managerCanon.ts`), flagged with a comment there. When that file lands in `data/processed/`, swap it in — no other file should need to change since everything reads through `managerCanon.ts`.
-- **Dave Lang's short display name is "Lang", not "Dave"** — changed per Hoss's explicit correction, to avoid confusion with David Laskey (also sometimes "Dave" colloquially). `DISPLAY_NAMES.dave.name` in `managerCanon.ts`. `fullName` is still "Dave Lang"; the `dave` canonical id and `ALIASES` entries (`"Dave"`, `"Dave Lang"` → `dave`) are unchanged since those match raw source-data strings, not display.
-- The card sheet also had a **richer per-manager monogram** than what the app currently generates (e.g. "DLG" for Dave Lang, "VFL" for Sara, "BRK" for Laskey) — not wired in, since it wasn't asked for. If Hoss wants it, add a `MONOGRAMS: Record<ManagerId, string>` map to `managerCanon.ts` next to `MANAGER_COLORS` and use it in place of the `name.slice(0,2).toUpperCase()` fallbacks in `ManagerCard.tsx`, `StandingsTable.tsx`, and `H2HMatrix.tsx`.
-- Some card headers on that sheet are full legal names (Carter Dotson, Ryan Evans, Michael Bean, etc.), others are affectionate team-name nicknames (Benny Football → Benedict, A Moderate Breakfast → Laskey, Brice Puls, Patrick Brown). These were used only to *identify* which card belongs to which manager — not wired into `fullName` or `teamName` anywhere, since the ask was specifically about colors.
-- `FandomEntry.claimedTeam` (self-reported fan claims, e.g. "Brice claims Dolphins") is a small hardcoded list of 9 managers in `boards.ts` (`CLAIMED_TEAMS`) — preserved from the original mock as curated canon, not derived from any data file, not independently verified.
-- `ManagerCard.tsx` links to `/franchises/:id`, but `App.tsx` has no route for that — pre-existing gap from the original Figma Make output, not touched this session. Clicking a manager card currently does nothing useful.
-- `PHASE_SPLITS`'s "avg" columns (early/mid/late average points) are an approximation — `pts_vs_mean` from `manager_phase_splits.json` is relative to each phase's own weekly mean, which isn't available in isolation, so the code adds it to a single league-wide average instead. Flagged with a comment in `boards.ts`.
-- No automated test suite. Verification this session was `npx tsc --noEmit` (clean) + manual browser checks via the preview tooling (clean console throughout).
-- A `.claude/launch.json` was added at the **project root** (not inside `LMFL_Dashboard/`) so the preview tool could start `npm run dev` — this is tooling config, not part of the shipped app.
-- This machine had **no Node/npm/pnpm/Homebrew** at session start — user installed Node via the official nodejs.org installer mid-session. If a fresh session hits the same "command not found," that's the fix.
+**Number provenance** (all verified against source data before use — the comp's figures matched exactly):
+- `gamesPlayed` 1,217 = count of matchups (**not** team-games, which would be 2,434).
+- `pointsScored` 275,661.56 = sum of **both sides of every matchup**. Note this differs from summing `standings[].pf` (235,012.74) because standings PF excludes playoff games. Use the matchup sum.
+- `playersRostered` 957 = non-DEF entries in `player_positions.json` (989 total − 32 DEF units). **`player_positions.json` (22KB) was copied into the app specifically to avoid bundling `boxscores.json` (2.6MB) for one number.**
+
+### 5. Bug fixed in passing
+`AllTimeStandingsTable` replaced the old landing standings, which had silently filtered out any manager with **<20 career games** — Laskey (13), Aboubacar (14) and Alex (14) were missing, so the page showed 20 of 23 managers. Filter removed; all 23 now appear. (`ALL_TIME_STANDINGS` in `leagueStats.ts` still has that 20-game filter and still feeds the Franchises page — left alone deliberately, but be aware it exists.)
+
+### 6. Full names scrubbed from the public bundle (privacy)
+Everything under `src/data/` is bundled into the JS served from GitHub Pages, so
+raw pipeline values are publicly readable via view-source even when the UI never
+renders them. Hoss asked for three managers' full names to be removed.
+
+- **`scripts/sync_app_data.py`** (workspace root, *outside this repo* — it reads
+  `data/processed/`, which also lives outside the repo) copies source JSON into
+  `src/data/processed/` while rewriting `David Laskey`→`Laskey`,
+  `Dylan Snyder`→`Dylan`, `Dave Lang`→`Lang`. 509 occurrences across 12 files.
+  It ends with a leak check that exits non-zero if anything slipped through.
+- **Use that script, never a plain `cp`**, when adding or refreshing app data.
+- Full-name keys were removed from `ALIASES` in `managerCanon.ts` too — a string
+  literal there ships exactly as publicly as one in JSON. The matching
+  `fullName` fields were blanked to the short names.
+- If you hand-copy a file and see `[managerCanon] unknown manager alias: "Dave Lang"`
+  in the console, that's this invariant catching you. Re-run the script.
+- Two occurrences were only caught by the leak check because they sit mid-sentence
+  in free-text `note` fields (`"Sara inherits David Laskey's 2014 team"`,
+  `"four Kyle/Dylan Snyder swaps"`), not as quoted data values. Scrubbing is a
+  plain substring replace for that reason.
+
+**Still exposed, deliberately not scrubbed** (Hoss was told): `Kelly Brown`
+(~185 occurrences in data), `Jayson Margalus` (Jay's `fullName`), and
+`Brice Marino` (the dedication line, added on request). Adding any of them is a
+new `NAME_SCRUB` entry plus the matching `ALIASES` edit, then re-run the script.
+The site does send `<meta name="robots" content="noindex, nofollow">`, so it
+shouldn't surface in search — but it is still reachable by URL.
+
+### 7. Power-ranking ribbons are per-manager gradients
+Each franchise ribbon now runs through the colours of every manager who owned it,
+in order, instead of a single current-owner colour.
+
+- `powerRankings.ts` exports `ManagerSegment[]` per franchise. Segments **tile**
+  the franchise's span (each runs until the next begins) so the gradient has no
+  undefined gaps, and consecutive stints by the same manager are merged —
+  `kelly-brown` has two back-to-back stints in the data and correctly collapses
+  to one segment, which is why there are 4 multi-manager gradients, not 5.
+- `startFraction`/`endFraction` are in **objectBoundingBox units**, which works
+  because a ribbon's bounding box is exactly its own tenure — so the fractions
+  drop straight into `<linearGradient>` stops with no pixel math.
+- Handovers get a ~2% blend band (clamped to 40% of a short tenure, since
+  Aboubacar's is only ~8% of the span) so a change reads as a transition.
+- The legend swatch mirrors the ribbon; the tooltip names the manager for the
+  hovered week.
+
+### 8. Site title and favicon
+- `.figma/make/site.json` now sets `title` ("Last Minute Football League"),
+  a real `description`, and `icons.icon`. **Vite reads this file at server start**,
+  so a title change needs a dev-server restart, not just a reload.
+- `public/favicon.svg` — hand-authored football. The favicon href is the
+  *relative* `favicon.svg` on purpose: it resolves correctly both at `/` in dev
+  and under `/last-minute-league/` on Pages. An absolute `/favicon.svg` would
+  404 in production.
+
+## Known open items / gotchas
+
+- **`StatTile.tsx` is now orphaned.** Its last consumer was the "League at a glance" block that `StatBar` replaced. Safe to delete, or repurpose — left in place rather than deleting something Hoss might want.
+- **`/franchises/:id` route still doesn't exist.** `ManagerCard.tsx` links to it; `App.tsx` only has `/franchises`. Pre-existing gap from the original Figma Make output — clicking a manager card still does nothing. Probably the highest-value small fix available.
+- **`team_names.json` still not exported** — `teamName` is still `placeholderTeamName()` (the manager's short name). Same for franchise nicknames, which fall back to `franchises.json`'s `label`. Everything reads through `managerCanon.ts`, so swapping it in should be a one-file change.
+- **The dedication pill is fully rounded**, which breaks the "square corners, radius 0" rule. Deliberate, per the comp, confirmed with Hoss. Don't "fix" it.
+- **The repo is public** and now includes Brice Marino's photo plus all 23 real member names. Hoss was told and is fine with it — but keep it in mind before adding anything more personal.
+- **`PHASE_SPLITS` "avg" columns are an approximation** — `pts_vs_mean` is relative to each phase's own weekly mean, which isn't available in isolation, so the code adds it to a single league-wide average. Flagged in `boards.ts`.
+- **`FandomEntry.claimedTeam`** is a hardcoded list of 9 managers in `boards.ts` (`CLAIMED_TEAMS`) — curated canon from the original mock, not derived, not independently verified.
+- **`scripts/sync_app_data.py` is not in this repo.** It lives at the workspace
+  root alongside `data/processed/`, both of which sit outside the git root. A
+  fresh clone won't have either — you'd need the data workspace to refresh app
+  data at all. Same is true of the root `CLAUDE.md`.
+- **The Browser-pane preview gets stuck after programmatic scrolling** — screenshots
+  come back solid black even though the DOM is fine. A fresh `navigate` clears it.
+  When that fails, verifying via `javascript_tool` (computed styles, SVG attributes,
+  bounding boxes) is more reliable than fighting the screenshotter, and is how the
+  gradient stops and ribbon end-points were actually checked.
+- **No automated tests.** Verification is `npx tsc --noEmit` + `npm run build` + manual browser checks.
+- **Bundle is ~2.16MB** (422KB gzipped) and Vite warns about it. Fine for now; if it grows, the JSON imports are the thing to code-split, and `boxscores.json` should probably never be imported directly.
+
+## Working-with-Hoss notes
+
+- Hoss is learning to code — explain what changed and why, keep diffs legible.
+- **Verify numbers against the source data before building UI on them.** Every figure in the comp turned out to be correct, but that was worth confirming rather than assuming, and it caught the PF-vs-matchup-sum distinction.
+- **Ask before big structural calls** (theme scope, nav/routing changes, anything that touches pages below the one being edited). The three questions asked this session all changed the implementation materially.
+- Hoss pastes screenshots when a tool can't reach something — that works well; don't stall on the tool.
+- Preview tooling: another chat's dev server may already hold port 5173. The root `.claude/launch.json` has `autoPort: true` so a second server gets a free port. **Console errors can be stale HMR artifacts from mid-edit saves** — confirm in a fresh tab before chasing them.
+
+## Older context that still matters
+
+- **`managerCanon.ts` is the identity layer.** If you see `[managerCanon] unknown manager alias: "X"` in the console, add `X` to `ALIASES`.
+- **Colors are real canon** (Hoss's card sheet): `primary` = light swatch (the one rendered everywhere), `secondary` = dark, `tertiary` = accent. Verify color work with `getComputedStyle`, not screenshot thumbnails — small-scale renders lie.
+- **Dave Lang's short display name is "Lang", not "Dave"** — deliberate, to avoid collision with David Laskey. `fullName` is still "Dave Lang".
+- Real data has overridden mock facts in several places and **that's expected, not a bug**: Kyle is a real 23rd manager; 2013 champion is Carter (not Jay); best lineup-setter is David Laskey; smallest margin ever is a genuine 0.00 tie (pb vs Brice, 2014 wk11); the MNF miracle is whitaker vs pb (2018 wk8).
+- `LMFL_Logo_transparent.png` is a chroma-keyed version of the original (which has an opaque white background). Nav points at the transparent one.
 
 ## How to run
 
 ```bash
 cd LMFL_Dashboard
 npm install
-npm run dev       # prints a localhost URL, usually :5173
-npx tsc --noEmit  # typecheck
+npm run dev        # Vite dev server
+npx tsc --noEmit   # typecheck — must be clean
+npm run build      # must pass before pushing; a push deploys to the live site
 ```
+
+## Suggested next moves
+
+1. Add the `/franchises/:id` detail route — the one obviously broken link in the app.
+2. Start the records backlog (SITEMAP §6): single-game / weekly / season records, All-Pro team, trophy cabinets. Most of these need `boxscores.json`, `drafts.json` or `all_division.json` copied into `src/data/processed/` first — weigh the bundle cost on boxscores.
+3. Delete or repurpose the orphaned `StatTile.tsx`.

@@ -1,5 +1,9 @@
 {
-  "description": "This interactive dashboard visualizes data insights for data science enthusiasts, offering a user-friendly experience tailored for both desktop and mobile users.",
+  "title": "Last Minute Football League",
+  "description": "All-time standings, records, and lore for the Last Minute Football League — thirteen seasons, fifteen franchises, twenty-three managers.",
+  "icons": {
+    "icon": "favicon.svg"
+  },
   "robots": {
     "index": false
   },

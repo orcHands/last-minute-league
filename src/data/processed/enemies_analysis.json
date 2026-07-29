@@ -138,7 +138,7 @@
   "single_best_game": {
    "defense": "Chiefs",
    "pts": 57.5,
-   "started_by": "Dave Lang",
+   "started_by": "Lang",
    "season": 2013,
    "week": 14
   }
@@ -194,7 +194,7 @@
     "WR": {
      "pts": 50.1,
      "player": "Josh Gordon",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2013,
      "week": 13
     },
@@ -215,7 +215,7 @@
     "DEF": {
      "pts": 45.6,
      "player": "Bengals - DEF",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 11
     }
@@ -271,7 +271,7 @@
     "WR": {
      "pts": 51.0,
      "player": "Julio Jones",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2016,
      "week": 4
     },
@@ -285,14 +285,14 @@
     "K": {
      "pts": 20.0,
      "player": "Adam Vinatieri",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 13
     },
     "DEF": {
      "pts": 33.5,
      "player": "Bengals - DEF",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 16
     }
@@ -439,21 +439,21 @@
     "K": {
      "pts": 14.0,
      "player": "Nick Novak",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2013,
      "week": 14
     },
     "DEF": {
      "pts": 57.5,
      "player": "Chiefs - DEF",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2013,
      "week": 14
     }
    }
   },
-  "Dave Lang": {
-   "franchise": "Dave Lang",
+  "Lang": {
+   "franchise": "Lang",
    "top_enemies": [
     {
      "opponent": "Kyle",
@@ -470,7 +470,7 @@
      "their_record_vs_you": "2-2"
     },
     {
-     "opponent": "Dylan Snyder",
+     "opponent": "Dylan",
      "pts_against": 413.4,
      "games": 3,
      "avg": 137.8,
@@ -488,7 +488,7 @@
     "QB": {
      "pts": 41.04,
      "player": "Drew Brees",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 17
     },
@@ -523,14 +523,14 @@
     "DEF": {
      "pts": 33.33,
      "player": "Bengals - DEF",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 17
     }
    }
   },
-  "Dylan Snyder": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+  "Dylan": {
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_enemies": [
     {
      "opponent": "Jay",
@@ -810,7 +810,7 @@
     "WR": {
      "pts": 52.8,
      "player": "Julio Jones",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2017,
      "week": 12
     },
@@ -1068,8 +1068,8 @@
     }
    }
   },
-  "David Laskey": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+  "Laskey": {
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_enemies": [
     {
      "opponent": "Tommy",
@@ -1111,7 +1111,7 @@
     "RB": {
      "pts": 31.8,
      "player": "Jamaal Charles",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2014,
      "week": 4
     },
@@ -1125,7 +1125,7 @@
     "TE": {
      "pts": 30.4,
      "player": "Larry Donnell",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2014,
      "week": 4
     },
@@ -1223,7 +1223,7 @@
    }
   },
   "Sara": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_enemies": [
     {
      "opponent": "Tommy",
@@ -1300,7 +1300,7 @@
    }
   },
   "Jason": {
-   "franchise": "David Laskey \u2192 Sara \u2192 Jason",
+   "franchise": "Laskey \u2192 Sara \u2192 Jason",
    "top_enemies": [
     {
      "opponent": "Zac",
@@ -1454,7 +1454,7 @@
    }
   },
   "becca": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_enemies": [
     {
      "opponent": "whitaker",
@@ -1762,7 +1762,7 @@
    }
   },
   "Megan": {
-   "franchise": "Dylan Snyder \u2192 becca \u2192 Megan",
+   "franchise": "Dylan \u2192 becca \u2192 Megan",
    "top_enemies": [
     {
      "opponent": "Ryan",
@@ -1966,7 +1966,7 @@
     "WR": {
      "pts": 50.1,
      "player": "Josh Gordon",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2013,
      "week": 13
     },
@@ -1987,7 +1987,7 @@
     "DEF": {
      "pts": 45.6,
      "player": "Bengals - DEF",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 11
     }
@@ -2042,7 +2042,7 @@
     "WR": {
      "pts": 51.0,
      "player": "Julio Jones",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2016,
      "week": 4
     },
@@ -2056,14 +2056,14 @@
     "K": {
      "pts": 20.0,
      "player": "Adam Vinatieri",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 13
     },
     "DEF": {
      "pts": 33.5,
      "player": "Bengals - DEF",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 16
     }
@@ -2086,7 +2086,7 @@
      "their_record_vs_you": null
     },
     {
-     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "opponent": "Laskey \u2192 Sara \u2192 Jason",
      "pts_against": 2180.9,
      "games": 19,
      "avg": 114.8,
@@ -2148,7 +2148,7 @@
   "whitaker": {
    "top_enemies": [
     {
-     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "opponent": "Dylan \u2192 becca \u2192 Megan",
      "pts_against": 2643.2,
      "games": 25,
      "avg": 105.7,
@@ -2169,7 +2169,7 @@
      "their_record_vs_you": null
     },
     {
-     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "opponent": "Laskey \u2192 Sara \u2192 Jason",
      "pts_against": 2243.8,
      "games": 18,
      "avg": 124.7,
@@ -2208,20 +2208,20 @@
     "K": {
      "pts": 14.0,
      "player": "Nick Novak",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2013,
      "week": 14
     },
     "DEF": {
      "pts": 57.5,
      "player": "Chiefs - DEF",
-     "by": "Dave Lang",
+     "by": "Lang",
      "season": 2013,
      "week": 14
     }
    }
   },
-  "Dave Lang": {
+  "Lang": {
    "top_enemies": [
     {
      "opponent": "Kyle",
@@ -2238,7 +2238,7 @@
      "their_record_vs_you": null
     },
     {
-     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "opponent": "Dylan \u2192 becca \u2192 Megan",
      "pts_against": 413.4,
      "games": 3,
      "avg": 137.8,
@@ -2256,7 +2256,7 @@
     "QB": {
      "pts": 41.04,
      "player": "Drew Brees",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 17
     },
@@ -2291,13 +2291,13 @@
     "DEF": {
      "pts": 33.33,
      "player": "Bengals - DEF",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2013,
      "week": 17
     }
    }
   },
-  "Dylan Snyder \u2192 becca \u2192 Megan": {
+  "Dylan \u2192 becca \u2192 Megan": {
    "top_enemies": [
     {
      "opponent": "whitaker",
@@ -2542,7 +2542,7 @@
      "their_record_vs_you": null
     },
     {
-     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "opponent": "Dylan \u2192 becca \u2192 Megan",
      "pts_against": 2178.2,
      "games": 21,
      "avg": 103.7,
@@ -2574,7 +2574,7 @@
     "WR": {
      "pts": 52.8,
      "player": "Julio Jones",
-     "by": "Dylan Snyder",
+     "by": "Dylan",
      "season": 2017,
      "week": 12
     },
@@ -2625,7 +2625,7 @@
      "their_record_vs_you": null
     },
     {
-     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "opponent": "Laskey \u2192 Sara \u2192 Jason",
      "pts_against": 1975.8,
      "games": 17,
      "avg": 116.2,
@@ -2756,14 +2756,14 @@
   "Tommy": {
    "top_enemies": [
     {
-     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "opponent": "Laskey \u2192 Sara \u2192 Jason",
      "pts_against": 2746.6,
      "games": 23,
      "avg": 119.4,
      "their_record_vs_you": null
     },
     {
-     "opponent": "Dylan Snyder \u2192 becca \u2192 Megan",
+     "opponent": "Dylan \u2192 becca \u2192 Megan",
      "pts_against": 2444.7,
      "games": 21,
      "avg": 116.4,
@@ -2829,7 +2829,7 @@
     }
    }
   },
-  "David Laskey \u2192 Sara \u2192 Jason": {
+  "Laskey \u2192 Sara \u2192 Jason": {
    "top_enemies": [
     {
      "opponent": "Tommy",
@@ -2998,7 +2998,7 @@
      "their_record_vs_you": null
     },
     {
-     "opponent": "David Laskey \u2192 Sara \u2192 Jason",
+     "opponent": "Laskey \u2192 Sara \u2192 Jason",
      "pts_against": 1733.3,
      "games": 16,
      "avg": 108.3,

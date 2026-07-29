@@ -30,7 +30,7 @@
     "rank": "7",
     "playoffs": true,
     "team": "AMERICA",
-    "manager": "Dylan Snyder",
+    "manager": "Dylan",
     "wlt": "2-6-0",
     "pf": 1112.22,
     "pa": 1194.38
@@ -39,7 +39,7 @@
     "rank": "8",
     "playoffs": true,
     "team": "Non-Dairy Caucasians",
-    "manager": "Dave Lang",
+    "manager": "Lang",
     "wlt": "6-2-0",
     "pf": 1278.71,
     "pa": 1136.64
@@ -101,10 +101,10 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 103.19,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 118.61
     },
     {
@@ -122,7 +122,7 @@
      "m1": "Brice",
      "s1": 134.65,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 134.05
     },
     {
@@ -138,7 +138,7 @@
      "m1": "Kyle",
      "s1": 132.66,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 165.74
     },
     {
@@ -164,7 +164,7 @@
      "m1": "whitaker",
      "s1": 150.54,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 144.51
     },
     {
@@ -180,7 +180,7 @@
      "m1": "Benedict",
      "s1": 134.11,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 143.08
     }
    ],
@@ -195,7 +195,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 169.38,
      "t2": "Lunar Giants Suck",
      "m2": "Jay",
@@ -206,7 +206,7 @@
      "m1": "Carter",
      "s1": 161.05,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 132.29
     },
     {
@@ -224,7 +224,7 @@
      "m1": "Brice",
      "s1": 133.21,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 141.37
     },
     {
@@ -237,7 +237,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 157.9,
      "t2": "THE MONKEYS",
      "m2": "Kyle",
@@ -271,10 +271,10 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 135.09,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 187.49
     },
     {
@@ -292,7 +292,7 @@
      "m1": "Brice",
      "s1": 197.53,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 140.11
     },
     {
@@ -308,7 +308,7 @@
      "m1": "Kyle",
      "s1": 166.72,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 164.37
     },
     {
@@ -334,12 +334,12 @@
      "m1": "whitaker",
      "s1": 170.61,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 225.76
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 127.99,
      "t2": "Tom Brady's Uggs",
      "m2": "Benedict",
@@ -368,7 +368,7 @@
      "m1": "whitaker",
      "s1": 127.95,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 117.52
     },
     {
@@ -384,7 +384,7 @@
      "m1": "Benedict",
      "s1": 180.01,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 152.93
     }
    ],
@@ -410,7 +410,7 @@
      "m1": "Brice",
      "s1": 156.88,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 126.59
     },
     {
@@ -418,7 +418,7 @@
      "m1": "Kyle",
      "s1": 122.07,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 113.58
     }
    ],
@@ -449,10 +449,10 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 175.07,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 137.11
     }
    ]
@@ -525,7 +525,7 @@
     "rank": "14",
     "playoffs": false,
     "team": "AMERICA",
-    "manager": "Dylan Snyder",
+    "manager": "Dylan",
     "wlt": "3-10-0",
     "pf": 1217.24,
     "pa": 1496.52
@@ -552,7 +552,7 @@
     "rank": "6",
     "playoffs": true,
     "team": "Non-Dairy Caucasians",
-    "manager": "Dave Lang",
+    "manager": "Lang",
     "wlt": "7-6-0",
     "pf": 1292.42,
     "pa": 1359.14
@@ -570,7 +570,7 @@
     "rank": "10",
     "playoffs": false,
     "team": "A Moderate Breakfast",
-    "manager": "David Laskey",
+    "manager": "Laskey",
     "wlt": "5-8-0",
     "pf": 1211.82,
     "pa": 1477.06
@@ -630,7 +630,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 129.32,
      "t2": "Uncle Grumbles",
      "m2": "Michael",
@@ -641,7 +641,7 @@
      "m1": "Tommy",
      "s1": 136.14,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 87.54
     },
     {
@@ -649,7 +649,7 @@
      "m1": "Kelly Brown",
      "s1": 61.2,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 72.38
     }
    ],
@@ -659,7 +659,7 @@
      "m1": "pb",
      "s1": 74.06,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 82.64
     },
     {
@@ -691,7 +691,7 @@
      "m1": "Ryan",
      "s1": 132.88,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 97.14
     },
     {
@@ -707,7 +707,7 @@
      "m1": "Michael",
      "s1": 119.58,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 58.76
     }
    ],
@@ -741,7 +741,7 @@
      "m1": "Ryan",
      "s1": 110.54,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 104.9
     },
     {
@@ -757,12 +757,12 @@
      "m1": "Benedict",
      "s1": 99.12,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 133.5
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 88.34,
      "t2": "Tommy's Turbos",
      "m2": "Tommy",
@@ -783,7 +783,7 @@
      "m1": "Brice",
      "s1": 112.26,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 127.52
     },
     {
@@ -820,10 +820,10 @@
     },
     {
      "t1": "Non-Dairy Caucasians",
-     "m1": "Dave Lang",
+     "m1": "Lang",
      "s1": 152.82,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 75.3
     }
    ],
@@ -849,7 +849,7 @@
      "m1": "Carter",
      "s1": 76.44,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 94.84
     },
     {
@@ -870,7 +870,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 76.54,
      "t2": "RemembertheTightEnds",
      "m2": "Kelly Brown",
@@ -881,7 +881,7 @@
      "m1": "Tommy",
      "s1": 129.04,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 96.58
     }
    ],
@@ -907,7 +907,7 @@
      "m1": "Carter",
      "s1": 117.76,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 81.52
     },
     {
@@ -923,7 +923,7 @@
      "m1": "whitaker",
      "s1": 132.84,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 71.54
     },
     {
@@ -939,7 +939,7 @@
      "m1": "Kyle",
      "s1": 94.34,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 93.02
     }
    ],
@@ -965,7 +965,7 @@
      "m1": "Jay",
      "s1": 104.82,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 81.22
     },
     {
@@ -989,7 +989,7 @@
      "m1": "Benedict",
      "s1": 156.92,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 115.72
     },
     {
@@ -997,7 +997,7 @@
      "m1": "Kyle",
      "s1": 92.58,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 53.5
     }
    ],
@@ -1015,7 +1015,7 @@
      "m1": "Brice",
      "s1": 100.36,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 95.02
     },
     {
@@ -1023,7 +1023,7 @@
      "m1": "Carter",
      "s1": 149.12,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 64.14
     },
     {
@@ -1031,7 +1031,7 @@
      "m1": "Ryan",
      "s1": 157.06,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 90.64
     },
     {
@@ -1081,7 +1081,7 @@
      "m1": "Carter",
      "s1": 124.52,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 115.96
     },
     {
@@ -1089,7 +1089,7 @@
      "m1": "Ryan",
      "s1": 133.56,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 84.06
     },
     {
@@ -1105,7 +1105,7 @@
      "m1": "Benedict",
      "s1": 98.06,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 107.38
     },
     {
@@ -1155,7 +1155,7 @@
      "m1": "Benedict",
      "s1": 112.58,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 126.34
     },
     {
@@ -1163,12 +1163,12 @@
      "m1": "Kyle",
      "s1": 93.28,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 116.7
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 93.86,
      "t2": "Uncle Grumbles",
      "m2": "Michael",
@@ -1213,12 +1213,12 @@
      "m1": "Kyle",
      "s1": 88.2,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 134.62
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 76.72,
      "t2": "RemembertheTightEnds",
      "m2": "Kelly Brown",
@@ -1229,7 +1229,7 @@
      "m1": "Tommy",
      "s1": 91.32,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 93.52
     }
    ],
@@ -1239,7 +1239,7 @@
      "m1": "pb",
      "s1": 133.5,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 94.02
     },
     {
@@ -1247,7 +1247,7 @@
      "m1": "Brice",
      "s1": 81.06,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 90.94
     },
     {
@@ -1287,7 +1287,7 @@
      "m1": "Tommy",
      "s1": 122.56,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 123.64
     }
    ],
@@ -1321,7 +1321,7 @@
      "m1": "Jay",
      "s1": 145.26,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 84.54
     },
     {
@@ -1342,10 +1342,10 @@
     },
     {
      "t1": "Non-Dairy Caucasians",
-     "m1": "Dave Lang",
+     "m1": "Lang",
      "s1": 85.64,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 69.1
     }
    ],
@@ -1363,7 +1363,7 @@
      "m1": "Ryan",
      "s1": 126.9,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 88.26
     },
     {
@@ -1379,7 +1379,7 @@
      "m1": "Tommy",
      "s1": 101.44,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 118.5
     }
    ],
@@ -1413,7 +1413,7 @@
      "m1": "Benedict",
      "s1": 116.52,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 104.06
     },
     {
@@ -1429,7 +1429,7 @@
      "m1": "Michael",
      "s1": 98.98,
      "t2": "Non-Dairy Caucasians",
-     "m2": "Dave Lang",
+     "m2": "Lang",
      "s2": 94.5
     }
    ],
@@ -1447,7 +1447,7 @@
      "m1": "pb",
      "s1": 85.18,
      "t2": "A Moderate Breakfast",
-     "m2": "David Laskey",
+     "m2": "Laskey",
      "s2": 83.38
     },
     {
@@ -1563,7 +1563,7 @@
     "rank": "9",
     "playoffs": false,
     "team": "AMERICA",
-    "manager": "Dylan Snyder",
+    "manager": "Dylan",
     "wlt": "4-9-0",
     "pf": 1178.82,
     "pa": 1520.44
@@ -1594,7 +1594,7 @@
      "m1": "pb",
      "s1": 142.84,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 107.72
     },
     {
@@ -1665,7 +1665,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 68.92,
      "t2": "Magnetron",
      "m2": "Jay",
@@ -1723,7 +1723,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 107.3,
      "t2": "Touchdown();",
      "m2": "whitaker",
@@ -1752,7 +1752,7 @@
      "m1": "Brice",
      "s1": 107.62,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 109.94
     },
     {
@@ -1815,7 +1815,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 87.46,
      "t2": "Benny Football",
      "m2": "Benedict",
@@ -1873,7 +1873,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 80.2,
      "t2": "Tommy's Turbos",
      "m2": "Tommy",
@@ -1915,7 +1915,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 75.74,
      "t2": "Dat VFL",
      "m2": "Sara",
@@ -1944,7 +1944,7 @@
      "m1": "pb",
      "s1": 173.96,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 71.08
     },
     {
@@ -2023,7 +2023,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 54.62,
      "t2": "The Fumblers",
      "m2": "Michael",
@@ -2073,7 +2073,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 86.98,
      "t2": "MORE LIKE BADELL",
      "m2": "Carter",
@@ -2115,7 +2115,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 116.48,
      "t2": "Magnetron",
      "m2": "Jay",
@@ -2173,7 +2173,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 125.28,
      "t2": "Touchdown();",
      "m2": "whitaker",
@@ -2223,7 +2223,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 87.1,
      "t2": "Tommy's Turbos",
      "m2": "Tommy",
@@ -2265,7 +2265,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 134.4,
      "t2": "Dat VFL",
      "m2": "Sara",
@@ -2302,7 +2302,7 @@
      "m1": "Ryan",
      "s1": 130.66,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 114.16
     },
     {
@@ -2341,7 +2341,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 75.34,
      "t2": "Touchdown();",
      "m2": "whitaker",
@@ -2443,7 +2443,7 @@
     "rank": "7",
     "playoffs": false,
     "team": "AMERICA",
-    "manager": "Dylan Snyder",
+    "manager": "Dylan",
     "wlt": "5-8-0",
     "pf": 1332.74,
     "pa": 1474.76
@@ -2496,7 +2496,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 120.18,
      "t2": "Monchhichis",
      "m2": "Kyle",
@@ -2546,7 +2546,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 94.52,
      "t2": "Magnetron",
      "m2": "Jay",
@@ -2583,7 +2583,7 @@
      "m1": "pb",
      "s1": 106.94,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 78.0
     },
     {
@@ -2641,7 +2641,7 @@
      "m1": "Brice",
      "s1": 150.3,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 117.74
     },
     {
@@ -2696,7 +2696,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 67.76,
      "t2": "Tannehill For Prison",
      "m2": "Carter",
@@ -2746,7 +2746,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 114.86,
      "t2": "Glaine Blabbert",
      "m2": "Ryan",
@@ -2796,7 +2796,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 96.74,
      "t2": "Touchdown();",
      "m2": "whitaker",
@@ -2846,7 +2846,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 81.28,
      "t2": "Monchhichis",
      "m2": "Kyle",
@@ -2896,7 +2896,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 97.86,
      "t2": "Tommy's Turbos",
      "m2": "Tommy",
@@ -2938,7 +2938,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 118.8,
      "t2": "The Fumblers",
      "m2": "Michael",
@@ -2996,7 +2996,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 117.0,
      "t2": "Magnetron",
      "m2": "Jay",
@@ -3033,7 +3033,7 @@
      "m1": "pb",
      "s1": 120.16,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 103.86
     },
     {
@@ -3096,7 +3096,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 124.14,
      "t2": "Glaine Blabbert",
      "m2": "Ryan",
@@ -3146,7 +3146,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 106.46,
      "t2": "Touchdown();",
      "m2": "whitaker",
@@ -3188,7 +3188,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 95.1,
      "t2": "Dat VFL",
      "m2": "Sara",
@@ -3225,7 +3225,7 @@
      "m1": "pb",
      "s1": 84.08,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 101.1
     },
     {
@@ -3368,7 +3368,7 @@
     "rank": "12",
     "playoffs": false,
     "team": "AMERICA",
-    "manager": "Dylan Snyder",
+    "manager": "Dylan",
     "wlt": "6-7-0",
     "pf": 1280.42,
     "pa": 1379.62
@@ -3403,7 +3403,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 111.08,
      "t2": "Garopalypse Now",
      "m2": "Jason",
@@ -3461,7 +3461,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 84.94,
      "t2": "Magnetron",
      "m2": "Jay",
@@ -3506,7 +3506,7 @@
      "m1": "pb",
      "s1": 81.32,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 131.98
     },
     {
@@ -3577,7 +3577,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 83.88,
      "t2": "The Fumblers",
      "m2": "Michael",
@@ -3635,7 +3635,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 62.92,
      "t2": "Fourth Downers",
      "m2": "whitaker",
@@ -3693,7 +3693,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 114.22,
      "t2": "Goffsides",
      "m2": "Zac",
@@ -3746,7 +3746,7 @@
      "m1": "Brice",
      "s1": 105.42,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 98.92
     },
     {
@@ -3809,7 +3809,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 66.88,
      "t2": "Goffsides",
      "m2": "Zac",
@@ -3867,7 +3867,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 125.84,
      "t2": "Bortles' Burgers",
      "m2": "Carter",
@@ -3925,7 +3925,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 112.12,
      "t2": "Garopalypse Now",
      "m2": "Jason",
@@ -3983,7 +3983,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 47.32,
      "t2": "Magnetron",
      "m2": "Jay",
@@ -4028,7 +4028,7 @@
      "m1": "pb",
      "s1": 80.38,
      "t2": "AMERICA",
-     "m2": "Dylan Snyder",
+     "m2": "Dylan",
      "s2": 145.16
     },
     {
@@ -4099,7 +4099,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 95.16,
      "t2": "The Fumblers",
      "m2": "Michael",
@@ -4165,7 +4165,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 96.06,
      "t2": "GaroppoGOAT",
      "m2": "Benedict",
@@ -4207,7 +4207,7 @@
     },
     {
      "t1": "AMERICA",
-     "m1": "Dylan Snyder",
+     "m1": "Dylan",
      "s1": 71.18,
      "t2": "Monchhichis",
      "m2": "Kyle",

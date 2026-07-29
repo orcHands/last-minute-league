@@ -220,7 +220,7 @@
 "week": 7,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 103.19,
 "series": [
@@ -245,7 +245,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 118.61,
 "series": [
@@ -361,7 +361,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 134.05,
 "series": [
@@ -483,7 +483,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 165.74,
 "series": [
@@ -666,7 +666,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 144.51,
 "series": [
@@ -788,7 +788,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 143.08,
 "series": [
@@ -879,7 +879,7 @@
 "week": 10,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 169.38,
 "series": [
@@ -965,7 +965,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 132.29,
 "series": [
@@ -1087,7 +1087,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 141.37,
 "series": [
@@ -1178,7 +1178,7 @@
 "week": 11,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 157.9,
 "series": [
@@ -1440,7 +1440,7 @@
 "week": 12,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 135.09,
 "series": [
@@ -1471,7 +1471,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 187.49,
 "series": [
@@ -1611,7 +1611,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 140.11,
 "series": [
@@ -1733,7 +1733,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 164.37,
 "series": [
@@ -1928,7 +1928,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 225.76,
 "series": [
@@ -1958,7 +1958,7 @@
 "week": 14,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 127.99,
 "series": [
@@ -2172,7 +2172,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 117.52,
 "series": [
@@ -2300,7 +2300,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 152.93,
 "series": [
@@ -2471,7 +2471,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 126.59,
 "series": [
@@ -2538,7 +2538,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 113.58,
 "series": [
@@ -2733,7 +2733,7 @@
 "week": 17,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 175.07,
 "series": [
@@ -2752,7 +2752,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 137.11,
 "series": [
@@ -3026,7 +3026,7 @@
 "week": 1,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 129.32,
 "series": [
@@ -3142,7 +3142,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 87.54,
 "series": [
@@ -3197,7 +3197,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 72.38,
 "series": [
@@ -3252,7 +3252,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 82.64,
 "series": [
@@ -3496,7 +3496,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 97.14,
 "series": [
@@ -3618,7 +3618,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 58.76,
 "series": [
@@ -3844,7 +3844,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 104.9,
 "series": [
@@ -3966,7 +3966,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 133.5,
 "series": [
@@ -3990,7 +3990,7 @@
 "week": 3,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 88.34,
 "series": [
@@ -4143,7 +4143,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 127.52,
 "series": [
@@ -4417,7 +4417,7 @@
 "week": 4,
 "complete": true,
 "A": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 152.82,
 "series": [
@@ -4448,7 +4448,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 75.3,
 "series": [
@@ -4637,7 +4637,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 94.84,
 "series": [
@@ -4765,7 +4765,7 @@
 "week": 5,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 76.54,
 "series": [
@@ -4851,7 +4851,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 96.58,
 "series": [
@@ -5022,7 +5022,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 81.52,
 "series": [
@@ -5144,7 +5144,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 71.54,
 "series": [
@@ -5272,7 +5272,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 93.02,
 "series": [
@@ -5461,7 +5461,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 81.22,
 "series": [
@@ -5638,7 +5638,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 115.72,
 "series": [
@@ -5693,7 +5693,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 53.5,
 "series": [
@@ -5821,7 +5821,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 95.02,
 "series": [
@@ -5870,7 +5870,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 64.14,
 "series": [
@@ -5925,7 +5925,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 90.64,
 "series": [
@@ -6291,7 +6291,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 115.96,
 "series": [
@@ -6352,7 +6352,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 84.06,
 "series": [
@@ -6468,7 +6468,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 107.38,
 "series": [
@@ -6822,7 +6822,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 126.34,
 "series": [
@@ -6883,7 +6883,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 116.7,
 "series": [
@@ -6913,7 +6913,7 @@
 "week": 10,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 93.86,
 "series": [
@@ -7243,7 +7243,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 134.62,
 "series": [
@@ -7279,7 +7279,7 @@
 "week": 11,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 76.72,
 "series": [
@@ -7353,7 +7353,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 93.52,
 "series": [
@@ -7414,7 +7414,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 94.02,
 "series": [
@@ -7475,7 +7475,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 90.94,
 "series": [
@@ -7786,7 +7786,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 123.64,
 "series": [
@@ -8024,7 +8024,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 84.54,
 "series": [
@@ -8182,7 +8182,7 @@
 "week": 13,
 "complete": true,
 "A": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 85.64,
 "series": [
@@ -8213,7 +8213,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 69.1,
 "series": [
@@ -8317,7 +8317,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 88.26,
 "series": [
@@ -8439,7 +8439,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 118.5,
 "series": [
@@ -8659,7 +8659,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 104.06,
 "series": [
@@ -8781,7 +8781,7 @@
 ]
 },
 "B": {
-"manager": "Dave Lang",
+"manager": "Lang",
 "team": "Non-Dairy Caucasians",
 "final": 94.5,
 "series": [
@@ -8891,7 +8891,7 @@
 ]
 },
 "B": {
-"manager": "David Laskey",
+"manager": "Laskey",
 "team": "A Moderate Breakfast",
 "final": 83.38,
 "series": [
@@ -9092,7 +9092,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 107.72,
 "series": [
@@ -9616,7 +9616,7 @@
 "week": 2,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 68.92,
 "series": [
@@ -10067,7 +10067,7 @@
 "week": 3,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 107.3,
 "series": [
@@ -10281,7 +10281,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 109.94,
 "series": [
@@ -10732,7 +10732,7 @@
 "week": 5,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 87.46,
 "series": [
@@ -11177,7 +11177,7 @@
 "week": 6,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 80.2,
 "series": [
@@ -11494,7 +11494,7 @@
 "week": 7,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 75.74,
 "series": [
@@ -11690,7 +11690,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 71.08,
 "series": [
@@ -12263,7 +12263,7 @@
 "week": 9,
 "complete": false,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 54.62,
 "series": [
@@ -12623,7 +12623,7 @@
 "week": 10,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 86.98,
 "series": [
@@ -12928,7 +12928,7 @@
 "week": 11,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 116.48,
 "series": [
@@ -13349,7 +13349,7 @@
 "week": 12,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 125.28,
 "series": [
@@ -13697,7 +13697,7 @@
 "week": 13,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 87.1,
 "series": [
@@ -14002,7 +14002,7 @@
 "week": 14,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 134.4,
 "series": [
@@ -14253,7 +14253,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 114.16,
 "series": [
@@ -14545,7 +14545,7 @@
 "week": 16,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 75.34,
 "series": [
@@ -14807,7 +14807,7 @@
 "week": 1,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 120.18,
 "series": [
@@ -15161,7 +15161,7 @@
 "week": 2,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 94.52,
 "series": [
@@ -15442,7 +15442,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 78.0,
 "series": [
@@ -15887,7 +15887,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 117.74,
 "series": [
@@ -16259,7 +16259,7 @@
 "week": 5,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 67.76,
 "series": [
@@ -16625,7 +16625,7 @@
 "week": 6,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 114.86,
 "series": [
@@ -16985,7 +16985,7 @@
 "week": 7,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 96.74,
 "series": [
@@ -17345,7 +17345,7 @@
 "week": 8,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 81.28,
 "series": [
@@ -17675,7 +17675,7 @@
 "week": 9,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 97.86,
 "series": [
@@ -18004,7 +18004,7 @@
 "week": 10,
 "complete": false,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 118.8,
 "series": [
@@ -18443,7 +18443,7 @@
 "week": 11,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 117.0,
 "series": [
@@ -18730,7 +18730,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 103.86,
 "series": [
@@ -19229,7 +19229,7 @@
 "week": 13,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 124.14,
 "series": [
@@ -19595,7 +19595,7 @@
 "week": 14,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 106.46,
 "series": [
@@ -19900,7 +19900,7 @@
 "week": 15,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 95.1,
 "series": [
@@ -20193,7 +20193,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 101.1,
 "series": [
@@ -20455,7 +20455,7 @@
 "week": 1,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 111.08,
 "series": [
@@ -20906,7 +20906,7 @@
 "week": 2,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 84.94,
 "series": [
@@ -21218,7 +21218,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 131.98,
 "series": [
@@ -21724,7 +21724,7 @@
 "week": 4,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 83.88,
 "series": [
@@ -22145,7 +22145,7 @@
 "week": 5,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 62.92,
 "series": [
@@ -22566,7 +22566,7 @@
 "week": 6,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 114.22,
 "series": [
@@ -22975,7 +22975,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 98.92,
 "series": [
@@ -23420,7 +23420,7 @@
 "week": 8,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 66.88,
 "series": [
@@ -23847,7 +23847,7 @@
 "week": 9,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 125.84,
 "series": [
@@ -24256,7 +24256,7 @@
 "week": 10,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 112.12,
 "series": [
@@ -24701,7 +24701,7 @@
 "week": 11,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 47.32,
 "series": [
@@ -25031,7 +25031,7 @@
 ]
 },
 "B": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 145.16,
 "series": [
@@ -25579,7 +25579,7 @@
 "week": 13,
 "complete": false,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 95.16,
 "series": [
@@ -26067,7 +26067,7 @@
 "week": 14,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 96.06,
 "series": [
@@ -26408,7 +26408,7 @@
 "week": 15,
 "complete": true,
 "A": {
-"manager": "Dylan Snyder",
+"manager": "Dylan",
 "team": "AMERICA",
 "final": 71.18,
 "series": [
@@ -71574,7 +71574,7 @@
 "season": 2017,
 "week": 7,
 "winner": "Brice",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 24.72,
 "final": "105.42-98.92",
 "mnf_pts_winner": 31.22
@@ -71645,7 +71645,7 @@
 {
 "season": 2014,
 "week": 9,
-"winner": "Dave Lang",
+"winner": "Lang",
 "loser": "Benedict",
 "deficit_before_MNF": 21.18,
 "final": "98.06-107.38",
@@ -71727,7 +71727,7 @@
 "season": 2013,
 "week": 16,
 "winner": "Kyle",
-"loser": "Dave Lang",
+"loser": "Lang",
 "deficit_before_MNF": 17.81,
 "final": "122.07-113.58",
 "mnf_pts_winner": 26.3
@@ -71735,7 +71735,7 @@
 {
 "season": 2015,
 "week": 4,
-"winner": "Dylan Snyder",
+"winner": "Dylan",
 "loser": "Brice",
 "deficit_before_MNF": 17.48,
 "final": "107.62-109.94",
@@ -71817,7 +71817,7 @@
 "season": 2015,
 "week": 3,
 "winner": "whitaker",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 14.5,
 "final": "107.3-128.72",
 "mnf_pts_winner": 35.92
@@ -71943,7 +71943,7 @@
 "season": 2014,
 "week": 7,
 "winner": "Benedict",
-"loser": "Dave Lang",
+"loser": "Lang",
 "deficit_before_MNF": 11.8,
 "final": "156.92-115.72",
 "mnf_pts_winner": 53.0
@@ -71970,7 +71970,7 @@
 "season": 2015,
 "week": 10,
 "winner": "Carter",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 10.86,
 "final": "86.98-100.02",
 "mnf_pts_winner": 23.9
@@ -71987,7 +71987,7 @@
 {
 "season": 2017,
 "week": 10,
-"winner": "Dylan Snyder",
+"winner": "Dylan",
 "loser": "Jason",
 "deficit_before_MNF": 10.22,
 "final": "112.12-106.72",
@@ -72060,7 +72060,7 @@
 "season": 2013,
 "week": 9,
 "winner": "whitaker",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 8.17,
 "final": "150.54-144.51",
 "mnf_pts_winner": 37.9
@@ -72105,7 +72105,7 @@
 "season": 2013,
 "week": 16,
 "winner": "Brice",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 6.71,
 "final": "156.88-126.59",
 "mnf_pts_winner": 56.2
@@ -72149,7 +72149,7 @@
 {
 "season": 2014,
 "week": 12,
-"winner": "Dave Lang",
+"winner": "Lang",
 "loser": "Brice",
 "deficit_before_MNF": 5.92,
 "final": "81.06-90.94",
@@ -72168,7 +72168,7 @@
 "season": 2014,
 "week": 8,
 "winner": "Brice",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 5.66,
 "final": "100.36-95.02",
 "mnf_pts_winner": 11.0
@@ -72176,7 +72176,7 @@
 {
 "season": 2014,
 "week": 10,
-"winner": "David Laskey",
+"winner": "Laskey",
 "loser": "Benedict",
 "deficit_before_MNF": 5.64,
 "final": "112.58-126.34",
@@ -72311,7 +72311,7 @@
 {
 "season": 2014,
 "week": 4,
-"winner": "Dylan Snyder",
+"winner": "Dylan",
 "loser": "Brice",
 "deficit_before_MNF": 3.68,
 "final": "112.26-127.52",
@@ -72429,7 +72429,7 @@
 "season": 2016,
 "week": 12,
 "winner": "pb",
-"loser": "Dylan Snyder",
+"loser": "Dylan",
 "deficit_before_MNF": 2.16,
 "final": "120.16-103.86",
 "mnf_pts_winner": 18.46

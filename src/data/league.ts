@@ -10,7 +10,7 @@ export type { GateTimelinePoint, MondayNightMiracle } from './build/mnm'
 export type { PhaseEntry, BenchRegretEntry, NemesisEntry, FandomEntry } from './build/boards'
 export type { StandingRow } from './build/leagueStats'
 export type { H2HRecord } from './build/headToHead'
-export type { FranchisePowerSeries, PowerRankPoint, PowerRankWeekLabel, PowerRankingRow } from './build/powerRankings'
+export type { FranchisePowerSeries, PowerRankPoint, PowerRankWeekLabel, PowerRankingRow, ManagerSegment } from './build/powerRankings'
 export type { ManagerSkillPoint, ManagerSkillMatrix } from './build/managerSkillMatrix'
 
 export interface LeaderboardEntry {
