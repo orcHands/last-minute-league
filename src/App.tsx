@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Nav from './components/Nav'
 import Landing from './pages/Landing'
 import Seasons from './pages/Seasons'
+import SeasonDetailPage from './pages/SeasonDetailPage'
 import Franchises from './pages/Franchises'
 import Players from './pages/Players'
 import Records from './pages/Records'
@@ -16,6 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/seasons" element={<Seasons />} />
+            <Route path="/seasons/:year" element={<SeasonDetailPage />} />
             <Route path="/franchises" element={<Franchises />} />
             <Route path="/players" element={<Players />} />
             <Route path="/records" element={<Records />} />

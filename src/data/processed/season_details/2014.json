@@ -1,0 +1,1824 @@
+{
+  "year": 2014,
+  "standings": [
+    {
+      "rank": 1,
+      "team": "Magnetron",
+      "manager": "Jay",
+      "playoffs": true,
+      "wlt": "7-6-0",
+      "division_wlt": "7-4-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1520.26,
+      "pf_avg": 116.94,
+      "pa_total": 1508.48,
+      "pa_avg": 116.04,
+      "regret_total": 212.46,
+      "regret_avg": 13.28
+    },
+    {
+      "rank": 2,
+      "team": "HE ATE ME",
+      "manager": "Carter",
+      "playoffs": true,
+      "wlt": "10-3-0",
+      "division_wlt": "9-2-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1593.62,
+      "pf_avg": 122.59,
+      "pa_total": 1331.64,
+      "pa_avg": 102.43,
+      "regret_total": 260.62,
+      "regret_avg": 17.37
+    },
+    {
+      "rank": 3,
+      "team": "Touchdown();",
+      "manager": "whitaker",
+      "playoffs": true,
+      "wlt": "10-3-0",
+      "division_wlt": "9-2-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1593.8,
+      "pf_avg": 122.6,
+      "pa_total": 1330.94,
+      "pa_avg": 102.38,
+      "regret_total": 128.9,
+      "regret_avg": 8.59
+    },
+    {
+      "rank": 4,
+      "team": "Henne's Epic Stache",
+      "manager": "Ryan",
+      "playoffs": true,
+      "wlt": "9-4-0",
+      "division_wlt": "8-3-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1568.64,
+      "pf_avg": 120.66,
+      "pa_total": 1366.3,
+      "pa_avg": 105.1,
+      "regret_total": 281.2,
+      "regret_avg": 17.58
+    },
+    {
+      "rank": 5,
+      "team": "Uncle Grumbles",
+      "manager": "Michael",
+      "playoffs": true,
+      "wlt": "8-5-0",
+      "division_wlt": "6-5-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1612.42,
+      "pf_avg": 124.03,
+      "pa_total": 1447.38,
+      "pa_avg": 111.34,
+      "regret_total": 149.92,
+      "regret_avg": 9.99
+    },
+    {
+      "rank": 6,
+      "team": "Non-Dairy Caucasians",
+      "manager": "Lang",
+      "playoffs": true,
+      "wlt": "7-6-0",
+      "division_wlt": "6-5-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1292.42,
+      "pf_avg": 99.42,
+      "pa_total": 1359.14,
+      "pa_avg": 104.55,
+      "regret_total": 275.08,
+      "regret_avg": 18.34
+    },
+    {
+      "rank": 7,
+      "team": "Benny Football",
+      "manager": "Benedict",
+      "playoffs": false,
+      "wlt": "6-7-0",
+      "division_wlt": "5-6-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1611.82,
+      "pf_avg": 123.99,
+      "pa_total": 1491.32,
+      "pa_avg": 114.72,
+      "regret_total": 161.62,
+      "regret_avg": 10.77
+    },
+    {
+      "rank": 8,
+      "team": "Kedrek Knightssss",
+      "manager": "Brice",
+      "playoffs": false,
+      "wlt": "6-6-1",
+      "division_wlt": "5-5-1",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1484.1,
+      "pf_avg": 114.16,
+      "pa_total": 1461.28,
+      "pa_avg": 112.41,
+      "regret_total": 264.44,
+      "regret_avg": 17.63
+    },
+    {
+      "rank": 9,
+      "team": "(ノಠ益ಠ)ノ彡┻━┻",
+      "manager": "pb",
+      "playoffs": false,
+      "wlt": "5-7-1",
+      "division_wlt": "4-7-1",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1347.22,
+      "pf_avg": 103.63,
+      "pa_total": 1456.66,
+      "pa_avg": 112.05,
+      "regret_total": 345.8,
+      "regret_avg": 21.61
+    },
+    {
+      "rank": 10,
+      "team": "A Moderate Breakfast",
+      "manager": "Laskey",
+      "playoffs": false,
+      "wlt": "5-8-0",
+      "division_wlt": "4-8-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1211.82,
+      "pf_avg": 93.22,
+      "pa_total": 1477.06,
+      "pa_avg": 113.62,
+      "regret_total": 166.7,
+      "regret_avg": 10.42
+    },
+    {
+      "rank": 11,
+      "team": "Tommy's Turbos",
+      "manager": "Tommy",
+      "playoffs": false,
+      "wlt": "6-7-0",
+      "division_wlt": "5-6-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1395.48,
+      "pf_avg": 107.34,
+      "pa_total": 1442.9,
+      "pa_avg": 110.99,
+      "regret_total": 280.46,
+      "regret_avg": 18.7
+    },
+    {
+      "rank": 12,
+      "team": "RemembertheTightEnds",
+      "manager": "Kelly Brown",
+      "playoffs": false,
+      "wlt": "5-8-0",
+      "division_wlt": "5-6-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1380.46,
+      "pf_avg": 106.19,
+      "pa_total": 1495.44,
+      "pa_avg": 115.03,
+      "regret_total": 183.84,
+      "regret_avg": 12.26
+    },
+    {
+      "rank": 13,
+      "team": "🐒🐒🍌",
+      "manager": "Kyle",
+      "playoffs": false,
+      "wlt": "3-10-0",
+      "division_wlt": "2-9-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1370.96,
+      "pf_avg": 105.46,
+      "pa_total": 1535.2,
+      "pa_avg": 118.09,
+      "regret_total": 109.34,
+      "regret_avg": 8.41
+    },
+    {
+      "rank": 14,
+      "team": "AMERICA",
+      "manager": "Dylan",
+      "playoffs": false,
+      "wlt": "3-10-0",
+      "division_wlt": "2-9-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1217.24,
+      "pf_avg": 93.63,
+      "pa_total": 1496.52,
+      "pa_avg": 115.12,
+      "regret_total": 204.88,
+      "regret_avg": 15.76
+    }
+  ],
+  "divisions": {
+    "O'Conner Memorial Division": [
+      {
+        "rank": 1,
+        "team": "Magnetron",
+        "manager": "Jay",
+        "playoffs": true,
+        "wlt": "7-6-0",
+        "division_wlt": "7-4-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1520.26,
+        "pf_avg": 116.94,
+        "pa_total": 1508.48,
+        "pa_avg": 116.04,
+        "regret_total": 212.46,
+        "regret_avg": 13.28
+      },
+      {
+        "rank": 3,
+        "team": "Touchdown();",
+        "manager": "whitaker",
+        "playoffs": true,
+        "wlt": "10-3-0",
+        "division_wlt": "9-2-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1593.8,
+        "pf_avg": 122.6,
+        "pa_total": 1330.94,
+        "pa_avg": 102.38,
+        "regret_total": 128.9,
+        "regret_avg": 8.59
+      },
+      {
+        "rank": 5,
+        "team": "Uncle Grumbles",
+        "manager": "Michael",
+        "playoffs": true,
+        "wlt": "8-5-0",
+        "division_wlt": "6-5-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1612.42,
+        "pf_avg": 124.03,
+        "pa_total": 1447.38,
+        "pa_avg": 111.34,
+        "regret_total": 149.92,
+        "regret_avg": 9.99
+      },
+      {
+        "rank": 8,
+        "team": "Kedrek Knightssss",
+        "manager": "Brice",
+        "playoffs": false,
+        "wlt": "6-6-1",
+        "division_wlt": "5-5-1",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1484.1,
+        "pf_avg": 114.16,
+        "pa_total": 1461.28,
+        "pa_avg": 112.41,
+        "regret_total": 264.44,
+        "regret_avg": 17.63
+      },
+      {
+        "rank": 9,
+        "team": "(ノಠ益ಠ)ノ彡┻━┻",
+        "manager": "pb",
+        "playoffs": false,
+        "wlt": "5-7-1",
+        "division_wlt": "4-7-1",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1347.22,
+        "pf_avg": 103.63,
+        "pa_total": 1456.66,
+        "pa_avg": 112.05,
+        "regret_total": 345.8,
+        "regret_avg": 21.61
+      },
+      {
+        "rank": 12,
+        "team": "RemembertheTightEnds",
+        "manager": "Kelly Brown",
+        "playoffs": false,
+        "wlt": "5-8-0",
+        "division_wlt": "5-6-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1380.46,
+        "pf_avg": 106.19,
+        "pa_total": 1495.44,
+        "pa_avg": 115.03,
+        "regret_total": 183.84,
+        "regret_avg": 12.26
+      },
+      {
+        "rank": 14,
+        "team": "AMERICA",
+        "manager": "Dylan",
+        "playoffs": false,
+        "wlt": "3-10-0",
+        "division_wlt": "2-9-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1217.24,
+        "pf_avg": 93.63,
+        "pa_total": 1496.52,
+        "pa_avg": 115.12,
+        "regret_total": 204.88,
+        "regret_avg": 15.76
+      }
+    ],
+    "Toretto Family Division": [
+      {
+        "rank": 2,
+        "team": "HE ATE ME",
+        "manager": "Carter",
+        "playoffs": true,
+        "wlt": "10-3-0",
+        "division_wlt": "9-2-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1593.62,
+        "pf_avg": 122.59,
+        "pa_total": 1331.64,
+        "pa_avg": 102.43,
+        "regret_total": 260.62,
+        "regret_avg": 17.37
+      },
+      {
+        "rank": 4,
+        "team": "Henne's Epic Stache",
+        "manager": "Ryan",
+        "playoffs": true,
+        "wlt": "9-4-0",
+        "division_wlt": "8-3-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1568.64,
+        "pf_avg": 120.66,
+        "pa_total": 1366.3,
+        "pa_avg": 105.1,
+        "regret_total": 281.2,
+        "regret_avg": 17.58
+      },
+      {
+        "rank": 6,
+        "team": "Non-Dairy Caucasians",
+        "manager": "Lang",
+        "playoffs": true,
+        "wlt": "7-6-0",
+        "division_wlt": "6-5-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1292.42,
+        "pf_avg": 99.42,
+        "pa_total": 1359.14,
+        "pa_avg": 104.55,
+        "regret_total": 275.08,
+        "regret_avg": 18.34
+      },
+      {
+        "rank": 7,
+        "team": "Benny Football",
+        "manager": "Benedict",
+        "playoffs": false,
+        "wlt": "6-7-0",
+        "division_wlt": "5-6-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1611.82,
+        "pf_avg": 123.99,
+        "pa_total": 1491.32,
+        "pa_avg": 114.72,
+        "regret_total": 161.62,
+        "regret_avg": 10.77
+      },
+      {
+        "rank": 10,
+        "team": "A Moderate Breakfast",
+        "manager": "Laskey",
+        "playoffs": false,
+        "wlt": "5-8-0",
+        "division_wlt": "4-8-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1211.82,
+        "pf_avg": 93.22,
+        "pa_total": 1477.06,
+        "pa_avg": 113.62,
+        "regret_total": 166.7,
+        "regret_avg": 10.42
+      },
+      {
+        "rank": 11,
+        "team": "Tommy's Turbos",
+        "manager": "Tommy",
+        "playoffs": false,
+        "wlt": "6-7-0",
+        "division_wlt": "5-6-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1395.48,
+        "pf_avg": 107.34,
+        "pa_total": 1442.9,
+        "pa_avg": 110.99,
+        "regret_total": 280.46,
+        "regret_avg": 18.7
+      },
+      {
+        "rank": 13,
+        "team": "🐒🐒🍌",
+        "manager": "Kyle",
+        "playoffs": false,
+        "wlt": "3-10-0",
+        "division_wlt": "2-9-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1370.96,
+        "pf_avg": 105.46,
+        "pa_total": 1535.2,
+        "pa_avg": 118.09,
+        "regret_total": 109.34,
+        "regret_avg": 8.41
+      }
+    ]
+  },
+  "bowl_mvps": {
+    "Teremana Tequila Bowl": {
+      "season": 2014,
+      "bowl": "Teremana Tequila Bowl",
+      "bowl_label": "Teremana Tequila Bowl (Championship)",
+      "week": 16,
+      "winner_manager": "Jay",
+      "winner_team": "Magnetron",
+      "loser_manager": "Carter",
+      "loser_team": "HE ATE ME",
+      "final_score": "121.04-98.52",
+      "mvp": {
+        "player": "C.J. Anderson",
+        "position": "RB",
+        "points": 27.8,
+        "manager": "Jay",
+        "team": "Magnetron",
+        "side": "winning team",
+        "season_avg": 22.18,
+        "delta_vs_avg": 5.62,
+        "type": "standard"
+      }
+    },
+    "Kumho Tires Tokyo Drift Bowl": {
+      "season": 2014,
+      "bowl": "Kumho Tires Tokyo Drift Bowl",
+      "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+      "week": 16,
+      "winner_manager": "whitaker",
+      "winner_team": "Touchdown();",
+      "loser_manager": "Ryan",
+      "loser_team": "Henne's Epic Stache",
+      "final_score": "119.44-88.84",
+      "mvp": {
+        "player": "Ryan Tannehill",
+        "position": "QB",
+        "points": 32.84,
+        "manager": "whitaker",
+        "team": "Touchdown();",
+        "side": "winning team",
+        "season_avg": 11.28,
+        "delta_vs_avg": 21.56,
+        "type": "standard"
+      }
+    },
+    "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+      "season": 2014,
+      "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+      "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+      "week": 16,
+      "winner_manager": "Benedict",
+      "winner_team": "Benny Football",
+      "loser_manager": "Brice",
+      "loser_team": "Kedrek Knightssss",
+      "final_score": "167.36-137.08",
+      "mvp": {
+        "player": "Russell Wilson",
+        "position": "QB",
+        "points": 39.36,
+        "manager": "Benedict",
+        "team": "Benny Football",
+        "side": "winning team",
+        "season_avg": 20.67,
+        "delta_vs_avg": 18.69,
+        "type": "standard"
+      }
+    },
+    "Voltron Global Bowl Hosted by Tyrese Gibson": {
+      "season": 2014,
+      "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+      "bowl_label": "Voltron Global Bowl (9th place)",
+      "week": 16,
+      "winner_manager": "pb",
+      "winner_team": "(ノಠ益ಠ)ノ彡┻━┻",
+      "loser_manager": "Laskey",
+      "loser_team": "A Moderate Breakfast",
+      "final_score": "85.18-83.38",
+      "mvp": {
+        "player": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 35.8,
+        "manager": "pb",
+        "team": "(ノಠ益ಠ)ノ彡┻━┻",
+        "side": "winning team",
+        "season_avg": 28.7,
+        "delta_vs_avg": 7.1,
+        "type": "standard"
+      }
+    }
+  },
+  "champions_bracket": {
+    "active_teams": [
+      "Magnetron",
+      "HE ATE ME",
+      "Touchdown();",
+      "Henne's Epic Stache",
+      "Uncle Grumbles",
+      "Non-Dairy Caucasians"
+    ],
+    "inactive_teams": [],
+    "rounds": [
+      {
+        "week": 14,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 14,
+            "t1": "Magnetron",
+            "m1": "Jay",
+            "s1": 154.42,
+            "rank1": 1,
+            "t2": "Uncle Grumbles",
+            "m2": "Michael",
+            "s2": 122.46,
+            "rank2": 5,
+            "venue_info": {},
+            "venue": "FedEx Field",
+            "city": "Landover",
+            "state": "MD",
+            "attendance": 65050,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2014-12-08"
+          },
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 14,
+            "t1": "Henne's Epic Stache",
+            "m1": "Ryan",
+            "s1": 126.9,
+            "rank1": 4,
+            "t2": "Non-Dairy Caucasians",
+            "m2": "Lang",
+            "s2": 88.26,
+            "rank2": 6,
+            "venue_info": {},
+            "venue": "Levi's Stadium",
+            "city": "Santa Clara",
+            "state": "CA",
+            "attendance": 65300,
+            "indoor": false,
+            "weather": {
+              "low": 51,
+              "cond": "Mostly Cloudy",
+              "emoji": "☁️"
+            },
+            "game_date": "2014-12-08"
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Touchdown();",
+            "manager": "whitaker",
+            "rank": 3
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "HE ATE ME",
+            "manager": "Carter",
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "week": 15,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "HE ATE ME",
+            "m1": "Carter",
+            "s1": 97.0,
+            "rank1": 2,
+            "t2": "Henne's Epic Stache",
+            "m2": "Ryan",
+            "s2": 93.8,
+            "rank2": 4,
+            "venue_info": {},
+            "venue": "Jones AT&T Stadium",
+            "city": "Lubbock",
+            "state": "TX",
+            "attendance": 57750,
+            "indoor": false,
+            "weather": {
+              "low": 27,
+              "cond": "Fair",
+              "emoji": "☀️"
+            },
+            "game_date": "2014-12-15"
+          },
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "Magnetron",
+            "m1": "Jay",
+            "s1": 107.22,
+            "rank1": 1,
+            "t2": "Touchdown();",
+            "m2": "whitaker",
+            "s2": 104.46,
+            "rank2": 3,
+            "venue_info": {},
+            "venue": "FedEx Field",
+            "city": "Landover",
+            "state": "MD",
+            "attendance": 66200,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2014-12-15"
+          },
+          {
+            "kind": "game",
+            "label": "5th Place Game",
+            "terminal": true,
+            "week": 15,
+            "t1": "Uncle Grumbles",
+            "m1": "Michael",
+            "s1": 98.98,
+            "rank1": 5,
+            "t2": "Non-Dairy Caucasians",
+            "m2": "Lang",
+            "s2": 94.5,
+            "rank2": 6,
+            "venue_info": {},
+            "venue": "Cotton Bowl",
+            "city": "Dallas",
+            "state": "TX",
+            "attendance": 87200,
+            "indoor": false,
+            "weather": {
+              "low": 40,
+              "cond": "Windy",
+              "emoji": "💨"
+            },
+            "game_date": "2014-12-15"
+          }
+        ]
+      },
+      {
+        "week": 16,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Teremana Tequila Bowl",
+            "terminal": true,
+            "week": 16,
+            "t1": "HE ATE ME",
+            "m1": "Carter",
+            "s1": 98.52,
+            "rank1": 2,
+            "t2": "Magnetron",
+            "m2": "Jay",
+            "s2": 121.04,
+            "rank2": 1,
+            "venue_info": {
+              "title": "Teremana Tequila Bowl",
+              "venue": "Cotton Bowl",
+              "city": "Dallas",
+              "state": "Texas",
+              "attendance": 58720
+            },
+            "venue": "Cotton Bowl",
+            "city": "Dallas",
+            "state": "Texas",
+            "attendance": 58720,
+            "weather": null,
+            "indoor": false
+          },
+          {
+            "kind": "game",
+            "label": "Kumho Tires Tokyo Drift Bowl",
+            "terminal": true,
+            "week": 16,
+            "t1": "Henne's Epic Stache",
+            "m1": "Ryan",
+            "s1": 88.84,
+            "rank1": 4,
+            "t2": "Touchdown();",
+            "m2": "whitaker",
+            "s2": 119.44,
+            "rank2": 3,
+            "venue_info": {
+              "title": "Kumho Tires Tokyo Drift Bowl",
+              "venue": "Tokyo Dome",
+              "city": "Tokyo",
+              "state": "Japan",
+              "attendance": 46105
+            },
+            "venue": "Tokyo Dome",
+            "city": "Tokyo",
+            "state": "Japan",
+            "attendance": 46105,
+            "weather": null,
+            "indoor": false
+          }
+        ]
+      }
+    ]
+  },
+  "consolation_bracket": {
+    "active_teams": [
+      "Benny Football",
+      "Kedrek Knightssss",
+      "(ノಠ益ಠ)ノ彡┻━┻",
+      "A Moderate Breakfast",
+      "Tommy's Turbos",
+      "RemembertheTightEnds"
+    ],
+    "inactive_teams": [
+      "🐒🐒🍌",
+      "AMERICA"
+    ],
+    "rounds": [
+      {
+        "week": 14,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 14,
+            "t1": "(ノಠ益ಠ)ノ彡┻━┻",
+            "m1": "pb",
+            "s1": 134.3,
+            "rank1": 9,
+            "t2": "RemembertheTightEnds",
+            "m2": "Kelly Brown",
+            "s2": 127.24,
+            "rank2": 12,
+            "venue_info": {},
+            "venue": "Sam Boyd Stadium",
+            "city": "Las Vegas",
+            "state": "NV",
+            "attendance": 33300,
+            "indoor": false,
+            "weather": {
+              "low": 46,
+              "cond": "Cloudy",
+              "emoji": "☁️"
+            },
+            "game_date": "2014-12-08"
+          },
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 14,
+            "t1": "Tommy's Turbos",
+            "m1": "Tommy",
+            "s1": 101.44,
+            "rank1": 11,
+            "t2": "A Moderate Breakfast",
+            "m2": "Laskey",
+            "s2": 118.5,
+            "rank2": 10,
+            "venue_info": {},
+            "venue": "Tottenham Hotspur Stadium",
+            "city": "London",
+            "state": "UK",
+            "attendance": 59050,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2014-12-08"
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Benny Football",
+            "manager": "Benedict",
+            "rank": 7
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Kedrek Knightssss",
+            "manager": "Brice",
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "week": 15,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "(ノಠ益ಠ)ノ彡┻━┻",
+            "m1": "pb",
+            "s1": 90.4,
+            "rank1": 9,
+            "t2": "Kedrek Knightssss",
+            "m2": "Brice",
+            "s2": 105.68,
+            "rank2": 8,
+            "venue_info": {},
+            "venue": "Hard Rock Stadium",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 64250,
+            "indoor": false,
+            "weather": {
+              "low": 58,
+              "cond": "Partly Cloudy",
+              "emoji": "⛅"
+            },
+            "game_date": "2014-12-15"
+          },
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "Benny Football",
+            "m1": "Benedict",
+            "s1": 116.52,
+            "rank1": 7,
+            "t2": "A Moderate Breakfast",
+            "m2": "Laskey",
+            "s2": 104.06,
+            "rank2": 10,
+            "venue_info": {},
+            "venue": "Gillette Stadium",
+            "city": "Foxborough",
+            "state": "MA",
+            "attendance": 61450,
+            "indoor": false,
+            "weather": {
+              "low": 35,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
+            "game_date": "2014-12-15"
+          },
+          {
+            "kind": "game",
+            "label": "11th Place Game",
+            "terminal": true,
+            "week": 15,
+            "t1": "Tommy's Turbos",
+            "m1": "Tommy",
+            "s1": 120.22,
+            "rank1": 11,
+            "t2": "RemembertheTightEnds",
+            "m2": "Kelly Brown",
+            "s2": 108.04,
+            "rank2": 12,
+            "venue_info": {},
+            "venue": "AT&T Stadium",
+            "city": "Arlington",
+            "state": "TX",
+            "attendance": 77950,
+            "indoor": true,
+            "weather": null
+          }
+        ]
+      },
+      {
+        "week": 16,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Voltron Global Bowl Hosted by Tyrese Gibson",
+            "terminal": true,
+            "week": 16,
+            "t1": "(ノಠ益ಠ)ノ彡┻━┻",
+            "m1": "pb",
+            "s1": 85.18,
+            "rank1": 9,
+            "t2": "A Moderate Breakfast",
+            "m2": "Laskey",
+            "s2": 83.38,
+            "rank2": 10,
+            "venue_info": {
+              "title": "Voltron Global Bowl Hosted by Tyrese Gibson",
+              "venue": "Estadio Chivas",
+              "city": "Guadalajara",
+              "state": "Mexico",
+              "attendance": 49850
+            },
+            "venue": "Estadio Chivas",
+            "city": "Guadalajara",
+            "state": "Mexico",
+            "attendance": 49850,
+            "weather": null,
+            "indoor": false
+          },
+          {
+            "kind": "game",
+            "label": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+            "terminal": true,
+            "week": 16,
+            "t1": "Kedrek Knightssss",
+            "m1": "Brice",
+            "s1": 137.08,
+            "rank1": 8,
+            "t2": "Benny Football",
+            "m2": "Benedict",
+            "s2": 167.36,
+            "rank2": 7,
+            "venue_info": {
+              "title": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+              "venue": "The Georgia Dome",
+              "city": "Atlanta",
+              "state": "Georgia",
+              "attendance": 40891
+            },
+            "venue": "The Georgia Dome",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "attendance": 40891,
+            "weather": null,
+            "indoor": false
+          }
+        ]
+      }
+    ]
+  },
+  "awards_top5": {
+    "mvp": [
+      {
+        "player": "Andrew Luck",
+        "pts": 318.84,
+        "manager": "Michael"
+      },
+      {
+        "player": "Aaron Rodgers",
+        "pts": 298.0,
+        "manager": "Carter"
+      },
+      {
+        "player": "Peyton Manning",
+        "pts": 296.78,
+        "manager": "Jay"
+      },
+      {
+        "player": "Antonio Brown",
+        "pts": 295.1,
+        "manager": "Michael"
+      },
+      {
+        "player": "Demaryius Thomas",
+        "pts": 280.5,
+        "manager": "Tommy"
+      }
+    ],
+    "rookie_of_the_year": [
+      {
+        "player": "Mike Evans",
+        "pts": 178.5,
+        "manager": "Kelly Brown"
+      },
+      {
+        "player": "Jeremy Hill",
+        "pts": 143.3,
+        "manager": "Laskey"
+      },
+      {
+        "player": "Brandin Cooks",
+        "pts": 141.3,
+        "manager": "Michael"
+      },
+      {
+        "player": "Sammy Watkins",
+        "pts": 139.6,
+        "manager": "pb"
+      },
+      {
+        "player": "Kelvin Benjamin",
+        "pts": 130.1,
+        "manager": "whitaker"
+      }
+    ],
+    "bench_whisperer": [
+      {
+        "manager": "whitaker",
+        "avg_regret": 7.55,
+        "total_regret": 98.1
+      },
+      {
+        "manager": "Kyle",
+        "avg_regret": 8.41,
+        "total_regret": 109.34
+      },
+      {
+        "manager": "Laskey",
+        "avg_regret": 9.07,
+        "total_regret": 117.9
+      },
+      {
+        "manager": "Michael",
+        "avg_regret": 9.97,
+        "total_regret": 129.62
+      },
+      {
+        "manager": "Kelly Brown",
+        "avg_regret": 11.08,
+        "total_regret": 144.04
+      }
+    ],
+    "comeback_of_the_year": [
+      {
+        "season": 2014,
+        "week": 13,
+        "winner": "Brice",
+        "loser": "Michael",
+        "deficit_before_MNF": 27.3,
+        "final": "131.1-128.9",
+        "mnf_pts_winner": 29.5
+      },
+      {
+        "season": 2014,
+        "week": 3,
+        "winner": "whitaker",
+        "loser": "Kelly Brown",
+        "deficit_before_MNF": 26.3,
+        "final": "130.6-105.1",
+        "mnf_pts_winner": 51.8
+      },
+      {
+        "season": 2014,
+        "week": 11,
+        "winner": "Michael",
+        "loser": "Ryan",
+        "deficit_before_MNF": 21.58,
+        "final": "110.58-113.72",
+        "mnf_pts_winner": 36.2
+      },
+      {
+        "season": 2014,
+        "week": 9,
+        "winner": "Lang",
+        "loser": "Benedict",
+        "deficit_before_MNF": 21.18,
+        "final": "98.06-107.38",
+        "mnf_pts_winner": 30.5
+      },
+      {
+        "season": 2014,
+        "week": 12,
+        "winner": "Ryan",
+        "loser": "Benedict",
+        "deficit_before_MNF": 15.24,
+        "final": "113.7-104.74",
+        "mnf_pts_winner": 24.2
+      }
+    ],
+    "biggest_blowout": [
+      {
+        "week": 13,
+        "winner": "Carter",
+        "winner_pts": 178.02,
+        "loser": "Tommy",
+        "loser_pts": 81.3,
+        "margin": 96.72
+      },
+      {
+        "week": 13,
+        "winner": "Benedict",
+        "winner_pts": 157.64,
+        "loser": "Kelly Brown",
+        "loser_pts": 71.56,
+        "margin": 86.08
+      },
+      {
+        "week": 8,
+        "winner": "Carter",
+        "winner_pts": 149.12,
+        "loser": "Laskey",
+        "loser_pts": 64.14,
+        "margin": 84.98
+      },
+      {
+        "week": 4,
+        "winner": "Lang",
+        "winner_pts": 152.82,
+        "loser": "Laskey",
+        "loser_pts": 75.3,
+        "margin": 77.52
+      },
+      {
+        "week": 8,
+        "winner": "Michael",
+        "winner_pts": 177.5,
+        "loser": "Kelly Brown",
+        "loser_pts": 107.84,
+        "margin": 69.66
+      }
+    ],
+    "most_improved_player": [
+      {
+        "player": "Andrew Luck",
+        "delta": 288.8,
+        "this_season_pts": 318.8,
+        "prior_season_pts": 30.0,
+        "manager": "Michael"
+      },
+      {
+        "player": "Aaron Rodgers",
+        "delta": 248.9,
+        "this_season_pts": 298.0,
+        "prior_season_pts": 49.1,
+        "manager": "Carter"
+      },
+      {
+        "player": "Arian Foster",
+        "delta": 210.5,
+        "this_season_pts": 211.6,
+        "prior_season_pts": 1.1,
+        "manager": "Benedict"
+      },
+      {
+        "player": "Matt Ryan",
+        "delta": 206.7,
+        "this_season_pts": 219.4,
+        "prior_season_pts": 12.7,
+        "manager": "Dylan"
+      },
+      {
+        "player": "Emmanuel Sanders",
+        "delta": 196.1,
+        "this_season_pts": 221.6,
+        "prior_season_pts": 25.5,
+        "manager": "Ryan"
+      }
+    ],
+    "waiver_pickup_of_the_year": [
+      {
+        "player": "Ahmad Bradshaw",
+        "manager": "Carter",
+        "pts": 141.0
+      },
+      {
+        "player": "Jordan Matthews",
+        "manager": "Laskey",
+        "pts": 100.1
+      },
+      {
+        "player": "Larry Donnell",
+        "manager": "Lang",
+        "pts": 97.0
+      },
+      {
+        "player": "Dwayne Allen",
+        "manager": "whitaker",
+        "pts": 89.0
+      },
+      {
+        "player": "James Jones",
+        "manager": "Dylan",
+        "pts": 86.6
+      }
+    ],
+    "draft_steal_of_the_year": [
+      {
+        "player": "Steve Smith",
+        "pick_overall": 199,
+        "pts": 114.9,
+        "pts_rank": 61,
+        "draft_pool": 210,
+        "manager": "Brice"
+      },
+      {
+        "player": "Andre Holmes",
+        "pick_overall": 201,
+        "pts": 74.5,
+        "pts_rank": 80,
+        "draft_pool": 210,
+        "manager": "Michael"
+      },
+      {
+        "player": "Coby Fleener",
+        "pick_overall": 185,
+        "pts": 92.4,
+        "pts_rank": 73,
+        "draft_pool": 210,
+        "manager": "Kyle"
+      },
+      {
+        "player": "Jared Cook",
+        "pick_overall": 194,
+        "pts": 73.1,
+        "pts_rank": 83,
+        "draft_pool": 210,
+        "manager": "Brice"
+      },
+      {
+        "player": "Ahmad Bradshaw",
+        "pick_overall": 156,
+        "pts": 141.0,
+        "pts_rank": 46,
+        "draft_pool": 210,
+        "manager": "pb"
+      }
+    ],
+    "offensive_coordinator_of_the_year": [
+      {
+        "manager": "Michael",
+        "ppg": 25.39,
+        "total": 330.12,
+        "games": 13
+      },
+      {
+        "manager": "Carter",
+        "ppg": 24.62,
+        "total": 320.02,
+        "games": 13
+      },
+      {
+        "manager": "Jay",
+        "ppg": 23.56,
+        "total": 306.26,
+        "games": 13
+      },
+      {
+        "manager": "Benedict",
+        "ppg": 21.51,
+        "total": 279.62,
+        "games": 13
+      },
+      {
+        "manager": "Kyle",
+        "ppg": 20.31,
+        "total": 264.06,
+        "games": 13
+      }
+    ],
+    "defensive_coordinator_of_the_year": [
+      {
+        "manager": "Michael",
+        "ppg": 11.69,
+        "total": 152.0,
+        "games": 13
+      },
+      {
+        "manager": "Ryan",
+        "ppg": 11.38,
+        "total": 148.0,
+        "games": 13
+      },
+      {
+        "manager": "whitaker",
+        "ppg": 10.23,
+        "total": 133.0,
+        "games": 13
+      },
+      {
+        "manager": "Benedict",
+        "ppg": 10.15,
+        "total": 132.0,
+        "games": 13
+      },
+      {
+        "manager": "Carter",
+        "ppg": 9.62,
+        "total": 125.0,
+        "games": 13
+      }
+    ],
+    "special_teams_coordinator_of_the_year": [
+      {
+        "manager": "Dylan",
+        "ppg": 5.42,
+        "total": 70.5,
+        "games": 13
+      },
+      {
+        "manager": "Kelly Brown",
+        "ppg": 5.08,
+        "total": 66.0,
+        "games": 13
+      },
+      {
+        "manager": "Ryan",
+        "ppg": 4.89,
+        "total": 63.6,
+        "games": 13
+      },
+      {
+        "manager": "Carter",
+        "ppg": 4.72,
+        "total": 61.4,
+        "games": 13
+      },
+      {
+        "manager": "Tommy",
+        "ppg": 4.51,
+        "total": 58.6,
+        "games": 13
+      }
+    ],
+    "qb_of_the_year": [
+      {
+        "player": "Andrew Luck",
+        "pts": 318.84,
+        "manager": "Michael"
+      },
+      {
+        "player": "Aaron Rodgers",
+        "pts": 298.0,
+        "manager": "Carter"
+      },
+      {
+        "player": "Peyton Manning",
+        "pts": 296.78,
+        "manager": "Jay"
+      },
+      {
+        "player": "Russell Wilson",
+        "pts": 255.24,
+        "manager": "Benedict"
+      },
+      {
+        "player": "Drew Brees",
+        "pts": 254.62,
+        "manager": "Kyle"
+      }
+    ],
+    "rb_of_the_year": [
+      {
+        "player": "Matt Forte",
+        "pts": 274.8,
+        "manager": "whitaker"
+      },
+      {
+        "player": "Le'Veon Bell",
+        "pts": 266.9,
+        "manager": "Carter"
+      },
+      {
+        "player": "DeMarco Murray",
+        "pts": 261.0,
+        "manager": "Kelly Brown"
+      },
+      {
+        "player": "Marshawn Lynch",
+        "pts": 225.3,
+        "manager": "Michael"
+      },
+      {
+        "player": "Arian Foster",
+        "pts": 211.6,
+        "manager": "Benedict"
+      }
+    ],
+    "wr_of_the_year": [
+      {
+        "player": "Antonio Brown",
+        "pts": 295.1,
+        "manager": "Michael"
+      },
+      {
+        "player": "Demaryius Thomas",
+        "pts": 280.5,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Jordy Nelson",
+        "pts": 248.9,
+        "manager": "Brice"
+      },
+      {
+        "player": "Jeremy Maclin",
+        "pts": 239.8,
+        "manager": "Ryan"
+      },
+      {
+        "player": "Julio Jones",
+        "pts": 229.0,
+        "manager": "whitaker"
+      }
+    ],
+    "te_of_the_year": [
+      {
+        "player": "Rob Gronkowski",
+        "pts": 211.0,
+        "manager": "Jay"
+      },
+      {
+        "player": "Jimmy Graham",
+        "pts": 184.0,
+        "manager": "Carter"
+      },
+      {
+        "player": "Martellus Bennett",
+        "pts": 170.7,
+        "manager": "Kyle"
+      },
+      {
+        "player": "Greg Olsen",
+        "pts": 168.8,
+        "manager": "Brice"
+      },
+      {
+        "player": "Julius Thomas",
+        "pts": 154.6,
+        "manager": "Tommy"
+      }
+    ],
+    "kicker_of_the_year": [
+      {
+        "player": "Stephen Gostkowski",
+        "pts": 66.0,
+        "manager": "Kelly Brown"
+      },
+      {
+        "player": "Adam Vinatieri",
+        "pts": 64.5,
+        "manager": "Dylan"
+      },
+      {
+        "player": "Justin Tucker",
+        "pts": 59.4,
+        "manager": "Ryan"
+      },
+      {
+        "player": "Stephen Hauschka",
+        "pts": 59.4,
+        "manager": "Carter"
+      },
+      {
+        "player": "Cody Parkey",
+        "pts": 54.3,
+        "manager": "Benedict"
+      }
+    ],
+    "dst_of_the_year": [
+      {
+        "team_def": "Bills - DEF",
+        "pts": 122.0,
+        "manager": "Michael"
+      },
+      {
+        "team_def": "Texans - DEF",
+        "pts": 119.0,
+        "manager": "Benedict"
+      },
+      {
+        "team_def": "Ravens - DEF",
+        "pts": 85.0,
+        "manager": "Kelly Brown"
+      },
+      {
+        "team_def": "Rams - DEF",
+        "pts": 83.0,
+        "manager": "pb"
+      },
+      {
+        "team_def": "Cardinals - DEF",
+        "pts": 80.0,
+        "manager": "Ryan"
+      }
+    ]
+  },
+  "award_names": {
+    "regular_season_mvp": "Mia Toretto-O'Connor Most Valuable Player Award",
+    "rookie_of_the_year": "Twinkie Rookie of the Year",
+    "most_improved_player": "Jakob Toretto Most Improved Player Award",
+    "draft_steal_of_the_year": "Brixton Lore \"Heist of the Draft\" Award",
+    "waiver_pickup_of_the_year": "Cipher \"Waiver Wire Heist\" Award",
+    "biggest_blowout": "Biggest Blowout Award",
+    "comeback_of_the_year": "Comeback of the Year Award",
+    "qb_of_the_year": "Deckard Shaw QB Award",
+    "rb_of_the_year": "Owen Shaw RB Award",
+    "wr_of_the_year": "Magdalene Shaw WR Award",
+    "te_of_the_year": "Hattie Shaw TE Award",
+    "dst_of_the_year": "Agent Stasiek Defending the Country Award",
+    "kicker_of_the_year": "Giselle Yashar Award",
+    "bench_whisperer": "Han Lue Best Lineup Setter Award",
+    "mvp": "Mia Toretto-O'Connor Most Valuable Player Award",
+    "offensive_coordinator_of_the_year": "Tej Parker Offensive Coordinator Award",
+    "defensive_coordinator_of_the_year": "Luke Hobbs Defensive Coordinator Award",
+    "special_teams_coordinator_of_the_year": "Roman Pearce Special Teams Coordinator Award"
+  },
+  "award_descriptions": {
+    "mvp": "Most points scored by any single player while in a starting lineup. Regular season only, weeks 1–13.",
+    "bench_whisperer": "Lowest average bench regret — the points a manager left sitting on his bench each week. Regular season only, weeks 1–13.",
+    "most_improved_player": "Biggest year-over-year jump in started points, among players started in both seasons. Regular season only, weeks 1–13.",
+    "rookie_of_the_year": "Most started points by an NFL rookie, per that season's league-wide rookie class. Regular season only, weeks 1–13.",
+    "draft_steal_of_the_year": "Widest gap between where a player was drafted and where he finished in scoring. Keepers excluded. Regular season only, weeks 1–13.",
+    "waiver_pickup_of_the_year": "Most started points from a player his manager neither drafted nor traded for. Regular season only, weeks 1–13.",
+    "comeback_of_the_year": "Biggest deficit erased on Monday night to steal a win. Regular season only, weeks 1–13.",
+    "biggest_blowout": "Widest margin of victory in a single matchup. Regular season only, weeks 1–13.",
+    "qb_of_the_year": "“Love my teammates, god is good!” Most started points by one quarterback. Regular season only, weeks 1–13.",
+    "rb_of_the_year": "“Keep grindin.” Most started points by one running back, flex starts included. Regular season only, weeks 1–13.",
+    "wr_of_the_year": "“The enemy speaks kindly and holds a knife.” Most started points by one wide receiver, flex starts included. Regular season only, weeks 1–13.",
+    "te_of_the_year": "“Derp.” Most started points by one tight end, flex starts included. Regular season only, weeks 1–13.",
+    "dst_of_the_year": "Most started points by a single team defense. Regular season only, weeks 1–13.",
+    "kicker_of_the_year": "Most started points by a single kicker. Regular season only, weeks 1–13.",
+    "offensive_coordinator_of_the_year": "Best points per game out of the QB slot — rewards streaming the position well, not owning one great arm. Regular season only, weeks 1–13.",
+    "defensive_coordinator_of_the_year": "Best points per game out of the DEF slot — rewards playing matchups, not holding one elite defense. Regular season only, weeks 1–13.",
+    "special_teams_coordinator_of_the_year": "Best points per game out of the K slot — rewards streaming kickers into good spots. Regular season only, weeks 1–13."
+  },
+  "all_division": {
+    "oconner": {
+      "label": "Brian O'Conner Memorial Division",
+      "managers": [
+        "Brice",
+        "Dylan",
+        "Jay",
+        "Kelly Brown",
+        "Michael",
+        "pb",
+        "whitaker"
+      ],
+      "firstTeam": [
+        {
+          "slot": "QB",
+          "player": "Andrew Luck",
+          "pos": "QB",
+          "pts": 355.58,
+          "manager": "Michael"
+        },
+        {
+          "slot": "RB",
+          "player": "DeMarco Murray",
+          "pos": "RB",
+          "pts": 321.2,
+          "manager": "Kelly Brown"
+        },
+        {
+          "slot": "RB",
+          "player": "Matt Forte",
+          "pos": "RB",
+          "pts": 308.2,
+          "manager": "whitaker"
+        },
+        {
+          "slot": "WR",
+          "player": "Antonio Brown",
+          "pos": "WR",
+          "pts": 338.1,
+          "manager": "Michael"
+        },
+        {
+          "slot": "WR",
+          "player": "Jordy Nelson",
+          "pos": "WR",
+          "pts": 285.7,
+          "manager": "Brice"
+        },
+        {
+          "slot": "TE",
+          "player": "Rob Gronkowski",
+          "pos": "TE",
+          "pts": 267.4,
+          "manager": "Jay"
+        },
+        {
+          "slot": "FLEX",
+          "player": "Marshawn Lynch",
+          "pos": "RB",
+          "pts": 262.4,
+          "manager": "Michael"
+        },
+        {
+          "slot": "K",
+          "player": "Stephen Gostkowski",
+          "pos": "K",
+          "pts": 77.0,
+          "manager": "Kelly Brown"
+        },
+        {
+          "slot": "DEF",
+          "player": "Bills - DEF",
+          "pos": "DEF",
+          "pts": 128.0,
+          "manager": "Michael"
+        }
+      ],
+      "secondTeam": [
+        {
+          "slot": "QB",
+          "player": "Peyton Manning",
+          "pos": "QB",
+          "pts": 329.46,
+          "manager": "Jay"
+        },
+        {
+          "slot": "RB",
+          "player": "Alfred Morris",
+          "pos": "RB",
+          "pts": 165.6,
+          "manager": "Kelly Brown"
+        },
+        {
+          "slot": "RB",
+          "player": "Lamar Miller",
+          "pos": "RB",
+          "pts": 163.0,
+          "manager": "Brice"
+        },
+        {
+          "slot": "WR",
+          "player": "Julio Jones",
+          "pos": "WR",
+          "pts": 246.7,
+          "manager": "whitaker"
+        },
+        {
+          "slot": "WR",
+          "player": "Julian Edelman",
+          "pos": "WR",
+          "pts": 231.6,
+          "manager": "Jay"
+        },
+        {
+          "slot": "TE",
+          "player": "Greg Olsen",
+          "pos": "TE",
+          "pts": 192.9,
+          "manager": "Brice"
+        },
+        {
+          "slot": "FLEX",
+          "player": "Alshon Jeffery",
+          "pos": "WR",
+          "pts": 230.0,
+          "manager": "whitaker"
+        },
+        {
+          "slot": "K",
+          "player": "Adam Vinatieri",
+          "pos": "K",
+          "pts": 64.5,
+          "manager": "Dylan"
+        },
+        {
+          "slot": "DEF",
+          "player": "Rams - DEF",
+          "pos": "DEF",
+          "pts": 116.0,
+          "manager": "pb"
+        }
+      ]
+    },
+    "toretto": {
+      "label": "Toretto Family Division",
+      "managers": [
+        "Benedict",
+        "Carter",
+        "Lang",
+        "Laskey",
+        "Kyle",
+        "Ryan",
+        "Tommy"
+      ],
+      "firstTeam": [
+        {
+          "slot": "QB",
+          "player": "Aaron Rodgers",
+          "pos": "QB",
+          "pts": 320.82,
+          "manager": "Carter"
+        },
+        {
+          "slot": "RB",
+          "player": "Le'Veon Bell",
+          "pos": "RB",
+          "pts": 311.0,
+          "manager": "Benedict"
+        },
+        {
+          "slot": "RB",
+          "player": "Eddie Lacy",
+          "pos": "RB",
+          "pts": 243.6,
+          "manager": "Tommy"
+        },
+        {
+          "slot": "WR",
+          "player": "Dez Bryant",
+          "pos": "WR",
+          "pts": 294.1,
+          "manager": "Laskey"
+        },
+        {
+          "slot": "WR",
+          "player": "Jeremy Maclin",
+          "pos": "WR",
+          "pts": 264.8,
+          "manager": "Ryan"
+        },
+        {
+          "slot": "TE",
+          "player": "Jimmy Graham",
+          "pos": "TE",
+          "pts": 213.0,
+          "manager": "Carter"
+        },
+        {
+          "slot": "FLEX",
+          "player": "Arian Foster",
+          "pos": "RB",
+          "pts": 243.4,
+          "manager": "Benedict"
+        },
+        {
+          "slot": "K",
+          "player": "Justin Tucker",
+          "pos": "K",
+          "pts": 65.5,
+          "manager": "Ryan"
+        },
+        {
+          "slot": "DEF",
+          "player": "Texans - DEF",
+          "pos": "DEF",
+          "pts": 144.0,
+          "manager": "Benedict"
+        }
+      ],
+      "secondTeam": [
+        {
+          "slot": "QB",
+          "player": "Russell Wilson",
+          "pos": "QB",
+          "pts": 308.02,
+          "manager": "Benedict"
+        },
+        {
+          "slot": "RB",
+          "player": "Jamaal Charles",
+          "pos": "RB",
+          "pts": 233.5,
+          "manager": "Lang"
+        },
+        {
+          "slot": "RB",
+          "player": "Jeremy Hill",
+          "pos": "RB",
+          "pts": 200.9,
+          "manager": "Laskey"
+        },
+        {
+          "slot": "WR",
+          "player": "Emmanuel Sanders",
+          "pos": "WR",
+          "pts": 240.8,
+          "manager": "Ryan"
+        },
+        {
+          "slot": "WR",
+          "player": "Golden Tate",
+          "pos": "WR",
+          "pts": 228.7,
+          "manager": "Lang"
+        },
+        {
+          "slot": "TE",
+          "player": "Martellus Bennett",
+          "pos": "TE",
+          "pts": 170.7,
+          "manager": "Kyle"
+        },
+        {
+          "slot": "FLEX",
+          "player": "Randall Cobb",
+          "pos": "WR",
+          "pts": 221.9,
+          "manager": "Kyle"
+        },
+        {
+          "slot": "K",
+          "player": "Stephen Hauschka",
+          "pos": "K",
+          "pts": 63.8,
+          "manager": "Carter"
+        },
+        {
+          "slot": "DEF",
+          "player": "49ers - DEF",
+          "pos": "DEF",
+          "pts": 96.0,
+          "manager": "Laskey"
+        }
+      ]
+    }
+  }
+}

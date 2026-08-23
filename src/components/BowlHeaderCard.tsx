@@ -1,0 +1,105 @@
+import type { BowlCard } from '../data/league'
+import { getManager } from '../data/league'
+import { bowlLogoUrl, bowlLogoBoxHeight } from '../data/bowlAssets'
+import { bowlMvpPhotoUrl } from '../data/seasonAwardPhotos'
+import AssetImage from './AssetImage'
+
+const BOWL_LOGO_TARGET_HEIGHT = 72 // matches Wing Bowl's current apparent size
+
+interface BowlHeaderCardProps {
+  bowl: BowlCard
+  year: number
+  venue: { venue: string; city: string; state: string; attendance: number } | null
+}
+
+export default function BowlHeaderCard({ bowl, year, venue }: BowlHeaderCardProps) {
+  const winner = getManager(bowl.winnerManager)
+  const loser = getManager(bowl.loserManager)
+  if (!winner || !loser) return null
+
+  const [winnerScore, loserScore] = bowl.finalScore.split('-')
+  const logo = bowlLogoUrl(bowl.bowl, year)
+  const logoBoxHeight = bowlLogoBoxHeight(bowl.bowl, BOWL_LOGO_TARGET_HEIGHT)
+  const mvpManager = bowl.mvp ? getManager(bowl.mvp.manager) : null
+  const headshot = bowl.mvp ? bowlMvpPhotoUrl(year, bowl.key) : null
+
+  return (
+    <div style={{ backgroundColor: '#262626', border: '1px solid #393939', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ padding: '20px 16px 12px', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', height: BOWL_LOGO_TARGET_HEIGHT + 32 }}>
+        <AssetImage
+          src={logo ?? ''}
+          alt={bowl.bowl}
+          width={logoBoxHeight * 1.4}
+          height={logoBoxHeight}
+          fallback={<div style={{ width: 72, height: 72, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 28 }}>🏆</div>}
+        />
+      </div>
+
+      <div style={{ padding: '0 16px 12px', textAlign: 'center' }}>
+        <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 13, color: '#f4f4f4', lineHeight: '17px' }}>
+          {bowl.bowlLabel}
+        </div>
+        {venue && (
+          <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: '#8d8d8d', marginTop: 6 }}>
+            {venue.venue} · {venue.city}, {venue.state}
+            <br />
+            Attendance {venue.attendance.toLocaleString()}
+          </div>
+        )}
+      </div>
+
+      <div style={{ borderTop: '1px solid #393939' }}>
+        {[
+          { manager: winner, team: bowl.winnerTeam, score: winnerScore, win: true },
+          { manager: loser, team: bowl.loserTeam, score: loserScore, win: false },
+        ].map(row => (
+          <div
+            key={row.manager!.id}
+            style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              padding: '8px 16px', borderLeft: `3px solid ${row.win ? row.manager!.primaryColor : 'transparent'}`,
+              borderBottom: '1px solid #393939',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
+              <AssetImage src={row.manager!.logoSmall} alt={row.manager!.name} size={20} fallback={<div style={{ width: 20, height: 20, backgroundColor: '#393939' }} />} />
+              <div style={{ minWidth: 0 }}>
+                <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: row.win ? 600 : 400, fontSize: 12, color: row.win ? '#f4f4f4' : '#8d8d8d', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                  {row.manager!.name}
+                </div>
+                <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10, color: '#6f6f6f', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                  {row.team}
+                </div>
+              </div>
+            </div>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 16, color: row.win ? '#f4f4f4' : '#8d8d8d', fontVariantNumeric: 'tabular-nums' }}>
+              {Number(row.score).toFixed(2)}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      {bowl.mvp && mvpManager && (
+        <div style={{ padding: '10px 16px', display: 'flex', alignItems: 'center', gap: 10 }}>
+          <AssetImage
+            src={headshot ?? ''}
+            alt={bowl.mvp.player}
+            size={36}
+            fallback={<div style={{ width: 36, height: 36, backgroundColor: '#393939', borderRadius: '50%' }} />}
+          />
+          <div style={{ minWidth: 0 }}>
+            <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 10, color: '#6f6f6f', letterSpacing: '0.16em', textTransform: 'uppercase' }}>
+              Most Valuable Player
+            </div>
+            <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 12, color: '#f4f4f4' }}>
+              {bowl.mvp.position} {bowl.mvp.player}
+            </div>
+            <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: mvpManager.primaryColor }}>
+              {mvpManager.name} · {bowl.mvp.points.toFixed(2)} pts
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}

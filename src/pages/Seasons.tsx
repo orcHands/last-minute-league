@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { SEASONS, getManager } from '../data/league'
+import { Link } from 'react-router-dom'
+import { SEASONS, getManager, SEASON_DETAIL_YEARS } from '../data/league'
 import Badge from '../components/Badge'
 import AssetImage from '../components/AssetImage'
 import { withBase } from '../lib/assetPath'
@@ -146,10 +147,18 @@ export default function Seasons() {
               </div>
 
               <div style={{ padding: '16px 24px', borderTop: '1px solid #393939' }}>
-                <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d' }}>
-                  Bowl game logos for {season.year} — coming with your image assets.
-                  Per-season bracket, weekly scores, and draft data are part of the deeper season view.
-                </span>
+                {SEASON_DETAIL_YEARS.includes(season.year) ? (
+                  <Link
+                    to={`/seasons/${season.year}`}
+                    style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 13, color: '#78a9ff', textDecoration: 'none' }}
+                  >
+                    View full {season.year} season →
+                  </Link>
+                ) : (
+                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d' }}>
+                    Full bowl brackets, standings, and season awards are being built out season by season — {season.year} isn't ready yet.
+                  </span>
+                )}
               </div>
             </div>
           )

@@ -1,0 +1,1734 @@
+{
+  "year": 2024,
+  "standings": [
+    {
+      "rank": 1,
+      "team": "Koo-nosha Kickers",
+      "manager": "Tommy",
+      "playoffs": true,
+      "wlt": "7-7-0",
+      "division_wlt": "3-7-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1689.02,
+      "pf_avg": 120.64,
+      "pa_total": 1682.98,
+      "pa_avg": 120.21,
+      "regret_total": 241.06,
+      "regret_avg": 14.18
+    },
+    {
+      "rank": 2,
+      "team": "Clyde Edwards Eclair",
+      "manager": "Jason",
+      "playoffs": true,
+      "wlt": "10-4-0",
+      "division_wlt": "8-2-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1861.22,
+      "pf_avg": 132.94,
+      "pa_total": 1543.84,
+      "pa_avg": 110.27,
+      "regret_total": 335.68,
+      "regret_avg": 20.98
+    },
+    {
+      "rank": 3,
+      "team": "Justin Fields of Dreams",
+      "manager": "Kevin",
+      "playoffs": true,
+      "wlt": "10-4-0",
+      "division_wlt": "7-3-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1651.38,
+      "pf_avg": 117.96,
+      "pa_total": 1545.36,
+      "pa_avg": 110.38,
+      "regret_total": 216.7,
+      "regret_avg": 13.54
+    },
+    {
+      "rank": 4,
+      "team": "The Caleb Will-Wins",
+      "manager": "whitaker",
+      "playoffs": true,
+      "wlt": "8-6-0",
+      "division_wlt": "7-3-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1638.94,
+      "pf_avg": 117.07,
+      "pa_total": 1585.32,
+      "pa_avg": 113.24,
+      "regret_total": 266.3,
+      "regret_avg": 15.66
+    },
+    {
+      "rank": 5,
+      "team": "Jaylen Waddle Dee",
+      "manager": "Carter",
+      "playoffs": true,
+      "wlt": "10-4-0",
+      "division_wlt": "6-4-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1743.46,
+      "pf_avg": 124.53,
+      "pa_total": 1603.94,
+      "pa_avg": 114.57,
+      "regret_total": 242.6,
+      "regret_avg": 15.16
+    },
+    {
+      "rank": 6,
+      "team": "Certified Toyota Sienna Owner",
+      "manager": "pb",
+      "playoffs": true,
+      "wlt": "9-5-0",
+      "division_wlt": "7-3-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1772.74,
+      "pf_avg": 126.62,
+      "pa_total": 1536.24,
+      "pa_avg": 109.73,
+      "regret_total": 277.06,
+      "regret_avg": 17.32
+    },
+    {
+      "rank": 7,
+      "team": "J.T. O'Sulli-win",
+      "manager": "Ryan",
+      "playoffs": false,
+      "wlt": "4-10-0",
+      "division_wlt": "2-8-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1502.1,
+      "pf_avg": 107.29,
+      "pa_total": 1739.14,
+      "pa_avg": 124.22,
+      "regret_total": 336.52,
+      "regret_avg": 19.8
+    },
+    {
+      "rank": 8,
+      "team": "Coming Tuamerica",
+      "manager": "Brice",
+      "playoffs": false,
+      "wlt": "5-9-0",
+      "division_wlt": "4-6-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1541.44,
+      "pf_avg": 110.1,
+      "pa_total": 1640.36,
+      "pa_avg": 117.17,
+      "regret_total": 209.86,
+      "regret_avg": 13.12
+    },
+    {
+      "rank": 9,
+      "team": "Goffsides",
+      "manager": "Zac",
+      "playoffs": false,
+      "wlt": "4-10-0",
+      "division_wlt": "4-6-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1496.34,
+      "pf_avg": 106.88,
+      "pa_total": 1586.52,
+      "pa_avg": 113.32,
+      "regret_total": 312.64,
+      "regret_avg": 18.39
+    },
+    {
+      "rank": 10,
+      "team": "Cult of the Lamb",
+      "manager": "Megan",
+      "playoffs": false,
+      "wlt": "7-7-0",
+      "division_wlt": "6-4-0",
+      "division": "Toretto Family Division",
+      "pf_total": 1614.36,
+      "pf_avg": 115.31,
+      "pa_total": 1674.5,
+      "pa_avg": 119.61,
+      "regret_total": 222.42,
+      "regret_avg": 13.9
+    },
+    {
+      "rank": 11,
+      "team": "Katatonic",
+      "manager": "Kat",
+      "playoffs": false,
+      "wlt": "5-9-0",
+      "division_wlt": "3-7-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1395.24,
+      "pf_avg": 99.66,
+      "pa_total": 1557.1,
+      "pa_avg": 111.22,
+      "regret_total": 321.9,
+      "regret_avg": 20.12
+    },
+    {
+      "rank": 12,
+      "team": "The Fumblers",
+      "manager": "Michael",
+      "playoffs": false,
+      "wlt": "5-9-0",
+      "division_wlt": "3-7-0",
+      "division": "O'Conner Memorial Division",
+      "pf_total": 1438.12,
+      "pf_avg": 102.72,
+      "pa_total": 1649.06,
+      "pa_avg": 117.79,
+      "regret_total": 202.54,
+      "regret_avg": 12.66
+    }
+  ],
+  "divisions": {
+    "Toretto Family Division": [
+      {
+        "rank": 1,
+        "team": "Koo-nosha Kickers",
+        "manager": "Tommy",
+        "playoffs": true,
+        "wlt": "7-7-0",
+        "division_wlt": "3-7-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1689.02,
+        "pf_avg": 120.64,
+        "pa_total": 1682.98,
+        "pa_avg": 120.21,
+        "regret_total": 241.06,
+        "regret_avg": 14.18
+      },
+      {
+        "rank": 2,
+        "team": "Clyde Edwards Eclair",
+        "manager": "Jason",
+        "playoffs": true,
+        "wlt": "10-4-0",
+        "division_wlt": "8-2-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1861.22,
+        "pf_avg": 132.94,
+        "pa_total": 1543.84,
+        "pa_avg": 110.27,
+        "regret_total": 335.68,
+        "regret_avg": 20.98
+      },
+      {
+        "rank": 4,
+        "team": "The Caleb Will-Wins",
+        "manager": "whitaker",
+        "playoffs": true,
+        "wlt": "8-6-0",
+        "division_wlt": "7-3-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1638.94,
+        "pf_avg": 117.07,
+        "pa_total": 1585.32,
+        "pa_avg": 113.24,
+        "regret_total": 266.3,
+        "regret_avg": 15.66
+      },
+      {
+        "rank": 7,
+        "team": "J.T. O'Sulli-win",
+        "manager": "Ryan",
+        "playoffs": false,
+        "wlt": "4-10-0",
+        "division_wlt": "2-8-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1502.1,
+        "pf_avg": 107.29,
+        "pa_total": 1739.14,
+        "pa_avg": 124.22,
+        "regret_total": 336.52,
+        "regret_avg": 19.8
+      },
+      {
+        "rank": 9,
+        "team": "Goffsides",
+        "manager": "Zac",
+        "playoffs": false,
+        "wlt": "4-10-0",
+        "division_wlt": "4-6-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1496.34,
+        "pf_avg": 106.88,
+        "pa_total": 1586.52,
+        "pa_avg": 113.32,
+        "regret_total": 312.64,
+        "regret_avg": 18.39
+      },
+      {
+        "rank": 10,
+        "team": "Cult of the Lamb",
+        "manager": "Megan",
+        "playoffs": false,
+        "wlt": "7-7-0",
+        "division_wlt": "6-4-0",
+        "division": "Toretto Family Division",
+        "pf_total": 1614.36,
+        "pf_avg": 115.31,
+        "pa_total": 1674.5,
+        "pa_avg": 119.61,
+        "regret_total": 222.42,
+        "regret_avg": 13.9
+      }
+    ],
+    "O'Conner Memorial Division": [
+      {
+        "rank": 3,
+        "team": "Justin Fields of Dreams",
+        "manager": "Kevin",
+        "playoffs": true,
+        "wlt": "10-4-0",
+        "division_wlt": "7-3-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1651.38,
+        "pf_avg": 117.96,
+        "pa_total": 1545.36,
+        "pa_avg": 110.38,
+        "regret_total": 216.7,
+        "regret_avg": 13.54
+      },
+      {
+        "rank": 5,
+        "team": "Jaylen Waddle Dee",
+        "manager": "Carter",
+        "playoffs": true,
+        "wlt": "10-4-0",
+        "division_wlt": "6-4-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1743.46,
+        "pf_avg": 124.53,
+        "pa_total": 1603.94,
+        "pa_avg": 114.57,
+        "regret_total": 242.6,
+        "regret_avg": 15.16
+      },
+      {
+        "rank": 6,
+        "team": "Certified Toyota Sienna Owner",
+        "manager": "pb",
+        "playoffs": true,
+        "wlt": "9-5-0",
+        "division_wlt": "7-3-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1772.74,
+        "pf_avg": 126.62,
+        "pa_total": 1536.24,
+        "pa_avg": 109.73,
+        "regret_total": 277.06,
+        "regret_avg": 17.32
+      },
+      {
+        "rank": 8,
+        "team": "Coming Tuamerica",
+        "manager": "Brice",
+        "playoffs": false,
+        "wlt": "5-9-0",
+        "division_wlt": "4-6-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1541.44,
+        "pf_avg": 110.1,
+        "pa_total": 1640.36,
+        "pa_avg": 117.17,
+        "regret_total": 209.86,
+        "regret_avg": 13.12
+      },
+      {
+        "rank": 11,
+        "team": "Katatonic",
+        "manager": "Kat",
+        "playoffs": false,
+        "wlt": "5-9-0",
+        "division_wlt": "3-7-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1395.24,
+        "pf_avg": 99.66,
+        "pa_total": 1557.1,
+        "pa_avg": 111.22,
+        "regret_total": 321.9,
+        "regret_avg": 20.12
+      },
+      {
+        "rank": 12,
+        "team": "The Fumblers",
+        "manager": "Michael",
+        "playoffs": false,
+        "wlt": "5-9-0",
+        "division_wlt": "3-7-0",
+        "division": "O'Conner Memorial Division",
+        "pf_total": 1438.12,
+        "pf_avg": 102.72,
+        "pa_total": 1649.06,
+        "pa_avg": 117.79,
+        "regret_total": 202.54,
+        "regret_avg": 12.66
+      }
+    ]
+  },
+  "bowl_mvps": {
+    "Teremana Tequila Bowl": {
+      "season": 2024,
+      "bowl": "Teremana Tequila Bowl",
+      "bowl_label": "Teremana Tequila Bowl (Championship)",
+      "week": 17,
+      "winner_manager": "Tommy",
+      "winner_team": "Koo-nosha Kickers",
+      "loser_manager": "Jason",
+      "loser_team": "Clyde Edwards Eclair",
+      "final_score": "160.36-138.88",
+      "mvp": {
+        "player": "DeVonta Smith",
+        "position": "WR",
+        "points": 31.0,
+        "manager": "Tommy",
+        "team": "Koo-nosha Kickers",
+        "side": "winning team",
+        "season_avg": 13.15,
+        "delta_vs_avg": 17.85,
+        "type": "standard"
+      }
+    },
+    "Kumho Tires Tokyo Drift Bowl": {
+      "season": 2024,
+      "bowl": "Kumho Tires Tokyo Drift Bowl",
+      "bowl_label": "Kumho Tires Tokyo Drift Bowl (3rd place)",
+      "week": 17,
+      "winner_manager": "Kevin",
+      "winner_team": "Justin Fields of Dreams",
+      "loser_manager": "whitaker",
+      "loser_team": "The Caleb Will-Wins",
+      "final_score": "152.82-108.18",
+      "mvp": {
+        "player": "Trey McBride",
+        "position": "TE",
+        "points": 30.3,
+        "manager": "Kevin",
+        "team": "Justin Fields of Dreams",
+        "side": "winning team",
+        "season_avg": 14.25,
+        "delta_vs_avg": 16.05,
+        "type": "howard"
+      }
+    },
+    "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": {
+      "season": 2024,
+      "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+      "bowl_label": "Lemon Pepper Wing Bowl (Consolation)",
+      "week": 17,
+      "winner_manager": "Ryan",
+      "winner_team": "J.T. O'Sulli-win",
+      "loser_manager": "Brice",
+      "loser_team": "Coming Tuamerica",
+      "final_score": "108.68-105.48",
+      "mvp": {
+        "player": "Brock Purdy",
+        "position": "QB",
+        "points": 34.28,
+        "manager": "Ryan",
+        "team": "J.T. O'Sulli-win",
+        "side": "winning team",
+        "season_avg": 19.49,
+        "delta_vs_avg": 14.79,
+        "type": "standard"
+      }
+    },
+    "Voltron Global Bowl Hosted by Tyrese Gibson": {
+      "season": 2024,
+      "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+      "bowl_label": "Voltron Global Bowl (9th place)",
+      "week": 17,
+      "winner_manager": "Zac",
+      "winner_team": "Goffsides",
+      "loser_manager": "Megan",
+      "loser_team": "Cult of the Lamb",
+      "final_score": "106.48-101.78",
+      "mvp": {
+        "player": "Malik Nabers",
+        "position": "WR",
+        "points": 37.1,
+        "manager": "Zac",
+        "team": "Goffsides",
+        "side": "winning team",
+        "season_avg": 16.98,
+        "delta_vs_avg": 20.12,
+        "type": "standard"
+      }
+    }
+  },
+  "champions_bracket": {
+    "active_teams": [
+      "Koo-nosha Kickers",
+      "Clyde Edwards Eclair",
+      "Justin Fields of Dreams",
+      "The Caleb Will-Wins",
+      "Jaylen Waddle Dee",
+      "Certified Toyota Sienna Owner"
+    ],
+    "inactive_teams": [],
+    "rounds": [
+      {
+        "week": 15,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "Certified Toyota Sienna Owner",
+            "m1": "pb",
+            "s1": 107.84,
+            "rank1": 6,
+            "t2": "The Caleb Will-Wins",
+            "m2": "whitaker",
+            "s2": 116.68,
+            "rank2": 4,
+            "venue_info": {},
+            "venue": "Memorial Stadium",
+            "city": "Bloomington",
+            "state": "IN",
+            "attendance": 50750,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-16"
+          },
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "Jaylen Waddle Dee",
+            "m1": "Carter",
+            "s1": 110.86,
+            "rank1": 5,
+            "t2": "Koo-nosha Kickers",
+            "m2": "Tommy",
+            "s2": 112.5,
+            "rank2": 1,
+            "venue_info": {},
+            "venue": "AT&T Stadium",
+            "city": "Arlington",
+            "state": "TX",
+            "attendance": 76500,
+            "indoor": true,
+            "weather": null
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "Clyde Edwards Eclair",
+            "manager": "Jason",
+            "rank": 2
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "Justin Fields of Dreams",
+            "manager": "Kevin",
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "week": 16,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 16,
+            "t1": "Justin Fields of Dreams",
+            "m1": "Kevin",
+            "s1": 135.78,
+            "rank1": 3,
+            "t2": "Koo-nosha Kickers",
+            "m2": "Tommy",
+            "s2": 178.92,
+            "rank2": 1,
+            "venue_info": {},
+            "venue": "AT&T Stadium",
+            "city": "Arlington",
+            "state": "TX",
+            "attendance": 78600,
+            "indoor": true,
+            "weather": null
+          },
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 16,
+            "t1": "Clyde Edwards Eclair",
+            "m1": "Jason",
+            "s1": 119.34,
+            "rank1": 2,
+            "t2": "The Caleb Will-Wins",
+            "m2": "whitaker",
+            "s2": 119.06,
+            "rank2": 4,
+            "venue_info": {},
+            "venue": "Oakland Coliseum",
+            "city": "Oakland",
+            "state": "CA",
+            "attendance": 59000,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-23"
+          },
+          {
+            "kind": "game",
+            "label": "5th Place Game",
+            "terminal": true,
+            "week": 16,
+            "t1": "Certified Toyota Sienna Owner",
+            "m1": "pb",
+            "s1": 117.34,
+            "rank1": 6,
+            "t2": "Jaylen Waddle Dee",
+            "m2": "Carter",
+            "s2": 150.24,
+            "rank2": 5,
+            "venue_info": {},
+            "venue": "Jones AT&T Stadium",
+            "city": "Lubbock",
+            "state": "TX",
+            "attendance": 58950,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-23"
+          }
+        ]
+      },
+      {
+        "week": 17,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Teremana Tequila Bowl",
+            "terminal": true,
+            "week": 17,
+            "t1": "Clyde Edwards Eclair",
+            "m1": "Jason",
+            "s1": 138.88,
+            "rank1": 2,
+            "t2": "Koo-nosha Kickers",
+            "m2": "Tommy",
+            "s2": 160.36,
+            "rank2": 1,
+            "venue_info": {
+              "title": "Teremana Tequila Bowl",
+              "venue": "State Farm Stadium",
+              "city": "Glendale",
+              "state": "Arizona",
+              "attendance": 64200
+            },
+            "venue": "State Farm Stadium",
+            "city": "Glendale",
+            "state": "Arizona",
+            "attendance": 64200,
+            "weather": null,
+            "indoor": false
+          },
+          {
+            "kind": "game",
+            "label": "Kumho Tires Tokyo Drift Bowl",
+            "terminal": true,
+            "week": 17,
+            "t1": "Justin Fields of Dreams",
+            "m1": "Kevin",
+            "s1": 152.82,
+            "rank1": 3,
+            "t2": "The Caleb Will-Wins",
+            "m2": "whitaker",
+            "s2": 108.18,
+            "rank2": 4,
+            "venue_info": {
+              "title": "Kumho Tires Tokyo Drift Bowl",
+              "venue": "Tokyo Dome",
+              "city": "Tokyo",
+              "state": "Japan",
+              "attendance": 47924
+            },
+            "venue": "Tokyo Dome",
+            "city": "Tokyo",
+            "state": "Japan",
+            "attendance": 47924,
+            "weather": null,
+            "indoor": false
+          }
+        ]
+      }
+    ]
+  },
+  "consolation_bracket": {
+    "active_teams": [
+      "J.T. O'Sulli-win",
+      "Coming Tuamerica",
+      "Goffsides",
+      "Cult of the Lamb",
+      "Katatonic",
+      "The Fumblers"
+    ],
+    "inactive_teams": [],
+    "rounds": [
+      {
+        "week": 15,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "J.T. O'Sulli-win",
+            "m1": "Ryan",
+            "s1": 137.48,
+            "rank1": 7,
+            "t2": "Katatonic",
+            "m2": "Kat",
+            "s2": 81.76,
+            "rank2": 11,
+            "venue_info": {},
+            "venue": "Levi's Stadium",
+            "city": "Santa Clara",
+            "state": "CA",
+            "attendance": 65900,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-16"
+          },
+          {
+            "kind": "game",
+            "label": "Quarterfinal",
+            "terminal": false,
+            "week": 15,
+            "t1": "Goffsides",
+            "m1": "Zac",
+            "s1": 103.9,
+            "rank1": 9,
+            "t2": "The Fumblers",
+            "m2": "Michael",
+            "s2": 94.62,
+            "rank2": 12,
+            "venue_info": {},
+            "venue": "Soldier Field",
+            "city": "Chicago",
+            "state": "IL",
+            "attendance": 59450,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-16"
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "Cult of the Lamb",
+            "manager": "Megan",
+            "rank": 10
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "Coming Tuamerica",
+            "manager": "Brice",
+            "rank": 8
+          }
+        ]
+      },
+      {
+        "week": 16,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 16,
+            "t1": "Coming Tuamerica",
+            "m1": "Brice",
+            "s1": 136.08,
+            "rank1": 8,
+            "t2": "Goffsides",
+            "m2": "Zac",
+            "s2": 129.78,
+            "rank2": 9,
+            "venue_info": {},
+            "venue": "Hard Rock Stadium",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 64450,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-23"
+          },
+          {
+            "kind": "game",
+            "label": "Semifinal",
+            "terminal": false,
+            "week": 16,
+            "t1": "J.T. O'Sulli-win",
+            "m1": "Ryan",
+            "s1": 134.92,
+            "rank1": 7,
+            "t2": "Cult of the Lamb",
+            "m2": "Megan",
+            "s2": 103.74,
+            "rank2": 10,
+            "venue_info": {},
+            "venue": "Levi's Stadium",
+            "city": "Santa Clara",
+            "state": "CA",
+            "attendance": 67550,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-23"
+          },
+          {
+            "kind": "game",
+            "label": "11th Place Game",
+            "terminal": true,
+            "week": 16,
+            "t1": "Katatonic",
+            "m1": "Kat",
+            "s1": 109.58,
+            "rank1": 11,
+            "t2": "The Fumblers",
+            "m2": "Michael",
+            "s2": 91.22,
+            "rank2": 12,
+            "venue_info": {},
+            "venue": "Autzen Stadium",
+            "city": "Eugene",
+            "state": "OR",
+            "attendance": 52600,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2024-12-23"
+          }
+        ]
+      },
+      {
+        "week": 17,
+        "entries": [
+          {
+            "kind": "game",
+            "label": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+            "terminal": true,
+            "week": 17,
+            "t1": "Coming Tuamerica",
+            "m1": "Brice",
+            "s1": 105.48,
+            "rank1": 8,
+            "t2": "J.T. O'Sulli-win",
+            "m2": "Ryan",
+            "s2": 108.68,
+            "rank2": 7,
+            "venue_info": {
+              "title": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+              "venue": "Mercedes-Benz Stadium",
+              "city": "Atlanta",
+              "state": "Georgia",
+              "attendance": 70200
+            },
+            "venue": "Mercedes-Benz Stadium",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "attendance": 70200,
+            "weather": null,
+            "indoor": false
+          },
+          {
+            "kind": "game",
+            "label": "Voltron Global Bowl Hosted by Tyrese Gibson",
+            "terminal": true,
+            "week": 17,
+            "t1": "Goffsides",
+            "m1": "Zac",
+            "s1": 106.48,
+            "rank1": 9,
+            "t2": "Cult of the Lamb",
+            "m2": "Megan",
+            "s2": 101.78,
+            "rank2": 10,
+            "venue_info": {
+              "title": "Voltron Global Bowl Hosted by Tyrese Gibson",
+              "venue": "McMurdo Station",
+              "city": "Ross Island Ice Shelf",
+              "state": "Antarctica",
+              "attendance": 171
+            },
+            "venue": "McMurdo Station",
+            "city": "Ross Island Ice Shelf",
+            "state": "Antarctica",
+            "attendance": 171,
+            "weather": null,
+            "indoor": false
+          }
+        ]
+      }
+    ]
+  },
+  "awards_top5": {
+    "mvp": [
+      {
+        "player": "Lamar Jackson",
+        "pts": 335.4,
+        "manager": "Kevin"
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "pts": 325.4,
+        "manager": "Carter"
+      },
+      {
+        "player": "Josh Allen",
+        "pts": 317.62,
+        "manager": "whitaker"
+      },
+      {
+        "player": "Saquon Barkley",
+        "pts": 307.0,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Joe Burrow",
+        "pts": 300.54,
+        "manager": "Brice"
+      }
+    ],
+    "rookie_of_the_year": [
+      {
+        "player": "Malik Nabers",
+        "pts": 182.7,
+        "manager": "Zac"
+      },
+      {
+        "player": "Brock Bowers",
+        "pts": 176.4,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Marvin Harrison Jr.",
+        "pts": 151.5,
+        "manager": "Michael"
+      },
+      {
+        "player": "Brian Thomas Jr.",
+        "pts": 121.7,
+        "manager": "Zac"
+      },
+      {
+        "player": "Caleb Williams",
+        "pts": 112.02,
+        "manager": "whitaker"
+      }
+    ],
+    "bench_whisperer": [
+      {
+        "manager": "Michael",
+        "avg_regret": 12.72,
+        "total_regret": 178.14
+      },
+      {
+        "manager": "Brice",
+        "avg_regret": 12.94,
+        "total_regret": 181.16
+      },
+      {
+        "manager": "Megan",
+        "avg_regret": 13.04,
+        "total_regret": 182.52
+      },
+      {
+        "manager": "Tommy",
+        "avg_regret": 13.41,
+        "total_regret": 187.76
+      },
+      {
+        "manager": "Carter",
+        "avg_regret": 14.0,
+        "total_regret": 196.0
+      }
+    ],
+    "comeback_of_the_year": [
+      {
+        "season": 2024,
+        "week": 5,
+        "winner": "Carter",
+        "loser": "Megan",
+        "deficit_before_MNF": 33.58,
+        "final": "133.14-123.48",
+        "mnf_pts_winner": 43.24
+      },
+      {
+        "season": 2024,
+        "week": 3,
+        "winner": "Brice",
+        "loser": "pb",
+        "deficit_before_MNF": 28.54,
+        "final": "96.54-131.36",
+        "mnf_pts_winner": 84.06
+      },
+      {
+        "season": 2024,
+        "week": 3,
+        "winner": "Carter",
+        "loser": "Michael",
+        "deficit_before_MNF": 26.76,
+        "final": "118.78-110.44",
+        "mnf_pts_winner": 35.1
+      },
+      {
+        "season": 2024,
+        "week": 14,
+        "winner": "Megan",
+        "loser": "whitaker",
+        "deficit_before_MNF": 26.42,
+        "final": "126.16-125.88",
+        "mnf_pts_winner": 26.7
+      },
+      {
+        "season": 2024,
+        "week": 9,
+        "winner": "Carter",
+        "loser": "Jason",
+        "deficit_before_MNF": 24.3,
+        "final": "134.4-139.94",
+        "mnf_pts_winner": 48.54
+      }
+    ],
+    "biggest_blowout": [
+      {
+        "week": 6,
+        "winner": "pb",
+        "winner_pts": 175.9,
+        "loser": "Kevin",
+        "loser_pts": 92.82,
+        "margin": 83.08
+      },
+      {
+        "week": 7,
+        "winner": "pb",
+        "winner_pts": 159.36,
+        "loser": "Carter",
+        "loser_pts": 91.56,
+        "margin": 67.8
+      },
+      {
+        "week": 13,
+        "winner": "Tommy",
+        "winner_pts": 168.08,
+        "loser": "Ryan",
+        "loser_pts": 104.82,
+        "margin": 63.26
+      },
+      {
+        "week": 8,
+        "winner": "Carter",
+        "winner_pts": 165.88,
+        "loser": "Kat",
+        "loser_pts": 108.08,
+        "margin": 57.8
+      },
+      {
+        "week": 11,
+        "winner": "Brice",
+        "winner_pts": 132.24,
+        "loser": "Michael",
+        "loser_pts": 74.64,
+        "margin": 57.6
+      }
+    ],
+    "most_improved_player": [
+      {
+        "player": "Lamar Jackson",
+        "delta": 199.0,
+        "this_season_pts": 335.4,
+        "prior_season_pts": 136.4,
+        "manager": "Kevin"
+      },
+      {
+        "player": "Kyler Murray",
+        "delta": 179.5,
+        "this_season_pts": 203.1,
+        "prior_season_pts": 23.7,
+        "manager": "Kat"
+      },
+      {
+        "player": "Joe Burrow",
+        "delta": 178.8,
+        "this_season_pts": 300.5,
+        "prior_season_pts": 121.7,
+        "manager": "Brice"
+      },
+      {
+        "player": "Chuba Hubbard",
+        "delta": 176.6,
+        "this_season_pts": 199.0,
+        "prior_season_pts": 22.4,
+        "manager": "Kat"
+      },
+      {
+        "player": "Baker Mayfield",
+        "delta": 156.5,
+        "this_season_pts": 222.2,
+        "prior_season_pts": 65.7,
+        "manager": "Michael"
+      }
+    ],
+    "waiver_pickup_of_the_year": [
+      {
+        "player": "Chuba Hubbard",
+        "manager": "Kat",
+        "pts": 199.0
+      },
+      {
+        "player": "Sam Darnold",
+        "manager": "pb",
+        "pts": 198.28
+      },
+      {
+        "player": "J.K. Dobbins",
+        "manager": "Ryan",
+        "pts": 144.1
+      },
+      {
+        "player": "Jerry Jeudy",
+        "manager": "Tommy",
+        "pts": 101.6
+      },
+      {
+        "player": "Jakobi Meyers",
+        "manager": "Kat",
+        "pts": 97.0
+      }
+    ],
+    "draft_steal_of_the_year": [
+      {
+        "player": "Chuba Hubbard",
+        "pick_overall": 131,
+        "pts": 199.0,
+        "pts_rank": 19,
+        "draft_pool": 164,
+        "manager": "pb"
+      },
+      {
+        "player": "Cade Otton",
+        "pick_overall": 180,
+        "pts": 78.3,
+        "pts_rank": 72,
+        "draft_pool": 164,
+        "manager": "Michael"
+      },
+      {
+        "player": "Ka'imi Fairbairn",
+        "pick_overall": 170,
+        "pts": 73.7,
+        "pts_rank": 74,
+        "draft_pool": 164,
+        "manager": "Zac"
+      },
+      {
+        "player": "Brock Bowers",
+        "pick_overall": 111,
+        "pts": 176.4,
+        "pts_rank": 27,
+        "draft_pool": 164,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Taysom Hill",
+        "pick_overall": 165,
+        "pts": 60.22,
+        "pts_rank": 82,
+        "draft_pool": 164,
+        "manager": "Jason"
+      }
+    ],
+    "offensive_coordinator_of_the_year": [
+      {
+        "manager": "Kevin",
+        "ppg": 25.44,
+        "total": 356.2,
+        "games": 14
+      },
+      {
+        "manager": "whitaker",
+        "ppg": 24.68,
+        "total": 345.52,
+        "games": 14
+      },
+      {
+        "manager": "Brice",
+        "ppg": 22.84,
+        "total": 319.76,
+        "games": 14
+      },
+      {
+        "manager": "Jason",
+        "ppg": 22.72,
+        "total": 318.12,
+        "games": 14
+      },
+      {
+        "manager": "Ryan",
+        "ppg": 20.08,
+        "total": 281.1,
+        "games": 14
+      }
+    ],
+    "defensive_coordinator_of_the_year": [
+      {
+        "manager": "Carter",
+        "ppg": 9.57,
+        "total": 134.0,
+        "games": 14
+      },
+      {
+        "manager": "pb",
+        "ppg": 9.43,
+        "total": 132.0,
+        "games": 14
+      },
+      {
+        "manager": "Michael",
+        "ppg": 8.86,
+        "total": 124.0,
+        "games": 14
+      },
+      {
+        "manager": "Jason",
+        "ppg": 8.86,
+        "total": 124.0,
+        "games": 14
+      },
+      {
+        "manager": "whitaker",
+        "ppg": 8.57,
+        "total": 120.0,
+        "games": 14
+      }
+    ],
+    "special_teams_coordinator_of_the_year": [
+      {
+        "manager": "Zac",
+        "ppg": 5.51,
+        "total": 77.2,
+        "games": 14
+      },
+      {
+        "manager": "Ryan",
+        "ppg": 5.4,
+        "total": 75.6,
+        "games": 14
+      },
+      {
+        "manager": "Kevin",
+        "ppg": 5.31,
+        "total": 74.4,
+        "games": 14
+      },
+      {
+        "manager": "Megan",
+        "ppg": 4.67,
+        "total": 65.4,
+        "games": 14
+      },
+      {
+        "manager": "Kat",
+        "ppg": 4.59,
+        "total": 64.2,
+        "games": 14
+      }
+    ],
+    "qb_of_the_year": [
+      {
+        "player": "Lamar Jackson",
+        "pts": 335.4,
+        "manager": "Kevin"
+      },
+      {
+        "player": "Josh Allen",
+        "pts": 317.62,
+        "manager": "whitaker"
+      },
+      {
+        "player": "Joe Burrow",
+        "pts": 300.54,
+        "manager": "Brice"
+      },
+      {
+        "player": "Jalen Hurts",
+        "pts": 234.8,
+        "manager": "Jason"
+      },
+      {
+        "player": "Patrick Mahomes",
+        "pts": 231.56,
+        "manager": "Carter"
+      }
+    ],
+    "rb_of_the_year": [
+      {
+        "player": "Saquon Barkley",
+        "pts": 307.0,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Derrick Henry",
+        "pts": 257.2,
+        "manager": "Michael"
+      },
+      {
+        "player": "Alvin Kamara",
+        "pts": 249.3,
+        "manager": "Jason"
+      },
+      {
+        "player": "Bijan Robinson",
+        "pts": 246.8,
+        "manager": "whitaker"
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "pts": 239.8,
+        "manager": "pb"
+      }
+    ],
+    "wr_of_the_year": [
+      {
+        "player": "Ja'Marr Chase",
+        "pts": 325.4,
+        "manager": "Carter"
+      },
+      {
+        "player": "Justin Jefferson",
+        "pts": 239.18,
+        "manager": "Kevin"
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "pts": 226.58,
+        "manager": "Brice"
+      },
+      {
+        "player": "CeeDee Lamb",
+        "pts": 222.3,
+        "manager": "Megan"
+      },
+      {
+        "player": "Terry McLaurin",
+        "pts": 189.6,
+        "manager": "Brice"
+      }
+    ],
+    "te_of_the_year": [
+      {
+        "player": "Brock Bowers",
+        "pts": 176.4,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Trey McBride",
+        "pts": 166.0,
+        "manager": "Kevin"
+      },
+      {
+        "player": "Travis Kelce",
+        "pts": 158.3,
+        "manager": "Carter"
+      },
+      {
+        "player": "George Kittle",
+        "pts": 143.0,
+        "manager": "Jason"
+      },
+      {
+        "player": "David Njoku",
+        "pts": 123.4,
+        "manager": "Zac"
+      }
+    ],
+    "kicker_of_the_year": [
+      {
+        "player": "Ka'imi Fairbairn",
+        "pts": 73.7,
+        "manager": "Zac"
+      },
+      {
+        "player": "Chris Boswell",
+        "pts": 68.9,
+        "manager": "Kevin"
+      },
+      {
+        "player": "Brandon Aubrey",
+        "pts": 68.8,
+        "manager": "Brice"
+      },
+      {
+        "player": "Younghoe Koo",
+        "pts": 53.7,
+        "manager": "Tommy"
+      },
+      {
+        "player": "Justin Tucker",
+        "pts": 53.4,
+        "manager": "Jason"
+      }
+    ],
+    "dst_of_the_year": [
+      {
+        "team_def": "Steelers - DEF",
+        "pts": 132.0,
+        "manager": "Carter"
+      },
+      {
+        "team_def": "Vikings - DEF",
+        "pts": 104.0,
+        "manager": "Michael"
+      },
+      {
+        "team_def": "Bills - DEF",
+        "pts": 90.0,
+        "manager": "whitaker"
+      },
+      {
+        "team_def": "49ers - DEF",
+        "pts": 86.0,
+        "manager": "Kat"
+      },
+      {
+        "team_def": "Chargers - DEF",
+        "pts": 86.0,
+        "manager": "Tommy"
+      }
+    ]
+  },
+  "award_names": {
+    "regular_season_mvp": "Mia Toretto-O'Connor Most Valuable Player Award",
+    "rookie_of_the_year": "Twinkie Rookie of the Year",
+    "most_improved_player": "Jakob Toretto Most Improved Player Award",
+    "draft_steal_of_the_year": "Brixton Lore \"Heist of the Draft\" Award",
+    "waiver_pickup_of_the_year": "Cipher \"Waiver Wire Heist\" Award",
+    "biggest_blowout": "Biggest Blowout Award",
+    "comeback_of_the_year": "Comeback of the Year Award",
+    "qb_of_the_year": "Deckard Shaw QB Award",
+    "rb_of_the_year": "Owen Shaw RB Award",
+    "wr_of_the_year": "Magdalene Shaw WR Award",
+    "te_of_the_year": "Hattie Shaw TE Award",
+    "dst_of_the_year": "Agent Stasiek Defending the Country Award",
+    "kicker_of_the_year": "Giselle Yashar Award",
+    "bench_whisperer": "Han Lue Best Lineup Setter Award",
+    "mvp": "Mia Toretto-O'Connor Most Valuable Player Award",
+    "offensive_coordinator_of_the_year": "Tej Parker Offensive Coordinator Award",
+    "defensive_coordinator_of_the_year": "Luke Hobbs Defensive Coordinator Award",
+    "special_teams_coordinator_of_the_year": "Roman Pearce Special Teams Coordinator Award"
+  },
+  "award_descriptions": {
+    "mvp": "Most points scored by any single player while in a starting lineup. Regular season only, weeks 1–14.",
+    "bench_whisperer": "Lowest average bench regret — the points a manager left sitting on his bench each week. Regular season only, weeks 1–14.",
+    "most_improved_player": "Biggest year-over-year jump in started points, among players started in both seasons. Regular season only, weeks 1–14.",
+    "rookie_of_the_year": "Most started points by an NFL rookie, per that season's league-wide rookie class. Regular season only, weeks 1–14.",
+    "draft_steal_of_the_year": "Widest gap between where a player was drafted and where he finished in scoring. Keepers excluded. Regular season only, weeks 1–14.",
+    "waiver_pickup_of_the_year": "Most started points from a player his manager neither drafted nor traded for. Regular season only, weeks 1–14.",
+    "comeback_of_the_year": "Biggest deficit erased on Monday night to steal a win. Regular season only, weeks 1–14.",
+    "biggest_blowout": "Widest margin of victory in a single matchup. Regular season only, weeks 1–14.",
+    "qb_of_the_year": "“Love my teammates, god is good!” Most started points by one quarterback. Regular season only, weeks 1–14.",
+    "rb_of_the_year": "“Keep grindin.” Most started points by one running back, flex starts included. Regular season only, weeks 1–14.",
+    "wr_of_the_year": "“The enemy speaks kindly and holds a knife.” Most started points by one wide receiver, flex starts included. Regular season only, weeks 1–14.",
+    "te_of_the_year": "“Derp.” Most started points by one tight end, flex starts included. Regular season only, weeks 1–14.",
+    "dst_of_the_year": "Most started points by a single team defense. Regular season only, weeks 1–14.",
+    "kicker_of_the_year": "Most started points by a single kicker. Regular season only, weeks 1–14.",
+    "offensive_coordinator_of_the_year": "Best points per game out of the QB slot — rewards streaming the position well, not owning one great arm. Regular season only, weeks 1–14.",
+    "defensive_coordinator_of_the_year": "Best points per game out of the DEF slot — rewards playing matchups, not holding one elite defense. Regular season only, weeks 1–14.",
+    "special_teams_coordinator_of_the_year": "Best points per game out of the K slot — rewards streaming kickers into good spots. Regular season only, weeks 1–14."
+  },
+  "all_division": {
+    "oconner": {
+      "label": "Brian O'Conner Memorial Division",
+      "managers": [
+        "Brice",
+        "Carter",
+        "Kat",
+        "Kevin",
+        "Michael",
+        "pb"
+      ],
+      "firstTeam": [
+        {
+          "slot": "QB",
+          "player": "Lamar Jackson",
+          "pos": "QB",
+          "pts": 389.3,
+          "manager": "Kevin"
+        },
+        {
+          "slot": "RB",
+          "player": "Jahmyr Gibbs",
+          "pos": "RB",
+          "pts": 293.6,
+          "manager": "pb"
+        },
+        {
+          "slot": "RB",
+          "player": "Derrick Henry",
+          "pos": "RB",
+          "pts": 285.8,
+          "manager": "Michael"
+        },
+        {
+          "slot": "WR",
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "pts": 366.2,
+          "manager": "Carter"
+        },
+        {
+          "slot": "WR",
+          "player": "Justin Jefferson",
+          "pos": "WR",
+          "pts": 292.78,
+          "manager": "Kevin"
+        },
+        {
+          "slot": "TE",
+          "player": "Trey McBride",
+          "pos": "TE",
+          "pts": 201.3,
+          "manager": "Kevin"
+        },
+        {
+          "slot": "FLEX",
+          "player": "De'Von Achane",
+          "pos": "RB",
+          "pts": 278.1,
+          "manager": "Carter"
+        },
+        {
+          "slot": "K",
+          "player": "Chris Boswell",
+          "pos": "K",
+          "pts": 74.4,
+          "manager": "Kevin"
+        },
+        {
+          "slot": "DEF",
+          "player": "Steelers - DEF",
+          "pos": "DEF",
+          "pts": 141.0,
+          "manager": "Carter"
+        }
+      ],
+      "secondTeam": [
+        {
+          "slot": "QB",
+          "player": "Joe Burrow",
+          "pos": "QB",
+          "pts": 359.5,
+          "manager": "Brice"
+        },
+        {
+          "slot": "RB",
+          "player": "Chuba Hubbard",
+          "pos": "RB",
+          "pts": 240.4,
+          "manager": "Kat"
+        },
+        {
+          "slot": "RB",
+          "player": "Joe Mixon",
+          "pos": "RB",
+          "pts": 232.8,
+          "manager": "pb"
+        },
+        {
+          "slot": "WR",
+          "player": "Amon-Ra St. Brown",
+          "pos": "WR",
+          "pts": 265.58,
+          "manager": "Brice"
+        },
+        {
+          "slot": "WR",
+          "player": "Jaxon Smith-Njigba",
+          "pos": "WR",
+          "pts": 217.8,
+          "manager": "Kat"
+        },
+        {
+          "slot": "TE",
+          "player": "Travis Kelce",
+          "pos": "TE",
+          "pts": 173.0,
+          "manager": "Carter"
+        },
+        {
+          "slot": "FLEX",
+          "player": "James Cook III",
+          "pos": "RB",
+          "pts": 228.8,
+          "manager": "Brice"
+        },
+        {
+          "slot": "K",
+          "player": "Wil Lutz",
+          "pos": "K",
+          "pts": 55.8,
+          "manager": "Michael"
+        },
+        {
+          "slot": "DEF",
+          "player": "Vikings - DEF",
+          "pos": "DEF",
+          "pts": 118.0,
+          "manager": "Michael"
+        }
+      ]
+    },
+    "toretto": {
+      "label": "Toretto Family Division",
+      "managers": [
+        "Jason",
+        "Megan",
+        "Ryan",
+        "Tommy",
+        "Zac",
+        "whitaker"
+      ],
+      "firstTeam": [
+        {
+          "slot": "QB",
+          "player": "Josh Allen",
+          "pos": "QB",
+          "pts": 395.04,
+          "manager": "whitaker"
+        },
+        {
+          "slot": "RB",
+          "player": "Saquon Barkley",
+          "pos": "RB",
+          "pts": 363.3,
+          "manager": "Tommy"
+        },
+        {
+          "slot": "RB",
+          "player": "Bijan Robinson",
+          "pos": "RB",
+          "pts": 310.4,
+          "manager": "whitaker"
+        },
+        {
+          "slot": "WR",
+          "player": "Malik Nabers",
+          "pos": "WR",
+          "pts": 257.8,
+          "manager": "Zac"
+        },
+        {
+          "slot": "WR",
+          "player": "CeeDee Lamb",
+          "pos": "WR",
+          "pts": 240.8,
+          "manager": "Megan"
+        },
+        {
+          "slot": "TE",
+          "player": "Brock Bowers",
+          "pos": "TE",
+          "pts": 218.5,
+          "manager": "Tommy"
+        },
+        {
+          "slot": "FLEX",
+          "player": "Josh Jacobs",
+          "pos": "RB",
+          "pts": 261.1,
+          "manager": "Megan"
+        },
+        {
+          "slot": "K",
+          "player": "Ka'imi Fairbairn",
+          "pos": "K",
+          "pts": 78.2,
+          "manager": "Zac"
+        },
+        {
+          "slot": "DEF",
+          "player": "Bills - DEF",
+          "pos": "DEF",
+          "pts": 104.0,
+          "manager": "whitaker"
+        }
+      ],
+      "secondTeam": [
+        {
+          "slot": "QB",
+          "player": "Brock Purdy",
+          "pos": "QB",
+          "pts": 287.7,
+          "manager": "Ryan"
+        },
+        {
+          "slot": "RB",
+          "player": "Kyren Williams",
+          "pos": "RB",
+          "pts": 258.9,
+          "manager": "Jason"
+        },
+        {
+          "slot": "RB",
+          "player": "James Conner",
+          "pos": "RB",
+          "pts": 256.8,
+          "manager": "Tommy"
+        },
+        {
+          "slot": "WR",
+          "player": "A.J. Brown",
+          "pos": "WR",
+          "pts": 221.9,
+          "manager": "Ryan"
+        },
+        {
+          "slot": "WR",
+          "player": "Davante Adams",
+          "pos": "WR",
+          "pts": 210.3,
+          "manager": "Ryan"
+        },
+        {
+          "slot": "TE",
+          "player": "George Kittle",
+          "pos": "TE",
+          "pts": 180.8,
+          "manager": "Jason"
+        },
+        {
+          "slot": "FLEX",
+          "player": "Alvin Kamara",
+          "pos": "RB",
+          "pts": 249.3,
+          "manager": "Jason"
+        },
+        {
+          "slot": "K",
+          "player": "Younghoe Koo",
+          "pos": "K",
+          "pts": 58.0,
+          "manager": "Tommy"
+        },
+        {
+          "slot": "DEF",
+          "player": "Bears - DEF",
+          "pos": "DEF",
+          "pts": 97.0,
+          "manager": "Megan"
+        }
+      ]
+    }
+  }
+}
