@@ -14,7 +14,7 @@ interface SeasonAwardsGridProps {
 
 // Display order matches the mock's reading order (manager-relevant first, then player awards).
 const AWARD_ORDER = [
-  'mvp', 'bench_whisperer', 'most_improved_player', 'rookie_of_the_year',
+  'mvp', 'letty_ortiz_award', 'bench_whisperer', 'most_improved_player', 'rookie_of_the_year',
   'draft_steal_of_the_year', 'waiver_pickup_of_the_year', 'comeback_of_the_year', 'biggest_blowout',
   'qb_of_the_year', 'rb_of_the_year', 'wr_of_the_year', 'te_of_the_year',
   'dst_of_the_year', 'kicker_of_the_year',
@@ -48,6 +48,13 @@ function finalistHeadline(f: AwardFinalist, awardKey: string): { name: string; s
   if (f.teamDef) {
     return { name: f.teamDef, sub: f.pts !== undefined ? `${f.pts.toFixed(2)} pts` : '' }
   }
+  if (f.pf !== undefined) {
+    // Letty Ortiz Award -- season points leader. Manager-level, so it takes
+    // the manager-logo row treatment like bench whisperer / the coordinators.
+    const m = getManager(f.manager!)
+    const avg = f.pfAvg !== undefined ? ` · ${f.pfAvg.toFixed(2)}/gm` : ''
+    return { name: m?.name ?? f.manager ?? '—', sub: `${f.pf.toFixed(2)} pts${avg}` }
+  }
   if (f.ppg !== undefined) {
     // coordinator-of-the-year: manager-level slot streaming metric
     const m = getManager(f.manager!)
@@ -77,24 +84,24 @@ function finalistHeadline(f: AwardFinalist, awardKey: string): { name: string; s
 function AwardCard({ year, awardKey, name, description, finalists, partial }: { year: number; awardKey: string; name: string; description?: string; finalists: AwardFinalist[]; partial: boolean }) {
   const isPhotoAward = PHOTO_AWARD_KEYS.has(awardKey)
   // Rank-1 tie detection: same top value on the metric this award ranks by.
-  const metric = (f: AwardFinalist) => f.pts ?? f.ppg ?? f.delta ?? f.margin ?? f.deficitOverAvg
+  const metric = (f: AwardFinalist) => f.pts ?? f.ppg ?? f.pf ?? f.delta ?? f.margin ?? f.deficitOverAvg
   const tiedAtOne = isPhotoAward && finalists.length > 1
     && metric(finalists[0]) !== undefined
     && Math.abs((metric(finalists[0]) ?? 0) - (metric(finalists[1]) ?? Infinity)) < 0.005
 
   return (
     <div style={{ backgroundColor: '#262626', border: '1px solid #393939', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ padding: '12px 14px', borderBottom: '1px solid #393939' }}>
+      <div style={{ padding: '14px 16px', borderBottom: '1px solid #393939' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
-          <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 12, color: '#f4f4f4', lineHeight: '16px' }}>
+          <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, color: '#f4f4f4', lineHeight: '18px' }}>
             {name}
           </span>
           {partial && <Badge type="info" label="Winner only" size="sm" />}
         </div>
         {description && (
           <p style={{
-            fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 11,
-            color: '#8d8d8d', lineHeight: '15px', margin: '4px 0 0',
+            fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 12,
+            color: '#8d8d8d', lineHeight: '16px', margin: '6px 0 0',
           }}>
             {description}
           </p>
@@ -110,29 +117,29 @@ function AwardCard({ year, awardKey, name, description, finalists, partial }: { 
           const suppressManagerPrefix = awardKey === 'comeback_of_the_year' || awardKey === 'biggest_blowout'
           const isCoWinnerRow = tiedAtOne && i <= 1
           return (
-            <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '7px 14px', borderBottom: i === finalists.length - 1 ? 'none' : '1px solid #2e2e2e' }}>
-              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: i === 0 || isCoWinnerRow ? '#f1c21b' : '#6f6f6f', width: 12, flexShrink: 0 }}>
+            <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '9px 16px', borderBottom: i === finalists.length - 1 ? 'none' : '1px solid #2e2e2e' }}>
+              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: i === 0 || isCoWinnerRow ? '#f1c21b' : '#6f6f6f', width: 14, flexShrink: 0 }}>
                 {isCoWinnerRow ? '1' : f.rank}
               </span>
               {!isPhotoAward && (
-                <AssetImage src={manager?.logoSmall ?? ''} alt={fname} size={22} fallback={<div style={{ width: 22, height: 22, backgroundColor: '#393939' }} />} />
+                <AssetImage src={manager?.logoSmall ?? ''} alt={fname} size={26} fallback={<div style={{ width: 26, height: 26, backgroundColor: '#393939' }} />} />
               )}
               {showPhoto && (
-                <AssetImage src={photoSrc ?? ''} alt={fname} size={22} fallback={<div style={{ width: 22, height: 22, backgroundColor: '#393939' }} />} />
+                <AssetImage src={photoSrc ?? ''} alt={fname} size={26} fallback={<div style={{ width: 26, height: 26, backgroundColor: '#393939' }} />} />
               )}
               <div style={{ minWidth: 0, flex: 1 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: i === 0 || isCoWinnerRow ? 600 : 400, fontSize: 11, color: i === 0 || isCoWinnerRow ? '#f4f4f4' : '#c6c6c6', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: i === 0 || isCoWinnerRow ? 600 : 400, fontSize: 14, lineHeight: '18px', color: i === 0 || isCoWinnerRow ? '#f4f4f4' : '#c6c6c6', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                     {fname}
                   </span>
                   {isCoWinnerRow && <Badge type="asterisk" size="sm" label="Co-winner" />}
                 </div>
                 <div style={{
-                  fontFamily: "'IBM Plex Mono', monospace", fontSize: 10, color: manager?.primaryColor ?? '#6f6f6f',
+                  fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: manager?.primaryColor ?? '#6f6f6f',
                   whiteSpace: suppressManagerPrefix ? 'normal' : 'nowrap',
                   overflow: suppressManagerPrefix ? 'visible' : 'hidden',
                   textOverflow: suppressManagerPrefix ? 'clip' : 'ellipsis',
-                  lineHeight: suppressManagerPrefix ? '14px' : undefined,
+                  lineHeight: '16px',
                 }}>
                   {manager && !suppressManagerPrefix ? `${manager.name} · ` : ''}{sub}
                 </div>
@@ -150,15 +157,15 @@ export default function SeasonAwardsGrid({ year, awardNames, awardDescriptions, 
   const keys = AWARD_ORDER.filter(k => awardsTop5[k]?.length)
   return (
     <div>
-      <h3 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, color: '#f4f4f4', margin: '0 0 4px' }}>
+      <h3 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '0 0 4px' }}>
         Season Awards
       </h3>
       {awardsPartial.length > 0 && (
-        <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d', margin: '0 0 16px' }}>
+        <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, lineHeight: '16px', color: '#8d8d8d', margin: '0 0 16px' }}>
           {awardsPartial.length} of {keys.length} award{awardsPartial.length === 1 ? '' : 's'} {awardsPartial.length === 1 ? 'shows' : 'show'} the confirmed winner only — the underlying data doesn't support a full top-5 yet.
         </p>
       )}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 12, marginTop: awardsPartial.length ? 0 : 16 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(460px, 1fr))', gap: 12, marginTop: awardsPartial.length ? 0 : 16 }}>
         {keys.map(key => (
           <AwardCard key={key} year={year} awardKey={key} name={awardNames[key] ?? key} description={awardDescriptions[key]} finalists={awardsTop5[key]} partial={partialSet.has(key)} />
         ))}

@@ -21,7 +21,7 @@ function TeamColumn({ title, color, slots }: { title: string; color: string; slo
   return (
     <div style={{ backgroundColor: '#262626', border: '1px solid #393939', borderTop: `3px solid ${color}` }}>
       <div style={{ padding: '10px 14px', borderBottom: '1px solid #393939' }}>
-        <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 12, color }}>
+        <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, lineHeight: '18px', color }}>
           {title}
         </span>
       </div>
@@ -30,18 +30,18 @@ function TeamColumn({ title, color, slots }: { title: string; color: string; slo
           const manager = s.manager ? getManager(s.manager) : undefined
           return (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '6px 14px', borderBottom: i === slots.length - 1 ? 'none' : '1px solid #2e2e2e' }}>
-              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10, color: '#6f6f6f', width: 34, flexShrink: 0 }}>
+              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: '#6f6f6f', width: 40, flexShrink: 0 }}>
                 {s.slot}
               </span>
               <div style={{ minWidth: 0, flex: 1 }}>
-                <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#f4f4f4', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, lineHeight: '18px', color: '#f4f4f4', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                   {s.player ?? '—'}
                 </div>
-                <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10, color: manager?.primaryColor ?? '#6f6f6f' }}>
+                <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: manager?.primaryColor ?? '#6f6f6f' }}>
                   {manager?.name ?? '—'}
                 </div>
               </div>
-              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: '#c6c6c6', fontVariantNumeric: 'tabular-nums', flexShrink: 0 }}>
+              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, lineHeight: '18px', color: '#c6c6c6', fontVariantNumeric: 'tabular-nums', flexShrink: 0 }}>
                 {s.pts !== null && s.pts !== undefined ? s.pts.toFixed(1) : '—'}
               </span>
             </div>
@@ -63,10 +63,10 @@ export default function AllDivisionTeams({ allDivision }: AllDivisionTeamsProps)
   }
   return (
     <div>
-      <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, color: '#f4f4f4', margin: '0 0 4px' }}>
+      <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '0 0 4px' }}>
         All-Division Teams
       </h2>
-      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d', margin: '0 0 16px' }}>
+      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, lineHeight: '16px', color: '#8d8d8d', margin: '0 0 16px' }}>
         Total started points across the full season (regular season + playoffs), QB · RB · RB · WR · WR · TE · FLEX · K · DEF. FLEX is the top RB/WR/TE not already on the team.
       </p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 12 }}>

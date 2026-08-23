@@ -119,6 +119,9 @@ export interface AwardFinalist {
   ppg?: number
   total?: number
   games?: number
+  // Letty Ortiz Award (season points leader) shape
+  pf?: number
+  pfAvg?: number
 }
 
 export interface AllDivisionSlot {
@@ -199,6 +202,7 @@ interface RawAwardFinalist {
   delta?: number; this_season_pts?: number; prior_season_pts?: number
   pick_overall?: number; pts_rank?: number; draft_pool?: number
   ppg?: number; total?: number; games?: number
+  pf?: number; pf_avg?: number
 }
 
 interface RawAllDivisionSlot {
@@ -262,7 +266,7 @@ function convertBracket(b: RawBracket): Bracket {
 // winners exactly. The awardsPartial machinery below is kept (not deleted)
 // so a future award that genuinely can't be ranked still degrades gracefully.
 const FULL_TOP5_AWARDS = new Set([
-  'rookie_of_the_year',
+  'rookie_of_the_year', 'letty_ortiz_award',
   'mvp', 'qb_of_the_year', 'rb_of_the_year', 'wr_of_the_year', 'te_of_the_year',
   'kicker_of_the_year', 'dst_of_the_year', 'bench_whisperer', 'comeback_of_the_year',
   'biggest_blowout', 'most_improved_player', 'waiver_pickup_of_the_year',
@@ -284,6 +288,7 @@ function convertFinalist(a: RawAwardFinalist, rank: number): AwardFinalist {
     delta: a.delta, thisSeasonPts: a.this_season_pts, priorSeasonPts: a.prior_season_pts,
     pickOverall: a.pick_overall, ptsRank: a.pts_rank, draftPool: a.draft_pool,
     ppg: a.ppg, total: a.total, games: a.games,
+    pf: a.pf, pfAvg: a.pf_avg,
   }
 }
 

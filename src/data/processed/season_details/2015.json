@@ -519,17 +519,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Magnetron",
-            "manager": "Jay",
-            "rank": 1
+            "team": "Benny Football",
+            "manager": "Benedict",
+            "rank": 3
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Benny Football",
-            "manager": "Benedict",
-            "rank": 3
+            "team": "Magnetron",
+            "manager": "Jay",
+            "rank": 1
           }
         ]
       },
@@ -1150,35 +1150,62 @@
         "manager": "Jay"
       }
     ],
+    "letty_ortiz_award": [
+      {
+        "manager": "Jay",
+        "pf": 1719.12,
+        "pf_avg": 132.24
+      },
+      {
+        "manager": "pb",
+        "pf": 1626.42,
+        "pf_avg": 125.11
+      },
+      {
+        "manager": "Carter",
+        "pf": 1565.06,
+        "pf_avg": 120.39
+      },
+      {
+        "manager": "Brice",
+        "pf": 1558.38,
+        "pf_avg": 119.88
+      },
+      {
+        "manager": "Tommy",
+        "pf": 1553.1,
+        "pf_avg": 119.47
+      }
+    ],
     "offensive_coordinator_of_the_year": [
       {
-        "manager": "Sara",
-        "ppg": 24.81,
-        "total": 322.52,
+        "manager": "pb",
+        "ppg": 40.39,
+        "total": 525.02,
         "games": 13
       },
       {
         "manager": "Jay",
-        "ppg": 23.68,
-        "total": 307.82,
-        "games": 13
-      },
-      {
-        "manager": "whitaker",
-        "ppg": 21.67,
-        "total": 281.72,
-        "games": 13
-      },
-      {
-        "manager": "Carter",
-        "ppg": 20.67,
-        "total": 268.76,
+        "ppg": 38.05,
+        "total": 494.62,
         "games": 13
       },
       {
         "manager": "Ryan",
-        "ppg": 20.53,
-        "total": 266.94,
+        "ppg": 36.06,
+        "total": 468.84,
+        "games": 13
+      },
+      {
+        "manager": "Sara",
+        "ppg": 35.45,
+        "total": 460.82,
+        "games": 13
+      },
+      {
+        "manager": "Kyle",
+        "ppg": 34.48,
+        "total": 448.24,
         "games": 13
       }
     ],
@@ -1425,12 +1452,14 @@
     "kicker_of_the_year": "Giselle Yashar Award",
     "bench_whisperer": "Han Lue Best Lineup Setter Award",
     "mvp": "Mia Toretto-O'Connor Most Valuable Player Award",
+    "letty_ortiz_award": "Letty Ortiz Award for Excellence in Roster Management",
     "offensive_coordinator_of_the_year": "Tej Parker Offensive Coordinator Award",
     "defensive_coordinator_of_the_year": "Luke Hobbs Defensive Coordinator Award",
     "special_teams_coordinator_of_the_year": "Roman Pearce Special Teams Coordinator Award"
   },
   "award_descriptions": {
     "mvp": "Most points scored by any single player while in a starting lineup. Regular season only, weeks 1–13.",
+    "letty_ortiz_award": "Most points scored across the season, whatever the win-loss record says. Regular season only, weeks 1–13.",
     "bench_whisperer": "Lowest average bench regret — the points a manager left sitting on his bench each week. Regular season only, weeks 1–13.",
     "most_improved_player": "Biggest year-over-year jump in started points, among players started in both seasons. Regular season only, weeks 1–13.",
     "rookie_of_the_year": "Most started points by an NFL rookie, per that season's league-wide rookie class. Regular season only, weeks 1–13.",
@@ -1444,7 +1473,7 @@
     "te_of_the_year": "“Derp.” Most started points by one tight end, flex starts included. Regular season only, weeks 1–13.",
     "dst_of_the_year": "Most started points by a single team defense. Regular season only, weeks 1–13.",
     "kicker_of_the_year": "Most started points by a single kicker. Regular season only, weeks 1–13.",
-    "offensive_coordinator_of_the_year": "Best points per game out of the QB slot — rewards streaming the position well, not owning one great arm. Regular season only, weeks 1–13.",
+    "offensive_coordinator_of_the_year": "Best points per game out of the QB and FLEX slots combined — the two spots with the widest choice, so it rewards hitting on the call every week. Regular season only, weeks 1–13.",
     "defensive_coordinator_of_the_year": "Best points per game out of the DEF slot — rewards playing matchups, not holding one elite defense. Regular season only, weeks 1–13.",
     "special_teams_coordinator_of_the_year": "Best points per game out of the K slot — rewards streaming kickers into good spots. Regular season only, weeks 1–13."
   },

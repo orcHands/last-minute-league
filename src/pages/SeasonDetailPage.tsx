@@ -15,7 +15,7 @@ export default function SeasonDetailPage() {
     return (
       <div style={{ backgroundColor: '#161616', minHeight: '100vh', padding: '48px 16px' }}>
         <div style={{ maxWidth: 1904, margin: '0 auto' }}>
-          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 28, color: '#f4f4f4' }}>
+          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 28, lineHeight: '36px', color: '#f4f4f4' }}>
             {yearParam} — detail not built yet
           </h1>
           <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#8d8d8d' }}>
@@ -36,8 +36,8 @@ export default function SeasonDetailPage() {
     <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
       <div style={{ borderBottom: '1px solid #393939', padding: '32px 16px' }}>
         <div style={{ maxWidth: 1904, margin: '0 auto' }}>
-          <Link to="/seasons" style={{ color: '#78a9ff', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 13, textDecoration: 'none' }}>← Seasons</Link>
-          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 32, color: '#f4f4f4', margin: '8px 0 0' }}>
+          <Link to="/seasons" style={{ color: '#78a9ff', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, lineHeight: '18px', textDecoration: 'none' }}>← Seasons</Link>
+          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 32, lineHeight: '40px', color: '#f4f4f4', margin: '8px 0 0' }}>
             {year} Season
           </h1>
         </div>
@@ -59,7 +59,7 @@ export default function SeasonDetailPage() {
         </section>
 
         <section>
-          <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, color: '#f4f4f4', margin: '0 0 16px' }}>
+          <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '0 0 16px' }}>
             Standings
           </h2>
           <SeasonDivisionStandings divisions={detail.divisions} />

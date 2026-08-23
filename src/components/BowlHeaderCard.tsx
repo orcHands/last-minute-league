@@ -36,11 +36,11 @@ export default function BowlHeaderCard({ bowl, year, venue }: BowlHeaderCardProp
       </div>
 
       <div style={{ padding: '0 16px 12px', textAlign: 'center' }}>
-        <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 13, color: '#f4f4f4', lineHeight: '17px' }}>
+        <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, color: '#f4f4f4', lineHeight: '18px' }}>
           {bowl.bowlLabel}
         </div>
         {venue && (
-          <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: '#8d8d8d', marginTop: 6 }}>
+          <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: '#8d8d8d', marginTop: 6 }}>
             {venue.venue} · {venue.city}, {venue.state}
             <br />
             Attendance {venue.attendance.toLocaleString()}
@@ -64,15 +64,15 @@ export default function BowlHeaderCard({ bowl, year, venue }: BowlHeaderCardProp
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
               <AssetImage src={row.manager!.logoSmall} alt={row.manager!.name} size={20} fallback={<div style={{ width: 20, height: 20, backgroundColor: '#393939' }} />} />
               <div style={{ minWidth: 0 }}>
-                <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: row.win ? 600 : 400, fontSize: 12, color: row.win ? '#f4f4f4' : '#8d8d8d', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: row.win ? 600 : 400, fontSize: 14, lineHeight: '18px', color: row.win ? '#f4f4f4' : '#8d8d8d', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                   {row.manager!.name}
                 </div>
-                <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10, color: '#6f6f6f', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: '#6f6f6f', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                   {row.team}
                 </div>
               </div>
             </div>
-            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 16, color: row.win ? '#f4f4f4' : '#8d8d8d', fontVariantNumeric: 'tabular-nums' }}>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 20, lineHeight: '28px', color: row.win ? '#f4f4f4' : '#8d8d8d', fontVariantNumeric: 'tabular-nums' }}>
               {Number(row.score).toFixed(2)}
             </span>
           </div>
@@ -88,13 +88,13 @@ export default function BowlHeaderCard({ bowl, year, venue }: BowlHeaderCardProp
             fallback={<div style={{ width: 36, height: 36, backgroundColor: '#393939', borderRadius: '50%' }} />}
           />
           <div style={{ minWidth: 0 }}>
-            <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 10, color: '#6f6f6f', letterSpacing: '0.16em', textTransform: 'uppercase' }}>
+            <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, lineHeight: '16px', color: '#6f6f6f', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
               Most Valuable Player
             </div>
-            <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 12, color: '#f4f4f4' }}>
+            <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, lineHeight: '18px', color: '#f4f4f4' }}>
               {bowl.mvp.position} {bowl.mvp.player}
             </div>
-            <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: mvpManager.primaryColor }}>
+            <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: mvpManager.primaryColor }}>
               {mvpManager.name} · {bowl.mvp.points.toFixed(2)} pts
             </div>
           </div>
