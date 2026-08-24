@@ -4,7 +4,7 @@ import { bowlLogoUrl, bowlLogoBoxHeight } from '../data/bowlAssets'
 import { bowlMvpPhotoUrl } from '../data/seasonAwardPhotos'
 import AssetImage from './AssetImage'
 
-const BOWL_LOGO_TARGET_HEIGHT = 72 // matches Wing Bowl's current apparent size
+const BOWL_LOGO_TARGET_HEIGHT = 300
 
 interface BowlHeaderCardProps {
   bowl: BowlCard
@@ -25,13 +25,14 @@ export default function BowlHeaderCard({ bowl, year, venue }: BowlHeaderCardProp
 
   return (
     <div style={{ backgroundColor: '#262626', border: '1px solid #393939', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ padding: '20px 16px 12px', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', height: BOWL_LOGO_TARGET_HEIGHT + 32 }}>
+      <div style={{ padding: '24px 8px', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: logoBoxHeight + 48 }}>
         <AssetImage
           src={logo ?? ''}
           alt={bowl.bowl}
           width={logoBoxHeight * 1.4}
           height={logoBoxHeight}
-          fallback={<div style={{ width: 72, height: 72, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 28 }}>🏆</div>}
+          style={{ width: '100%', height: logoBoxHeight, maxWidth: logoBoxHeight * 1.4 }}
+          fallback={<div style={{ minHeight: 300, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 24, fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 20, lineHeight: '28px', color: '#c6c6c6', textAlign: 'center' }}>{bowl.bowl}</div>}
         />
       </div>
 

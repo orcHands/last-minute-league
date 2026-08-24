@@ -10,10 +10,11 @@ interface AssetImageProps {
   width?: number
   height?: number
   fallback?: React.ReactNode
+  style?: React.CSSProperties
 }
 
 /** Small image with graceful fallback — used for division logos, trophy icons, etc. */
-export default function AssetImage({ src, alt, size = 20, width, height, fallback = null }: AssetImageProps) {
+export default function AssetImage({ src, alt, size = 20, width, height, fallback = null, style }: AssetImageProps) {
   const [error, setError] = useState(false)
   if (error) return <>{fallback}</>
   return (
@@ -22,7 +23,7 @@ export default function AssetImage({ src, alt, size = 20, width, height, fallbac
       alt={alt}
       width={width ?? size}
       height={height ?? size}
-      style={{ objectFit: 'contain', flexShrink: 0 }}
+      style={{ objectFit: 'contain', flexShrink: 0, ...style }}
       onError={() => setError(true)}
     />
   )

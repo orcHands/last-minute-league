@@ -3,8 +3,6 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { SEASONS, getManager, SEASON_DETAIL_YEARS } from '../data/league'
 import SeasonDetailBody from '../components/SeasonDetailBody'
 import Badge from '../components/Badge'
-import AssetImage from '../components/AssetImage'
-import { withBase } from '../lib/assetPath'
 
 export default function Seasons() {
   // Selection lives in the URL rather than component state (round 5), so a
@@ -46,7 +44,7 @@ export default function Seasons() {
           gap: 1,
           backgroundColor: '#393939',
           border: '1px solid #393939',
-          marginBottom: 48,
+          marginBottom: selected ? 0 : 48,
         }}>
           {SEASONS.map(s => {
             const champion = getManager(s.champion)
@@ -107,61 +105,14 @@ export default function Seasons() {
           })}
         </div>
 
-        {/* Season summary + full breakdown, rendered in place under the header */}
+        {/* Full breakdown, rendered in place under the header. The redundant
+            podium-summary bar that used to sit here has been removed. */}
         <div ref={detailRef} />
-        {season && (() => {
-          const champion = getManager(season.champion)
-          const runnerUp = getManager(season.runnerUp)
-          const third = getManager(season.thirdPlace)
-          const consolation = getManager(season.consolation)
-          const letty = getManager(season.lettyWinner)
-          return (
-            // Round 6: the "20XX Season" header bar is gone. The year is already
-            // in the URL, in the selected tile above, and in the page you clicked
-            // from -- the bar was a third restatement taking 80px of vertical.
-            // The champion-colored accent moves onto the card itself, and the
-            // asterisk note becomes a footnote under the podium tiles (canon says
-            // badge asterisk seasons, never smooth them away).
-            <div style={{ border: '1px solid #393939', backgroundColor: '#262626', borderTop: `4px solid ${champion?.primaryColor ?? '#f4f4f4'}` }}>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 0 }}>
-                {[
-                  { label: 'Teremana Tequila Bowl', value: champion?.teamName ?? '—', sub: season.championTeam, color: champion?.primaryColor, icon: '🏆' },
-                  { label: 'Runner-up', value: runnerUp?.teamName ?? '—', sub: season.runnerUpTeam, color: runnerUp?.primaryColor, icon: '🥈' },
-                  { label: 'Tokyo Drift Bowl (3rd)', value: third?.teamName ?? '—', sub: season.thirdPlaceTeam, color: third?.primaryColor, icon: null },
-                  { label: 'Wing Bowl (consolation)', value: consolation?.teamName ?? '—', sub: season.consolationTeam, color: consolation?.primaryColor, icon: null },
-                  { label: 'Letty Award (PF leader)', value: letty?.teamName ?? '—', sub: `${season.pointsLeaderPF.toFixed(2)} pts`, color: '#f1c21b', icon: <AssetImage src={withBase('images/LettyAward_trophy.png')} alt="Letty Award" size={20} fallback="🏅" /> },
-                ].map((item) => (
-                  <div key={item.label} style={{
-                    padding: '20px 24px',
-                    borderRight: '1px solid #393939',
-                    borderBottom: '1px solid #393939',
-                    borderLeft: item.color ? `3px solid ${item.color}` : undefined,
-                  }}>
-                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 8 }}>
-                      {item.label}
-                    </div>
-                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, color: item.color ?? '#f4f4f4', marginBottom: 2, display: 'flex', alignItems: 'center', gap: 6 }}>
-                      {item.icon && <span>{item.icon}</span>}
-                      {item.value}
-                    </div>
-                    {item.sub && (
-                      <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#8d8d8d' }}>
-                        {item.sub}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-
-              {season.asterisk && (
-                <div style={{ padding: '12px 24px' }}>
-                  <Badge type="asterisk" size="md" label={`* ${season.asteriskReason}`} />
-                </div>
-              )}
-
-            </div>
-          )
-        })()}
+        {season?.asterisk && (
+          <div style={{ marginTop: 16 }}>
+            <Badge type="asterisk" size="md" label={`* ${season.asteriskReason}`} />
+          </div>
+        )}
 
         {season && (
           SEASON_DETAIL_YEARS.includes(season.year)

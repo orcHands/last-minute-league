@@ -177,7 +177,7 @@ export default function SeasonAwardsGrid({ year, awardNames, awardDescriptions, 
           {awardsPartial.length} of {keys.length} award{awardsPartial.length === 1 ? '' : 's'} {awardsPartial.length === 1 ? 'shows' : 'show'} the confirmed winner only — the underlying data doesn't support a full top-5 yet.
         </p>
       )}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(460px, 1fr))', gap: 12, marginTop: awardsPartial.length ? 0 : 16 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 460px), 1fr))', gap: 12, marginTop: awardsPartial.length ? 0 : 16 }}>
         {keys.map(key => (
           <AwardCard key={key} year={year} awardKey={key} name={awardNames[key] ?? key} description={awardDescriptions[key]} finalists={awardsTop5[key]} partial={partialSet.has(key)} />
         ))}

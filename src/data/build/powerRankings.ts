@@ -258,3 +258,105 @@ for (const series of FRANCHISE_POWER_SERIES) {
     row[series.franchiseId] = p.rank
   }
 }
+
+// ─────────────────────────────────────────────
+// ONE-SEASON POWER RANKINGS — the landing chart's cumulative all-play idea,
+// reset at Week 1 and resolved to managers rather than franchise chains.
+// Managers who draw a playoff bye keep their carried-forward record until
+// their next game, matching the behavior of the all-time chart.
+// ─────────────────────────────────────────────
+
+export interface SeasonManagerPowerSeries {
+  managerId: string
+  label: string
+  color: string
+  points: PowerRankPoint[]
+}
+
+export interface SeasonPowerRanking {
+  year: number
+  weeks: PowerRankWeekLabel[]
+  rows: PowerRankingRow[]
+  series: SeasonManagerPowerSeries[]
+  maxRank: number
+}
+
+const seasonPowerCache = new Map<number, SeasonPowerRanking>()
+
+export function getSeasonPowerRanking(year: number): SeasonPowerRanking | null {
+  const cached = seasonPowerCache.get(year)
+  if (cached) return cached
+  const season = leagueData[String(year)]
+  if (!season) return null
+
+  const managerIds = season.standings.map(row => normalizeManager(row.manager))
+  const cumulative = new Map(managerIds.map(id => [id, { wins: 0, losses: 0, ties: 0 }]))
+  const points = new Map(managerIds.map(id => [id, [] as PowerRankPoint[]]))
+  const weekNumbers = Object.keys(season.matchups).map(Number).sort((a, b) => a - b)
+  const weeks = weekNumbers.map((week, index) => ({ weekIndex: index + 1, season: year, week }))
+  const rows: PowerRankingRow[] = []
+
+  for (const { weekIndex, week } of weeks) {
+    const scores = (season.matchups[String(week)] ?? []).flatMap(game => [
+      { managerId: normalizeManager(game.m1), score: game.s1 },
+      { managerId: normalizeManager(game.m2), score: game.s2 },
+    ])
+
+    for (const manager of scores) {
+      let wins = 0, losses = 0, ties = 0
+      for (const opponent of scores) {
+        if (manager === opponent) continue
+        if (manager.score > opponent.score) wins += 1
+        else if (manager.score < opponent.score) losses += 1
+        else ties += 1
+      }
+      const record = cumulative.get(manager.managerId)
+      if (!record) continue
+      record.wins += wins
+      record.losses += losses
+      record.ties += ties
+    }
+
+    const ranked = managerIds
+      .map(id => {
+        const record = cumulative.get(id)!
+        const total = record.wins + record.losses + record.ties
+        const winPct = total > 0 ? (record.wins + record.ties * 0.5) / total : 0
+        return { id, winPct, ...record }
+      })
+      .sort((a, b) => (b.winPct - a.winPct) || (b.wins - a.wins) || a.id.localeCompare(b.id))
+
+    const row: PowerRankingRow = { weekIndex, season: year, week }
+    ranked.forEach((entry, index) => {
+      const point: PowerRankPoint = {
+        weekIndex,
+        rank: index + 1,
+        wins: entry.wins,
+        losses: entry.losses,
+        ties: entry.ties,
+        winPct: entry.winPct,
+      }
+      points.get(entry.id)!.push(point)
+      row[entry.id] = point.rank
+    })
+    rows.push(row)
+  }
+
+  const result: SeasonPowerRanking = {
+    year,
+    weeks,
+    rows,
+    series: managerIds.map(id => {
+      const manager = getManager(id)
+      return {
+        managerId: id,
+        label: manager?.name ?? id,
+        color: manager?.primaryColor ?? '#8d8d8d',
+        points: points.get(id) ?? [],
+      }
+    }),
+    maxRank: managerIds.length,
+  }
+  seasonPowerCache.set(year, result)
+  return result
+}

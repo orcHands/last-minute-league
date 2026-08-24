@@ -4,6 +4,8 @@ import SeasonDivisionStandings from './SeasonDivisionStandings'
 import SeasonBracket from './SeasonBracket'
 import SeasonAwardsGrid from './SeasonAwardsGrid'
 import AllDivisionTeams from './AllDivisionTeams'
+import SeasonPowerRankingChart from './SeasonPowerRankingChart'
+import SeasonDraftReport from './SeasonDraftReport'
 
 /**
  * The full season breakdown, with NO page chrome of its own -- no background,
@@ -36,7 +38,7 @@ export default function SeasonDetailBody({ year }: { year: number }) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 48, marginTop: 32 }}>
 
         <section>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 16, alignItems: 'stretch' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: 16, alignItems: 'stretch' }}>
             {detail.bowls.map(bowl => {
               const match = allTerminal.find(e =>
                 (e.m1 === bowl.winnerManager && e.m2 === bowl.loserManager) ||
@@ -70,7 +72,21 @@ export default function SeasonDetailBody({ year }: { year: number }) {
         </section>
 
         <section>
+          <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '0 0 4px' }}>
+            Weekly Power Ranking
+          </h2>
+          <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, lineHeight: '16px', color: '#8d8d8d', margin: '0 0 16px' }}>
+            Cumulative all-play rank resets in Week 1. Select a manager to isolate their season.
+          </p>
+          <SeasonPowerRankingChart year={year} />
+        </section>
+
+        <section>
           <SeasonAwardsGrid year={year} awardNames={detail.awardNames} awardDescriptions={detail.awardDescriptions} awardsTop5={detail.awardsTop5} awardsPartial={detail.awardsPartial} />
+        </section>
+
+        <section>
+          <SeasonDraftReport year={year} />
         </section>
 
     </div>
