@@ -373,7 +373,11 @@
             "state": "TX",
             "attendance": 56700,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 22,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2013-12-16"
           },
           {
@@ -395,7 +399,11 @@
             "state": "IN",
             "attendance": 49900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 21,
+              "cond": "Snow",
+              "emoji": "❄️"
+            },
             "game_date": "2013-12-16"
           },
           {
@@ -417,7 +425,11 @@
             "state": "MD",
             "attendance": 66800,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 33,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2013-12-16"
           },
           {
@@ -439,7 +451,11 @@
             "state": "MA",
             "attendance": 62650,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 20,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2013-12-16"
           }
         ]
@@ -466,7 +482,11 @@
             "state": "TX",
             "attendance": 58450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 26,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2013-12-23"
           },
           {
@@ -488,7 +508,11 @@
             "state": "MD",
             "attendance": 66350,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 41,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2013-12-23"
           },
           {
@@ -510,7 +534,11 @@
             "state": "FL",
             "attendance": 61650,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 73,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2013-12-23"
           },
           {
@@ -532,7 +560,11 @@
             "state": "FL",
             "attendance": 64600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 70,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2013-12-23"
           }
         ]

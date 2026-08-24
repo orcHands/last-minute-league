@@ -491,7 +491,11 @@
             "state": "MD",
             "attendance": 63000,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 30,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2021-12-21"
           },
           {
@@ -513,16 +517,12 @@
             "state": "IN",
             "attendance": 51350,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 30,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2021-12-21"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 15,
-            "team": "Takes Tua To Tango",
-            "manager": "Brice",
-            "rank": 4
           },
           {
             "kind": "bye",
@@ -531,6 +531,14 @@
             "team": "Goffsides",
             "manager": "Zac",
             "rank": 1
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "Takes Tua To Tango",
+            "manager": "Brice",
+            "rank": 4
           }
         ]
       },
@@ -556,7 +564,11 @@
             "state": "MD",
             "attendance": 63850,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 39,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2021-12-27"
           },
           {
@@ -578,7 +590,11 @@
             "state": "IL",
             "attendance": 59150,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 34,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2021-12-27"
           },
           {
@@ -698,7 +714,11 @@
             "state": "CA",
             "attendance": 67400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 37,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2021-12-21"
           },
           {
@@ -720,7 +740,11 @@
             "state": "TX",
             "attendance": 86700,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 34,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2021-12-21"
           },
           {
@@ -763,7 +787,11 @@
             "state": "CA",
             "attendance": 67400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 43,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2021-12-27"
           },
           {
@@ -785,7 +813,11 @@
             "state": "TX",
             "attendance": 89400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 65,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2021-12-27"
           },
           {

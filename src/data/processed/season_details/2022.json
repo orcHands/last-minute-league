@@ -491,7 +491,11 @@
             "state": "CA",
             "attendance": 60900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 34,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2022-12-19"
           },
           {
@@ -555,7 +559,11 @@
             "state": "CA",
             "attendance": 60400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 44,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2022-12-26"
           },
           {
@@ -577,7 +585,11 @@
             "state": "TX",
             "attendance": 57900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 29,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2022-12-26"
           },
           {
@@ -698,7 +710,11 @@
             "state": "IL",
             "attendance": 59050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 10,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2022-12-19"
           },
           {
@@ -720,16 +736,12 @@
             "state": "CA",
             "attendance": 66900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 35,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2022-12-19"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 15,
-            "team": "The Double Doinkers",
-            "manager": "whitaker",
-            "rank": 7
           },
           {
             "kind": "bye",
@@ -738,6 +750,14 @@
             "team": "America's Next Top Waddle",
             "manager": "Brice",
             "rank": 8
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "The Double Doinkers",
+            "manager": "whitaker",
+            "rank": 7
           }
         ]
       },
@@ -784,7 +804,11 @@
             "state": "FL",
             "attendance": 64450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 48,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2022-12-26"
           },
           {
@@ -806,7 +830,11 @@
             "state": "IN",
             "attendance": 51900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 5,
+              "cond": "Snow",
+              "emoji": "❄️"
+            },
             "game_date": "2022-12-26"
           }
         ]
@@ -1192,7 +1220,7 @@
         "player": "Jeff Wilson Jr.",
         "pick_overall": 161,
         "pts": 77.6,
-        "pts_rank": 66,
+        "pts_rank": 64,
         "draft_pool": 121,
         "manager": "Ryan",
         "pos": "RB",
@@ -1211,17 +1239,6 @@
         "pos_baseline": 47.1
       },
       {
-        "player": "Tyler Higbee",
-        "pick_overall": 142,
-        "pts": 47.1,
-        "pts_rank": 64,
-        "draft_pool": 121,
-        "manager": "becca",
-        "pos": "TE",
-        "vor": 0.0,
-        "pos_baseline": 47.1
-      },
-      {
         "player": "Isiah Pacheco",
         "pick_overall": 162,
         "pts": 44.1,
@@ -1231,6 +1248,17 @@
         "pos": "RB",
         "vor": -33.5,
         "pos_baseline": 77.6
+      },
+      {
+        "player": "Tyler Higbee",
+        "pick_overall": 142,
+        "pts": 47.1,
+        "pts_rank": 67,
+        "draft_pool": 121,
+        "manager": "becca",
+        "pos": "TE",
+        "vor": 0.0,
+        "pos_baseline": 47.1
       },
       {
         "player": "Irv Smith Jr.",

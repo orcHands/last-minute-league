@@ -491,7 +491,11 @@
             "state": "TX",
             "attendance": 58450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 36,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2019-12-09"
           },
           {
@@ -513,7 +517,11 @@
             "state": "CA",
             "attendance": 65950,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 52,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2019-12-09"
           },
           {
@@ -556,7 +564,11 @@
             "state": "NV",
             "attendance": 33400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 38,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2019-12-16"
           },
           {
@@ -578,7 +590,11 @@
             "state": "IL",
             "attendance": 60700,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 25,
+              "cond": "Snow",
+              "emoji": "❄️"
+            },
             "game_date": "2019-12-16"
           },
           {
@@ -699,7 +715,11 @@
             "state": "MA",
             "attendance": 63050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 41,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2019-12-09"
           },
           {
@@ -721,7 +741,11 @@
             "state": "TX",
             "attendance": 90800,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 41,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2019-12-09"
           },
           {
@@ -764,7 +788,11 @@
             "state": "TX",
             "attendance": 86850,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 37,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2019-12-16"
           },
           {
@@ -808,7 +836,11 @@
             "state": "CA",
             "attendance": 62300,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 40,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2019-12-16"
           }
         ]

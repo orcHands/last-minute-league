@@ -1,0 +1,2567 @@
+{
+  "generated_for": "Records page (SITEMAP.md \"Records catalog\")",
+  "scope": "full season (regular season + playoffs), all 13 seasons 2013-2025",
+  "team_game": {
+    "highest_score": [
+      {
+        "season": 2013,
+        "week": 14,
+        "manager": "Lang",
+        "opponent": "whitaker",
+        "pts": 225.76,
+        "opp_pts": 170.61,
+        "margin": 55.15,
+        "won": true
+      },
+      {
+        "season": 2013,
+        "week": 8,
+        "manager": "Jay",
+        "opponent": "Benedict",
+        "pts": 209.26,
+        "opp_pts": 124.03,
+        "margin": 85.23,
+        "won": true
+      },
+      {
+        "season": 2013,
+        "week": 13,
+        "manager": "Brice",
+        "opponent": "Dylan",
+        "pts": 197.53,
+        "opp_pts": 140.11,
+        "margin": 57.42,
+        "won": true
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "manager": "Jay",
+        "opponent": "Kyle",
+        "pts": 190.57,
+        "opp_pts": 158.96,
+        "margin": 31.61,
+        "won": true
+      },
+      {
+        "season": 2013,
+        "week": 12,
+        "manager": "Lang",
+        "opponent": "Dylan",
+        "pts": 187.49,
+        "opp_pts": 135.09,
+        "margin": 52.4,
+        "won": true
+      },
+      {
+        "season": 2019,
+        "week": 1,
+        "manager": "Ryan",
+        "opponent": "Jay",
+        "pts": 185.86,
+        "opp_pts": 118.9,
+        "margin": 66.96,
+        "won": true
+      },
+      {
+        "season": 2018,
+        "week": 7,
+        "manager": "Carter",
+        "opponent": "Jay",
+        "pts": 182.3,
+        "opp_pts": 125.48,
+        "margin": 56.82,
+        "won": true
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "manager": "Benedict",
+        "opponent": "Lang",
+        "pts": 180.01,
+        "opp_pts": 152.93,
+        "margin": 27.08,
+        "won": true
+      },
+      {
+        "season": 2021,
+        "week": 17,
+        "manager": "Zac",
+        "opponent": "Jay",
+        "pts": 179.9,
+        "opp_pts": 112.66,
+        "margin": 67.24,
+        "won": true
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "manager": "Carter",
+        "opponent": "Brice",
+        "pts": 179.49,
+        "opp_pts": 134.43,
+        "margin": 45.06,
+        "won": true
+      }
+    ],
+    "lowest_score": [
+      {
+        "season": 2021,
+        "week": 9,
+        "manager": "Aboubacar",
+        "opponent": "Jason",
+        "pts": 13.1,
+        "opp_pts": 91.86,
+        "margin": -78.76,
+        "won": false
+      },
+      {
+        "season": 2014,
+        "week": 10,
+        "manager": "pb",
+        "opponent": "Kelly Brown",
+        "pts": 41.8,
+        "opp_pts": 102.04,
+        "margin": -60.24,
+        "won": false
+      },
+      {
+        "season": 2017,
+        "week": 5,
+        "manager": "whitaker",
+        "opponent": "Dylan",
+        "pts": 46.32,
+        "opp_pts": 62.92,
+        "margin": -16.6,
+        "won": false
+      },
+      {
+        "season": 2017,
+        "week": 11,
+        "manager": "Dylan",
+        "opponent": "Jay",
+        "pts": 47.32,
+        "opp_pts": 168.86,
+        "margin": -121.54,
+        "won": false
+      },
+      {
+        "season": 2021,
+        "week": 13,
+        "manager": "Aboubacar",
+        "opponent": "Carter",
+        "pts": 51.6,
+        "opp_pts": 120.34,
+        "margin": -68.74,
+        "won": false
+      },
+      {
+        "season": 2017,
+        "week": 13,
+        "manager": "Tommy",
+        "opponent": "Brice",
+        "pts": 51.9,
+        "opp_pts": 173.84,
+        "margin": -121.94,
+        "won": false
+      },
+      {
+        "season": 2018,
+        "week": 15,
+        "manager": "Kyle",
+        "opponent": "Michael",
+        "pts": 52.94,
+        "opp_pts": 91.38,
+        "margin": -38.44,
+        "won": false
+      },
+      {
+        "season": 2021,
+        "week": 9,
+        "manager": "Ryan",
+        "opponent": "Michael",
+        "pts": 53.08,
+        "opp_pts": 111.2,
+        "margin": -58.12,
+        "won": false
+      },
+      {
+        "season": 2014,
+        "week": 7,
+        "manager": "Laskey",
+        "opponent": "Kyle",
+        "pts": 53.5,
+        "opp_pts": 92.58,
+        "margin": -39.08,
+        "won": false
+      },
+      {
+        "season": 2015,
+        "week": 16,
+        "manager": "whitaker",
+        "opponent": "Dylan",
+        "pts": 53.64,
+        "opp_pts": 75.34,
+        "margin": -21.7,
+        "won": false
+      }
+    ],
+    "biggest_blowout": [
+      {
+        "season": 2017,
+        "week": 13,
+        "manager": "Brice",
+        "opponent": "Tommy",
+        "pts": 173.84,
+        "opp_pts": 51.9,
+        "margin": 121.94,
+        "won": true
+      },
+      {
+        "season": 2017,
+        "week": 11,
+        "manager": "Jay",
+        "opponent": "Dylan",
+        "pts": 168.86,
+        "opp_pts": 47.32,
+        "margin": 121.54,
+        "won": true
+      },
+      {
+        "season": 2020,
+        "week": 13,
+        "manager": "Tommy",
+        "opponent": "Benedict",
+        "pts": 179.24,
+        "opp_pts": 74.68,
+        "margin": 104.56,
+        "won": true
+      },
+      {
+        "season": 2015,
+        "week": 8,
+        "manager": "pb",
+        "opponent": "Dylan",
+        "pts": 173.96,
+        "opp_pts": 71.08,
+        "margin": 102.88,
+        "won": true
+      },
+      {
+        "season": 2014,
+        "week": 13,
+        "manager": "Carter",
+        "opponent": "Tommy",
+        "pts": 178.02,
+        "opp_pts": 81.3,
+        "margin": 96.72,
+        "won": true
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "manager": "Jay",
+        "opponent": "Brice",
+        "pts": 172.68,
+        "opp_pts": 77.92,
+        "margin": 94.76,
+        "won": true
+      },
+      {
+        "season": 2021,
+        "week": 16,
+        "manager": "Carter",
+        "opponent": "Aboubacar",
+        "pts": 158.24,
+        "opp_pts": 66.18,
+        "margin": 92.06,
+        "won": true
+      },
+      {
+        "season": 2015,
+        "week": 9,
+        "manager": "Michael",
+        "opponent": "Dylan",
+        "pts": 146.6,
+        "opp_pts": 54.62,
+        "margin": 91.98,
+        "won": true
+      },
+      {
+        "season": 2025,
+        "week": 12,
+        "manager": "Alex",
+        "opponent": "Zac",
+        "pts": 164.28,
+        "opp_pts": 74.96,
+        "margin": 89.32,
+        "won": true
+      },
+      {
+        "season": 2014,
+        "week": 13,
+        "manager": "Benedict",
+        "opponent": "Kelly Brown",
+        "pts": 157.64,
+        "opp_pts": 71.56,
+        "margin": 86.08,
+        "won": true
+      }
+    ],
+    "most_points_in_a_loss": [
+      {
+        "season": 2013,
+        "week": 14,
+        "manager": "whitaker",
+        "opponent": "Lang",
+        "pts": 170.61,
+        "opp_pts": 225.76,
+        "margin": -55.15,
+        "won": false
+      },
+      {
+        "season": 2013,
+        "week": 13,
+        "manager": "Lang",
+        "opponent": "Kyle",
+        "pts": 164.37,
+        "opp_pts": 166.72,
+        "margin": -2.35,
+        "won": false
+      },
+      {
+        "season": 2013,
+        "week": 10,
+        "manager": "Jay",
+        "opponent": "Dylan",
+        "pts": 160.62,
+        "opp_pts": 169.38,
+        "margin": -8.76,
+        "won": false
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "manager": "Kyle",
+        "opponent": "Jay",
+        "pts": 158.96,
+        "opp_pts": 190.57,
+        "margin": -31.61,
+        "won": false
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "manager": "Lang",
+        "opponent": "Benedict",
+        "pts": 152.93,
+        "opp_pts": 180.01,
+        "margin": -27.08,
+        "won": false
+      },
+      {
+        "season": 2021,
+        "week": 2,
+        "manager": "Tommy",
+        "opponent": "whitaker",
+        "pts": 152.24,
+        "opp_pts": 156.92,
+        "margin": -4.68,
+        "won": false
+      },
+      {
+        "season": 2021,
+        "week": 11,
+        "manager": "whitaker",
+        "opponent": "Tommy",
+        "pts": 152.08,
+        "opp_pts": 168.18,
+        "margin": -16.1,
+        "won": false
+      },
+      {
+        "season": 2020,
+        "week": 4,
+        "manager": "Jason",
+        "opponent": "whitaker",
+        "pts": 151.8,
+        "opp_pts": 164.72,
+        "margin": -12.92,
+        "won": false
+      },
+      {
+        "season": 2019,
+        "week": 5,
+        "manager": "becca",
+        "opponent": "whitaker",
+        "pts": 151.54,
+        "opp_pts": 169.9,
+        "margin": -18.36,
+        "won": false
+      },
+      {
+        "season": 2021,
+        "week": 5,
+        "manager": "Michael",
+        "opponent": "Tommy",
+        "pts": 151.48,
+        "opp_pts": 152.34,
+        "margin": -0.86,
+        "won": false
+      }
+    ],
+    "fewest_points_in_a_win": [
+      {
+        "season": 2017,
+        "week": 5,
+        "manager": "Dylan",
+        "opponent": "whitaker",
+        "pts": 62.92,
+        "opp_pts": 46.32,
+        "margin": 16.6,
+        "won": true
+      },
+      {
+        "season": 2025,
+        "week": 1,
+        "manager": "Zac",
+        "opponent": "whitaker",
+        "pts": 69.62,
+        "opp_pts": 65.02,
+        "margin": 4.6,
+        "won": true
+      },
+      {
+        "season": 2025,
+        "week": 6,
+        "manager": "Michael",
+        "opponent": "pb",
+        "pts": 70.62,
+        "opp_pts": 54.48,
+        "margin": 16.14,
+        "won": true
+      },
+      {
+        "season": 2014,
+        "week": 1,
+        "manager": "Laskey",
+        "opponent": "Kelly Brown",
+        "pts": 72.38,
+        "opp_pts": 61.2,
+        "margin": 11.18,
+        "won": true
+      },
+      {
+        "season": 2021,
+        "week": 14,
+        "manager": "pb",
+        "opponent": "Aboubacar",
+        "pts": 73.12,
+        "opp_pts": 60.04,
+        "margin": 13.08,
+        "won": true
+      },
+      {
+        "season": 2025,
+        "week": 8,
+        "manager": "whitaker",
+        "opponent": "Zac",
+        "pts": 74.52,
+        "opp_pts": 64.46,
+        "margin": 10.06,
+        "won": true
+      },
+      {
+        "season": 2015,
+        "week": 16,
+        "manager": "Dylan",
+        "opponent": "whitaker",
+        "pts": 75.34,
+        "opp_pts": 53.64,
+        "margin": 21.7,
+        "won": true
+      },
+      {
+        "season": 2015,
+        "week": 7,
+        "manager": "Dylan",
+        "opponent": "Sara",
+        "pts": 75.74,
+        "opp_pts": 70.7,
+        "margin": 5.04,
+        "won": true
+      },
+      {
+        "season": 2015,
+        "week": 11,
+        "manager": "Michael",
+        "opponent": "Carter",
+        "pts": 77.92,
+        "opp_pts": 69.78,
+        "margin": 8.14,
+        "won": true
+      },
+      {
+        "season": 2023,
+        "week": 1,
+        "manager": "Michael",
+        "opponent": "Kevin",
+        "pts": 78.88,
+        "opp_pts": 72.56,
+        "margin": 6.32,
+        "won": true
+      }
+    ]
+  },
+  "matchup": {
+    "highest_combined": [
+      {
+        "season": 2013,
+        "week": 14,
+        "winner": "Lang",
+        "loser": "whitaker",
+        "combined": 396.37,
+        "margin": 55.15,
+        "winner_pts": 225.76,
+        "loser_pts": 170.61
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "winner": "Jay",
+        "loser": "Kyle",
+        "combined": 349.53,
+        "margin": 31.61,
+        "winner_pts": 190.57,
+        "loser_pts": 158.96
+      },
+      {
+        "season": 2013,
+        "week": 13,
+        "winner": "Brice",
+        "loser": "Dylan",
+        "combined": 337.64,
+        "margin": 57.42,
+        "winner_pts": 197.53,
+        "loser_pts": 140.11
+      },
+      {
+        "season": 2013,
+        "week": 8,
+        "winner": "Jay",
+        "loser": "Benedict",
+        "combined": 333.29,
+        "margin": 85.23,
+        "winner_pts": 209.26,
+        "loser_pts": 124.03
+      },
+      {
+        "season": 2013,
+        "week": 15,
+        "winner": "Benedict",
+        "loser": "Lang",
+        "combined": 332.94,
+        "margin": 27.08,
+        "winner_pts": 180.01,
+        "loser_pts": 152.93
+      },
+      {
+        "season": 2013,
+        "week": 13,
+        "winner": "Kyle",
+        "loser": "Lang",
+        "combined": 331.09,
+        "margin": 2.35,
+        "winner_pts": 166.72,
+        "loser_pts": 164.37
+      },
+      {
+        "season": 2013,
+        "week": 10,
+        "winner": "Dylan",
+        "loser": "Jay",
+        "combined": 330.0,
+        "margin": 8.76,
+        "winner_pts": 169.38,
+        "loser_pts": 160.62
+      },
+      {
+        "season": 2013,
+        "week": 12,
+        "winner": "Lang",
+        "loser": "Dylan",
+        "combined": 322.58,
+        "margin": 52.4,
+        "winner_pts": 187.49,
+        "loser_pts": 135.09
+      },
+      {
+        "season": 2019,
+        "week": 5,
+        "winner": "whitaker",
+        "loser": "becca",
+        "combined": 321.44,
+        "margin": 18.36,
+        "winner_pts": 169.9,
+        "loser_pts": 151.54
+      },
+      {
+        "season": 2019,
+        "week": 1,
+        "winner": "Tommy",
+        "loser": "becca",
+        "combined": 320.94,
+        "margin": 22.3,
+        "winner_pts": 171.62,
+        "loser_pts": 149.32
+      }
+    ],
+    "lowest_combined": [
+      {
+        "season": 2021,
+        "week": 9,
+        "winner": "Jason",
+        "loser": "Aboubacar",
+        "combined": 104.96,
+        "margin": 78.76,
+        "winner_pts": 91.86,
+        "loser_pts": 13.1
+      },
+      {
+        "season": 2017,
+        "week": 5,
+        "winner": "Dylan",
+        "loser": "whitaker",
+        "combined": 109.24,
+        "margin": 16.6,
+        "winner_pts": 62.92,
+        "loser_pts": 46.32
+      },
+      {
+        "season": 2025,
+        "week": 6,
+        "winner": "Michael",
+        "loser": "pb",
+        "combined": 125.1,
+        "margin": 16.14,
+        "winner_pts": 70.62,
+        "loser_pts": 54.48
+      },
+      {
+        "season": 2015,
+        "week": 16,
+        "winner": "Dylan",
+        "loser": "whitaker",
+        "combined": 128.98,
+        "margin": 21.7,
+        "winner_pts": 75.34,
+        "loser_pts": 53.64
+      },
+      {
+        "season": 2021,
+        "week": 14,
+        "winner": "pb",
+        "loser": "Aboubacar",
+        "combined": 133.16,
+        "margin": 13.08,
+        "winner_pts": 73.12,
+        "loser_pts": 60.04
+      },
+      {
+        "season": 2014,
+        "week": 1,
+        "winner": "Laskey",
+        "loser": "Kelly Brown",
+        "combined": 133.58,
+        "margin": 11.18,
+        "winner_pts": 72.38,
+        "loser_pts": 61.2
+      },
+      {
+        "season": 2025,
+        "week": 1,
+        "winner": "Zac",
+        "loser": "whitaker",
+        "combined": 134.64,
+        "margin": 4.6,
+        "winner_pts": 69.62,
+        "loser_pts": 65.02
+      },
+      {
+        "season": 2025,
+        "week": 8,
+        "winner": "whitaker",
+        "loser": "Zac",
+        "combined": 138.98,
+        "margin": 10.06,
+        "winner_pts": 74.52,
+        "loser_pts": 64.46
+      },
+      {
+        "season": 2021,
+        "week": 8,
+        "winner": "Michael",
+        "loser": "Aboubacar",
+        "combined": 143.22,
+        "margin": 21.9,
+        "winner_pts": 82.56,
+        "loser_pts": 60.66
+      },
+      {
+        "season": 2022,
+        "week": 7,
+        "winner": "Carter",
+        "loser": "Jay",
+        "combined": 143.58,
+        "margin": 18.58,
+        "winner_pts": 81.08,
+        "loser_pts": 62.5
+      }
+    ],
+    "closest": [
+      {
+        "season": 2014,
+        "week": 11,
+        "winner": "pb",
+        "loser": "Brice",
+        "combined": 216.36,
+        "margin": 0.0,
+        "winner_pts": 108.18,
+        "loser_pts": 108.18
+      },
+      {
+        "season": 2018,
+        "week": 8,
+        "winner": "whitaker",
+        "loser": "pb",
+        "combined": 232.36,
+        "margin": 0.04,
+        "winner_pts": 116.2,
+        "loser_pts": 116.16
+      },
+      {
+        "season": 2017,
+        "week": 5,
+        "winner": "Carter",
+        "loser": "Kelly Brown",
+        "combined": 256.46,
+        "margin": 0.06,
+        "winner_pts": 128.26,
+        "loser_pts": 128.2
+      },
+      {
+        "season": 2018,
+        "week": 15,
+        "winner": "Tommy",
+        "loser": "Kelly Brown",
+        "combined": 183.76,
+        "margin": 0.08,
+        "winner_pts": 91.92,
+        "loser_pts": 91.84
+      },
+      {
+        "season": 2021,
+        "week": 9,
+        "winner": "pb",
+        "loser": "Tommy",
+        "combined": 243.28,
+        "margin": 0.08,
+        "winner_pts": 121.68,
+        "loser_pts": 121.6
+      },
+      {
+        "season": 2017,
+        "week": 13,
+        "winner": "Michael",
+        "loser": "Dylan",
+        "combined": 190.42,
+        "margin": 0.1,
+        "winner_pts": 95.26,
+        "loser_pts": 95.16
+      },
+      {
+        "season": 2021,
+        "week": 5,
+        "winner": "Aboubacar",
+        "loser": "Ryan",
+        "combined": 161.62,
+        "margin": 0.1,
+        "winner_pts": 80.86,
+        "loser_pts": 80.76
+      },
+      {
+        "season": 2019,
+        "week": 3,
+        "winner": "Michael",
+        "loser": "whitaker",
+        "combined": 211.88,
+        "margin": 0.16,
+        "winner_pts": 106.02,
+        "loser_pts": 105.86
+      },
+      {
+        "season": 2019,
+        "week": 2,
+        "winner": "Zac",
+        "loser": "Brice",
+        "combined": 200.18,
+        "margin": 0.26,
+        "winner_pts": 100.22,
+        "loser_pts": 99.96
+      },
+      {
+        "season": 2020,
+        "week": 5,
+        "winner": "Ryan",
+        "loser": "Tommy",
+        "combined": 226.34,
+        "margin": 0.26,
+        "winner_pts": 113.3,
+        "loser_pts": 113.04
+      }
+    ],
+    "biggest_margin": [
+      {
+        "season": 2017,
+        "week": 13,
+        "winner": "Brice",
+        "loser": "Tommy",
+        "combined": 225.74,
+        "margin": 121.94,
+        "winner_pts": 173.84,
+        "loser_pts": 51.9
+      },
+      {
+        "season": 2017,
+        "week": 11,
+        "winner": "Jay",
+        "loser": "Dylan",
+        "combined": 216.18,
+        "margin": 121.54,
+        "winner_pts": 168.86,
+        "loser_pts": 47.32
+      },
+      {
+        "season": 2020,
+        "week": 13,
+        "winner": "Tommy",
+        "loser": "Benedict",
+        "combined": 253.92,
+        "margin": 104.56,
+        "winner_pts": 179.24,
+        "loser_pts": 74.68
+      },
+      {
+        "season": 2015,
+        "week": 8,
+        "winner": "pb",
+        "loser": "Dylan",
+        "combined": 245.04,
+        "margin": 102.88,
+        "winner_pts": 173.96,
+        "loser_pts": 71.08
+      },
+      {
+        "season": 2014,
+        "week": 13,
+        "winner": "Carter",
+        "loser": "Tommy",
+        "combined": 259.32,
+        "margin": 96.72,
+        "winner_pts": 178.02,
+        "loser_pts": 81.3
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "winner": "Jay",
+        "loser": "Brice",
+        "combined": 250.6,
+        "margin": 94.76,
+        "winner_pts": 172.68,
+        "loser_pts": 77.92
+      },
+      {
+        "season": 2021,
+        "week": 16,
+        "winner": "Carter",
+        "loser": "Aboubacar",
+        "combined": 224.42,
+        "margin": 92.06,
+        "winner_pts": 158.24,
+        "loser_pts": 66.18
+      },
+      {
+        "season": 2015,
+        "week": 9,
+        "winner": "Michael",
+        "loser": "Dylan",
+        "combined": 201.22,
+        "margin": 91.98,
+        "winner_pts": 146.6,
+        "loser_pts": 54.62
+      },
+      {
+        "season": 2025,
+        "week": 12,
+        "winner": "Alex",
+        "loser": "Zac",
+        "combined": 239.24,
+        "margin": 89.32,
+        "winner_pts": 164.28,
+        "loser_pts": 74.96
+      },
+      {
+        "season": 2014,
+        "week": 13,
+        "winner": "Benedict",
+        "loser": "Kelly Brown",
+        "combined": 229.2,
+        "margin": 86.08,
+        "winner_pts": 157.64,
+        "loser_pts": 71.56
+      }
+    ]
+  },
+  "league_week": {
+    "highest_scoring_week": [
+      {
+        "season": 2018,
+        "week": 2,
+        "pts": 1731.36
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "pts": 1706.96
+      },
+      {
+        "season": 2014,
+        "week": 8,
+        "pts": 1688.86
+      },
+      {
+        "season": 2018,
+        "week": 10,
+        "pts": 1675.22
+      },
+      {
+        "season": 2018,
+        "week": 6,
+        "pts": 1651.4
+      },
+      {
+        "season": 2018,
+        "week": 1,
+        "pts": 1647.98
+      },
+      {
+        "season": 2014,
+        "week": 13,
+        "pts": 1644.2
+      },
+      {
+        "season": 2018,
+        "week": 12,
+        "pts": 1637.52
+      },
+      {
+        "season": 2018,
+        "week": 8,
+        "pts": 1611.02
+      },
+      {
+        "season": 2014,
+        "week": 4,
+        "pts": 1604.92
+      }
+    ],
+    "lowest_scoring_week": [
+      {
+        "season": 2016,
+        "week": 14,
+        "pts": 737.8
+      },
+      {
+        "season": 2017,
+        "week": 16,
+        "pts": 794.14
+      },
+      {
+        "season": 2021,
+        "week": 15,
+        "pts": 797.2
+      },
+      {
+        "season": 2023,
+        "week": 15,
+        "pts": 817.08
+      },
+      {
+        "season": 2022,
+        "week": 17,
+        "pts": 821.48
+      },
+      {
+        "season": 2015,
+        "week": 16,
+        "pts": 831.7
+      },
+      {
+        "season": 2025,
+        "week": 15,
+        "pts": 840.48
+      },
+      {
+        "season": 2017,
+        "week": 14,
+        "pts": 848.16
+      },
+      {
+        "season": 2020,
+        "week": 16,
+        "pts": 862.9
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "pts": 865.64
+      }
+    ]
+  },
+  "manager_season": {
+    "most_points": [
+      {
+        "manager": "whitaker",
+        "season": 2021,
+        "pts": 2186.2,
+        "games": 17,
+        "ppg": 128.6
+      },
+      {
+        "manager": "Tommy",
+        "season": 2024,
+        "pts": 2140.8,
+        "games": 17,
+        "ppg": 125.93
+      },
+      {
+        "manager": "Jason",
+        "season": 2024,
+        "pts": 2119.44,
+        "games": 16,
+        "ppg": 132.47
+      },
+      {
+        "manager": "Zac",
+        "season": 2021,
+        "pts": 2107.92,
+        "games": 16,
+        "ppg": 131.75
+      },
+      {
+        "manager": "Jason",
+        "season": 2022,
+        "pts": 2078.18,
+        "games": 17,
+        "ppg": 122.25
+      },
+      {
+        "manager": "Brice",
+        "season": 2016,
+        "pts": 2074.5,
+        "games": 16,
+        "ppg": 129.66
+      },
+      {
+        "manager": "Brice",
+        "season": 2023,
+        "pts": 2038.5,
+        "games": 17,
+        "ppg": 119.91
+      },
+      {
+        "manager": "Jay",
+        "season": 2021,
+        "pts": 2027.32,
+        "games": 17,
+        "ppg": 119.25
+      },
+      {
+        "manager": "Jay",
+        "season": 2015,
+        "pts": 2013.2,
+        "games": 15,
+        "ppg": 134.21
+      },
+      {
+        "manager": "Carter",
+        "season": 2025,
+        "pts": 2011.94,
+        "games": 16,
+        "ppg": 125.75
+      }
+    ],
+    "fewest_points": [
+      {
+        "manager": "Tommy",
+        "season": 2017,
+        "pts": 1203.44,
+        "games": 13,
+        "ppg": 92.57
+      },
+      {
+        "manager": "Dylan",
+        "season": 2014,
+        "pts": 1217.24,
+        "games": 13,
+        "ppg": 93.63
+      },
+      {
+        "manager": "Aboubacar",
+        "season": 2021,
+        "pts": 1242.14,
+        "games": 16,
+        "ppg": 77.63
+      },
+      {
+        "manager": "Kyle",
+        "season": 2017,
+        "pts": 1337.9,
+        "games": 15,
+        "ppg": 89.19
+      },
+      {
+        "manager": "Jason",
+        "season": 2017,
+        "pts": 1345.2,
+        "games": 13,
+        "ppg": 103.48
+      },
+      {
+        "manager": "Brice",
+        "season": 2018,
+        "pts": 1364.88,
+        "games": 13,
+        "ppg": 104.99
+      },
+      {
+        "manager": "Kyle",
+        "season": 2014,
+        "pts": 1370.96,
+        "games": 13,
+        "ppg": 105.46
+      },
+      {
+        "manager": "pb",
+        "season": 2025,
+        "pts": 1408.22,
+        "games": 16,
+        "ppg": 88.01
+      },
+      {
+        "manager": "whitaker",
+        "season": 2016,
+        "pts": 1420.98,
+        "games": 15,
+        "ppg": 94.73
+      },
+      {
+        "manager": "Benedict",
+        "season": 2013,
+        "pts": 1440.15,
+        "games": 11,
+        "ppg": 130.92
+      }
+    ],
+    "best_ppg": [
+      {
+        "manager": "Jay",
+        "season": 2013,
+        "pts": 1729.35,
+        "games": 11,
+        "ppg": 157.21
+      },
+      {
+        "manager": "Lang",
+        "season": 2013,
+        "pts": 1682.33,
+        "games": 11,
+        "ppg": 152.94
+      },
+      {
+        "manager": "Carter",
+        "season": 2013,
+        "pts": 1576.22,
+        "games": 11,
+        "ppg": 143.29
+      },
+      {
+        "manager": "Dylan",
+        "season": 2013,
+        "pts": 1531.4,
+        "games": 11,
+        "ppg": 139.22
+      },
+      {
+        "manager": "whitaker",
+        "season": 2013,
+        "pts": 1513.97,
+        "games": 11,
+        "ppg": 137.63
+      },
+      {
+        "manager": "Kyle",
+        "season": 2013,
+        "pts": 1488.31,
+        "games": 11,
+        "ppg": 135.3
+      },
+      {
+        "manager": "Brice",
+        "season": 2013,
+        "pts": 1476.39,
+        "games": 11,
+        "ppg": 134.22
+      },
+      {
+        "manager": "Jay",
+        "season": 2015,
+        "pts": 2013.2,
+        "games": 15,
+        "ppg": 134.21
+      },
+      {
+        "manager": "Jason",
+        "season": 2024,
+        "pts": 2119.44,
+        "games": 16,
+        "ppg": 132.47
+      },
+      {
+        "manager": "Zac",
+        "season": 2021,
+        "pts": 2107.92,
+        "games": 16,
+        "ppg": 131.75
+      }
+    ]
+  },
+  "player_game_overall": [
+    {
+      "season": 2013,
+      "week": 15,
+      "manager": "Jay",
+      "player": "Jamaal Charles",
+      "pos": "RB",
+      "pts": 61.5
+    },
+    {
+      "season": 2020,
+      "week": 12,
+      "manager": "Tommy",
+      "player": "Tyreek Hill",
+      "pos": "WR",
+      "pts": 59.9
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "manager": "Megan",
+      "player": "Jahmyr Gibbs",
+      "pos": "RB",
+      "pts": 58.4
+    },
+    {
+      "season": 2021,
+      "week": 17,
+      "manager": "Zac",
+      "player": "Ja'Marr Chase",
+      "pos": "WR",
+      "pts": 57.6
+    },
+    {
+      "season": 2013,
+      "week": 14,
+      "manager": "Lang",
+      "player": "Chiefs - DEF",
+      "pos": "DEF",
+      "pts": 57.5
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "manager": "Carter",
+      "player": "Ja'Marr Chase",
+      "pos": "WR",
+      "pts": 57.4
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "Michael",
+      "player": "Joe Mixon",
+      "pos": "RB",
+      "pts": 55.1
+    },
+    {
+      "season": 2021,
+      "week": 11,
+      "manager": "Tommy",
+      "player": "Jonathan Taylor",
+      "pos": "RB",
+      "pts": 54.4
+    },
+    {
+      "season": 2020,
+      "week": 7,
+      "manager": "becca",
+      "player": "Tyler Lockett",
+      "pos": "WR",
+      "pts": 54.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "manager": "whitaker",
+      "player": "Josh Allen",
+      "pos": "QB",
+      "pts": 53.88
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "manager": "Ryan",
+      "player": "Amari Cooper",
+      "pos": "WR",
+      "pts": 53.5
+    },
+    {
+      "season": 2023,
+      "week": 5,
+      "manager": "Kevin",
+      "player": "Ja'Marr Chase",
+      "pos": "WR",
+      "pts": 53.2
+    },
+    {
+      "season": 2013,
+      "week": 8,
+      "manager": "Jay",
+      "player": "Calvin Johnson",
+      "pos": "WR",
+      "pts": 52.9
+    },
+    {
+      "season": 2017,
+      "week": 12,
+      "manager": "Dylan",
+      "player": "Julio Jones",
+      "pos": "WR",
+      "pts": 52.8
+    },
+    {
+      "season": 2016,
+      "week": 14,
+      "manager": "Jay",
+      "player": "Le'Veon Bell",
+      "pos": "RB",
+      "pts": 51.8
+    },
+    {
+      "season": 2013,
+      "week": 13,
+      "manager": "Brice",
+      "player": "Eric Decker",
+      "pos": "WR",
+      "pts": 51.4
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "Dylan",
+      "player": "Julio Jones",
+      "pos": "WR",
+      "pts": 51.0
+    },
+    {
+      "season": 2023,
+      "week": 5,
+      "manager": "Brice",
+      "player": "DJ Moore",
+      "pos": "WR",
+      "pts": 51.0
+    },
+    {
+      "season": 2013,
+      "week": 13,
+      "manager": "Kyle",
+      "player": "Alshon Jeffery",
+      "pos": "WR",
+      "pts": 50.9
+    },
+    {
+      "season": 2017,
+      "week": 16,
+      "manager": "Jay",
+      "player": "Todd Gurley",
+      "pos": "RB",
+      "pts": 50.6
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "manager": "Ryan",
+      "player": "Jonathan Taylor",
+      "pos": "RB",
+      "pts": 50.6
+    },
+    {
+      "season": 2013,
+      "week": 13,
+      "manager": "Lang",
+      "player": "Josh Gordon",
+      "pos": "WR",
+      "pts": 50.1
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "Jason",
+      "player": "Dalvin Cook",
+      "pos": "RB",
+      "pts": 49.6
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "manager": "Jason",
+      "player": "Puka Nacua",
+      "pos": "WR",
+      "pts": 49.5
+    },
+    {
+      "season": 2022,
+      "week": 12,
+      "manager": "becca",
+      "player": "Josh Jacobs",
+      "pos": "RB",
+      "pts": 49.3
+    }
+  ],
+  "player_season_overall": [
+    {
+      "player": "Lamar Jackson",
+      "season": 2019,
+      "pos": "QB",
+      "manager": "Ryan",
+      "pts": 430.68
+    },
+    {
+      "player": "Christian McCaffrey",
+      "season": 2019,
+      "pos": "RB",
+      "manager": "Jason",
+      "pts": 427.9
+    },
+    {
+      "player": "Cooper Kupp",
+      "season": 2021,
+      "pos": "WR",
+      "manager": "whitaker",
+      "pts": 421.4
+    },
+    {
+      "player": "David Johnson",
+      "season": 2016,
+      "pos": "RB",
+      "manager": "Brice",
+      "pts": 403.4
+    },
+    {
+      "player": "Patrick Mahomes",
+      "season": 2018,
+      "pos": "QB",
+      "manager": "Benedict",
+      "pts": 398.06
+    },
+    {
+      "player": "Josh Allen",
+      "season": 2022,
+      "pos": "QB",
+      "manager": "Michael",
+      "pts": 397.76
+    },
+    {
+      "player": "Christian McCaffrey",
+      "season": 2023,
+      "pos": "RB",
+      "manager": "Brice",
+      "pts": 395.3
+    },
+    {
+      "player": "Josh Allen",
+      "season": 2024,
+      "pos": "QB",
+      "manager": "whitaker",
+      "pts": 395.04
+    },
+    {
+      "player": "Josh Allen",
+      "season": 2023,
+      "pos": "QB",
+      "manager": "Brice",
+      "pts": 393.58
+    },
+    {
+      "player": "Christian McCaffrey",
+      "season": 2025,
+      "pos": "RB",
+      "manager": "Carter",
+      "pts": 390.2
+    },
+    {
+      "player": "Lamar Jackson",
+      "season": 2024,
+      "pos": "QB",
+      "manager": "Kevin",
+      "pts": 389.3
+    },
+    {
+      "player": "Todd Gurley",
+      "season": 2017,
+      "pos": "RB",
+      "manager": "Jay",
+      "pts": 388.3
+    },
+    {
+      "player": "Patrick Mahomes",
+      "season": 2020,
+      "pos": "QB",
+      "manager": "Carter",
+      "pts": 387.8
+    },
+    {
+      "player": "Christian McCaffrey",
+      "season": 2018,
+      "pos": "RB",
+      "manager": "Ryan",
+      "pts": 384.5
+    },
+    {
+      "player": "Jalen Hurts",
+      "season": 2022,
+      "pos": "QB",
+      "manager": "Jason",
+      "pts": 383.58
+    },
+    {
+      "player": "Josh Allen",
+      "season": 2021,
+      "pos": "QB",
+      "manager": "Zac",
+      "pts": 379.92
+    },
+    {
+      "player": "Todd Gurley",
+      "season": 2018,
+      "pos": "RB",
+      "manager": "Jay",
+      "pts": 373.1
+    },
+    {
+      "player": "Jalen Hurts",
+      "season": 2023,
+      "pos": "QB",
+      "manager": "Jason",
+      "pts": 371.22
+    },
+    {
+      "player": "CeeDee Lamb",
+      "season": 2023,
+      "pos": "WR",
+      "manager": "Michael",
+      "pts": 370.7
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "season": 2024,
+      "pos": "WR",
+      "manager": "Carter",
+      "pts": 366.2
+    },
+    {
+      "player": "Tyreek Hill",
+      "season": 2023,
+      "pos": "WR",
+      "manager": "whitaker",
+      "pts": 364.6
+    },
+    {
+      "player": "Justin Jefferson",
+      "season": 2022,
+      "pos": "WR",
+      "manager": "pb",
+      "pts": 364.36
+    },
+    {
+      "player": "Saquon Barkley",
+      "season": 2024,
+      "pos": "RB",
+      "manager": "Tommy",
+      "pts": 363.3
+    },
+    {
+      "player": "Josh Allen",
+      "season": 2025,
+      "pos": "QB",
+      "manager": "Megan",
+      "pts": 362.1
+    },
+    {
+      "player": "Jonathan Taylor",
+      "season": 2025,
+      "pos": "RB",
+      "manager": "Ryan",
+      "pts": 361.4
+    }
+  ],
+  "by_position": {
+    "QB": {
+      "single_game": [
+        {
+          "season": 2024,
+          "week": 14,
+          "manager": "whitaker",
+          "player": "Josh Allen",
+          "pos": "QB",
+          "pts": 53.88
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "manager": "Megan",
+          "player": "Josh Allen",
+          "pos": "QB",
+          "pts": 46.68
+        },
+        {
+          "season": 2019,
+          "week": 7,
+          "manager": "Brice",
+          "player": "Aaron Rodgers",
+          "pos": "QB",
+          "pts": 45.76
+        },
+        {
+          "season": 2015,
+          "week": 8,
+          "manager": "Ryan",
+          "player": "Drew Brees",
+          "pos": "QB",
+          "pts": 45.3
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "manager": "whitaker",
+          "player": "Justin Herbert",
+          "pos": "QB",
+          "pts": 44.82
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "manager": "Jay",
+          "player": "Lamar Jackson",
+          "pos": "QB",
+          "pts": 44.62
+        },
+        {
+          "season": 2019,
+          "week": 5,
+          "manager": "becca",
+          "player": "Deshaun Watson",
+          "pos": "QB",
+          "pts": 43.74
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "manager": "Zac",
+          "player": "Justin Fields",
+          "pos": "QB",
+          "pts": 43.72
+        },
+        {
+          "season": 2019,
+          "week": 3,
+          "manager": "Jason",
+          "player": "Russell Wilson",
+          "pos": "QB",
+          "pts": 43.34
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "manager": "Brice",
+          "player": "Lamar Jackson",
+          "pos": "QB",
+          "pts": 42.88
+        }
+      ],
+      "single_season": [
+        {
+          "player": "Lamar Jackson",
+          "season": 2019,
+          "pos": "QB",
+          "manager": "Ryan",
+          "pts": 430.68
+        },
+        {
+          "player": "Patrick Mahomes",
+          "season": 2018,
+          "pos": "QB",
+          "manager": "Benedict",
+          "pts": 398.06
+        },
+        {
+          "player": "Josh Allen",
+          "season": 2022,
+          "pos": "QB",
+          "manager": "Michael",
+          "pts": 397.76
+        },
+        {
+          "player": "Josh Allen",
+          "season": 2024,
+          "pos": "QB",
+          "manager": "whitaker",
+          "pts": 395.04
+        },
+        {
+          "player": "Josh Allen",
+          "season": 2023,
+          "pos": "QB",
+          "manager": "Brice",
+          "pts": 393.58
+        },
+        {
+          "player": "Lamar Jackson",
+          "season": 2024,
+          "pos": "QB",
+          "manager": "Kevin",
+          "pts": 389.3
+        },
+        {
+          "player": "Patrick Mahomes",
+          "season": 2020,
+          "pos": "QB",
+          "manager": "Carter",
+          "pts": 387.8
+        },
+        {
+          "player": "Jalen Hurts",
+          "season": 2022,
+          "pos": "QB",
+          "manager": "Jason",
+          "pts": 383.58
+        },
+        {
+          "player": "Josh Allen",
+          "season": 2021,
+          "pos": "QB",
+          "manager": "Zac",
+          "pts": 379.92
+        },
+        {
+          "player": "Jalen Hurts",
+          "season": 2023,
+          "pos": "QB",
+          "manager": "Jason",
+          "pts": 371.22
+        }
+      ]
+    },
+    "RB": {
+      "single_game": [
+        {
+          "season": 2013,
+          "week": 15,
+          "manager": "Jay",
+          "player": "Jamaal Charles",
+          "pos": "RB",
+          "pts": 61.5
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "manager": "Megan",
+          "player": "Jahmyr Gibbs",
+          "pos": "RB",
+          "pts": 58.4
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "manager": "Michael",
+          "player": "Joe Mixon",
+          "pos": "RB",
+          "pts": 55.1
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "manager": "Tommy",
+          "player": "Jonathan Taylor",
+          "pos": "RB",
+          "pts": 54.4
+        },
+        {
+          "season": 2016,
+          "week": 14,
+          "manager": "Jay",
+          "player": "Le'Veon Bell",
+          "pos": "RB",
+          "pts": 51.8
+        },
+        {
+          "season": 2017,
+          "week": 16,
+          "manager": "Jay",
+          "player": "Todd Gurley",
+          "pos": "RB",
+          "pts": 50.6
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "manager": "Ryan",
+          "player": "Jonathan Taylor",
+          "pos": "RB",
+          "pts": 50.6
+        },
+        {
+          "season": 2020,
+          "week": 8,
+          "manager": "Jason",
+          "player": "Dalvin Cook",
+          "pos": "RB",
+          "pts": 49.6
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "manager": "becca",
+          "player": "Josh Jacobs",
+          "pos": "RB",
+          "pts": 49.3
+        },
+        {
+          "season": 2019,
+          "week": 5,
+          "manager": "Brice",
+          "player": "Aaron Jones Sr.",
+          "pos": "RB",
+          "pts": 49.2
+        }
+      ],
+      "single_season": [
+        {
+          "player": "Christian McCaffrey",
+          "season": 2019,
+          "pos": "RB",
+          "manager": "Jason",
+          "pts": 427.9
+        },
+        {
+          "player": "David Johnson",
+          "season": 2016,
+          "pos": "RB",
+          "manager": "Brice",
+          "pts": 403.4
+        },
+        {
+          "player": "Christian McCaffrey",
+          "season": 2023,
+          "pos": "RB",
+          "manager": "Brice",
+          "pts": 395.3
+        },
+        {
+          "player": "Christian McCaffrey",
+          "season": 2025,
+          "pos": "RB",
+          "manager": "Carter",
+          "pts": 390.2
+        },
+        {
+          "player": "Todd Gurley",
+          "season": 2017,
+          "pos": "RB",
+          "manager": "Jay",
+          "pts": 388.3
+        },
+        {
+          "player": "Christian McCaffrey",
+          "season": 2018,
+          "pos": "RB",
+          "manager": "Ryan",
+          "pts": 384.5
+        },
+        {
+          "player": "Todd Gurley",
+          "season": 2018,
+          "pos": "RB",
+          "manager": "Jay",
+          "pts": 373.1
+        },
+        {
+          "player": "Saquon Barkley",
+          "season": 2024,
+          "pos": "RB",
+          "manager": "Tommy",
+          "pts": 363.3
+        },
+        {
+          "player": "Jonathan Taylor",
+          "season": 2025,
+          "pos": "RB",
+          "manager": "Ryan",
+          "pts": 361.4
+        },
+        {
+          "player": "Alvin Kamara",
+          "season": 2018,
+          "pos": "RB",
+          "manager": "Jay",
+          "pts": 356.2
+        }
+      ]
+    },
+    "WR": {
+      "single_game": [
+        {
+          "season": 2020,
+          "week": 12,
+          "manager": "Tommy",
+          "player": "Tyreek Hill",
+          "pos": "WR",
+          "pts": 59.9
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "manager": "Zac",
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "pts": 57.6
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "manager": "Carter",
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "pts": 57.4
+        },
+        {
+          "season": 2020,
+          "week": 7,
+          "manager": "becca",
+          "player": "Tyler Lockett",
+          "pos": "WR",
+          "pts": 54.0
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "manager": "Ryan",
+          "player": "Amari Cooper",
+          "pos": "WR",
+          "pts": 53.5
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "manager": "Kevin",
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "pts": 53.2
+        },
+        {
+          "season": 2013,
+          "week": 8,
+          "manager": "Jay",
+          "player": "Calvin Johnson",
+          "pos": "WR",
+          "pts": 52.9
+        },
+        {
+          "season": 2017,
+          "week": 12,
+          "manager": "Dylan",
+          "player": "Julio Jones",
+          "pos": "WR",
+          "pts": 52.8
+        },
+        {
+          "season": 2013,
+          "week": 13,
+          "manager": "Brice",
+          "player": "Eric Decker",
+          "pos": "WR",
+          "pts": 51.4
+        },
+        {
+          "season": 2016,
+          "week": 4,
+          "manager": "Dylan",
+          "player": "Julio Jones",
+          "pos": "WR",
+          "pts": 51.0
+        }
+      ],
+      "single_season": [
+        {
+          "player": "Cooper Kupp",
+          "season": 2021,
+          "pos": "WR",
+          "manager": "whitaker",
+          "pts": 421.4
+        },
+        {
+          "player": "CeeDee Lamb",
+          "season": 2023,
+          "pos": "WR",
+          "manager": "Michael",
+          "pts": 370.7
+        },
+        {
+          "player": "Ja'Marr Chase",
+          "season": 2024,
+          "pos": "WR",
+          "manager": "Carter",
+          "pts": 366.2
+        },
+        {
+          "player": "Tyreek Hill",
+          "season": 2023,
+          "pos": "WR",
+          "manager": "whitaker",
+          "pts": 364.6
+        },
+        {
+          "player": "Justin Jefferson",
+          "season": 2022,
+          "pos": "WR",
+          "manager": "pb",
+          "pts": 364.36
+        },
+        {
+          "player": "Julio Jones",
+          "season": 2015,
+          "pos": "WR",
+          "manager": "pb",
+          "pts": 356.2
+        },
+        {
+          "player": "Davante Adams",
+          "season": 2020,
+          "pos": "WR",
+          "manager": "Brice",
+          "pts": 346.8
+        },
+        {
+          "player": "Antonio Brown",
+          "season": 2015,
+          "pos": "WR",
+          "manager": "Jay",
+          "pts": 344.8
+        },
+        {
+          "player": "Michael Thomas",
+          "season": 2019,
+          "pos": "WR",
+          "manager": "whitaker",
+          "pts": 339.2
+        },
+        {
+          "player": "Antonio Brown",
+          "season": 2014,
+          "pos": "WR",
+          "manager": "Michael",
+          "pts": 338.1
+        }
+      ]
+    },
+    "TE": {
+      "single_game": [
+        {
+          "season": 2020,
+          "week": 13,
+          "manager": "pb",
+          "player": "Darren Waller",
+          "pos": "TE",
+          "pts": 45.0
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "manager": "Megan",
+          "player": "Taysom Hill",
+          "pos": "TE",
+          "pts": 43.52
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "manager": "Tommy",
+          "player": "Brock Bowers",
+          "pos": "TE",
+          "pts": 43.3
+        },
+        {
+          "season": 2014,
+          "week": 8,
+          "manager": "Jay",
+          "player": "Rob Gronkowski",
+          "pos": "TE",
+          "pts": 42.9
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "manager": "Carter",
+          "player": "Travis Kelce",
+          "pos": "TE",
+          "pts": 42.1
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "manager": "Jason",
+          "player": "Mark Andrews",
+          "pos": "TE",
+          "pts": 41.7
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "manager": "whitaker",
+          "player": "T.J. Hockenson",
+          "pos": "TE",
+          "pts": 40.9
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "manager": "Jay",
+          "player": "George Kittle",
+          "pos": "TE",
+          "pts": 40.6
+        },
+        {
+          "season": 2018,
+          "week": 10,
+          "manager": "Kyle",
+          "player": "Zach Ertz",
+          "pos": "TE",
+          "pts": 40.5
+        },
+        {
+          "season": 2020,
+          "week": 4,
+          "manager": "whitaker",
+          "player": "George Kittle",
+          "pos": "TE",
+          "pts": 40.1
+        }
+      ],
+      "single_season": [
+        {
+          "player": "Trey McBride",
+          "season": 2025,
+          "pos": "TE",
+          "manager": "Kevin",
+          "pts": 302.4
+        },
+        {
+          "player": "Travis Kelce",
+          "season": 2022,
+          "pos": "TE",
+          "manager": "Carter",
+          "pts": 288.0
+        },
+        {
+          "player": "Travis Kelce",
+          "season": 2020,
+          "pos": "TE",
+          "manager": "Tommy",
+          "pts": 287.16
+        },
+        {
+          "player": "Travis Kelce",
+          "season": 2018,
+          "pos": "TE",
+          "manager": "Jay",
+          "pts": 285.4
+        },
+        {
+          "player": "Rob Gronkowski",
+          "season": 2014,
+          "pos": "TE",
+          "manager": "Jay",
+          "pts": 267.4
+        },
+        {
+          "player": "Travis Kelce",
+          "season": 2019,
+          "pos": "TE",
+          "manager": "Carter",
+          "pts": 251.9
+        },
+        {
+          "player": "Rob Gronkowski",
+          "season": 2015,
+          "pos": "TE",
+          "manager": "Carter",
+          "pts": 244.2
+        },
+        {
+          "player": "Zach Ertz",
+          "season": 2018,
+          "pos": "TE",
+          "manager": "Kyle",
+          "pts": 240.8
+        },
+        {
+          "player": "Travis Kelce",
+          "season": 2021,
+          "pos": "TE",
+          "manager": "Carter",
+          "pts": 238.0
+        },
+        {
+          "player": "Darren Waller",
+          "season": 2020,
+          "pos": "TE",
+          "manager": "pb",
+          "pts": 235.7
+        }
+      ]
+    },
+    "K": {
+      "single_game": [
+        {
+          "season": 2013,
+          "week": 15,
+          "manager": "Jay",
+          "player": "Justin Tucker",
+          "pos": "K",
+          "pts": 23.0
+        },
+        {
+          "season": 2013,
+          "week": 13,
+          "manager": "Dylan",
+          "player": "Adam Vinatieri",
+          "pos": "K",
+          "pts": 20.0
+        },
+        {
+          "season": 2013,
+          "week": 10,
+          "manager": "Jay",
+          "player": "Stephen Hauschka",
+          "pos": "K",
+          "pts": 19.0
+        },
+        {
+          "season": 2013,
+          "week": 13,
+          "manager": "Jay",
+          "player": "Justin Tucker",
+          "pos": "K",
+          "pts": 19.0
+        },
+        {
+          "season": 2013,
+          "week": 14,
+          "manager": "Carter",
+          "player": "Matt Prater",
+          "pos": "K",
+          "pts": 17.0
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager": "Benedict",
+          "player": "Phil Dawson",
+          "pos": "K",
+          "pts": 17.0
+        },
+        {
+          "season": 2013,
+          "week": 9,
+          "manager": "Benedict",
+          "player": "Nick Folk",
+          "pos": "K",
+          "pts": 16.0
+        },
+        {
+          "season": 2013,
+          "week": 8,
+          "manager": "Lang",
+          "player": "Mason Crosby",
+          "pos": "K",
+          "pts": 15.0
+        },
+        {
+          "season": 2013,
+          "week": 11,
+          "manager": "Dylan",
+          "player": "Adam Vinatieri",
+          "pos": "K",
+          "pts": 15.0
+        },
+        {
+          "season": 2013,
+          "week": 12,
+          "manager": "Jay",
+          "player": "Justin Tucker",
+          "pos": "K",
+          "pts": 15.0
+        }
+      ],
+      "single_season": [
+        {
+          "player": "Stephen Gostkowski",
+          "season": 2013,
+          "pos": "K",
+          "manager": "Brice",
+          "pts": 110.0
+        },
+        {
+          "player": "Matt Prater",
+          "season": 2013,
+          "pos": "K",
+          "manager": "Carter",
+          "pts": 97.5
+        },
+        {
+          "player": "Greg Zuerlein",
+          "season": 2017,
+          "pos": "K",
+          "manager": "Michael",
+          "pts": 89.5
+        },
+        {
+          "player": "Adam Vinatieri",
+          "season": 2013,
+          "pos": "K",
+          "manager": "Dylan",
+          "pts": 85.25
+        },
+        {
+          "player": "Brandon Aubrey",
+          "season": 2025,
+          "pos": "K",
+          "manager": "Carter",
+          "pts": 81.9
+        },
+        {
+          "player": "Stephen Gostkowski",
+          "season": 2017,
+          "pos": "K",
+          "manager": "Jay",
+          "pts": 81.4
+        },
+        {
+          "player": "Brandon Aubrey",
+          "season": 2024,
+          "pos": "K",
+          "manager": "Brice",
+          "pts": 79.6
+        },
+        {
+          "player": "Ka'imi Fairbairn",
+          "season": 2024,
+          "pos": "K",
+          "manager": "whitaker",
+          "pts": 78.2
+        },
+        {
+          "player": "Justin Tucker",
+          "season": 2016,
+          "pos": "K",
+          "manager": "Ryan",
+          "pts": 77.7
+        },
+        {
+          "player": "Stephen Gostkowski",
+          "season": 2014,
+          "pos": "K",
+          "manager": "Kelly Brown",
+          "pts": 77.0
+        }
+      ]
+    },
+    "DEF": {
+      "single_game": [
+        {
+          "season": 2013,
+          "week": 14,
+          "manager": "Lang",
+          "player": "Chiefs - DEF",
+          "pos": "DEF",
+          "pts": 57.5
+        },
+        {
+          "season": 2013,
+          "week": 11,
+          "manager": "Dylan",
+          "player": "Bengals - DEF",
+          "pos": "DEF",
+          "pts": 45.6
+        },
+        {
+          "season": 2013,
+          "week": 16,
+          "manager": "whitaker",
+          "player": "Patriots - DEF",
+          "pos": "DEF",
+          "pts": 42.7
+        },
+        {
+          "season": 2013,
+          "week": 8,
+          "manager": "Jay",
+          "player": "Bengals - DEF",
+          "pos": "DEF",
+          "pts": 41.2
+        },
+        {
+          "season": 2023,
+          "week": 1,
+          "manager": "Tommy",
+          "player": "Cowboys - DEF",
+          "pos": "DEF",
+          "pts": 38.0
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager": "Benedict",
+          "player": "Panthers - DEF",
+          "pos": "DEF",
+          "pts": 37.27
+        },
+        {
+          "season": 2019,
+          "week": 2,
+          "manager": "Jay",
+          "player": "Patriots - DEF",
+          "pos": "DEF",
+          "pts": 37.0
+        },
+        {
+          "season": 2016,
+          "week": 3,
+          "manager": "Brice",
+          "player": "Chiefs - DEF",
+          "pos": "DEF",
+          "pts": 35.0
+        },
+        {
+          "season": 2019,
+          "week": 5,
+          "manager": "Ryan",
+          "player": "Eagles - DEF",
+          "pos": "DEF",
+          "pts": 35.0
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager": "Lang",
+          "player": "Chiefs - DEF",
+          "pos": "DEF",
+          "pts": 34.73
+        }
+      ],
+      "single_season": [
+        {
+          "player": "Seahawks - DEF",
+          "season": 2013,
+          "pos": "DEF",
+          "manager": "Carter",
+          "pts": 228.17
+        },
+        {
+          "player": "Patriots - DEF",
+          "season": 2019,
+          "pos": "DEF",
+          "manager": "Jay",
+          "pts": 228.0
+        },
+        {
+          "player": "49ers - DEF",
+          "season": 2013,
+          "pos": "DEF",
+          "manager": "Brice",
+          "pts": 216.28
+        },
+        {
+          "player": "Bengals - DEF",
+          "season": 2013,
+          "pos": "DEF",
+          "manager": "Dylan",
+          "pts": 188.4
+        },
+        {
+          "player": "Chiefs - DEF",
+          "season": 2013,
+          "pos": "DEF",
+          "manager": "Lang",
+          "pts": 184.69
+        },
+        {
+          "player": "Patriots - DEF",
+          "season": 2013,
+          "pos": "DEF",
+          "manager": "whitaker",
+          "pts": 180.81
+        },
+        {
+          "player": "Broncos - DEF",
+          "season": 2015,
+          "pos": "DEF",
+          "manager": "Michael",
+          "pts": 169.0
+        },
+        {
+          "player": "Ravens - DEF",
+          "season": 2013,
+          "pos": "DEF",
+          "manager": "Kyle",
+          "pts": 165.21
+        },
+        {
+          "player": "Cardinals - DEF",
+          "season": 2015,
+          "pos": "DEF",
+          "manager": "Jay",
+          "pts": 159.0
+        },
+        {
+          "player": "Cowboys - DEF",
+          "season": 2023,
+          "pos": "DEF",
+          "manager": "Tommy",
+          "pts": 157.0
+        }
+      ]
+    }
+  }
+}

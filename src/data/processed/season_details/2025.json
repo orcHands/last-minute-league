@@ -491,7 +491,11 @@
             "state": "PA",
             "attendance": 64050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 6,
+              "cond": "Snow",
+              "emoji": "❄️"
+            },
             "game_date": "2025-12-15"
           },
           {
@@ -513,16 +517,12 @@
             "state": "CA",
             "attendance": 67250,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 44,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2025-12-15"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 15,
-            "team": "Arc the Ladd McConkey",
-            "manager": "Carter",
-            "rank": 4
           },
           {
             "kind": "bye",
@@ -531,6 +531,14 @@
             "team": "Tiny Panthers",
             "manager": "Megan",
             "rank": 3
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 15,
+            "team": "Arc the Ladd McConkey",
+            "manager": "Carter",
+            "rank": 4
           }
         ]
       },
@@ -556,7 +564,11 @@
             "state": "PA",
             "attendance": 66100,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 15,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2025-12-22"
           },
           {
@@ -578,7 +590,11 @@
             "state": "CA",
             "attendance": 67500,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 59,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2025-12-22"
           },
           {
@@ -699,7 +715,11 @@
             "state": "IL",
             "attendance": 60750,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 3,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2025-12-15"
           },
           {
@@ -721,7 +741,11 @@
             "state": "IN",
             "attendance": 50000,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 1,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2025-12-15"
           },
           {
@@ -786,7 +810,11 @@
             "state": "FL",
             "attendance": 61900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 71,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2025-12-22"
           },
           {

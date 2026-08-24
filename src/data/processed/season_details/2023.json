@@ -491,7 +491,11 @@
             "state": "FL",
             "attendance": 61300,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 60,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2023-12-18"
           },
           {
@@ -513,7 +517,11 @@
             "state": "TX",
             "attendance": 90900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 40,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2023-12-18"
           },
           {
@@ -556,7 +564,11 @@
             "state": "FL",
             "attendance": 63600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 72,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2023-12-25"
           },
           {
@@ -578,7 +590,11 @@
             "state": "TX",
             "attendance": 88400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 38,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2023-12-25"
           },
           {
@@ -698,7 +714,11 @@
             "state": "CA",
             "attendance": 61250,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 50,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2023-12-18"
           },
           {
@@ -720,7 +740,11 @@
             "state": "IL",
             "attendance": 60750,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 22,
+              "cond": "Snow",
+              "emoji": "❄️"
+            },
             "game_date": "2023-12-18"
           },
           {
@@ -763,7 +787,11 @@
             "state": "CA",
             "attendance": 67700,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 40,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2023-12-25"
           },
           {
@@ -806,7 +834,11 @@
             "state": "CA",
             "attendance": 60450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 40,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2023-12-25"
           }
         ]

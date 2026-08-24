@@ -491,7 +491,11 @@
             "state": "NV",
             "attendance": 34200,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 42,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2015-12-14"
           },
           {
@@ -555,7 +559,11 @@
             "state": "NV",
             "attendance": 34750,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 39,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2015-12-21"
           },
           {
@@ -577,7 +585,11 @@
             "state": "MD",
             "attendance": 66600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 38,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2015-12-21"
           },
           {
@@ -698,7 +710,11 @@
             "state": "FL",
             "attendance": 63150,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 73,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2015-12-14"
           },
           {
@@ -720,16 +736,12 @@
             "state": "NJ",
             "attendance": 79400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 52,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2015-12-14"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 14,
-            "team": "Touchdown();",
-            "manager": "whitaker",
-            "rank": 10
           },
           {
             "kind": "bye",
@@ -738,6 +750,14 @@
             "team": "The Trail of Pears",
             "manager": "Ryan",
             "rank": 7
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Touchdown();",
+            "manager": "whitaker",
+            "rank": 10
           }
         ]
       },
@@ -763,7 +783,11 @@
             "state": "CA",
             "attendance": 65200,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 52,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2015-12-21"
           },
           {
@@ -785,7 +809,11 @@
             "state": "FL",
             "attendance": 64300,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 61,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2015-12-21"
           },
           {
@@ -1237,7 +1265,7 @@
         "player": "Charles Sims",
         "pick_overall": 153,
         "pts": 62.0,
-        "pts_rank": 75,
+        "pts_rank": 74,
         "draft_pool": 134,
         "manager": "whitaker",
         "pos": "RB",

@@ -491,7 +491,11 @@
             "state": "FL",
             "attendance": 62800,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 67,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2020-12-14"
           },
           {
@@ -513,16 +517,12 @@
             "state": "TX",
             "attendance": 57850,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 17,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2020-12-14"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 14,
-            "team": "Goffsides",
-            "manager": "Zac",
-            "rank": 2
           },
           {
             "kind": "bye",
@@ -531,6 +531,14 @@
             "team": "Tommy's Turbos",
             "manager": "Tommy",
             "rank": 1
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Goffsides",
+            "manager": "Zac",
+            "rank": 2
           }
         ]
       },
@@ -556,7 +564,11 @@
             "state": "IL",
             "attendance": 57750,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 33,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2020-12-21"
           },
           {
@@ -697,7 +709,11 @@
             "state": "MD",
             "attendance": 63500,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 37,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2020-12-14"
           },
           {
@@ -719,16 +735,12 @@
             "state": "TX",
             "attendance": 86200,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 34,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2020-12-14"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 14,
-            "team": "A Tale of Trubisky's",
-            "manager": "Ryan",
-            "rank": 8
           },
           {
             "kind": "bye",
@@ -737,6 +749,14 @@
             "team": "Clyde Edwards Eclair",
             "manager": "Jason",
             "rank": 7
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "A Tale of Trubisky's",
+            "manager": "Ryan",
+            "rank": 8
           }
         ]
       },
@@ -762,7 +782,11 @@
             "state": "CA",
             "attendance": 66550,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 34,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2020-12-21"
           },
           {
@@ -806,7 +830,11 @@
             "state": "CA",
             "attendance": 61750,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 37,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2020-12-21"
           }
         ]

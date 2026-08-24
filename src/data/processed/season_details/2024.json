@@ -491,7 +491,11 @@
             "state": "IN",
             "attendance": 50750,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 48,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2024-12-16"
           },
           {
@@ -576,7 +580,11 @@
             "state": "CA",
             "attendance": 59000,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 56,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2024-12-23"
           },
           {
@@ -697,7 +705,11 @@
             "state": "CA",
             "attendance": 65900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 45,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2024-12-16"
           },
           {
@@ -719,7 +731,11 @@
             "state": "IL",
             "attendance": 59450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 37,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2024-12-16"
           },
           {
@@ -762,7 +778,11 @@
             "state": "FL",
             "attendance": 64450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 61,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2024-12-23"
           },
           {
@@ -784,7 +804,11 @@
             "state": "CA",
             "attendance": 67550,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 59,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2024-12-23"
           },
           {

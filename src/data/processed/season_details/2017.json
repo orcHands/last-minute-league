@@ -551,7 +551,11 @@
             "state": "MD",
             "attendance": 65400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 35,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-11"
           },
           {
@@ -573,16 +577,12 @@
             "state": "TX",
             "attendance": 90900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 38,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-11"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 14,
-            "team": "Goffsides",
-            "manager": "Zac",
-            "rank": 3
           },
           {
             "kind": "bye",
@@ -591,6 +591,14 @@
             "team": "Spicy Meatballs",
             "manager": "Kelly Brown",
             "rank": 4
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Goffsides",
+            "manager": "Zac",
+            "rank": 3
           }
         ]
       },
@@ -616,7 +624,11 @@
             "state": "MD",
             "attendance": 64050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 39,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-18"
           },
           {
@@ -638,7 +650,11 @@
             "state": "TX",
             "attendance": 86600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 48,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-18"
           },
           {
@@ -762,7 +778,11 @@
             "state": "NV",
             "attendance": 33150,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 40,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-11"
           },
           {
@@ -784,16 +804,12 @@
             "state": "MA",
             "attendance": 64600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 32,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-11"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 14,
-            "team": "Bricing The Kicker",
-            "manager": "Brice",
-            "rank": 8
           },
           {
             "kind": "bye",
@@ -802,6 +818,14 @@
             "team": "Good King Wentzeslas",
             "manager": "Ryan",
             "rank": 7
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Bricing The Kicker",
+            "manager": "Brice",
+            "rank": 8
           }
         ]
       },
@@ -827,7 +851,11 @@
             "state": "CA",
             "attendance": 66650,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 40,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-18"
           },
           {
@@ -849,7 +877,11 @@
             "state": "FL",
             "attendance": 64050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 69,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2017-12-18"
           },
           {

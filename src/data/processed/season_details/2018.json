@@ -551,7 +551,11 @@
             "state": "CA",
             "attendance": 66400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 43,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2018-12-10"
           },
           {
@@ -573,16 +577,12 @@
             "state": "MD",
             "attendance": 63250,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 30,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2018-12-10"
-          },
-          {
-            "kind": "bye",
-            "label": "Bye Week",
-            "week": 14,
-            "team": "Vontaze Benedict",
-            "manager": "Benedict",
-            "rank": 1
           },
           {
             "kind": "bye",
@@ -591,6 +591,14 @@
             "team": "Bortles' Burgers",
             "manager": "Carter",
             "rank": 2
+          },
+          {
+            "kind": "bye",
+            "label": "Bye Week",
+            "week": 14,
+            "team": "Vontaze Benedict",
+            "manager": "Benedict",
+            "rank": 1
           }
         ]
       },
@@ -616,7 +624,11 @@
             "state": "TX",
             "attendance": 56650,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 33,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2018-12-17"
           },
           {
@@ -638,7 +650,11 @@
             "state": "MA",
             "attendance": 64900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 36,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2018-12-17"
           },
           {
@@ -762,7 +778,11 @@
             "state": "CA",
             "attendance": 59200,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 42,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2018-12-10"
           },
           {
@@ -784,7 +804,11 @@
             "state": "MI",
             "attendance": 105250,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 21,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2018-12-10"
           },
           {
@@ -827,7 +851,11 @@
             "state": "CA",
             "attendance": 62400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 49,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2018-12-17"
           },
           {

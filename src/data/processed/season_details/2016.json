@@ -491,7 +491,11 @@
             "state": "FL",
             "attendance": 61150,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 70,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2016-12-12"
           },
           {
@@ -513,7 +517,11 @@
             "state": "MD",
             "attendance": 63800,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 41,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2016-12-12"
           },
           {
@@ -556,7 +564,11 @@
             "state": "FL",
             "attendance": 63050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 72,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2016-12-19"
           },
           {
@@ -578,7 +590,11 @@
             "state": "TX",
             "attendance": 86650,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 17,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2016-12-19"
           },
           {
@@ -699,7 +715,11 @@
             "state": "NJ",
             "attendance": 79600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 32,
+              "cond": "Rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2016-12-12"
           },
           {
@@ -727,17 +747,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "SEC Speed",
-            "manager": "pb",
-            "rank": 8
+            "team": "Dat VFL",
+            "manager": "Sara",
+            "rank": 9
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Dat VFL",
-            "manager": "Sara",
-            "rank": 9
+            "team": "SEC Speed",
+            "manager": "pb",
+            "rank": 8
           }
         ]
       },
@@ -763,7 +783,11 @@
             "state": "NV",
             "attendance": 34300,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 30,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2016-12-19"
           },
           {
@@ -785,7 +809,11 @@
             "state": "NJ",
             "attendance": 78100,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 22,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2016-12-19"
           },
           {

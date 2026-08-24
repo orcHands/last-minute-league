@@ -1,0 +1,1901 @@
+{
+  "rule": {
+    "class_size": 5,
+    "eligibility_lag_years": 5,
+    "ranked_by": "career started points in this league (regular season + playoffs)",
+    "retirement_source": "last appearance in data/nflverse/roster_{year}.csv",
+    "rollover": true,
+    "current_year": 2026
+  },
+  "classes": [
+    {
+      "year": 2018,
+      "inductees": [
+        {
+          "player": "Tony Gonzalez",
+          "pos": "TE",
+          "career_pts": 134.0,
+          "career_games": 11,
+          "ppg": 12.18,
+          "seasons": [
+            2013
+          ],
+          "first_season": 2013,
+          "last_season": 2013,
+          "best_season": 2013,
+          "best_season_pts": 134.0,
+          "top_manager": "Kyle",
+          "top_manager_pts": 134.0,
+          "managers": [
+            "Kyle"
+          ],
+          "final_nfl_season": 2013,
+          "eligible_from": 2018,
+          "waited_years": 0
+        },
+        {
+          "player": "Ray Rice",
+          "pos": "RB",
+          "career_pts": 117.0,
+          "career_games": 10,
+          "ppg": 11.7,
+          "seasons": [
+            2013
+          ],
+          "first_season": 2013,
+          "last_season": 2013,
+          "best_season": 2013,
+          "best_season_pts": 117.0,
+          "top_manager": "Dylan",
+          "top_manager_pts": 117.0,
+          "managers": [
+            "Dylan"
+          ],
+          "final_nfl_season": 2013,
+          "eligible_from": 2018,
+          "waited_years": 0
+        },
+        {
+          "player": "Andre Brown",
+          "pos": "RB",
+          "career_pts": 51.2,
+          "career_games": 3,
+          "ppg": 17.07,
+          "seasons": [
+            2013
+          ],
+          "first_season": 2013,
+          "last_season": 2013,
+          "best_season": 2013,
+          "best_season_pts": 51.2,
+          "top_manager": "Lang",
+          "top_manager_pts": 51.2,
+          "managers": [
+            "Lang"
+          ],
+          "final_nfl_season": 2013,
+          "eligible_from": 2018,
+          "waited_years": 0
+        },
+        {
+          "player": "Jermichael Finley",
+          "pos": "TE",
+          "career_pts": 18.2,
+          "career_games": 1,
+          "ppg": 18.2,
+          "seasons": [
+            2013
+          ],
+          "first_season": 2013,
+          "last_season": 2013,
+          "best_season": 2013,
+          "best_season_pts": 18.2,
+          "top_manager": "Jay",
+          "top_manager_pts": 18.2,
+          "managers": [
+            "Jay"
+          ],
+          "final_nfl_season": 2013,
+          "eligible_from": 2018,
+          "waited_years": 0
+        },
+        {
+          "player": "David Akers",
+          "pos": "K",
+          "career_pts": 14.75,
+          "career_games": 3,
+          "ppg": 4.92,
+          "seasons": [
+            2013
+          ],
+          "first_season": 2013,
+          "last_season": 2013,
+          "best_season": 2013,
+          "best_season_pts": 14.75,
+          "top_manager": "Benedict",
+          "top_manager_pts": 12.25,
+          "managers": [
+            "Benedict",
+            "Kyle"
+          ],
+          "final_nfl_season": 2013,
+          "eligible_from": 2018,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 7,
+      "rolled_over": 2,
+      "weakest_pts": 14.75
+    },
+    {
+      "year": 2019,
+      "inductees": [
+        {
+          "player": "Knowshon Moreno",
+          "pos": "RB",
+          "career_pts": 169.8,
+          "career_games": 11,
+          "ppg": 15.44,
+          "seasons": [
+            2013,
+            2014
+          ],
+          "first_season": 2013,
+          "last_season": 2014,
+          "best_season": 2013,
+          "best_season_pts": 147.2,
+          "top_manager": "Lang",
+          "top_manager_pts": 147.2,
+          "managers": [
+            "Lang",
+            "Kyle"
+          ],
+          "final_nfl_season": 2014,
+          "eligible_from": 2019,
+          "waited_years": 0
+        },
+        {
+          "player": "Reggie Wayne",
+          "pos": "WR",
+          "career_pts": 137.6,
+          "career_games": 12,
+          "ppg": 11.47,
+          "seasons": [
+            2013,
+            2014
+          ],
+          "first_season": 2013,
+          "last_season": 2014,
+          "best_season": 2014,
+          "best_season_pts": 127.6,
+          "top_manager": "Lang",
+          "top_manager_pts": 127.6,
+          "managers": [
+            "Lang",
+            "Dylan"
+          ],
+          "final_nfl_season": 2014,
+          "eligible_from": 2019,
+          "waited_years": 0
+        },
+        {
+          "player": "Ben Tate",
+          "pos": "RB",
+          "career_pts": 81.3,
+          "career_games": 8,
+          "ppg": 10.16,
+          "seasons": [
+            2013,
+            2014
+          ],
+          "first_season": 2013,
+          "last_season": 2014,
+          "best_season": 2014,
+          "best_season_pts": 73.6,
+          "top_manager": "Carter",
+          "top_manager_pts": 73.6,
+          "managers": [
+            "Carter",
+            "Jay"
+          ],
+          "final_nfl_season": 2014,
+          "eligible_from": 2019,
+          "waited_years": 0
+        },
+        {
+          "player": "Montee Ball",
+          "pos": "RB",
+          "career_pts": 36.4,
+          "career_games": 5,
+          "ppg": 7.28,
+          "seasons": [
+            2014
+          ],
+          "first_season": 2014,
+          "last_season": 2014,
+          "best_season": 2014,
+          "best_season_pts": 36.4,
+          "top_manager": "Kyle",
+          "top_manager_pts": 36.4,
+          "managers": [
+            "Kyle"
+          ],
+          "final_nfl_season": 2014,
+          "eligible_from": 2019,
+          "waited_years": 0
+        },
+        {
+          "player": "Kyle Orton",
+          "pos": "QB",
+          "career_pts": 18.2,
+          "career_games": 1,
+          "ppg": 18.2,
+          "seasons": [
+            2014
+          ],
+          "first_season": 2014,
+          "last_season": 2014,
+          "best_season": 2014,
+          "best_season_pts": 18.2,
+          "top_manager": "Ryan",
+          "top_manager_pts": 18.2,
+          "managers": [
+            "Ryan"
+          ],
+          "final_nfl_season": 2014,
+          "eligible_from": 2019,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 15,
+      "rolled_over": 10,
+      "weakest_pts": 18.2
+    },
+    {
+      "year": 2020,
+      "inductees": [
+        {
+          "player": "Calvin Johnson",
+          "pos": "WR",
+          "career_pts": 667.4,
+          "career_games": 35,
+          "ppg": 19.07,
+          "seasons": [
+            2013,
+            2014,
+            2015
+          ],
+          "first_season": 2013,
+          "last_season": 2015,
+          "best_season": 2015,
+          "best_season_pts": 232.1,
+          "top_manager": "Ryan",
+          "top_manager_pts": 441.9,
+          "managers": [
+            "Ryan",
+            "Jay"
+          ],
+          "final_nfl_season": 2015,
+          "eligible_from": 2020,
+          "waited_years": 0
+        },
+        {
+          "player": "Peyton Manning",
+          "pos": "QB",
+          "career_pts": 654.46,
+          "career_games": 30,
+          "ppg": 21.82,
+          "seasons": [
+            2013,
+            2014,
+            2015
+          ],
+          "first_season": 2013,
+          "last_season": 2015,
+          "best_season": 2014,
+          "best_season_pts": 329.46,
+          "top_manager": "Jay",
+          "top_manager_pts": 329.46,
+          "managers": [
+            "Jay",
+            "Kyle"
+          ],
+          "final_nfl_season": 2015,
+          "eligible_from": 2020,
+          "waited_years": 0
+        },
+        {
+          "player": "Roddy White",
+          "pos": "WR",
+          "career_pts": 236.5,
+          "career_games": 15,
+          "ppg": 15.77,
+          "seasons": [
+            2013,
+            2014
+          ],
+          "first_season": 2013,
+          "last_season": 2014,
+          "best_season": 2014,
+          "best_season_pts": 171.0,
+          "top_manager": "Dylan",
+          "top_manager_pts": 152.2,
+          "managers": [
+            "Dylan",
+            "Brice",
+            "Lang"
+          ],
+          "final_nfl_season": 2015,
+          "eligible_from": 2020,
+          "waited_years": 0
+        },
+        {
+          "player": "Zac Stacy",
+          "pos": "RB",
+          "career_pts": 196.9,
+          "career_games": 14,
+          "ppg": 14.06,
+          "seasons": [
+            2013,
+            2014
+          ],
+          "first_season": 2013,
+          "last_season": 2014,
+          "best_season": 2013,
+          "best_season_pts": 147.4,
+          "top_manager": "Kyle",
+          "top_manager_pts": 147.4,
+          "managers": [
+            "Kyle",
+            "Jay"
+          ],
+          "final_nfl_season": 2015,
+          "eligible_from": 2020,
+          "waited_years": 0
+        },
+        {
+          "player": "Heath Miller",
+          "pos": "TE",
+          "career_pts": 138.9,
+          "career_games": 14,
+          "ppg": 9.92,
+          "seasons": [
+            2013,
+            2014,
+            2015
+          ],
+          "first_season": 2013,
+          "last_season": 2015,
+          "best_season": 2014,
+          "best_season_pts": 83.9,
+          "top_manager": "Michael",
+          "top_manager_pts": 83.9,
+          "managers": [
+            "Michael",
+            "Tommy",
+            "Carter"
+          ],
+          "final_nfl_season": 2015,
+          "eligible_from": 2020,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 26,
+      "rolled_over": 21,
+      "weakest_pts": 138.9
+    },
+    {
+      "year": 2021,
+      "inductees": [
+        {
+          "player": "Arian Foster",
+          "pos": "RB",
+          "career_pts": 336.4,
+          "career_games": 20,
+          "ppg": 16.82,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "first_season": 2013,
+          "last_season": 2016,
+          "best_season": 2014,
+          "best_season_pts": 243.4,
+          "top_manager": "Benedict",
+          "top_manager_pts": 243.4,
+          "managers": [
+            "Benedict",
+            "Carter",
+            "Ryan",
+            "Brice"
+          ],
+          "final_nfl_season": 2016,
+          "eligible_from": 2021,
+          "waited_years": 0
+        },
+        {
+          "player": "Steve Smith",
+          "pos": "WR",
+          "career_pts": 335.3,
+          "career_games": 24,
+          "ppg": 13.97,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "first_season": 2013,
+          "last_season": 2016,
+          "best_season": 2014,
+          "best_season_pts": 153.5,
+          "top_manager": "pb",
+          "top_manager_pts": 153.5,
+          "managers": [
+            "pb",
+            "Brice",
+            "Dylan",
+            "Kyle"
+          ],
+          "final_nfl_season": 2016,
+          "eligible_from": 2021,
+          "waited_years": 0
+        },
+        {
+          "player": "Tony Romo",
+          "pos": "QB",
+          "career_pts": 321.26,
+          "career_games": 20,
+          "ppg": 16.06,
+          "seasons": [
+            2013,
+            2014,
+            2015
+          ],
+          "first_season": 2013,
+          "last_season": 2015,
+          "best_season": 2014,
+          "best_season_pts": 180.04,
+          "top_manager": "pb",
+          "top_manager_pts": 211.28,
+          "managers": [
+            "pb",
+            "Lang",
+            "Tommy"
+          ],
+          "final_nfl_season": 2016,
+          "eligible_from": 2021,
+          "waited_years": 0
+        },
+        {
+          "player": "Justin Forsett",
+          "pos": "RB",
+          "career_pts": 307.6,
+          "career_games": 21,
+          "ppg": 14.65,
+          "seasons": [
+            2014,
+            2015
+          ],
+          "first_season": 2014,
+          "last_season": 2015,
+          "best_season": 2014,
+          "best_season_pts": 185.2,
+          "top_manager": "Kyle",
+          "top_manager_pts": 143.8,
+          "managers": [
+            "Kyle",
+            "Jay",
+            "pb"
+          ],
+          "final_nfl_season": 2016,
+          "eligible_from": 2021,
+          "waited_years": 0
+        },
+        {
+          "player": "Colin Kaepernick",
+          "pos": "QB",
+          "career_pts": 278.04,
+          "career_games": 17,
+          "ppg": 16.36,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 185.98,
+          "top_manager": "Lang",
+          "top_manager_pts": 185.98,
+          "managers": [
+            "Lang",
+            "Jay",
+            "Carter",
+            "pb"
+          ],
+          "final_nfl_season": 2016,
+          "eligible_from": 2021,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 73,
+      "rolled_over": 68,
+      "weakest_pts": 278.04
+    },
+    {
+      "year": 2022,
+      "inductees": [
+        {
+          "player": "DeMarco Murray",
+          "pos": "RB",
+          "career_pts": 1054.9,
+          "career_games": 60,
+          "ppg": 17.58,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 321.2,
+          "top_manager": "whitaker",
+          "top_manager_pts": 442.5,
+          "managers": [
+            "whitaker",
+            "Kelly Brown",
+            "Michael",
+            "Jay"
+          ],
+          "final_nfl_season": 2017,
+          "eligible_from": 2022,
+          "waited_years": 0
+        },
+        {
+          "player": "Matt Forte",
+          "pos": "RB",
+          "career_pts": 927.2,
+          "career_games": 49,
+          "ppg": 18.92,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 308.2,
+          "top_manager": "whitaker",
+          "top_manager_pts": 527.9,
+          "managers": [
+            "whitaker",
+            "Michael",
+            "Benedict"
+          ],
+          "final_nfl_season": 2017,
+          "eligible_from": 2022,
+          "waited_years": 0
+        },
+        {
+          "player": "Jeremy Maclin",
+          "pos": "WR",
+          "career_pts": 601.1,
+          "career_games": 42,
+          "ppg": 14.31,
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2014,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 264.8,
+          "top_manager": "Ryan",
+          "top_manager_pts": 264.8,
+          "managers": [
+            "Ryan",
+            "Michael",
+            "pb",
+            "Sara"
+          ],
+          "final_nfl_season": 2017,
+          "eligible_from": 2022,
+          "waited_years": 0
+        },
+        {
+          "player": "Eddie Lacy",
+          "pos": "RB",
+          "career_pts": 599.3,
+          "career_games": 45,
+          "ppg": 13.32,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 243.6,
+          "top_manager": "Tommy",
+          "top_manager_pts": 243.6,
+          "managers": [
+            "Tommy",
+            "Carter",
+            "Sara",
+            "Ryan",
+            "Kyle"
+          ],
+          "final_nfl_season": 2017,
+          "eligible_from": 2022,
+          "waited_years": 0
+        },
+        {
+          "player": "Martellus Bennett",
+          "pos": "TE",
+          "career_pts": 450.6,
+          "career_games": 44,
+          "ppg": 10.24,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 170.7,
+          "top_manager": "Kyle",
+          "top_manager_pts": 170.7,
+          "managers": [
+            "Kyle",
+            "pb",
+            "Michael",
+            "Kelly Brown",
+            "Benedict",
+            "Carter"
+          ],
+          "final_nfl_season": 2017,
+          "eligible_from": 2022,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 110,
+      "rolled_over": 105,
+      "weakest_pts": 450.6
+    },
+    {
+      "year": 2023,
+      "inductees": [
+        {
+          "player": "Jordy Nelson",
+          "pos": "WR",
+          "career_pts": 828.4,
+          "career_games": 52,
+          "ppg": 15.93,
+          "seasons": [
+            2013,
+            2014,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2013,
+          "last_season": 2018,
+          "best_season": 2014,
+          "best_season_pts": 285.7,
+          "top_manager": "Brice",
+          "top_manager_pts": 285.7,
+          "managers": [
+            "Brice",
+            "Carter",
+            "Lang",
+            "pb",
+            "Michael",
+            "Ryan"
+          ],
+          "final_nfl_season": 2018,
+          "eligible_from": 2023,
+          "waited_years": 0
+        },
+        {
+          "player": "Doug Baldwin",
+          "pos": "WR",
+          "career_pts": 650.7,
+          "career_games": 46,
+          "ppg": 14.15,
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2014,
+          "last_season": 2018,
+          "best_season": 2016,
+          "best_season_pts": 213.9,
+          "top_manager": "whitaker",
+          "top_manager_pts": 402.5,
+          "managers": [
+            "whitaker",
+            "Sara",
+            "Brice",
+            "Michael",
+            "becca"
+          ],
+          "final_nfl_season": 2018,
+          "eligible_from": 2023,
+          "waited_years": 0
+        },
+        {
+          "player": "Eric Decker",
+          "pos": "WR",
+          "career_pts": 598.2,
+          "career_games": 38,
+          "ppg": 15.74,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2015,
+          "best_season_pts": 236.7,
+          "top_manager": "Tommy",
+          "top_manager_pts": 380.2,
+          "managers": [
+            "Tommy",
+            "Brice",
+            "Kelly Brown",
+            "Benedict"
+          ],
+          "final_nfl_season": 2018,
+          "eligible_from": 2023,
+          "waited_years": 0
+        },
+        {
+          "player": "Jamaal Charles",
+          "pos": "RB",
+          "career_pts": 582.2,
+          "career_games": 29,
+          "ppg": 20.08,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "first_season": 2013,
+          "last_season": 2017,
+          "best_season": 2014,
+          "best_season_pts": 233.5,
+          "top_manager": "Jay",
+          "top_manager_pts": 234.9,
+          "managers": [
+            "Jay",
+            "Lang",
+            "Ryan",
+            "Dylan"
+          ],
+          "final_nfl_season": 2018,
+          "eligible_from": 2023,
+          "waited_years": 0
+        },
+        {
+          "player": "Pierre Garcon",
+          "pos": "WR",
+          "career_pts": 442.6,
+          "career_games": 36,
+          "ppg": 12.29,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2013,
+          "last_season": 2018,
+          "best_season": 2013,
+          "best_season_pts": 189.7,
+          "top_manager": "Carter",
+          "top_manager_pts": 189.7,
+          "managers": [
+            "Carter",
+            "Benedict",
+            "Ryan",
+            "Michael",
+            "Kelly Brown",
+            "Kyle"
+          ],
+          "final_nfl_season": 2018,
+          "eligible_from": 2023,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 152,
+      "rolled_over": 147,
+      "weakest_pts": 442.6
+    },
+    {
+      "year": 2024,
+      "inductees": [
+        {
+          "player": "Andrew Luck",
+          "pos": "QB",
+          "career_pts": 917.34,
+          "career_games": 42,
+          "ppg": 21.84,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2018
+          ],
+          "first_season": 2013,
+          "last_season": 2018,
+          "best_season": 2014,
+          "best_season_pts": 355.58,
+          "top_manager": "Michael",
+          "top_manager_pts": 406.2,
+          "managers": [
+            "Michael",
+            "pb",
+            "Ryan",
+            "Dylan"
+          ],
+          "final_nfl_season": 2019,
+          "eligible_from": 2024,
+          "waited_years": 0
+        },
+        {
+          "player": "Brandon Marshall",
+          "pos": "WR",
+          "career_pts": 758.4,
+          "career_games": 49,
+          "ppg": 15.48,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2013,
+          "last_season": 2018,
+          "best_season": 2015,
+          "best_season_pts": 291.1,
+          "top_manager": "Benedict",
+          "top_manager_pts": 291.1,
+          "managers": [
+            "Benedict",
+            "pb",
+            "Dylan",
+            "becca"
+          ],
+          "final_nfl_season": 2019,
+          "eligible_from": 2024,
+          "waited_years": 0
+        },
+        {
+          "player": "Michael Crabtree",
+          "pos": "WR",
+          "career_pts": 643.3,
+          "career_games": 52,
+          "ppg": 12.37,
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2014,
+          "last_season": 2018,
+          "best_season": 2016,
+          "best_season_pts": 198.4,
+          "top_manager": "Ryan",
+          "top_manager_pts": 289.1,
+          "managers": [
+            "Ryan",
+            "Kelly Brown",
+            "Carter",
+            "Jay",
+            "Benedict"
+          ],
+          "final_nfl_season": 2019,
+          "eligible_from": 2024,
+          "waited_years": 0
+        },
+        {
+          "player": "Eli Manning",
+          "pos": "QB",
+          "career_pts": 502.8,
+          "career_games": 30,
+          "ppg": 16.76,
+          "seasons": [
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2014,
+          "last_season": 2018,
+          "best_season": 2015,
+          "best_season_pts": 263.88,
+          "top_manager": "Benedict",
+          "top_manager_pts": 263.88,
+          "managers": [
+            "Benedict",
+            "Dylan",
+            "Tommy",
+            "Kyle",
+            "Lang",
+            "Zac",
+            "Jay"
+          ],
+          "final_nfl_season": 2019,
+          "eligible_from": 2024,
+          "waited_years": 0
+        },
+        {
+          "player": "Doug Martin",
+          "pos": "RB",
+          "career_pts": 446.7,
+          "career_games": 44,
+          "ppg": 10.15,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2013,
+          "last_season": 2018,
+          "best_season": 2015,
+          "best_season_pts": 218.5,
+          "top_manager": "Dylan",
+          "top_manager_pts": 292.4,
+          "managers": [
+            "Dylan",
+            "Kyle",
+            "Lang",
+            "becca",
+            "pb",
+            "Brice"
+          ],
+          "final_nfl_season": 2019,
+          "eligible_from": 2024,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 175,
+      "rolled_over": 170,
+      "weakest_pts": 446.7
+    },
+    {
+      "year": 2025,
+      "inductees": [
+        {
+          "player": "Todd Gurley",
+          "pos": "RB",
+          "career_pts": 1411.3,
+          "career_games": 74,
+          "ppg": 19.07,
+          "seasons": [
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "first_season": 2015,
+          "last_season": 2020,
+          "best_season": 2017,
+          "best_season_pts": 388.3,
+          "top_manager": "Jay",
+          "top_manager_pts": 1202.5,
+          "managers": [
+            "Jay",
+            "Ryan"
+          ],
+          "final_nfl_season": 2020,
+          "eligible_from": 2025,
+          "waited_years": 0
+        },
+        {
+          "player": "LeSean McCoy",
+          "pos": "RB",
+          "career_pts": 1217.2,
+          "career_games": 76,
+          "ppg": 16.02,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "first_season": 2013,
+          "last_season": 2019,
+          "best_season": 2016,
+          "best_season_pts": 273.1,
+          "top_manager": "Benedict",
+          "top_manager_pts": 584.8,
+          "managers": [
+            "Benedict",
+            "whitaker",
+            "Michael",
+            "Brice"
+          ],
+          "final_nfl_season": 2020,
+          "eligible_from": 2025,
+          "waited_years": 0
+        },
+        {
+          "player": "Demaryius Thomas",
+          "pos": "WR",
+          "career_pts": 1204.0,
+          "career_games": 73,
+          "ppg": 16.49,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "first_season": 2013,
+          "last_season": 2018,
+          "best_season": 2014,
+          "best_season_pts": 307.9,
+          "top_manager": "pb",
+          "top_manager_pts": 345.0,
+          "managers": [
+            "pb",
+            "Brice",
+            "Carter",
+            "Benedict",
+            "Tommy",
+            "Kyle"
+          ],
+          "final_nfl_season": 2020,
+          "eligible_from": 2025,
+          "waited_years": 0
+        },
+        {
+          "player": "Larry Fitzgerald",
+          "pos": "WR",
+          "career_pts": 1128.82,
+          "career_games": 76,
+          "ppg": 14.85,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "first_season": 2013,
+          "last_season": 2019,
+          "best_season": 2017,
+          "best_season_pts": 247.94,
+          "top_manager": "Michael",
+          "top_manager_pts": 472.24,
+          "managers": [
+            "Michael",
+            "Benedict",
+            "Kyle",
+            "Tommy",
+            "pb"
+          ],
+          "final_nfl_season": 2020,
+          "eligible_from": 2025,
+          "waited_years": 0
+        },
+        {
+          "player": "Julian Edelman",
+          "pos": "WR",
+          "career_pts": 1098.92,
+          "career_games": 68,
+          "ppg": 16.16,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2018,
+            2019,
+            2020
+          ],
+          "first_season": 2013,
+          "last_season": 2020,
+          "best_season": 2019,
+          "best_season_pts": 238.48,
+          "top_manager": "Jay",
+          "top_manager_pts": 824.58,
+          "managers": [
+            "Jay",
+            "whitaker",
+            "Benedict",
+            "Kyle",
+            "Carter"
+          ],
+          "final_nfl_season": 2020,
+          "eligible_from": 2025,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 229,
+      "rolled_over": 224,
+      "weakest_pts": 1098.92
+    },
+    {
+      "year": 2026,
+      "inductees": [
+        {
+          "player": "Antonio Brown",
+          "pos": "WR",
+          "career_pts": 1929.2,
+          "career_games": 87,
+          "ppg": 22.17,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2021
+          ],
+          "first_season": 2013,
+          "last_season": 2021,
+          "best_season": 2015,
+          "best_season_pts": 344.8,
+          "top_manager": "Jay",
+          "top_manager_pts": 344.8,
+          "managers": [
+            "Jay",
+            "Michael",
+            "pb",
+            "Sara",
+            "Zac",
+            "Lang",
+            "Jason",
+            "Aboubacar"
+          ],
+          "final_nfl_season": 2021,
+          "eligible_from": 2026,
+          "waited_years": 0
+        },
+        {
+          "player": "Drew Brees",
+          "pos": "QB",
+          "career_pts": 1752.36,
+          "career_games": 85,
+          "ppg": 20.62,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "first_season": 2013,
+          "last_season": 2020,
+          "best_season": 2016,
+          "best_season_pts": 313.06,
+          "top_manager": "Benedict",
+          "top_manager_pts": 526.2,
+          "managers": [
+            "Benedict",
+            "Kyle",
+            "Dylan",
+            "Michael",
+            "Jason",
+            "Ryan",
+            "becca",
+            "Brice"
+          ],
+          "final_nfl_season": 2021,
+          "eligible_from": 2026,
+          "waited_years": 0
+        },
+        {
+          "player": "Cam Newton",
+          "pos": "QB",
+          "career_pts": 1530.28,
+          "career_games": 76,
+          "ppg": 20.14,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2020,
+            2021
+          ],
+          "first_season": 2013,
+          "last_season": 2021,
+          "best_season": 2015,
+          "best_season_pts": 351.36,
+          "top_manager": "Jay",
+          "top_manager_pts": 707.3,
+          "managers": [
+            "Jay",
+            "Kelly Brown",
+            "Kyle",
+            "Brice",
+            "pb"
+          ],
+          "final_nfl_season": 2021,
+          "eligible_from": 2026,
+          "waited_years": 0
+        },
+        {
+          "player": "Le'Veon Bell",
+          "pos": "RB",
+          "career_pts": 1453.2,
+          "career_games": 73,
+          "ppg": 19.91,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2019,
+            2020,
+            2021
+          ],
+          "first_season": 2013,
+          "last_season": 2021,
+          "best_season": 2017,
+          "best_season_pts": 342.6,
+          "top_manager": "Benedict",
+          "top_manager_pts": 569.1,
+          "managers": [
+            "Benedict",
+            "Jay",
+            "Brice",
+            "Tommy",
+            "Carter",
+            "Zac",
+            "Aboubacar"
+          ],
+          "final_nfl_season": 2021,
+          "eligible_from": 2026,
+          "waited_years": 0
+        },
+        {
+          "player": "Ben Roethlisberger",
+          "pos": "QB",
+          "career_pts": 1198.38,
+          "career_games": 61,
+          "ppg": 19.65,
+          "seasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2020,
+            2021
+          ],
+          "first_season": 2013,
+          "last_season": 2021,
+          "best_season": 2017,
+          "best_season_pts": 284.64,
+          "top_manager": "Jay",
+          "top_manager_pts": 284.64,
+          "managers": [
+            "Jay",
+            "Brice",
+            "becca",
+            "Carter",
+            "Ryan",
+            "Tommy",
+            "whitaker"
+          ],
+          "final_nfl_season": 2021,
+          "eligible_from": 2026,
+          "waited_years": 0
+        }
+      ],
+      "eligible_count": 267,
+      "rolled_over": 262,
+      "weakest_pts": 1198.38
+    }
+  ],
+  "on_the_ballot": [
+    {
+      "player": "Rob Gronkowski",
+      "pos": "TE",
+      "career_pts": 1118.7,
+      "career_games": 72,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Alshon Jeffery",
+      "pos": "WR",
+      "career_pts": 986.4,
+      "career_games": 67,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Emmanuel Sanders",
+      "pos": "WR",
+      "career_pts": 972.92,
+      "career_games": 71,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Golden Tate",
+      "pos": "WR",
+      "career_pts": 964.4,
+      "career_games": 68,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Greg Olsen",
+      "pos": "TE",
+      "career_pts": 957.9,
+      "career_games": 79,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Lamar Miller",
+      "pos": "RB",
+      "career_pts": 878.1,
+      "career_games": 63,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Dez Bryant",
+      "pos": "WR",
+      "career_pts": 857.1,
+      "career_games": 55,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Devonta Freeman",
+      "pos": "RB",
+      "career_pts": 814.9,
+      "career_games": 52,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Marshawn Lynch",
+      "pos": "RB",
+      "career_pts": 730.2,
+      "career_games": 51,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Delanie Walker",
+      "pos": "TE",
+      "career_pts": 696.1,
+      "career_games": 60,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Jason Witten",
+      "pos": "TE",
+      "career_pts": 616.3,
+      "career_games": 62,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Adrian Peterson",
+      "pos": "RB",
+      "career_pts": 610.2,
+      "career_games": 48,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Carlos Hyde",
+      "pos": "RB",
+      "career_pts": 528.3,
+      "career_games": 40,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Jordan Reed",
+      "pos": "TE",
+      "career_pts": 523.9,
+      "career_games": 43,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Jared Cook",
+      "pos": "TE",
+      "career_pts": 475.6,
+      "career_games": 52,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Eric Ebron",
+      "pos": "TE",
+      "career_pts": 471.6,
+      "career_games": 46,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Stephen Gostkowski",
+      "pos": "K",
+      "career_pts": 471.3,
+      "career_games": 87,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Carson Palmer",
+      "pos": "QB",
+      "career_pts": 441.6,
+      "career_games": 23,
+      "final_nfl_season": 2017,
+      "eligible_from": 2022,
+      "years_waiting": 4
+    },
+    {
+      "player": "Isaiah Crowell",
+      "pos": "RB",
+      "career_pts": 435.2,
+      "career_games": 43,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Antonio Gates",
+      "pos": "TE",
+      "career_pts": 434.6,
+      "career_games": 36,
+      "final_nfl_season": 2018,
+      "eligible_from": 2023,
+      "years_waiting": 3
+    },
+    {
+      "player": "C.J. Anderson",
+      "pos": "RB",
+      "career_pts": 422.7,
+      "career_games": 33,
+      "final_nfl_season": 2019,
+      "eligible_from": 2024,
+      "years_waiting": 2
+    },
+    {
+      "player": "Mike Wallace",
+      "pos": "WR",
+      "career_pts": 416.2,
+      "career_games": 34,
+      "final_nfl_season": 2018,
+      "eligible_from": 2023,
+      "years_waiting": 3
+    },
+    {
+      "player": "Will Fuller V",
+      "pos": "WR",
+      "career_pts": 414.0,
+      "career_games": 30,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Jeremy Hill",
+      "pos": "RB",
+      "career_pts": 412.9,
+      "career_games": 37,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Kelvin Benjamin",
+      "pos": "WR",
+      "career_pts": 393.5,
+      "career_games": 33,
+      "final_nfl_season": 2018,
+      "eligible_from": 2023,
+      "years_waiting": 3
+    },
+    {
+      "player": "Julius Thomas",
+      "pos": "TE",
+      "career_pts": 367.4,
+      "career_games": 30,
+      "final_nfl_season": 2017,
+      "eligible_from": 2022,
+      "years_waiting": 4
+    },
+    {
+      "player": "Blake Bortles",
+      "pos": "QB",
+      "career_pts": 361.36,
+      "career_games": 21,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Jonathan Stewart",
+      "pos": "RB",
+      "career_pts": 339.1,
+      "career_games": 32,
+      "final_nfl_season": 2018,
+      "eligible_from": 2023,
+      "years_waiting": 3
+    },
+    {
+      "player": "Alfred Morris",
+      "pos": "RB",
+      "career_pts": 335.0,
+      "career_games": 36,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Jay Cutler",
+      "pos": "QB",
+      "career_pts": 333.86,
+      "career_games": 19,
+      "final_nfl_season": 2017,
+      "eligible_from": 2022,
+      "years_waiting": 4
+    },
+    {
+      "player": "Tyler Eifert",
+      "pos": "TE",
+      "career_pts": 325.8,
+      "career_games": 30,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "LeGarrette Blount",
+      "pos": "RB",
+      "career_pts": 324.4,
+      "career_games": 29,
+      "final_nfl_season": 2018,
+      "eligible_from": 2023,
+      "years_waiting": 3
+    },
+    {
+      "player": "Danny Woodhead",
+      "pos": "RB",
+      "career_pts": 321.0,
+      "career_games": 21,
+      "final_nfl_season": 2017,
+      "eligible_from": 2022,
+      "years_waiting": 4
+    },
+    {
+      "player": "Chris Ivory",
+      "pos": "RB",
+      "career_pts": 298.2,
+      "career_games": 25,
+      "final_nfl_season": 2018,
+      "eligible_from": 2023,
+      "years_waiting": 3
+    },
+    {
+      "player": "Adam Vinatieri",
+      "pos": "K",
+      "career_pts": 296.75,
+      "career_games": 60,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "Ryan Fitzpatrick",
+      "pos": "QB",
+      "career_pts": 270.6,
+      "career_games": 16,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Stephen Hauschka",
+      "pos": "K",
+      "career_pts": 270.0,
+      "career_games": 55,
+      "final_nfl_season": 2020,
+      "eligible_from": 2025,
+      "years_waiting": 1
+    },
+    {
+      "player": "DeAngelo Williams",
+      "pos": "RB",
+      "career_pts": 269.1,
+      "career_games": 14,
+      "final_nfl_season": 2016,
+      "eligible_from": 2021,
+      "years_waiting": 5
+    },
+    {
+      "player": "Jack Doyle",
+      "pos": "TE",
+      "career_pts": 263.0,
+      "career_games": 27,
+      "final_nfl_season": 2021,
+      "eligible_from": 2026,
+      "years_waiting": 0
+    },
+    {
+      "player": "Andre Johnson",
+      "pos": "WR",
+      "career_pts": 262.2,
+      "career_games": 22,
+      "final_nfl_season": 2016,
+      "eligible_from": 2021,
+      "years_waiting": 5
+    }
+  ],
+  "not_yet_eligible": [
+    {
+      "player": "Travis Kelce",
+      "pos": "TE",
+      "career_pts": 2612.76,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Patrick Mahomes",
+      "pos": "QB",
+      "career_pts": 2586.74,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Davante Adams",
+      "pos": "WR",
+      "career_pts": 2418.7,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Mike Evans",
+      "pos": "WR",
+      "career_pts": 2380.5,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Christian McCaffrey",
+      "pos": "RB",
+      "career_pts": 2328.16,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Tom Brady",
+      "pos": "QB",
+      "career_pts": 2318.9,
+      "final_nfl_season": 2022,
+      "eligible_from": 2027
+    },
+    {
+      "player": "Aaron Rodgers",
+      "pos": "QB",
+      "career_pts": 2252.48,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Tyreek Hill",
+      "pos": "WR",
+      "career_pts": 2251.2,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    },
+    {
+      "player": "Keenan Allen",
+      "pos": "WR",
+      "career_pts": 2165.26,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    },
+    {
+      "player": "Russell Wilson",
+      "pos": "QB",
+      "career_pts": 2153.08,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    },
+    {
+      "player": "Stefon Diggs",
+      "pos": "WR",
+      "career_pts": 2136.12,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    },
+    {
+      "player": "Josh Allen",
+      "pos": "QB",
+      "career_pts": 2099.62,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Alvin Kamara",
+      "pos": "RB",
+      "career_pts": 2067.52,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "DeAndre Hopkins",
+      "pos": "WR",
+      "career_pts": 2046.64,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    },
+    {
+      "player": "Lamar Jackson",
+      "pos": "QB",
+      "career_pts": 2013.78,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Dak Prescott",
+      "pos": "QB",
+      "career_pts": 1903.12,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Matthew Stafford",
+      "pos": "QB",
+      "career_pts": 1859.04,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Julio Jones",
+      "pos": "WR",
+      "career_pts": 1768.6,
+      "final_nfl_season": 2023,
+      "eligible_from": 2028
+    },
+    {
+      "player": "Derrick Henry",
+      "pos": "RB",
+      "career_pts": 1763.36,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Ezekiel Elliott",
+      "pos": "RB",
+      "career_pts": 1749.36,
+      "final_nfl_season": 2024,
+      "eligible_from": 2029
+    },
+    {
+      "player": "Saquon Barkley",
+      "pos": "RB",
+      "career_pts": 1728.6,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Jalen Hurts",
+      "pos": "QB",
+      "career_pts": 1634.12,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Cooper Kupp",
+      "pos": "WR",
+      "career_pts": 1629.6,
+      "final_nfl_season": 2026,
+      "eligible_from": 2031
+    },
+    {
+      "player": "Amari Cooper",
+      "pos": "WR",
+      "career_pts": 1594.3,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    },
+    {
+      "player": "Brandin Cooks",
+      "pos": "WR",
+      "career_pts": 1559.9,
+      "final_nfl_season": 2025,
+      "eligible_from": 2030
+    }
+  ],
+  "unresolved_players": [
+    "Audric Estime",
+    "Hollywood Brown",
+    "Joshua Palmer",
+    "Kenneth Barber",
+    "Kenny Gainwell",
+    "M. Valdes-Scantling",
+    "Nyheim Miller-Hines",
+    "Trenton Richardson"
+  ],
+  "unresolved_count": 8
+}

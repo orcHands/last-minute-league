@@ -551,7 +551,11 @@
             "state": "MD",
             "attendance": 65050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 35,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2014-12-08"
           },
           {
@@ -584,17 +588,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "HE ATE ME",
-            "manager": "Carter",
-            "rank": 2
+            "team": "Touchdown();",
+            "manager": "whitaker",
+            "rank": 3
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Touchdown();",
-            "manager": "whitaker",
-            "rank": 3
+            "team": "HE ATE ME",
+            "manager": "Carter",
+            "rank": 2
           }
         ]
       },
@@ -646,7 +650,11 @@
             "state": "MD",
             "attendance": 66200,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 39,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2014-12-15"
           },
           {
@@ -800,7 +808,11 @@
             "state": "UK",
             "attendance": 59050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 36,
+              "cond": "Fair",
+              "emoji": "🌤️"
+            },
             "game_date": "2014-12-08"
           },
           {
