@@ -875,56 +875,116 @@
   "awards_top5": {
     "mvp": [
       {
-        "player": "Patrick Mahomes",
-        "pts": 319.1,
-        "manager": "Carter"
-      },
-      {
-        "player": "Russell Wilson",
-        "pts": 305.56,
-        "manager": "Jason"
-      },
-      {
-        "player": "Kyler Murray",
-        "pts": 297.68,
-        "manager": "Ryan"
+        "player": "Dalvin Cook",
+        "pts": 277.6,
+        "manager": "Jason",
+        "pos": "RB",
+        "dominance": 50.5,
+        "z": 2.46,
+        "share": 0.2055,
+        "vor": 221.7,
+        "pos_baseline": 55.9
       },
       {
         "player": "Alvin Kamara",
         "pts": 284.0,
-        "manager": "whitaker"
+        "manager": "whitaker",
+        "pos": "RB",
+        "dominance": 48.0,
+        "z": 2.57,
+        "share": 0.1866,
+        "vor": 228.1,
+        "pos_baseline": 55.9
+      },
+      {
+        "player": "Davante Adams",
+        "pts": 266.9,
+        "manager": "Brice",
+        "pos": "WR",
+        "dominance": 40.4,
+        "z": 1.95,
+        "share": 0.2077,
+        "vor": 187.2,
+        "pos_baseline": 79.7
+      },
+      {
+        "player": "Travis Kelce",
+        "pts": 241.56,
+        "manager": "Tommy",
+        "pos": "TE",
+        "dominance": 38.6,
+        "z": 2.53,
+        "share": 0.1529,
+        "vor": 178.16,
+        "pos_baseline": 63.4
       },
       {
         "player": "Tyreek Hill",
         "pts": 279.1,
-        "manager": "Tommy"
+        "manager": "Tommy",
+        "pos": "WR",
+        "dominance": 37.8,
+        "z": 2.17,
+        "share": 0.1745,
+        "vor": 199.4,
+        "pos_baseline": 79.7
       }
     ],
     "rookie_of_the_year": [
       {
         "player": "James Robinson",
         "pts": 213.8,
-        "manager": "Tommy"
-      },
-      {
-        "player": "Justin Jefferson",
-        "pts": 169.6,
-        "manager": "Jay"
-      },
-      {
-        "player": "Justin Herbert",
-        "pts": 162.36,
-        "manager": "pb"
+        "manager": "Tommy",
+        "pos": "RB",
+        "dominance": 19.2,
+        "z": 1.3,
+        "share": 0.1476,
+        "vor": 157.9,
+        "pos_baseline": 55.9
       },
       {
         "player": "Antonio Gibson",
         "pts": 153.6,
-        "manager": "Benedict"
+        "manager": "Benedict",
+        "pos": "RB",
+        "dominance": 3.5,
+        "z": 0.21,
+        "share": 0.163,
+        "vor": 97.7,
+        "pos_baseline": 55.9
+      },
+      {
+        "player": "Justin Jefferson",
+        "pts": 169.6,
+        "manager": "Jay",
+        "pos": "WR",
+        "dominance": 2.7,
+        "z": 0.16,
+        "share": 0.1618,
+        "vor": 89.9,
+        "pos_baseline": 79.7
       },
       {
         "player": "Clyde Edwards-Helaire",
         "pts": 152.6,
-        "manager": "pb"
+        "manager": "pb",
+        "pos": "RB",
+        "dominance": 2.2,
+        "z": 0.2,
+        "share": 0.1128,
+        "vor": 96.7,
+        "pos_baseline": 55.9
+      },
+      {
+        "player": "Jonathan Taylor",
+        "pts": 145.0,
+        "manager": "Tommy",
+        "pos": "RB",
+        "dominance": 0.6,
+        "z": 0.06,
+        "share": 0.0998,
+        "vor": 89.1,
+        "pos_baseline": 55.9
       }
     ],
     "bench_whisperer": [
@@ -1038,69 +1098,104 @@
       {
         "player": "James Robinson",
         "manager": "Tommy",
-        "pts": 213.8
+        "pts": 213.8,
+        "pos": "RB",
+        "share": 0.1476,
+        "pos_baseline": 55.9,
+        "vor": 157.9
       },
       {
         "player": "Justin Jefferson",
         "manager": "Jay",
-        "pts": 169.6
-      },
-      {
-        "player": "Justin Herbert",
-        "manager": "pb",
-        "pts": 162.36
+        "pts": 169.6,
+        "pos": "WR",
+        "share": 0.1618,
+        "pos_baseline": 79.7,
+        "vor": 89.9
       },
       {
         "player": "Robbie Chosen",
         "manager": "Michael",
-        "pts": 142.5
+        "pts": 142.5,
+        "pos": "WR",
+        "share": 0.1583,
+        "pos_baseline": 79.7,
+        "vor": 62.8
       },
       {
-        "player": "Kirk Cousins",
+        "player": "Mike Davis",
         "manager": "Jay",
-        "pts": 122.42
+        "pts": 116.0,
+        "pos": "RB",
+        "share": 0.1206,
+        "pos_baseline": 55.9,
+        "vor": 60.1
+      },
+      {
+        "player": "Justin Herbert",
+        "manager": "pb",
+        "pts": 162.36,
+        "pos": "QB",
+        "share": 0.2014,
+        "pos_baseline": 117.78,
+        "vor": 44.58
       }
     ],
     "draft_steal_of_the_year": [
       {
-        "player": "Brandon Aiyuk",
-        "pick_overall": 154,
-        "pts": 95.3,
-        "pts_rank": 51,
-        "draft_pool": 164,
-        "manager": "Ryan"
-      },
-      {
         "player": "Jerick McKinnon",
         "pick_overall": 174,
         "pts": 52.3,
-        "pts_rank": 75,
-        "draft_pool": 164,
-        "manager": "Jason"
+        "pts_rank": 64,
+        "draft_pool": 123,
+        "manager": "Jason",
+        "pos": "RB",
+        "vor": -3.6,
+        "pos_baseline": 55.9
       },
       {
         "player": "Darrell Henderson Jr.",
         "pick_overall": 161,
         "pts": 65.3,
-        "pts_rank": 67,
-        "draft_pool": 164,
-        "manager": "Tommy"
+        "pts_rank": 55,
+        "draft_pool": 123,
+        "manager": "Tommy",
+        "pos": "RB",
+        "vor": 9.4,
+        "pos_baseline": 55.9
       },
       {
-        "player": "Aaron Rodgers",
-        "pick_overall": 107,
-        "pts": 207.28,
-        "pts_rank": 15,
-        "draft_pool": 164,
-        "manager": "Zac"
+        "player": "Brandon Aiyuk",
+        "pick_overall": 154,
+        "pts": 95.3,
+        "pts_rank": 53,
+        "draft_pool": 123,
+        "manager": "Ryan",
+        "pos": "WR",
+        "vor": 15.6,
+        "pos_baseline": 79.7
       },
       {
-        "player": "Wil Lutz",
-        "pick_overall": 162,
-        "pts": 53.6,
-        "pts_rank": 74,
-        "draft_pool": 164,
-        "manager": "Michael"
+        "player": "Jonnu Smith",
+        "pick_overall": 157,
+        "pts": 62.8,
+        "pts_rank": 63,
+        "draft_pool": 123,
+        "manager": "Carter",
+        "pos": "TE",
+        "vor": -0.6,
+        "pos_baseline": 63.4
+      },
+      {
+        "player": "Dallas Goedert",
+        "pick_overall": 166,
+        "pts": 33.1,
+        "pts_rank": 79,
+        "draft_pool": 123,
+        "manager": "Benedict",
+        "pos": "TE",
+        "vor": -30.3,
+        "pos_baseline": 63.4
       }
     ],
     "letty_ortiz_award": [
@@ -1411,13 +1506,13 @@
     "special_teams_coordinator_of_the_year": "Roman Pearce Special Teams Coordinator Award"
   },
   "award_descriptions": {
-    "mvp": "Most points scored by any single player while in a starting lineup. Regular season only, weeks 1–13.",
+    "mvp": "Biggest gap over his own position group, weighted by the share of his team's weekly points he carried — a QB has to beat the QB field, not just outscore a tight end. Skill positions only, regular season only, weeks 1–13.",
     "letty_ortiz_award": "Most points scored across the season, whatever the win-loss record says. Regular season only, weeks 1–13.",
     "bench_whisperer": "Lowest average bench regret — the points a manager left sitting on his bench each week. Regular season only, weeks 1–13.",
     "most_improved_player": "Biggest year-over-year jump in started points, among players started in both seasons. Regular season only, weeks 1–13.",
-    "rookie_of_the_year": "Most started points by an NFL rookie, per that season's league-wide rookie class. Regular season only, weeks 1–13.",
-    "draft_steal_of_the_year": "Widest gap between where a player was drafted and where he finished in scoring. Keepers excluded. Regular season only, weeks 1–13.",
-    "waiver_pickup_of_the_year": "Most started points from a player his manager neither drafted nor traded for. Regular season only, weeks 1–13.",
+    "rookie_of_the_year": "The same position-weighted measure as MVP, among NFL rookies only. Skill positions only, regular season only, weeks 1–13.",
+    "draft_steal_of_the_year": "Widest gap between where a player was drafted and where he finished on value above replacement at his position. Keepers excluded, skill positions only, weeks 1–13.",
+    "waiver_pickup_of_the_year": "Most value above replacement at his position from a player his manager neither drafted nor traded for. Skill positions only, regular season only, weeks 1–13.",
     "comeback_of_the_year": "Biggest deficit erased on Monday night to steal a win. Regular season only, weeks 1–13.",
     "biggest_blowout": "Widest margin of victory in a single matchup. Regular season only, weeks 1–13.",
     "qb_of_the_year": "“Love my teammates, god is good!” Most started points by one quarterback. Regular season only, weeks 1–13.",

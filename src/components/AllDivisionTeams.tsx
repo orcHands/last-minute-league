@@ -5,23 +5,33 @@ interface AllDivisionTeamsProps {
   allDivision: AllDivision
 }
 
-// Hoss's call, exact hexes are mine (standard, recognizable named colors —
-// deliberately distinct from the division accent colors, #FF3B30 O'Conner /
-// #006FFF Toretto, so the two color systems stay legible side by side):
-// Bright Red / Dark Red for O'Conner 1st/2nd, Royal Blue / Navy Blue for
-// Toretto 1st/2nd.
-const COLUMNS: { key: 'oconnerFirst' | 'oconnerSecond' | 'torettoFirst' | 'torettoSecond'; title: string; color: string }[] = [
-  { key: 'oconnerFirst', title: "First Team All O'Conner", color: '#FF3B30' },
-  { key: 'oconnerSecond', title: "Second Team All O'Conner", color: '#8B0000' },
-  { key: 'torettoFirst', title: 'First Team All Toretto', color: '#4169E1' },
-  { key: 'torettoSecond', title: 'Second Team All Toretto', color: '#000080' },
+// Round 5 (2026-08-23), Hoss's call: the top border carries the DIVISION
+// accent (both O'Conner columns red, both Toretto columns blue) so the
+// column reads as "which division" at a glance, and the title text carries
+// the TEAM TIER -- gold for first team, silver for second. Two independent
+// signals instead of four arbitrary colors.
+//
+// Gold and silver are taken from existing manager canon rather than invented:
+// gold is Ryan's primary (#B3995D), silver is Benedict's primary (#B0B7BC).
+// Both clear AA contrast on the #262626 card (gold 6.4:1, silver 9.1:1).
+const DIVISION_ACCENT = { oconner: '#FF3B30', toretto: '#006FFF' } as const
+const TIER_TEXT = { first: '#B3995D', second: '#B0B7BC' } as const
+
+const COLUMNS: {
+  key: 'oconnerFirst' | 'oconnerSecond' | 'torettoFirst' | 'torettoSecond'
+  title: string; accent: string; titleColor: string
+}[] = [
+  { key: 'oconnerFirst', title: "First Team All O'Conner", accent: DIVISION_ACCENT.oconner, titleColor: TIER_TEXT.first },
+  { key: 'oconnerSecond', title: "Second Team All O'Conner", accent: DIVISION_ACCENT.oconner, titleColor: TIER_TEXT.second },
+  { key: 'torettoFirst', title: 'First Team All Toretto', accent: DIVISION_ACCENT.toretto, titleColor: TIER_TEXT.first },
+  { key: 'torettoSecond', title: 'Second Team All Toretto', accent: DIVISION_ACCENT.toretto, titleColor: TIER_TEXT.second },
 ]
 
-function TeamColumn({ title, color, slots }: { title: string; color: string; slots: AllDivisionSlot[] }) {
+function TeamColumn({ title, accent, titleColor, slots }: { title: string; accent: string; titleColor: string; slots: AllDivisionSlot[] }) {
   return (
-    <div style={{ backgroundColor: '#262626', border: '1px solid #393939', borderTop: `3px solid ${color}` }}>
+    <div style={{ backgroundColor: '#262626', border: '1px solid #393939', borderTop: `3px solid ${accent}` }}>
       <div style={{ padding: '10px 14px', borderBottom: '1px solid #393939' }}>
-        <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, lineHeight: '18px', color }}>
+        <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, lineHeight: '18px', color: titleColor }}>
           {title}
         </span>
       </div>
@@ -71,7 +81,7 @@ export default function AllDivisionTeams({ allDivision }: AllDivisionTeamsProps)
       </p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 12 }}>
         {COLUMNS.map(col => (
-          <TeamColumn key={col.key} title={col.title} color={col.color} slots={slotsFor(col.key)} />
+          <TeamColumn key={col.key} title={col.title} accent={col.accent} titleColor={col.titleColor} slots={slotsFor(col.key)} />
         ))}
       </div>
     </div>

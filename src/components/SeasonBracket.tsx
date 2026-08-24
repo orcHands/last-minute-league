@@ -7,6 +7,7 @@ interface SeasonBracketProps {
   bracket: Bracket
   year: number
   title: string
+  accent?: string
 }
 
 function VenueLine({ entry }: { entry: BracketEntry }) {
@@ -81,13 +82,23 @@ function BracketCard({ entry, year }: { entry: BracketEntry; year: number }) {
   )
 }
 
-export default function SeasonBracket({ bracket, year, title }: SeasonBracketProps) {
+// Round 5: the two brackets used to be bare <h3> + a grid of cards, 48px
+// apart. Geometrically separate, but they read as ONE continuous field --
+// identical column positions, identical card widths, and the "WEEK 14/15/16"
+// row repeating immediately under the champions bracket's trailing BYE WEEK
+// cards. Each bracket now sits in its own bordered panel with a header bar
+// and a top accent, the same card shell the standings and awards use, so the
+// boundary is unmistakable. Gold for champions (matches the named-bowl
+// accent already used on those cards), cool grey for consolation.
+export default function SeasonBracket({ bracket, year, title, accent = '#6f6f6f' }: SeasonBracketProps) {
   return (
-    <div>
-      <h3 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '0 0 16px' }}>
-        {title}
-      </h3>
-      <div style={{ display: 'flex', gap: 16, overflowX: 'auto', paddingBottom: 8 }}>
+    <div style={{ border: '1px solid #393939', backgroundColor: '#1c1c1c', borderTop: `3px solid ${accent}` }}>
+      <div style={{ padding: '14px 16px', borderBottom: '1px solid #393939' }}>
+        <h3 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: 0 }}>
+          {title}
+        </h3>
+      </div>
+      <div style={{ display: 'flex', gap: 16, overflowX: 'auto', padding: 16 }}>
         {bracket.rounds.map(round => (
           <div key={round.week} style={{ display: 'flex', flexDirection: 'column', gap: 16, minWidth: 260, flex: '1 1 0' }}>
             <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, lineHeight: '16px', color: '#6f6f6f', letterSpacing: '0.1em', textTransform: 'uppercase' }}>

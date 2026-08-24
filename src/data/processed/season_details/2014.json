@@ -584,17 +584,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Touchdown();",
-            "manager": "whitaker",
-            "rank": 3
+            "team": "HE ATE ME",
+            "manager": "Carter",
+            "rank": 2
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "HE ATE ME",
-            "manager": "Carter",
-            "rank": 2
+            "team": "Touchdown();",
+            "manager": "whitaker",
+            "rank": 3
           }
         ]
       },
@@ -963,56 +963,116 @@
   "awards_top5": {
     "mvp": [
       {
-        "player": "Andrew Luck",
-        "pts": 318.84,
-        "manager": "Michael"
-      },
-      {
-        "player": "Aaron Rodgers",
-        "pts": 298.0,
-        "manager": "Carter"
-      },
-      {
-        "player": "Peyton Manning",
-        "pts": 296.78,
-        "manager": "Jay"
+        "player": "Demaryius Thomas",
+        "pts": 280.5,
+        "manager": "Tommy",
+        "pos": "WR",
+        "dominance": 47.1,
+        "z": 2.17,
+        "share": 0.217,
+        "vor": 210.3,
+        "pos_baseline": 70.2
       },
       {
         "player": "Antonio Brown",
         "pts": 295.1,
-        "manager": "Michael"
+        "manager": "Michael",
+        "pos": "WR",
+        "dominance": 46.5,
+        "z": 2.42,
+        "share": 0.1919,
+        "vor": 224.9,
+        "pos_baseline": 70.2
       },
       {
-        "player": "Demaryius Thomas",
-        "pts": 280.5,
-        "manager": "Tommy"
+        "player": "DeMarco Murray",
+        "pts": 261.0,
+        "manager": "Kelly Brown",
+        "pos": "RB",
+        "dominance": 43.8,
+        "z": 1.96,
+        "share": 0.2239,
+        "vor": 218.4,
+        "pos_baseline": 42.6
+      },
+      {
+        "player": "Matt Forte",
+        "pts": 274.8,
+        "manager": "whitaker",
+        "pos": "RB",
+        "dominance": 39.4,
+        "z": 2.17,
+        "share": 0.1815,
+        "vor": 232.2,
+        "pos_baseline": 42.6
+      },
+      {
+        "player": "Le'Veon Bell",
+        "pts": 266.9,
+        "manager": "Carter",
+        "pos": "RB",
+        "dominance": 35.7,
+        "z": 2.05,
+        "share": 0.1745,
+        "vor": 224.3,
+        "pos_baseline": 42.6
       }
     ],
     "rookie_of_the_year": [
       {
         "player": "Mike Evans",
         "pts": 178.5,
-        "manager": "Kelly Brown"
+        "manager": "Kelly Brown",
+        "pos": "WR",
+        "dominance": 6.7,
+        "z": 0.42,
+        "share": 0.1591,
+        "vor": 108.3,
+        "pos_baseline": 70.2
       },
       {
         "player": "Jeremy Hill",
         "pts": 143.3,
-        "manager": "Laskey"
+        "manager": "Laskey",
+        "pos": "RB",
+        "dominance": 1.3,
+        "z": 0.1,
+        "share": 0.1274,
+        "vor": 100.7,
+        "pos_baseline": 42.6
       },
       {
         "player": "Brandin Cooks",
         "pts": 141.3,
-        "manager": "Michael"
+        "manager": "Michael",
+        "pos": "WR",
+        "dominance": -2.3,
+        "z": -0.22,
+        "share": 0.1055,
+        "vor": 71.1,
+        "pos_baseline": 70.2
       },
       {
         "player": "Sammy Watkins",
         "pts": 139.6,
-        "manager": "pb"
+        "manager": "pb",
+        "pos": "WR",
+        "dominance": -3.0,
+        "z": -0.25,
+        "share": 0.1231,
+        "vor": 69.4,
+        "pos_baseline": 70.2
       },
       {
         "player": "Kelvin Benjamin",
         "pts": 130.1,
-        "manager": "whitaker"
+        "manager": "whitaker",
+        "pos": "WR",
+        "dominance": -4.8,
+        "z": -0.41,
+        "share": 0.1181,
+        "vor": 59.9,
+        "pos_baseline": 70.2
       }
     ],
     "bench_whisperer": [
@@ -1172,27 +1232,47 @@
       {
         "player": "Ahmad Bradshaw",
         "manager": "Carter",
-        "pts": 141.0
-      },
-      {
-        "player": "Jordan Matthews",
-        "manager": "Laskey",
-        "pts": 100.1
+        "pts": 141.0,
+        "pos": "RB",
+        "share": 0.1353,
+        "pos_baseline": 42.6,
+        "vor": 98.4
       },
       {
         "player": "Larry Donnell",
         "manager": "Lang",
-        "pts": 97.0
+        "pts": 97.0,
+        "pos": "TE",
+        "share": 0.1058,
+        "pos_baseline": 55.2,
+        "vor": 41.8
       },
       {
         "player": "Dwayne Allen",
         "manager": "whitaker",
-        "pts": 89.0
+        "pts": 89.0,
+        "pos": "TE",
+        "share": 0.0819,
+        "pos_baseline": 55.2,
+        "vor": 33.8
       },
       {
-        "player": "James Jones",
-        "manager": "Dylan",
-        "pts": 86.6
+        "player": "C.J. Anderson",
+        "manager": "Jay",
+        "pts": 75.5,
+        "pos": "RB",
+        "share": 0.2023,
+        "pos_baseline": 42.6,
+        "vor": 32.9
+      },
+      {
+        "player": "Jordan Matthews",
+        "manager": "Laskey",
+        "pts": 100.1,
+        "pos": "WR",
+        "share": 0.1597,
+        "pos_baseline": 70.2,
+        "vor": 29.9
       }
     ],
     "draft_steal_of_the_year": [
@@ -1200,41 +1280,56 @@
         "player": "Steve Smith",
         "pick_overall": 199,
         "pts": 114.9,
-        "pts_rank": 62,
-        "draft_pool": 210,
-        "manager": "Brice"
-      },
-      {
-        "player": "Andre Holmes",
-        "pick_overall": 201,
-        "pts": 74.5,
-        "pts_rank": 80,
-        "draft_pool": 210,
-        "manager": "Michael"
-      },
-      {
-        "player": "Coby Fleener",
-        "pick_overall": 185,
-        "pts": 92.4,
-        "pts_rank": 73,
-        "draft_pool": 210,
-        "manager": "Kyle"
-      },
-      {
-        "player": "Jared Cook",
-        "pick_overall": 194,
-        "pts": 73.1,
-        "pts_rank": 83,
-        "draft_pool": 210,
-        "manager": "Brice"
+        "pts_rank": 64,
+        "draft_pool": 153,
+        "manager": "Brice",
+        "pos": "WR",
+        "vor": 44.7,
+        "pos_baseline": 70.2
       },
       {
         "player": "Ahmad Bradshaw",
         "pick_overall": 156,
         "pts": 141.0,
-        "pts_rank": 46,
-        "draft_pool": 210,
-        "manager": "pb"
+        "pts_rank": 38,
+        "draft_pool": 153,
+        "manager": "pb",
+        "pos": "RB",
+        "vor": 98.4,
+        "pos_baseline": 42.6
+      },
+      {
+        "player": "Coby Fleener",
+        "pick_overall": 185,
+        "pts": 92.4,
+        "pts_rank": 71,
+        "draft_pool": 153,
+        "manager": "Kyle",
+        "pos": "TE",
+        "vor": 37.2,
+        "pos_baseline": 55.2
+      },
+      {
+        "player": "Jared Cook",
+        "pick_overall": 194,
+        "pts": 73.1,
+        "pts_rank": 80,
+        "draft_pool": 153,
+        "manager": "Brice",
+        "pos": "TE",
+        "vor": 17.9,
+        "pos_baseline": 55.2
+      },
+      {
+        "player": "Tre Mason",
+        "pick_overall": 193,
+        "pts": 60.3,
+        "pts_rank": 81,
+        "draft_pool": 153,
+        "manager": "whitaker",
+        "pos": "RB",
+        "vor": 17.7,
+        "pos_baseline": 42.6
       }
     ],
     "letty_ortiz_award": [
@@ -1545,13 +1640,13 @@
     "special_teams_coordinator_of_the_year": "Roman Pearce Special Teams Coordinator Award"
   },
   "award_descriptions": {
-    "mvp": "Most points scored by any single player while in a starting lineup. Regular season only, weeks 1–13.",
+    "mvp": "Biggest gap over his own position group, weighted by the share of his team's weekly points he carried — a QB has to beat the QB field, not just outscore a tight end. Skill positions only, regular season only, weeks 1–13.",
     "letty_ortiz_award": "Most points scored across the season, whatever the win-loss record says. Regular season only, weeks 1–13.",
     "bench_whisperer": "Lowest average bench regret — the points a manager left sitting on his bench each week. Regular season only, weeks 1–13.",
     "most_improved_player": "Biggest year-over-year jump in started points, among players started in both seasons. Regular season only, weeks 1–13.",
-    "rookie_of_the_year": "Most started points by an NFL rookie, per that season's league-wide rookie class. Regular season only, weeks 1–13.",
-    "draft_steal_of_the_year": "Widest gap between where a player was drafted and where he finished in scoring. Keepers excluded. Regular season only, weeks 1–13.",
-    "waiver_pickup_of_the_year": "Most started points from a player his manager neither drafted nor traded for. Regular season only, weeks 1–13.",
+    "rookie_of_the_year": "The same position-weighted measure as MVP, among NFL rookies only. Skill positions only, regular season only, weeks 1–13.",
+    "draft_steal_of_the_year": "Widest gap between where a player was drafted and where he finished on value above replacement at his position. Keepers excluded, skill positions only, weeks 1–13.",
+    "waiver_pickup_of_the_year": "Most value above replacement at his position from a player his manager neither drafted nor traded for. Skill positions only, regular season only, weeks 1–13.",
     "comeback_of_the_year": "Biggest deficit erased on Monday night to steal a win. Regular season only, weeks 1–13.",
     "biggest_blowout": "Widest margin of victory in a single matchup. Regular season only, weeks 1–13.",
     "qb_of_the_year": "“Love my teammates, god is good!” Most started points by one quarterback. Regular season only, weeks 1–13.",

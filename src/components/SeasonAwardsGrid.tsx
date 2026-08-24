@@ -37,11 +37,21 @@ const PHOTO_AWARD_KEYS = new Set([
 function finalistHeadline(f: AwardFinalist, awardKey: string): { name: string; sub: string } {
   if (f.player) {
     const parts: string[] = []
+    if (f.pos) parts.push(f.pos)
     if (f.pts !== undefined) parts.push(`${f.pts.toFixed(2)} pts`)
+    // Round 5: show WHY this player ranks where he does. MVP and Rookie rank
+    // on dominance (sigma over the position field x share of team scoring);
+    // Draft Steal and Waiver rank on value over positional replacement.
+    if (f.dominance !== undefined && f.z !== undefined) {
+      parts.push(`${f.z.toFixed(2)}σ vs ${f.pos ?? 'position'} field`)
+      if (f.share !== undefined) parts.push(`${(f.share * 100).toFixed(0)}% of team`)
+    } else if (f.vor !== undefined && f.pickOverall === undefined) {
+      parts.push(`${f.vor >= 0 ? '+' : ''}${f.vor.toFixed(0)} over replacement`)
+    }
     if (f.delta !== undefined) parts.push(`+${f.delta.toFixed(1)} pts YoY`)
     if (f.pickOverall !== undefined) {
       parts.push(`Pick #${f.pickOverall}`)
-      if (f.ptsRank !== undefined && f.draftPool !== undefined) parts.push(`ranked ${f.ptsRank} of ${f.draftPool} on points`)
+      if (f.ptsRank !== undefined && f.draftPool !== undefined) parts.push(`ranked ${f.ptsRank} of ${f.draftPool} on value`)
     }
     return { name: f.player, sub: parts.join(' · ') }
   }
@@ -114,7 +124,9 @@ function AwardCard({ year, awardKey, name, description, finalists, partial }: { 
           const showPhoto = isPhotoAward && isWinnerSlot
           const photoSrc = showPhoto ? awardWinnerPhotoUrl(year, awardKey, tiedAtOne ? i : undefined) : null
           const manager = f.manager ? getManager(f.manager) : f.winner ? getManager(f.winner) : undefined
-          const suppressManagerPrefix = awardKey === 'comeback_of_the_year' || awardKey === 'biggest_blowout'
+          const WRAPPING_SUBS = new Set(['comeback_of_the_year', 'biggest_blowout', 'mvp', 'rookie_of_the_year', 'draft_steal_of_the_year', 'waiver_pickup_of_the_year'])
+          const suppressManagerPrefix = WRAPPING_SUBS.has(awardKey) && (awardKey === 'comeback_of_the_year' || awardKey === 'biggest_blowout')
+          const wrapSub = WRAPPING_SUBS.has(awardKey)
           const isCoWinnerRow = tiedAtOne && i <= 1
           return (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '9px 16px', borderBottom: i === finalists.length - 1 ? 'none' : '1px solid #2e2e2e' }}>
@@ -136,9 +148,9 @@ function AwardCard({ year, awardKey, name, description, finalists, partial }: { 
                 </div>
                 <div style={{
                   fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: manager?.primaryColor ?? '#6f6f6f',
-                  whiteSpace: suppressManagerPrefix ? 'normal' : 'nowrap',
-                  overflow: suppressManagerPrefix ? 'visible' : 'hidden',
-                  textOverflow: suppressManagerPrefix ? 'clip' : 'ellipsis',
+                  whiteSpace: wrapSub ? 'normal' : 'nowrap',
+                  overflow: wrapSub ? 'visible' : 'hidden',
+                  textOverflow: wrapSub ? 'clip' : 'ellipsis',
                   lineHeight: '16px',
                 }}>
                   {manager && !suppressManagerPrefix ? `${manager.name} · ` : ''}{sub}

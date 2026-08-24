@@ -1,14 +1,29 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
 import { SEASONS, getManager, SEASON_DETAIL_YEARS } from '../data/league'
+import SeasonDetailBody from '../components/SeasonDetailBody'
 import Badge from '../components/Badge'
 import AssetImage from '../components/AssetImage'
 import { withBase } from '../lib/assetPath'
 
 export default function Seasons() {
-  const [selected, setSelected] = useState<number | null>(null)
+  // Selection lives in the URL rather than component state (round 5), so a
+  // chosen season is linkable, survives a refresh, and the browser back
+  // button steps out of it instead of leaving the page.
+  const { year: yearParam } = useParams<{ year: string }>()
+  const navigate = useNavigate()
+  const selected = yearParam ? Number(yearParam) : null
+  const detailRef = useRef<HTMLDivElement>(null)
 
   const season = selected ? SEASONS.find(s => s.year === selected) : null
+
+  // Thirteen season tiles push the breakdown below the fold, so bring it into
+  // view on selection. Respects reduced-motion.
+  useEffect(() => {
+    if (!selected || !detailRef.current) return
+    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+    detailRef.current.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' })
+  }, [selected])
 
   return (
     <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
@@ -39,7 +54,7 @@ export default function Seasons() {
             return (
               <button
                 key={s.year}
-                onClick={() => setSelected(isSelected ? null : s.year)}
+                onClick={() => navigate(isSelected ? '/seasons' : `/seasons/${s.year}`)}
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -92,7 +107,8 @@ export default function Seasons() {
           })}
         </div>
 
-        {/* Season detail */}
+        {/* Season summary + full breakdown, rendered in place under the header */}
+        <div ref={detailRef} />
         {season && (() => {
           const champion = getManager(season.champion)
           const runnerUp = getManager(season.runnerUp)
@@ -146,23 +162,21 @@ export default function Seasons() {
                 ))}
               </div>
 
-              <div style={{ padding: '16px 24px', borderTop: '1px solid #393939' }}>
-                {SEASON_DETAIL_YEARS.includes(season.year) ? (
-                  <Link
-                    to={`/seasons/${season.year}`}
-                    style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 13, color: '#78a9ff', textDecoration: 'none' }}
-                  >
-                    View full {season.year} season →
-                  </Link>
-                ) : (
-                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d' }}>
-                    Full bowl brackets, standings, and season awards are being built out season by season — {season.year} isn't ready yet.
-                  </span>
-                )}
-              </div>
             </div>
           )
         })()}
+
+        {season && (
+          SEASON_DETAIL_YEARS.includes(season.year)
+            ? <SeasonDetailBody year={season.year} />
+            : (
+              <div style={{ border: '1px solid #393939', backgroundColor: '#262626', padding: 24, marginTop: 32 }}>
+                <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, lineHeight: '18px', color: '#8d8d8d' }}>
+                  Full bowl brackets, standings, and season awards are being built out season by season — {season.year} isn't ready yet.
+                </span>
+              </div>
+            )
+        )}
       </div>
     </div>
   )

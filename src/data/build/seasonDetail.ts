@@ -122,6 +122,13 @@ export interface AwardFinalist {
   // Letty Ortiz Award (season points leader) shape
   pf?: number
   pfAvg?: number
+  // Position-weighted scoring (round 5) — MVP / Rookie / Draft Steal / Waiver
+  pos?: string
+  dominance?: number
+  z?: number
+  share?: number
+  vor?: number
+  posBaseline?: number
 }
 
 export interface AllDivisionSlot {
@@ -200,9 +207,10 @@ interface RawAwardFinalist {
   final?: string; mnf_pts_winner?: number
   winner_pts?: number; loser_pts?: number; margin?: number
   delta?: number; this_season_pts?: number; prior_season_pts?: number
-  pick_overall?: number; pts_rank?: number; draft_pool?: number
+  pick_overall?: number; pts_rank?: number; draft_pool?: number; vor?: number
   ppg?: number; total?: number; games?: number
   pf?: number; pf_avg?: number
+  pos?: string; dominance?: number; z?: number; share?: number; pos_baseline?: number
 }
 
 interface RawAllDivisionSlot {
@@ -286,9 +294,10 @@ function convertFinalist(a: RawAwardFinalist, rank: number): AwardFinalist {
     deficitOverAvg: a.deficit_before_MNF,
     winnerPts: a.winner_pts, loserPts: a.loser_pts, margin: a.margin,
     delta: a.delta, thisSeasonPts: a.this_season_pts, priorSeasonPts: a.prior_season_pts,
-    pickOverall: a.pick_overall, ptsRank: a.pts_rank, draftPool: a.draft_pool,
+    pickOverall: a.pick_overall, ptsRank: a.pts_rank, draftPool: a.draft_pool, vor: a.vor,
     ppg: a.ppg, total: a.total, games: a.games,
     pf: a.pf, pfAvg: a.pf_avg,
+    pos: a.pos, dominance: a.dominance, z: a.z, share: a.share, posBaseline: a.pos_baseline,
   }
 }
 
