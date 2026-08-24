@@ -1,10 +1,18 @@
 # LMFL Dashboard — agent handoff
 
-Everything an agent needs to finish this site. Written 2026-08-24.
+Authoritative current-state document. Written 2026-08-24.
 
-**Remaining scope:** (1) Franchise + Manager pages, (2) Records page,
-(3) Hall of Fame gallery. All three have their data already precomputed and
-committed — the remaining work is React, not data engineering.
+**Remaining scope — all three are React work. The data is already
+precomputed, scrubbed, and committed; none of it requires the pipeline.**
+
+| # | Work | Starting point |
+|---|---|---|
+| 1 | Franchise + Manager detail views | `src/pages/Franchises.tsx` exists as an index (~235 lines). Needs detail routes. |
+| 2 | Records book board | `src/pages/Records.tsx` exists and already composes **8 boards**. This adds a 9th fed by `records_board.json` — it is *not* a page build from scratch. |
+| 3 | Hall of Fame gallery | No page yet. `hall_of_fame.json` is complete. |
+
+Nothing else is outstanding. Awards, brackets, standings, All-Division,
+bowls and all 13 season pages are built and shipping.
 
 ---
 
@@ -30,11 +38,15 @@ build first.
 
 | File | Why |
 |---|---|
+| `AGENTS.md` *(this repo)* | Stack facts + doc map. Short. |
 | `CLAUDE.md` *(project root, outside this repo)* | Data dictionary, slot vocabulary, scoring rules |
-| `SITEMAP.md` *(project root, outside this repo)* | Canonical IA. Section "Records catalog" is the spec for page 2 |
+| `SITEMAP.md` *(project root, outside this repo)* | Canonical IA. Section "Records catalog" is the spec for item 2 |
 | `src/data/managerCanon.ts` | Manager IDs, display names, the 3-color palette per manager |
 | `src/data/build/seasonDetail.ts` | The pattern every page follows: raw JSON in, typed objects out |
 | `src/components/SeasonDetailBody.tsx` | The most complete page. Copy its structure |
+
+**Do not start from `SESSION_HANDOFF.md`.** It is history (2026-07-29) and
+predates every change since; it is banner-marked as such.
 
 ---
 
@@ -118,9 +130,16 @@ index header.
 
 ### 5.2 Records page
 
-`src/pages/Records.tsx` exists (~130 lines). `records_board.json` has
-everything, already shaped as top-N lists, each row carrying `season` and
-`week` so you can deep-link to `/seasons/{year}`.
+`src/pages/Records.tsx` already exists and works: a sidebar of **8 boards**
+(Post-season & Bowls, Monday Night Miracle, Drafter vs Closer, Points Left on
+Bench, Nemesis & Rivalries, Fandom Scorecard, Recruiting Board, NFL Defenses),
+each a component composed into the page. `Postseason.tsx` and
+`Leaderboards.tsx` are content modules feeding it, **not pages** — don't add
+page chrome to them.
+
+**This task adds a 9th board**, "Record Book", fed by `records_board.json`.
+Follow the existing `BOARDS` array pattern at the top of `Records.tsx`.
+Every row carries `season` and `week`, so deep-link each to `/seasons/{year}`.
 
 ```
 team_game:      highest_score, lowest_score, biggest_blowout,
@@ -142,7 +161,15 @@ narrative.
 
 ### 5.3 Hall of Fame gallery
 
-See §6 — the rule has a wrinkle the owner needs to decide on.
+No page exists yet. `hall_of_fame.json` is complete and the rule is settled —
+see §6. Route it under a nav entry of its own or as a section of the Records
+page; the owner has not specified, so ask.
+
+**One wrinkle to handle in the UI:** classes are emitted per year, but under
+the 250-point floor **not every year has a class**. The first class is
+**2020**; 2018 and 2019 produce no inductees at all and are simply absent
+from `classes[]`. Don't render an empty shell for a missing year, and don't
+assume `classes[i].year` increments by one.
 
 ---
 
@@ -258,7 +285,10 @@ on the Pages subpath.
   depends on Figma's CDN. Worth self-hosting the woff2 files in `public/`.
 - The bundle is ~2.5 MB raw / ~477 KB gzipped in one chunk — it's the season
   JSON. Fine at this size; code-split per season if it grows.
-- `src/data/espnIds.json` is orphaned and untracked. Delete it.
+- ~~`src/data/espnIds.json` is orphaned~~ — removed 2026-08-24.
+- `AGENTS.md` used to be Figma Make scaffold that told agents to write
+  Tailwind and claimed a hosted dev server. Rewritten 2026-08-24. If you see
+  Tailwind classes anywhere in `src/`, they are vestigial — don't copy them.
 
 ---
 
@@ -268,5 +298,15 @@ on the Pages subpath.
 2. `VITE_BASE_PATH=/last-minute-league/ npm run build` — clean
 3. Load every page you touched and check the browser console
 4. Confirm no horizontal page overflow at 1280 and 1680 wide
-5. Confirm no full legal name appears anywhere under `src/`
+5. **Run the leak check.** Ask the owner for the three scrubbed names, then:
+
+   ```bash
+   grep -rn "First Last" src/ && echo "LEAK" || echo "clean"
+   ```
+
+   Check **every file type under `src/`, not just JSON** — on 2026-08-24 two
+   of the three names were found sitting in `src/imports/FIGMA_MAKE_BRIEF.md`,
+   a committed markdown file in a **public** repo, having survived the commit
+   whose entire purpose was scrubbing them. The bundle was clean; the repo
+   was not. Both matter.
 6. Push to `main` — **this deploys the live site**

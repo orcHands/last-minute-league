@@ -128,9 +128,9 @@ All logos are raster PNG with transparency. On the `#161616` dark background, ve
 
 **Manager logos — two variants, mapped by MANAGER not filename.** Filenames don't align across folders or to data keys, so a manager→asset map is required (put it in the exported `team_colors.json` as `logo_large` / `logo_small` per manager). Small is complete; large is missing only Laskey.
 
-- `images/large_logos/` (TitleCase `.png`) — **hero/identity** use: manager-card header, franchise/manager page hero, matchup card. 22 of 23 — **no David Laskey** (monogram fallback for the large slot).
+- `images/large_logos/` (TitleCase `.png`) — **hero/identity** use: manager-card header, franchise/manager page hero, matchup card. 22 of 23 — **no Laskey** (monogram fallback for the large slot).
 - `images/small_logos/` (UPPERCASE `.png`, except `Patrick.png` & `Sara.png`) — **compact** use: nav, table row markers, chips, leaderboard rows, stat-tile corner. **23 of 23 — complete.**
-- Name-resolution quirks the map must handle: large uses `Whit.png` / `Lang.png` while small uses `WHITAKER.png` / `LANG.png` (both = Whitaker / Dave Lang); `Patrick`=pb. **Laskey is the only gap — small only (`LASKEY.png`), no large.** Sara is now in both.
+- Name-resolution quirks the map must handle: large uses `Whit.png` / `Lang.png` while small uses `WHITAKER.png` / `LANG.png` (both = Whitaker / Lang); `Patrick`=pb. **Laskey is the only gap — small only (`LASKEY.png`), no large.** Sara is now in both.
 
 **Bowl logos — per SEASON, not one per bowl.** Path `images/BowlGame_logos/<Bowl>_Logos/<file>`; each season's bowl instance uses that year's art. 2020 (the Hard Rock bubble) is a valid bowl season and has logos.
 
@@ -224,7 +224,7 @@ Per-manager / per-franchise **"Nemesis" panel** (the opponent who's scored the m
 
 ### 7.7 Highest-scoring NFL defenses (`enemies_analysis.json`)
 Board = NFL team D/ST by total started points; component = table.
-- Patriots 1,283 · Ravens 1,227 · Rams 1,224 · Seahawks 1,011. Best game ever: Chiefs 57.5 (Dave Lang, 2013 wk14).
+- Patriots 1,283 · Ravens 1,227 · Rams 1,224 · Seahawks 1,011. Best game ever: Chiefs 57.5 (Lang, 2013 wk14).
 
 ### New component variants (extend the kit)
 - **Fandom scorecard** — three columns: *claim* (Plex Sans) · *reality* (top rostered team, with logo/accent) · *verdict* (✓/⚠️/❌ pill). Used on the NFL-team board + manager pages.

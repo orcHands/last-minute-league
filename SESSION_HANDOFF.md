@@ -1,3 +1,10 @@
+> **⚠️ HISTORICAL — not current state.** Last updated 2026-07-29, at commit
+> `5c15968`. The repo has moved on substantially since (season detail pages
+> for all 13 seasons, position-weighted awards, Hall of Fame + Records
+> datasets, playoff weather). **`AGENT_HANDOFF.md` is the authoritative
+> current-state doc — read that first.** Keep this one for *why* a component
+> ended up the way it did, not for *what exists today*.
+
 # Session Handoff — LMFL_Dashboard
 
 Last updated: **2026-07-29**. Covers the landing-page redesign + power-rankings session. Supersedes the previous handoff (the original data-wiring session); the still-relevant parts of that one are folded in below under *Older context that still matters*.
