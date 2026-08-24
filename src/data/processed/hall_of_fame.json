@@ -2,255 +2,16 @@
   "rule": {
     "class_size": 5,
     "eligibility_lag_years": 5,
+    "min_career_pts": 250,
+    "excluded_players": [
+      "Ray Rice"
+    ],
     "ranked_by": "career started points in this league (regular season + playoffs)",
     "retirement_source": "last appearance in data/nflverse/roster_{year}.csv",
     "rollover": true,
     "current_year": 2026
   },
   "classes": [
-    {
-      "year": 2018,
-      "inductees": [
-        {
-          "player": "Tony Gonzalez",
-          "pos": "TE",
-          "career_pts": 134.0,
-          "career_games": 11,
-          "ppg": 12.18,
-          "seasons": [
-            2013
-          ],
-          "first_season": 2013,
-          "last_season": 2013,
-          "best_season": 2013,
-          "best_season_pts": 134.0,
-          "top_manager": "Kyle",
-          "top_manager_pts": 134.0,
-          "managers": [
-            "Kyle"
-          ],
-          "final_nfl_season": 2013,
-          "eligible_from": 2018,
-          "waited_years": 0
-        },
-        {
-          "player": "Ray Rice",
-          "pos": "RB",
-          "career_pts": 117.0,
-          "career_games": 10,
-          "ppg": 11.7,
-          "seasons": [
-            2013
-          ],
-          "first_season": 2013,
-          "last_season": 2013,
-          "best_season": 2013,
-          "best_season_pts": 117.0,
-          "top_manager": "Dylan",
-          "top_manager_pts": 117.0,
-          "managers": [
-            "Dylan"
-          ],
-          "final_nfl_season": 2013,
-          "eligible_from": 2018,
-          "waited_years": 0
-        },
-        {
-          "player": "Andre Brown",
-          "pos": "RB",
-          "career_pts": 51.2,
-          "career_games": 3,
-          "ppg": 17.07,
-          "seasons": [
-            2013
-          ],
-          "first_season": 2013,
-          "last_season": 2013,
-          "best_season": 2013,
-          "best_season_pts": 51.2,
-          "top_manager": "Lang",
-          "top_manager_pts": 51.2,
-          "managers": [
-            "Lang"
-          ],
-          "final_nfl_season": 2013,
-          "eligible_from": 2018,
-          "waited_years": 0
-        },
-        {
-          "player": "Jermichael Finley",
-          "pos": "TE",
-          "career_pts": 18.2,
-          "career_games": 1,
-          "ppg": 18.2,
-          "seasons": [
-            2013
-          ],
-          "first_season": 2013,
-          "last_season": 2013,
-          "best_season": 2013,
-          "best_season_pts": 18.2,
-          "top_manager": "Jay",
-          "top_manager_pts": 18.2,
-          "managers": [
-            "Jay"
-          ],
-          "final_nfl_season": 2013,
-          "eligible_from": 2018,
-          "waited_years": 0
-        },
-        {
-          "player": "David Akers",
-          "pos": "K",
-          "career_pts": 14.75,
-          "career_games": 3,
-          "ppg": 4.92,
-          "seasons": [
-            2013
-          ],
-          "first_season": 2013,
-          "last_season": 2013,
-          "best_season": 2013,
-          "best_season_pts": 14.75,
-          "top_manager": "Benedict",
-          "top_manager_pts": 12.25,
-          "managers": [
-            "Benedict",
-            "Kyle"
-          ],
-          "final_nfl_season": 2013,
-          "eligible_from": 2018,
-          "waited_years": 0
-        }
-      ],
-      "eligible_count": 7,
-      "rolled_over": 2,
-      "weakest_pts": 14.75
-    },
-    {
-      "year": 2019,
-      "inductees": [
-        {
-          "player": "Knowshon Moreno",
-          "pos": "RB",
-          "career_pts": 169.8,
-          "career_games": 11,
-          "ppg": 15.44,
-          "seasons": [
-            2013,
-            2014
-          ],
-          "first_season": 2013,
-          "last_season": 2014,
-          "best_season": 2013,
-          "best_season_pts": 147.2,
-          "top_manager": "Lang",
-          "top_manager_pts": 147.2,
-          "managers": [
-            "Lang",
-            "Kyle"
-          ],
-          "final_nfl_season": 2014,
-          "eligible_from": 2019,
-          "waited_years": 0
-        },
-        {
-          "player": "Reggie Wayne",
-          "pos": "WR",
-          "career_pts": 137.6,
-          "career_games": 12,
-          "ppg": 11.47,
-          "seasons": [
-            2013,
-            2014
-          ],
-          "first_season": 2013,
-          "last_season": 2014,
-          "best_season": 2014,
-          "best_season_pts": 127.6,
-          "top_manager": "Lang",
-          "top_manager_pts": 127.6,
-          "managers": [
-            "Lang",
-            "Dylan"
-          ],
-          "final_nfl_season": 2014,
-          "eligible_from": 2019,
-          "waited_years": 0
-        },
-        {
-          "player": "Ben Tate",
-          "pos": "RB",
-          "career_pts": 81.3,
-          "career_games": 8,
-          "ppg": 10.16,
-          "seasons": [
-            2013,
-            2014
-          ],
-          "first_season": 2013,
-          "last_season": 2014,
-          "best_season": 2014,
-          "best_season_pts": 73.6,
-          "top_manager": "Carter",
-          "top_manager_pts": 73.6,
-          "managers": [
-            "Carter",
-            "Jay"
-          ],
-          "final_nfl_season": 2014,
-          "eligible_from": 2019,
-          "waited_years": 0
-        },
-        {
-          "player": "Montee Ball",
-          "pos": "RB",
-          "career_pts": 36.4,
-          "career_games": 5,
-          "ppg": 7.28,
-          "seasons": [
-            2014
-          ],
-          "first_season": 2014,
-          "last_season": 2014,
-          "best_season": 2014,
-          "best_season_pts": 36.4,
-          "top_manager": "Kyle",
-          "top_manager_pts": 36.4,
-          "managers": [
-            "Kyle"
-          ],
-          "final_nfl_season": 2014,
-          "eligible_from": 2019,
-          "waited_years": 0
-        },
-        {
-          "player": "Kyle Orton",
-          "pos": "QB",
-          "career_pts": 18.2,
-          "career_games": 1,
-          "ppg": 18.2,
-          "seasons": [
-            2014
-          ],
-          "first_season": 2014,
-          "last_season": 2014,
-          "best_season": 2014,
-          "best_season_pts": 18.2,
-          "top_manager": "Ryan",
-          "top_manager_pts": 18.2,
-          "managers": [
-            "Ryan"
-          ],
-          "final_nfl_season": 2014,
-          "eligible_from": 2019,
-          "waited_years": 0
-        }
-      ],
-      "eligible_count": 15,
-      "rolled_over": 10,
-      "weakest_pts": 18.2
-    },
     {
       "year": 2020,
       "inductees": [
@@ -303,86 +64,11 @@
           "final_nfl_season": 2015,
           "eligible_from": 2020,
           "waited_years": 0
-        },
-        {
-          "player": "Roddy White",
-          "pos": "WR",
-          "career_pts": 236.5,
-          "career_games": 15,
-          "ppg": 15.77,
-          "seasons": [
-            2013,
-            2014
-          ],
-          "first_season": 2013,
-          "last_season": 2014,
-          "best_season": 2014,
-          "best_season_pts": 171.0,
-          "top_manager": "Dylan",
-          "top_manager_pts": 152.2,
-          "managers": [
-            "Dylan",
-            "Brice",
-            "Lang"
-          ],
-          "final_nfl_season": 2015,
-          "eligible_from": 2020,
-          "waited_years": 0
-        },
-        {
-          "player": "Zac Stacy",
-          "pos": "RB",
-          "career_pts": 196.9,
-          "career_games": 14,
-          "ppg": 14.06,
-          "seasons": [
-            2013,
-            2014
-          ],
-          "first_season": 2013,
-          "last_season": 2014,
-          "best_season": 2013,
-          "best_season_pts": 147.4,
-          "top_manager": "Kyle",
-          "top_manager_pts": 147.4,
-          "managers": [
-            "Kyle",
-            "Jay"
-          ],
-          "final_nfl_season": 2015,
-          "eligible_from": 2020,
-          "waited_years": 0
-        },
-        {
-          "player": "Heath Miller",
-          "pos": "TE",
-          "career_pts": 138.9,
-          "career_games": 14,
-          "ppg": 9.92,
-          "seasons": [
-            2013,
-            2014,
-            2015
-          ],
-          "first_season": 2013,
-          "last_season": 2015,
-          "best_season": 2014,
-          "best_season_pts": 83.9,
-          "top_manager": "Michael",
-          "top_manager_pts": 83.9,
-          "managers": [
-            "Michael",
-            "Tommy",
-            "Carter"
-          ],
-          "final_nfl_season": 2015,
-          "eligible_from": 2020,
-          "waited_years": 0
         }
       ],
-      "eligible_count": 26,
-      "rolled_over": 21,
-      "weakest_pts": 138.9
+      "eligible_count": 2,
+      "rolled_over": 0,
+      "weakest_pts": 654.46
     },
     {
       "year": 2021,
@@ -523,8 +209,8 @@
           "waited_years": 0
         }
       ],
-      "eligible_count": 73,
-      "rolled_over": 68,
+      "eligible_count": 7,
+      "rolled_over": 2,
       "weakest_pts": 278.04
     },
     {
@@ -677,8 +363,8 @@
           "waited_years": 0
         }
       ],
-      "eligible_count": 110,
-      "rolled_over": 105,
+      "eligible_count": 12,
+      "rolled_over": 7,
       "weakest_pts": 450.6
     },
     {
@@ -836,8 +522,8 @@
           "waited_years": 0
         }
       ],
-      "eligible_count": 152,
-      "rolled_over": 147,
+      "eligible_count": 18,
+      "rolled_over": 13,
       "weakest_pts": 442.6
     },
     {
@@ -997,8 +683,8 @@
           "waited_years": 0
         }
       ],
-      "eligible_count": 175,
-      "rolled_over": 170,
+      "eligible_count": 20,
+      "rolled_over": 15,
       "weakest_pts": 446.7
     },
     {
@@ -1160,8 +846,8 @@
           "waited_years": 0
         }
       ],
-      "eligible_count": 229,
-      "rolled_over": 224,
+      "eligible_count": 37,
+      "rolled_over": 32,
       "weakest_pts": 1098.92
     },
     {
@@ -1343,8 +1029,8 @@
           "waited_years": 0
         }
       ],
-      "eligible_count": 267,
-      "rolled_over": 262,
+      "eligible_count": 51,
+      "rolled_over": 46,
       "weakest_pts": 1198.38
     }
   ],
@@ -1888,14 +1574,7 @@
     }
   ],
   "unresolved_players": [
-    "Audric Estime",
-    "Hollywood Brown",
-    "Joshua Palmer",
-    "Kenneth Barber",
-    "Kenny Gainwell",
-    "M. Valdes-Scantling",
-    "Nyheim Miller-Hines",
-    "Trenton Richardson"
+    "Hollywood Brown"
   ],
-  "unresolved_count": 8
+  "unresolved_count": 1
 }

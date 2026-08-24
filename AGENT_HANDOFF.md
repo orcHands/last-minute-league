@@ -171,35 +171,25 @@ Each inductee carries `pos`, `career_pts`, `career_games`, `ppg`, `seasons`,
 `final_nfl_season`, `eligible_from`, `waited_years` — enough for a rich
 gallery card without any extra lookups.
 
-### ⚠️ Decision the owner needs to make before this ships
+### Resolved: 250-point career floor, Ray Rice excluded
 
-Applying the rule strictly by class year produces **very weak early classes**,
-because in 2018 only 7 players were eligible at all:
+Applying the rule strictly by class year produced very weak early classes —
+in 2018 the induction pool included a kicker with 15 career points, while
+2026 was stacked with Antonio Brown (1929) and Drew Brees (1752). The owner
+resolved this on 2026-08-24:
 
-```
-2018  Tony Gonzalez (134 career pts), Ray Rice (117), Andre Brown (51),
-      Jermichael Finley (18), David Akers (15)
-2019  Knowshon Moreno (170), Reggie Wayne (138), Ben Tate (81),
-      Montee Ball (36), Kyle Orton (18)
-...
-2026  Antonio Brown (1929), Drew Brees (1752), Cam Newton (1530),
-      Le'Veon Bell (1453), Ben Roethlisberger (1198)
-```
+- **`MIN_CAREER_PTS = 250`** — a player under this never appears on the
+  ballot, no matter how long he's been retired. This pushed the first class
+  from 2018 to **2020** (Calvin Johnson, Peyton Manning) and every class is
+  now thinner-but-real rather than padded. See `rule.min_career_pts` in the
+  JSON.
+- **`EXCLUDED_PLAYERS = {'Ray Rice'}`** — permanent, explicit, independent of
+  the point floor above. See `rule.excluded_players` in the JSON. Do not
+  re-add him if the floor changes later.
 
-A hall whose charter class is a 15-point kicker and whose ninth class is
-Antonio Brown reads as broken, even though it follows the rule exactly.
-
-Two fixes, both one-line changes in the local `hall_of_fame.py`:
-
-1. **Minimum threshold** (recommended) — require e.g. 250+ career points, so
-   a thin class is simply smaller than five rather than padded with players
-   nobody remembers.
-2. **Inaugural class** — induct a larger first class (say the top 20 of
-   everyone eligible as of the site's launch), then 5/year after.
-
-**Do not silently pick one.** Ask the owner. Also note the current output
-ranks by career total, so longevity beats peak — a different `ranked_by`
-would produce a materially different hall.
+Both are one-line constants at the top of the local `hall_of_fame.py`. Career
+total still ranks the hall (longevity beats peak) — that part of the rule is
+unchanged.
 
 ---
 
