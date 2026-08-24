@@ -27,6 +27,7 @@ export interface FranchiseDetail {
   championshipYears: number[]
   divisionTitleYears: number[]
   headerImage: string | null
+  headerPosition: string
   originalThree: boolean
 }
 
@@ -120,6 +121,11 @@ function buildDetail(franchise: Franchise): FranchiseDetail | null {
     championshipYears: franchise.championshipYears,
     divisionTitleYears: franchise.divisionTitleYears,
     headerImage: withBase(`images/franchise_backgrounds/${franchise.id}.jpg`),
+    headerPosition: franchise.id === 'brice'
+      ? 'center 14%'
+      : franchise.id === 'whitaker'
+        ? 'center 58%'
+        : 'center',
     originalThree: ['brice', 'carter', 'whitaker'].includes(franchise.id),
   }
 }

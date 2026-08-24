@@ -165,7 +165,7 @@ export default function FranchiseDetailBody({ franchiseId }: { franchiseId: stri
           backgroundImage: detail.headerImage
             ? `linear-gradient(90deg, rgba(22,22,22,.92), rgba(22,22,22,.42)), url(${detail.headerImage})`
             : 'linear-gradient(120deg, #262626 0%, #1c1c1c 55%, #262626 100%)',
-          backgroundPosition: 'center',
+          backgroundPosition: detail.headerPosition,
           backgroundSize: 'cover',
         }}
       >
