@@ -2,9 +2,9 @@ import franchisesJson from '../processed/franchises.json'
 import franchiseRecordsJson from '../processed/franchise_records.json'
 import {
   CANONICAL_IDS, DISPLAY_NAMES, normalizeManager, logoLarge, logoSmall,
-  MANAGER_COLORS, placeholderTeamName, type ManagerId,
+  MANAGER_COLORS, MANAGER_HOME_LOCATIONS, placeholderTeamName, type ManagerId,
 } from '../managerCanon'
-import { buildCareerRecords } from './careerRecords'
+import { buildCareerRecords, leagueData } from './careerRecords'
 import { buildChampionshipCounts, buildDivisionTitleCounts } from './honorsHelpers'
 
 export interface Manager {
@@ -18,6 +18,7 @@ export interface Manager {
   tertiaryColor: string
   logoSmall: string
   logoLarge: string | null
+  homeLocation: string
   seasons: number
   careerRecord: { w: number; l: number; t: number }
   careerPF: number
@@ -83,6 +84,7 @@ export const MANAGERS: Manager[] = CANONICAL_IDS.map((id): Manager => {
     tertiaryColor: colors.tertiary,
     logoSmall: logoSmall(id),
     logoLarge: logoLarge(id),
+    homeLocation: MANAGER_HOME_LOCATIONS[id],
     seasons: stint?.seasons.length ?? seasonsPlayed.length,
     careerRecord: { w: career.w, l: career.l, t: career.t },
     careerPF: career.pf,
@@ -111,14 +113,20 @@ export interface Franchise {
   id: string
   nickname: string
   managers: string[]
+  managerStints: { managerId: string; seasons: number[] }[]
+  latestTeamNickname: string | null
+  latestSeason: number | null
   allTimeRecord: { w: number; l: number; t: number }
+  winPct: number
   allTimePF: number
   allTimePA: number
   avgPF: number
   avgPA: number
   playoffAppearances: number
   divisionTitles: number
+  divisionTitleYears: number[]
   championships: number
+  bestFinish: { rank: number; season: number } | null
   active: boolean
   lore?: string
 }
@@ -138,6 +146,7 @@ interface FranchiseRecordRow {
   playoff_appearances: number
   championships: number[]
   division_titles: number[]
+  best_finish: { rank: number; season: number } | null
   ring_of_honor_plaques: number
 }
 
@@ -151,20 +160,44 @@ export const FRANCHISES: Franchise[] = franchisesRaw.map((f): Franchise => {
     if (managerIds[managerIds.length - 1] !== id) managerIds.push(id)
   }
   const games = (record?.w ?? 0) + (record?.l ?? 0) + (record?.t ?? 0)
+  const latestSeason = f.stints.reduce(
+    (latest, stint) => Math.max(latest, ...stint.seasons),
+    0,
+  ) || null
+  const latestManagerId = f.current
+    ? normalizeManager(f.current)
+    : managerIds[managerIds.length - 1]
+  const latestTeamNickname = latestSeason
+    ? leagueData[String(latestSeason)]?.standings.find(
+      row => normalizeManager(row.manager) === latestManagerId,
+    )?.team ?? null
+    : null
 
   return {
     id: f.id,
     // PLACEHOLDER nickname (real franchise nicknames not yet exported — see managerCanon.ts header)
     nickname: f.label,
     managers: managerIds,
+    managerStints: managerIds.map(managerId => ({
+      managerId,
+      seasons: f.stints
+        .filter(stint => normalizeManager(stint.manager) === managerId)
+        .flatMap(stint => stint.seasons)
+        .sort((a, b) => a - b),
+    })),
+    latestTeamNickname,
+    latestSeason,
     allTimeRecord: { w: record?.w ?? 0, l: record?.l ?? 0, t: record?.t ?? 0 },
+    winPct: record?.win_pct ?? 0,
     allTimePF: record?.pf ?? 0,
     allTimePA: record?.pa ?? 0,
     avgPF: games > 0 ? (record?.pf ?? 0) / games : 0,
     avgPA: games > 0 ? (record?.pa ?? 0) / games : 0,
     playoffAppearances: record?.playoff_appearances ?? 0,
     divisionTitles: record?.division_titles.length ?? 0,
+    divisionTitleYears: record?.division_titles ?? [],
     championships: record?.championships.length ?? 0,
+    bestFinish: record?.best_finish ?? null,
     active: f.status === 'active',
   }
 })

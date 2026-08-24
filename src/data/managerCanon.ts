@@ -175,6 +175,35 @@ export const MANAGER_COLORS: Record<ManagerId, ColorTriple> = {
   kyle: { primary: '#FF0000', secondary: '#002FA7', tertiary: '#A6A6A6' },
 }
 
+// Current/latest home location from the home-stadium canon. This is the
+// compact city/state identity shown on franchise cards; stadium-era history
+// remains in the local season-detail pipeline.
+export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
+  jay: 'Blacksburg, VA',
+  brice: 'Miami, FL',
+  zac: 'Chicago, IL',
+  pb: 'Las Vegas, NV',
+  whitaker: 'Bloomington, IN',
+  michael: 'Dallas, TX',
+  ryan: 'Santa Clara, CA',
+  tommy: 'Arlington, TX',
+  carter: 'Lubbock, TX',
+  kevin: 'Pittsburgh, PA',
+  benedict: 'Foxborough, MA',
+  laskey: 'London, UK',
+  sara: 'Knoxville, TN',
+  jason: 'Oakland, CA',
+  dylan: 'East Rutherford, NJ',
+  becca: 'Indianapolis, IN',
+  megan: 'Inglewood, CA',
+  aboubacar: 'Austin, TX',
+  kat: 'Eugene, OR',
+  alex: 'New Orleans, LA',
+  dave: 'Champaign, IL',
+  kelly: 'Ann Arbor, MI',
+  kyle: 'Tampa, FL',
+}
+
 /** PLACEHOLDER team name — real canon (11 manager names + 4 franchise nicknames) not yet exported. */
 export function placeholderTeamName(id: ManagerId): string {
   return DISPLAY_NAMES[id].name

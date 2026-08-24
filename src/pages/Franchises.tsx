@@ -1,234 +1,296 @@
-import { useState } from 'react'
-import { MANAGERS, FRANCHISES, getManager } from '../data/league'
-import ManagerCard from '../components/ManagerCard'
-import StandingsTable from '../components/StandingsTable'
-import { ALL_TIME_STANDINGS, ALL_TIME_FRANCHISE_STANDINGS } from '../data/league'
+import { Link } from 'react-router-dom'
+import { FRANCHISES, getManager, type Franchise } from '../data/league'
+import AssetImage from '../components/AssetImage'
 
-type View = 'managers' | 'franchises' | 'standings'
-type StandingsTab = 'franchise' | 'manager'
+function ordinal(rank: number): string {
+  const mod100 = rank % 100
+  if (mod100 >= 11 && mod100 <= 13) return `${rank}th`
+  if (rank % 10 === 1) return `${rank}st`
+  if (rank % 10 === 2) return `${rank}nd`
+  if (rank % 10 === 3) return `${rank}rd`
+  return `${rank}th`
+}
+
+function seasonRange(seasons: number[]): string {
+  if (seasons.length === 0) return '—'
+  if (seasons.length === 1) return String(seasons[0])
+  return `${seasons[0]}–${seasons[seasons.length - 1]}`
+}
+
+function franchiseAccent(franchise: Franchise): string {
+  const colors = franchise.managers
+    .map(id => getManager(id)?.primaryColor)
+    .filter((color): color is string => Boolean(color))
+
+  if (colors.length === 0) return '#393939'
+  if (colors.length === 1) return colors[0]
+
+  return `linear-gradient(90deg, ${colors
+    .map((color, index) => `${color} ${(index / (colors.length - 1)) * 100}%`)
+    .join(', ')})`
+}
+
+function Monogram({ name, color }: { name: string; color: string }) {
+  return (
+    <div
+      aria-hidden="true"
+      style={{
+        width: 80,
+        height: 80,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexShrink: 0,
+        border: `1px solid ${color}`,
+        backgroundColor: `${color}22`,
+      }}
+    >
+      <span style={{
+        fontFamily: "'IBM Plex Mono', monospace",
+        fontSize: 20,
+        fontWeight: 600,
+        color,
+      }}>
+        {name.slice(0, 2).toUpperCase()}
+      </span>
+    </div>
+  )
+}
+
+function FranchiseCard({ franchise }: { franchise: Franchise }) {
+  const featuredManager = getManager(franchise.managers[franchise.managers.length - 1])
+  if (!featuredManager) return null
+  const previousManagers = franchise.managerStints
+    .slice(0, -1)
+    .map(stint => {
+      const manager = getManager(stint.managerId)
+      return manager
+        ? `${manager.name} (${seasonRange(stint.seasons)} · ${manager.homeLocation})`
+        : null
+    })
+    .filter((entry): entry is string => Boolean(entry))
+  const isOriginalThree = ['brice', 'carter', 'whitaker'].includes(franchise.id)
+
+  const record = franchise.allTimeRecord.t > 0
+    ? `${franchise.allTimeRecord.w}–${franchise.allTimeRecord.l}–${franchise.allTimeRecord.t}`
+    : `${franchise.allTimeRecord.w}–${franchise.allTimeRecord.l}`
+  const winPct = franchise.winPct.toFixed(3).replace(/^0/, '')
+
+  const achievement = franchise.championships > 0
+    ? { label: 'Championships', value: '💍'.repeat(franchise.championships) }
+    : {
+      label: 'Highest finish',
+      value: franchise.bestFinish
+        ? `${ordinal(franchise.bestFinish.rank)} · ${franchise.bestFinish.season}`
+        : '—',
+    }
+
+  const stats = [
+    { label: franchise.allTimeRecord.t > 0 ? 'Franchise W–L–T' : 'Franchise W–L', value: `${record} (${winPct})` },
+    { label: 'Franchise PPG', value: franchise.avgPF.toFixed(2) },
+    achievement,
+    { label: 'Division Titles', value: franchise.divisionTitleYears.length > 0 ? franchise.divisionTitleYears.join(', ') : 'None' },
+  ]
+
+  return (
+    <article
+      style={{
+        minWidth: 0,
+        minHeight: 390,
+        display: 'flex',
+        flexDirection: 'column',
+        backgroundColor: '#262626',
+        transition: 'background-color 150ms cubic-bezier(0.2,0,0.38,0.9)',
+      }}
+      onMouseEnter={event => { event.currentTarget.style.backgroundColor = '#2e2e2e' }}
+      onMouseLeave={event => { event.currentTarget.style.backgroundColor = '#262626' }}
+    >
+      <div aria-hidden="true" style={{ height: 4, flexShrink: 0, background: franchiseAccent(franchise) }} />
+
+      <div style={{ padding: '24px 24px 20px', display: 'flex', alignItems: 'center', gap: 16 }}>
+        {featuredManager.logoLarge ? (
+          <AssetImage
+            src={featuredManager.logoLarge}
+            alt={`${featuredManager.name} logo`}
+            size={80}
+            fallback={<Monogram name={featuredManager.name} color={featuredManager.primaryColor} />}
+          />
+        ) : (
+          <Monogram name={featuredManager.name} color={featuredManager.primaryColor} />
+        )}
+
+        <div style={{ minWidth: 0 }}>
+          <div style={{
+            fontFamily: "'IBM Plex Sans', sans-serif",
+            fontSize: 12,
+            lineHeight: '16px',
+            color: '#8d8d8d',
+            marginBottom: 4,
+          }}>
+            {franchise.active ? 'Current manager' : 'Last manager'} · {featuredManager.name}
+          </div>
+          <h2 style={{
+            fontFamily: "'IBM Plex Sans', sans-serif",
+            fontSize: 20,
+            lineHeight: '28px',
+            fontWeight: 600,
+            color: '#f4f4f4',
+            margin: 0,
+            overflowWrap: 'anywhere',
+          }}>
+            {franchise.latestTeamNickname ?? featuredManager.teamName}
+          </h2>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', marginTop: 4 }}>
+            <span style={{
+              fontFamily: "'IBM Plex Sans', sans-serif",
+              fontSize: 12,
+              lineHeight: '16px',
+              color: '#8d8d8d',
+            }}>
+              {featuredManager.homeLocation}
+            </span>
+            {!franchise.active && (
+              <span style={{
+                padding: '2px 8px',
+                border: '1px solid #6f6f6f',
+                backgroundColor: '#393939',
+                fontFamily: "'IBM Plex Sans', sans-serif",
+                fontSize: 12,
+                lineHeight: '16px',
+                color: '#c6c6c6',
+              }}>
+                Retired
+              </span>
+            )}
+            {isOriginalThree && (
+              <span style={{
+                padding: '2px 8px',
+                border: '1px solid #f1c21b',
+                backgroundColor: '#f1c21b22',
+                fontFamily: "'IBM Plex Sans', sans-serif",
+                fontSize: 12,
+                lineHeight: '16px',
+                color: '#f1c21b',
+              }}>
+                Original 3
+              </span>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div style={{ height: 1, backgroundColor: '#393939' }} />
+
+      <div style={{
+        padding: '12px 24px 20px',
+        display: 'grid',
+        gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+        columnGap: 24,
+      }}>
+        {stats.map(stat => (
+          <div key={stat.label} style={{ padding: '12px 0', borderBottom: '1px solid #393939', textAlign: 'right' }}>
+            <div style={{
+              minHeight: 32,
+              fontFamily: "'IBM Plex Sans', sans-serif",
+              fontSize: 12,
+              lineHeight: '16px',
+              color: '#8d8d8d',
+            }}>
+              {stat.label}
+            </div>
+            <div style={{
+              fontFamily: "'IBM Plex Mono', monospace",
+              fontSize: 16,
+              lineHeight: '22px',
+              color: '#f4f4f4',
+              fontVariantNumeric: 'tabular-nums',
+            }}>
+              {stat.value}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ padding: '0 24px 20px' }}>
+        <div style={{
+          fontFamily: "'IBM Plex Sans', sans-serif",
+          fontSize: 12,
+          lineHeight: '16px',
+          color: '#8d8d8d',
+          marginBottom: 4,
+        }}>
+          Previous Managers
+        </div>
+        <div style={{
+          fontFamily: "'IBM Plex Sans', sans-serif",
+          fontSize: 14,
+          lineHeight: '18px',
+          color: previousManagers.length > 0 ? '#c6c6c6' : '#6f6f6f',
+        }}>
+          {previousManagers.length > 0 ? previousManagers.join(' → ') : 'None'}
+        </div>
+      </div>
+
+      <Link
+        to={`/franchises/${franchise.id}`}
+        style={{
+          marginTop: 'auto',
+          minHeight: 48,
+          padding: '0 24px',
+          borderTop: '1px solid #393939',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 16,
+          fontFamily: "'IBM Plex Sans', sans-serif",
+          fontSize: 14,
+          lineHeight: '18px',
+          color: '#78a9ff',
+          textDecoration: 'none',
+        }}
+      >
+        <span>View This Franchise</span>
+        <span aria-hidden="true" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 16 }}>→</span>
+      </Link>
+    </article>
+  )
+}
 
 export default function Franchises() {
-  const [view, setView] = useState<View>('managers')
-  const [filter, setFilter] = useState<'all' | 'active' | 'retired'>('all')
-  // Franchise first — matches the site's IA (franchise is the canonical unit; managers nest under it).
-  const [standingsTab, setStandingsTab] = useState<StandingsTab>('franchise')
-
-  const visibleManagers = MANAGERS.filter(m => {
-    if (filter === 'active') return m.active
-    if (filter === 'retired') return !m.active
-    return true
-  })
+  const activeCount = FRANCHISES.filter(franchise => franchise.active).length
+  const retiredCount = FRANCHISES.length - activeCount
+  const rankedFranchises = [...FRANCHISES].sort((a, b) => b.winPct - a.winPct)
 
   return (
     <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
       <div style={{ borderBottom: '1px solid #393939', padding: '48px 16px 40px' }}>
         <div style={{ maxWidth: 1904, margin: '0 auto' }}>
-          <h1 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 32, lineHeight: '40px', color: '#f4f4f4', margin: '0 0 8px' }}>
-            Franchises & Managers
+          <h1 style={{
+            fontFamily: "'IBM Plex Sans', sans-serif",
+            fontWeight: 400,
+            fontSize: 32,
+            lineHeight: '40px',
+            color: '#f4f4f4',
+            margin: '0 0 8px',
+          }}>
+            Franchises
           </h1>
-          <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#8d8d8d', margin: '0 0 24px' }}>
-            15 franchises · 23 owners · 4 rings for The Dynasty
+          <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, lineHeight: '18px', color: '#8d8d8d', margin: 0 }}>
+            {FRANCHISES.length} franchises · {activeCount} active · {retiredCount} retired
           </p>
-
-          {/* View/filter controls */}
-          <div style={{ display: 'flex', gap: 0, flexWrap: 'wrap' }}>
-            {([
-              { v: 'managers', label: 'Managers' },
-              { v: 'franchises', label: 'Franchises' },
-              { v: 'standings', label: 'All-time standings' },
-            ] as { v: View; label: string }[]).map(({ v, label }) => (
-              <button
-                key={v}
-                onClick={() => setView(v)}
-                style={{
-                  padding: '8px 16px',
-                  background: 'none',
-                  border: '1px solid #393939',
-                  borderRight: v !== 'standings' ? 'none' : '1px solid #393939',
-                  cursor: 'pointer',
-                  fontFamily: "'IBM Plex Sans', sans-serif",
-                  fontWeight: view === v ? 600 : 400,
-                  fontSize: 14,
-                  color: view === v ? '#f4f4f4' : '#c6c6c6',
-                  backgroundColor: view === v ? '#393939' : '#262626',
-                  transition: 'all 150ms cubic-bezier(0.2,0,0.38,0.9)',
-                }}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
         </div>
       </div>
 
       <div style={{ maxWidth: 1904, margin: '0 auto', padding: '40px 16px 80px' }}>
-        {view === 'managers' && (
-          <div>
-            <div style={{ display: 'flex', gap: 0, marginBottom: 32 }}>
-              {(['all', 'active', 'retired'] as const).map(f => (
-                <button
-                  key={f}
-                  onClick={() => setFilter(f)}
-                  style={{
-                    padding: '6px 16px',
-                    background: 'none',
-                    border: '1px solid #393939',
-                    borderRight: f !== 'retired' ? 'none' : '1px solid #393939',
-                    cursor: 'pointer',
-                    fontFamily: "'IBM Plex Sans', sans-serif",
-                    fontWeight: 400,
-                    fontSize: 12,
-                    letterSpacing: '0.16em',
-                    textTransform: 'uppercase',
-                    color: filter === f ? '#f4f4f4' : '#c6c6c6',
-                    backgroundColor: filter === f ? '#393939' : '#262626',
-                  }}
-                >
-                  {f === 'all' ? `All (${MANAGERS.length})` : f === 'active' ? `Active (${MANAGERS.filter(m => m.active).length})` : `Retired (${MANAGERS.filter(m => !m.active).length})`}
-                </button>
-              ))}
-            </div>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-              gap: 1,
-              backgroundColor: '#393939',
-              border: '1px solid #393939',
-            }}>
-              {visibleManagers.map(m => <ManagerCard key={m.id} manager={m} />)}
-            </div>
-          </div>
-        )}
-
-        {view === 'franchises' && (
-          <div style={{ display: 'grid', gap: 1, border: '1px solid #393939', backgroundColor: '#393939' }}>
-            {FRANCHISES.map(f => {
-              const currentOwner = getManager(f.managers[f.managers.length - 1])
-              const allOwners = f.managers.map(id => getManager(id)).filter(Boolean)
-              return (
-                <div
-                  key={f.id}
-                  style={{
-                    backgroundColor: '#262626',
-                    padding: '20px 24px',
-                    borderLeft: currentOwner ? `3px solid ${currentOwner.primaryColor}` : '3px solid #393939',
-                    display: 'grid',
-                    gridTemplateColumns: '1fr auto',
-                    gap: 24,
-                    alignItems: 'start',
-                    transition: 'background-color 150ms cubic-bezier(0.2,0,0.38,0.9)',
-                  }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#393939' }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#262626' }}
-                >
-                  <div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 8 }}>
-                      <h3 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 16, color: '#f4f4f4', margin: 0 }}>
-                        {f.nickname}
-                      </h3>
-                      {!f.active && (
-                        <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#6f6f6f', border: '1px solid #393939', padding: '1px 6px' }}>
-                          retired
-                        </span>
-                      )}
-                      {f.championships > 0 && (
-                        <span style={{ fontSize: 14 }}>{'🏆'.repeat(f.championships)}</span>
-                      )}
-                    </div>
-
-                    {/* Ownership timeline */}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 0, flexWrap: 'wrap', marginBottom: 12 }}>
-                      {allOwners.map((owner, i) => owner && (
-                        <span key={owner.id} style={{ display: 'inline-flex', alignItems: 'center' }}>
-                          <span style={{
-                            fontFamily: "'IBM Plex Sans', sans-serif",
-                            fontSize: 13,
-                            color: owner.primaryColor,
-                          }}>
-                            {owner.name}
-                          </span>
-                          {i < allOwners.length - 1 && (
-                            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: '#525252', margin: '0 6px' }}>→</span>
-                          )}
-                        </span>
-                      ))}
-                    </div>
-
-                    {f.lore && (
-                      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 13, color: '#8d8d8d', margin: 0, fontStyle: 'italic', maxWidth: 600 }}>
-                        {f.lore}
-                      </p>
-                    )}
-                  </div>
-
-                  {/* Stats */}
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, textAlign: 'right', flexShrink: 0 }}>
-                    <div>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase' }}>Record</div>
-                      <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 16, color: '#f4f4f4', fontVariantNumeric: 'tabular-nums' }}>
-                        {f.allTimeRecord.w}–{f.allTimeRecord.l}
-                      </div>
-                    </div>
-                    <div>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase' }}>All-time PF</div>
-                      <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 16, color: '#f4f4f4', fontVariantNumeric: 'tabular-nums' }}>
-                        {f.allTimePF.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        )}
-
-        {view === 'standings' && (
-          <div>
-            <div style={{ display: 'flex', gap: 0, marginBottom: 32 }}>
-              {([
-                { t: 'franchise', label: `Franchise (${FRANCHISES.length})` },
-                { t: 'manager', label: `Manager (${ALL_TIME_STANDINGS.length})` },
-              ] as { t: StandingsTab; label: string }[]).map(({ t, label }) => (
-                <button
-                  key={t}
-                  onClick={() => setStandingsTab(t)}
-                  style={{
-                    padding: '6px 16px',
-                    background: 'none',
-                    border: '1px solid #393939',
-                    borderRight: t !== 'manager' ? 'none' : '1px solid #393939',
-                    cursor: 'pointer',
-                    fontFamily: "'IBM Plex Sans', sans-serif",
-                    fontWeight: 400,
-                    fontSize: 12,
-                    letterSpacing: '0.16em',
-                    textTransform: 'uppercase',
-                    color: standingsTab === t ? '#f4f4f4' : '#c6c6c6',
-                    backgroundColor: standingsTab === t ? '#393939' : '#262626',
-                  }}
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
-
-            {standingsTab === 'franchise' ? (
-              <StandingsTable
-                rows={ALL_TIME_FRANCHISE_STANDINGS}
-                kind="franchise"
-                title="All-time standings — franchise (2013–)"
-                showRank
-              />
-            ) : (
-              <StandingsTable
-                rows={ALL_TIME_STANDINGS}
-                kind="manager"
-                title="All-time standings — manager career"
-                showRank
-              />
-            )}
-          </div>
-        )}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
+          gap: 1,
+          border: '1px solid #393939',
+          backgroundColor: '#393939',
+        }}>
+          {rankedFranchises.map(franchise => <FranchiseCard key={franchise.id} franchise={franchise} />)}
+        </div>
       </div>
     </div>
   )
