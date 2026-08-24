@@ -116,22 +116,13 @@ export default function Seasons() {
           const consolation = getManager(season.consolation)
           const letty = getManager(season.lettyWinner)
           return (
-            <div style={{ border: '1px solid #393939', backgroundColor: '#262626' }}>
-              <div style={{
-                padding: '24px',
-                borderBottom: '1px solid #393939',
-                borderTop: `4px solid ${champion?.primaryColor ?? '#f4f4f4'}`,
-                display: 'flex',
-                alignItems: 'center',
-                gap: 24,
-                flexWrap: 'wrap',
-              }}>
-                <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 28, color: '#f4f4f4', margin: 0 }}>
-                  {season.year} Season
-                </h2>
-                {season.asterisk && <Badge type="asterisk" size="md" label={`* ${season.asteriskReason}`} />}
-              </div>
-
+            // Round 6: the "20XX Season" header bar is gone. The year is already
+            // in the URL, in the selected tile above, and in the page you clicked
+            // from -- the bar was a third restatement taking 80px of vertical.
+            // The champion-colored accent moves onto the card itself, and the
+            // asterisk note becomes a footnote under the podium tiles (canon says
+            // badge asterisk seasons, never smooth them away).
+            <div style={{ border: '1px solid #393939', backgroundColor: '#262626', borderTop: `4px solid ${champion?.primaryColor ?? '#f4f4f4'}` }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 0 }}>
                 {[
                   { label: 'Teremana Tequila Bowl', value: champion?.teamName ?? '—', sub: season.championTeam, color: champion?.primaryColor, icon: '🏆' },
@@ -161,6 +152,12 @@ export default function Seasons() {
                   </div>
                 ))}
               </div>
+
+              {season.asterisk && (
+                <div style={{ padding: '12px 24px' }}>
+                  <Badge type="asterisk" size="md" label={`* ${season.asteriskReason}`} />
+                </div>
+              )}
 
             </div>
           )

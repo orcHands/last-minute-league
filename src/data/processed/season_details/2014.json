@@ -588,17 +588,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Touchdown();",
-            "manager": "whitaker",
-            "rank": 3
+            "team": "HE ATE ME",
+            "manager": "Carter",
+            "rank": 2
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "HE ATE ME",
-            "manager": "Carter",
-            "rank": 2
+            "team": "Touchdown();",
+            "manager": "whitaker",
+            "rank": 3
           }
         ]
       },
@@ -712,8 +712,9 @@
             "city": "Dallas",
             "state": "Texas",
             "attendance": 58720,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2014-12-22"
           },
           {
             "kind": "game",
@@ -739,8 +740,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 46105,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -938,8 +939,9 @@
             "city": "Guadalajara",
             "state": "Mexico",
             "attendance": 49850,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2014-12-22"
           },
           {
             "kind": "game",
@@ -965,8 +967,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 40891,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }

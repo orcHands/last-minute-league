@@ -588,17 +588,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Spicy Meatballs",
-            "manager": "Kelly Brown",
-            "rank": 4
+            "team": "Goffsides",
+            "manager": "Zac",
+            "rank": 3
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Goffsides",
-            "manager": "Zac",
-            "rank": 3
+            "team": "Spicy Meatballs",
+            "manager": "Kelly Brown",
+            "rank": 4
           }
         ]
       },
@@ -708,8 +708,8 @@
             "city": "Arlington",
             "state": "Texas",
             "attendance": 71200,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -735,8 +735,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 49563,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -935,8 +935,9 @@
             "city": "Utqiaġvik",
             "state": "Alaska",
             "attendance": "41 Vehicles",
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2017-12-25"
           },
           {
             "kind": "game",
@@ -962,8 +963,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 59100,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }

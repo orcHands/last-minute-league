@@ -105,7 +105,9 @@ export function normalizeManager(raw: string): ManagerId {
 }
 
 // Verified against actual files in images/large_logos/ and images/small_logos/.
-// laskey has no large logo — confirmed gap, monogram fallback applies.
+// Round 6: laskey's large logo landed (Hoss supplied the 500px source, resized
+// to 750 with the same rounded-square mask the other 22 use), so the monogram
+// fallback no longer fires for anyone.
 const LOGO_FILENAMES: Record<ManagerId, { large: string | null; small: string }> = {
   jay: { large: 'Jay', small: 'JAY' },
   brice: { large: 'Brice', small: 'BRICE' },
@@ -118,7 +120,7 @@ const LOGO_FILENAMES: Record<ManagerId, { large: string | null; small: string }>
   carter: { large: 'Carter', small: 'CARTER' },
   kevin: { large: 'Kevin', small: 'KEVIN' },
   benedict: { large: 'Benedict', small: 'BENEDICT' },
-  laskey: { large: null, small: 'LASKEY' },
+  laskey: { large: 'Laskey', small: 'LASKEY' },
   sara: { large: 'Sara', small: 'Sara' },
   jason: { large: 'Jason', small: 'JASON' },
   dylan: { large: 'Dylan', small: 'DYLAN' },

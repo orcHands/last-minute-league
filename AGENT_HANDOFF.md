@@ -1,18 +1,34 @@
 # LMFL Dashboard — agent handoff
 
-Authoritative current-state document. Written 2026-08-24.
+Authoritative current-state document. Last updated 2026-08-24 (round 2).
 
-**Remaining scope — all three are React work. The data is already
-precomputed, scrubbed, and committed; none of it requires the pipeline.**
+## Remaining scope
 
-| # | Work | Starting point |
-|---|---|---|
-| 1 | Franchise + Manager detail views | `src/pages/Franchises.tsx` exists as an index (~235 lines). Needs detail routes. |
-| 2 | Records book board | `src/pages/Records.tsx` exists and already composes **8 boards**. This adds a 9th fed by `records_board.json` — it is *not* a page build from scratch. |
-| 3 | Hall of Fame gallery | No page yet. `hall_of_fame.json` is complete. |
+| # | Work | Starting point | Data ready? |
+|---|---|---|---|
+| 1 | **Players section** | `src/pages/Players.tsx` is a 136-line stub. See **§5.4** | **Partly — read §5.4 before starting** |
+| 2 | Franchise detail views | `src/pages/Franchises.tsx` is an index (~235 lines). Needs detail routes. See §5.1 | Partly — rivalries done, ~10 rollups are not |
+| 3 | Records book board | `src/pages/Records.tsx` already composes **8 boards**. This adds a 9th fed by `records_board.json` — not a page build from scratch. See §5.2 | Yes |
+| 4 | Hall of Fame gallery | No page yet. `hall_of_fame.json` is complete. See §5.3 + §6 | Yes |
 
-Nothing else is outstanding. Awards, brackets, standings, All-Division,
-bowls and all 13 season pages are built and shipping.
+Awards, brackets, standings, All-Division, bowls, playoff venues/weather and
+all 13 season pages are built and shipping.
+
+## ⚠️ More than one agent is working in this repo
+
+As of 2026-08-24 the owner is handing individual pages to different assistants
+in parallel, each pushing to `main` on a public repo where **a push deploys the
+live site.** Before you start:
+
+1. `git pull --rebase` first. Do not assume your clone is current.
+2. **Stay inside your assigned page.** Shared files — `managerCanon.ts`,
+   `league.ts`, `build/*`, `AGENTS.md` — are where two agents collide. If your
+   task genuinely needs a change there, make it minimal and say so in the
+   commit message.
+3. Run the full §9 checklist before every push. A red build leaves a broken
+   public site for everyone, not just you.
+4. If `git push` is rejected, **rebase and re-run the checklist**. Never
+   force-push.
 
 ---
 
@@ -40,7 +56,9 @@ build first.
 |---|---|
 | `AGENTS.md` *(this repo)* | Stack facts + doc map. Short. |
 | `CLAUDE.md` *(project root, outside this repo)* | Data dictionary, slot vocabulary, scoring rules |
-| `SITEMAP.md` *(project root, outside this repo)* | Canonical IA. Section "Records catalog" is the spec for item 2 |
+| `SITEMAP.md` *(project root, outside this repo)* | Canonical IA. Section "Records catalog" is the spec for scope item 3 |
+| **§4.1 below** | What is *not* in `src/`. Read it before planning any page, or you will plan around data that isn't here. |
+| **§10 below** | What changed most recently, including two bugs that made rebuilds non-reproducible. |
 | `src/data/managerCanon.ts` | Manager IDs, display names, the 3-color palette per manager |
 | `src/data/build/seasonDetail.ts` | The pattern every page follows: raw JSON in, typed objects out |
 | `src/components/SeasonDetailBody.tsx` | The most complete page. Copy its structure |
@@ -98,35 +116,108 @@ Import from `../data/league`, never from a JSON path directly.
 | `bench_regret.json` | Points left on the bench, per manager-week |
 | `enemies_analysis.json` | Head-to-head, "greatest enemy" |
 | `college_analysis.json`, `nflteam_analysis.json` | College/NFL-team affinity |
-| `hall_of_fame.json` | **New.** Full HOF classes — see §6 |
-| `records_board.json` | **New.** Every record list the Records page needs — see §5 |
+| `hall_of_fame.json` | Full HOF classes — see §6 |
+| `records_board.json` | Every record list the Records page needs — see §5.2 |
+| `rivalries.json` | **New 2026-08-24.** Top 5 rivals **per franchise**, two candidate metrics — see §5.1 |
 
 Known data gaps, already handled elsewhere — show a badge, don't plot:
 **2020** has no comeback/gate data (COVID), **2024 week 17** is incomplete,
 **2013** is an 8-game season numbered weeks 7–14, not 1–8.
 
+### 4.1 What is deliberately NOT in `src/` — read before you plan a page
+
+`src/` is the whole world you have. There is no API, no `data/` directory in a
+clone, and **you cannot run the pipeline** (§3.2). The following exist only on
+the owner's machine, one level above this repo:
+
+| Missing from `src/` | Rows | What it would unlock |
+|---|---|---|
+| `boxscores.json` | 37,565 | **Any per-player detail view.** Every start, bench, slot, week, points. |
+| `drafts.json` | 13 seasons | Draft history, best-pick-by-value, most-drafted NFL team |
+| `transactions_raw.json` | — | Waiver and trade history |
+| `nflverse/*.csv` | ~220 MB | Rosters, colleges, rookie years, NFL teams |
+
+If your page needs one of these, **stop and ask the owner to run the pipeline
+and commit the output.** Do not approximate it from the top-100 leaderboards,
+and do not invent it. This is the single most common way to waste a session
+here.
+
 ---
 
 ## 5. Page work
 
-### 5.1 Franchise + Manager pages
+### 5.1 Franchise pages
 
 `src/pages/Franchises.tsx` exists (~235 lines) as an index. Needs a detail
-route per franchise, and manager sub-pages under it.
+route per franchise. Route `/franchises/:franchiseId`, following §7.3 —
+selection in the URL, detail rendered under the index header.
 
-**IA, decided and canonical (SITEMAP §"IA hierarchy"):** Franchise is the
-parent, Manager nests under it. 8 of 15 franchises are solo-owner — for those
-the franchise page *is* the manager page, no duplicate.
+**Scope, settled by the owner 2026-08-24 — this REVERSES the earlier plan:**
+every stat is **franchise-lifetime, blending all owners in the chain.** There
+are no manager sub-pages in this pass. A franchise like
+"Benedict → Aboubacar → Kat → Alex" gets one merged all-time scorers list, one
+Ring of Honor, one everything. Owner: *"I'm sure Kevin and Megan don't mind if
+some of the names are strange. We can always build manager specific sections
+later."*
 
-Per-franchise: owner lineage, nickname, all-time W/L/PF, trophy cabinet,
-Ring of Honor, titles, lore slot.
-Per-manager: player-card header (monogram, 3-color palette, team name,
-location), career record + PF/gm, team-name history, awards + Ring of Honor,
-keeper history, draft/waiver value, phase splits, comeback/collapse cut.
+**Buildable today, no new data:** logo, name and owner lineage
+(`franchises.json`); combined W/L, PF, PA, playoff appearances, titles, best
+finish (`franchise_records.json`); Ring of Honor honorees with position,
+seasons, started points and how they were acquired
+(`franchise_ring_of_honor.json`); **top 5 rivals (`rivalries.json`)**.
 
-Suggested routes: `/franchises/:franchiseId`, `/franchises/:franchiseId/:managerId`.
-Follow the pattern in §7.3 — selection in the URL, detail rendered under the
-index header.
+**Not buildable — needs a pipeline run, so ask:** regular-vs-playoff split
+(`franchise_records.json` carries ONE combined record only); average and
+highest finishes; top-10 all-time scorers and top-5 per position; top-10
+single-game performances; bench regrets with player detail (`bench_regret.json`
+is manager-week totals, not per-player); blowouts and closest games; draft and
+waiver value; rookie seasons; points-by-position per season; and located-in /
+stadium / capacity, which lives only in `scripts/season_detail/stadiums.py` and
+has never been exported to JSON.
+
+**Not defined anywhere yet:** first/second All-Time Franchise teams; Ring of
+Honor jersey numbers and photos; most-drafted colleges and conferences (there
+is no current-conference map, and realignment means a 2013 pick's conference is
+not its 2026 conference).
+
+#### `rivalries.json`
+
+Top 5 rivals **per franchise** — this is a per-franchise slice, not a league
+leaderboard. Built by `scripts/build_rivalries.py` (owner's machine).
+
+```
+franchises: { <franchiseId>: { B: [...5], C: [...5] } }
+```
+
+Two candidate metrics ship side by side; the owner picks one and the loser gets
+deleted. Do not average them.
+
+- **B** — `0.40·z(meetings) + 0.30·z(balance) + 0.30·z(−avg margin)`. Steady,
+  volume-driven.
+- **C** — as B, but meetings are stakes-weighted: regular 1, **playoff 3, named
+  bowl 5**. Surfaces short-but-loaded series.
+
+Each rival row carries `meetings`, `w`, `l`, `ties`, `avg_margin`, `seasons`,
+`playoff_meetings`, `bowl_meetings`, `score`, `score_100`, and full `closest`
+and `biggest` game records with season, week and both scores.
+
+Three things the UI must get right:
+
+- **Use `score_100`, not `score`.** Raw z-sums go negative and "rivalry score
+  −0.75" reads as a bug. `score_100` is a min-max rescale; ranking is identical.
+- **Scores are comparable across franchise pages by design.** Kelly Brown's best
+  rival scores 79 where Tommy's scores 100, because she played three seasons.
+  Do not re-normalise per franchise — that would make every franchise's #1 look
+  equally heated, which is false.
+- **If metric C is chosen, put `playoff_meetings` and `bowl_meetings` in the
+  visible row, not a tooltip.** Under C a 4-meeting series legitimately outranks
+  a 13-meeting one. Without the stakes columns on screen that looks broken.
+
+**Franchise ids only — no labels, deliberately.** Three franchise labels embed a
+full legal name. Resolve display names through `franchises.json` per §3.1.
+
+The Lang franchise has only 4 opponents clearing the 3-meeting floor. Render
+4 rows, do not pad to 5.
 
 ### 5.2 Records page
 
@@ -170,6 +261,55 @@ the 250-point floor **not every year has a class**. The first class is
 **2020**; 2018 and 2019 produce no inductees at all and are simply absent
 from `classes[]`. Don't render an empty shell for a missing year, and don't
 assume `classes[i].year` increments by one.
+
+### 5.4 Players section
+
+`src/pages/Players.tsx` is a **136-line stub**: a top-10 started-points list and
+a column of Teremana Tequila Bowl MVPs. Everything below is unbuilt.
+
+#### Read this first — the hard boundary
+
+**Per-player detail pages are NOT buildable from what is committed.** There is
+no `boxscores.json` in `src/` (§4.1). What exists is aggregate: the top 100 by
+started points, the top 25 player games and seasons, positional records, bowl
+MVPs, and the Hall of Fame. There is no route to a player's game log, season
+splits, or which managers rostered him, because the 37,565-row source is not in
+this repo.
+
+So there are two different jobs, and they are not interchangeable:
+
+**Job A — buildable now.** A rich *Players* index built from aggregate data:
+
+| Section | Source | Note |
+|---|---|---|
+| All-time leaderboards | `aggregations.json` → `leaderboard_started` / `leaderboard_bench` / `leaderboard_combined` | 100 rows each. The stub shows 10 of one of them. |
+| Bowl MVP gallery | `bowl_mvps.json` | **52 MVPs across all four bowls.** The stub renders only Teremana — the other three bowls are already in the file and unused. |
+| Positional record boards | `records_board.json` → `by_position` | QB / RB / WR / TE / K / DEF, each with `single_game` and `single_season` |
+| Top player games and seasons | `records_board.json` → `player_game_overall`, `player_season_overall` | Top 25 each, every row carries `season` + `week` — deep-link to `/seasons/{year}` |
+| Ring of Honor, cross-franchise | `franchise_ring_of_honor.json` | Honoree, position, seasons, started points, how acquired |
+| Hall of Fame | `hall_of_fame.json` | Or as its own page — see §5.3 |
+
+`player_positions.json` (989 entries, name → position) is the join key for
+colour-coding by position. `bench_regret.json` is manager-week, not per-player —
+it does not belong on this page.
+
+**Job B — blocked.** True per-player pages at `/players/:playerId` need a new
+precomputed `player_index.json` derived from `boxscores.json`: per player, the
+seasons played, career started points, PPG, games started, which managers
+rostered him and for how much, best game, best season. That is a pipeline task
+on the owner's machine (§3.2), roughly one script. **Ask before assuming it
+exists; do not approximate it from the top-100 leaderboards.**
+
+If you were handed "build the player pages" with no further detail, Job A is
+what you can deliver today. Say so rather than inventing data.
+
+#### Conventions specific to this page
+
+- Position colours already in the stub: QB `#4589ff`, RB `#42be65`, WR
+  `#f1c21b`, TE `#FF832B`, K `#8d8d8d`, DEF/DST `#8A3FFC`. Reuse, don't reinvent.
+- Player photos do not exist for anyone. `AssetImage` fallback chips only (§7.5).
+- The stub hardcodes a two-column grid with no breakpoint handling. It will
+  overflow on `sm`. Fix that rather than extending it.
 
 ---
 
@@ -224,9 +364,18 @@ unchanged.
 
 ### 7.1 Type: IBM Carbon scale only
 
-Allowed sizes: **12 / 14 / 16 / 20 / 28 / 32**. Nothing else. 10, 11 and 13px
-were removed across the whole season page in a dedicated pass — do not
-reintroduce them.
+Allowed sizes for new work: **12 / 14 / 16 / 20 / 28 / 32**. Never add a 10, 11
+or 13.
+
+**Correction, 2026-08-24.** This section used to claim 10/11/13 had been removed
+codebase-wide. They had not. A `grep -rn "fontSize: 1[013]" src/` finds **~80
+remaining sites** across 20+ files — mostly uppercase letterspaced "eyebrow"
+labels at 11px and Recharts axis ticks at 10px. Even `Seasons.tsx`, the page the
+original pass covered, still has four.
+
+Do **not** mass-fix them as a side quest. Changing 11 → 12 on every eyebrow label
+shifts layout on every page at once, and the owner has not approved that. Leave
+them, add none, and raise it as its own task.
 
 | Use | Token | px / line-height |
 |---|---|---|
@@ -289,6 +438,14 @@ on the Pages subpath.
 - `AGENTS.md` used to be Figma Make scaffold that told agents to write
   Tailwind and claimed a hosted dev server. Rewritten 2026-08-24. If you see
   Tailwind classes anywhere in `src/`, they are vestigial — don't copy them.
+- **~80 off-scale font sizes remain in `src/`** (10/11/13px). Documented, not a
+  licence to add more — see §7.1.
+- `rivalries.json` is committed but **not yet re-exported through
+  `src/data/league.ts`**. Whoever builds §5.1 adds the barrel export; until then
+  it is dead weight in the bundle (110 KB).
+- The `weather` field on a bracket entry can legitimately be `null` on an
+  outdoor game — 43 readings are still unsourced (§10). `VenueLine` already
+  renders a graceful gap. Never fill one with an invented number.
 
 ---
 
@@ -310,3 +467,63 @@ on the Pages subpath.
    whose entire purpose was scrubbing them. The bundle was clean; the repo
    was not. Both matter.
 6. Push to `main` — **this deploys the live site**
+
+---
+
+## 10. Changed 2026-08-24 (round 2)
+
+Recorded so the next agent doesn't re-derive any of it.
+
+### Canon changes the owner made
+
+- **2020 was a Miami bubble.** *Every* 2020 game, regular season and post,
+  was played in Miami at one of four venues. Non-final playoff games used to be
+  routed to each host manager's own home stadium, which contradicted this.
+  Assignment now lives in `scripts/season_detail/bowl_venues.py`: Champions
+  QF+SF at the Orange Bowl, Champions 5th Place and Consolation SF at Marlins
+  Park (roofed → "Indoors"), Consolation QF and 11th Place at Homestead-Miami
+  Speedway, and **all four bowls at Hard Rock** — Hard Rock is the finals venue
+  and nothing else uses it. Attendance is a flat **40% of capacity** (COVID
+  rule), which reproduces the 26,130 `honors.json` already carried.
+- **Named bowls now carry weather.** The old rule was "real canon venue, no
+  invented weather", which left a blank line on every bowl card. Ten roofed
+  venues (Tokyo Dome, Mercedes-Benz Atlanta, Georgia Dome, Mercedes-Benz
+  Superdome, Edward James Dome, SoFi, AT&T Field, National Stadium Kallang,
+  State Farm Glendale, Superior Dome) now render "Indoors", covering 28 of the
+  52 bowl games. The open-air ones look up `WEATHER[(city, date)]` like any
+  other game.
+- **Rings are 💍, not 🏆**, in the Rings column of both standings tables.
+- **The "20XX Season" banner bar is gone** from the season detail card. The
+  champion-colour accent moved onto the card; the asterisk badge became a
+  footnote under the podium tiles.
+- **Laskey's large logo landed.** `large_logos/` is 23 of 23 — the monogram
+  fallback no longer fires for anyone.
+
+### Bugs fixed
+
+- **`manifests.py` hid 17 games from the weather manifest.** It skipped every
+  entry with `terminal == True`. 5th- and 11th-Place Games *are* terminal but
+  are **not** named bowls — they're played at the higher seed's home stadium
+  and need a real reading. They went unlisted, and therefore unsourced, for 13
+  seasons. **`terminal` never means "this is a bowl". The correct test is
+  `venue_info`, which only the four named bowls carry.**
+- **`build_season_detail.py` was not deterministic.** Two set-iteration bugs
+  meant identical input produced different JSON between runs. `bracket.py`
+  iterated the `byes` set directly, so bye-card order was whatever Python's
+  per-process hash seed produced (and was never seed-ordered). `awards.py`
+  sorted a *set* of player names on VOR alone, so ties — and there are many
+  `vor == 0.0` rows — broke on set order, shifting `pts_rank` and the Draft
+  Steal top 5. Both now have explicit tiebreaks; verified stable across three
+  full 13-season rebuilds. **If a rebuild ever produces a diff with no input
+  change, look for `sorted(set)` or `for x in set`.**
+
+### Still outstanding
+
+- **43 playoff games have no weather reading** (19 at home stadiums, 24 at
+  bowls). `WEATHER_NEEDED.md` at the project root lists every one, grouped by
+  city, with a sourceability tier on bowl rows: T1 straightforward, T2 real but
+  obscure station (Utqiaġvik `PABR`, McMurdo, Pyongyang, Al Asad, Zhezkazgan),
+  T3 proxy-only (North Sentinel, Prypiat, Kīlauea). Owner is sourcing these.
+- **196 award photo slots** remain empty, as before, and that is expected.
+- **`rivalries.json` carries two competing metrics.** The owner has not picked
+  (§5.1).

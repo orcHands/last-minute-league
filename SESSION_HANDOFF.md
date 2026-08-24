@@ -51,7 +51,7 @@ Nav is now: LMFL · Franchises · Seasons · Players · Records · About.
 - **New `powerRankings.ts`** — the all-play computation. Three subtleties worth preserving:
   - A franchise's ribbon starts at its **actual founding week** (Zac's starts 2017, not 2013).
   - It **carries its cumulative record forward through playoff-bracket bye weeks**, so ribbons don't gap out over the last 2–3 weeks of a season.
-  - It **ends** at the last week of a retired franchise's final season (Dave Lang 2014; Kyle and Kelly Brown 2018). Verified by measuring the rendered SVG path bounding boxes.
+  - It **ends** at the last week of a retired franchise's final season (Lang 2014; Kyle and Kelly Brown 2018). Verified by measuring the rendered SVG path bounding boxes.
 - **New `managerSkillMatrix.ts`** — derives both axes from `bench_regret.json`'s per-team-week actual/optimal/regret.
 - `leagueStats.ts` gained `gamesPlayed`, `pointsScored`, `playersRostered`.
 
@@ -70,18 +70,19 @@ renders them. Hoss asked for three managers' full names to be removed.
 
 - **`scripts/sync_app_data.py`** (workspace root, *outside this repo* — it reads
   `data/processed/`, which also lives outside the repo) copies source JSON into
-  `src/data/processed/` while rewriting `David Laskey`→`Laskey`,
-  `Dylan Snyder`→`Dylan`, `Dave Lang`→`Lang`. 509 occurrences across 12 files.
+  `src/data/processed/` while rewriting each of the three full legal names to
+  its short form. 509 occurrences across 12 files. The mapping itself lives in
+  the local-only pipeline and deliberately is not written down here.
   It ends with a leak check that exits non-zero if anything slipped through.
 - **Use that script, never a plain `cp`**, when adding or refreshing app data.
 - Full-name keys were removed from `ALIASES` in `managerCanon.ts` too — a string
   literal there ships exactly as publicly as one in JSON. The matching
   `fullName` fields were blanked to the short names.
-- If you hand-copy a file and see `[managerCanon] unknown manager alias: "Dave Lang"`
+- If you hand-copy a file and see `[managerCanon] unknown manager alias: "<full legal name>"`
   in the console, that's this invariant catching you. Re-run the script.
 - Two occurrences were only caught by the leak check because they sit mid-sentence
-  in free-text `note` fields (`"Sara inherits David Laskey's 2014 team"`,
-  `"four Kyle/Dylan Snyder swaps"`), not as quoted data values. Scrubbing is a
+  in free-text `note` fields (`"Sara inherits Laskey's 2014 team"`,
+  `"four Kyle/Dylan swaps"`), not as quoted data values. Scrubbing is a
   plain substring replace for that reason.
 
 **Still exposed, deliberately not scrubbed** (Hoss was told): `Kelly Brown`
@@ -150,8 +151,8 @@ in order, instead of a single current-owner colour.
 
 - **`managerCanon.ts` is the identity layer.** If you see `[managerCanon] unknown manager alias: "X"` in the console, add `X` to `ALIASES`.
 - **Colors are real canon** (Hoss's card sheet): `primary` = light swatch (the one rendered everywhere), `secondary` = dark, `tertiary` = accent. Verify color work with `getComputedStyle`, not screenshot thumbnails — small-scale renders lie.
-- **Dave Lang's short display name is "Lang", not "Dave"** — deliberate, to avoid collision with David Laskey. `fullName` is still "Dave Lang".
-- Real data has overridden mock facts in several places and **that's expected, not a bug**: Kyle is a real 23rd manager; 2013 champion is Carter (not Jay); best lineup-setter is David Laskey; smallest margin ever is a genuine 0.00 tie (pb vs Brice, 2014 wk11); the MNF miracle is whitaker vs pb (2018 wk8).
+- **Lang's short display name is "Lang", not "Dave"** — deliberate, to avoid a first-name collision with Laskey.
+- Real data has overridden mock facts in several places and **that's expected, not a bug**: Kyle is a real 23rd manager; 2013 champion is Carter (not Jay); best lineup-setter is Laskey; smallest margin ever is a genuine 0.00 tie (pb vs Brice, 2014 wk11); the MNF miracle is whitaker vs pb (2018 wk8).
 - `LMFL_Logo_transparent.png` is a chroma-keyed version of the original (which has an opaque white background). Nav points at the transparent one.
 
 ## How to run

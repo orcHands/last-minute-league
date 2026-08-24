@@ -486,10 +486,10 @@
             "s2": 140.56,
             "rank2": 3,
             "venue_info": {},
-            "venue": "Hard Rock Stadium",
+            "venue": "Orange Bowl",
             "city": "Miami",
             "state": "FL",
-            "attendance": 62800,
+            "attendance": 28928,
             "indoor": false,
             "weather": {
               "low": 67,
@@ -512,13 +512,13 @@
             "s2": 125.64,
             "rank2": 6,
             "venue_info": {},
-            "venue": "Jones AT&T Stadium",
-            "city": "Lubbock",
-            "state": "TX",
-            "attendance": 57850,
+            "venue": "Orange Bowl",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 28928,
             "indoor": false,
             "weather": {
-              "low": 17,
+              "low": 67,
               "cond": "Fair",
               "emoji": "🌤️"
             },
@@ -559,16 +559,12 @@
             "s2": 110.12,
             "rank2": 2,
             "venue_info": {},
-            "venue": "Soldier Field",
-            "city": "Chicago",
-            "state": "IL",
-            "attendance": 57750,
+            "venue": "Orange Bowl",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 28928,
             "indoor": false,
-            "weather": {
-              "low": 33,
-              "cond": "Fair",
-              "emoji": "🌤️"
-            },
+            "weather": null,
             "game_date": "2020-12-21"
           },
           {
@@ -585,12 +581,13 @@
             "s2": 126.86,
             "rank2": 1,
             "venue_info": {},
-            "venue": "AT&T Stadium",
-            "city": "Arlington",
-            "state": "TX",
-            "attendance": 78000,
-            "indoor": true,
-            "weather": null
+            "venue": "Orange Bowl",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 28928,
+            "indoor": false,
+            "weather": null,
+            "game_date": "2020-12-21"
           },
           {
             "kind": "game",
@@ -606,10 +603,10 @@
             "s2": 83.3,
             "rank2": 6,
             "venue_info": {},
-            "venue": "Allegiant Stadium",
-            "city": "Las Vegas",
-            "state": "NV",
-            "attendance": 62800,
+            "venue": "Marlins Park",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 14697,
             "indoor": true,
             "weather": null
           }
@@ -642,8 +639,9 @@
             "city": "Miami",
             "state": "Florida",
             "attendance": 26130,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2020-12-28"
           },
           {
             "kind": "game",
@@ -669,8 +667,9 @@
             "city": "Miami",
             "state": "Florida",
             "attendance": 26130,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2020-12-28"
           }
         ]
       }
@@ -704,15 +703,15 @@
             "s2": 57.88,
             "rank2": 11,
             "venue_info": {},
-            "venue": "FedEx Field",
-            "city": "Landover",
-            "state": "MD",
-            "attendance": 63500,
+            "venue": "Homestead-Miami Speedway",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 18400,
             "indoor": false,
             "weather": {
-              "low": 37,
-              "cond": "Rain",
-              "emoji": "🌧️"
+              "low": 67,
+              "cond": "Fair",
+              "emoji": "🌤️"
             },
             "game_date": "2020-12-14"
           },
@@ -730,13 +729,13 @@
             "s2": 118.42,
             "rank2": 10,
             "venue_info": {},
-            "venue": "Cotton Bowl",
-            "city": "Dallas",
-            "state": "TX",
-            "attendance": 86200,
+            "venue": "Homestead-Miami Speedway",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 18400,
             "indoor": false,
             "weather": {
-              "low": 34,
+              "low": 67,
               "cond": "Fair",
               "emoji": "🌤️"
             },
@@ -777,17 +776,12 @@
             "s2": 151.94,
             "rank2": 8,
             "venue_info": {},
-            "venue": "Levi's Stadium",
-            "city": "Santa Clara",
-            "state": "CA",
-            "attendance": 66550,
-            "indoor": false,
-            "weather": {
-              "low": 34,
-              "cond": "Fair",
-              "emoji": "🌤️"
-            },
-            "game_date": "2020-12-21"
+            "venue": "Marlins Park",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 14697,
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -803,10 +797,10 @@
             "s2": 93.12,
             "rank2": 12,
             "venue_info": {},
-            "venue": "Gillette Stadium",
-            "city": "Foxborough",
-            "state": "MA",
-            "attendance": 61500,
+            "venue": "Homestead-Miami Speedway",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 18400,
             "indoor": false,
             "weather": null,
             "game_date": "2020-12-21"
@@ -825,17 +819,12 @@
             "s2": 102.22,
             "rank2": 10,
             "venue_info": {},
-            "venue": "Oakland Coliseum",
-            "city": "Oakland",
-            "state": "CA",
-            "attendance": 61750,
-            "indoor": false,
-            "weather": {
-              "low": 37,
-              "cond": "Fair",
-              "emoji": "🌤️"
-            },
-            "game_date": "2020-12-21"
+            "venue": "Marlins Park",
+            "city": "Miami",
+            "state": "FL",
+            "attendance": 14697,
+            "indoor": true,
+            "weather": null
           }
         ]
       },
@@ -866,8 +855,9 @@
             "city": "Miami",
             "state": "Florida",
             "attendance": 26130,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2020-12-28"
           },
           {
             "kind": "game",
@@ -893,8 +883,9 @@
             "city": "Miami",
             "state": "Florida",
             "attendance": 26130,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2020-12-28"
           }
         ]
       }

@@ -648,8 +648,9 @@
             "city": "London",
             "state": "United Kingdom",
             "attendance": 53210,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2019-12-23"
           },
           {
             "kind": "game",
@@ -675,8 +676,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 41338,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -872,8 +873,9 @@
             "city": "Pyongyang",
             "state": "DPRK",
             "attendance": 150000,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2019-12-23"
           },
           {
             "kind": "game",
@@ -899,8 +901,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 64500,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }

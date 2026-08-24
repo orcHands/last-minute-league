@@ -596,8 +596,9 @@
             "city": "Miami",
             "state": "Florida",
             "attendance": 32150,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2013-12-29"
           },
           {
             "kind": "game",
@@ -623,8 +624,9 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 32321,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2013-12-29"
           },
           {
             "kind": "game",
@@ -650,8 +652,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 38742,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -677,8 +679,8 @@
             "city": "St. Louis",
             "state": "Missouri",
             "attendance": 33910,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }

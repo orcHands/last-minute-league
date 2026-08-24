@@ -307,7 +307,7 @@ export default function StandingsTable({ rows, title, showRank = true, kind = 'm
                 <td style={{ ...cellMono, textAlign: 'center' }}>
                   {row.championships > 0 ? (
                     <span style={{ color: '#f1c21b' }}>
-                      {'🏆'.repeat(row.championships)}
+                      {'💍'.repeat(row.championships)}
                     </span>
                   ) : (
                     <span style={{ color: '#525252' }}>—</span>

@@ -13,9 +13,14 @@ checklist. Everything else in this repo is history or detail.
   classes, and do not add a CSS-in-JS library.
 - **There is no always-running dev server.** Start it yourself with
   `npm run dev`.
-- **Design system is IBM Carbon v11, dark Gray 100.** Type scale is
-  12/14/16/20/28/32 only. IBM Plex Sans for copy, IBM Plex Mono for every
-  number. Full tokens in `AGENT_HANDOFF.md` §7.
+- **Design system is IBM Carbon v11, dark Gray 100.** Type scale for new work
+  is 12/14/16/20/28/32 — never add a 10, 11 or 13. (~80 legacy off-scale sites
+  still exist; see `AGENT_HANDOFF.md` §7.1 before you "helpfully" fix them.)
+  IBM Plex Sans for copy, IBM Plex Mono for every number. Full tokens in
+  `AGENT_HANDOFF.md` §7.
+- **You may not be the only agent in this repo.** `git pull --rebase` before
+  you start, stay inside your assigned page, never force-push. See
+  `AGENT_HANDOFF.md` — "More than one agent is working in this repo".
 
 > This file was originally a Figma Make export scaffold and described a
 > Tailwind app with a hosted dev server. None of that was ever true of this

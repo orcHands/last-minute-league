@@ -348,7 +348,7 @@ export default function AllTimeStandingsTable() {
                   </td>
                   <td style={{ ...cellMono, textAlign: 'right' }}>
                     {row.championships > 0 ? (
-                      <span style={{ color: '#f1c21b' }}>{'🏆'.repeat(row.championships)}</span>
+                      <span style={{ color: '#f1c21b' }}>{'💍'.repeat(row.championships)}</span>
                     ) : (
                       <span style={{ color: '#525252' }}>—</span>
                     )}

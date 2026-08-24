@@ -523,17 +523,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Benny Football",
-            "manager": "Benedict",
-            "rank": 3
+            "team": "Magnetron",
+            "manager": "Jay",
+            "rank": 1
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Magnetron",
-            "manager": "Jay",
-            "rank": 1
+            "team": "Benny Football",
+            "manager": "Benedict",
+            "rank": 3
           }
         ]
       },
@@ -643,8 +643,8 @@
             "city": "New Orleans",
             "state": "Louisiana",
             "attendance": 67400,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -670,8 +670,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 51887,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -867,8 +867,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 47766,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -894,8 +894,9 @@
             "city": "Al-Anbar",
             "state": "Iraq",
             "attendance": 8078,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2015-12-28"
           }
         ]
       }

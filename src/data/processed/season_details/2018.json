@@ -588,17 +588,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Bortles' Burgers",
-            "manager": "Carter",
-            "rank": 2
+            "team": "Vontaze Benedict",
+            "manager": "Benedict",
+            "rank": 1
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Vontaze Benedict",
-            "manager": "Benedict",
-            "rank": 1
+            "team": "Bortles' Burgers",
+            "manager": "Carter",
+            "rank": 2
           }
         ]
       },
@@ -708,8 +708,9 @@
             "city": "Santa Clara",
             "state": "California",
             "attendance": 56430,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2018-12-24"
           },
           {
             "kind": "game",
@@ -735,8 +736,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 52000,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -815,17 +816,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Super Bolsheviks",
-            "manager": "pb",
-            "rank": 9
+            "team": "Tommy's Turbos",
+            "manager": "Tommy",
+            "rank": 7
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Tommy's Turbos",
-            "manager": "Tommy",
-            "rank": 7
+            "team": "Super Bolsheviks",
+            "manager": "pb",
+            "rank": 9
           }
         ]
       },
@@ -930,8 +931,8 @@
             "city": "Marquette",
             "state": "Michigan",
             "attendance": 7569,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -957,8 +958,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 62700,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }

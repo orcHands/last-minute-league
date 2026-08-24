@@ -1,0 +1,4690 @@
+{
+  "generated_for": "Franchise page - top 5 rivals per franchise",
+  "method": {
+    "min_meetings": 3,
+    "league_mean_margin": 26.16,
+    "B": "0.40*z(meetings) + 0.30*z(balance) + 0.30*z(-avg margin)",
+    "C": "as B, but meetings weighted: regular 1, playoff 3, named bowl 5",
+    "score_100": "min-max rescale of the z-sum onto 0-100; ranking unchanged"
+  },
+  "franchises": {
+    "brice": {
+      "B": [
+        {
+          "opponent": "carter",
+          "meetings": 26,
+          "w": 11,
+          "l": 15,
+          "ties": 0,
+          "avg_margin": 22.4,
+          "seasons": 13,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 1.166,
+          "score_100": 100.0,
+          "closest": {
+            "season": 2015,
+            "week": 13,
+            "margin": 2.02,
+            "m1": "Brice",
+            "s1": 131.34,
+            "m2": "Carter",
+            "s2": 133.36
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 11,
+            "margin": 81.64,
+            "m1": "Brice",
+            "s1": 155.22,
+            "m2": "Carter",
+            "s2": 73.58
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 21,
+          "w": 12,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 2,
+          "score": 0.801,
+          "score_100": 89.3,
+          "closest": {
+            "season": 2025,
+            "week": 8,
+            "margin": 2.32,
+            "m1": "Brice",
+            "s1": 110.06,
+            "m2": "Alex",
+            "s2": 112.38
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 8,
+            "margin": 66.16,
+            "m1": "Brice",
+            "s1": 127.42,
+            "m2": "Benedict",
+            "s2": 61.26
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 19,
+          "w": 12,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 21.9,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.57,
+          "score_100": 82.5,
+          "closest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 2.2,
+            "m1": "Brice",
+            "s1": 131.1,
+            "m2": "Michael",
+            "s2": 128.9
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 15,
+            "margin": 61.94,
+            "m1": "Brice",
+            "s1": 93.92,
+            "m2": "Michael",
+            "s2": 155.86
+          }
+        },
+        {
+          "opponent": "zac",
+          "meetings": 15,
+          "w": 9,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 19.3,
+          "seasons": 8,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.524,
+          "score_100": 81.1,
+          "closest": {
+            "season": 2019,
+            "week": 2,
+            "margin": 0.26,
+            "m1": "Brice",
+            "s1": 99.96,
+            "m2": "Zac",
+            "s2": 100.22
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 11,
+            "margin": 59.16,
+            "m1": "Brice",
+            "s1": 140.9,
+            "m2": "Zac",
+            "s2": 81.74
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 21,
+          "w": 13,
+          "l": 7,
+          "ties": 1,
+          "avg_margin": 27.5,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.414,
+          "score_100": 77.9,
+          "closest": {
+            "season": 2014,
+            "week": 11,
+            "margin": 0.0,
+            "m1": "pb",
+            "s1": 108.18,
+            "m2": "Brice",
+            "s2": 108.18
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 10,
+            "margin": 69.18,
+            "m1": "pb",
+            "s1": 89.24,
+            "m2": "Brice",
+            "s2": 158.42
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "carter",
+          "meetings": 26,
+          "w": 11,
+          "l": 15,
+          "ties": 0,
+          "avg_margin": 22.4,
+          "seasons": 13,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 1.143,
+          "score_100": 97.6,
+          "closest": {
+            "season": 2015,
+            "week": 13,
+            "margin": 2.02,
+            "m1": "Brice",
+            "s1": 131.34,
+            "m2": "Carter",
+            "s2": 133.36
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 11,
+            "margin": 81.64,
+            "m1": "Brice",
+            "s1": 155.22,
+            "m2": "Carter",
+            "s2": 73.58
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 21,
+          "w": 12,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 2,
+          "score": 0.876,
+          "score_100": 89.7,
+          "closest": {
+            "season": 2025,
+            "week": 8,
+            "margin": 2.32,
+            "m1": "Brice",
+            "s1": 110.06,
+            "m2": "Alex",
+            "s2": 112.38
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 8,
+            "margin": 66.16,
+            "m1": "Brice",
+            "s1": 127.42,
+            "m2": "Benedict",
+            "s2": 61.26
+          }
+        },
+        {
+          "opponent": "zac",
+          "meetings": 15,
+          "w": 9,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 19.3,
+          "seasons": 8,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.625,
+          "score_100": 82.4,
+          "closest": {
+            "season": 2019,
+            "week": 2,
+            "margin": 0.26,
+            "m1": "Brice",
+            "s1": 99.96,
+            "m2": "Zac",
+            "s2": 100.22
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 11,
+            "margin": 59.16,
+            "m1": "Brice",
+            "s1": 140.9,
+            "m2": "Zac",
+            "s2": 81.74
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 19,
+          "w": 12,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 21.9,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.502,
+          "score_100": 78.7,
+          "closest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 2.2,
+            "m1": "Brice",
+            "s1": 131.1,
+            "m2": "Michael",
+            "s2": 128.9
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 15,
+            "margin": 61.94,
+            "m1": "Brice",
+            "s1": 93.92,
+            "m2": "Michael",
+            "s2": 155.86
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 11,
+          "w": 4,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 17.6,
+          "seasons": 7,
+          "playoff_meetings": 2,
+          "bowl_meetings": 2,
+          "score": 0.415,
+          "score_100": 76.2,
+          "closest": {
+            "season": 2017,
+            "week": 16,
+            "margin": 2.06,
+            "m1": "Brice",
+            "s1": 90.66,
+            "m2": "Ryan",
+            "s2": 92.72
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 1,
+            "margin": 63.56,
+            "m1": "Brice",
+            "s1": 85.04,
+            "m2": "Ryan",
+            "s2": 148.6
+          }
+        }
+      ]
+    },
+    "carter": {
+      "B": [
+        {
+          "opponent": "brice",
+          "meetings": 26,
+          "w": 15,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 22.4,
+          "seasons": 13,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 1.166,
+          "score_100": 100.0,
+          "closest": {
+            "season": 2015,
+            "week": 13,
+            "margin": 2.02,
+            "m1": "Brice",
+            "s1": 131.34,
+            "m2": "Carter",
+            "s2": 133.36
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 11,
+            "margin": 81.64,
+            "m1": "Brice",
+            "s1": 155.22,
+            "m2": "Carter",
+            "s2": 73.58
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 19,
+          "w": 10,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 24.3,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.768,
+          "score_100": 88.3,
+          "closest": {
+            "season": 2025,
+            "week": 5,
+            "margin": 2.14,
+            "m1": "Carter",
+            "s1": 140.06,
+            "m2": "Michael",
+            "s2": 137.92
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 7,
+            "margin": 52.52,
+            "m1": "Carter",
+            "s1": 90.22,
+            "m2": "Michael",
+            "s2": 142.74
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 21,
+          "w": 12,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 12,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.706,
+          "score_100": 86.4,
+          "closest": {
+            "season": 2023,
+            "week": 7,
+            "margin": 3.78,
+            "m1": "Kevin",
+            "s1": 127.28,
+            "m2": "Carter",
+            "s2": 131.06
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 7,
+            "margin": 56.82,
+            "m1": "Carter",
+            "s1": 182.3,
+            "m2": "Jay",
+            "s2": 125.48
+          }
+        },
+        {
+          "opponent": "tommy",
+          "meetings": 17,
+          "w": 8,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.564,
+          "score_100": 82.3,
+          "closest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 1.64,
+            "m1": "Carter",
+            "s1": 110.86,
+            "m2": "Tommy",
+            "s2": 112.5
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 96.72,
+            "m1": "Carter",
+            "s1": 178.02,
+            "m2": "Tommy",
+            "s2": 81.3
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 24.9,
+          "seasons": 7,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.494,
+          "score_100": 80.2,
+          "closest": {
+            "season": 2021,
+            "week": 1,
+            "margin": 6.7,
+            "m1": "pb",
+            "s1": 127.66,
+            "m2": "Carter",
+            "s2": 120.96
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 7,
+            "margin": 67.8,
+            "m1": "pb",
+            "s1": 159.36,
+            "m2": "Carter",
+            "s2": 91.56
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "brice",
+          "meetings": 26,
+          "w": 15,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 22.4,
+          "seasons": 13,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 1.143,
+          "score_100": 97.6,
+          "closest": {
+            "season": 2015,
+            "week": 13,
+            "margin": 2.02,
+            "m1": "Brice",
+            "s1": 131.34,
+            "m2": "Carter",
+            "s2": 133.36
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 11,
+            "margin": 81.64,
+            "m1": "Brice",
+            "s1": 155.22,
+            "m2": "Carter",
+            "s2": 73.58
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 21,
+          "w": 12,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 12,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.871,
+          "score_100": 89.6,
+          "closest": {
+            "season": 2023,
+            "week": 7,
+            "margin": 3.78,
+            "m1": "Kevin",
+            "s1": 127.28,
+            "m2": "Carter",
+            "s2": 131.06
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 7,
+            "margin": 56.82,
+            "m1": "Carter",
+            "s1": 182.3,
+            "m2": "Jay",
+            "s2": 125.48
+          }
+        },
+        {
+          "opponent": "tommy",
+          "meetings": 17,
+          "w": 8,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.626,
+          "score_100": 82.4,
+          "closest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 1.64,
+            "m1": "Carter",
+            "s1": 110.86,
+            "m2": "Tommy",
+            "s2": 112.5
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 96.72,
+            "m1": "Carter",
+            "s1": 178.02,
+            "m2": "Tommy",
+            "s2": 81.3
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 16,
+          "w": 10,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 24.2,
+          "seasons": 11,
+          "playoff_meetings": 5,
+          "bowl_meetings": 1,
+          "score": 0.554,
+          "score_100": 80.2,
+          "closest": {
+            "season": 2014,
+            "week": 15,
+            "margin": 3.2,
+            "m1": "Carter",
+            "s1": 97.0,
+            "m2": "Ryan",
+            "s2": 93.8
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 6,
+            "margin": 74.0,
+            "m1": "Ryan",
+            "s1": 63.44,
+            "m2": "Carter",
+            "s2": 137.44
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 19,
+          "w": 10,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 24.3,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.518,
+          "score_100": 79.2,
+          "closest": {
+            "season": 2025,
+            "week": 5,
+            "margin": 2.14,
+            "m1": "Carter",
+            "s1": 140.06,
+            "m2": "Michael",
+            "s2": 137.92
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 7,
+            "margin": 52.52,
+            "m1": "Carter",
+            "s1": 90.22,
+            "m2": "Michael",
+            "s2": 142.74
+          }
+        }
+      ]
+    },
+    "whitaker": {
+      "B": [
+        {
+          "opponent": "zac",
+          "meetings": 16,
+          "w": 9,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 16.9,
+          "seasons": 8,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.808,
+          "score_100": 89.4,
+          "closest": {
+            "season": 2025,
+            "week": 1,
+            "margin": 4.6,
+            "m1": "Zac",
+            "s1": 69.62,
+            "m2": "whitaker",
+            "s2": 65.02
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 45.44,
+            "m1": "whitaker",
+            "s1": 116.54,
+            "m2": "Zac",
+            "s2": 71.1
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 18,
+          "w": 8,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 21.2,
+          "seasons": 10,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.761,
+          "score_100": 88.1,
+          "closest": {
+            "season": 2024,
+            "week": 16,
+            "margin": 0.28,
+            "m1": "Jason",
+            "s1": 119.34,
+            "m2": "whitaker",
+            "s2": 119.06
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 49.26,
+            "m1": "Jason",
+            "s1": 174.92,
+            "m2": "whitaker",
+            "s2": 125.66
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 21,
+          "w": 11,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 28.0,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.736,
+          "score_100": 87.3,
+          "closest": {
+            "season": 2016,
+            "week": 11,
+            "margin": 3.46,
+            "m1": "Ryan",
+            "s1": 86.18,
+            "m2": "whitaker",
+            "s2": 89.64
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 68.42,
+            "m1": "Ryan",
+            "s1": 70.94,
+            "m2": "whitaker",
+            "s2": 139.36
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 25,
+          "w": 17,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 26.0,
+          "seasons": 13,
+          "playoff_meetings": 5,
+          "bowl_meetings": 0,
+          "score": 0.633,
+          "score_100": 84.3,
+          "closest": {
+            "season": 2024,
+            "week": 14,
+            "margin": 0.28,
+            "m1": "Megan",
+            "s1": 126.16,
+            "m2": "whitaker",
+            "s2": 125.88
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 1,
+            "margin": 63.84,
+            "m1": "becca",
+            "s1": 66.4,
+            "m2": "whitaker",
+            "s2": 130.24
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 22.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.6,
+          "score_100": 83.3,
+          "closest": {
+            "season": 2013,
+            "week": 12,
+            "margin": 4.56,
+            "m1": "whitaker",
+            "s1": 114.49,
+            "m2": "Benedict",
+            "s2": 109.93
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 3,
+            "margin": 41.72,
+            "m1": "Benedict",
+            "s1": 120.08,
+            "m2": "whitaker",
+            "s2": 161.8
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "zac",
+          "meetings": 16,
+          "w": 9,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 16.9,
+          "seasons": 8,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.89,
+          "score_100": 90.1,
+          "closest": {
+            "season": 2025,
+            "week": 1,
+            "margin": 4.6,
+            "m1": "Zac",
+            "s1": 69.62,
+            "m2": "whitaker",
+            "s2": 65.02
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 45.44,
+            "m1": "whitaker",
+            "s1": 116.54,
+            "m2": "Zac",
+            "s2": 71.1
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 21,
+          "w": 11,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 28.0,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.811,
+          "score_100": 87.8,
+          "closest": {
+            "season": 2016,
+            "week": 11,
+            "margin": 3.46,
+            "m1": "Ryan",
+            "s1": 86.18,
+            "m2": "whitaker",
+            "s2": 89.64
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 68.42,
+            "m1": "Ryan",
+            "s1": 70.94,
+            "m2": "whitaker",
+            "s2": 139.36
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 22.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.63,
+          "score_100": 82.5,
+          "closest": {
+            "season": 2013,
+            "week": 12,
+            "margin": 4.56,
+            "m1": "whitaker",
+            "s1": 114.49,
+            "m2": "Benedict",
+            "s2": 109.93
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 3,
+            "margin": 41.72,
+            "m1": "Benedict",
+            "s1": 120.08,
+            "m2": "whitaker",
+            "s2": 161.8
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 25,
+          "w": 17,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 26.0,
+          "seasons": 13,
+          "playoff_meetings": 5,
+          "bowl_meetings": 0,
+          "score": 0.63,
+          "score_100": 82.5,
+          "closest": {
+            "season": 2024,
+            "week": 14,
+            "margin": 0.28,
+            "m1": "Megan",
+            "s1": 126.16,
+            "m2": "whitaker",
+            "s2": 125.88
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 1,
+            "margin": 63.84,
+            "m1": "becca",
+            "s1": 66.4,
+            "m2": "whitaker",
+            "s2": 130.24
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 18,
+          "w": 8,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 21.2,
+          "seasons": 10,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.531,
+          "score_100": 79.6,
+          "closest": {
+            "season": 2024,
+            "week": 16,
+            "margin": 0.28,
+            "m1": "Jason",
+            "s1": 119.34,
+            "m2": "whitaker",
+            "s2": 119.06
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 49.26,
+            "m1": "Jason",
+            "s1": 174.92,
+            "m2": "whitaker",
+            "s2": 125.66
+          }
+        }
+      ]
+    },
+    "jay": {
+      "B": [
+        {
+          "opponent": "michael",
+          "meetings": 22,
+          "w": 10,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 27.4,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.765,
+          "score_100": 88.2,
+          "closest": {
+            "season": 2020,
+            "week": 13,
+            "margin": 3.3,
+            "m1": "Jay",
+            "s1": 113.3,
+            "m2": "Michael",
+            "s2": 110.0
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 13,
+            "margin": 72.94,
+            "m1": "Jay",
+            "s1": 149.96,
+            "m2": "Michael",
+            "s2": 77.02
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 21,
+          "w": 9,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 12,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.706,
+          "score_100": 86.4,
+          "closest": {
+            "season": 2023,
+            "week": 7,
+            "margin": 3.78,
+            "m1": "Kevin",
+            "s1": 127.28,
+            "m2": "Carter",
+            "s2": 131.06
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 7,
+            "margin": 56.82,
+            "m1": "Carter",
+            "s1": 182.3,
+            "m2": "Jay",
+            "s2": 125.48
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 25.2,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.588,
+          "score_100": 83.0,
+          "closest": {
+            "season": 2024,
+            "week": 12,
+            "margin": 4.68,
+            "m1": "Kevin",
+            "s1": 93.58,
+            "m2": "Kat",
+            "s2": 88.9
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 85.23,
+            "m1": "Benedict",
+            "s1": 124.03,
+            "m2": "Jay",
+            "s2": 209.26
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 20,
+          "w": 12,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.398,
+          "score_100": 77.4,
+          "closest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 1.06,
+            "m1": "pb",
+            "s1": 104.08,
+            "m2": "Jay",
+            "s2": 103.02
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 6,
+            "margin": 83.08,
+            "m1": "pb",
+            "s1": 175.9,
+            "m2": "Kevin",
+            "s2": 92.82
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 19,
+          "w": 8,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 29.4,
+          "seasons": 12,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.38,
+          "score_100": 76.9,
+          "closest": {
+            "season": 2014,
+            "week": 15,
+            "margin": 2.76,
+            "m1": "Jay",
+            "s1": 107.22,
+            "m2": "whitaker",
+            "s2": 104.46
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 4,
+            "margin": 57.56,
+            "m1": "Jay",
+            "s1": 62.58,
+            "m2": "whitaker",
+            "s2": 120.14
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "michael",
+          "meetings": 22,
+          "w": 10,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 27.4,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.912,
+          "score_100": 90.8,
+          "closest": {
+            "season": 2020,
+            "week": 13,
+            "margin": 3.3,
+            "m1": "Jay",
+            "s1": 113.3,
+            "m2": "Michael",
+            "s2": 110.0
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 13,
+            "margin": 72.94,
+            "m1": "Jay",
+            "s1": 149.96,
+            "m2": "Michael",
+            "s2": 77.02
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 21,
+          "w": 9,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 12,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.871,
+          "score_100": 89.6,
+          "closest": {
+            "season": 2023,
+            "week": 7,
+            "margin": 3.78,
+            "m1": "Kevin",
+            "s1": 127.28,
+            "m2": "Carter",
+            "s2": 131.06
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 7,
+            "margin": 56.82,
+            "m1": "Carter",
+            "s1": 182.3,
+            "m2": "Jay",
+            "s2": 125.48
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 25.2,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.651,
+          "score_100": 83.1,
+          "closest": {
+            "season": 2024,
+            "week": 12,
+            "margin": 4.68,
+            "m1": "Kevin",
+            "s1": 93.58,
+            "m2": "Kat",
+            "s2": 88.9
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 85.23,
+            "m1": "Benedict",
+            "s1": 124.03,
+            "m2": "Jay",
+            "s2": 209.26
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 20,
+          "w": 12,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.401,
+          "score_100": 75.7,
+          "closest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 1.06,
+            "m1": "pb",
+            "s1": 104.08,
+            "m2": "Jay",
+            "s2": 103.02
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 6,
+            "margin": 83.08,
+            "m1": "pb",
+            "s1": 175.9,
+            "m2": "Kevin",
+            "s2": 92.82
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 19,
+          "w": 8,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 29.4,
+          "seasons": 12,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.312,
+          "score_100": 73.1,
+          "closest": {
+            "season": 2014,
+            "week": 15,
+            "margin": 2.76,
+            "m1": "Jay",
+            "s1": 107.22,
+            "m2": "whitaker",
+            "s2": 104.46
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 4,
+            "margin": 57.56,
+            "m1": "Jay",
+            "s1": 62.58,
+            "m2": "whitaker",
+            "s2": 120.14
+          }
+        }
+      ]
+    },
+    "benedict": {
+      "B": [
+        {
+          "opponent": "brice",
+          "meetings": 21,
+          "w": 9,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 2,
+          "score": 0.801,
+          "score_100": 89.3,
+          "closest": {
+            "season": 2025,
+            "week": 8,
+            "margin": 2.32,
+            "m1": "Brice",
+            "s1": 110.06,
+            "m2": "Alex",
+            "s2": 112.38
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 8,
+            "margin": 66.16,
+            "m1": "Brice",
+            "s1": 127.42,
+            "m2": "Benedict",
+            "s2": 61.26
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 18.5,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.787,
+          "score_100": 88.8,
+          "closest": {
+            "season": 2021,
+            "week": 5,
+            "margin": 0.1,
+            "m1": "Ryan",
+            "s1": 80.76,
+            "m2": "Aboubacar",
+            "s2": 80.86
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 55.72,
+            "m1": "Ryan",
+            "s1": 137.48,
+            "m2": "Kat",
+            "s2": 81.76
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 20,
+          "w": 12,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 22.0,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.725,
+          "score_100": 87.0,
+          "closest": {
+            "season": 2022,
+            "week": 2,
+            "margin": 1.4,
+            "m1": "Kat",
+            "s1": 118.38,
+            "m2": "Michael",
+            "s2": 116.98
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 47.72,
+            "m1": "Kat",
+            "s1": 129.1,
+            "m2": "Michael",
+            "s2": 81.38
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 22.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.6,
+          "score_100": 83.3,
+          "closest": {
+            "season": 2013,
+            "week": 12,
+            "margin": 4.56,
+            "m1": "whitaker",
+            "s1": 114.49,
+            "m2": "Benedict",
+            "s2": 109.93
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 3,
+            "margin": 41.72,
+            "m1": "Benedict",
+            "s1": 120.08,
+            "m2": "whitaker",
+            "s2": 161.8
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 17,
+          "w": 8,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 25.2,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.588,
+          "score_100": 83.0,
+          "closest": {
+            "season": 2024,
+            "week": 12,
+            "margin": 4.68,
+            "m1": "Kevin",
+            "s1": 93.58,
+            "m2": "Kat",
+            "s2": 88.9
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 85.23,
+            "m1": "Benedict",
+            "s1": 124.03,
+            "m2": "Jay",
+            "s2": 209.26
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "brice",
+          "meetings": 21,
+          "w": 9,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 2,
+          "score": 0.876,
+          "score_100": 89.7,
+          "closest": {
+            "season": 2025,
+            "week": 8,
+            "margin": 2.32,
+            "m1": "Brice",
+            "s1": 110.06,
+            "m2": "Alex",
+            "s2": 112.38
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 8,
+            "margin": 66.16,
+            "m1": "Brice",
+            "s1": 127.42,
+            "m2": "Benedict",
+            "s2": 61.26
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 18.5,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.726,
+          "score_100": 85.3,
+          "closest": {
+            "season": 2021,
+            "week": 5,
+            "margin": 0.1,
+            "m1": "Ryan",
+            "s1": 80.76,
+            "m2": "Aboubacar",
+            "s2": 80.86
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 55.72,
+            "m1": "Ryan",
+            "s1": 137.48,
+            "m2": "Kat",
+            "s2": 81.76
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 17,
+          "w": 8,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 25.2,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.651,
+          "score_100": 83.1,
+          "closest": {
+            "season": 2024,
+            "week": 12,
+            "margin": 4.68,
+            "m1": "Kevin",
+            "s1": 93.58,
+            "m2": "Kat",
+            "s2": 88.9
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 85.23,
+            "m1": "Benedict",
+            "s1": 124.03,
+            "m2": "Jay",
+            "s2": 209.26
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 20,
+          "w": 12,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 22.0,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.637,
+          "score_100": 82.7,
+          "closest": {
+            "season": 2022,
+            "week": 2,
+            "margin": 1.4,
+            "m1": "Kat",
+            "s1": 118.38,
+            "m2": "Michael",
+            "s2": 116.98
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 47.72,
+            "m1": "Kat",
+            "s1": 129.1,
+            "m2": "Michael",
+            "s2": 81.38
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 22.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.63,
+          "score_100": 82.5,
+          "closest": {
+            "season": 2013,
+            "week": 12,
+            "margin": 4.56,
+            "m1": "whitaker",
+            "s1": 114.49,
+            "m2": "Benedict",
+            "s2": 109.93
+          },
+          "biggest": {
+            "season": 2020,
+            "week": 3,
+            "margin": 41.72,
+            "m1": "Benedict",
+            "s1": 120.08,
+            "m2": "whitaker",
+            "s2": 161.8
+          }
+        }
+      ]
+    },
+    "dylan": {
+      "B": [
+        {
+          "opponent": "ryan",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.663,
+          "score_100": 85.2,
+          "closest": {
+            "season": 2025,
+            "week": 13,
+            "margin": 0.68,
+            "m1": "Megan",
+            "s1": 121.62,
+            "m2": "Ryan",
+            "s2": 120.94
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 13,
+            "margin": 69.3,
+            "m1": "Ryan",
+            "s1": 162.56,
+            "m2": "becca",
+            "s2": 93.26
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 21,
+          "w": 11,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 29.7,
+          "seasons": 12,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.66,
+          "score_100": 85.1,
+          "closest": {
+            "season": 2025,
+            "week": 12,
+            "margin": 6.18,
+            "m1": "pb",
+            "s1": 104.54,
+            "m2": "Megan",
+            "s2": 110.72
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 8,
+            "margin": 102.88,
+            "m1": "pb",
+            "s1": 173.96,
+            "m2": "Dylan",
+            "s2": 71.08
+          }
+        },
+        {
+          "opponent": "tommy",
+          "meetings": 21,
+          "w": 11,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 30.0,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.643,
+          "score_100": 84.6,
+          "closest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 0.86,
+            "m1": "Megan",
+            "s1": 105.46,
+            "m2": "Tommy",
+            "s2": 104.6
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 14,
+            "margin": 71.6,
+            "m1": "Megan",
+            "s1": 169.64,
+            "m2": "Tommy",
+            "s2": 98.04
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 25,
+          "w": 8,
+          "l": 17,
+          "ties": 0,
+          "avg_margin": 26.0,
+          "seasons": 13,
+          "playoff_meetings": 5,
+          "bowl_meetings": 0,
+          "score": 0.633,
+          "score_100": 84.3,
+          "closest": {
+            "season": 2024,
+            "week": 14,
+            "margin": 0.28,
+            "m1": "Megan",
+            "s1": 126.16,
+            "m2": "whitaker",
+            "s2": 125.88
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 1,
+            "margin": 63.84,
+            "m1": "becca",
+            "s1": 66.4,
+            "m2": "whitaker",
+            "s2": 130.24
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 17,
+          "w": 11,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 21.3,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.426,
+          "score_100": 78.2,
+          "closest": {
+            "season": 2023,
+            "week": 8,
+            "margin": 3.02,
+            "m1": "Jason",
+            "s1": 125.46,
+            "m2": "becca",
+            "s2": 128.48
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 53.26,
+            "m1": "Jason",
+            "s1": 146.72,
+            "m2": "Megan",
+            "s2": 93.46
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "whitaker",
+          "meetings": 25,
+          "w": 8,
+          "l": 17,
+          "ties": 0,
+          "avg_margin": 26.0,
+          "seasons": 13,
+          "playoff_meetings": 5,
+          "bowl_meetings": 0,
+          "score": 0.63,
+          "score_100": 82.5,
+          "closest": {
+            "season": 2024,
+            "week": 14,
+            "margin": 0.28,
+            "m1": "Megan",
+            "s1": 126.16,
+            "m2": "whitaker",
+            "s2": 125.88
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 1,
+            "margin": 63.84,
+            "m1": "becca",
+            "s1": 66.4,
+            "m2": "whitaker",
+            "s2": 130.24
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.544,
+          "score_100": 79.9,
+          "closest": {
+            "season": 2025,
+            "week": 13,
+            "margin": 0.68,
+            "m1": "Megan",
+            "s1": 121.62,
+            "m2": "Ryan",
+            "s2": 120.94
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 13,
+            "margin": 69.3,
+            "m1": "Ryan",
+            "s1": 162.56,
+            "m2": "becca",
+            "s2": 93.26
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 21,
+          "w": 11,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 29.7,
+          "seasons": 12,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.462,
+          "score_100": 77.5,
+          "closest": {
+            "season": 2025,
+            "week": 12,
+            "margin": 6.18,
+            "m1": "pb",
+            "s1": 104.54,
+            "m2": "Megan",
+            "s2": 110.72
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 8,
+            "margin": 102.88,
+            "m1": "pb",
+            "s1": 173.96,
+            "m2": "Dylan",
+            "s2": 71.08
+          }
+        },
+        {
+          "opponent": "tommy",
+          "meetings": 21,
+          "w": 11,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 30.0,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.445,
+          "score_100": 77.0,
+          "closest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 0.86,
+            "m1": "Megan",
+            "s1": 105.46,
+            "m2": "Tommy",
+            "s2": 104.6
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 14,
+            "margin": 71.6,
+            "m1": "Megan",
+            "s1": 169.64,
+            "m2": "Tommy",
+            "s2": 98.04
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 17,
+          "w": 11,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 21.3,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.397,
+          "score_100": 75.6,
+          "closest": {
+            "season": 2023,
+            "week": 8,
+            "margin": 3.02,
+            "m1": "Jason",
+            "s1": 125.46,
+            "m2": "becca",
+            "s2": 128.48
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 53.26,
+            "m1": "Jason",
+            "s1": 146.72,
+            "m2": "Megan",
+            "s2": 93.46
+          }
+        }
+      ]
+    },
+    "pb": {
+      "B": [
+        {
+          "opponent": "dylan",
+          "meetings": 21,
+          "w": 10,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 29.7,
+          "seasons": 12,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.66,
+          "score_100": 85.1,
+          "closest": {
+            "season": 2025,
+            "week": 12,
+            "margin": 6.18,
+            "m1": "pb",
+            "s1": 104.54,
+            "m2": "Megan",
+            "s2": 110.72
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 8,
+            "margin": 102.88,
+            "m1": "pb",
+            "s1": 173.96,
+            "m2": "Dylan",
+            "s2": 71.08
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 24.9,
+          "seasons": 7,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.494,
+          "score_100": 80.2,
+          "closest": {
+            "season": 2021,
+            "week": 1,
+            "margin": 6.7,
+            "m1": "pb",
+            "s1": 127.66,
+            "m2": "Carter",
+            "s2": 120.96
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 7,
+            "margin": 67.8,
+            "m1": "pb",
+            "s1": 159.36,
+            "m2": "Carter",
+            "s2": 91.56
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 19,
+          "w": 11,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 27.8,
+          "seasons": 11,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.457,
+          "score_100": 79.1,
+          "closest": {
+            "season": 2015,
+            "week": 9,
+            "margin": 1.12,
+            "m1": "pb",
+            "s1": 102.84,
+            "m2": "Benedict",
+            "s2": 101.72
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 8,
+            "margin": 74.04,
+            "m1": "pb",
+            "s1": 73.08,
+            "m2": "Benedict",
+            "s2": 147.12
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 21,
+          "w": 7,
+          "l": 13,
+          "ties": 1,
+          "avg_margin": 27.5,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.414,
+          "score_100": 77.9,
+          "closest": {
+            "season": 2014,
+            "week": 11,
+            "margin": 0.0,
+            "m1": "pb",
+            "s1": 108.18,
+            "m2": "Brice",
+            "s2": 108.18
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 10,
+            "margin": 69.18,
+            "m1": "pb",
+            "s1": 89.24,
+            "m2": "Brice",
+            "s2": 158.42
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 20,
+          "w": 8,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.398,
+          "score_100": 77.4,
+          "closest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 1.06,
+            "m1": "pb",
+            "s1": 104.08,
+            "m2": "Jay",
+            "s2": 103.02
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 6,
+            "margin": 83.08,
+            "m1": "pb",
+            "s1": 175.9,
+            "m2": "Kevin",
+            "s2": 92.82
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "dylan",
+          "meetings": 21,
+          "w": 10,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 29.7,
+          "seasons": 12,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.462,
+          "score_100": 77.5,
+          "closest": {
+            "season": 2025,
+            "week": 12,
+            "margin": 6.18,
+            "m1": "pb",
+            "s1": 104.54,
+            "m2": "Megan",
+            "s2": 110.72
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 8,
+            "margin": 102.88,
+            "m1": "pb",
+            "s1": 173.96,
+            "m2": "Dylan",
+            "s2": 71.08
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 24.9,
+          "seasons": 7,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.433,
+          "score_100": 76.7,
+          "closest": {
+            "season": 2021,
+            "week": 1,
+            "margin": 6.7,
+            "m1": "pb",
+            "s1": 127.66,
+            "m2": "Carter",
+            "s2": 120.96
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 7,
+            "margin": 67.8,
+            "m1": "pb",
+            "s1": 159.36,
+            "m2": "Carter",
+            "s2": 91.56
+          }
+        },
+        {
+          "opponent": "zac",
+          "meetings": 11,
+          "w": 5,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 7,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.405,
+          "score_100": 75.8,
+          "closest": {
+            "season": 2022,
+            "week": 15,
+            "margin": 2.04,
+            "m1": "pb",
+            "s1": 128.64,
+            "m2": "Zac",
+            "s2": 130.68
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 11,
+            "margin": 48.12,
+            "m1": "pb",
+            "s1": 85.98,
+            "m2": "Zac",
+            "s2": 134.1
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 20,
+          "w": 8,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.401,
+          "score_100": 75.7,
+          "closest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 1.06,
+            "m1": "pb",
+            "s1": 104.08,
+            "m2": "Jay",
+            "s2": 103.02
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 6,
+            "margin": 83.08,
+            "m1": "pb",
+            "s1": 175.9,
+            "m2": "Kevin",
+            "s2": 92.82
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 21,
+          "w": 7,
+          "l": 13,
+          "ties": 1,
+          "avg_margin": 27.5,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.398,
+          "score_100": 75.7,
+          "closest": {
+            "season": 2014,
+            "week": 11,
+            "margin": 0.0,
+            "m1": "pb",
+            "s1": 108.18,
+            "m2": "Brice",
+            "s2": 108.18
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 10,
+            "margin": 69.18,
+            "m1": "pb",
+            "s1": 89.24,
+            "m2": "Brice",
+            "s2": 158.42
+          }
+        }
+      ]
+    },
+    "michael": {
+      "B": [
+        {
+          "opponent": "carter",
+          "meetings": 19,
+          "w": 9,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 24.3,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.768,
+          "score_100": 88.3,
+          "closest": {
+            "season": 2025,
+            "week": 5,
+            "margin": 2.14,
+            "m1": "Carter",
+            "s1": 140.06,
+            "m2": "Michael",
+            "s2": 137.92
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 7,
+            "margin": 52.52,
+            "m1": "Carter",
+            "s1": 90.22,
+            "m2": "Michael",
+            "s2": 142.74
+          }
+        },
+        {
+          "opponent": "jay",
+          "meetings": 22,
+          "w": 12,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 27.4,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.765,
+          "score_100": 88.2,
+          "closest": {
+            "season": 2020,
+            "week": 13,
+            "margin": 3.3,
+            "m1": "Jay",
+            "s1": 113.3,
+            "m2": "Michael",
+            "s2": 110.0
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 13,
+            "margin": 72.94,
+            "m1": "Jay",
+            "s1": 149.96,
+            "m2": "Michael",
+            "s2": 77.02
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 20,
+          "w": 8,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 22.0,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.725,
+          "score_100": 87.0,
+          "closest": {
+            "season": 2022,
+            "week": 2,
+            "margin": 1.4,
+            "m1": "Kat",
+            "s1": 118.38,
+            "m2": "Michael",
+            "s2": 116.98
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 47.72,
+            "m1": "Kat",
+            "s1": 129.1,
+            "m2": "Michael",
+            "s2": 81.38
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 23.0,
+          "seasons": 9,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.579,
+          "score_100": 82.7,
+          "closest": {
+            "season": 2014,
+            "week": 11,
+            "margin": 3.14,
+            "m1": "Ryan",
+            "s1": 110.58,
+            "m2": "Michael",
+            "s2": 113.72
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 9,
+            "margin": 58.12,
+            "m1": "Ryan",
+            "s1": 53.08,
+            "m2": "Michael",
+            "s2": 111.2
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 19,
+          "w": 7,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 21.9,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.57,
+          "score_100": 82.5,
+          "closest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 2.2,
+            "m1": "Brice",
+            "s1": 131.1,
+            "m2": "Michael",
+            "s2": 128.9
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 15,
+            "margin": 61.94,
+            "m1": "Brice",
+            "s1": 93.92,
+            "m2": "Michael",
+            "s2": 155.86
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "jay",
+          "meetings": 22,
+          "w": 12,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 27.4,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 2,
+          "score": 0.912,
+          "score_100": 90.8,
+          "closest": {
+            "season": 2020,
+            "week": 13,
+            "margin": 3.3,
+            "m1": "Jay",
+            "s1": 113.3,
+            "m2": "Michael",
+            "s2": 110.0
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 13,
+            "margin": 72.94,
+            "m1": "Jay",
+            "s1": 149.96,
+            "m2": "Michael",
+            "s2": 77.02
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 20,
+          "w": 8,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 22.0,
+          "seasons": 11,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.637,
+          "score_100": 82.7,
+          "closest": {
+            "season": 2022,
+            "week": 2,
+            "margin": 1.4,
+            "m1": "Kat",
+            "s1": 118.38,
+            "m2": "Michael",
+            "s2": 116.98
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 47.72,
+            "m1": "Kat",
+            "s1": 129.1,
+            "m2": "Michael",
+            "s2": 81.38
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 16,
+          "w": 9,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 26.2,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.555,
+          "score_100": 80.3,
+          "closest": {
+            "season": 2023,
+            "week": 9,
+            "margin": 1.26,
+            "m1": "Jason",
+            "s1": 123.48,
+            "m2": "Michael",
+            "s2": 124.74
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 5,
+            "margin": 78.0,
+            "m1": "Michael",
+            "s1": 149.7,
+            "m2": "Sara",
+            "s2": 71.7
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 23.0,
+          "seasons": 9,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.518,
+          "score_100": 79.2,
+          "closest": {
+            "season": 2014,
+            "week": 11,
+            "margin": 3.14,
+            "m1": "Ryan",
+            "s1": 110.58,
+            "m2": "Michael",
+            "s2": 113.72
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 9,
+            "margin": 58.12,
+            "m1": "Ryan",
+            "s1": 53.08,
+            "m2": "Michael",
+            "s2": 111.2
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 19,
+          "w": 9,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 24.3,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.518,
+          "score_100": 79.2,
+          "closest": {
+            "season": 2025,
+            "week": 5,
+            "margin": 2.14,
+            "m1": "Carter",
+            "s1": 140.06,
+            "m2": "Michael",
+            "s2": 137.92
+          },
+          "biggest": {
+            "season": 2016,
+            "week": 7,
+            "margin": 52.52,
+            "m1": "Carter",
+            "s1": 90.22,
+            "m2": "Michael",
+            "s2": 142.74
+          }
+        }
+      ]
+    },
+    "ryan": {
+      "B": [
+        {
+          "opponent": "tommy",
+          "meetings": 22,
+          "w": 11,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 12,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 1.074,
+          "score_100": 97.3,
+          "closest": {
+            "season": 2020,
+            "week": 5,
+            "margin": 0.26,
+            "m1": "Tommy",
+            "s1": 113.04,
+            "m2": "Ryan",
+            "s2": 113.3
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 63.26,
+            "m1": "Ryan",
+            "s1": 104.82,
+            "m2": "Tommy",
+            "s2": 168.08
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 18.5,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.787,
+          "score_100": 88.8,
+          "closest": {
+            "season": 2021,
+            "week": 5,
+            "margin": 0.1,
+            "m1": "Ryan",
+            "s1": 80.76,
+            "m2": "Aboubacar",
+            "s2": 80.86
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 55.72,
+            "m1": "Ryan",
+            "s1": 137.48,
+            "m2": "Kat",
+            "s2": 81.76
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 21,
+          "w": 10,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 28.0,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.736,
+          "score_100": 87.3,
+          "closest": {
+            "season": 2016,
+            "week": 11,
+            "margin": 3.46,
+            "m1": "Ryan",
+            "s1": 86.18,
+            "m2": "whitaker",
+            "s2": 89.64
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 68.42,
+            "m1": "Ryan",
+            "s1": 70.94,
+            "m2": "whitaker",
+            "s2": 139.36
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 17,
+          "w": 8,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.663,
+          "score_100": 85.2,
+          "closest": {
+            "season": 2025,
+            "week": 13,
+            "margin": 0.68,
+            "m1": "Megan",
+            "s1": 121.62,
+            "m2": "Ryan",
+            "s2": 120.94
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 13,
+            "margin": 69.3,
+            "m1": "Ryan",
+            "s1": 162.56,
+            "m2": "becca",
+            "s2": 93.26
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 23.0,
+          "seasons": 9,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.579,
+          "score_100": 82.7,
+          "closest": {
+            "season": 2014,
+            "week": 11,
+            "margin": 3.14,
+            "m1": "Ryan",
+            "s1": 110.58,
+            "m2": "Michael",
+            "s2": 113.72
+          },
+          "biggest": {
+            "season": 2021,
+            "week": 9,
+            "margin": 58.12,
+            "m1": "Ryan",
+            "s1": 53.08,
+            "m2": "Michael",
+            "s2": 111.2
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "tommy",
+          "meetings": 22,
+          "w": 11,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 12,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.947,
+          "score_100": 91.8,
+          "closest": {
+            "season": 2020,
+            "week": 5,
+            "margin": 0.26,
+            "m1": "Tommy",
+            "s1": 113.04,
+            "m2": "Ryan",
+            "s2": 113.3
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 63.26,
+            "m1": "Ryan",
+            "s1": 104.82,
+            "m2": "Tommy",
+            "s2": 168.08
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 21,
+          "w": 10,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 28.0,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.811,
+          "score_100": 87.8,
+          "closest": {
+            "season": 2016,
+            "week": 11,
+            "margin": 3.46,
+            "m1": "Ryan",
+            "s1": 86.18,
+            "m2": "whitaker",
+            "s2": 89.64
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 16,
+            "margin": 68.42,
+            "m1": "Ryan",
+            "s1": 70.94,
+            "m2": "whitaker",
+            "s2": 139.36
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 14,
+          "w": 7,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 18.5,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.726,
+          "score_100": 85.3,
+          "closest": {
+            "season": 2021,
+            "week": 5,
+            "margin": 0.1,
+            "m1": "Ryan",
+            "s1": 80.76,
+            "m2": "Aboubacar",
+            "s2": 80.86
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 55.72,
+            "m1": "Ryan",
+            "s1": 137.48,
+            "m2": "Kat",
+            "s2": 81.76
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 16,
+          "w": 6,
+          "l": 10,
+          "ties": 0,
+          "avg_margin": 24.2,
+          "seasons": 11,
+          "playoff_meetings": 5,
+          "bowl_meetings": 1,
+          "score": 0.554,
+          "score_100": 80.2,
+          "closest": {
+            "season": 2014,
+            "week": 15,
+            "margin": 3.2,
+            "m1": "Carter",
+            "s1": 97.0,
+            "m2": "Ryan",
+            "s2": 93.8
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 6,
+            "margin": 74.0,
+            "m1": "Ryan",
+            "s1": 63.44,
+            "m2": "Carter",
+            "s2": 137.44
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 17,
+          "w": 8,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.544,
+          "score_100": 79.9,
+          "closest": {
+            "season": 2025,
+            "week": 13,
+            "margin": 0.68,
+            "m1": "Megan",
+            "s1": 121.62,
+            "m2": "Ryan",
+            "s2": 120.94
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 13,
+            "margin": 69.3,
+            "m1": "Ryan",
+            "s1": 162.56,
+            "m2": "becca",
+            "s2": 93.26
+          }
+        }
+      ]
+    },
+    "tommy": {
+      "B": [
+        {
+          "opponent": "ryan",
+          "meetings": 22,
+          "w": 11,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 12,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 1.074,
+          "score_100": 97.3,
+          "closest": {
+            "season": 2020,
+            "week": 5,
+            "margin": 0.26,
+            "m1": "Tommy",
+            "s1": 113.04,
+            "m2": "Ryan",
+            "s2": 113.3
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 63.26,
+            "m1": "Ryan",
+            "s1": 104.82,
+            "m2": "Tommy",
+            "s2": 168.08
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 23,
+          "w": 11,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 11,
+          "playoff_meetings": 5,
+          "bowl_meetings": 4,
+          "score": 0.824,
+          "score_100": 89.9,
+          "closest": {
+            "season": 2021,
+            "week": 17,
+            "margin": 0.44,
+            "m1": "Jason",
+            "s1": 87.26,
+            "m2": "Tommy",
+            "s2": 87.7
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 12,
+            "margin": 75.42,
+            "m1": "Jason",
+            "s1": 152.2,
+            "m2": "Tommy",
+            "s2": 76.78
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 21,
+          "w": 10,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 30.0,
+          "seasons": 11,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.643,
+          "score_100": 84.6,
+          "closest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 0.86,
+            "m1": "Megan",
+            "s1": 105.46,
+            "m2": "Tommy",
+            "s2": 104.6
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 14,
+            "margin": 71.6,
+            "m1": "Megan",
+            "s1": 169.64,
+            "m2": "Tommy",
+            "s2": 98.04
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.564,
+          "score_100": 82.3,
+          "closest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 1.64,
+            "m1": "Carter",
+            "s1": 110.86,
+            "m2": "Tommy",
+            "s2": 112.5
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 96.72,
+            "m1": "Carter",
+            "s1": 178.02,
+            "m2": "Tommy",
+            "s2": 81.3
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 13,
+          "w": 7,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 21.0,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.495,
+          "score_100": 80.3,
+          "closest": {
+            "season": 2021,
+            "week": 5,
+            "margin": 0.86,
+            "m1": "Michael",
+            "s1": 151.48,
+            "m2": "Tommy",
+            "s2": 152.34
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 4,
+            "margin": 49.04,
+            "m1": "Tommy",
+            "s1": 104.18,
+            "m2": "Michael",
+            "s2": 153.22
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "laskey",
+          "meetings": 23,
+          "w": 11,
+          "l": 12,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 11,
+          "playoff_meetings": 5,
+          "bowl_meetings": 4,
+          "score": 1.224,
+          "score_100": 100.0,
+          "closest": {
+            "season": 2021,
+            "week": 17,
+            "margin": 0.44,
+            "m1": "Jason",
+            "s1": 87.26,
+            "m2": "Tommy",
+            "s2": 87.7
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 12,
+            "margin": 75.42,
+            "m1": "Jason",
+            "s1": 152.2,
+            "m2": "Tommy",
+            "s2": 76.78
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 22,
+          "w": 11,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 12,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.947,
+          "score_100": 91.8,
+          "closest": {
+            "season": 2020,
+            "week": 5,
+            "margin": 0.26,
+            "m1": "Tommy",
+            "s1": 113.04,
+            "m2": "Ryan",
+            "s2": 113.3
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 63.26,
+            "m1": "Ryan",
+            "s1": 104.82,
+            "m2": "Tommy",
+            "s2": 168.08
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 25.7,
+          "seasons": 10,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.626,
+          "score_100": 82.4,
+          "closest": {
+            "season": 2024,
+            "week": 15,
+            "margin": 1.64,
+            "m1": "Carter",
+            "s1": 110.86,
+            "m2": "Tommy",
+            "s2": 112.5
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 13,
+            "margin": 96.72,
+            "m1": "Carter",
+            "s1": 178.02,
+            "m2": "Tommy",
+            "s2": 81.3
+          }
+        },
+        {
+          "opponent": "kelly-brown",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 13.0,
+          "seasons": 3,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.524,
+          "score_100": 79.4,
+          "closest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 0.08,
+            "m1": "Kelly Brown",
+            "s1": 91.84,
+            "m2": "Tommy",
+            "s2": 91.92
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 4,
+            "margin": 29.92,
+            "m1": "Tommy",
+            "s1": 83.36,
+            "m2": "Kelly Brown",
+            "s2": 113.28
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 13,
+          "w": 7,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 21.0,
+          "seasons": 10,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.454,
+          "score_100": 77.3,
+          "closest": {
+            "season": 2021,
+            "week": 5,
+            "margin": 0.86,
+            "m1": "Michael",
+            "s1": 151.48,
+            "m2": "Tommy",
+            "s2": 152.34
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 4,
+            "margin": 49.04,
+            "m1": "Tommy",
+            "s1": 104.18,
+            "m2": "Michael",
+            "s2": 153.22
+          }
+        }
+      ]
+    },
+    "laskey": {
+      "B": [
+        {
+          "opponent": "tommy",
+          "meetings": 23,
+          "w": 12,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 11,
+          "playoff_meetings": 5,
+          "bowl_meetings": 4,
+          "score": 0.824,
+          "score_100": 89.9,
+          "closest": {
+            "season": 2021,
+            "week": 17,
+            "margin": 0.44,
+            "m1": "Jason",
+            "s1": 87.26,
+            "m2": "Tommy",
+            "s2": 87.7
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 12,
+            "margin": 75.42,
+            "m1": "Jason",
+            "s1": 152.2,
+            "m2": "Tommy",
+            "s2": 76.78
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 18,
+          "w": 10,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 21.2,
+          "seasons": 10,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.761,
+          "score_100": 88.1,
+          "closest": {
+            "season": 2024,
+            "week": 16,
+            "margin": 0.28,
+            "m1": "Jason",
+            "s1": 119.34,
+            "m2": "whitaker",
+            "s2": 119.06
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 49.26,
+            "m1": "Jason",
+            "s1": 174.92,
+            "m2": "whitaker",
+            "s2": 125.66
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 27.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 2,
+          "score": 0.479,
+          "score_100": 79.8,
+          "closest": {
+            "season": 2020,
+            "week": 1,
+            "margin": 7.58,
+            "m1": "Jason",
+            "s1": 122.68,
+            "m2": "Ryan",
+            "s2": 130.26
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 3,
+            "margin": 72.48,
+            "m1": "Ryan",
+            "s1": 160.46,
+            "m2": "Jason",
+            "s2": 87.98
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 17,
+          "w": 6,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 21.3,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.426,
+          "score_100": 78.2,
+          "closest": {
+            "season": 2023,
+            "week": 8,
+            "margin": 3.02,
+            "m1": "Jason",
+            "s1": 125.46,
+            "m2": "becca",
+            "s2": 128.48
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 53.26,
+            "m1": "Jason",
+            "s1": 146.72,
+            "m2": "Megan",
+            "s2": 93.46
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 16,
+          "w": 7,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 26.2,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.382,
+          "score_100": 76.9,
+          "closest": {
+            "season": 2023,
+            "week": 9,
+            "margin": 1.26,
+            "m1": "Jason",
+            "s1": 123.48,
+            "m2": "Michael",
+            "s2": 124.74
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 5,
+            "margin": 78.0,
+            "m1": "Michael",
+            "s1": 149.7,
+            "m2": "Sara",
+            "s2": 71.7
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "tommy",
+          "meetings": 23,
+          "w": 12,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 29.1,
+          "seasons": 11,
+          "playoff_meetings": 5,
+          "bowl_meetings": 4,
+          "score": 1.224,
+          "score_100": 100.0,
+          "closest": {
+            "season": 2021,
+            "week": 17,
+            "margin": 0.44,
+            "m1": "Jason",
+            "s1": 87.26,
+            "m2": "Tommy",
+            "s2": 87.7
+          },
+          "biggest": {
+            "season": 2019,
+            "week": 12,
+            "margin": 75.42,
+            "m1": "Jason",
+            "s1": 152.2,
+            "m2": "Tommy",
+            "s2": 76.78
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 16,
+          "w": 7,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 26.2,
+          "seasons": 11,
+          "playoff_meetings": 4,
+          "bowl_meetings": 1,
+          "score": 0.555,
+          "score_100": 80.3,
+          "closest": {
+            "season": 2023,
+            "week": 9,
+            "margin": 1.26,
+            "m1": "Jason",
+            "s1": 123.48,
+            "m2": "Michael",
+            "s2": 124.74
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 5,
+            "margin": 78.0,
+            "m1": "Michael",
+            "s1": 149.7,
+            "m2": "Sara",
+            "s2": 71.7
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 17,
+          "w": 9,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 27.6,
+          "seasons": 9,
+          "playoff_meetings": 2,
+          "bowl_meetings": 2,
+          "score": 0.542,
+          "score_100": 79.9,
+          "closest": {
+            "season": 2020,
+            "week": 1,
+            "margin": 7.58,
+            "m1": "Jason",
+            "s1": 122.68,
+            "m2": "Ryan",
+            "s2": 130.26
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 3,
+            "margin": 72.48,
+            "m1": "Ryan",
+            "s1": 160.46,
+            "m2": "Jason",
+            "s2": 87.98
+          }
+        },
+        {
+          "opponent": "whitaker",
+          "meetings": 18,
+          "w": 10,
+          "l": 8,
+          "ties": 0,
+          "avg_margin": 21.2,
+          "seasons": 10,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.531,
+          "score_100": 79.6,
+          "closest": {
+            "season": 2024,
+            "week": 16,
+            "margin": 0.28,
+            "m1": "Jason",
+            "s1": 119.34,
+            "m2": "whitaker",
+            "s2": 119.06
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 2,
+            "margin": 49.26,
+            "m1": "Jason",
+            "s1": 174.92,
+            "m2": "whitaker",
+            "s2": 125.66
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 17,
+          "w": 6,
+          "l": 11,
+          "ties": 0,
+          "avg_margin": 21.3,
+          "seasons": 10,
+          "playoff_meetings": 3,
+          "bowl_meetings": 0,
+          "score": 0.397,
+          "score_100": 75.6,
+          "closest": {
+            "season": 2023,
+            "week": 8,
+            "margin": 3.02,
+            "m1": "Jason",
+            "s1": 125.46,
+            "m2": "becca",
+            "s2": 128.48
+          },
+          "biggest": {
+            "season": 2024,
+            "week": 13,
+            "margin": 53.26,
+            "m1": "Jason",
+            "s1": 146.72,
+            "m2": "Megan",
+            "s2": 93.46
+          }
+        }
+      ]
+    },
+    "zac": {
+      "B": [
+        {
+          "opponent": "whitaker",
+          "meetings": 16,
+          "w": 7,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 16.9,
+          "seasons": 8,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.808,
+          "score_100": 89.4,
+          "closest": {
+            "season": 2025,
+            "week": 1,
+            "margin": 4.6,
+            "m1": "Zac",
+            "s1": 69.62,
+            "m2": "whitaker",
+            "s2": 65.02
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 45.44,
+            "m1": "whitaker",
+            "s1": 116.54,
+            "m2": "Zac",
+            "s2": 71.1
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 15,
+          "w": 6,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 19.3,
+          "seasons": 8,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.524,
+          "score_100": 81.1,
+          "closest": {
+            "season": 2019,
+            "week": 2,
+            "margin": 0.26,
+            "m1": "Brice",
+            "s1": 99.96,
+            "m2": "Zac",
+            "s2": 100.22
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 11,
+            "margin": 59.16,
+            "m1": "Brice",
+            "s1": 140.9,
+            "m2": "Zac",
+            "s2": 81.74
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 16,
+          "w": 10,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 24.1,
+          "seasons": 8,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": 0.298,
+          "score_100": 74.4,
+          "closest": {
+            "season": 2018,
+            "week": 13,
+            "margin": 2.76,
+            "m1": "Jason",
+            "s1": 77.98,
+            "m2": "Zac",
+            "s2": 80.74
+          },
+          "biggest": {
+            "season": 2023,
+            "week": 14,
+            "margin": 66.04,
+            "m1": "Jason",
+            "s1": 69.28,
+            "m2": "Zac",
+            "s2": 135.32
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 11,
+          "w": 6,
+          "l": 5,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 7,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.225,
+          "score_100": 72.3,
+          "closest": {
+            "season": 2022,
+            "week": 15,
+            "margin": 2.04,
+            "m1": "pb",
+            "s1": 128.64,
+            "m2": "Zac",
+            "s2": 130.68
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 11,
+            "margin": 48.12,
+            "m1": "pb",
+            "s1": 85.98,
+            "m2": "Zac",
+            "s2": 134.1
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 15,
+          "w": 9,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 27.0,
+          "seasons": 8,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.172,
+          "score_100": 70.7,
+          "closest": {
+            "season": 2023,
+            "week": 12,
+            "margin": 1.82,
+            "m1": "Zac",
+            "s1": 132.28,
+            "m2": "becca",
+            "s2": 130.46
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 8,
+            "margin": 55.5,
+            "m1": "Zac",
+            "s1": 69.64,
+            "m2": "becca",
+            "s2": 125.14
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "whitaker",
+          "meetings": 16,
+          "w": 7,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 16.9,
+          "seasons": 8,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.89,
+          "score_100": 90.1,
+          "closest": {
+            "season": 2025,
+            "week": 1,
+            "margin": 4.6,
+            "m1": "Zac",
+            "s1": 69.62,
+            "m2": "whitaker",
+            "s2": 65.02
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 45.44,
+            "m1": "whitaker",
+            "s1": 116.54,
+            "m2": "Zac",
+            "s2": 71.1
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 15,
+          "w": 6,
+          "l": 9,
+          "ties": 0,
+          "avg_margin": 19.3,
+          "seasons": 8,
+          "playoff_meetings": 4,
+          "bowl_meetings": 0,
+          "score": 0.625,
+          "score_100": 82.4,
+          "closest": {
+            "season": 2019,
+            "week": 2,
+            "margin": 0.26,
+            "m1": "Brice",
+            "s1": 99.96,
+            "m2": "Zac",
+            "s2": 100.22
+          },
+          "biggest": {
+            "season": 2025,
+            "week": 11,
+            "margin": 59.16,
+            "m1": "Brice",
+            "s1": 140.9,
+            "m2": "Zac",
+            "s2": 81.74
+          }
+        },
+        {
+          "opponent": "pb",
+          "meetings": 11,
+          "w": 6,
+          "l": 5,
+          "ties": 0,
+          "avg_margin": 23.6,
+          "seasons": 7,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.405,
+          "score_100": 75.8,
+          "closest": {
+            "season": 2022,
+            "week": 15,
+            "margin": 2.04,
+            "m1": "pb",
+            "s1": 128.64,
+            "m2": "Zac",
+            "s2": 130.68
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 11,
+            "margin": 48.12,
+            "m1": "pb",
+            "s1": 85.98,
+            "m2": "Zac",
+            "s2": 134.1
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 15,
+          "w": 9,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 27.0,
+          "seasons": 8,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.182,
+          "score_100": 69.3,
+          "closest": {
+            "season": 2023,
+            "week": 12,
+            "margin": 1.82,
+            "m1": "Zac",
+            "s1": 132.28,
+            "m2": "becca",
+            "s2": 130.46
+          },
+          "biggest": {
+            "season": 2022,
+            "week": 8,
+            "margin": 55.5,
+            "m1": "Zac",
+            "s1": 69.64,
+            "m2": "becca",
+            "s2": 125.14
+          }
+        },
+        {
+          "opponent": "kelly-brown",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 20.6,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.175,
+          "score_100": 69.1,
+          "closest": {
+            "season": 2017,
+            "week": 16,
+            "margin": 0.74,
+            "m1": "Kelly Brown",
+            "s1": 97.0,
+            "m2": "Zac",
+            "s2": 97.74
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 48.08,
+            "m1": "Kelly Brown",
+            "s1": 91.84,
+            "m2": "Zac",
+            "s2": 139.92
+          }
+        }
+      ]
+    },
+    "kyle": {
+      "B": [
+        {
+          "opponent": "dave-lang",
+          "meetings": 5,
+          "w": 3,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 13.7,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.129,
+          "score_100": 69.5,
+          "closest": {
+            "season": 2014,
+            "week": 6,
+            "margin": 1.32,
+            "m1": "Kyle",
+            "s1": 94.34,
+            "m2": "Lang",
+            "s2": 93.02
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 33.08,
+            "m1": "Kyle",
+            "s1": 132.66,
+            "m2": "Lang",
+            "s2": 165.74
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 10,
+          "w": 3,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 15.5,
+          "seasons": 5,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.08,
+          "score_100": 68.0,
+          "closest": {
+            "season": 2016,
+            "week": 12,
+            "margin": 3.3,
+            "m1": "Kyle",
+            "s1": 96.7,
+            "m2": "Ryan",
+            "s2": 93.4
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 31.88,
+            "m1": "Ryan",
+            "s1": 96.08,
+            "m2": "Kyle",
+            "s2": 64.2
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 9,
+          "w": 5,
+          "l": 4,
+          "ties": 0,
+          "avg_margin": 24.7,
+          "seasons": 4,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.016,
+          "score_100": 66.2,
+          "closest": {
+            "season": 2016,
+            "week": 5,
+            "margin": 0.98,
+            "m1": "Brice",
+            "s1": 129.0,
+            "m2": "Kyle",
+            "s2": 129.98
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 2,
+            "margin": 42.72,
+            "m1": "Brice",
+            "s1": 143.56,
+            "m2": "Kyle",
+            "s2": 100.84
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 5,
+          "w": 3,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 20.3,
+          "seasons": 3,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": -0.173,
+          "score_100": 60.6,
+          "closest": {
+            "season": 2015,
+            "week": 3,
+            "margin": 1.36,
+            "m1": "Kyle",
+            "s1": 96.66,
+            "m2": "Michael",
+            "s2": 95.3
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 38.44,
+            "m1": "Kyle",
+            "s1": 52.94,
+            "m2": "Michael",
+            "s2": 91.38
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 9,
+          "w": 3,
+          "l": 6,
+          "ties": 0,
+          "avg_margin": 24.0,
+          "seasons": 6,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.276,
+          "score_100": 57.5,
+          "closest": {
+            "season": 2017,
+            "week": 12,
+            "margin": 2.68,
+            "m1": "Kyle",
+            "s1": 89.66,
+            "m2": "Carter",
+            "s2": 86.98
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 1,
+            "margin": 63.64,
+            "m1": "Kyle",
+            "s1": 75.9,
+            "m2": "Carter",
+            "s2": 139.54
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "dave-lang",
+          "meetings": 5,
+          "w": 3,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 13.7,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.153,
+          "score_100": 68.4,
+          "closest": {
+            "season": 2014,
+            "week": 6,
+            "margin": 1.32,
+            "m1": "Kyle",
+            "s1": 94.34,
+            "m2": "Lang",
+            "s2": 93.02
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 33.08,
+            "m1": "Kyle",
+            "s1": 132.66,
+            "m2": "Lang",
+            "s2": 165.74
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 9,
+          "w": 5,
+          "l": 4,
+          "ties": 0,
+          "avg_margin": 24.7,
+          "seasons": 4,
+          "playoff_meetings": 2,
+          "bowl_meetings": 1,
+          "score": 0.144,
+          "score_100": 68.2,
+          "closest": {
+            "season": 2016,
+            "week": 5,
+            "margin": 0.98,
+            "m1": "Brice",
+            "s1": 129.0,
+            "m2": "Kyle",
+            "s2": 129.98
+          },
+          "biggest": {
+            "season": 2015,
+            "week": 2,
+            "margin": 42.72,
+            "m1": "Brice",
+            "s1": 143.56,
+            "m2": "Kyle",
+            "s2": 100.84
+          }
+        },
+        {
+          "opponent": "michael",
+          "meetings": 5,
+          "w": 3,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 20.3,
+          "seasons": 3,
+          "playoff_meetings": 3,
+          "bowl_meetings": 1,
+          "score": 0.124,
+          "score_100": 67.6,
+          "closest": {
+            "season": 2015,
+            "week": 3,
+            "margin": 1.36,
+            "m1": "Kyle",
+            "s1": 96.66,
+            "m2": "Michael",
+            "s2": 95.3
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 38.44,
+            "m1": "Kyle",
+            "s1": 52.94,
+            "m2": "Michael",
+            "s2": 91.38
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 10,
+          "w": 3,
+          "l": 7,
+          "ties": 0,
+          "avg_margin": 15.5,
+          "seasons": 5,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.098,
+          "score_100": 66.8,
+          "closest": {
+            "season": 2016,
+            "week": 12,
+            "margin": 3.3,
+            "m1": "Kyle",
+            "s1": 96.7,
+            "m2": "Ryan",
+            "s2": 93.4
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 31.88,
+            "m1": "Ryan",
+            "s1": 96.08,
+            "m2": "Kyle",
+            "s2": 64.2
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 6,
+          "w": 3,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 31.3,
+          "seasons": 4,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": -0.316,
+          "score_100": 54.6,
+          "closest": {
+            "season": 2016,
+            "week": 1,
+            "margin": 8.1,
+            "m1": "Dylan",
+            "s1": 120.18,
+            "m2": "Kyle",
+            "s2": 112.08
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 11,
+            "margin": 57.88,
+            "m1": "Dylan",
+            "s1": 157.9,
+            "m2": "Kyle",
+            "s2": 100.02
+          }
+        }
+      ]
+    },
+    "kelly-brown": {
+      "B": [
+        {
+          "opponent": "tommy",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 13.0,
+          "seasons": 3,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.389,
+          "score_100": 77.1,
+          "closest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 0.08,
+            "m1": "Kelly Brown",
+            "s1": 91.84,
+            "m2": "Tommy",
+            "s2": 91.92
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 4,
+            "margin": 29.92,
+            "m1": "Tommy",
+            "s1": 83.36,
+            "m2": "Kelly Brown",
+            "s2": 113.28
+          }
+        },
+        {
+          "opponent": "zac",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 20.6,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.04,
+          "score_100": 66.8,
+          "closest": {
+            "season": 2017,
+            "week": 16,
+            "margin": 0.74,
+            "m1": "Kelly Brown",
+            "s1": 97.0,
+            "m2": "Zac",
+            "s2": 97.74
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 48.08,
+            "m1": "Kelly Brown",
+            "s1": 91.84,
+            "m2": "Zac",
+            "s2": 139.92
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 4,
+          "w": 1,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 15.0,
+          "seasons": 3,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.432,
+          "score_100": 53.0,
+          "closest": {
+            "season": 2018,
+            "week": 13,
+            "margin": 7.46,
+            "m1": "Brice",
+            "s1": 91.32,
+            "m2": "Kelly Brown",
+            "s2": 83.86
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 6,
+            "margin": 31.98,
+            "m1": "Brice",
+            "s1": 150.04,
+            "m2": "Kelly Brown",
+            "s2": 118.06
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 3,
+          "w": 1,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 25.0,
+          "seasons": 2,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.712,
+          "score_100": 44.7,
+          "closest": {
+            "season": 2018,
+            "week": 12,
+            "margin": 3.78,
+            "m1": "Jason",
+            "s1": 119.14,
+            "m2": "Kelly Brown",
+            "s2": 115.36
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 7,
+            "margin": 59.96,
+            "m1": "Jason",
+            "s1": 69.08,
+            "m2": "Kelly Brown",
+            "s2": 129.04
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 3,
+          "w": 0,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 4.6,
+          "seasons": 2,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.751,
+          "score_100": 43.6,
+          "closest": {
+            "season": 2017,
+            "week": 5,
+            "margin": 0.06,
+            "m1": "Carter",
+            "s1": 128.26,
+            "m2": "Kelly Brown",
+            "s2": 128.2
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 3,
+            "margin": 9.42,
+            "m1": "Carter",
+            "s1": 88.02,
+            "m2": "Kelly Brown",
+            "s2": 78.6
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "tommy",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 13.0,
+          "seasons": 3,
+          "playoff_meetings": 2,
+          "bowl_meetings": 0,
+          "score": 0.524,
+          "score_100": 79.4,
+          "closest": {
+            "season": 2018,
+            "week": 15,
+            "margin": 0.08,
+            "m1": "Kelly Brown",
+            "s1": 91.84,
+            "m2": "Tommy",
+            "s2": 91.92
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 4,
+            "margin": 29.92,
+            "m1": "Tommy",
+            "s1": 83.36,
+            "m2": "Kelly Brown",
+            "s2": 113.28
+          }
+        },
+        {
+          "opponent": "zac",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 20.6,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 1,
+          "score": 0.175,
+          "score_100": 69.1,
+          "closest": {
+            "season": 2017,
+            "week": 16,
+            "margin": 0.74,
+            "m1": "Kelly Brown",
+            "s1": 97.0,
+            "m2": "Zac",
+            "s2": 97.74
+          },
+          "biggest": {
+            "season": 2017,
+            "week": 1,
+            "margin": 48.08,
+            "m1": "Kelly Brown",
+            "s1": 91.84,
+            "m2": "Zac",
+            "s2": 139.92
+          }
+        },
+        {
+          "opponent": "brice",
+          "meetings": 4,
+          "w": 1,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 15.0,
+          "seasons": 3,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.479,
+          "score_100": 49.8,
+          "closest": {
+            "season": 2018,
+            "week": 13,
+            "margin": 7.46,
+            "m1": "Brice",
+            "s1": 91.32,
+            "m2": "Kelly Brown",
+            "s2": 83.86
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 6,
+            "margin": 31.98,
+            "m1": "Brice",
+            "s1": 150.04,
+            "m2": "Kelly Brown",
+            "s2": 118.06
+          }
+        },
+        {
+          "opponent": "laskey",
+          "meetings": 3,
+          "w": 1,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 25.0,
+          "seasons": 2,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.74,
+          "score_100": 42.1,
+          "closest": {
+            "season": 2018,
+            "week": 12,
+            "margin": 3.78,
+            "m1": "Jason",
+            "s1": 119.14,
+            "m2": "Kelly Brown",
+            "s2": 115.36
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 7,
+            "margin": 59.96,
+            "m1": "Jason",
+            "s1": 69.08,
+            "m2": "Kelly Brown",
+            "s2": 129.04
+          }
+        },
+        {
+          "opponent": "carter",
+          "meetings": 3,
+          "w": 0,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 4.6,
+          "seasons": 2,
+          "playoff_meetings": 0,
+          "bowl_meetings": 0,
+          "score": -0.778,
+          "score_100": 41.0,
+          "closest": {
+            "season": 2017,
+            "week": 5,
+            "margin": 0.06,
+            "m1": "Carter",
+            "s1": 128.26,
+            "m2": "Kelly Brown",
+            "s2": 128.2
+          },
+          "biggest": {
+            "season": 2018,
+            "week": 3,
+            "margin": 9.42,
+            "m1": "Carter",
+            "s1": 88.02,
+            "m2": "Kelly Brown",
+            "s2": 78.6
+          }
+        }
+      ]
+    },
+    "dave-lang": {
+      "B": [
+        {
+          "opponent": "kyle",
+          "meetings": 5,
+          "w": 2,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 13.7,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.129,
+          "score_100": 69.5,
+          "closest": {
+            "season": 2014,
+            "week": 6,
+            "margin": 1.32,
+            "m1": "Kyle",
+            "s1": 94.34,
+            "m2": "Lang",
+            "s2": 93.02
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 33.08,
+            "m1": "Kyle",
+            "s1": 132.66,
+            "m2": "Lang",
+            "s2": 165.74
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 21.6,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": -0.008,
+          "score_100": 65.4,
+          "closest": {
+            "season": 2013,
+            "week": 9,
+            "margin": 8.97,
+            "m1": "Benedict",
+            "s1": 134.11,
+            "m2": "Lang",
+            "s2": 143.08
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 7,
+            "margin": 41.2,
+            "m1": "Benedict",
+            "s1": 156.92,
+            "m2": "Lang",
+            "s2": 115.72
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 3,
+          "w": 2,
+          "l": 1,
+          "ties": 0,
+          "avg_margin": 35.3,
+          "seasons": 1,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": -1.184,
+          "score_100": 30.8,
+          "closest": {
+            "season": 2013,
+            "week": 7,
+            "margin": 15.42,
+            "m1": "Dylan",
+            "s1": 103.19,
+            "m2": "Lang",
+            "s2": 118.61
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 12,
+            "margin": 52.4,
+            "m1": "Dylan",
+            "s1": 135.09,
+            "m2": "Lang",
+            "s2": 187.49
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 3,
+          "w": 0,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 36.9,
+          "seasons": 1,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": -2.232,
+          "score_100": 0.0,
+          "closest": {
+            "season": 2014,
+            "week": 3,
+            "margin": 5.64,
+            "m1": "Ryan",
+            "s1": 110.54,
+            "m2": "Lang",
+            "s2": 104.9
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 8,
+            "margin": 66.42,
+            "m1": "Ryan",
+            "s1": 157.06,
+            "m2": "Lang",
+            "s2": 90.64
+          }
+        }
+      ],
+      "C": [
+        {
+          "opponent": "kyle",
+          "meetings": 5,
+          "w": 2,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 13.7,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.153,
+          "score_100": 68.4,
+          "closest": {
+            "season": 2014,
+            "week": 6,
+            "margin": 1.32,
+            "m1": "Kyle",
+            "s1": 94.34,
+            "m2": "Lang",
+            "s2": 93.02
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 8,
+            "margin": 33.08,
+            "m1": "Kyle",
+            "s1": 132.66,
+            "m2": "Lang",
+            "s2": 165.74
+          }
+        },
+        {
+          "opponent": "benedict",
+          "meetings": 4,
+          "w": 2,
+          "l": 2,
+          "ties": 0,
+          "avg_margin": 21.6,
+          "seasons": 2,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": 0.036,
+          "score_100": 65.0,
+          "closest": {
+            "season": 2013,
+            "week": 9,
+            "margin": 8.97,
+            "m1": "Benedict",
+            "s1": 134.11,
+            "m2": "Lang",
+            "s2": 143.08
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 7,
+            "margin": 41.2,
+            "m1": "Benedict",
+            "s1": 156.92,
+            "m2": "Lang",
+            "s2": 115.72
+          }
+        },
+        {
+          "opponent": "dylan",
+          "meetings": 3,
+          "w": 2,
+          "l": 1,
+          "ties": 0,
+          "avg_margin": 35.3,
+          "seasons": 1,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": -1.121,
+          "score_100": 30.9,
+          "closest": {
+            "season": 2013,
+            "week": 7,
+            "margin": 15.42,
+            "m1": "Dylan",
+            "s1": 103.19,
+            "m2": "Lang",
+            "s2": 118.61
+          },
+          "biggest": {
+            "season": 2013,
+            "week": 12,
+            "margin": 52.4,
+            "m1": "Dylan",
+            "s1": 135.09,
+            "m2": "Lang",
+            "s2": 187.49
+          }
+        },
+        {
+          "opponent": "ryan",
+          "meetings": 3,
+          "w": 0,
+          "l": 3,
+          "ties": 0,
+          "avg_margin": 36.9,
+          "seasons": 1,
+          "playoff_meetings": 1,
+          "bowl_meetings": 0,
+          "score": -2.169,
+          "score_100": 0.0,
+          "closest": {
+            "season": 2014,
+            "week": 3,
+            "margin": 5.64,
+            "m1": "Ryan",
+            "s1": 110.54,
+            "m2": "Lang",
+            "s2": 104.9
+          },
+          "biggest": {
+            "season": 2014,
+            "week": 8,
+            "margin": 66.42,
+            "m1": "Ryan",
+            "s1": 157.06,
+            "m2": "Lang",
+            "s2": 90.64
+          }
+        }
+      ]
+    }
+  }
+}

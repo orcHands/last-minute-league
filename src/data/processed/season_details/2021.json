@@ -647,8 +647,8 @@
             "city": "Los Angeles",
             "state": "California",
             "attendance": 61850,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -674,8 +674,9 @@
             "city": "Orlando",
             "state": "Florida",
             "attendance": 65438,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2022-01-03"
           }
         ]
       }
@@ -871,8 +872,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 55000,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -898,8 +899,9 @@
             "city": "Andaman & Nicobar Islands",
             "state": "India",
             "attendance": "1 Fatality",
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2022-01-03"
           }
         ]
       }

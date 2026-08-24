@@ -528,17 +528,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "The Double Doinkers",
-            "manager": "whitaker",
-            "rank": 4
+            "team": "Jaylen Waddle Dee",
+            "manager": "Carter",
+            "rank": 3
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "Jaylen Waddle Dee",
-            "manager": "Carter",
-            "rank": 3
+            "team": "The Double Doinkers",
+            "manager": "whitaker",
+            "rank": 4
           }
         ]
       },
@@ -647,8 +647,8 @@
             "city": "Kallang",
             "state": "Singapore",
             "attendance": 55000,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -674,8 +674,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 35691,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -870,8 +870,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 68900,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -897,8 +897,9 @@
             "city": "Conway",
             "state": "South Carolina",
             "attendance": "97 Arrests",
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2023-12-31"
           }
         ]
       }

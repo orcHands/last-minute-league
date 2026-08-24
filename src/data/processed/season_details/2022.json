@@ -523,17 +523,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "chubb a dub dub",
-            "manager": "becca",
-            "rank": 4
+            "team": "Amon-Ra St. Patrick Brown",
+            "manager": "Carter",
+            "rank": 1
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "Amon-Ra St. Patrick Brown",
-            "manager": "Carter",
-            "rank": 1
+            "team": "chubb a dub dub",
+            "manager": "becca",
+            "rank": 4
           }
         ]
       },
@@ -643,8 +643,9 @@
             "city": "Fort Worth",
             "state": "Texas",
             "attendance": 104700,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2023-01-01"
           },
           {
             "kind": "game",
@@ -670,8 +671,9 @@
             "city": "Tampa",
             "state": "Florida",
             "attendance": 74023,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2023-01-01"
           }
         ]
       }
@@ -747,17 +749,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "America's Next Top Waddle",
-            "manager": "Brice",
-            "rank": 8
+            "team": "The Double Doinkers",
+            "manager": "whitaker",
+            "rank": 7
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "The Double Doinkers",
-            "manager": "whitaker",
-            "rank": 7
+            "team": "America's Next Top Waddle",
+            "manager": "Brice",
+            "rank": 8
           }
         ]
       },
@@ -866,8 +868,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 66300,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -893,8 +895,9 @@
             "city": "Prypiat",
             "state": "Ukraine",
             "attendance": 0,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2023-01-01"
           }
         ]
       }
@@ -1220,7 +1223,7 @@
         "player": "Jeff Wilson Jr.",
         "pick_overall": 161,
         "pts": 77.6,
-        "pts_rank": 64,
+        "pts_rank": 66,
         "draft_pool": 121,
         "manager": "Ryan",
         "pos": "RB",

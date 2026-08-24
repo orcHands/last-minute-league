@@ -528,17 +528,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Monchhichis",
-            "manager": "Kyle",
-            "rank": 2
+            "team": "The Fumblers",
+            "manager": "Michael",
+            "rank": 1
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "The Fumblers",
-            "manager": "Michael",
-            "rank": 1
+            "team": "Monchhichis",
+            "manager": "Kyle",
+            "rank": 2
           }
         ]
       },
@@ -648,8 +648,9 @@
             "city": "Green Bay",
             "state": "Wisconsin",
             "attendance": 74890,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2016-12-26"
           },
           {
             "kind": "game",
@@ -675,8 +676,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 43219,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -747,17 +748,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "Dat VFL",
-            "manager": "Sara",
-            "rank": 9
+            "team": "SEC Speed",
+            "manager": "pb",
+            "rank": 8
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 14,
-            "team": "SEC Speed",
-            "manager": "pb",
-            "rank": 8
+            "team": "Dat VFL",
+            "manager": "Sara",
+            "rank": 9
           }
         ]
       },
@@ -867,8 +868,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 53400,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -894,8 +895,9 @@
             "city": "Jezkazgan",
             "state": "Kazakhstan",
             "attendance": 28,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2016-12-26"
           }
         ]
       }

@@ -523,17 +523,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "Justin Fields of Dreams",
-            "manager": "Kevin",
-            "rank": 3
+            "team": "Clyde Edwards Eclair",
+            "manager": "Jason",
+            "rank": 2
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "Clyde Edwards Eclair",
-            "manager": "Jason",
-            "rank": 2
+            "team": "Justin Fields of Dreams",
+            "manager": "Kevin",
+            "rank": 3
           }
         ]
       },
@@ -638,8 +638,8 @@
             "city": "Glendale",
             "state": "Arizona",
             "attendance": 64200,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -665,8 +665,8 @@
             "city": "Tokyo",
             "state": "Japan",
             "attendance": 47924,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           }
         ]
       }
@@ -742,17 +742,17 @@
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "Cult of the Lamb",
-            "manager": "Megan",
-            "rank": 10
+            "team": "Coming Tuamerica",
+            "manager": "Brice",
+            "rank": 8
           },
           {
             "kind": "bye",
             "label": "Bye Week",
             "week": 15,
-            "team": "Coming Tuamerica",
-            "manager": "Brice",
-            "rank": 8
+            "team": "Cult of the Lamb",
+            "manager": "Megan",
+            "rank": 10
           }
         ]
       },
@@ -862,8 +862,8 @@
             "city": "Atlanta",
             "state": "Georgia",
             "attendance": 70200,
-            "weather": null,
-            "indoor": false
+            "indoor": true,
+            "weather": null
           },
           {
             "kind": "game",
@@ -889,8 +889,9 @@
             "city": "Ross Island Ice Shelf",
             "state": "Antarctica",
             "attendance": 171,
+            "indoor": false,
             "weather": null,
-            "indoor": false
+            "game_date": "2024-12-30"
           }
         ]
       }
