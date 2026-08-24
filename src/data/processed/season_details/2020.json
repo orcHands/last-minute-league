@@ -564,7 +564,11 @@
             "state": "FL",
             "attendance": 28928,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 63,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-21"
           },
           {
@@ -586,7 +590,11 @@
             "state": "FL",
             "attendance": 28928,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 63,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-21"
           },
           {
@@ -640,7 +648,11 @@
             "state": "Florida",
             "attendance": 26130,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 57,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-28"
           },
           {
@@ -668,7 +680,11 @@
             "state": "Florida",
             "attendance": 26130,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 57,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-28"
           }
         ]
@@ -802,7 +818,11 @@
             "state": "FL",
             "attendance": 18400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 63,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-21"
           },
           {
@@ -856,7 +876,11 @@
             "state": "Florida",
             "attendance": 26130,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 57,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-28"
           },
           {
@@ -884,7 +908,11 @@
             "state": "Florida",
             "attendance": 26130,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 57,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2020-12-28"
           }
         ]

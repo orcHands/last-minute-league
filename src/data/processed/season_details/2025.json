@@ -616,7 +616,11 @@
             "state": "CA",
             "attendance": 59450,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 57,
+              "cond": "Moderate rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2025-12-22"
           }
         ]
@@ -649,7 +653,11 @@
             "state": "United Arab Emirates",
             "attendance": 18065,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 69,
+              "cond": "Partly cloudy",
+              "emoji": "⛅"
+            },
             "game_date": "2025-12-29"
           },
           {
@@ -789,7 +797,11 @@
             "state": "TX",
             "attendance": 90400,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 55,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2025-12-22"
           },
           {
@@ -896,7 +908,11 @@
             "state": "Hawaii",
             "attendance": 0,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 135,
+              "cond": "Lava Flow: Pāhoehoe (Smooth, Billowy)",
+              "emoji": "🌋"
+            },
             "game_date": "2025-12-29"
           }
         ]

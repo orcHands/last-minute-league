@@ -597,7 +597,11 @@
             "state": "Florida",
             "attendance": 32150,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 75,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2013-12-29"
           },
           {
@@ -625,7 +629,11 @@
             "state": "Georgia",
             "attendance": 32321,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 42,
+              "cond": "Moderate rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2013-12-29"
           },
           {

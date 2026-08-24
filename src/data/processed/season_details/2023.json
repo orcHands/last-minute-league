@@ -898,7 +898,11 @@
             "state": "South Carolina",
             "attendance": "97 Arrests",
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 35,
+              "cond": "Partly Cloudy, 87 Arrests, Chance of fighting the line cook: 96%",
+              "emoji": "⛅"
+            },
             "game_date": "2023-12-31"
           }
         ]

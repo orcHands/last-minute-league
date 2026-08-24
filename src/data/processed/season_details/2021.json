@@ -675,7 +675,11 @@
             "state": "Florida",
             "attendance": 65438,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 53,
+              "cond": "Moderate drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2022-01-03"
           }
         ]
@@ -840,7 +844,11 @@
             "state": "TX",
             "attendance": 56350,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 47,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2021-12-27"
           }
         ]
@@ -900,7 +908,11 @@
             "state": "India",
             "attendance": "1 Fatality",
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": null,
+              "cond": "Unknown. Meteorologist injured in blowdart attack",
+              "emoji": ""
+            },
             "game_date": "2022-01-03"
           }
         ]

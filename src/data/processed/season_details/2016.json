@@ -616,7 +616,11 @@
             "state": "TX",
             "attendance": 57350,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 17,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2016-12-19"
           }
         ]
@@ -649,7 +653,11 @@
             "state": "Wisconsin",
             "attendance": 74890,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 20,
+              "cond": "Sleet, Cheddar: Extra Sharp",
+              "emoji": "🧀"
+            },
             "game_date": "2016-12-26"
           },
           {
@@ -836,7 +844,11 @@
             "state": "IN",
             "attendance": 49850,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 8,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2016-12-19"
           }
         ]
@@ -896,7 +908,11 @@
             "state": "Kazakhstan",
             "attendance": 28,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 3,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2016-12-26"
           }
         ]

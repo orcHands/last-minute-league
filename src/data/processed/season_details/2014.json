@@ -713,7 +713,11 @@
             "state": "Texas",
             "attendance": 58720,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 50,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2014-12-22"
           },
           {
@@ -940,7 +944,11 @@
             "state": "Mexico",
             "attendance": 49850,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 48,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2014-12-22"
           },
           {

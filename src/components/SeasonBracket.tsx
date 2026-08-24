@@ -10,6 +10,23 @@ interface SeasonBracketProps {
   accent?: string
 }
 
+function weatherLabel(weather: NonNullable<BracketEntry['weather']>) {
+  // Seven named-bowl readings are owner-authored canon whose exact word order
+  // is part of the joke. Keep the general weather schema simple and scope the
+  // exceptional presentation to the distinctive condition strings.
+  const exact: Record<string, string> = {
+    'Partly Cloudy, 87 Arrests, Chance of fighting the line cook: 96%': '35° Partly Cloudy, 87 Arrests, Chance of fighting the line cook: 96%',
+    'Sleet, Cheddar: Extra Sharp': '20°, Sleet, Cheddar: Extra Sharp 🧀',
+    'Sandstorm Visibility: 9 feet': '90°, 🏜️ Sandstorm Visibility: 9 feet',
+    'Clear, Penguins: Breeding.': '19°, Clear, Penguins: Breeding. 🐧',
+    'Unknown. Meteorologist injured in blowdart attack': 'Unknown. Meteorologist injured in blowdart attack',
+    'Lava Flow: Pāhoehoe (Smooth, Billowy)': '135°, Lava Flow: 🌋 Pāhoehoe (Smooth, Billowy)',
+    'Overcast, Radiation: 2.6 μSv/h': '43°, Overcast, Radiation: ☢️ 2.6 μSv/h',
+  }
+  return exact[weather.cond]
+    ?? `${weather.emoji} ${weather.low}°F ${weather.cond}`
+}
+
 function VenueLine({ entry }: { entry: BracketEntry }) {
   if (!entry.venue) return null
   return (
@@ -22,7 +39,7 @@ function VenueLine({ entry }: { entry: BracketEntry }) {
           {entry.attendance ? `Attendance ${entry.attendance.toLocaleString()}` : ''}
         </span>
         <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, lineHeight: '16px' }}>
-          {entry.indoor ? 'Indoors 🏈' : entry.weather ? `${entry.weather.emoji} ${entry.weather.low}°F ${entry.weather.cond}` : ''}
+          {entry.indoor ? 'Indoors 🏈' : entry.weather ? weatherLabel(entry.weather) : ''}
         </span>
       </div>
     </div>

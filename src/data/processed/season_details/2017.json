@@ -676,7 +676,11 @@
             "state": "TX",
             "attendance": 57700,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 35,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2017-12-18"
           }
         ]
@@ -903,7 +907,11 @@
             "state": "FL",
             "attendance": 62950,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 62,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2017-12-18"
           }
         ]
@@ -936,7 +944,11 @@
             "state": "Alaska",
             "attendance": "41 Vehicles",
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": -8,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2017-12-25"
           },
           {

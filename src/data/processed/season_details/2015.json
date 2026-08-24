@@ -611,7 +611,11 @@
             "state": "FL",
             "attendance": 64050,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 72,
+              "cond": "Light drizzle",
+              "emoji": "🌦️"
+            },
             "game_date": "2015-12-21"
           }
         ]
@@ -835,7 +839,11 @@
             "state": "TX",
             "attendance": 90900,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 53,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2015-12-21"
           }
         ]
@@ -895,7 +903,11 @@
             "state": "Iraq",
             "attendance": 8078,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 90,
+              "cond": "Sandstorm Visibility: 9 feet",
+              "emoji": "🏜️"
+            },
             "game_date": "2015-12-28"
           }
         ]

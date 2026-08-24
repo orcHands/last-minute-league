@@ -54,7 +54,7 @@ export interface BowlCard {
 }
 
 export interface BracketWeather {
-  low: number
+  low: number | null
   cond: string
   emoji: string
 }

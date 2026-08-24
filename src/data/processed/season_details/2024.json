@@ -606,7 +606,11 @@
             "state": "TX",
             "attendance": 58950,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 42,
+              "cond": "Overcast",
+              "emoji": "☁️"
+            },
             "game_date": "2024-12-23"
           }
         ]
@@ -830,7 +834,11 @@
             "state": "OR",
             "attendance": 52600,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 38,
+              "cond": "Moderate rain",
+              "emoji": "🌧️"
+            },
             "game_date": "2024-12-23"
           }
         ]
@@ -890,7 +898,11 @@
             "state": "Antarctica",
             "attendance": 171,
             "indoor": false,
-            "weather": null,
+            "weather": {
+              "low": 19,
+              "cond": "Clear, Penguins: Breeding.",
+              "emoji": "🐧"
+            },
             "game_date": "2024-12-30"
           }
         ]
