@@ -141,7 +141,7 @@ function AwardCard({ year, awardKey, name, description, finalists, partial }: { 
               )}
               <div style={{ minWidth: 0, flex: 1 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: i === 0 || isCoWinnerRow ? 600 : 400, fontSize: 14, lineHeight: '18px', color: i === 0 || isCoWinnerRow ? '#f4f4f4' : '#c6c6c6', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: i === 0 || isCoWinnerRow ? 600 : 400, fontSize: i === 0 || isCoWinnerRow ? 16 : 14, lineHeight: i === 0 || isCoWinnerRow ? '20px' : '18px', color: i === 0 || isCoWinnerRow ? '#f4f4f4' : '#c6c6c6', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                     {fname}
                   </span>
                   {isCoWinnerRow && <Badge type="asterisk" size="sm" label="Co-winner" />}

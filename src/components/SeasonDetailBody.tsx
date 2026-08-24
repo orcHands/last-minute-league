@@ -38,7 +38,7 @@ export default function SeasonDetailBody({ year }: { year: number }) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 48, marginTop: 32 }}>
 
         <section>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: 16, alignItems: 'stretch' }}>
+          <div className="season-bowl-grid" style={{ display: 'grid', gap: 16, alignItems: 'stretch' }}>
             {detail.bowls.map(bowl => {
               const match = allTerminal.find(e =>
                 (e.m1 === bowl.winnerManager && e.m2 === bowl.loserManager) ||
@@ -48,6 +48,15 @@ export default function SeasonDetailBody({ year }: { year: number }) {
               return <BowlHeaderCard key={bowl.key} bowl={bowl} year={year} venue={venue} />
             })}
           </div>
+          <style>{`
+            .season-bowl-grid { grid-template-columns: minmax(0, 1fr); }
+            @media (min-width: 672px) {
+              .season-bowl-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            }
+            @media (min-width: 1056px) {
+              .season-bowl-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+            }
+          `}</style>
         </section>
 
         <section>

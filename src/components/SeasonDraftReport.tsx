@@ -159,7 +159,7 @@ export default function SeasonDraftReport({ year }: { year: number }) {
       <h4 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '40px 0 16px' }}>
         Best and worst picks by position
       </h4>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 12 }}>
+      <div className="draft-position-grid" style={{ display: 'grid', gap: 12 }}>
         {DRAFT_POSITIONS.map(position => {
           const result = report.bestWorst[position]
           if (!result) return null
@@ -176,6 +176,18 @@ export default function SeasonDraftReport({ year }: { year: number }) {
           )
         })}
       </div>
+      <style>{`
+        .draft-position-grid { grid-template-columns: minmax(0, 1fr); }
+        @media (min-width: 672px) {
+          .draft-position-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (min-width: 1056px) {
+          .draft-position-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+        }
+        @media (min-width: 1584px) {
+          .draft-position-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+        }
+      `}</style>
 
       <h4 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 400, fontSize: 20, lineHeight: '28px', color: '#f4f4f4', margin: '40px 0 4px' }}>
         Draft value by position
