@@ -13,6 +13,7 @@ export type { H2HRecord } from './build/headToHead'
 export type { FranchisePowerSeries, PowerRankPoint, PowerRankWeekLabel, PowerRankingRow, ManagerSegment, SeasonManagerPowerSeries, SeasonPowerRanking } from './build/powerRankings'
 export type { DraftPosition, DraftPick, DraftPositionResult, DraftManagerValue, DraftReport } from './build/draftReports'
 export type { ManagerSkillPoint, ManagerSkillMatrix } from './build/managerSkillMatrix'
+export type { FranchiseDetail, FranchiseHomeVenue, FranchiseRecordSplit } from './build/franchiseDetails'
 
 export interface LeaderboardEntry {
   rank: number
@@ -32,5 +33,6 @@ export { FRANCHISE_POWER_SERIES, POWER_RANKING_WEEKS, POWER_RANKING_ROWS, POWER_
 export { getSeasonPowerRanking } from './build/powerRankings'
 export { DRAFT_POSITIONS, DRAFT_REPORT_YEARS, getDraftReport } from './build/draftReports'
 export { MANAGER_SKILL_MATRIX } from './build/managerSkillMatrix'
+export { getFranchiseDetail } from './build/franchiseDetails'
 export { getSeasonDetail, SEASON_DETAIL_YEARS } from './build/seasonDetail'
 export type { SeasonDetail, StandingRowDetail, BowlCard, BowlMvp, Bracket, BracketRound, BracketEntry, BracketWeather, AwardFinalist, AllDivision, AllDivisionTeam, AllDivisionSlot } from './build/seasonDetail'

@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
+import { Link, useParams } from 'react-router-dom'
 import { FRANCHISES, getManager, type Franchise } from '../data/league'
 import AssetImage from '../components/AssetImage'
+import FranchiseDetailBody from '../components/FranchiseDetailBody'
 
 function ordinal(rank: number): string {
   const mod100 = rank % 100
@@ -257,9 +259,17 @@ function FranchiseCard({ franchise }: { franchise: Franchise }) {
 }
 
 export default function Franchises() {
+  const { franchiseId } = useParams<{ franchiseId: string }>()
+  const detailRef = useRef<HTMLDivElement>(null)
   const activeCount = FRANCHISES.filter(franchise => franchise.active).length
   const retiredCount = FRANCHISES.length - activeCount
   const rankedFranchises = [...FRANCHISES].sort((a, b) => b.winPct - a.winPct)
+
+  useEffect(() => {
+    if (!franchiseId || !detailRef.current) return
+    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+    detailRef.current.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' })
+  }, [franchiseId])
 
   return (
     <div style={{ backgroundColor: '#161616', minHeight: '100vh' }}>
@@ -281,16 +291,20 @@ export default function Franchises() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1904, margin: '0 auto', padding: '40px 16px 80px' }}>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
-          gap: 1,
-          border: '1px solid #393939',
-          backgroundColor: '#393939',
-        }}>
-          {rankedFranchises.map(franchise => <FranchiseCard key={franchise.id} franchise={franchise} />)}
-        </div>
+      <div ref={detailRef} style={{ maxWidth: 1904, margin: '0 auto', padding: '40px 16px 80px' }}>
+        {franchiseId ? (
+          <FranchiseDetailBody franchiseId={franchiseId} />
+        ) : (
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
+            gap: 1,
+            border: '1px solid #393939',
+            backgroundColor: '#393939',
+          }}>
+            {rankedFranchises.map(franchise => <FranchiseCard key={franchise.id} franchise={franchise} />)}
+          </div>
+        )}
       </div>
     </div>
   )

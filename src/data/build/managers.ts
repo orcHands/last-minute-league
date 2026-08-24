@@ -126,6 +126,7 @@ export interface Franchise {
   divisionTitles: number
   divisionTitleYears: number[]
   championships: number
+  championshipYears: number[]
   bestFinish: { rank: number; season: number } | null
   active: boolean
   lore?: string
@@ -197,6 +198,7 @@ export const FRANCHISES: Franchise[] = franchisesRaw.map((f): Franchise => {
     divisionTitles: record?.division_titles.length ?? 0,
     divisionTitleYears: record?.division_titles ?? [],
     championships: record?.championships.length ?? 0,
+    championshipYears: record?.championships ?? [],
     bestFinish: record?.best_finish ?? null,
     active: f.status === 'active',
   }

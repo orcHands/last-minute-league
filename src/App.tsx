@@ -21,8 +21,8 @@ export default function App() {
                 keeps deep links and the back button working. */}
             <Route path="/seasons/:year" element={<Seasons />} />
             <Route path="/franchises" element={<Franchises />} />
-            {/* Reserve the detail URL now so franchise-card links keep the
-                index visible until the in-page detail body is built. */}
+            {/* Franchise detail renders inside the Franchises page so the
+                section header, deep links, and back-button flow stay intact. */}
             <Route path="/franchises/:franchiseId" element={<Franchises />} />
             <Route path="/players" element={<Players />} />
             <Route path="/records" element={<Records />} />
