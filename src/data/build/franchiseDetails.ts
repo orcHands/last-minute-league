@@ -76,7 +76,7 @@ const FRANCHISE_TAGLINES: Record<string, string> = {
   tommy: 'A frequent dark horse for the title.',
   jay: 'The most decorated franchise in league history.',
   brice: 'All Hail our Lord Commissioner.',
-  pb: 'An effort was made.',
+  pb: 'God of the Waiver Wire.',
   ryan: "I've seen him lose. I've seen him win. I've never seen him quit.",
   benedict: 'A once proud franchise back on track to the top under new management.',
   michael: 'No rain, no rainbows.',

@@ -114,9 +114,9 @@ function PlayerBoard({ title, rows }: { title: string; rows: FranchisePlayerLead
   )
 }
 
-function DraftBoard({ title, rows }: { title: string; rows: FranchiseDraftPick[] }) {
+function DraftBoard({ title, rows, note = 'Ranked by Started Points above/below positional draft expectation' }: { title: string; rows: FranchiseDraftPick[]; note?: string }) {
   return (
-    <Panel title={title} note="Ranked by Started Points above/below positional draft expectation">
+    <Panel title={title} note={note}>
       <RankedRows count={rows.length}>
         {rows.map((row, index) => (
           <li key={`${row.season}-${row.overall}-${row.player}`}>
@@ -133,16 +133,16 @@ function DraftBoard({ title, rows }: { title: string; rows: FranchiseDraftPick[]
   )
 }
 
-function WaiverBoard({ title, rows }: { title: string; rows: FranchiseWaiverPick[] }) {
+function WaiverBoard({ title, rows, note = 'Genuine waiver/free-agent adds; drafted and traded players excluded' }: { title: string; rows: FranchiseWaiverPick[]; note?: string }) {
   return (
-    <Panel title={title} note="Genuine waiver/free-agent adds; drafted and traded players excluded">
+    <Panel title={title} note={note}>
       <RankedRows count={rows.length}>
         {rows.map((row, index) => (
           <li key={`${row.season}-${row.week}-${row.player}`}>
             <span className="franchise-analytics__rank">{index + 1}</span>
             <span className="franchise-analytics__row-main">
               <strong>{row.player}</strong>
-              <small><SeasonWeek season={row.season} week={row.week} /> · {row.position}</small>
+              <small><SeasonWeek season={row.season} week={row.week} /> · {row.position} · {row.starts} starts</small>
             </span>
             <span className="franchise-analytics__value">{points(row.points)}</span>
           </li>
@@ -370,9 +370,9 @@ export default function FranchiseAnalytics({ franchiseId, currentManagerId }: { 
         <SectionHeading title="Acquisition department" />
         <div className="franchise-analytics__grid">
           <DraftBoard title="Best draft picks" rows={analytics.draft.best} />
-          <DraftBoard title="Worst draft picks" rows={analytics.draft.worst} />
+          <DraftBoard title="Worst draft picks" rows={analytics.draft.worst} note="Traded players excluded; ranked by Started Points below positional draft expectation" />
           <WaiverBoard title="Best waiver pickups" rows={analytics.waiver.best} />
-          <WaiverBoard title="Worst waiver pickups" rows={analytics.waiver.worst} />
+          <WaiverBoard title="Worst waiver pickups" rows={analytics.waiver.worst} note="Minimum three games started; drafted and traded players excluded" />
         </div>
       </section>
 
