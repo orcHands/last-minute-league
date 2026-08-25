@@ -554,9 +554,14 @@ Recorded so the next agent doesn't re-derive any of it.
   **Et tu, Boutte?**; Patrick = **Toyotathon**.
 - Kyle owns the Monchhichi art, Tampa venue, and peach/brown palette. Dylan
   owns the Bloodsport/flag art, East Rutherford venue, and red/blue palette.
+- Kyle's franchise header is `franchise_backgrounds/kyle.png`, the owner's
+  wide Monchhichi photo. The older mislabeled `kyle.jpg` remains unused.
 - `records_expanded.json` now includes locked 2026–2028 bowl hosts and bids,
   reconstructed regular-season playoff seeds, trade draft picks, and all 32
   NFL defenses. Future hosts are displayed but excluded from historical counts.
+- Historical season cards and matchup records display the manager name plus
+  the team name recorded for that season; current-team overrides must never
+  rewrite old seasons (for example, 2025 champion Kevin / The Princess McBride).
 - The Records page no longer exposes the Points Left on Bench, Nemesis &
   Rivalries, or Fandom Scorecard boards. Bench Mob lives inside the League
   Record Book; the postseason board owns bowls, postseason multipliers, and

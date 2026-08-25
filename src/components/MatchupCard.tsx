@@ -100,7 +100,7 @@ export default function MatchupCard({ miracle }: MatchupCardProps) {
               color: homeColor,
             }}
           >
-            {winner.teamName}
+            {winner.name}
           </span>
           <span
             style={{
@@ -146,7 +146,7 @@ export default function MatchupCard({ miracle }: MatchupCardProps) {
               color: awayColor,
             }}
           >
-            {loser.teamName}
+            {loser.name}
           </span>
           <span
             style={{

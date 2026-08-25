@@ -85,7 +85,7 @@ export default function Seasons() {
                       Champion
                     </div>
                     <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, color: champion.primaryColor }}>
-                      {champion.teamName}
+                      {champion.name}
                     </div>
                     <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d' }}>
                       {s.championTeam}
