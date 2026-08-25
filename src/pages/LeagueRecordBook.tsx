@@ -542,7 +542,7 @@ function HallOfFame() {
     <section style={{ paddingTop: 64 }}>
       <SectionHeading
         eyebrow="The bottom of the book"
-        title="Last Minute League Hall of Fame"
+        title={'Last Minute League Hall of Fame · "Let\'s Remember Some Guys..."'}
         detail={`Retired for at least ${HALL_OF_FAME.rule.eligibilityLagYears} years, at least ${HALL_OF_FAME.rule.minCareerPoints} career Started Points, and no more than ${HALL_OF_FAME.rule.classSize} inductees per class. Empty years are skipped; unfinished ballots roll forward.`}
       />
       <div style={{ display: 'flex', gap: 1, marginBottom: 24, overflowX: 'auto' }}>
@@ -677,6 +677,7 @@ function TradeTrees({ search }: { search: string }) {
               <div key={side.manager_id} style={{ padding: 16, borderRight: '1px solid #393939' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', color: '#f4f4f4', marginBottom: 10 }}><ManagerName id={side.manager_id} /><span style={mono}>{side.started_points.toFixed(2)}</span></div>
                 {side.players.map(player => <div key={player.player} style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 10, padding: '6px 0', borderTop: '1px solid #2e2e2e', color: '#c6c6c6', fontSize: 12 }}><span>{player.player}{player.first_week ? ` · from W${player.first_week}` : ''}</span><span style={mono}>{player.started_points.toFixed(2)}</span></div>)}
+                {side.picks.map(pick => <div key={pick} style={{ padding: '6px 0', borderTop: '1px solid #2e2e2e', color: '#78a9ff', fontSize: 12 }}>{pick} pick</div>)}
               </div>
             ))}
           </div>
@@ -700,17 +701,6 @@ function ExpandedGroup({ group, search }: { group: RecordGroup; search: string }
   if (group === 'schedule') return <ExpandedRecordIntro title="Schedule robbery" detail={EXPANDED_RECORDS.meta.schedule}><ScheduleTables search={search} /></ExpandedRecordIntro>
   if (group === 'bench-mob') return <ExpandedRecordIntro title="Bench Mob" detail="Career and single-game bench scoring, plus the wins that survived bad lineup choices."><BenchMobTables search={search} /></ExpandedRecordIntro>
   return <ExpandedRecordIntro title="Trade trees" detail={EXPANDED_RECORDS.meta.trade}><TradeTrees search={search} /></ExpandedRecordIntro>
-}
-
-function BuiltRecordMarker() {
-  return (
-    <section style={{ paddingTop: 48 }}>
-      <SectionHeading eyebrow="Tape processed" title="The backlog moved into the record book" detail="Ironman and spiral, schedule robbery, Bench Mob and escape acts, postseason multiplier, trade trees, and Giant Killers are now live data—not placeholders." />
-      <div style={{ border: '1px solid #393939', borderLeft: '4px solid #42be65', backgroundColor: '#1c1c1c', padding: 16, color: '#c6c6c6', fontSize: 14, lineHeight: '20px' }}>
-        Postseason multiplier and Giant Killers live on the Post-season &amp; Bowls board; the other four are lookup tabs above.
-      </div>
-    </section>
-  )
 }
 
 export default function LeagueRecordBook() {
@@ -838,7 +828,6 @@ export default function LeagueRecordBook() {
         </details>
       </section>
 
-      <BuiltRecordMarker />
       <HallOfFame />
 
       <style>{`

@@ -342,7 +342,7 @@ export default function FranchiseAnalytics({ franchiseId, currentManagerId }: { 
                   <YAxis stroke="#8d8d8d" width={46} tick={{ fill: '#c6c6c6', fontSize: 12, fontFamily: 'IBM Plex Mono' }} />
                   <Tooltip content={<ChartTooltip />} labelFormatter={(label: any) => { const index = Number(label); const row = scoring[index - 1]; return row ? `${row.season} · Week ${row.week}` : label }} />
                   <Line type="monotone" dataKey="optimal" name="Optimal" stroke="#6f6f6f" strokeDasharray="2 5" strokeWidth={1} dot={false} connectNulls={false} />
-                  <Line type="monotone" dataKey="points_against" name="Points against" stroke="#c6c6c6" strokeWidth={1.5} dot={false} />
+                  <Line type="monotone" dataKey="points_against" name="Points against" stroke="#c6c6c6" strokeOpacity={0.5} strokeWidth={1.5} dot={false} />
                   <Line type="monotone" dataKey="points_for" name="Points for" stroke={`url(#franchise-manager-gradient-${franchiseId})`} strokeWidth={2} dot={false} />
                 </LineChart>
               </ResponsiveContainer>

@@ -486,12 +486,17 @@
             "s2": 147.38,
             "rank2": 1,
             "venue_info": {},
-            "venue": "Ford Field",
-            "city": "Detroit",
-            "state": "MI",
-            "attendance": 60900,
-            "indoor": true,
-            "weather": null
+            "venue": "Acrisure Stadium",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "attendance": 64050,
+            "indoor": false,
+            "weather": {
+              "low": 6,
+              "cond": "Mostly Cloudy",
+              "emoji": "☁️"
+            },
+            "game_date": "2025-12-15"
           },
           {
             "kind": "game",
@@ -554,12 +559,17 @@
             "s2": 138.0,
             "rank2": 1,
             "venue_info": {},
-            "venue": "Ford Field",
-            "city": "Detroit",
-            "state": "MI",
-            "attendance": 62800,
-            "indoor": true,
-            "weather": null
+            "venue": "Acrisure Stadium",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "attendance": 66100,
+            "indoor": false,
+            "weather": {
+              "low": 15,
+              "cond": "Partly Cloudy",
+              "emoji": "⛅"
+            },
+            "game_date": "2025-12-22"
           },
           {
             "kind": "game",

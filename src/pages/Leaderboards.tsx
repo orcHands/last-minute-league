@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, ReferenceLine,
 } from 'recharts'
@@ -510,6 +511,24 @@ export function RecruitingBoard() {
 
 export function DefensesBoard() {
   const defenses = EXPANDED_RECORDS.defenses.teams
+  type DefenseSortKey = 'started_points' | 'starts' | 'started_ppg' | 'roster_weeks' | 'drafted_times' | 'waiver_adds'
+  const [sortKey, setSortKey] = useState<DefenseSortKey>('started_points')
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc')
+  const sortedDefenses = [...defenses].sort((a, b) => {
+    const delta = a[sortKey] - b[sortKey]
+    return (sortDirection === 'desc' ? -delta : delta) || a.defense.localeCompare(b.defense)
+  })
+  const toggleSort = (key: DefenseSortKey) => {
+    if (key === sortKey) setSortDirection(direction => direction === 'desc' ? 'asc' : 'desc')
+    else {
+      setSortKey(key)
+      setSortDirection('desc')
+    }
+  }
+  const sortableHeaders: Record<string, DefenseSortKey> = {
+    'Started Points': 'started_points', Starts: 'starts', 'Started PPG': 'started_ppg',
+    'Roster weeks': 'roster_weeks', Drafted: 'drafted_times', 'Waiver adds': 'waiver_adds',
+  }
   const best = EXPANDED_RECORDS.defenses.single_games[0]
   const rostered = [...defenses].sort((a, b) => b.roster_weeks - a.roster_weeks)[0]
   const earliest = defenses.filter(row => row.earliest_draft).sort((a, b) => (a.earliest_draft?.overall ?? 999) - (b.earliest_draft?.overall ?? 999))[0]
@@ -535,13 +554,16 @@ export function DefensesBoard() {
         <table style={{ borderCollapse: 'collapse', width: '100%', minWidth: 1080 }}>
           <thead>
             <tr style={{ backgroundColor: '#393939' }}>
-              {['#', 'Defense', 'Started Points', 'Starts', 'Started PPG', 'Roster weeks', 'Drafted', 'Earliest draft', 'Waiver adds', 'Top waiver manager'].map(h => (
-                <th key={h} style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 11, color: '#c6c6c6', letterSpacing: '0.32em', textTransform: 'uppercase', padding: '10px 12px', textAlign: h === '#' || h === 'Defense' ? 'left' : 'right' }}>{h}</th>
-              ))}
+              {['#', 'Defense', 'Started Points', 'Starts', 'Started PPG', 'Roster weeks', 'Drafted', 'Earliest draft', 'Waiver adds', 'Top waiver manager'].map(h => {
+                const key = sortableHeaders[h]
+                return <th key={h} aria-sort={key && key === sortKey ? (sortDirection === 'desc' ? 'descending' : 'ascending') : undefined} style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 12, color: '#c6c6c6', letterSpacing: '0.32em', textTransform: 'uppercase', padding: key ? 0 : '10px 12px', textAlign: h === '#' || h === 'Defense' ? 'left' : 'right' }}>
+                  {key ? <button type="button" onClick={() => toggleSort(key)} style={{ width: '100%', border: 0, background: 'transparent', color: 'inherit', cursor: 'pointer', padding: '10px 12px', textAlign: 'right', font: 'inherit', letterSpacing: 'inherit', textTransform: 'inherit', whiteSpace: 'nowrap' }}>{h}{key === sortKey ? (sortDirection === 'desc' ? ' ↓' : ' ↑') : ''}</button> : h}
+                </th>
+              })}
             </tr>
           </thead>
           <tbody>
-            {defenses.map((d, i) => (
+            {sortedDefenses.map((d, i) => (
               <tr key={d.defense} style={{ borderBottom: '1px solid #393939', backgroundColor: '#262626' }}
                 onMouseEnter={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#393939' }}
                 onMouseLeave={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#262626' }}

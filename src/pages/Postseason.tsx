@@ -50,12 +50,12 @@ function Heading({ eyebrow, title, detail }: { eyebrow: string; title: string; d
   )
 }
 
-function Table({ headers, children, minWidth = 720 }: { headers: string[]; children: React.ReactNode; minWidth?: number }) {
+function Table({ headers, children, minWidth = 720, headerAlignments }: { headers: string[]; children: React.ReactNode; minWidth?: number; headerAlignments?: Array<'left' | 'right'> }) {
   return (
     <div style={{ overflowX: 'auto', border: '1px solid #393939' }}>
       <table style={{ minWidth, width: '100%', borderCollapse: 'collapse', ...mono }}>
         <thead><tr style={{ backgroundColor: '#262626' }}>{headers.map((header, index) => (
-          <th key={`${header}-${index}`} style={{ padding: '9px 12px', borderBottom: '1px solid #393939', color: '#8d8d8d', fontSize: 12, fontWeight: 400, textAlign: index === 0 ? 'left' : 'right', whiteSpace: 'nowrap' }}>{header}</th>
+          <th key={`${header}-${index}`} style={{ padding: '9px 12px', borderBottom: '1px solid #393939', color: '#8d8d8d', fontSize: 12, fontWeight: 400, textAlign: headerAlignments?.[index] ?? (index === 0 ? 'left' : 'right'), whiteSpace: 'nowrap' }}>{header}</th>
         ))}</tr></thead>
         <tbody>{children}</tbody>
       </table>
@@ -102,11 +102,15 @@ function BowlLogo({ bowl, season }: { bowl: string; season: number }) {
 function venue(row: BowlHistoryRow): string {
   const location = [row.city, row.state].filter(Boolean).join(', ')
   const attendance = row.attendance === null ? 'Attendance gap' : `${typeof row.attendance === 'number' ? row.attendance.toLocaleString() : row.attendance} attending`
-  const weather = row.indoor ? 'Indoors' : row.weather ? `${row.weather.emoji} ${row.weather.low}°F · ${row.weather.cond}` : 'Weather gap'
+  const weather = row.indoor
+    ? 'Indoors'
+    : row.weather && row.weather.low !== null && row.weather.low !== undefined
+      ? `${row.weather.emoji} ${row.weather.low}°F · ${row.weather.cond}`
+      : 'Weather gap'
   return `${row.venue ?? 'Venue gap'} · ${location || 'Location gap'} · ${attendance} · ${weather}`
 }
 
-function BowlTable({ name, rows }: { name: string; rows: BowlHistoryRow[] }) {
+function BowlTable({ name, rows, future }: { name: string; rows: BowlHistoryRow[]; future?: { venues: Array<{ season: number; venue: string; city: string; state: string }>; bids: string[] } }) {
   const accent = BOWL_ASSETS[name]?.color ?? '#f1c21b'
   return (
     <section style={{ marginBottom: 40 }}>
@@ -114,17 +118,31 @@ function BowlTable({ name, rows }: { name: string; rows: BowlHistoryRow[] }) {
         <h3 style={{ margin: 0, color: '#f4f4f4', fontSize: 20, lineHeight: '28px', fontWeight: 400 }}>{name}</h3>
         <div style={{ color: '#8d8d8d', fontSize: 12, lineHeight: '16px' }}>{rows.length} games · one logo per season · full venue canon</div>
       </div>
-      <Table headers={['Logo / year', 'Champion', 'Runner-up', 'Bowl MVP', 'Stadium · location · attendance · weather']} minWidth={1240}>
+      <Table headers={['Logo / year', 'Champion', 'Runner-up', 'Bowl MVP', 'Stadium · location · attendance · weather']} headerAlignments={['left', 'left', 'left', 'left', 'left']} minWidth={1240}>
         {rows.map(row => (
           <tr key={`${name}-${row.season}`}>
             <td style={{ ...cell('left'), width: 132 }}><BowlLogo bowl={name} season={row.season} /><SeasonWeek season={row.season} /></td>
             <td style={cell('left')}><strong style={{ color: getManager(row.winner_id)?.primaryColor ?? '#f4f4f4' }}>{row.winner_team}</strong><div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{managerName(row.winner_id)} · <span style={mono}>{row.winner_score.toFixed(2)}</span></div></td>
             <td style={cell('left')}>{row.runner_up_team}<div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{managerName(row.runner_up_id)} · <span style={mono}>{row.runner_up_score.toFixed(2)}</span></div></td>
-            <td style={cell('left')}>{row.mvp ? <>{row.mvp.player}<div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.mvp.position === 'DEF' ? 'D/ST' : row.mvp.position} · <span style={mono}>{row.mvp.points.toFixed(2)} pts</span></div></> : '—'}</td>
+            <td style={cell('left')}>{row.mvp ? <>{row.mvp.player}<div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.mvp.position === 'DEF' ? 'D/ST' : row.mvp.position} · <span style={mono}>{row.mvp.points.toFixed(2)} pts</span></div>{row.mvp.side === 'losing team' && <div style={{ marginTop: 4, color: '#ff8389', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, fontWeight: 600 }}>Rare · losing-team MVP</div>}</> : '—'}</td>
             <td style={{ ...cell('left'), whiteSpace: 'normal', minWidth: 380, color: '#c6c6c6', fontFamily: "'IBM Plex Sans', sans-serif" }}>{venue(row)}</td>
           </tr>
         ))}
+        {future?.venues.map(site => (
+          <tr key={`${name}-future-${site.season}`} style={{ backgroundColor: '#1c1c1c' }}>
+            <td style={{ ...cell('left'), width: 132 }}><div style={{ color: '#78a9ff', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, marginBottom: 6 }}>Locked future host</div><span style={mono}>{site.season}</span></td>
+            <td style={{ ...cell('left'), color: '#6f6f6f' }}>—</td>
+            <td style={{ ...cell('left'), color: '#6f6f6f' }}>—</td>
+            <td style={{ ...cell('left'), color: '#6f6f6f' }}>—</td>
+            <td style={{ ...cell('left'), whiteSpace: 'normal', minWidth: 380, color: '#c6c6c6', fontFamily: "'IBM Plex Sans', sans-serif" }}>{site.venue} · {site.city}, {site.state}</td>
+          </tr>
+        ))}
       </Table>
+      {future && future.bids.length > 0 && (
+        <p style={{ margin: '10px 0 0', color: '#a8a8a8', fontSize: 12, lineHeight: '18px' }}>
+          Future-game bids on file: <span style={{ color: '#f4f4f4' }}>{future.bids.join(' · ')}</span>. Bids are not locked hosts and are not included in host counts.
+        </p>
+      )}
     </section>
   )
 }
@@ -148,6 +166,11 @@ export default function PostseasonBoard() {
   const post = EXPANDED_RECORDS.postseason
   const [position, setPosition] = useState<RecordPosition>('QB')
   const singleGames = post.single_games_by_position[position]
+  const futureHostCounts = new Map(post.future_host_counts.map(row => [row.location, row.games]))
+  const hostRows = [
+    ...post.host_leaders.map(row => ({ ...row, future: futureHostCounts.get(row.location) ?? 0 })),
+    ...post.future_host_counts.filter(row => !post.host_leaders.some(host => host.location === row.location)).map(row => ({ location: row.location, games: 0, future: row.games })),
+  ].sort((a, b) => b.games - a.games || b.future - a.future || a.location.localeCompare(b.location))
 
   return (
     <div>
@@ -208,7 +231,7 @@ export default function PostseasonBoard() {
 
       <section style={{ marginBottom: 64 }}>
         <Heading eyebrow="The four bowls" title="Every champion, runner-up, MVP, stadium, crowd, and forecast" detail="The 100px art is season-specific. Historical team names are preserved here—current team overrides never rewrite old bowl results." />
-        {Object.entries(post.bowls).map(([name, rows]) => <BowlTable key={name} name={name} rows={rows} />)}
+        {Object.entries(post.bowls).map(([name, rows]) => <BowlTable key={name} name={name} rows={rows} future={post.future_bowls[name]} />)}
       </section>
 
       <section style={{ marginBottom: 64 }}>
@@ -232,14 +255,14 @@ export default function PostseasonBoard() {
         <div className="post-four-grid">
           {[['Coldest bowl games', post.coldest_bowls], ['Warmest bowl games', post.warmest_bowls], ['Most attended bowl games', post.most_attended_bowls]].map(([title, rows]) => <section key={String(title)}>
             <h3 style={{ color: '#f4f4f4', fontSize: 16 }}>{String(title)}</h3>
-            <Table headers={['Bowl / year', 'Venue', String(title).includes('attended') ? 'Attendance' : 'Low']} minWidth={560}>
-              {(rows as BowlHistoryRow[]).map(row => <tr key={`${title}-${row.bowl}-${row.season}`}><td style={cell('left')}>{row.bowl}<div><SeasonWeek season={row.season} /></div></td><td style={{ ...cell('left'), whiteSpace: 'normal' }}>{row.venue}<div style={{ color: '#8d8d8d', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.city}, {row.state}</div></td><td style={cell()}>{String(title).includes('attended') ? (typeof row.attendance === 'number' ? row.attendance.toLocaleString() : row.attendance) : `${row.weather?.emoji ?? ''} ${row.weather?.low}°F`}</td></tr>)}
+            <Table headers={['Bowl / year', 'Venue', String(title).includes('attended') ? 'Attendance' : 'Low']} minWidth={620}>
+              {(rows as BowlHistoryRow[]).map(row => <tr key={`${title}-${row.bowl}-${row.season}`}><td style={{ ...cell('left'), whiteSpace: 'normal', width: 170, maxWidth: 170 }}>{row.bowl}<div><SeasonWeek season={row.season} /></div></td><td style={{ ...cell('left'), whiteSpace: 'normal', minWidth: 260 }}>{row.venue}<div style={{ color: '#8d8d8d', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.city}, {row.state}</div></td><td style={cell()}>{String(title).includes('attended') ? (typeof row.attendance === 'number' ? row.attendance.toLocaleString() : row.attendance) : `${row.weather?.emoji ?? ''} ${row.weather?.low}°F`}</td></tr>)}
             </Table>
           </section>)}
           <section>
             <h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Most frequent host states / countries</h3>
-            <Table headers={['Location', 'Bowl games']} minWidth={400}>
-              {post.host_leaders.slice(0, 12).map((row, index) => <tr key={row.location}><td style={cell('left')}><span style={{ color: index < 3 ? '#f1c21b' : '#6f6f6f', marginRight: 8 }}>#{index + 1}</span>{row.location}</td><td style={cell()}>{row.games}</td></tr>)}
+            <Table headers={['Location', 'Historical bowl games']} minWidth={440}>
+              {hostRows.map((row, index) => <tr key={row.location}><td style={cell('left')}><span style={{ color: index < 3 ? '#f1c21b' : '#6f6f6f', marginRight: 8 }}>#{index + 1}</span>{row.location}</td><td style={cell()}>{row.games}{row.future > 0 ? ` (+${row.future} locked)` : ''}</td></tr>)}
             </Table>
           </section>
         </div>

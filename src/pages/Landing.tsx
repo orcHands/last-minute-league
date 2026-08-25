@@ -55,23 +55,19 @@ export default function Landing() {
             Last Minute Football League · 2013–present
           </div>
 
-          {/* Ghosted wordmark — deliberately low-contrast, treated as decoration.
-              The accessible name lives on the eyebrow above, so this is aria-hidden. */}
-          <div
-            aria-hidden="true"
+          <img
+            src={withBase('images/LML_13.png')}
+            alt="Last Minute Football League 13 seasons"
+            width={594}
+            height={594}
             style={{
-              fontFamily: "'IBM Plex Sans', sans-serif",
-              fontWeight: 200,
-              fontSize: 'clamp(72px, 13vw, 180px)',
-              lineHeight: 1,
-              color: '#303030',
-              letterSpacing: '-0.03em',
+              display: 'block',
+              width: 'clamp(260px, 38vw, 520px)',
+              maxWidth: '100%',
+              height: 'auto',
               margin: '0 0 48px',
-              userSelect: 'none',
             }}
-          >
-            LMFL
-          </div>
+          />
 
           {/* Dedication pill */}
           <div

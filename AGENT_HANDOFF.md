@@ -544,3 +544,20 @@ Recorded so the next agent doesn't re-derive any of it.
 - **196 award photo slots** remain empty, as before, and that is expected.
 - **`rivalries.json` carries two competing metrics.** The owner has not picked
   (§5.1).
+
+---
+
+## 11. Changed 2026-08-25
+
+- Current canon: Alex = **Coffin Floppers**, Detroit / Ford Field; Kevin =
+  **The Princess McBride**, Pittsburgh / Acrisure Stadium; Jason =
+  **Et tu, Boutte?**; Patrick = **Toyotathon**.
+- Kyle owns the Monchhichi art, Tampa venue, and peach/brown palette. Dylan
+  owns the Bloodsport/flag art, East Rutherford venue, and red/blue palette.
+- `records_expanded.json` now includes locked 2026–2028 bowl hosts and bids,
+  reconstructed regular-season playoff seeds, trade draft picks, and all 32
+  NFL defenses. Future hosts are displayed but excluded from historical counts.
+- The Records page no longer exposes the Points Left on Bench, Nemesis &
+  Rivalries, or Fandom Scorecard boards. Bench Mob lives inside the League
+  Record Book; the postseason board owns bowls, postseason multipliers, and
+  Giant Killers.

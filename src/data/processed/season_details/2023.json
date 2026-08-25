@@ -900,7 +900,7 @@
             "indoor": false,
             "weather": {
               "low": 35,
-              "cond": "Partly Cloudy, 87 Arrests, Chance of fighting the line cook: 96%",
+              "cond": "Partly Cloudy, Chance of fighting the line cook: 96%",
               "emoji": "⛅"
             },
             "game_date": "2023-12-31"

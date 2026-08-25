@@ -181,6 +181,7 @@ export interface DefenseGameRecord {
 export interface TradeSide {
   manager_id: string
   players: Array<{ player: string; first_week: number | null; started_points: number }>
+  picks: string[]
   started_points: number
 }
 
@@ -215,10 +216,15 @@ interface ExpandedRecords {
     biggest_blowouts: PostseasonGame[]
     upsets: PostseasonGame[]
     bowls: Record<string, BowlHistoryRow[]>
+    future_bowls: Record<string, {
+      venues: Array<{ season: number; venue: string; city: string; state: string }>
+      bids: string[]
+    }>
     coldest_bowls: BowlHistoryRow[]
     warmest_bowls: BowlHistoryRow[]
     most_attended_bowls: BowlHistoryRow[]
     host_leaders: Array<{ location: string; games: number }>
+    future_host_counts: Array<{ location: string; games: number }>
   }
   defenses: { teams: DefenseRecord[]; single_games: DefenseGameRecord[] }
   trade_trees: TradeTree[]

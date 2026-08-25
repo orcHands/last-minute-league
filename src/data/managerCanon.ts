@@ -163,7 +163,7 @@ export const MANAGER_COLORS: Record<ManagerId, ColorTriple> = {
   laskey: { primary: '#B09AD6', secondary: '#2F174F', tertiary: '#643CDD' },
   sara: { primary: '#FF6700', secondary: '#404040', tertiary: '#58595B' },
   jason: { primary: '#7BBD00', secondary: '#003831', tertiary: '#2B751C' },
-  dylan: { primary: '#FFA85C', secondary: '#523F28', tertiary: '#F3D2AF' },
+  dylan: { primary: '#FF0000', secondary: '#002FA7', tertiary: '#A6A6A6' },
   becca: { primary: '#FF8C00', secondary: '#8A226F', tertiary: '#757575' },
   megan: { primary: '#00C8B3', secondary: '#6155F5', tertiary: '#1C2E39' },
   aboubacar: { primary: '#BE74C6', secondary: '#5D56A7', tertiary: '#561E2B' },
@@ -171,7 +171,7 @@ export const MANAGER_COLORS: Record<ManagerId, ColorTriple> = {
   alex: { primary: '#9AAFCB', secondary: '#23345A', tertiary: '#81271A' },
   dave: { primary: '#D2E3B2', secondary: '#28234B', tertiary: '#AAD06C' },
   kelly: { primary: '#FABBCB', secondary: '#00555A', tertiary: '#613F75' },
-  kyle: { primary: '#FF0000', secondary: '#002FA7', tertiary: '#A6A6A6' },
+  kyle: { primary: '#FFA85C', secondary: '#523F28', tertiary: '#F3D2AF' },
 }
 
 // Current/latest home location from the home-stadium canon. This is the
@@ -187,7 +187,7 @@ export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
   ryan: 'Santa Clara, CA',
   tommy: 'Arlington, TX',
   carter: 'Lubbock, TX',
-  kevin: 'Detroit, MI',
+  kevin: 'Pittsburgh, PA',
   benedict: 'Foxborough, MA',
   laskey: 'London, UK',
   sara: 'Knoxville, TN',
@@ -197,7 +197,7 @@ export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
   megan: 'Inglewood, CA',
   aboubacar: 'Austin, TX',
   kat: 'Eugene, OR',
-  alex: 'New Orleans, LA',
+  alex: 'Detroit, MI',
   dave: 'Champaign, IL',
   kelly: 'Ann Arbor, MI',
   kyle: 'Tampa, FL',
@@ -207,8 +207,9 @@ export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
 // manager's short name is more honest than inventing names for the other 20.
 export const CURRENT_TEAM_NAMES: Partial<Record<ManagerId, string>> = {
   kevin: 'The Princess McBride',
-  jason: 'Et Tu, Butte?',
+  jason: 'Et tu, Boutte?',
   alex: 'Coffin Floppers',
+  pb: 'Toyotathon',
 }
 
 export function currentTeamName(id: ManagerId): string | null {
