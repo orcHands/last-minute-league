@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { SEASONS, getManager, SEASON_DETAIL_YEARS } from '../data/league'
 import SeasonDetailBody from '../components/SeasonDetailBody'
+import FutureSeasonDetail from '../components/FutureSeasonDetail'
 import Badge from '../components/Badge'
 
 export default function Seasons() {
@@ -31,7 +32,7 @@ export default function Seasons() {
             Seasons
           </h1>
           <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#8d8d8d', margin: 0 }}>
-            2013–2025 · 13 seasons · Select a year for details
+            2013–2026 · 13 completed seasons · 2026 on deck · Select a year for details
           </p>
         </div>
       </div>
@@ -49,6 +50,7 @@ export default function Seasons() {
           {SEASONS.map(s => {
             const champion = getManager(s.champion)
             const isSelected = selected === s.year
+            const accent = s.status === 'upcoming' ? '#f1c21b' : champion?.primaryColor ?? '#f4f4f4'
             return (
               <button
                 key={s.year}
@@ -60,7 +62,7 @@ export default function Seasons() {
                   padding: 20,
                   background: 'none',
                   border: 'none',
-                  borderTop: isSelected ? `3px solid ${champion?.primaryColor ?? '#f4f4f4'}` : '3px solid transparent',
+                  borderTop: isSelected ? `3px solid ${accent}` : '3px solid transparent',
                   backgroundColor: isSelected ? '#393939' : '#262626',
                   cursor: 'pointer',
                   textAlign: 'left',
@@ -78,10 +80,23 @@ export default function Seasons() {
                     {s.year}
                   </span>
                   {s.asterisk && <Badge type="asterisk" size="sm" label="*" />}
+                  {s.status === 'upcoming' && <Badge type="info" size="sm" label="Upcoming" />}
                 </div>
-                {champion && (
+                {s.status === 'upcoming' && s.featuredBowl ? (
                   <div>
-                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 2 }}>
+                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 4 }}>
+                      Teremana Tequila Bowl site
+                    </div>
+                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, lineHeight: '18px', color: '#f1c21b' }}>
+                      {s.featuredBowl.venue}
+                    </div>
+                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, lineHeight: '16px', color: '#8d8d8d', marginTop: 2 }}>
+                      {s.featuredBowl.city}, {s.featuredBowl.state}
+                    </div>
+                  </div>
+                ) : champion && (
+                  <div>
+                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 2 }}>
                       Champion
                     </div>
                     <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 14, color: champion.primaryColor }}>
@@ -92,14 +107,16 @@ export default function Seasons() {
                     </div>
                   </div>
                 )}
-                <div>
-                  <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 2 }}>
-                    Points leader
+                {s.status === 'completed' && (
+                  <div>
+                    <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 2 }}>
+                      Points leader
+                    </div>
+                    <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#c6c6c6', fontVariantNumeric: 'tabular-nums' }}>
+                      {getManager(s.pointsLeader)?.name} · {s.pointsLeaderPF.toFixed(2)}
+                    </div>
                   </div>
-                  <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, color: '#c6c6c6', fontVariantNumeric: 'tabular-nums' }}>
-                    {getManager(s.pointsLeader)?.name} · {s.pointsLeaderPF.toFixed(2)}
-                  </div>
-                </div>
+                )}
               </button>
             )
           })}
@@ -115,7 +132,9 @@ export default function Seasons() {
         )}
 
         {season && (
-          SEASON_DETAIL_YEARS.includes(season.year)
+          season.status === 'upcoming'
+            ? <FutureSeasonDetail />
+            : SEASON_DETAIL_YEARS.includes(season.year)
             ? <SeasonDetailBody year={season.year} />
             : (
               <div style={{ border: '1px solid #393939', backgroundColor: '#262626', padding: 24, marginTop: 32 }}>

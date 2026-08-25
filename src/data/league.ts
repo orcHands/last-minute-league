@@ -47,4 +47,6 @@ export { DIVISION_NAMES, canonicalDivisionName, divisionKey } from './divisionCa
 export { LEAGUE_RECORD_BOOK, SCORE_ABERRATIONS, POSITION_WHISPERERS, RECORD_INSIGHT_METHOD, HALL_OF_FAME, RECORD_POSITIONS } from './build/recordBook'
 export { EXPANDED_RECORDS } from './build/expandedRecords'
 export { getSeasonDetail, SEASON_DETAIL_YEARS } from './build/seasonDetail'
+export { FUTURE_SEASON, FUTURE_SEASON_BOWLS, FUTURE_SEASON_DIVISIONS, FUTURE_SEASON_DRAFT } from './build/futureSeason'
+export type { FutureSeasonTeam, FutureSeasonDivision, FutureDraftPick, FutureDraftRound, FutureBowlSite } from './build/futureSeason'
 export type { SeasonDetail, StandingRowDetail, BowlCard, BowlMvp, Bracket, BracketRound, BracketEntry, BracketWeather, AwardFinalist, AllDivision, AllDivisionTeam, AllDivisionSlot } from './build/seasonDetail'

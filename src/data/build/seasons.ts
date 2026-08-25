@@ -1,8 +1,10 @@
 import { normalizeManager } from '../managerCanon'
 import { honorsSeasons } from './honorsHelpers'
+import { FUTURE_SEASON } from './futureSeason'
 
 export interface Season {
   year: number
+  status: 'completed' | 'upcoming'
   asterisk: boolean
   asteriskReason?: string
   champion: string
@@ -18,6 +20,12 @@ export interface Season {
   consolationTeam: string
   ninthPlace?: string
   lettyWinner: string
+  featuredBowl?: {
+    name: string
+    venue: string
+    city: string
+    state: string
+  }
 }
 
 // League canon, not derivable from any processed field.
@@ -28,7 +36,7 @@ const ASTERISKS: Record<number, string> = {
 
 const seasonsHonors = honorsSeasons()
 
-export const SEASONS: Season[] = Object.entries(seasonsHonors)
+const completedSeasons: Season[] = Object.entries(seasonsHonors)
   .map(([yearStr, s]) => {
     const year = Number(yearStr)
     const champion = s.podium.find(p => p.place === 1)
@@ -37,6 +45,7 @@ export const SEASONS: Season[] = Object.entries(seasonsHonors)
 
     return {
       year,
+      status: 'completed' as const,
       asterisk: !!asteriskReason,
       asteriskReason,
       champion: champion ? normalizeManager(champion.manager) : '',
@@ -55,3 +64,25 @@ export const SEASONS: Season[] = Object.entries(seasonsHonors)
     }
   })
   .sort((a, b) => a.year - b.year)
+
+export const SEASONS: Season[] = [
+  ...completedSeasons,
+  {
+    year: FUTURE_SEASON.year,
+    status: 'upcoming',
+    asterisk: false,
+    champion: '',
+    championTeam: '',
+    runnerUp: '',
+    runnerUpTeam: '',
+    pointsLeader: '',
+    pointsLeaderPF: 0,
+    pointsLeaderTeam: '',
+    thirdPlace: '',
+    thirdPlaceTeam: '',
+    consolation: '',
+    consolationTeam: '',
+    lettyWinner: '',
+    featuredBowl: FUTURE_SEASON.featuredBowl,
+  },
+]

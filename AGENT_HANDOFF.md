@@ -562,6 +562,10 @@ Recorded so the next agent doesn't re-derive any of it.
 - Historical season cards and matchup records display the manager name plus
   the team name recorded for that season; current-team overrides must never
   rewrite old seasons (for example, 2025 champion Kevin / The Princess McBride).
+- `/seasons/2026` is an upcoming-season module, not fabricated season-detail
+  JSON. It holds the current 12-team field, divisions, 15-round draft order,
+  declared keepers, and four locked bowl sites. Results-based sections remain
+  explicit empty states until real 2026 data lands.
 - The Records page no longer exposes the Points Left on Bench, Nemesis &
   Rivalries, or Fandom Scorecard boards. Bench Mob lives inside the League
   Record Book; the postseason board owns bowls, postseason multipliers, and

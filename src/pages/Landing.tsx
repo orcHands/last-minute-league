@@ -228,8 +228,8 @@ export default function Landing() {
               {
                 to: '/seasons',
                 title: 'Seasons',
-                desc: '2013–2025. All 13 seasons, champions, brackets, weekly scores.',
-                stat: '13 seasons',
+                desc: '2013–2026. Thirteen completed seasons plus the 2026 field, draft order, and locked bowl sites.',
+                stat: '13 + 1 on deck',
               },
               {
                 to: '/franchises',

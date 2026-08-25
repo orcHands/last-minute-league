@@ -206,8 +206,16 @@ export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
 // Current-season team identities. Deliberately partial: falling back to a
 // manager's short name is more honest than inventing names for the other 20.
 export const CURRENT_TEAM_NAMES: Partial<Record<ManagerId, string>> = {
+  brice: 'Tua Fault',
+  zac: 'Goffsides',
+  whitaker: 'The Caleb Will-Wins',
+  michael: 'The Fumblers',
+  ryan: 'The Kittle Prince',
+  tommy: 'Kenosha Kickers',
+  carter: 'Arc the Ladd McConkey',
   kevin: 'The Princess McBride',
   jason: 'Et tu, Boutte?',
+  megan: 'Tiny Panthers',
   alex: 'Coffin Floppers',
   pb: 'Toyotathon',
 }
