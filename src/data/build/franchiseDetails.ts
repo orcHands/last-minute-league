@@ -44,7 +44,7 @@ const HOME_VENUES: Record<ManagerId, FranchiseHomeVenue> = {
   ryan: { stadium: "Levi's Stadium", city: 'Santa Clara', state: 'CA', capacity: 68500 },
   tommy: { stadium: 'AT&T Stadium', city: 'Arlington', state: 'TX', capacity: 80000 },
   carter: { stadium: 'Jones AT&T Stadium', city: 'Lubbock', state: 'TX', capacity: 60454 },
-  kevin: { stadium: 'Acrisure Stadium', city: 'Pittsburgh', state: 'PA', capacity: 68400 },
+  kevin: { stadium: 'Ford Field', city: 'Detroit', state: 'MI', capacity: 65000 },
   benedict: { stadium: 'Gillette Stadium', city: 'Foxborough', state: 'MA', capacity: 65878 },
   laskey: { stadium: 'Tottenham Hotspur Stadium', city: 'London', state: 'UK', capacity: 62850 },
   sara: { stadium: 'Neyland Stadium', city: 'Knoxville', state: 'TN', capacity: 101915 },

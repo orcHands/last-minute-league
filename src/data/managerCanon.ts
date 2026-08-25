@@ -2,10 +2,9 @@
 // string across data/processed/*.json into one canonical id.
 //
 // Colors below are real canon (Hoss's manager card sheet, 2026-07-21).
-// teamName is still a PLACEHOLDER: team_names.json (11 canon manager team
-// names + 4 franchise nicknames) has not been exported from Cowork memory
-// yet — see CLAUDE.md "Canon currently only in Cowork memory". Swap
-// placeholderTeamName() for real data once that file lands in data/processed/.
+// Most teamName values are still placeholders pending team_names.json. Current
+// names that Hoss explicitly settles live in CURRENT_TEAM_NAMES until that
+// file lands; historical season names continue to come from league.json.
 
 import { withBase } from '../lib/assetPath'
 
@@ -188,7 +187,7 @@ export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
   ryan: 'Santa Clara, CA',
   tommy: 'Arlington, TX',
   carter: 'Lubbock, TX',
-  kevin: 'Pittsburgh, PA',
+  kevin: 'Detroit, MI',
   benedict: 'Foxborough, MA',
   laskey: 'London, UK',
   sara: 'Knoxville, TN',
@@ -204,7 +203,18 @@ export const MANAGER_HOME_LOCATIONS: Record<ManagerId, string> = {
   kyle: 'Tampa, FL',
 }
 
+// Current-season team identities. Deliberately partial: falling back to a
+// manager's short name is more honest than inventing names for the other 21.
+export const CURRENT_TEAM_NAMES: Partial<Record<ManagerId, string>> = {
+  kevin: 'Coffin Floppers',
+  jason: 'Et Tu, Butte?',
+}
+
+export function currentTeamName(id: ManagerId): string | null {
+  return CURRENT_TEAM_NAMES[id] ?? null
+}
+
 /** PLACEHOLDER team name — real canon (11 manager names + 4 franchise nicknames) not yet exported. */
 export function placeholderTeamName(id: ManagerId): string {
-  return DISPLAY_NAMES[id].name
+  return currentTeamName(id) ?? DISPLAY_NAMES[id].name
 }

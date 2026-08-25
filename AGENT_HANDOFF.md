@@ -8,8 +8,8 @@ Authoritative current-state document. Last updated 2026-08-24 (round 2).
 |---|---|---|---|
 | 1 | **Players section** | `src/pages/Players.tsx` is a 136-line stub. See **§5.4** | **Partly — read §5.4 before starting** |
 | 2 | Franchise detail views | `src/pages/Franchises.tsx` is an index (~235 lines). Needs detail routes. See §5.1 | Partly — rivalries done, ~10 rollups are not |
-| 3 | Records book board | `src/pages/Records.tsx` already composes **8 boards**. This adds a 9th fed by `records_board.json` — not a page build from scratch. See §5.2 | Yes |
-| 4 | Hall of Fame gallery | No page yet. `hall_of_fame.json` is complete. See §5.3 + §6 | Yes |
+| 3 | Records book board | **Built 2026-08-25.** `LeagueRecordBook.tsx` is the first of 9 boards and consumes `records_board.json` plus `league_record_insights.json`. | Yes |
+| 4 | Hall of Fame gallery | **Built 2026-08-25** at the bottom of the League Record Book board. See §5.3 + §6 | Yes |
 
 Awards, brackets, standings, All-Division, bowls, playoff venues/weather and
 all 13 season pages are built and shipping.
@@ -235,15 +235,16 @@ The Lang franchise has only 4 opponents clearing the 3-meeting floor. Render
 
 ### 5.2 Records page
 
-`src/pages/Records.tsx` already exists and works: a sidebar of **8 boards**
+`src/pages/Records.tsx` already exists and works: a sidebar of **9 boards**
 (Post-season & Bowls, Monday Night Miracle, Drafter vs Closer, Points Left on
 Bench, Nemesis & Rivalries, Fandom Scorecard, Recruiting Board, NFL Defenses),
 each a component composed into the page. `Postseason.tsx` and
 `Leaderboards.tsx` are content modules feeding it, **not pages** — don't add
 page chrome to them.
 
-**This task adds a 9th board**, "Record Book", fed by `records_board.json`.
-Follow the existing `BOARDS` array pattern at the top of `Records.tsx`.
+The 9th board, **"League Record Book," is built** and fed by `records_board.json`
+plus `league_record_insights.json` for era-adjusted aberrations and positional
+Whisperer rankings. It is the default/first board in `Records.tsx`.
 Every row carries `season` and `week`, so deep-link each to `/seasons/{year}`.
 
 ```
@@ -266,9 +267,8 @@ narrative.
 
 ### 5.3 Hall of Fame gallery
 
-No page exists yet. `hall_of_fame.json` is complete and the rule is settled —
-see §6. Route it under a nav entry of its own or as a section of the Records
-page; the owner has not specified, so ask.
+The gallery is built at the bottom of the League Record Book board using
+`hall_of_fame.json`; it deliberately has no separate nav entry.
 
 **One wrinkle to handle in the UI:** classes are emitted per year, but under
 the 250-point floor **not every year has a class**. The first class is

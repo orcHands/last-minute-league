@@ -6,9 +6,7 @@ const NAV_LINKS = [
   { to: '/', label: 'LMFL' },
   { to: '/franchises', label: 'Franchises' },
   { to: '/seasons', label: 'Seasons' },
-  { to: '/players', label: 'Players' },
   { to: '/records', label: 'Records' },
-  { to: '/about', label: 'About' },
 ]
 
 export default function Nav() {

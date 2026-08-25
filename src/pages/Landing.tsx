@@ -244,20 +244,8 @@ export default function Landing() {
               {
                 to: '/records',
                 title: 'Records',
-                desc: 'The four bowls, phase splits, comeback records, bench regret, rivalries.',
-                stat: '4 bowls · 7 boards',
-              },
-              {
-                to: '/players',
-                title: 'Players',
-                desc: 'Travis Kelce with 2,612.76 started points. Positional leaders.',
-                stat: '52 Bowl MVPs',
-              },
-              {
-                to: '/about',
-                title: 'About & Methodology',
-                desc: '"Started Points", asterisk seasons, data provenance.',
-                stat: null,
+                desc: 'League record book, outliers, position whisperers, Hall of Fame, and the four bowls.',
+                stat: '9 boards · 7 HOF classes',
               },
             ].map(item => (
               <Link

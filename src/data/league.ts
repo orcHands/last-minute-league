@@ -18,6 +18,7 @@ export type { FranchiseHonor, FranchiseHonorKind } from './build/franchiseHonors
 export type { FranchiseRingOfHonorEntry } from './build/franchiseRingOfHonor'
 export type { FranchiseAnalytics, FranchiseAffinityRow, FranchiseAllTeam, FranchiseAllTeamGroup, FranchiseAllTeamSlot, FranchiseBenchRegret, FranchiseComebackRecord, FranchiseDraftPick, FranchiseDraftRound, FranchiseFinishPoint, FranchiseGameRecord, FranchisePlayerLeader, FranchisePosition, FranchiseRival, FranchiseSeasonPoints, FranchiseWaiverPick, FranchiseWeeklyScoring } from './build/franchiseAnalytics'
 export type { DivisionKey } from './divisionCanon'
+export type { TeamGameRecord, MatchupRecord, LeagueWeekRecord, ManagerSeasonRecord, PlayerGameRecord, PlayerSeasonRecord, ScoreAberration, WhispererRow, HallOfFameInductee, HallOfFameClass, RecordPosition, TeamGameRecordKey, MatchupRecordKey, LeagueWeekRecordKey, ManagerSeasonRecordKey } from './build/recordBook'
 
 export interface LeaderboardEntry {
   rank: number
@@ -42,5 +43,6 @@ export { FRANCHISE_HONORS, getFranchiseHonors } from './build/franchiseHonors'
 export { FRANCHISE_RING_OF_HONOR, getFranchiseRingOfHonor } from './build/franchiseRingOfHonor'
 export { getFranchiseAnalytics } from './build/franchiseAnalytics'
 export { DIVISION_NAMES, canonicalDivisionName, divisionKey } from './divisionCanon'
+export { LEAGUE_RECORD_BOOK, SCORE_ABERRATIONS, POSITION_WHISPERERS, RECORD_INSIGHT_METHOD, HALL_OF_FAME, RECORD_POSITIONS } from './build/recordBook'
 export { getSeasonDetail, SEASON_DETAIL_YEARS } from './build/seasonDetail'
 export type { SeasonDetail, StandingRowDetail, BowlCard, BowlMvp, Bracket, BracketRound, BracketEntry, BracketWeather, AwardFinalist, AllDivision, AllDivisionTeam, AllDivisionSlot } from './build/seasonDetail'

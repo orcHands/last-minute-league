@@ -2,7 +2,7 @@ import franchisesJson from '../processed/franchises.json'
 import franchiseRecordsJson from '../processed/franchise_records.json'
 import {
   CANONICAL_IDS, DISPLAY_NAMES, normalizeManager, logoLarge, logoSmall,
-  MANAGER_COLORS, MANAGER_HOME_LOCATIONS, placeholderTeamName, type ManagerId,
+  MANAGER_COLORS, MANAGER_HOME_LOCATIONS, currentTeamName, placeholderTeamName, type ManagerId,
 } from '../managerCanon'
 import { buildCareerRecords, leagueData } from './careerRecords'
 import { buildChampionshipCounts, buildDivisionTitleCounts } from './honorsHelpers'
@@ -165,14 +165,15 @@ export const FRANCHISES: Franchise[] = franchisesRaw.map((f): Franchise => {
     (latest, stint) => Math.max(latest, ...stint.seasons),
     0,
   ) || null
-  const latestManagerId = f.current
+  const latestManagerId: ManagerId = f.current
     ? normalizeManager(f.current)
-    : managerIds[managerIds.length - 1]
-  const latestTeamNickname = latestSeason
+    : managerIds[managerIds.length - 1] as ManagerId
+  const historicalLatestTeamNickname = latestSeason
     ? leagueData[String(latestSeason)]?.standings.find(
       row => normalizeManager(row.manager) === latestManagerId,
     )?.team ?? null
     : null
+  const latestTeamNickname = currentTeamName(latestManagerId) ?? historicalLatestTeamNickname
 
   return {
     id: f.id,

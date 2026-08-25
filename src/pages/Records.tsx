@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PostseasonBoard from './Postseason'
+import LeagueRecordBook from './LeagueRecordBook'
 import {
   MondayNightMiracleBoard, PhaseBoard, BenchBoard, NemesisBoard,
   FandomBoard, RecruitingBoard, DefensesBoard,
@@ -8,6 +9,7 @@ import {
 // Post-season & Bowls leads, then the seven named leaderboards. This page is
 // the merge of the former /postseason and /leaderboards routes.
 const BOARDS: { id: string; label: string; render: () => React.ReactNode }[] = [
+  { id: 'record-book', label: 'League Record Book', render: () => <LeagueRecordBook /> },
   { id: 'postseason', label: 'Post-season & Bowls', render: () => <PostseasonBoard /> },
   { id: 'mnm', label: 'Monday Night Miracle', render: () => <MondayNightMiracleBoard /> },
   { id: 'phase', label: 'Drafter vs Closer', render: () => <PhaseBoard /> },
@@ -51,7 +53,7 @@ export default function Records() {
             Records
           </h1>
           <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#8d8d8d', margin: 0 }}>
-            Four named bowls and seven named boards. Real numbers, real stories.
+            League-wide records, strange outliers, position whisperers, and the Last Minute Hall of Fame.
           </p>
         </div>
       </div>
