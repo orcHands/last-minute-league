@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import AssetImage from './AssetImage'
 import FranchiseHonors from './FranchiseHonors'
 import FranchiseRingOfHonor from './FranchiseRingOfHonor'
+import FranchiseAnalytics from './FranchiseAnalytics'
 import { getFranchiseDetail, getFranchiseHonors, getFranchiseRingOfHonor, getManager, type FranchiseRecordSplit } from '../data/league'
 
 function percent(record: FranchiseRecordSplit): string {
@@ -357,6 +358,10 @@ export default function FranchiseDetailBody({ franchiseId }: { franchiseId: stri
       <FranchiseRingOfHonor
         currentManagerId={detail.featuredManagerId}
         entries={ringOfHonor}
+      />
+      <FranchiseAnalytics
+        franchiseId={franchise.id}
+        currentManagerId={detail.featuredManagerId}
       />
     </>
   )

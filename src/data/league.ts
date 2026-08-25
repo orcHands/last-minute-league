@@ -16,6 +16,7 @@ export type { ManagerSkillPoint, ManagerSkillMatrix } from './build/managerSkill
 export type { FranchiseDetail, FranchiseHomeVenue, FranchiseRecordSplit } from './build/franchiseDetails'
 export type { FranchiseHonor, FranchiseHonorKind } from './build/franchiseHonors'
 export type { FranchiseRingOfHonorEntry } from './build/franchiseRingOfHonor'
+export type { FranchiseAnalytics, FranchiseAffinityRow, FranchiseAllTeam, FranchiseAllTeamGroup, FranchiseAllTeamSlot, FranchiseBenchRegret, FranchiseComebackRecord, FranchiseDraftPick, FranchiseDraftRound, FranchiseFinishPoint, FranchiseGameRecord, FranchisePlayerLeader, FranchisePosition, FranchiseRival, FranchiseSeasonPoints, FranchiseWaiverPick, FranchiseWeeklyScoring } from './build/franchiseAnalytics'
 export type { DivisionKey } from './divisionCanon'
 
 export interface LeaderboardEntry {
@@ -39,6 +40,7 @@ export { MANAGER_SKILL_MATRIX } from './build/managerSkillMatrix'
 export { getFranchiseDetail } from './build/franchiseDetails'
 export { FRANCHISE_HONORS, getFranchiseHonors } from './build/franchiseHonors'
 export { FRANCHISE_RING_OF_HONOR, getFranchiseRingOfHonor } from './build/franchiseRingOfHonor'
+export { getFranchiseAnalytics } from './build/franchiseAnalytics'
 export { DIVISION_NAMES, canonicalDivisionName, divisionKey } from './divisionCanon'
 export { getSeasonDetail, SEASON_DETAIL_YEARS } from './build/seasonDetail'
 export type { SeasonDetail, StandingRowDetail, BowlCard, BowlMvp, Bracket, BracketRound, BracketEntry, BracketWeather, AwardFinalist, AllDivision, AllDivisionTeam, AllDivisionSlot } from './build/seasonDetail'
