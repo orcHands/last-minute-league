@@ -142,7 +142,7 @@ function buildDetail(franchise: Franchise): FranchiseDetail | null {
     championshipYears: franchise.championshipYears,
     divisionTitleYears: franchise.divisionTitleYears,
     tagline: franchiseTagline(franchise),
-    headerImage: withBase(`images/franchise_backgrounds/${franchise.id}.jpg`),
+    headerImage: withBase(`images/franchise_backgrounds/${franchise.id}.${franchise.id === 'benedict' ? 'png' : 'jpg'}`),
     headerPosition: franchise.id === 'brice'
       ? 'center 14%'
       : franchise.id === 'whitaker'

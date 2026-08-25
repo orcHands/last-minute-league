@@ -1,0 +1,7442 @@
+{
+  "meta": {
+    "scope": "2013–2025. League records include regular season and playoffs; postseason boards use bracket games only.",
+    "schedule": "Actual win percentage compared with all-play percentage against every team score from the same league week.",
+    "postseason_expected": "Expected playoff wins use each manager's same-season regular-season weekly scoring distribution.",
+    "trade": "Started Points for each receiving manager from the first rostered week after the trade through season end."
+  },
+  "streaks": {
+    "wins": [
+      {
+        "manager_id": "jay",
+        "games": 10,
+        "start": {
+          "season": 2014,
+          "week": 12,
+          "opponent_id": "kelly",
+          "score": 132.88,
+          "opponent_score": 117.92,
+          "result": "W"
+        },
+        "end": {
+          "season": 2015,
+          "week": 5,
+          "opponent_id": "ryan",
+          "score": 149.64,
+          "opponent_score": 105.8,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "jay",
+        "games": 9,
+        "start": {
+          "season": 2017,
+          "week": 9,
+          "opponent_id": "whitaker",
+          "score": 111.74,
+          "opponent_score": 86.0,
+          "result": "W"
+        },
+        "end": {
+          "season": 2018,
+          "week": 1,
+          "opponent_id": "kelly",
+          "score": 123.54,
+          "opponent_score": 91.24,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "tommy",
+        "games": 9,
+        "start": {
+          "season": 2020,
+          "week": 8,
+          "opponent_id": "pb",
+          "score": 124.46,
+          "opponent_score": 79.02,
+          "result": "W"
+        },
+        "end": {
+          "season": 2021,
+          "week": 1,
+          "opponent_id": "becca",
+          "score": 146.36,
+          "opponent_score": 112.68,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "zac",
+        "games": 9,
+        "start": {
+          "season": 2017,
+          "week": 1,
+          "opponent_id": "kelly",
+          "score": 139.92,
+          "opponent_score": 91.84,
+          "result": "W"
+        },
+        "end": {
+          "season": 2017,
+          "week": 9,
+          "opponent_id": "jason",
+          "score": 119.66,
+          "opponent_score": 83.48,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "brice",
+        "games": 8,
+        "start": {
+          "season": 2021,
+          "week": 6,
+          "opponent_id": "pb",
+          "score": 121.48,
+          "opponent_score": 104.5,
+          "result": "W"
+        },
+        "end": {
+          "season": 2021,
+          "week": 13,
+          "opponent_id": "pb",
+          "score": 130.12,
+          "opponent_score": 78.9,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "jay",
+        "games": 8,
+        "start": {
+          "season": 2021,
+          "week": 9,
+          "opponent_id": "becca",
+          "score": 98.94,
+          "opponent_score": 68.38,
+          "result": "W"
+        },
+        "end": {
+          "season": 2021,
+          "week": 16,
+          "opponent_id": "brice",
+          "score": 84.72,
+          "opponent_score": 79.86,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "michael",
+        "games": 8,
+        "start": {
+          "season": 2016,
+          "week": 4,
+          "opponent_id": "pb",
+          "score": 87.52,
+          "opponent_score": 76.4,
+          "result": "W"
+        },
+        "end": {
+          "season": 2016,
+          "week": 11,
+          "opponent_id": "tommy",
+          "score": 105.98,
+          "opponent_score": 93.38,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "tommy",
+        "games": 8,
+        "start": {
+          "season": 2018,
+          "week": 11,
+          "opponent_id": "ryan",
+          "score": 133.62,
+          "opponent_score": 109.7,
+          "result": "W"
+        },
+        "end": {
+          "season": 2019,
+          "week": 3,
+          "opponent_id": "jason",
+          "score": 134.34,
+          "opponent_score": 132.24,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "carter",
+        "games": 7,
+        "start": {
+          "season": 2014,
+          "week": 8,
+          "opponent_id": "laskey",
+          "score": 149.12,
+          "opponent_score": 64.14,
+          "result": "W"
+        },
+        "end": {
+          "season": 2014,
+          "week": 15,
+          "opponent_id": "ryan",
+          "score": 97.0,
+          "opponent_score": 93.8,
+          "result": "W"
+        }
+      },
+      {
+        "manager_id": "kevin",
+        "games": 7,
+        "start": {
+          "season": 2024,
+          "week": 8,
+          "opponent_id": "brice",
+          "score": 133.16,
+          "opponent_score": 98.36,
+          "result": "W"
+        },
+        "end": {
+          "season": 2024,
+          "week": 14,
+          "opponent_id": "michael",
+          "score": 160.1,
+          "opponent_score": 124.2,
+          "result": "W"
+        }
+      }
+    ],
+    "losses": [
+      {
+        "manager_id": "dylan",
+        "games": 12,
+        "start": {
+          "season": 2014,
+          "week": 5,
+          "opponent_id": "kelly",
+          "score": 76.54,
+          "opponent_score": 96.0,
+          "result": "L"
+        },
+        "end": {
+          "season": 2015,
+          "week": 3,
+          "opponent_id": "whitaker",
+          "score": 107.3,
+          "opponent_score": 128.72,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "aboubacar",
+        "games": 11,
+        "start": {
+          "season": 2021,
+          "week": 6,
+          "opponent_id": "carter",
+          "score": 95.9,
+          "opponent_score": 99.56,
+          "result": "L"
+        },
+        "end": {
+          "season": 2021,
+          "week": 16,
+          "opponent_id": "carter",
+          "score": 66.18,
+          "opponent_score": 158.24,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "michael",
+        "games": 9,
+        "start": {
+          "season": 2020,
+          "week": 5,
+          "opponent_id": "whitaker",
+          "score": 77.5,
+          "opponent_score": 124.28,
+          "result": "L"
+        },
+        "end": {
+          "season": 2020,
+          "week": 13,
+          "opponent_id": "jay",
+          "score": 110.0,
+          "opponent_score": 113.3,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "pb",
+        "games": 9,
+        "start": {
+          "season": 2024,
+          "week": 15,
+          "opponent_id": "whitaker",
+          "score": 107.84,
+          "opponent_score": 116.68,
+          "result": "L"
+        },
+        "end": {
+          "season": 2025,
+          "week": 7,
+          "opponent_id": "ryan",
+          "score": 121.52,
+          "opponent_score": 167.84,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "ryan",
+        "games": 8,
+        "start": {
+          "season": 2024,
+          "week": 7,
+          "opponent_id": "jason",
+          "score": 95.78,
+          "opponent_score": 114.84,
+          "result": "L"
+        },
+        "end": {
+          "season": 2024,
+          "week": 14,
+          "opponent_id": "jason",
+          "score": 105.0,
+          "opponent_score": 123.12,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "tommy",
+        "games": 8,
+        "start": {
+          "season": 2016,
+          "week": 6,
+          "opponent_id": "benedict",
+          "score": 94.7,
+          "opponent_score": 125.5,
+          "result": "L"
+        },
+        "end": {
+          "season": 2016,
+          "week": 13,
+          "opponent_id": "benedict",
+          "score": 97.2,
+          "opponent_score": 126.84,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "becca",
+        "games": 7,
+        "start": {
+          "season": 2023,
+          "week": 9,
+          "opponent_id": "carter",
+          "score": 108.78,
+          "opponent_score": 113.24,
+          "result": "L"
+        },
+        "end": {
+          "season": 2023,
+          "week": 15,
+          "opponent_id": "zac",
+          "score": 94.32,
+          "opponent_score": 124.76,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "benedict",
+        "games": 7,
+        "start": {
+          "season": 2013,
+          "week": 7,
+          "opponent_id": "whitaker",
+          "score": 91.54,
+          "opponent_score": 129.77,
+          "result": "L"
+        },
+        "end": {
+          "season": 2013,
+          "week": 13,
+          "opponent_id": "jay",
+          "score": 134.87,
+          "opponent_score": 176.25,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "carter",
+        "games": 7,
+        "start": {
+          "season": 2020,
+          "week": 15,
+          "opponent_id": "tommy",
+          "score": 120.96,
+          "opponent_score": 126.86,
+          "result": "L"
+        },
+        "end": {
+          "season": 2021,
+          "week": 5,
+          "opponent_id": "becca",
+          "score": 84.28,
+          "opponent_score": 167.84,
+          "result": "L"
+        }
+      },
+      {
+        "manager_id": "jay",
+        "games": 7,
+        "start": {
+          "season": 2022,
+          "week": 10,
+          "opponent_id": "tommy",
+          "score": 85.68,
+          "opponent_score": 92.52,
+          "result": "L"
+        },
+        "end": {
+          "season": 2022,
+          "week": 16,
+          "opponent_id": "pb",
+          "score": 101.56,
+          "opponent_score": 150.06,
+          "result": "L"
+        }
+      }
+    ]
+  },
+  "schedule_robbery": [
+    {
+      "manager_id": "aboubacar",
+      "games": 16,
+      "w": 4,
+      "l": 12,
+      "t": 0,
+      "actual_pct": 25.0,
+      "all_play_pct": 12.79,
+      "median_pct": 6.25,
+      "schedule_delta": 12.21
+    },
+    {
+      "manager_id": "dave",
+      "games": 26,
+      "w": 13,
+      "l": 13,
+      "t": 0,
+      "actual_pct": 50.0,
+      "all_play_pct": 39.02,
+      "median_pct": 30.77,
+      "schedule_delta": 10.98
+    },
+    {
+      "manager_id": "megan",
+      "games": 32,
+      "w": 19,
+      "l": 13,
+      "t": 0,
+      "actual_pct": 59.38,
+      "all_play_pct": 51.16,
+      "median_pct": 46.88,
+      "schedule_delta": 8.22
+    },
+    {
+      "manager_id": "carter",
+      "games": 198,
+      "w": 123,
+      "l": 75,
+      "t": 0,
+      "actual_pct": 62.12,
+      "all_play_pct": 55.22,
+      "median_pct": 55.3,
+      "schedule_delta": 6.9
+    },
+    {
+      "manager_id": "kat",
+      "games": 48,
+      "w": 23,
+      "l": 25,
+      "t": 0,
+      "actual_pct": 47.92,
+      "all_play_pct": 42.44,
+      "median_pct": 37.5,
+      "schedule_delta": 5.48
+    },
+    {
+      "manager_id": "zac",
+      "games": 144,
+      "w": 82,
+      "l": 62,
+      "t": 0,
+      "actual_pct": 56.94,
+      "all_play_pct": 51.64,
+      "median_pct": 50.69,
+      "schedule_delta": 5.3
+    },
+    {
+      "manager_id": "laskey",
+      "games": 16,
+      "w": 6,
+      "l": 10,
+      "t": 0,
+      "actual_pct": 37.5,
+      "all_play_pct": 32.99,
+      "median_pct": 25.0,
+      "schedule_delta": 4.51
+    },
+    {
+      "manager_id": "kyle",
+      "games": 85,
+      "w": 34,
+      "l": 51,
+      "t": 0,
+      "actual_pct": 40.0,
+      "all_play_pct": 37.51,
+      "median_pct": 34.12,
+      "schedule_delta": 2.49
+    },
+    {
+      "manager_id": "pb",
+      "games": 188,
+      "w": 91,
+      "l": 96,
+      "t": 1,
+      "actual_pct": 48.67,
+      "all_play_pct": 46.48,
+      "median_pct": 47.34,
+      "schedule_delta": 2.19
+    },
+    {
+      "manager_id": "ryan",
+      "games": 192,
+      "w": 100,
+      "l": 92,
+      "t": 0,
+      "actual_pct": 52.08,
+      "all_play_pct": 49.95,
+      "median_pct": 51.04,
+      "schedule_delta": 2.13
+    },
+    {
+      "manager_id": "michael",
+      "games": 190,
+      "w": 89,
+      "l": 101,
+      "t": 0,
+      "actual_pct": 46.84,
+      "all_play_pct": 44.76,
+      "median_pct": 42.63,
+      "schedule_delta": 2.08
+    },
+    {
+      "manager_id": "whitaker",
+      "games": 199,
+      "w": 103,
+      "l": 96,
+      "t": 0,
+      "actual_pct": 51.76,
+      "all_play_pct": 50.02,
+      "median_pct": 52.26,
+      "schedule_delta": 1.74
+    },
+    {
+      "manager_id": "tommy",
+      "games": 187,
+      "w": 98,
+      "l": 89,
+      "t": 0,
+      "actual_pct": 52.41,
+      "all_play_pct": 52.77,
+      "median_pct": 50.8,
+      "schedule_delta": -0.36
+    },
+    {
+      "manager_id": "dylan",
+      "games": 71,
+      "w": 26,
+      "l": 45,
+      "t": 0,
+      "actual_pct": 36.62,
+      "all_play_pct": 37.13,
+      "median_pct": 30.99,
+      "schedule_delta": -0.51
+    },
+    {
+      "manager_id": "kevin",
+      "games": 49,
+      "w": 25,
+      "l": 24,
+      "t": 0,
+      "actual_pct": 51.02,
+      "all_play_pct": 52.58,
+      "median_pct": 55.1,
+      "schedule_delta": -1.56
+    },
+    {
+      "manager_id": "brice",
+      "games": 197,
+      "w": 101,
+      "l": 95,
+      "t": 1,
+      "actual_pct": 51.52,
+      "all_play_pct": 54.87,
+      "median_pct": 55.58,
+      "schedule_delta": -3.35
+    },
+    {
+      "manager_id": "benedict",
+      "games": 118,
+      "w": 56,
+      "l": 62,
+      "t": 0,
+      "actual_pct": 47.46,
+      "all_play_pct": 51.27,
+      "median_pct": 51.69,
+      "schedule_delta": -3.81
+    },
+    {
+      "manager_id": "jay",
+      "games": 154,
+      "w": 81,
+      "l": 73,
+      "t": 0,
+      "actual_pct": 52.6,
+      "all_play_pct": 59.17,
+      "median_pct": 61.69,
+      "schedule_delta": -6.57
+    },
+    {
+      "manager_id": "becca",
+      "games": 91,
+      "w": 36,
+      "l": 55,
+      "t": 0,
+      "actual_pct": 39.56,
+      "all_play_pct": 47.07,
+      "median_pct": 47.25,
+      "schedule_delta": -7.51
+    },
+    {
+      "manager_id": "jason",
+      "games": 141,
+      "w": 69,
+      "l": 72,
+      "t": 0,
+      "actual_pct": 48.94,
+      "all_play_pct": 56.77,
+      "median_pct": 60.28,
+      "schedule_delta": -7.83
+    },
+    {
+      "manager_id": "kelly",
+      "games": 46,
+      "w": 18,
+      "l": 28,
+      "t": 0,
+      "actual_pct": 39.13,
+      "all_play_pct": 48.59,
+      "median_pct": 50.0,
+      "schedule_delta": -9.46
+    },
+    {
+      "manager_id": "sara",
+      "games": 30,
+      "w": 11,
+      "l": 19,
+      "t": 0,
+      "actual_pct": 36.67,
+      "all_play_pct": 47.2,
+      "median_pct": 56.67,
+      "schedule_delta": -10.53
+    },
+    {
+      "manager_id": "alex",
+      "games": 16,
+      "w": 8,
+      "l": 8,
+      "t": 0,
+      "actual_pct": 50.0,
+      "all_play_pct": 61.63,
+      "median_pct": 62.5,
+      "schedule_delta": -11.63
+    }
+  ],
+  "bench_mob": {
+    "career": [
+      {
+        "player": "Jared Goff",
+        "position": "QB",
+        "bench_points": 1019.34,
+        "bench_games": 58,
+        "top_manager_id": "jason",
+        "top_manager_points": 386.76
+      },
+      {
+        "player": "Russell Wilson",
+        "position": "QB",
+        "bench_points": 920.02,
+        "bench_games": 66,
+        "top_manager_id": "jason",
+        "top_manager_points": 256.18
+      },
+      {
+        "player": "Philip Rivers",
+        "position": "QB",
+        "bench_points": 896.5,
+        "bench_games": 53,
+        "top_manager_id": "michael",
+        "top_manager_points": 374.32
+      },
+      {
+        "player": "Kirk Cousins",
+        "position": "QB",
+        "bench_points": 861.58,
+        "bench_games": 52,
+        "top_manager_id": "michael",
+        "top_manager_points": 279.98
+      },
+      {
+        "player": "Matthew Stafford",
+        "position": "QB",
+        "bench_points": 846.0,
+        "bench_games": 63,
+        "top_manager_id": "michael",
+        "top_manager_points": 339.64
+      },
+      {
+        "player": "Andy Dalton",
+        "position": "QB",
+        "bench_points": 836.54,
+        "bench_games": 58,
+        "top_manager_id": "benedict",
+        "top_manager_points": 198.78
+      },
+      {
+        "player": "Baker Mayfield",
+        "position": "QB",
+        "bench_points": 806.6,
+        "bench_games": 53,
+        "top_manager_id": "pb",
+        "top_manager_points": 231.46
+      },
+      {
+        "player": "Trevor Lawrence",
+        "position": "QB",
+        "bench_points": 772.56,
+        "bench_games": 47,
+        "top_manager_id": "jason",
+        "top_manager_points": 299.22
+      },
+      {
+        "player": "Derek Carr",
+        "position": "QB",
+        "bench_points": 712.98,
+        "bench_games": 50,
+        "top_manager_id": "tommy",
+        "top_manager_points": 228.98
+      },
+      {
+        "player": "Jameis Winston",
+        "position": "QB",
+        "bench_points": 691.7,
+        "bench_games": 49,
+        "top_manager_id": "becca",
+        "top_manager_points": 341.12
+      },
+      {
+        "player": "Alex Smith",
+        "position": "QB",
+        "bench_points": 676.42,
+        "bench_games": 47,
+        "top_manager_id": "carter",
+        "top_manager_points": 238.88
+      },
+      {
+        "player": "Matt Ryan",
+        "position": "QB",
+        "bench_points": 671.58,
+        "bench_games": 47,
+        "top_manager_id": "whitaker",
+        "top_manager_points": 221.74
+      },
+      {
+        "player": "Carson Wentz",
+        "position": "QB",
+        "bench_points": 650.74,
+        "bench_games": 44,
+        "top_manager_id": "tommy",
+        "top_manager_points": 243.8
+      },
+      {
+        "player": "Jordan Love",
+        "position": "QB",
+        "bench_points": 618.02,
+        "bench_games": 36,
+        "top_manager_id": "ryan",
+        "top_manager_points": 286.44
+      },
+      {
+        "player": "Ben Roethlisberger",
+        "position": "QB",
+        "bench_points": 593.9,
+        "bench_games": 33,
+        "top_manager_id": "tommy",
+        "top_manager_points": 198.5
+      },
+      {
+        "player": "Emmanuel Sanders",
+        "position": "WR",
+        "bench_points": 580.1,
+        "bench_games": 56,
+        "top_manager_id": "ryan",
+        "top_manager_points": 182.2
+      },
+      {
+        "player": "Joe Flacco",
+        "position": "QB",
+        "bench_points": 578.4,
+        "bench_games": 38,
+        "top_manager_id": "kelly",
+        "top_manager_points": 217.2
+      },
+      {
+        "player": "Marvin Jones Jr.",
+        "position": "WR",
+        "bench_points": 550.2,
+        "bench_games": 60,
+        "top_manager_id": "brice",
+        "top_manager_points": 179.4
+      },
+      {
+        "player": "Josh Allen",
+        "position": "QB",
+        "bench_points": 538.22,
+        "bench_games": 22,
+        "top_manager_id": "zac",
+        "top_manager_points": 278.14
+      },
+      {
+        "player": "Aaron Rodgers",
+        "position": "QB",
+        "bench_points": 529.46,
+        "bench_games": 52,
+        "top_manager_id": "kevin",
+        "top_manager_points": 193.44
+      },
+      {
+        "player": "Dak Prescott",
+        "position": "QB",
+        "bench_points": 529.24,
+        "bench_games": 31,
+        "top_manager_id": "kyle",
+        "top_manager_points": 200.58
+      },
+      {
+        "player": "Geno Smith",
+        "position": "QB",
+        "bench_points": 523.8,
+        "bench_games": 37,
+        "top_manager_id": "zac",
+        "top_manager_points": 183.88
+      },
+      {
+        "player": "DeAndre Hopkins",
+        "position": "WR",
+        "bench_points": 513.6,
+        "bench_games": 58,
+        "top_manager_id": "jason",
+        "top_manager_points": 170.8
+      },
+      {
+        "player": "Ryan Tannehill",
+        "position": "QB",
+        "bench_points": 490.66,
+        "bench_games": 31,
+        "top_manager_id": "becca",
+        "top_manager_points": 263.56
+      },
+      {
+        "player": "Latavius Murray",
+        "position": "RB",
+        "bench_points": 488.0,
+        "bench_games": 76,
+        "top_manager_id": "pb",
+        "top_manager_points": 113.9
+      }
+    ],
+    "single_games": [
+      {
+        "season": 2019,
+        "week": 5,
+        "manager_id": "pb",
+        "opponent_id": "zac",
+        "player": "Will Fuller V",
+        "position": "WR",
+        "bench_points": 54.7
+      },
+      {
+        "season": 2023,
+        "week": 3,
+        "manager_id": "carter",
+        "opponent_id": "michael",
+        "player": "De'Von Achane",
+        "position": "RB",
+        "bench_points": 53.3
+      },
+      {
+        "season": 2013,
+        "week": 9,
+        "manager_id": "whitaker",
+        "opponent_id": "dylan",
+        "player": "Andre Johnson",
+        "position": "WR",
+        "bench_points": 51.9
+      },
+      {
+        "season": 2018,
+        "week": 14,
+        "manager_id": "whitaker",
+        "opponent_id": "ryan",
+        "player": "Derrick Henry",
+        "position": "RB",
+        "bench_points": 49.8
+      },
+      {
+        "season": 2014,
+        "week": 8,
+        "manager_id": "ryan",
+        "opponent_id": "dave",
+        "player": "Ben Roethlisberger",
+        "position": "QB",
+        "bench_points": 47.88
+      },
+      {
+        "season": 2016,
+        "week": 16,
+        "manager_id": "michael",
+        "opponent_id": "kyle",
+        "player": "Adam Thielen",
+        "position": "WR",
+        "bench_points": 45.6
+      },
+      {
+        "season": 2025,
+        "week": 15,
+        "manager_id": "michael",
+        "opponent_id": "whitaker",
+        "player": "Trevor Lawrence",
+        "position": "QB",
+        "bench_points": 45.3
+      },
+      {
+        "season": 2023,
+        "week": 3,
+        "manager_id": "kat",
+        "opponent_id": "kevin",
+        "player": "Raheem Mostert",
+        "position": "RB",
+        "bench_points": 45.2
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "manager_id": "whitaker",
+        "opponent_id": "benedict",
+        "player": "Mitchell Trubisky",
+        "position": "QB",
+        "bench_points": 44.46
+      },
+      {
+        "season": 2022,
+        "week": 2,
+        "manager_id": "kat",
+        "opponent_id": "michael",
+        "player": "Tua Tagovailoa",
+        "position": "QB",
+        "bench_points": 43.86
+      },
+      {
+        "season": 2019,
+        "week": 7,
+        "manager_id": "becca",
+        "opponent_id": "jason",
+        "player": "Marvin Jones Jr.",
+        "position": "WR",
+        "bench_points": 43.3
+      },
+      {
+        "season": 2023,
+        "week": 9,
+        "manager_id": "tommy",
+        "opponent_id": "brice",
+        "player": "C.J. Stroud",
+        "position": "QB",
+        "bench_points": 42.8
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "manager_id": "jason",
+        "opponent_id": "carter",
+        "player": "Jared Goff",
+        "position": "QB",
+        "bench_points": 42.3
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "manager_id": "carter",
+        "opponent_id": "tommy",
+        "player": "Jared Goff",
+        "position": "QB",
+        "bench_points": 42.06
+      },
+      {
+        "season": 2017,
+        "week": 13,
+        "manager_id": "carter",
+        "opponent_id": "benedict",
+        "player": "Alex Smith",
+        "position": "QB",
+        "bench_points": 41.64
+      },
+      {
+        "season": 2018,
+        "week": 3,
+        "manager_id": "pb",
+        "opponent_id": "whitaker",
+        "player": "Calvin Ridley",
+        "position": "WR",
+        "bench_points": 41.5
+      },
+      {
+        "season": 2021,
+        "week": 9,
+        "manager_id": "brice",
+        "opponent_id": "zac",
+        "player": "James Conner",
+        "position": "RB",
+        "bench_points": 41.3
+      },
+      {
+        "season": 2019,
+        "week": 4,
+        "manager_id": "michael",
+        "opponent_id": "pb",
+        "player": "Chris Godwin Jr.",
+        "position": "WR",
+        "bench_points": 41.2
+      },
+      {
+        "season": 2018,
+        "week": 12,
+        "manager_id": "brice",
+        "opponent_id": "pb",
+        "player": "Amari Cooper",
+        "position": "WR",
+        "bench_points": 40.0
+      },
+      {
+        "season": 2018,
+        "week": 15,
+        "manager_id": "kyle",
+        "opponent_id": "michael",
+        "player": "DeAndre Hopkins",
+        "position": "WR",
+        "bench_points": 40.0
+      },
+      {
+        "season": 2025,
+        "week": 7,
+        "manager_id": "kevin",
+        "opponent_id": "michael",
+        "player": "Bo Nix",
+        "position": "QB",
+        "bench_points": 39.96
+      },
+      {
+        "season": 2025,
+        "week": 9,
+        "manager_id": "jason",
+        "opponent_id": "megan",
+        "player": "Drake London",
+        "position": "WR",
+        "bench_points": 39.8
+      },
+      {
+        "season": 2025,
+        "week": 9,
+        "manager_id": "kevin",
+        "opponent_id": "carter",
+        "player": "Caleb Williams",
+        "position": "QB",
+        "bench_points": 39.7
+      },
+      {
+        "season": 2019,
+        "week": 15,
+        "manager_id": "carter",
+        "opponent_id": "pb",
+        "player": "Kenyan Drake",
+        "position": "RB",
+        "bench_points": 39.6
+      },
+      {
+        "season": 2022,
+        "week": 14,
+        "manager_id": "whitaker",
+        "opponent_id": "zac",
+        "player": "Evan Engram",
+        "position": "TE",
+        "bench_points": 39.2
+      }
+    ],
+    "escape_acts": [
+      {
+        "season": 2015,
+        "week": 10,
+        "manager_id": "carter",
+        "opponent_id": "dylan",
+        "score": 100.02,
+        "opponent_score": 86.98,
+        "regret": 62.34,
+        "optimal": 162.36
+      },
+      {
+        "season": 2016,
+        "week": 6,
+        "manager_id": "dylan",
+        "opponent_id": "ryan",
+        "score": 114.86,
+        "opponent_score": 112.88,
+        "regret": 59.06,
+        "optimal": 173.92
+      },
+      {
+        "season": 2016,
+        "week": 3,
+        "manager_id": "kyle",
+        "opponent_id": "ryan",
+        "score": 92.58,
+        "opponent_score": 73.74,
+        "regret": 57.44,
+        "optimal": 150.02
+      },
+      {
+        "season": 2016,
+        "week": 10,
+        "manager_id": "sara",
+        "opponent_id": "whitaker",
+        "score": 129.54,
+        "opponent_score": 121.74,
+        "regret": 56.8,
+        "optimal": 186.34
+      },
+      {
+        "season": 2019,
+        "week": 5,
+        "manager_id": "pb",
+        "opponent_id": "zac",
+        "score": 106.12,
+        "opponent_score": 65.54,
+        "regret": 55.9,
+        "optimal": 162.02
+      },
+      {
+        "season": 2023,
+        "week": 2,
+        "manager_id": "brice",
+        "opponent_id": "carter",
+        "score": 103.46,
+        "opponent_score": 96.6,
+        "regret": 55.2,
+        "optimal": 158.66
+      },
+      {
+        "season": 2015,
+        "week": 12,
+        "manager_id": "tommy",
+        "opponent_id": "pb",
+        "score": 112.94,
+        "opponent_score": 81.82,
+        "regret": 54.66,
+        "optimal": 167.6
+      },
+      {
+        "season": 2024,
+        "week": 7,
+        "manager_id": "jason",
+        "opponent_id": "ryan",
+        "score": 114.84,
+        "opponent_score": 95.78,
+        "regret": 54.02,
+        "optimal": 168.86
+      },
+      {
+        "season": 2016,
+        "week": 16,
+        "manager_id": "michael",
+        "opponent_id": "kyle",
+        "score": 118.7,
+        "opponent_score": 87.96,
+        "regret": 53.8,
+        "optimal": 172.5
+      },
+      {
+        "season": 2017,
+        "week": 1,
+        "manager_id": "michael",
+        "opponent_id": "whitaker",
+        "score": 84.74,
+        "opponent_score": 65.98,
+        "regret": 51.84,
+        "optimal": 136.58
+      },
+      {
+        "season": 2016,
+        "week": 2,
+        "manager_id": "carter",
+        "opponent_id": "benedict",
+        "score": 108.06,
+        "opponent_score": 107.02,
+        "regret": 51.28,
+        "optimal": 159.34
+      },
+      {
+        "season": 2025,
+        "week": 7,
+        "manager_id": "kevin",
+        "opponent_id": "michael",
+        "score": 126.38,
+        "opponent_score": 86.34,
+        "regret": 51.08,
+        "optimal": 177.46
+      },
+      {
+        "season": 2013,
+        "week": 9,
+        "manager_id": "whitaker",
+        "opponent_id": "dylan",
+        "score": 150.54,
+        "opponent_score": 144.51,
+        "regret": 51.0,
+        "optimal": 201.54
+      },
+      {
+        "season": 2020,
+        "week": 7,
+        "manager_id": "ryan",
+        "opponent_id": "jay",
+        "score": 102.8,
+        "opponent_score": 96.56,
+        "regret": 50.1,
+        "optimal": 152.9
+      },
+      {
+        "season": 2020,
+        "week": 7,
+        "manager_id": "brice",
+        "opponent_id": "tommy",
+        "score": 124.32,
+        "opponent_score": 112.4,
+        "regret": 49.58,
+        "optimal": 173.9
+      }
+    ],
+    "perfect_lineups": [
+      {
+        "manager_id": "ryan",
+        "perfect_weeks": 19
+      },
+      {
+        "manager_id": "brice",
+        "perfect_weeks": 16
+      },
+      {
+        "manager_id": "carter",
+        "perfect_weeks": 16
+      },
+      {
+        "manager_id": "whitaker",
+        "perfect_weeks": 16
+      },
+      {
+        "manager_id": "pb",
+        "perfect_weeks": 14
+      },
+      {
+        "manager_id": "benedict",
+        "perfect_weeks": 13
+      },
+      {
+        "manager_id": "zac",
+        "perfect_weeks": 12
+      },
+      {
+        "manager_id": "tommy",
+        "perfect_weeks": 11
+      },
+      {
+        "manager_id": "jason",
+        "perfect_weeks": 11
+      },
+      {
+        "manager_id": "kyle",
+        "perfect_weeks": 10
+      },
+      {
+        "manager_id": "jay",
+        "perfect_weeks": 10
+      },
+      {
+        "manager_id": "michael",
+        "perfect_weeks": 9
+      },
+      {
+        "manager_id": "dylan",
+        "perfect_weeks": 7
+      },
+      {
+        "manager_id": "sara",
+        "perfect_weeks": 6
+      },
+      {
+        "manager_id": "kelly",
+        "perfect_weeks": 5
+      }
+    ]
+  },
+  "postseason": {
+    "manager_records": [
+      {
+        "manager_id": "ryan",
+        "games": 31,
+        "w": 20,
+        "l": 11,
+        "t": 0,
+        "win_pct": 64.52,
+        "points": 3435.1,
+        "ppg": 110.81,
+        "points_against": 3255.34
+      },
+      {
+        "manager_id": "jason",
+        "games": 19,
+        "w": 12,
+        "l": 7,
+        "t": 0,
+        "win_pct": 63.16,
+        "points": 2298.46,
+        "ppg": 120.97,
+        "points_against": 2039.46
+      },
+      {
+        "manager_id": "jay",
+        "games": 27,
+        "w": 17,
+        "l": 10,
+        "t": 0,
+        "win_pct": 62.96,
+        "points": 3359.33,
+        "ppg": 124.42,
+        "points_against": 3137.46
+      },
+      {
+        "manager_id": "brice",
+        "games": 28,
+        "w": 17,
+        "l": 11,
+        "t": 0,
+        "win_pct": 60.71,
+        "points": 3426.85,
+        "ppg": 122.39,
+        "points_against": 3268.29
+      },
+      {
+        "manager_id": "zac",
+        "games": 22,
+        "w": 13,
+        "l": 9,
+        "t": 0,
+        "win_pct": 59.09,
+        "points": 2456.36,
+        "ppg": 111.65,
+        "points_against": 2374.82
+      },
+      {
+        "manager_id": "benedict",
+        "games": 19,
+        "w": 11,
+        "l": 8,
+        "t": 0,
+        "win_pct": 57.89,
+        "points": 2306.6,
+        "ppg": 121.4,
+        "points_against": 2196.24
+      },
+      {
+        "manager_id": "kevin",
+        "games": 7,
+        "w": 4,
+        "l": 3,
+        "t": 0,
+        "win_pct": 57.14,
+        "points": 866.4,
+        "ppg": 123.77,
+        "points_against": 849.3
+      },
+      {
+        "manager_id": "michael",
+        "games": 29,
+        "w": 16,
+        "l": 13,
+        "t": 0,
+        "win_pct": 55.17,
+        "points": 3164.7,
+        "ppg": 109.13,
+        "points_against": 3031.04
+      },
+      {
+        "manager_id": "dylan",
+        "games": 11,
+        "w": 6,
+        "l": 5,
+        "t": 0,
+        "win_pct": 54.55,
+        "points": 1212.98,
+        "ppg": 110.27,
+        "points_against": 1208.46
+      },
+      {
+        "manager_id": "tommy",
+        "games": 26,
+        "w": 14,
+        "l": 12,
+        "t": 0,
+        "win_pct": 53.85,
+        "points": 2806.36,
+        "ppg": 107.94,
+        "points_against": 2928.06
+      },
+      {
+        "manager_id": "carter",
+        "games": 29,
+        "w": 15,
+        "l": 14,
+        "t": 0,
+        "win_pct": 51.72,
+        "points": 3434.86,
+        "ppg": 118.44,
+        "points_against": 3318.19
+      },
+      {
+        "manager_id": "kyle",
+        "games": 12,
+        "w": 5,
+        "l": 7,
+        "t": 0,
+        "win_pct": 41.67,
+        "points": 1248.34,
+        "ppg": 104.03,
+        "points_against": 1419.81
+      },
+      {
+        "manager_id": "pb",
+        "games": 27,
+        "w": 11,
+        "l": 16,
+        "t": 0,
+        "win_pct": 40.74,
+        "points": 2980.66,
+        "ppg": 110.39,
+        "points_against": 2966.38
+      },
+      {
+        "manager_id": "whitaker",
+        "games": 30,
+        "w": 11,
+        "l": 19,
+        "t": 0,
+        "win_pct": 36.67,
+        "points": 3234.1,
+        "ppg": 107.8,
+        "points_against": 3498.7
+      },
+      {
+        "manager_id": "kat",
+        "games": 6,
+        "w": 2,
+        "l": 4,
+        "t": 0,
+        "win_pct": 33.33,
+        "points": 565.26,
+        "ppg": 94.21,
+        "points_against": 697.44
+      },
+      {
+        "manager_id": "laskey",
+        "games": 3,
+        "w": 1,
+        "l": 2,
+        "t": 0,
+        "win_pct": 33.33,
+        "points": 305.94,
+        "ppg": 101.98,
+        "points_against": 303.14
+      },
+      {
+        "manager_id": "megan",
+        "games": 4,
+        "w": 1,
+        "l": 3,
+        "t": 0,
+        "win_pct": 25.0,
+        "points": 459.1,
+        "ppg": 114.78,
+        "points_against": 507.62
+      },
+      {
+        "manager_id": "sara",
+        "games": 4,
+        "w": 1,
+        "l": 3,
+        "t": 0,
+        "win_pct": 25.0,
+        "points": 411.7,
+        "ppg": 102.93,
+        "points_against": 441.36
+      },
+      {
+        "manager_id": "becca",
+        "games": 10,
+        "w": 2,
+        "l": 8,
+        "t": 0,
+        "win_pct": 20.0,
+        "points": 995.76,
+        "ppg": 99.58,
+        "points_against": 1169.66
+      },
+      {
+        "manager_id": "kelly",
+        "games": 7,
+        "w": 1,
+        "l": 6,
+        "t": 0,
+        "win_pct": 14.29,
+        "points": 732.44,
+        "ppg": 104.63,
+        "points_against": 835.28
+      },
+      {
+        "manager_id": "dave",
+        "games": 5,
+        "w": 0,
+        "l": 5,
+        "t": 0,
+        "win_pct": 0.0,
+        "points": 586.38,
+        "ppg": 117.28,
+        "points_against": 703.03
+      },
+      {
+        "manager_id": "alex",
+        "games": 2,
+        "w": 0,
+        "l": 2,
+        "t": 0,
+        "win_pct": 0.0,
+        "points": 224.34,
+        "ppg": 112.17,
+        "points_against": 236.52
+      },
+      {
+        "manager_id": "aboubacar",
+        "games": 2,
+        "w": 0,
+        "l": 2,
+        "t": 0,
+        "win_pct": 0.0,
+        "points": 136.8,
+        "ppg": 68.4,
+        "points_against": 263.22
+      }
+    ],
+    "franchise_records": [
+      {
+        "franchise_id": "ryan",
+        "games": 31,
+        "w": 20,
+        "l": 11,
+        "t": 0,
+        "win_pct": 64.52,
+        "points": 3435.1,
+        "ppg": 110.81,
+        "points_against": 3255.34
+      },
+      {
+        "franchise_id": "jay",
+        "games": 34,
+        "w": 21,
+        "l": 13,
+        "t": 0,
+        "win_pct": 61.76,
+        "points": 4225.73,
+        "ppg": 124.29,
+        "points_against": 3986.76
+      },
+      {
+        "franchise_id": "brice",
+        "games": 28,
+        "w": 17,
+        "l": 11,
+        "t": 0,
+        "win_pct": 60.71,
+        "points": 3426.85,
+        "ppg": 122.39,
+        "points_against": 3268.29
+      },
+      {
+        "franchise_id": "zac",
+        "games": 22,
+        "w": 13,
+        "l": 9,
+        "t": 0,
+        "win_pct": 59.09,
+        "points": 2456.36,
+        "ppg": 111.65,
+        "points_against": 2374.82
+      },
+      {
+        "franchise_id": "michael",
+        "games": 29,
+        "w": 16,
+        "l": 13,
+        "t": 0,
+        "win_pct": 55.17,
+        "points": 3164.7,
+        "ppg": 109.13,
+        "points_against": 3031.04
+      },
+      {
+        "franchise_id": "laskey",
+        "games": 26,
+        "w": 14,
+        "l": 12,
+        "t": 0,
+        "win_pct": 53.85,
+        "points": 3016.1,
+        "ppg": 116.0,
+        "points_against": 2783.96
+      },
+      {
+        "franchise_id": "tommy",
+        "games": 26,
+        "w": 14,
+        "l": 12,
+        "t": 0,
+        "win_pct": 53.85,
+        "points": 2806.36,
+        "ppg": 107.94,
+        "points_against": 2928.06
+      },
+      {
+        "franchise_id": "carter",
+        "games": 29,
+        "w": 15,
+        "l": 14,
+        "t": 0,
+        "win_pct": 51.72,
+        "points": 3434.86,
+        "ppg": 118.44,
+        "points_against": 3318.19
+      },
+      {
+        "franchise_id": "benedict",
+        "games": 29,
+        "w": 13,
+        "l": 16,
+        "t": 0,
+        "win_pct": 44.83,
+        "points": 3233.0,
+        "ppg": 111.48,
+        "points_against": 3393.42
+      },
+      {
+        "franchise_id": "kyle",
+        "games": 12,
+        "w": 5,
+        "l": 7,
+        "t": 0,
+        "win_pct": 41.67,
+        "points": 1248.34,
+        "ppg": 104.03,
+        "points_against": 1419.81
+      },
+      {
+        "franchise_id": "pb",
+        "games": 27,
+        "w": 11,
+        "l": 16,
+        "t": 0,
+        "win_pct": 40.74,
+        "points": 2980.66,
+        "ppg": 110.39,
+        "points_against": 2966.38
+      },
+      {
+        "franchise_id": "whitaker",
+        "games": 30,
+        "w": 11,
+        "l": 19,
+        "t": 0,
+        "win_pct": 36.67,
+        "points": 3234.1,
+        "ppg": 107.8,
+        "points_against": 3498.7
+      },
+      {
+        "franchise_id": "dylan",
+        "games": 25,
+        "w": 9,
+        "l": 16,
+        "t": 0,
+        "win_pct": 36.0,
+        "points": 2667.84,
+        "ppg": 106.71,
+        "points_against": 2885.74
+      },
+      {
+        "franchise_id": "kelly-brown",
+        "games": 7,
+        "w": 1,
+        "l": 6,
+        "t": 0,
+        "win_pct": 14.29,
+        "points": 732.44,
+        "ppg": 104.63,
+        "points_against": 835.28
+      },
+      {
+        "franchise_id": "dave-lang",
+        "games": 5,
+        "w": 0,
+        "l": 5,
+        "t": 0,
+        "win_pct": 0.0,
+        "points": 586.38,
+        "ppg": 117.28,
+        "points_against": 703.03
+      }
+    ],
+    "manager_records_by_bracket": {
+      "Championship": [
+        {
+          "manager_id": "kevin",
+          "games": 5,
+          "w": 4,
+          "l": 1,
+          "t": 0,
+          "win_pct": 80.0,
+          "points": 685.48,
+          "ppg": 137.1,
+          "points_against": 613.26
+        },
+        {
+          "manager_id": "jay",
+          "games": 22,
+          "w": 15,
+          "l": 7,
+          "t": 0,
+          "win_pct": 68.18,
+          "points": 2806.59,
+          "ppg": 127.57,
+          "points_against": 2535.86
+        },
+        {
+          "manager_id": "brice",
+          "games": 16,
+          "w": 10,
+          "l": 6,
+          "t": 0,
+          "win_pct": 62.5,
+          "points": 2088.09,
+          "ppg": 130.51,
+          "points_against": 1888.35
+        },
+        {
+          "manager_id": "zac",
+          "games": 10,
+          "w": 6,
+          "l": 4,
+          "t": 0,
+          "win_pct": 60.0,
+          "points": 1146.4,
+          "ppg": 114.64,
+          "points_against": 1115.64
+        },
+        {
+          "manager_id": "michael",
+          "games": 12,
+          "w": 7,
+          "l": 5,
+          "t": 0,
+          "win_pct": 58.33,
+          "points": 1296.06,
+          "ppg": 108.01,
+          "points_against": 1276.98
+        },
+        {
+          "manager_id": "jason",
+          "games": 7,
+          "w": 4,
+          "l": 3,
+          "t": 0,
+          "win_pct": 57.14,
+          "points": 855.24,
+          "ppg": 122.18,
+          "points_against": 837.86
+        },
+        {
+          "manager_id": "benedict",
+          "games": 9,
+          "w": 5,
+          "l": 4,
+          "t": 0,
+          "win_pct": 55.56,
+          "points": 1166.32,
+          "ppg": 129.59,
+          "points_against": 1129.08
+        },
+        {
+          "manager_id": "tommy",
+          "games": 15,
+          "w": 8,
+          "l": 7,
+          "t": 0,
+          "win_pct": 53.33,
+          "points": 1718.98,
+          "ppg": 114.6,
+          "points_against": 1817.02
+        },
+        {
+          "manager_id": "carter",
+          "games": 27,
+          "w": 14,
+          "l": 13,
+          "t": 0,
+          "win_pct": 51.85,
+          "points": 3189.46,
+          "ppg": 118.13,
+          "points_against": 3143.23
+        },
+        {
+          "manager_id": "ryan",
+          "games": 12,
+          "w": 6,
+          "l": 6,
+          "t": 0,
+          "win_pct": 50.0,
+          "points": 1337.12,
+          "ppg": 111.43,
+          "points_against": 1332.66
+        },
+        {
+          "manager_id": "megan",
+          "games": 2,
+          "w": 1,
+          "l": 1,
+          "t": 0,
+          "win_pct": 50.0,
+          "points": 253.58,
+          "ppg": 126.79,
+          "points_against": 266.22
+        },
+        {
+          "manager_id": "kat",
+          "games": 2,
+          "w": 1,
+          "l": 1,
+          "t": 0,
+          "win_pct": 50.0,
+          "points": 221.68,
+          "ppg": 110.84,
+          "points_against": 212.88
+        },
+        {
+          "manager_id": "kyle",
+          "games": 5,
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "win_pct": 40.0,
+          "points": 621.94,
+          "ppg": 124.39,
+          "points_against": 686.47
+        },
+        {
+          "manager_id": "pb",
+          "games": 13,
+          "w": 5,
+          "l": 8,
+          "t": 0,
+          "win_pct": 38.46,
+          "points": 1529.84,
+          "ppg": 117.68,
+          "points_against": 1575.24
+        },
+        {
+          "manager_id": "dylan",
+          "games": 3,
+          "w": 1,
+          "l": 2,
+          "t": 0,
+          "win_pct": 33.33,
+          "points": 419.18,
+          "ppg": 139.73,
+          "points_against": 421.94
+        },
+        {
+          "manager_id": "whitaker",
+          "games": 19,
+          "w": 6,
+          "l": 13,
+          "t": 0,
+          "win_pct": 31.58,
+          "points": 2129.28,
+          "ppg": 112.07,
+          "points_against": 2371.32
+        },
+        {
+          "manager_id": "becca",
+          "games": 4,
+          "w": 1,
+          "l": 3,
+          "t": 0,
+          "win_pct": 25.0,
+          "points": 417.84,
+          "ppg": 104.46,
+          "points_against": 494.24
+        },
+        {
+          "manager_id": "dave",
+          "games": 5,
+          "w": 0,
+          "l": 5,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 586.38,
+          "ppg": 117.28,
+          "points_against": 703.03
+        },
+        {
+          "manager_id": "alex",
+          "games": 2,
+          "w": 0,
+          "l": 2,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 224.34,
+          "ppg": 112.17,
+          "points_against": 236.52
+        },
+        {
+          "manager_id": "kelly",
+          "games": 2,
+          "w": 0,
+          "l": 2,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 203.28,
+          "ppg": 101.64,
+          "points_against": 239.28
+        }
+      ],
+      "Consolation": [
+        {
+          "manager_id": "ryan",
+          "games": 19,
+          "w": 14,
+          "l": 5,
+          "t": 0,
+          "win_pct": 73.68,
+          "points": 2097.98,
+          "ppg": 110.42,
+          "points_against": 1922.68
+        },
+        {
+          "manager_id": "jason",
+          "games": 12,
+          "w": 8,
+          "l": 4,
+          "t": 0,
+          "win_pct": 66.67,
+          "points": 1443.22,
+          "ppg": 120.27,
+          "points_against": 1201.6
+        },
+        {
+          "manager_id": "dylan",
+          "games": 8,
+          "w": 5,
+          "l": 3,
+          "t": 0,
+          "win_pct": 62.5,
+          "points": 793.8,
+          "ppg": 99.22,
+          "points_against": 786.52
+        },
+        {
+          "manager_id": "benedict",
+          "games": 10,
+          "w": 6,
+          "l": 4,
+          "t": 0,
+          "win_pct": 60.0,
+          "points": 1140.28,
+          "ppg": 114.03,
+          "points_against": 1067.16
+        },
+        {
+          "manager_id": "brice",
+          "games": 12,
+          "w": 7,
+          "l": 5,
+          "t": 0,
+          "win_pct": 58.33,
+          "points": 1338.76,
+          "ppg": 111.56,
+          "points_against": 1379.94
+        },
+        {
+          "manager_id": "zac",
+          "games": 12,
+          "w": 7,
+          "l": 5,
+          "t": 0,
+          "win_pct": 58.33,
+          "points": 1309.96,
+          "ppg": 109.16,
+          "points_against": 1259.18
+        },
+        {
+          "manager_id": "tommy",
+          "games": 11,
+          "w": 6,
+          "l": 5,
+          "t": 0,
+          "win_pct": 54.55,
+          "points": 1087.38,
+          "ppg": 98.85,
+          "points_against": 1111.04
+        },
+        {
+          "manager_id": "michael",
+          "games": 17,
+          "w": 9,
+          "l": 8,
+          "t": 0,
+          "win_pct": 52.94,
+          "points": 1868.64,
+          "ppg": 109.92,
+          "points_against": 1754.06
+        },
+        {
+          "manager_id": "carter",
+          "games": 2,
+          "w": 1,
+          "l": 1,
+          "t": 0,
+          "win_pct": 50.0,
+          "points": 245.4,
+          "ppg": 122.7,
+          "points_against": 174.96
+        },
+        {
+          "manager_id": "whitaker",
+          "games": 11,
+          "w": 5,
+          "l": 6,
+          "t": 0,
+          "win_pct": 45.45,
+          "points": 1104.82,
+          "ppg": 100.44,
+          "points_against": 1127.38
+        },
+        {
+          "manager_id": "pb",
+          "games": 14,
+          "w": 6,
+          "l": 8,
+          "t": 0,
+          "win_pct": 42.86,
+          "points": 1450.82,
+          "ppg": 103.63,
+          "points_against": 1391.14
+        },
+        {
+          "manager_id": "kyle",
+          "games": 7,
+          "w": 3,
+          "l": 4,
+          "t": 0,
+          "win_pct": 42.86,
+          "points": 626.4,
+          "ppg": 89.49,
+          "points_against": 733.34
+        },
+        {
+          "manager_id": "jay",
+          "games": 5,
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "win_pct": 40.0,
+          "points": 552.74,
+          "ppg": 110.55,
+          "points_against": 601.6
+        },
+        {
+          "manager_id": "laskey",
+          "games": 3,
+          "w": 1,
+          "l": 2,
+          "t": 0,
+          "win_pct": 33.33,
+          "points": 305.94,
+          "ppg": 101.98,
+          "points_against": 303.14
+        },
+        {
+          "manager_id": "sara",
+          "games": 4,
+          "w": 1,
+          "l": 3,
+          "t": 0,
+          "win_pct": 25.0,
+          "points": 411.7,
+          "ppg": 102.93,
+          "points_against": 441.36
+        },
+        {
+          "manager_id": "kat",
+          "games": 4,
+          "w": 1,
+          "l": 3,
+          "t": 0,
+          "win_pct": 25.0,
+          "points": 343.58,
+          "ppg": 85.89,
+          "points_against": 484.56
+        },
+        {
+          "manager_id": "kelly",
+          "games": 5,
+          "w": 1,
+          "l": 4,
+          "t": 0,
+          "win_pct": 20.0,
+          "points": 529.16,
+          "ppg": 105.83,
+          "points_against": 596.0
+        },
+        {
+          "manager_id": "becca",
+          "games": 6,
+          "w": 1,
+          "l": 5,
+          "t": 0,
+          "win_pct": 16.67,
+          "points": 577.92,
+          "ppg": 96.32,
+          "points_against": 675.42
+        },
+        {
+          "manager_id": "megan",
+          "games": 2,
+          "w": 0,
+          "l": 2,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 205.52,
+          "ppg": 102.76,
+          "points_against": 241.4
+        },
+        {
+          "manager_id": "kevin",
+          "games": 2,
+          "w": 0,
+          "l": 2,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 180.92,
+          "ppg": 90.46,
+          "points_against": 236.04
+        },
+        {
+          "manager_id": "aboubacar",
+          "games": 2,
+          "w": 0,
+          "l": 2,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 136.8,
+          "ppg": 68.4,
+          "points_against": 263.22
+        }
+      ]
+    },
+    "franchise_records_by_bracket": {
+      "Championship": [
+        {
+          "franchise_id": "jay",
+          "games": 27,
+          "w": 19,
+          "l": 8,
+          "t": 0,
+          "win_pct": 70.37,
+          "points": 3492.07,
+          "ppg": 129.34,
+          "points_against": 3149.12
+        },
+        {
+          "franchise_id": "brice",
+          "games": 16,
+          "w": 10,
+          "l": 6,
+          "t": 0,
+          "win_pct": 62.5,
+          "points": 2088.09,
+          "ppg": 130.51,
+          "points_against": 1888.35
+        },
+        {
+          "franchise_id": "zac",
+          "games": 10,
+          "w": 6,
+          "l": 4,
+          "t": 0,
+          "win_pct": 60.0,
+          "points": 1146.4,
+          "ppg": 114.64,
+          "points_against": 1115.64
+        },
+        {
+          "franchise_id": "michael",
+          "games": 12,
+          "w": 7,
+          "l": 5,
+          "t": 0,
+          "win_pct": 58.33,
+          "points": 1296.06,
+          "ppg": 108.01,
+          "points_against": 1276.98
+        },
+        {
+          "franchise_id": "laskey",
+          "games": 7,
+          "w": 4,
+          "l": 3,
+          "t": 0,
+          "win_pct": 57.14,
+          "points": 855.24,
+          "ppg": 122.18,
+          "points_against": 837.86
+        },
+        {
+          "franchise_id": "tommy",
+          "games": 15,
+          "w": 8,
+          "l": 7,
+          "t": 0,
+          "win_pct": 53.33,
+          "points": 1718.98,
+          "ppg": 114.6,
+          "points_against": 1817.02
+        },
+        {
+          "franchise_id": "carter",
+          "games": 27,
+          "w": 14,
+          "l": 13,
+          "t": 0,
+          "win_pct": 51.85,
+          "points": 3189.46,
+          "ppg": 118.13,
+          "points_against": 3143.23
+        },
+        {
+          "franchise_id": "ryan",
+          "games": 12,
+          "w": 6,
+          "l": 6,
+          "t": 0,
+          "win_pct": 50.0,
+          "points": 1337.12,
+          "ppg": 111.43,
+          "points_against": 1332.66
+        },
+        {
+          "franchise_id": "benedict",
+          "games": 13,
+          "w": 6,
+          "l": 7,
+          "t": 0,
+          "win_pct": 46.15,
+          "points": 1612.34,
+          "ppg": 124.03,
+          "points_against": 1578.48
+        },
+        {
+          "franchise_id": "kyle",
+          "games": 5,
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "win_pct": 40.0,
+          "points": 621.94,
+          "ppg": 124.39,
+          "points_against": 686.47
+        },
+        {
+          "franchise_id": "pb",
+          "games": 13,
+          "w": 5,
+          "l": 8,
+          "t": 0,
+          "win_pct": 38.46,
+          "points": 1529.84,
+          "ppg": 117.68,
+          "points_against": 1575.24
+        },
+        {
+          "franchise_id": "dylan",
+          "games": 9,
+          "w": 3,
+          "l": 6,
+          "t": 0,
+          "win_pct": 33.33,
+          "points": 1090.6,
+          "ppg": 121.18,
+          "points_against": 1182.4
+        },
+        {
+          "franchise_id": "whitaker",
+          "games": 19,
+          "w": 6,
+          "l": 13,
+          "t": 0,
+          "win_pct": 31.58,
+          "points": 2129.28,
+          "ppg": 112.07,
+          "points_against": 2371.32
+        },
+        {
+          "franchise_id": "dave-lang",
+          "games": 5,
+          "w": 0,
+          "l": 5,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 586.38,
+          "ppg": 117.28,
+          "points_against": 703.03
+        },
+        {
+          "franchise_id": "kelly-brown",
+          "games": 2,
+          "w": 0,
+          "l": 2,
+          "t": 0,
+          "win_pct": 0.0,
+          "points": 203.28,
+          "ppg": 101.64,
+          "points_against": 239.28
+        }
+      ],
+      "Consolation": [
+        {
+          "franchise_id": "ryan",
+          "games": 19,
+          "w": 14,
+          "l": 5,
+          "t": 0,
+          "win_pct": 73.68,
+          "points": 2097.98,
+          "ppg": 110.42,
+          "points_against": 1922.68
+        },
+        {
+          "franchise_id": "brice",
+          "games": 12,
+          "w": 7,
+          "l": 5,
+          "t": 0,
+          "win_pct": 58.33,
+          "points": 1338.76,
+          "ppg": 111.56,
+          "points_against": 1379.94
+        },
+        {
+          "franchise_id": "zac",
+          "games": 12,
+          "w": 7,
+          "l": 5,
+          "t": 0,
+          "win_pct": 58.33,
+          "points": 1309.96,
+          "ppg": 109.16,
+          "points_against": 1259.18
+        },
+        {
+          "franchise_id": "tommy",
+          "games": 11,
+          "w": 6,
+          "l": 5,
+          "t": 0,
+          "win_pct": 54.55,
+          "points": 1087.38,
+          "ppg": 98.85,
+          "points_against": 1111.04
+        },
+        {
+          "franchise_id": "michael",
+          "games": 17,
+          "w": 9,
+          "l": 8,
+          "t": 0,
+          "win_pct": 52.94,
+          "points": 1868.64,
+          "ppg": 109.92,
+          "points_against": 1754.06
+        },
+        {
+          "franchise_id": "laskey",
+          "games": 19,
+          "w": 10,
+          "l": 9,
+          "t": 0,
+          "win_pct": 52.63,
+          "points": 2160.86,
+          "ppg": 113.73,
+          "points_against": 1946.1
+        },
+        {
+          "franchise_id": "carter",
+          "games": 2,
+          "w": 1,
+          "l": 1,
+          "t": 0,
+          "win_pct": 50.0,
+          "points": 245.4,
+          "ppg": 122.7,
+          "points_against": 174.96
+        },
+        {
+          "franchise_id": "whitaker",
+          "games": 11,
+          "w": 5,
+          "l": 6,
+          "t": 0,
+          "win_pct": 45.45,
+          "points": 1104.82,
+          "ppg": 100.44,
+          "points_against": 1127.38
+        },
+        {
+          "franchise_id": "benedict",
+          "games": 16,
+          "w": 7,
+          "l": 9,
+          "t": 0,
+          "win_pct": 43.75,
+          "points": 1620.66,
+          "ppg": 101.29,
+          "points_against": 1814.94
+        },
+        {
+          "franchise_id": "pb",
+          "games": 14,
+          "w": 6,
+          "l": 8,
+          "t": 0,
+          "win_pct": 42.86,
+          "points": 1450.82,
+          "ppg": 103.63,
+          "points_against": 1391.14
+        },
+        {
+          "franchise_id": "kyle",
+          "games": 7,
+          "w": 3,
+          "l": 4,
+          "t": 0,
+          "win_pct": 42.86,
+          "points": 626.4,
+          "ppg": 89.49,
+          "points_against": 733.34
+        },
+        {
+          "franchise_id": "dylan",
+          "games": 16,
+          "w": 6,
+          "l": 10,
+          "t": 0,
+          "win_pct": 37.5,
+          "points": 1577.24,
+          "ppg": 98.58,
+          "points_against": 1703.34
+        },
+        {
+          "franchise_id": "jay",
+          "games": 7,
+          "w": 2,
+          "l": 5,
+          "t": 0,
+          "win_pct": 28.57,
+          "points": 733.66,
+          "ppg": 104.81,
+          "points_against": 837.64
+        },
+        {
+          "franchise_id": "kelly-brown",
+          "games": 5,
+          "w": 1,
+          "l": 4,
+          "t": 0,
+          "win_pct": 20.0,
+          "points": 529.16,
+          "ppg": 105.83,
+          "points_against": 596.0
+        }
+      ]
+    },
+    "player_totals": [
+      {
+        "player": "Davante Adams",
+        "position": "WR",
+        "points": 477.1,
+        "starts": 23,
+        "ppg": 20.74,
+        "top_manager_id": "zac"
+      },
+      {
+        "player": "Patrick Mahomes",
+        "position": "QB",
+        "points": 369.58,
+        "starts": 17,
+        "ppg": 21.74,
+        "top_manager_id": "carter"
+      },
+      {
+        "player": "Travis Kelce",
+        "position": "TE",
+        "points": 354.1,
+        "starts": 22,
+        "ppg": 16.1,
+        "top_manager_id": "carter"
+      },
+      {
+        "player": "Josh Allen",
+        "position": "QB",
+        "points": 347.28,
+        "starts": 15,
+        "ppg": 23.15,
+        "top_manager_id": "whitaker"
+      },
+      {
+        "player": "Mike Evans",
+        "position": "WR",
+        "points": 347.2,
+        "starts": 21,
+        "ppg": 16.53,
+        "top_manager_id": "michael"
+      },
+      {
+        "player": "Christian McCaffrey",
+        "position": "RB",
+        "points": 342.4,
+        "starts": 12,
+        "ppg": 28.53,
+        "top_manager_id": "ryan"
+      },
+      {
+        "player": "Lamar Jackson",
+        "position": "QB",
+        "points": 342.16,
+        "starts": 14,
+        "ppg": 24.44,
+        "top_manager_id": "ryan"
+      },
+      {
+        "player": "Drew Brees",
+        "position": "QB",
+        "points": 336.08,
+        "starts": 16,
+        "ppg": 21.01,
+        "top_manager_id": "benedict"
+      },
+      {
+        "player": "George Kittle",
+        "position": "TE",
+        "points": 306.3,
+        "starts": 17,
+        "ppg": 18.02,
+        "top_manager_id": "jason"
+      },
+      {
+        "player": "Le'Veon Bell",
+        "position": "RB",
+        "points": 302.3,
+        "starts": 13,
+        "ppg": 23.25,
+        "top_manager_id": "jay"
+      },
+      {
+        "player": "Dak Prescott",
+        "position": "QB",
+        "points": 300.3,
+        "starts": 17,
+        "ppg": 17.66,
+        "top_manager_id": "michael"
+      },
+      {
+        "player": "Russell Wilson",
+        "position": "QB",
+        "points": 297.26,
+        "starts": 15,
+        "ppg": 19.82,
+        "top_manager_id": "michael"
+      },
+      {
+        "player": "Antonio Brown",
+        "position": "WR",
+        "points": 284.8,
+        "starts": 14,
+        "ppg": 20.34,
+        "top_manager_id": "jay"
+      },
+      {
+        "player": "Alvin Kamara",
+        "position": "RB",
+        "points": 282.1,
+        "starts": 17,
+        "ppg": 16.59,
+        "top_manager_id": "jay"
+      },
+      {
+        "player": "Tom Brady",
+        "position": "QB",
+        "points": 280.08,
+        "starts": 16,
+        "ppg": 17.5,
+        "top_manager_id": "sara"
+      },
+      {
+        "player": "Todd Gurley",
+        "position": "RB",
+        "points": 276.8,
+        "starts": 11,
+        "ppg": 25.16,
+        "top_manager_id": "jay"
+      },
+      {
+        "player": "Tyreek Hill",
+        "position": "WR",
+        "points": 274.1,
+        "starts": 17,
+        "ppg": 16.12,
+        "top_manager_id": "brice"
+      },
+      {
+        "player": "A.J. Brown",
+        "position": "WR",
+        "points": 272.7,
+        "starts": 16,
+        "ppg": 17.04,
+        "top_manager_id": "ryan"
+      },
+      {
+        "player": "Julio Jones",
+        "position": "WR",
+        "points": 268.5,
+        "starts": 14,
+        "ppg": 19.18,
+        "top_manager_id": "pb"
+      },
+      {
+        "player": "Ezekiel Elliott",
+        "position": "RB",
+        "points": 267.1,
+        "starts": 16,
+        "ppg": 16.69,
+        "top_manager_id": "jason"
+      },
+      {
+        "player": "Justin Jefferson",
+        "position": "WR",
+        "points": 266.8,
+        "starts": 15,
+        "ppg": 17.79,
+        "top_manager_id": "jay"
+      },
+      {
+        "player": "Saquon Barkley",
+        "position": "RB",
+        "points": 262.8,
+        "starts": 16,
+        "ppg": 16.43,
+        "top_manager_id": "zac"
+      },
+      {
+        "player": "CeeDee Lamb",
+        "position": "WR",
+        "points": 260.5,
+        "starts": 13,
+        "ppg": 20.04,
+        "top_manager_id": "michael"
+      },
+      {
+        "player": "Kirk Cousins",
+        "position": "QB",
+        "points": 259.36,
+        "starts": 13,
+        "ppg": 19.95,
+        "top_manager_id": "jay"
+      },
+      {
+        "player": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 258.9,
+        "starts": 11,
+        "ppg": 23.54,
+        "top_manager_id": "pb"
+      }
+    ],
+    "single_games_by_position": {
+      "QB": [
+        {
+          "season": 2015,
+          "week": 15,
+          "manager_id": "jay",
+          "opponent_id": "tommy",
+          "player": "Cam Newton",
+          "position": "QB",
+          "points": 42.6,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "manager_id": "whitaker",
+          "opponent_id": "pb",
+          "player": "Josh Allen",
+          "position": "QB",
+          "points": 42.28,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "manager_id": "becca",
+          "opponent_id": "pb",
+          "player": "Joe Burrow",
+          "position": "QB",
+          "points": 41.1,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2019,
+          "week": 14,
+          "manager_id": "benedict",
+          "opponent_id": "whitaker",
+          "player": "Drew Brees",
+          "position": "QB",
+          "points": 41.06,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "dylan",
+          "opponent_id": "dave",
+          "player": "Drew Brees",
+          "position": "QB",
+          "points": 41.04,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "manager_id": "ryan",
+          "opponent_id": "zac",
+          "player": "Tom Brady",
+          "position": "QB",
+          "points": 39.68,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2014,
+          "week": 16,
+          "manager_id": "benedict",
+          "opponent_id": "brice",
+          "player": "Russell Wilson",
+          "position": "QB",
+          "points": 39.36,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2020,
+          "week": 15,
+          "manager_id": "pb",
+          "opponent_id": "whitaker",
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "points": 38.82,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "manager_id": "jason",
+          "opponent_id": "kat",
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "points": 38.7,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "manager_id": "michael",
+          "opponent_id": "tommy",
+          "player": "Josh Allen",
+          "position": "QB",
+          "points": 37.86,
+          "bracket": "Championship"
+        }
+      ],
+      "RB": [
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "jay",
+          "opponent_id": "kyle",
+          "player": "Jamaal Charles",
+          "position": "RB",
+          "points": 61.5,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2016,
+          "week": 14,
+          "manager_id": "jay",
+          "opponent_id": "benedict",
+          "player": "Le'Veon Bell",
+          "position": "RB",
+          "points": 51.8,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2017,
+          "week": 16,
+          "manager_id": "jay",
+          "opponent_id": "michael",
+          "player": "Todd Gurley",
+          "position": "RB",
+          "points": 50.6,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2017,
+          "week": 15,
+          "manager_id": "jay",
+          "opponent_id": "kelly",
+          "player": "Todd Gurley",
+          "position": "RB",
+          "points": 46.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2015,
+          "week": 15,
+          "manager_id": "brice",
+          "opponent_id": "carter",
+          "player": "David Johnson",
+          "position": "RB",
+          "points": 45.9,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "manager_id": "brice",
+          "opponent_id": "whitaker",
+          "player": "Breece Hall",
+          "position": "RB",
+          "points": 43.1,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "manager_id": "brice",
+          "opponent_id": "pb",
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "points": 42.7,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "manager_id": "tommy",
+          "opponent_id": "kevin",
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "points": 41.8,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "manager_id": "brice",
+          "opponent_id": "tommy",
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "points": 40.9,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2017,
+          "week": 15,
+          "manager_id": "zac",
+          "opponent_id": "michael",
+          "player": "Kareem Hunt",
+          "position": "RB",
+          "points": 39.6,
+          "bracket": "Championship"
+        }
+      ],
+      "WR": [
+        {
+          "season": 2021,
+          "week": 17,
+          "manager_id": "zac",
+          "opponent_id": "jay",
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "points": 57.6,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "manager_id": "ryan",
+          "opponent_id": "zac",
+          "player": "Amari Cooper",
+          "position": "WR",
+          "points": 53.5,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "manager_id": "jason",
+          "opponent_id": "alex",
+          "player": "Puka Nacua",
+          "position": "WR",
+          "points": 49.5,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2015,
+          "week": 15,
+          "manager_id": "jay",
+          "opponent_id": "tommy",
+          "player": "Antonio Brown",
+          "position": "WR",
+          "points": 46.9,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "manager_id": "ryan",
+          "opponent_id": "kat",
+          "player": "Davante Adams",
+          "position": "WR",
+          "points": 45.8,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2018,
+          "week": 16,
+          "manager_id": "pb",
+          "opponent_id": "kelly",
+          "player": "Antonio Brown",
+          "position": "WR",
+          "points": 44.5,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "manager_id": "carter",
+          "opponent_id": "aboubacar",
+          "player": "Tee Higgins",
+          "position": "WR",
+          "points": 44.4,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2020,
+          "week": 16,
+          "manager_id": "brice",
+          "opponent_id": "carter",
+          "player": "Davante Adams",
+          "position": "WR",
+          "points": 43.2,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "manager_id": "michael",
+          "opponent_id": "whitaker",
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "points": 42.4,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2014,
+          "week": 15,
+          "manager_id": "pb",
+          "opponent_id": "brice",
+          "player": "Odell Beckham Jr.",
+          "position": "WR",
+          "points": 42.3,
+          "bracket": "Consolation"
+        }
+      ],
+      "TE": [
+        {
+          "season": 2021,
+          "week": 15,
+          "manager_id": "carter",
+          "opponent_id": "ryan",
+          "player": "Travis Kelce",
+          "position": "TE",
+          "points": 42.1,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "manager_id": "kevin",
+          "opponent_id": "jason",
+          "player": "Trey McBride",
+          "position": "TE",
+          "points": 37.4,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2018,
+          "week": 14,
+          "manager_id": "jason",
+          "opponent_id": "kyle",
+          "player": "George Kittle",
+          "position": "TE",
+          "points": 36.0,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "manager_id": "whitaker",
+          "opponent_id": "ryan",
+          "player": "T.J. Hockenson",
+          "position": "TE",
+          "points": 35.9,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2016,
+          "week": 16,
+          "manager_id": "brice",
+          "opponent_id": "jay",
+          "player": "Travis Kelce",
+          "position": "TE",
+          "points": 34.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2015,
+          "week": 16,
+          "manager_id": "benedict",
+          "opponent_id": "tommy",
+          "player": "Jordan Reed",
+          "position": "TE",
+          "points": 33.9,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "manager_id": "kevin",
+          "opponent_id": "whitaker",
+          "player": "Trey McBride",
+          "position": "TE",
+          "points": 30.3,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2020,
+          "week": 15,
+          "manager_id": "pb",
+          "opponent_id": "whitaker",
+          "player": "Darren Waller",
+          "position": "TE",
+          "points": 30.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "manager_id": "pb",
+          "opponent_id": "jay",
+          "player": "George Kittle",
+          "position": "TE",
+          "points": 30.0,
+          "bracket": "Consolation"
+        },
+        {
+          "season": 2014,
+          "week": 16,
+          "manager_id": "benedict",
+          "opponent_id": "brice",
+          "player": "Antonio Gates",
+          "position": "TE",
+          "points": 28.2,
+          "bracket": "Consolation"
+        }
+      ],
+      "DEF": [
+        {
+          "season": 2013,
+          "week": 16,
+          "manager_id": "whitaker",
+          "opponent_id": "carter",
+          "player": "Patriots - DEF",
+          "position": "DEF",
+          "points": 42.7,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "benedict",
+          "opponent_id": "whitaker",
+          "player": "Panthers - DEF",
+          "position": "DEF",
+          "points": 37.27,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "dave",
+          "opponent_id": "benedict",
+          "player": "Chiefs - DEF",
+          "position": "DEF",
+          "points": 34.73,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 16,
+          "manager_id": "dylan",
+          "opponent_id": "brice",
+          "player": "Bengals - DEF",
+          "position": "DEF",
+          "points": 33.5,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "dylan",
+          "opponent_id": "dave",
+          "player": "Bengals - DEF",
+          "position": "DEF",
+          "points": 33.33,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2015,
+          "week": 16,
+          "manager_id": "jay",
+          "opponent_id": "pb",
+          "player": "Cardinals - DEF",
+          "position": "DEF",
+          "points": 33.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "brice",
+          "opponent_id": "carter",
+          "player": "49ers - DEF",
+          "position": "DEF",
+          "points": 31.83,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "carter",
+          "opponent_id": "brice",
+          "player": "Seahawks - DEF",
+          "position": "DEF",
+          "points": 30.87,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "whitaker",
+          "opponent_id": "benedict",
+          "player": "Patriots - DEF",
+          "position": "DEF",
+          "points": 30.07,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2019,
+          "week": 16,
+          "manager_id": "pb",
+          "opponent_id": "zac",
+          "player": "Colts - DEF",
+          "position": "DEF",
+          "points": 30.0,
+          "bracket": "Championship"
+        }
+      ],
+      "K": [
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "jay",
+          "opponent_id": "kyle",
+          "player": "Justin Tucker",
+          "position": "K",
+          "points": 23.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "benedict",
+          "opponent_id": "dave",
+          "player": "Phil Dawson",
+          "position": "K",
+          "points": 17.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 16,
+          "manager_id": "dave",
+          "opponent_id": "kyle",
+          "player": "Nick Novak",
+          "position": "K",
+          "points": 15.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "brice",
+          "opponent_id": "kyle",
+          "player": "Stephen Gostkowski",
+          "position": "K",
+          "points": 15.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 16,
+          "manager_id": "carter",
+          "opponent_id": "whitaker",
+          "player": "Matt Prater",
+          "position": "K",
+          "points": 14.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 15,
+          "manager_id": "dylan",
+          "opponent_id": "whitaker",
+          "player": "Adam Vinatieri",
+          "position": "K",
+          "points": 13.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 16,
+          "manager_id": "brice",
+          "opponent_id": "dylan",
+          "player": "Stephen Gostkowski",
+          "position": "K",
+          "points": 13.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "benedict",
+          "opponent_id": "whitaker",
+          "player": "Phil Dawson",
+          "position": "K",
+          "points": 13.0,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 16,
+          "manager_id": "dylan",
+          "opponent_id": "brice",
+          "player": "Adam Vinatieri",
+          "position": "K",
+          "points": 12.25,
+          "bracket": "Championship"
+        },
+        {
+          "season": 2013,
+          "week": 17,
+          "manager_id": "dylan",
+          "opponent_id": "dave",
+          "player": "Adam Vinatieri",
+          "position": "K",
+          "points": 12.0,
+          "bracket": "Championship"
+        }
+      ]
+    },
+    "multipliers": [
+      {
+        "manager_id": "kevin",
+        "regular_games": 42,
+        "postseason_games": 7,
+        "regular_ppg": 111.55,
+        "postseason_ppg": 123.77,
+        "delta": 12.22,
+        "multiplier": 110.96
+      },
+      {
+        "manager_id": "laskey",
+        "regular_games": 13,
+        "postseason_games": 3,
+        "regular_ppg": 93.22,
+        "postseason_ppg": 101.98,
+        "delta": 8.76,
+        "multiplier": 109.4
+      },
+      {
+        "manager_id": "dylan",
+        "regular_games": 60,
+        "postseason_games": 11,
+        "regular_ppg": 102.02,
+        "postseason_ppg": 110.27,
+        "delta": 8.25,
+        "multiplier": 108.08
+      },
+      {
+        "manager_id": "benedict",
+        "regular_games": 99,
+        "postseason_games": 19,
+        "regular_ppg": 113.67,
+        "postseason_ppg": 121.4,
+        "delta": 7.73,
+        "multiplier": 106.8
+      },
+      {
+        "manager_id": "brice",
+        "regular_games": 169,
+        "postseason_games": 28,
+        "regular_ppg": 117.66,
+        "postseason_ppg": 122.39,
+        "delta": 4.73,
+        "multiplier": 104.02
+      },
+      {
+        "manager_id": "jay",
+        "regular_games": 127,
+        "postseason_games": 27,
+        "regular_ppg": 120.78,
+        "postseason_ppg": 124.42,
+        "delta": 3.64,
+        "multiplier": 103.01
+      },
+      {
+        "manager_id": "jason",
+        "regular_games": 122,
+        "postseason_games": 19,
+        "regular_ppg": 117.8,
+        "postseason_ppg": 120.97,
+        "delta": 3.17,
+        "multiplier": 102.69
+      },
+      {
+        "manager_id": "pb",
+        "regular_games": 161,
+        "postseason_games": 27,
+        "regular_ppg": 109.69,
+        "postseason_ppg": 110.39,
+        "delta": 0.71,
+        "multiplier": 100.64
+      },
+      {
+        "manager_id": "carter",
+        "regular_games": 169,
+        "postseason_games": 29,
+        "regular_ppg": 118.0,
+        "postseason_ppg": 118.44,
+        "delta": 0.44,
+        "multiplier": 100.37
+      },
+      {
+        "manager_id": "michael",
+        "regular_games": 161,
+        "postseason_games": 29,
+        "regular_ppg": 109.75,
+        "postseason_ppg": 109.13,
+        "delta": -0.62,
+        "multiplier": 99.43
+      },
+      {
+        "manager_id": "kelly",
+        "regular_games": 39,
+        "postseason_games": 7,
+        "regular_ppg": 106.12,
+        "postseason_ppg": 104.63,
+        "delta": -1.48,
+        "multiplier": 98.6
+      },
+      {
+        "manager_id": "ryan",
+        "regular_games": 161,
+        "postseason_games": 31,
+        "regular_ppg": 112.46,
+        "postseason_ppg": 110.81,
+        "delta": -1.65,
+        "multiplier": 98.53
+      },
+      {
+        "manager_id": "zac",
+        "regular_games": 122,
+        "postseason_games": 22,
+        "regular_ppg": 113.31,
+        "postseason_ppg": 111.65,
+        "delta": -1.66,
+        "multiplier": 98.54
+      },
+      {
+        "manager_id": "megan",
+        "regular_games": 28,
+        "postseason_games": 4,
+        "regular_ppg": 116.61,
+        "postseason_ppg": 114.78,
+        "delta": -1.84,
+        "multiplier": 98.43
+      },
+      {
+        "manager_id": "kyle",
+        "regular_games": 73,
+        "postseason_games": 12,
+        "regular_ppg": 107.16,
+        "postseason_ppg": 104.03,
+        "delta": -3.14,
+        "multiplier": 97.07
+      },
+      {
+        "manager_id": "dave",
+        "regular_games": 21,
+        "postseason_games": 5,
+        "regular_ppg": 122.43,
+        "postseason_ppg": 117.28,
+        "delta": -5.16,
+        "multiplier": 95.79
+      },
+      {
+        "manager_id": "whitaker",
+        "regular_games": 169,
+        "postseason_games": 30,
+        "regular_ppg": 114.5,
+        "postseason_ppg": 107.8,
+        "delta": -6.7,
+        "multiplier": 94.15
+      },
+      {
+        "manager_id": "tommy",
+        "regular_games": 161,
+        "postseason_games": 26,
+        "regular_ppg": 115.5,
+        "postseason_ppg": 107.94,
+        "delta": -7.56,
+        "multiplier": 93.45
+      },
+      {
+        "manager_id": "sara",
+        "regular_games": 26,
+        "postseason_games": 4,
+        "regular_ppg": 111.2,
+        "postseason_ppg": 102.92,
+        "delta": -8.27,
+        "multiplier": 92.56
+      },
+      {
+        "manager_id": "becca",
+        "regular_games": 81,
+        "postseason_games": 10,
+        "regular_ppg": 110.68,
+        "postseason_ppg": 99.58,
+        "delta": -11.1,
+        "multiplier": 89.97
+      },
+      {
+        "manager_id": "kat",
+        "regular_games": 42,
+        "postseason_games": 6,
+        "regular_ppg": 108.94,
+        "postseason_ppg": 94.21,
+        "delta": -14.73,
+        "multiplier": 86.48
+      }
+    ],
+    "unlucky": [
+      {
+        "manager_id": "whitaker",
+        "games": 30,
+        "actual_wins": 11,
+        "expected_wins": 15.64,
+        "luck_delta": -4.64
+      },
+      {
+        "manager_id": "becca",
+        "games": 10,
+        "actual_wins": 2,
+        "expected_wins": 5.08,
+        "luck_delta": -3.08
+      },
+      {
+        "manager_id": "dave",
+        "games": 5,
+        "actual_wins": 0,
+        "expected_wins": 2.75,
+        "luck_delta": -2.75
+      },
+      {
+        "manager_id": "pb",
+        "games": 27,
+        "actual_wins": 11,
+        "expected_wins": 13.11,
+        "luck_delta": -2.11
+      },
+      {
+        "manager_id": "kelly",
+        "games": 7,
+        "actual_wins": 1,
+        "expected_wins": 2.73,
+        "luck_delta": -1.73
+      },
+      {
+        "manager_id": "sara",
+        "games": 4,
+        "actual_wins": 1,
+        "expected_wins": 2.49,
+        "luck_delta": -1.49
+      },
+      {
+        "manager_id": "megan",
+        "games": 4,
+        "actual_wins": 1,
+        "expected_wins": 2.21,
+        "luck_delta": -1.21
+      },
+      {
+        "manager_id": "kat",
+        "games": 6,
+        "actual_wins": 2,
+        "expected_wins": 2.86,
+        "luck_delta": -0.86
+      },
+      {
+        "manager_id": "laskey",
+        "games": 3,
+        "actual_wins": 1,
+        "expected_wins": 0.93,
+        "luck_delta": 0.07
+      },
+      {
+        "manager_id": "tommy",
+        "games": 26,
+        "actual_wins": 14,
+        "expected_wins": 13.69,
+        "luck_delta": 0.31
+      },
+      {
+        "manager_id": "kyle",
+        "games": 12,
+        "actual_wins": 5,
+        "expected_wins": 4.27,
+        "luck_delta": 0.73
+      },
+      {
+        "manager_id": "kevin",
+        "games": 7,
+        "actual_wins": 4,
+        "expected_wins": 3.19,
+        "luck_delta": 0.81
+      },
+      {
+        "manager_id": "jason",
+        "games": 19,
+        "actual_wins": 12,
+        "expected_wins": 11.07,
+        "luck_delta": 0.93
+      },
+      {
+        "manager_id": "carter",
+        "games": 29,
+        "actual_wins": 15,
+        "expected_wins": 14.02,
+        "luck_delta": 0.98
+      },
+      {
+        "manager_id": "brice",
+        "games": 28,
+        "actual_wins": 17,
+        "expected_wins": 15.68,
+        "luck_delta": 1.32
+      },
+      {
+        "manager_id": "dylan",
+        "games": 11,
+        "actual_wins": 6,
+        "expected_wins": 4.52,
+        "luck_delta": 1.48
+      },
+      {
+        "manager_id": "jay",
+        "games": 27,
+        "actual_wins": 17,
+        "expected_wins": 15.23,
+        "luck_delta": 1.77
+      },
+      {
+        "manager_id": "zac",
+        "games": 22,
+        "actual_wins": 13,
+        "expected_wins": 11.0,
+        "luck_delta": 2.0
+      },
+      {
+        "manager_id": "michael",
+        "games": 29,
+        "actual_wins": 16,
+        "expected_wins": 13.96,
+        "luck_delta": 2.04
+      },
+      {
+        "manager_id": "benedict",
+        "games": 19,
+        "actual_wins": 11,
+        "expected_wins": 8.0,
+        "luck_delta": 3.0
+      },
+      {
+        "manager_id": "ryan",
+        "games": 31,
+        "actual_wins": 20,
+        "expected_wins": 16.07,
+        "luck_delta": 3.93
+      }
+    ],
+    "greatest_comebacks": [
+      {
+        "season": 2013,
+        "week": 15,
+        "winner_id": "jay",
+        "loser_id": "kyle",
+        "winner_score": 190.57,
+        "loser_score": 158.96,
+        "deficit": 84.52,
+        "gate": "SUN_EARLY"
+      },
+      {
+        "season": 2021,
+        "week": 16,
+        "winner_id": "zac",
+        "loser_id": "whitaker",
+        "winner_score": 126.26,
+        "loser_score": 103.84,
+        "deficit": 61.1,
+        "gate": "SAT"
+      },
+      {
+        "season": 2022,
+        "week": 15,
+        "winner_id": "zac",
+        "loser_id": "pb",
+        "winner_score": 130.68,
+        "loser_score": 128.64,
+        "deficit": 52.24,
+        "gate": "SAT"
+      },
+      {
+        "season": 2019,
+        "week": 16,
+        "winner_id": "brice",
+        "loser_id": "benedict",
+        "winner_score": 97.44,
+        "loser_score": 90.46,
+        "deficit": 51.86,
+        "gate": "SUN_AFT"
+      },
+      {
+        "season": 2017,
+        "week": 15,
+        "winner_id": "jay",
+        "loser_id": "kelly",
+        "winner_score": 141.54,
+        "loser_score": 106.28,
+        "deficit": 44.48,
+        "gate": "SUN_EARLY"
+      },
+      {
+        "season": 2017,
+        "week": 16,
+        "winner_id": "ryan",
+        "loser_id": "brice",
+        "winner_score": 92.72,
+        "loser_score": 90.66,
+        "deficit": 40.56,
+        "gate": "SUN_EARLY"
+      },
+      {
+        "season": 2022,
+        "week": 16,
+        "winner_id": "brice",
+        "loser_id": "zac",
+        "winner_score": 96.9,
+        "loser_score": 94.16,
+        "deficit": 39.96,
+        "gate": "SAT"
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "winner_id": "whitaker",
+        "loser_id": "pb",
+        "winner_score": 116.68,
+        "loser_score": 107.84,
+        "deficit": 39.5,
+        "gate": "SUN_EARLY"
+      },
+      {
+        "season": 2025,
+        "week": 16,
+        "winner_id": "brice",
+        "loser_id": "zac",
+        "winner_score": 137.3,
+        "loser_score": 108.8,
+        "deficit": 38.2,
+        "gate": "SUN_EARLY"
+      },
+      {
+        "season": 2024,
+        "week": 16,
+        "winner_id": "jason",
+        "loser_id": "whitaker",
+        "winner_score": 119.34,
+        "loser_score": 119.06,
+        "deficit": 38.12,
+        "gate": "SUN_AFT"
+      }
+    ],
+    "tightest_games": [
+      {
+        "season": 2018,
+        "week": 15,
+        "bracket": "Consolation",
+        "label": "Semifinal",
+        "winner_id": "tommy",
+        "loser_id": "kelly",
+        "winner_score": 91.92,
+        "loser_score": 91.84,
+        "margin": 0.08,
+        "winner_seed": 7,
+        "loser_seed": 10
+      },
+      {
+        "season": 2024,
+        "week": 16,
+        "bracket": "Championship",
+        "label": "Semifinal",
+        "winner_id": "jason",
+        "loser_id": "whitaker",
+        "winner_score": 119.34,
+        "loser_score": 119.06,
+        "margin": 0.28,
+        "winner_seed": 2,
+        "loser_seed": 4
+      },
+      {
+        "season": 2020,
+        "week": 15,
+        "bracket": "Championship",
+        "label": "Semifinal",
+        "winner_id": "zac",
+        "loser_id": "brice",
+        "winner_score": 110.12,
+        "loser_score": 109.76,
+        "margin": 0.36,
+        "winner_seed": 2,
+        "loser_seed": 3
+      },
+      {
+        "season": 2021,
+        "week": 17,
+        "bracket": "Consolation",
+        "label": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "tommy",
+        "loser_id": "jason",
+        "winner_score": 87.7,
+        "loser_score": 87.26,
+        "margin": 0.44,
+        "winner_seed": 9,
+        "loser_seed": 10
+      },
+      {
+        "season": 2017,
+        "week": 16,
+        "bracket": "Championship",
+        "label": "Kumho Tires Tokyo Drift Bowl",
+        "winner_id": "zac",
+        "loser_id": "kelly",
+        "winner_score": 97.74,
+        "loser_score": 97.0,
+        "margin": 0.74,
+        "winner_seed": 3,
+        "loser_seed": 4
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "bracket": "Championship",
+        "label": "Quarterfinal",
+        "winner_id": "tommy",
+        "loser_id": "carter",
+        "winner_score": 112.5,
+        "loser_score": 110.86,
+        "margin": 1.64,
+        "winner_seed": 1,
+        "loser_seed": 5
+      },
+      {
+        "season": 2014,
+        "week": 16,
+        "bracket": "Consolation",
+        "label": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "pb",
+        "loser_id": "laskey",
+        "winner_score": 85.18,
+        "loser_score": 83.38,
+        "margin": 1.8,
+        "winner_seed": 9,
+        "loser_seed": 10
+      },
+      {
+        "season": 2022,
+        "week": 15,
+        "bracket": "Consolation",
+        "label": "Quarterfinal",
+        "winner_id": "zac",
+        "loser_id": "pb",
+        "winner_score": 130.68,
+        "loser_score": 128.64,
+        "margin": 2.04,
+        "winner_seed": 10,
+        "loser_seed": 11
+      },
+      {
+        "season": 2017,
+        "week": 16,
+        "bracket": "Consolation",
+        "label": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+        "winner_id": "ryan",
+        "loser_id": "brice",
+        "winner_score": 92.72,
+        "loser_score": 90.66,
+        "margin": 2.06,
+        "winner_seed": 7,
+        "loser_seed": 8
+      },
+      {
+        "season": 2022,
+        "week": 16,
+        "bracket": "Consolation",
+        "label": "Semifinal",
+        "winner_id": "brice",
+        "loser_id": "zac",
+        "winner_score": 96.9,
+        "loser_score": 94.16,
+        "margin": 2.74,
+        "winner_seed": 8,
+        "loser_seed": 10
+      }
+    ],
+    "biggest_blowouts": [
+      {
+        "season": 2021,
+        "week": 16,
+        "bracket": "Consolation",
+        "label": "11th Place Game",
+        "winner_id": "carter",
+        "loser_id": "aboubacar",
+        "winner_score": 158.24,
+        "loser_score": 66.18,
+        "margin": 92.06,
+        "winner_seed": 11,
+        "loser_seed": 12
+      },
+      {
+        "season": 2018,
+        "week": 14,
+        "bracket": "Consolation",
+        "label": "Quarterfinal",
+        "winner_id": "jason",
+        "loser_id": "kyle",
+        "winner_score": 144.34,
+        "loser_score": 58.8,
+        "margin": 85.54,
+        "winner_seed": 8,
+        "loser_seed": 12
+      },
+      {
+        "season": 2015,
+        "week": 15,
+        "bracket": "Consolation",
+        "label": "Semifinal",
+        "winner_id": "kyle",
+        "loser_id": "whitaker",
+        "winner_score": 135.66,
+        "loser_score": 55.96,
+        "margin": 79.7,
+        "winner_seed": 8,
+        "loser_seed": 10
+      },
+      {
+        "season": 2017,
+        "week": 14,
+        "bracket": "Consolation",
+        "label": "Quarterfinal",
+        "winner_id": "pb",
+        "loser_id": "kyle",
+        "winner_score": 143.5,
+        "loser_score": 66.76,
+        "margin": 76.74,
+        "winner_seed": 10,
+        "loser_seed": 11
+      },
+      {
+        "season": 2015,
+        "week": 15,
+        "bracket": "Championship",
+        "label": "Semifinal",
+        "winner_id": "jay",
+        "loser_id": "tommy",
+        "winner_score": 171.3,
+        "loser_score": 102.64,
+        "margin": 68.66,
+        "winner_seed": 1,
+        "loser_seed": 4
+      },
+      {
+        "season": 2022,
+        "week": 16,
+        "bracket": "Consolation",
+        "label": "Semifinal",
+        "winner_id": "whitaker",
+        "loser_id": "ryan",
+        "winner_score": 139.36,
+        "loser_score": 70.94,
+        "margin": 68.42,
+        "winner_seed": 7,
+        "loser_seed": 9
+      },
+      {
+        "season": 2018,
+        "week": 16,
+        "bracket": "Consolation",
+        "label": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "pb",
+        "loser_id": "kelly",
+        "winner_score": 135.48,
+        "loser_score": 67.44,
+        "margin": 68.04,
+        "winner_seed": 9,
+        "loser_seed": 10
+      },
+      {
+        "season": 2023,
+        "week": 17,
+        "bracket": "Consolation",
+        "label": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "zac",
+        "loser_id": "kat",
+        "winner_score": 122.82,
+        "loser_score": 55.5,
+        "margin": 67.32,
+        "winner_seed": 9,
+        "loser_seed": 10
+      },
+      {
+        "season": 2021,
+        "week": 17,
+        "bracket": "Championship",
+        "label": "Teremana Tequila Bowl",
+        "winner_id": "zac",
+        "loser_id": "jay",
+        "winner_score": 179.9,
+        "loser_score": 112.66,
+        "margin": 67.24,
+        "winner_seed": 1,
+        "loser_seed": 2
+      },
+      {
+        "season": 2019,
+        "week": 16,
+        "bracket": "Championship",
+        "label": "Kumho Tires Tokyo Drift Bowl",
+        "winner_id": "carter",
+        "loser_id": "ryan",
+        "winner_score": 146.04,
+        "loser_score": 82.82,
+        "margin": 63.22,
+        "winner_seed": 3,
+        "loser_seed": 4
+      }
+    ],
+    "upsets": [],
+    "bowls": {
+      "Teremana Tequila Bowl": [
+        {
+          "season": 2013,
+          "week": 17,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "carter",
+          "winner_team": "Ice Kingdom Gunters",
+          "winner_score": 135.62,
+          "runner_up_id": "jay",
+          "runner_up_team": "Lunar Giants Suck",
+          "runner_up_score": 126.56,
+          "mvp": {
+            "player": "Demaryius Thomas",
+            "position": "WR",
+            "points": 30.3,
+            "manager": "Carter",
+            "team": "Ice Kingdom Gunters",
+            "side": "winning team",
+            "season_avg": 19.77,
+            "delta_vs_avg": 10.53,
+            "type": "standard"
+          },
+          "venue": "Hard Rock Stadium",
+          "city": "Miami",
+          "state": "Florida",
+          "attendance": 32150,
+          "attendance_value": 32150,
+          "indoor": false,
+          "weather": {
+            "low": 75,
+            "cond": "Light drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2014,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "jay",
+          "winner_team": "Magnetron",
+          "winner_score": 121.04,
+          "runner_up_id": "carter",
+          "runner_up_team": "HE ATE ME",
+          "runner_up_score": 98.52,
+          "mvp": {
+            "player": "C.J. Anderson",
+            "position": "RB",
+            "points": 27.8,
+            "manager": "Jay",
+            "team": "Magnetron",
+            "side": "winning team",
+            "season_avg": 22.18,
+            "delta_vs_avg": 5.62,
+            "type": "standard"
+          },
+          "venue": "Cotton Bowl",
+          "city": "Dallas",
+          "state": "Texas",
+          "attendance": 58720,
+          "attendance_value": 58720,
+          "indoor": false,
+          "weather": {
+            "low": 50,
+            "cond": "Overcast",
+            "emoji": "☁️"
+          }
+        },
+        {
+          "season": 2015,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "jay",
+          "winner_team": "Magnetron",
+          "winner_score": 122.78,
+          "runner_up_id": "pb",
+          "runner_up_team": "People's Army Team",
+          "runner_up_score": 91.36,
+          "mvp": {
+            "player": "Cardinals - DEF",
+            "position": "DEF",
+            "points": 33.0,
+            "manager": "Jay",
+            "team": "Magnetron",
+            "side": "winning team",
+            "season_avg": 9.69,
+            "delta_vs_avg": 23.31,
+            "type": "standard"
+          },
+          "venue": "Mercedes-Benz Superdome",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "attendance": 67400,
+          "attendance_value": 67400,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2016,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "michael",
+          "winner_team": "The Fumblers",
+          "winner_score": 118.7,
+          "runner_up_id": "kyle",
+          "runner_up_team": "Monchhichis",
+          "runner_up_score": 87.96,
+          "mvp": {
+            "player": "Russell Wilson",
+            "position": "QB",
+            "points": 34.6,
+            "manager": "Michael",
+            "team": "The Fumblers",
+            "side": "winning team",
+            "season_avg": 19.68,
+            "delta_vs_avg": 14.92,
+            "type": "standard"
+          },
+          "venue": "Lambeau Field",
+          "city": "Green Bay",
+          "state": "Wisconsin",
+          "attendance": 74890,
+          "attendance_value": 74890,
+          "indoor": false,
+          "weather": {
+            "low": 20,
+            "cond": "Sleet, Cheddar: Extra Sharp",
+            "emoji": "🧀"
+          }
+        },
+        {
+          "season": 2017,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "jay",
+          "winner_team": "Magnetron",
+          "winner_score": 134.04,
+          "runner_up_id": "michael",
+          "runner_up_team": "The Fumblers",
+          "runner_up_score": 95.6,
+          "mvp": {
+            "player": "Todd Gurley",
+            "position": "RB",
+            "points": 50.6,
+            "manager": "Jay",
+            "team": "Magnetron",
+            "side": "winning team",
+            "season_avg": 24.12,
+            "delta_vs_avg": 26.48,
+            "type": "standard"
+          },
+          "venue": "AT&T Field",
+          "city": "Arlington",
+          "state": "Texas",
+          "attendance": 71200,
+          "attendance_value": 71200,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2018,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "benedict",
+          "winner_team": "Vontaze Benedict",
+          "winner_score": 126.42,
+          "runner_up_id": "carter",
+          "runner_up_team": "Bortles' Burgers",
+          "runner_up_score": 82.94,
+          "mvp": {
+            "player": "Patrick Mahomes",
+            "position": "QB",
+            "points": 28.22,
+            "manager": "Benedict",
+            "team": "Vontaze Benedict",
+            "side": "winning team",
+            "season_avg": 28.45,
+            "delta_vs_avg": -0.23,
+            "type": "standard"
+          },
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara",
+          "state": "California",
+          "attendance": 56430,
+          "attendance_value": 56430,
+          "indoor": false,
+          "weather": {
+            "low": 47,
+            "cond": "Light rain",
+            "emoji": "🌧️"
+          }
+        },
+        {
+          "season": 2019,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "zac",
+          "winner_team": "Goffsides",
+          "winner_score": 123.58,
+          "runner_up_id": "pb",
+          "runner_up_team": "H U B R I S",
+          "runner_up_score": 118.12,
+          "mvp": {
+            "player": "Alvin Kamara",
+            "position": "RB",
+            "points": 30.0,
+            "manager": "pb",
+            "team": "H U B R I S",
+            "side": "losing team",
+            "season_avg": 16.21,
+            "delta_vs_avg": 13.79,
+            "type": "howley"
+          },
+          "venue": "Tottenham Hotspur Stadium",
+          "city": "London",
+          "state": "United Kingdom",
+          "attendance": 53210,
+          "attendance_value": 53210,
+          "indoor": false,
+          "weather": {
+            "low": 41,
+            "cond": "Overcast",
+            "emoji": "☁️"
+          }
+        },
+        {
+          "season": 2020,
+          "week": 16,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "tommy",
+          "winner_team": "Tommy's Turbos",
+          "winner_score": 108.56,
+          "runner_up_id": "zac",
+          "runner_up_team": "Goffsides",
+          "runner_up_score": 102.44,
+          "mvp": {
+            "player": "Adam Thielen",
+            "position": "WR",
+            "points": 23.7,
+            "manager": "Tommy",
+            "team": "Tommy's Turbos",
+            "side": "winning team",
+            "season_avg": 17.89,
+            "delta_vs_avg": 5.81,
+            "type": "standard"
+          },
+          "venue": "Hard Rock Stadium (LMFL Bubble)",
+          "city": "Miami",
+          "state": "Florida",
+          "attendance": 26130,
+          "attendance_value": 26130,
+          "indoor": false,
+          "weather": {
+            "low": 57,
+            "cond": "Light drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "zac",
+          "winner_team": "Goffsides",
+          "winner_score": 179.9,
+          "runner_up_id": "jay",
+          "runner_up_team": "No",
+          "runner_up_score": 112.66,
+          "mvp": {
+            "player": "Ja'Marr Chase",
+            "position": "WR",
+            "points": 57.6,
+            "manager": "Zac",
+            "team": "Goffsides",
+            "side": "winning team",
+            "season_avg": 17.99,
+            "delta_vs_avg": 39.61,
+            "type": "standard"
+          },
+          "venue": "SoFi Stadium",
+          "city": "Los Angeles",
+          "state": "California",
+          "attendance": 61850,
+          "attendance_value": 61850,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "carter",
+          "winner_team": "Amon-Ra St. Patrick Brown",
+          "winner_score": 93.48,
+          "runner_up_id": "jason",
+          "runner_up_team": "Clyde Edwards Eclair",
+          "runner_up_score": 85.88,
+          "mvp": {
+            "player": "Brandon Aiyuk",
+            "position": "WR",
+            "points": 26.7,
+            "manager": "Jason",
+            "team": "Clyde Edwards Eclair",
+            "side": "losing team",
+            "season_avg": 12.17,
+            "delta_vs_avg": 14.53,
+            "type": "howley"
+          },
+          "venue": "Texas Motor Speedway",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "attendance": 104700,
+          "attendance_value": 104700,
+          "indoor": false,
+          "weather": {
+            "low": 56,
+            "cond": "Overcast",
+            "emoji": "☁️"
+          }
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "brice",
+          "winner_team": "Tu-jitsu",
+          "winner_score": 127.06,
+          "runner_up_id": "michael",
+          "runner_up_team": "The Fumblers",
+          "runner_up_score": 106.46,
+          "mvp": {
+            "player": "CeeDee Lamb",
+            "position": "WR",
+            "points": 41.2,
+            "manager": "Michael",
+            "team": "The Fumblers",
+            "side": "losing team",
+            "season_avg": 21.97,
+            "delta_vs_avg": 19.23,
+            "type": "howley"
+          },
+          "venue": "National Stadium",
+          "city": "Kallang",
+          "state": "Singapore",
+          "attendance": 55000,
+          "attendance_value": 55000,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "tommy",
+          "winner_team": "Koo-nosha Kickers",
+          "winner_score": 160.36,
+          "runner_up_id": "jason",
+          "runner_up_team": "Clyde Edwards Eclair",
+          "runner_up_score": 138.88,
+          "mvp": {
+            "player": "DeVonta Smith",
+            "position": "WR",
+            "points": 31.0,
+            "manager": "Tommy",
+            "team": "Koo-nosha Kickers",
+            "side": "winning team",
+            "season_avg": 13.15,
+            "delta_vs_avg": 17.85,
+            "type": "standard"
+          },
+          "venue": "State Farm Stadium",
+          "city": "Glendale",
+          "state": "Arizona",
+          "attendance": 64200,
+          "attendance_value": 64200,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "bowl": "Teremana Tequila Bowl",
+          "winner_id": "kevin",
+          "winner_team": "The Princess McBride",
+          "winner_score": 111.5,
+          "runner_up_id": "ryan",
+          "runner_up_team": "The Kittle Prince",
+          "runner_up_score": 101.74,
+          "mvp": {
+            "player": "Chase Brown",
+            "position": "RB",
+            "points": 29.1,
+            "manager": "Kevin",
+            "team": "The Princess McBride",
+            "side": "winning team",
+            "season_avg": 16.09,
+            "delta_vs_avg": 13.01,
+            "type": "standard"
+          },
+          "venue": "UFC Fight Island - Yas Marina",
+          "city": "Abu Dhabi",
+          "state": "United Arab Emirates",
+          "attendance": 18065,
+          "attendance_value": 18065,
+          "indoor": false,
+          "weather": {
+            "low": 69,
+            "cond": "Partly cloudy",
+            "emoji": "⛅"
+          }
+        }
+      ],
+      "Ludacris Presents the Magic City Lemon Pepper Wing Bowl": [
+        {
+          "season": 2013,
+          "week": 17,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "brice",
+          "winner_team": "Beep Burpips",
+          "winner_score": 148.58,
+          "runner_up_id": "kyle",
+          "runner_up_team": "THE MONKEYS",
+          "runner_up_score": 124.81,
+          "mvp": {
+            "player": "Chris Johnson",
+            "position": "RB",
+            "points": 23.1,
+            "manager": "Brice",
+            "team": "Beep Burpips",
+            "side": "winning team",
+            "season_avg": 17.12,
+            "delta_vs_avg": 5.98,
+            "type": "howard"
+          },
+          "venue": "Bobby Dodd Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 32321,
+          "attendance_value": 32321,
+          "indoor": false,
+          "weather": {
+            "low": 42,
+            "cond": "Moderate rain",
+            "emoji": "🌧️"
+          }
+        },
+        {
+          "season": 2014,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "benedict",
+          "winner_team": "Benny Football",
+          "winner_score": 167.36,
+          "runner_up_id": "brice",
+          "runner_up_team": "Kedrek Knightssss",
+          "runner_up_score": 137.08,
+          "mvp": {
+            "player": "Russell Wilson",
+            "position": "QB",
+            "points": 39.36,
+            "manager": "Benedict",
+            "team": "Benny Football",
+            "side": "winning team",
+            "season_avg": 20.67,
+            "delta_vs_avg": 18.69,
+            "type": "standard"
+          },
+          "venue": "The Georgia Dome",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 40891,
+          "attendance_value": 40891,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2015,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "ryan",
+          "winner_team": "The Trail of Pears",
+          "winner_score": 132.06,
+          "runner_up_id": "kyle",
+          "runner_up_team": "Biscuits",
+          "runner_up_score": 116.9,
+          "mvp": {
+            "player": "DeAngelo Williams",
+            "position": "RB",
+            "points": 31.3,
+            "manager": "Ryan",
+            "team": "The Trail of Pears",
+            "side": "winning team",
+            "season_avg": 21.94,
+            "delta_vs_avg": 9.36,
+            "type": "standard"
+          },
+          "venue": "The Georgia Dome",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 47766,
+          "attendance_value": 47766,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2016,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "dylan",
+          "winner_team": "AMERICA",
+          "winner_score": 101.1,
+          "runner_up_id": "pb",
+          "runner_up_team": "SEC Speed",
+          "runner_up_score": 84.08,
+          "mvp": {
+            "player": "Kirk Cousins",
+            "position": "QB",
+            "points": 31.8,
+            "manager": "Dylan",
+            "team": "AMERICA",
+            "side": "winning team",
+            "season_avg": 19.86,
+            "delta_vs_avg": 11.94,
+            "type": "standard"
+          },
+          "venue": "The Georgia Dome",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 53400,
+          "attendance_value": 53400,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2017,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "ryan",
+          "winner_team": "Good King Wentzeslas",
+          "winner_score": 92.72,
+          "runner_up_id": "brice",
+          "runner_up_team": "Bricing The Kicker",
+          "runner_up_score": 90.66,
+          "mvp": {
+            "player": "Kirk Cousins",
+            "position": "QB",
+            "points": 24.76,
+            "manager": "Brice",
+            "team": "Bricing The Kicker",
+            "side": "losing team",
+            "season_avg": 19.12,
+            "delta_vs_avg": 5.64,
+            "type": "howley"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 59100,
+          "attendance_value": 59100,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2018,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "tommy",
+          "winner_team": "Tommy's Turbos",
+          "winner_score": 109.94,
+          "runner_up_id": "jason",
+          "runner_up_team": "Garopalypse Now",
+          "runner_up_score": 99.04,
+          "mvp": {
+            "player": "Deshaun Watson",
+            "position": "QB",
+            "points": 36.46,
+            "manager": "Tommy",
+            "team": "Tommy's Turbos",
+            "side": "winning team",
+            "season_avg": 20.19,
+            "delta_vs_avg": 16.27,
+            "type": "standard"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 62700,
+          "attendance_value": 62700,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2019,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "michael",
+          "winner_team": "The Fumblers",
+          "winner_score": 138.12,
+          "runner_up_id": "jason",
+          "runner_up_team": "On To Cincinnati",
+          "runner_up_score": 131.26,
+          "mvp": {
+            "player": "Christian McCaffrey",
+            "position": "RB",
+            "points": 32.3,
+            "manager": "Jason",
+            "team": "On To Cincinnati",
+            "side": "losing team",
+            "season_avg": 30.43,
+            "delta_vs_avg": 1.87,
+            "type": "howley"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 64500,
+          "attendance_value": 64500,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2020,
+          "week": 16,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "jason",
+          "winner_team": "Clyde Edwards Eclair",
+          "winner_score": 97.3,
+          "runner_up_id": "ryan",
+          "runner_up_team": "A Tale of Trubisky's",
+          "runner_up_score": 87.48,
+          "mvp": {
+            "player": "Allen Robinson",
+            "position": "WR",
+            "points": 20.3,
+            "manager": "Jason",
+            "team": "Clyde Edwards Eclair",
+            "side": "winning team",
+            "season_avg": 16.21,
+            "delta_vs_avg": 4.09,
+            "type": "howard"
+          },
+          "venue": "Hard Rock Stadium (LMFL Bubble)",
+          "city": "Miami",
+          "state": "Florida",
+          "attendance": 26130,
+          "attendance_value": 26130,
+          "indoor": false,
+          "weather": {
+            "low": 57,
+            "cond": "Light drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "ryan",
+          "winner_team": "A Tale of Trubisky's",
+          "winner_score": 131.32,
+          "runner_up_id": "michael",
+          "runner_up_team": "The Fumblers",
+          "runner_up_score": 102.04,
+          "mvp": {
+            "player": "Rhamondre Stevenson",
+            "position": "RB",
+            "points": 22.7,
+            "manager": "Ryan",
+            "team": "A Tale of Trubisky's",
+            "side": "winning team",
+            "season_avg": 6.55,
+            "delta_vs_avg": 16.15,
+            "type": "howard"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 55000,
+          "attendance_value": 55000,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "whitaker",
+          "winner_team": "The Double Doinkers",
+          "winner_score": 141.92,
+          "runner_up_id": "brice",
+          "runner_up_team": "America's Next Top Waddle",
+          "runner_up_score": 96.38,
+          "mvp": {
+            "player": "Davante Adams",
+            "position": "WR",
+            "points": 36.3,
+            "manager": "whitaker",
+            "team": "The Double Doinkers",
+            "side": "winning team",
+            "season_avg": 20.54,
+            "delta_vs_avg": 15.76,
+            "type": "standard"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 66300,
+          "attendance_value": 66300,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "jason",
+          "winner_team": "Clyde Edwards Eclair",
+          "winner_score": 140.28,
+          "runner_up_id": "ryan",
+          "runner_up_team": "A Tale of Trubisky's",
+          "runner_up_score": 88.8,
+          "mvp": {
+            "player": "Kyren Williams",
+            "position": "RB",
+            "points": 30.1,
+            "manager": "Jason",
+            "team": "Clyde Edwards Eclair",
+            "side": "winning team",
+            "season_avg": 17.65,
+            "delta_vs_avg": 12.45,
+            "type": "standard"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 68900,
+          "attendance_value": 68900,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "ryan",
+          "winner_team": "J.T. O'Sulli-win",
+          "winner_score": 108.68,
+          "runner_up_id": "brice",
+          "runner_up_team": "Coming Tuamerica",
+          "runner_up_score": 105.48,
+          "mvp": {
+            "player": "Brock Purdy",
+            "position": "QB",
+            "points": 34.28,
+            "manager": "Ryan",
+            "team": "J.T. O'Sulli-win",
+            "side": "winning team",
+            "season_avg": 19.49,
+            "delta_vs_avg": 14.79,
+            "type": "standard"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 70200,
+          "attendance_value": 70200,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+          "winner_id": "brice",
+          "winner_team": "Tua Fault",
+          "winner_score": 122.6,
+          "runner_up_id": "tommy",
+          "runner_up_team": "Kenosha Kickers",
+          "runner_up_score": 87.96,
+          "mvp": {
+            "player": "Bijan Robinson",
+            "position": "RB",
+            "points": 40.9,
+            "manager": "Brice",
+            "team": "Tua Fault",
+            "side": "winning team",
+            "season_avg": 21.36,
+            "delta_vs_avg": 19.54,
+            "type": "standard"
+          },
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "attendance": 71400,
+          "attendance_value": 71400,
+          "indoor": true,
+          "weather": null
+        }
+      ],
+      "Kumho Tires Tokyo Drift Bowl": [
+        {
+          "season": 2013,
+          "week": 17,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "benedict",
+          "winner_team": "Tom Brady's Uggs",
+          "winner_score": 161.45,
+          "runner_up_id": "whitaker",
+          "runner_up_team": "Fixpoint Enforcers",
+          "runner_up_score": 139.33,
+          "mvp": {
+            "player": "Panthers - DEF",
+            "position": "DEF",
+            "points": 37.27,
+            "manager": "Benedict",
+            "team": "Tom Brady's Uggs",
+            "side": "winning team",
+            "season_avg": 20.18,
+            "delta_vs_avg": 17.09,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 38742,
+          "attendance_value": 38742,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2014,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "whitaker",
+          "winner_team": "Touchdown();",
+          "winner_score": 119.44,
+          "runner_up_id": "ryan",
+          "runner_up_team": "Henne's Epic Stache",
+          "runner_up_score": 88.84,
+          "mvp": {
+            "player": "Ryan Tannehill",
+            "position": "QB",
+            "points": 32.84,
+            "manager": "whitaker",
+            "team": "Touchdown();",
+            "side": "winning team",
+            "season_avg": 11.28,
+            "delta_vs_avg": 21.56,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 46105,
+          "attendance_value": 46105,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2015,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "benedict",
+          "winner_team": "Benny Football",
+          "winner_score": 133.16,
+          "runner_up_id": "tommy",
+          "runner_up_team": "Tommy's Turbos",
+          "runner_up_score": 106.46,
+          "mvp": {
+            "player": "Jordan Reed",
+            "position": "TE",
+            "points": 33.9,
+            "manager": "Benedict",
+            "team": "Benny Football",
+            "side": "winning team",
+            "season_avg": 13.92,
+            "delta_vs_avg": 19.98,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 51887,
+          "attendance_value": 51887,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2016,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "brice",
+          "winner_team": "Bricing The Kicker",
+          "winner_score": 171.76,
+          "runner_up_id": "jay",
+          "runner_up_team": "Magnetron",
+          "runner_up_score": 128.02,
+          "mvp": {
+            "player": "Travis Kelce",
+            "position": "TE",
+            "points": 34.0,
+            "manager": "Brice",
+            "team": "Bricing The Kicker",
+            "side": "winning team",
+            "season_avg": 13.62,
+            "delta_vs_avg": 20.38,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 43219,
+          "attendance_value": 43219,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2017,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "zac",
+          "winner_team": "Goffsides",
+          "winner_score": 97.74,
+          "runner_up_id": "kelly",
+          "runner_up_team": "Spicy Meatballs",
+          "runner_up_score": 97.0,
+          "mvp": {
+            "player": "Dion Lewis",
+            "position": "RB",
+            "points": 32.3,
+            "manager": "Zac",
+            "team": "Goffsides",
+            "side": "winning team",
+            "season_avg": 14.76,
+            "delta_vs_avg": 17.54,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 49563,
+          "attendance_value": 49563,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2018,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "ryan",
+          "winner_team": "Vike and Subscribe",
+          "winner_score": 144.16,
+          "runner_up_id": "jay",
+          "runner_up_team": "Magnetron",
+          "runner_up_score": 106.8,
+          "mvp": {
+            "player": "Robert Woods",
+            "position": "WR",
+            "points": 28.4,
+            "manager": "Ryan",
+            "team": "Vike and Subscribe",
+            "side": "winning team",
+            "season_avg": 16.69,
+            "delta_vs_avg": 11.71,
+            "type": "howard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 52000,
+          "attendance_value": 52000,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2019,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "carter",
+          "winner_team": "Cash Carter McCarron",
+          "winner_score": 146.04,
+          "runner_up_id": "ryan",
+          "runner_up_team": "Touched By McVayngel",
+          "runner_up_score": 82.82,
+          "mvp": {
+            "player": "Kenyan Drake",
+            "position": "RB",
+            "points": 34.4,
+            "manager": "Carter",
+            "team": "Cash Carter McCarron",
+            "side": "winning team",
+            "season_avg": 8.97,
+            "delta_vs_avg": 25.43,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 41338,
+          "attendance_value": 41338,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2020,
+          "week": 16,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "brice",
+          "winner_team": "Takes Tua To Tango",
+          "winner_score": 126.34,
+          "runner_up_id": "carter",
+          "runner_up_team": "Free Cheeseburgers",
+          "runner_up_score": 100.12,
+          "mvp": {
+            "player": "Davante Adams",
+            "position": "WR",
+            "points": 43.2,
+            "manager": "Brice",
+            "team": "Takes Tua To Tango",
+            "side": "winning team",
+            "season_avg": 25.3,
+            "delta_vs_avg": 17.9,
+            "type": "standard"
+          },
+          "venue": "Hard Rock Stadium (LMFL Bubble)",
+          "city": "Miami",
+          "state": "Florida",
+          "attendance": 26130,
+          "attendance_value": 26130,
+          "indoor": false,
+          "weather": {
+            "low": 57,
+            "cond": "Light drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "whitaker",
+          "winner_team": "The Double Doinkers",
+          "winner_score": 137.38,
+          "runner_up_id": "brice",
+          "runner_up_team": "Takes Tua To Tango",
+          "runner_up_score": 112.7,
+          "mvp": {
+            "player": "Davante Adams",
+            "position": "WR",
+            "points": 30.6,
+            "manager": "whitaker",
+            "team": "The Double Doinkers",
+            "side": "winning team",
+            "season_avg": 22.77,
+            "delta_vs_avg": 7.83,
+            "type": "standard"
+          },
+          "venue": "Camping World Stadium",
+          "city": "Orlando",
+          "state": "Florida",
+          "attendance": 65438,
+          "attendance_value": 65438,
+          "indoor": false,
+          "weather": {
+            "low": 53,
+            "cond": "Moderate drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "tommy",
+          "winner_team": "Tommy's Turbos",
+          "winner_score": 118.38,
+          "runner_up_id": "becca",
+          "runner_up_team": "chubb a dub dub",
+          "runner_up_score": 101.16,
+          "mvp": {
+            "player": "Daniel Jones",
+            "position": "QB",
+            "points": 36.18,
+            "manager": "Tommy",
+            "team": "Tommy's Turbos",
+            "side": "winning team",
+            "season_avg": 18.49,
+            "delta_vs_avg": 17.69,
+            "type": "standard"
+          },
+          "venue": "Raymond James Stadium",
+          "city": "Tampa",
+          "state": "Florida",
+          "attendance": 74023,
+          "attendance_value": 74023,
+          "indoor": false,
+          "weather": {
+            "low": 67,
+            "cond": "Light drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "carter",
+          "winner_team": "Jaylen Waddle Dee",
+          "winner_score": 147.06,
+          "runner_up_id": "whitaker",
+          "runner_up_team": "The Double Doinkers",
+          "runner_up_score": 98.7,
+          "mvp": {
+            "player": "Travis Etienne Jr.",
+            "position": "RB",
+            "points": 26.8,
+            "manager": "Carter",
+            "team": "Jaylen Waddle Dee",
+            "side": "winning team",
+            "season_avg": 16.57,
+            "delta_vs_avg": 10.23,
+            "type": "standard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 35691,
+          "attendance_value": 35691,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "kevin",
+          "winner_team": "Justin Fields of Dreams",
+          "winner_score": 152.82,
+          "runner_up_id": "whitaker",
+          "runner_up_team": "The Caleb Will-Wins",
+          "runner_up_score": 108.18,
+          "mvp": {
+            "player": "Trey McBride",
+            "position": "TE",
+            "points": 30.3,
+            "manager": "Kevin",
+            "team": "Justin Fields of Dreams",
+            "side": "winning team",
+            "season_avg": 14.25,
+            "delta_vs_avg": 16.05,
+            "type": "howard"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 47924,
+          "attendance_value": 47924,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "bowl": "Kumho Tires Tokyo Drift Bowl",
+          "winner_id": "megan",
+          "winner_team": "Tiny Panthers",
+          "winner_score": 134.08,
+          "runner_up_id": "carter",
+          "runner_up_team": "Arc the Ladd McConkey",
+          "runner_up_score": 128.22,
+          "mvp": {
+            "player": "Brock Purdy",
+            "position": "QB",
+            "points": 34.92,
+            "manager": "Carter",
+            "team": "Arc the Ladd McConkey",
+            "side": "losing team",
+            "season_avg": 16.7,
+            "delta_vs_avg": 18.22,
+            "type": "howley"
+          },
+          "venue": "Tokyo Dome",
+          "city": "Tokyo",
+          "state": "Japan",
+          "attendance": 51780,
+          "attendance_value": 51780,
+          "indoor": true,
+          "weather": null
+        }
+      ],
+      "Voltron Global Bowl Hosted by Tyrese Gibson": [
+        {
+          "season": 2013,
+          "week": 17,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "dylan",
+          "winner_team": "AMERICA",
+          "winner_score": 175.07,
+          "runner_up_id": "dave",
+          "runner_up_team": "Non-Dairy Caucasians",
+          "runner_up_score": 137.11,
+          "mvp": {
+            "player": "Drew Brees",
+            "position": "QB",
+            "points": 41.04,
+            "manager": "Dylan",
+            "team": "AMERICA",
+            "side": "winning team",
+            "season_avg": 22.44,
+            "delta_vs_avg": 18.6,
+            "type": "standard"
+          },
+          "venue": "Edward James Dome",
+          "city": "St. Louis",
+          "state": "Missouri",
+          "attendance": 33910,
+          "attendance_value": 33910,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2014,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "pb",
+          "winner_team": "(ノಠ益ಠ)ノ彡┻━┻",
+          "winner_score": 85.18,
+          "runner_up_id": "laskey",
+          "runner_up_team": "A Moderate Breakfast",
+          "runner_up_score": 83.38,
+          "mvp": {
+            "player": "Odell Beckham Jr.",
+            "position": "WR",
+            "points": 35.8,
+            "manager": "pb",
+            "team": "(ノಠ益ಠ)ノ彡┻━┻",
+            "side": "winning team",
+            "season_avg": 28.7,
+            "delta_vs_avg": 7.1,
+            "type": "standard"
+          },
+          "venue": "Estadio Chivas",
+          "city": "Guadalajara",
+          "state": "Mexico",
+          "attendance": 49850,
+          "attendance_value": 49850,
+          "indoor": false,
+          "weather": {
+            "low": 48,
+            "cond": "Overcast",
+            "emoji": "☁️"
+          }
+        },
+        {
+          "season": 2015,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "dylan",
+          "winner_team": "AMERICA",
+          "winner_score": 75.34,
+          "runner_up_id": "whitaker",
+          "runner_up_team": "Touchdown();",
+          "runner_up_score": 53.64,
+          "mvp": {
+            "player": "Matthew Stafford",
+            "position": "QB",
+            "points": 21.14,
+            "manager": "Dylan",
+            "team": "AMERICA",
+            "side": "winning team",
+            "season_avg": 21.16,
+            "delta_vs_avg": -0.02,
+            "type": "standard"
+          },
+          "venue": "Qadisiyah Airbase",
+          "city": "Al-Anbar",
+          "state": "Iraq",
+          "attendance": 8078,
+          "attendance_value": 8078,
+          "indoor": false,
+          "weather": {
+            "low": 90,
+            "cond": "Sandstorm Visibility: 9 feet",
+            "emoji": "🏜️"
+          }
+        },
+        {
+          "season": 2016,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "sara",
+          "winner_team": "Dat VFL",
+          "winner_score": 111.16,
+          "runner_up_id": "tommy",
+          "runner_up_team": "Tommy's Turbos",
+          "runner_up_score": 105.42,
+          "mvp": {
+            "player": "Antonio Brown",
+            "position": "WR",
+            "points": 25.6,
+            "manager": "Sara",
+            "team": "Dat VFL",
+            "side": "winning team",
+            "season_avg": 20.92,
+            "delta_vs_avg": 4.68,
+            "type": "standard"
+          },
+          "venue": "Baikonur Cosmodrome",
+          "city": "Jezkazgan",
+          "state": "Kazakhstan",
+          "attendance": 28,
+          "attendance_value": 28,
+          "indoor": false,
+          "weather": {
+            "low": 3,
+            "cond": "Overcast",
+            "emoji": "☁️"
+          }
+        },
+        {
+          "season": 2017,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "benedict",
+          "winner_team": "GaroppoGOAT",
+          "winner_score": 112.28,
+          "runner_up_id": "pb",
+          "runner_up_team": "Super Bolsheviks",
+          "runner_up_score": 74.1,
+          "mvp": {
+            "player": "Jimmy Garoppolo",
+            "position": "QB",
+            "points": 23.98,
+            "manager": "Benedict",
+            "team": "GaroppoGOAT",
+            "side": "winning team",
+            "season_avg": 22.24,
+            "delta_vs_avg": 1.74,
+            "type": "standard"
+          },
+          "venue": "Cathy Parker Field",
+          "city": "Utqiaġvik",
+          "state": "Alaska",
+          "attendance": "41 Vehicles",
+          "attendance_value": 41,
+          "indoor": false,
+          "weather": {
+            "low": -8,
+            "cond": "Overcast",
+            "emoji": "☁️"
+          }
+        },
+        {
+          "season": 2018,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "pb",
+          "winner_team": "Super Bolsheviks",
+          "winner_score": 135.48,
+          "runner_up_id": "kelly",
+          "runner_up_team": "Spicy Meatballs",
+          "runner_up_score": 67.44,
+          "mvp": {
+            "player": "Antonio Brown",
+            "position": "WR",
+            "points": 44.5,
+            "manager": "pb",
+            "team": "Super Bolsheviks",
+            "side": "winning team",
+            "season_avg": 21.28,
+            "delta_vs_avg": 23.22,
+            "type": "standard"
+          },
+          "venue": "Superior Dome",
+          "city": "Marquette",
+          "state": "Michigan",
+          "attendance": 7569,
+          "attendance_value": 7569,
+          "indoor": true,
+          "weather": null
+        },
+        {
+          "season": 2019,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "brice",
+          "winner_team": "Coming Up Rosen",
+          "winner_score": 97.44,
+          "runner_up_id": "benedict",
+          "runner_up_team": "Brady Hosedown",
+          "runner_up_score": 90.46,
+          "mvp": {
+            "player": "Aaron Jones Sr.",
+            "position": "RB",
+            "points": 29.0,
+            "manager": "Brice",
+            "team": "Coming Up Rosen",
+            "side": "winning team",
+            "season_avg": 18.57,
+            "delta_vs_avg": 10.43,
+            "type": "standard"
+          },
+          "venue": "Rungrado 1st of May Stadium",
+          "city": "Pyongyang",
+          "state": "DPRK",
+          "attendance": 150000,
+          "attendance_value": 150000,
+          "indoor": false,
+          "weather": {
+            "low": 22,
+            "cond": "Heavy snow",
+            "emoji": "🌨️"
+          }
+        },
+        {
+          "season": 2020,
+          "week": 16,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "jay",
+          "winner_team": "A Well-Designed Hole",
+          "winner_score": 124.74,
+          "runner_up_id": "michael",
+          "runner_up_team": "The Fumblers",
+          "runner_up_score": 115.92,
+          "mvp": {
+            "player": "Mike Evans",
+            "position": "WR",
+            "points": 40.1,
+            "manager": "Michael",
+            "team": "The Fumblers",
+            "side": "losing team",
+            "season_avg": 14.09,
+            "delta_vs_avg": 26.01,
+            "type": "howley"
+          },
+          "venue": "Hard Rock Stadium (LMFL Bubble)",
+          "city": "Miami",
+          "state": "Florida",
+          "attendance": 26130,
+          "attendance_value": 26130,
+          "indoor": false,
+          "weather": {
+            "low": 57,
+            "cond": "Light drizzle",
+            "emoji": "🌦️"
+          }
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "tommy",
+          "winner_team": "Tommy's Turbos",
+          "winner_score": 87.7,
+          "runner_up_id": "jason",
+          "runner_up_team": "Clyde Edwards Eclair",
+          "runner_up_score": 87.26,
+          "mvp": {
+            "player": "Tom Brady",
+            "position": "QB",
+            "points": 27.4,
+            "manager": "Tommy",
+            "team": "Tommy's Turbos",
+            "side": "winning team",
+            "season_avg": 23.69,
+            "delta_vs_avg": 3.71,
+            "type": "standard"
+          },
+          "venue": "North Sentinel Island",
+          "city": "Andaman & Nicobar Islands",
+          "state": "India",
+          "attendance": "1 Fatality",
+          "attendance_value": 1,
+          "indoor": false,
+          "weather": {
+            "low": null,
+            "cond": "Unknown. Meteorologist injured in blowdart attack",
+            "emoji": ""
+          }
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "ryan",
+          "winner_team": "A Tale of Trubisky's",
+          "winner_score": 109.18,
+          "runner_up_id": "zac",
+          "runner_up_team": "Goffsides",
+          "runner_up_score": 75.1,
+          "mvp": {
+            "player": "Tom Brady",
+            "position": "QB",
+            "points": 39.68,
+            "manager": "Ryan",
+            "team": "A Tale of Trubisky's",
+            "side": "winning team",
+            "season_avg": 16.05,
+            "delta_vs_avg": 23.63,
+            "type": "standard"
+          },
+          "venue": "Avanhard Stadium",
+          "city": "Prypiat",
+          "state": "Ukraine",
+          "attendance": 0,
+          "attendance_value": 0,
+          "indoor": false,
+          "weather": {
+            "low": 43,
+            "cond": "Overcast, Radiation: 2.6 μSv/h",
+            "emoji": "☢️"
+          }
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "zac",
+          "winner_team": "Goffsides",
+          "winner_score": 122.82,
+          "runner_up_id": "kat",
+          "runner_up_team": "Katatonic",
+          "runner_up_score": 55.5,
+          "mvp": {
+            "player": "Davante Adams",
+            "position": "WR",
+            "points": 37.6,
+            "manager": "Zac",
+            "team": "Goffsides",
+            "side": "winning team",
+            "season_avg": 14.28,
+            "delta_vs_avg": 23.32,
+            "type": "standard"
+          },
+          "venue": "Waffle House #1706 Parking Lot at 1 AM",
+          "city": "Conway",
+          "state": "South Carolina",
+          "attendance": "97 Arrests",
+          "attendance_value": 97,
+          "indoor": false,
+          "weather": {
+            "low": 35,
+            "cond": "Partly Cloudy, 87 Arrests, Chance of fighting the line cook: 96%",
+            "emoji": "⛅"
+          }
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "zac",
+          "winner_team": "Goffsides",
+          "winner_score": 106.48,
+          "runner_up_id": "megan",
+          "runner_up_team": "Cult of the Lamb",
+          "runner_up_score": 101.78,
+          "mvp": {
+            "player": "Malik Nabers",
+            "position": "WR",
+            "points": 37.1,
+            "manager": "Zac",
+            "team": "Goffsides",
+            "side": "winning team",
+            "season_avg": 16.98,
+            "delta_vs_avg": 20.12,
+            "type": "standard"
+          },
+          "venue": "McMurdo Station",
+          "city": "Ross Island Ice Shelf",
+          "state": "Antarctica",
+          "attendance": 171,
+          "attendance_value": 171,
+          "indoor": false,
+          "weather": {
+            "low": 19,
+            "cond": "Clear, Penguins: Breeding.",
+            "emoji": "🐧"
+          }
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+          "winner_id": "zac",
+          "winner_team": "Goffsides",
+          "winner_score": 100.44,
+          "runner_up_id": "whitaker",
+          "runner_up_team": "The Caleb Will-Wins",
+          "runner_up_score": 91.18,
+          "mvp": {
+            "player": "Vikings - DEF",
+            "position": "DEF",
+            "points": 21.0,
+            "manager": "Zac",
+            "team": "Goffsides",
+            "side": "winning team",
+            "season_avg": 7.0,
+            "delta_vs_avg": 14.0,
+            "type": "standard"
+          },
+          "venue": "Uēkahuna Caldera Rim",
+          "city": "Kīlauea",
+          "state": "Hawaii",
+          "attendance": 0,
+          "attendance_value": 0,
+          "indoor": false,
+          "weather": {
+            "low": 135,
+            "cond": "Lava Flow: Pāhoehoe (Smooth, Billowy)",
+            "emoji": "🌋"
+          }
+        }
+      ]
+    },
+    "coldest_bowls": [
+      {
+        "season": 2017,
+        "week": 16,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "benedict",
+        "winner_team": "GaroppoGOAT",
+        "winner_score": 112.28,
+        "runner_up_id": "pb",
+        "runner_up_team": "Super Bolsheviks",
+        "runner_up_score": 74.1,
+        "mvp": {
+          "player": "Jimmy Garoppolo",
+          "position": "QB",
+          "points": 23.98,
+          "manager": "Benedict",
+          "team": "GaroppoGOAT",
+          "side": "winning team",
+          "season_avg": 22.24,
+          "delta_vs_avg": 1.74,
+          "type": "standard"
+        },
+        "venue": "Cathy Parker Field",
+        "city": "Utqiaġvik",
+        "state": "Alaska",
+        "attendance": "41 Vehicles",
+        "attendance_value": 41,
+        "indoor": false,
+        "weather": {
+          "low": -8,
+          "cond": "Overcast",
+          "emoji": "☁️"
+        }
+      },
+      {
+        "season": 2016,
+        "week": 16,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "sara",
+        "winner_team": "Dat VFL",
+        "winner_score": 111.16,
+        "runner_up_id": "tommy",
+        "runner_up_team": "Tommy's Turbos",
+        "runner_up_score": 105.42,
+        "mvp": {
+          "player": "Antonio Brown",
+          "position": "WR",
+          "points": 25.6,
+          "manager": "Sara",
+          "team": "Dat VFL",
+          "side": "winning team",
+          "season_avg": 20.92,
+          "delta_vs_avg": 4.68,
+          "type": "standard"
+        },
+        "venue": "Baikonur Cosmodrome",
+        "city": "Jezkazgan",
+        "state": "Kazakhstan",
+        "attendance": 28,
+        "attendance_value": 28,
+        "indoor": false,
+        "weather": {
+          "low": 3,
+          "cond": "Overcast",
+          "emoji": "☁️"
+        }
+      },
+      {
+        "season": 2024,
+        "week": 17,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "zac",
+        "winner_team": "Goffsides",
+        "winner_score": 106.48,
+        "runner_up_id": "megan",
+        "runner_up_team": "Cult of the Lamb",
+        "runner_up_score": 101.78,
+        "mvp": {
+          "player": "Malik Nabers",
+          "position": "WR",
+          "points": 37.1,
+          "manager": "Zac",
+          "team": "Goffsides",
+          "side": "winning team",
+          "season_avg": 16.98,
+          "delta_vs_avg": 20.12,
+          "type": "standard"
+        },
+        "venue": "McMurdo Station",
+        "city": "Ross Island Ice Shelf",
+        "state": "Antarctica",
+        "attendance": 171,
+        "attendance_value": 171,
+        "indoor": false,
+        "weather": {
+          "low": 19,
+          "cond": "Clear, Penguins: Breeding.",
+          "emoji": "🐧"
+        }
+      },
+      {
+        "season": 2016,
+        "week": 16,
+        "bowl": "Teremana Tequila Bowl",
+        "winner_id": "michael",
+        "winner_team": "The Fumblers",
+        "winner_score": 118.7,
+        "runner_up_id": "kyle",
+        "runner_up_team": "Monchhichis",
+        "runner_up_score": 87.96,
+        "mvp": {
+          "player": "Russell Wilson",
+          "position": "QB",
+          "points": 34.6,
+          "manager": "Michael",
+          "team": "The Fumblers",
+          "side": "winning team",
+          "season_avg": 19.68,
+          "delta_vs_avg": 14.92,
+          "type": "standard"
+        },
+        "venue": "Lambeau Field",
+        "city": "Green Bay",
+        "state": "Wisconsin",
+        "attendance": 74890,
+        "attendance_value": 74890,
+        "indoor": false,
+        "weather": {
+          "low": 20,
+          "cond": "Sleet, Cheddar: Extra Sharp",
+          "emoji": "🧀"
+        }
+      },
+      {
+        "season": 2019,
+        "week": 16,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "brice",
+        "winner_team": "Coming Up Rosen",
+        "winner_score": 97.44,
+        "runner_up_id": "benedict",
+        "runner_up_team": "Brady Hosedown",
+        "runner_up_score": 90.46,
+        "mvp": {
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "points": 29.0,
+          "manager": "Brice",
+          "team": "Coming Up Rosen",
+          "side": "winning team",
+          "season_avg": 18.57,
+          "delta_vs_avg": 10.43,
+          "type": "standard"
+        },
+        "venue": "Rungrado 1st of May Stadium",
+        "city": "Pyongyang",
+        "state": "DPRK",
+        "attendance": 150000,
+        "attendance_value": 150000,
+        "indoor": false,
+        "weather": {
+          "low": 22,
+          "cond": "Heavy snow",
+          "emoji": "🌨️"
+        }
+      }
+    ],
+    "warmest_bowls": [
+      {
+        "season": 2025,
+        "week": 17,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "zac",
+        "winner_team": "Goffsides",
+        "winner_score": 100.44,
+        "runner_up_id": "whitaker",
+        "runner_up_team": "The Caleb Will-Wins",
+        "runner_up_score": 91.18,
+        "mvp": {
+          "player": "Vikings - DEF",
+          "position": "DEF",
+          "points": 21.0,
+          "manager": "Zac",
+          "team": "Goffsides",
+          "side": "winning team",
+          "season_avg": 7.0,
+          "delta_vs_avg": 14.0,
+          "type": "standard"
+        },
+        "venue": "Uēkahuna Caldera Rim",
+        "city": "Kīlauea",
+        "state": "Hawaii",
+        "attendance": 0,
+        "attendance_value": 0,
+        "indoor": false,
+        "weather": {
+          "low": 135,
+          "cond": "Lava Flow: Pāhoehoe (Smooth, Billowy)",
+          "emoji": "🌋"
+        }
+      },
+      {
+        "season": 2015,
+        "week": 16,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "dylan",
+        "winner_team": "AMERICA",
+        "winner_score": 75.34,
+        "runner_up_id": "whitaker",
+        "runner_up_team": "Touchdown();",
+        "runner_up_score": 53.64,
+        "mvp": {
+          "player": "Matthew Stafford",
+          "position": "QB",
+          "points": 21.14,
+          "manager": "Dylan",
+          "team": "AMERICA",
+          "side": "winning team",
+          "season_avg": 21.16,
+          "delta_vs_avg": -0.02,
+          "type": "standard"
+        },
+        "venue": "Qadisiyah Airbase",
+        "city": "Al-Anbar",
+        "state": "Iraq",
+        "attendance": 8078,
+        "attendance_value": 8078,
+        "indoor": false,
+        "weather": {
+          "low": 90,
+          "cond": "Sandstorm Visibility: 9 feet",
+          "emoji": "🏜️"
+        }
+      },
+      {
+        "season": 2013,
+        "week": 17,
+        "bowl": "Teremana Tequila Bowl",
+        "winner_id": "carter",
+        "winner_team": "Ice Kingdom Gunters",
+        "winner_score": 135.62,
+        "runner_up_id": "jay",
+        "runner_up_team": "Lunar Giants Suck",
+        "runner_up_score": 126.56,
+        "mvp": {
+          "player": "Demaryius Thomas",
+          "position": "WR",
+          "points": 30.3,
+          "manager": "Carter",
+          "team": "Ice Kingdom Gunters",
+          "side": "winning team",
+          "season_avg": 19.77,
+          "delta_vs_avg": 10.53,
+          "type": "standard"
+        },
+        "venue": "Hard Rock Stadium",
+        "city": "Miami",
+        "state": "Florida",
+        "attendance": 32150,
+        "attendance_value": 32150,
+        "indoor": false,
+        "weather": {
+          "low": 75,
+          "cond": "Light drizzle",
+          "emoji": "🌦️"
+        }
+      },
+      {
+        "season": 2025,
+        "week": 17,
+        "bowl": "Teremana Tequila Bowl",
+        "winner_id": "kevin",
+        "winner_team": "The Princess McBride",
+        "winner_score": 111.5,
+        "runner_up_id": "ryan",
+        "runner_up_team": "The Kittle Prince",
+        "runner_up_score": 101.74,
+        "mvp": {
+          "player": "Chase Brown",
+          "position": "RB",
+          "points": 29.1,
+          "manager": "Kevin",
+          "team": "The Princess McBride",
+          "side": "winning team",
+          "season_avg": 16.09,
+          "delta_vs_avg": 13.01,
+          "type": "standard"
+        },
+        "venue": "UFC Fight Island - Yas Marina",
+        "city": "Abu Dhabi",
+        "state": "United Arab Emirates",
+        "attendance": 18065,
+        "attendance_value": 18065,
+        "indoor": false,
+        "weather": {
+          "low": 69,
+          "cond": "Partly cloudy",
+          "emoji": "⛅"
+        }
+      },
+      {
+        "season": 2022,
+        "week": 17,
+        "bowl": "Kumho Tires Tokyo Drift Bowl",
+        "winner_id": "tommy",
+        "winner_team": "Tommy's Turbos",
+        "winner_score": 118.38,
+        "runner_up_id": "becca",
+        "runner_up_team": "chubb a dub dub",
+        "runner_up_score": 101.16,
+        "mvp": {
+          "player": "Daniel Jones",
+          "position": "QB",
+          "points": 36.18,
+          "manager": "Tommy",
+          "team": "Tommy's Turbos",
+          "side": "winning team",
+          "season_avg": 18.49,
+          "delta_vs_avg": 17.69,
+          "type": "standard"
+        },
+        "venue": "Raymond James Stadium",
+        "city": "Tampa",
+        "state": "Florida",
+        "attendance": 74023,
+        "attendance_value": 74023,
+        "indoor": false,
+        "weather": {
+          "low": 67,
+          "cond": "Light drizzle",
+          "emoji": "🌦️"
+        }
+      }
+    ],
+    "most_attended_bowls": [
+      {
+        "season": 2019,
+        "week": 16,
+        "bowl": "Voltron Global Bowl Hosted by Tyrese Gibson",
+        "winner_id": "brice",
+        "winner_team": "Coming Up Rosen",
+        "winner_score": 97.44,
+        "runner_up_id": "benedict",
+        "runner_up_team": "Brady Hosedown",
+        "runner_up_score": 90.46,
+        "mvp": {
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "points": 29.0,
+          "manager": "Brice",
+          "team": "Coming Up Rosen",
+          "side": "winning team",
+          "season_avg": 18.57,
+          "delta_vs_avg": 10.43,
+          "type": "standard"
+        },
+        "venue": "Rungrado 1st of May Stadium",
+        "city": "Pyongyang",
+        "state": "DPRK",
+        "attendance": 150000,
+        "attendance_value": 150000,
+        "indoor": false,
+        "weather": {
+          "low": 22,
+          "cond": "Heavy snow",
+          "emoji": "🌨️"
+        }
+      },
+      {
+        "season": 2022,
+        "week": 17,
+        "bowl": "Teremana Tequila Bowl",
+        "winner_id": "carter",
+        "winner_team": "Amon-Ra St. Patrick Brown",
+        "winner_score": 93.48,
+        "runner_up_id": "jason",
+        "runner_up_team": "Clyde Edwards Eclair",
+        "runner_up_score": 85.88,
+        "mvp": {
+          "player": "Brandon Aiyuk",
+          "position": "WR",
+          "points": 26.7,
+          "manager": "Jason",
+          "team": "Clyde Edwards Eclair",
+          "side": "losing team",
+          "season_avg": 12.17,
+          "delta_vs_avg": 14.53,
+          "type": "howley"
+        },
+        "venue": "Texas Motor Speedway",
+        "city": "Fort Worth",
+        "state": "Texas",
+        "attendance": 104700,
+        "attendance_value": 104700,
+        "indoor": false,
+        "weather": {
+          "low": 56,
+          "cond": "Overcast",
+          "emoji": "☁️"
+        }
+      },
+      {
+        "season": 2016,
+        "week": 16,
+        "bowl": "Teremana Tequila Bowl",
+        "winner_id": "michael",
+        "winner_team": "The Fumblers",
+        "winner_score": 118.7,
+        "runner_up_id": "kyle",
+        "runner_up_team": "Monchhichis",
+        "runner_up_score": 87.96,
+        "mvp": {
+          "player": "Russell Wilson",
+          "position": "QB",
+          "points": 34.6,
+          "manager": "Michael",
+          "team": "The Fumblers",
+          "side": "winning team",
+          "season_avg": 19.68,
+          "delta_vs_avg": 14.92,
+          "type": "standard"
+        },
+        "venue": "Lambeau Field",
+        "city": "Green Bay",
+        "state": "Wisconsin",
+        "attendance": 74890,
+        "attendance_value": 74890,
+        "indoor": false,
+        "weather": {
+          "low": 20,
+          "cond": "Sleet, Cheddar: Extra Sharp",
+          "emoji": "🧀"
+        }
+      },
+      {
+        "season": 2022,
+        "week": 17,
+        "bowl": "Kumho Tires Tokyo Drift Bowl",
+        "winner_id": "tommy",
+        "winner_team": "Tommy's Turbos",
+        "winner_score": 118.38,
+        "runner_up_id": "becca",
+        "runner_up_team": "chubb a dub dub",
+        "runner_up_score": 101.16,
+        "mvp": {
+          "player": "Daniel Jones",
+          "position": "QB",
+          "points": 36.18,
+          "manager": "Tommy",
+          "team": "Tommy's Turbos",
+          "side": "winning team",
+          "season_avg": 18.49,
+          "delta_vs_avg": 17.69,
+          "type": "standard"
+        },
+        "venue": "Raymond James Stadium",
+        "city": "Tampa",
+        "state": "Florida",
+        "attendance": 74023,
+        "attendance_value": 74023,
+        "indoor": false,
+        "weather": {
+          "low": 67,
+          "cond": "Light drizzle",
+          "emoji": "🌦️"
+        }
+      },
+      {
+        "season": 2025,
+        "week": 17,
+        "bowl": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl",
+        "winner_id": "brice",
+        "winner_team": "Tua Fault",
+        "winner_score": 122.6,
+        "runner_up_id": "tommy",
+        "runner_up_team": "Kenosha Kickers",
+        "runner_up_score": 87.96,
+        "mvp": {
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "points": 40.9,
+          "manager": "Brice",
+          "team": "Tua Fault",
+          "side": "winning team",
+          "season_avg": 21.36,
+          "delta_vs_avg": 19.54,
+          "type": "standard"
+        },
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "attendance": 71400,
+        "attendance_value": 71400,
+        "indoor": true,
+        "weather": null
+      }
+    ],
+    "host_leaders": [
+      {
+        "location": "Georgia",
+        "games": 12
+      },
+      {
+        "location": "Japan",
+        "games": 10
+      },
+      {
+        "location": "Florida",
+        "games": 7
+      },
+      {
+        "location": "Texas",
+        "games": 3
+      },
+      {
+        "location": "California",
+        "games": 2
+      },
+      {
+        "location": "Louisiana",
+        "games": 1
+      },
+      {
+        "location": "Wisconsin",
+        "games": 1
+      },
+      {
+        "location": "United Kingdom",
+        "games": 1
+      },
+      {
+        "location": "Singapore",
+        "games": 1
+      },
+      {
+        "location": "Arizona",
+        "games": 1
+      },
+      {
+        "location": "United Arab Emirates",
+        "games": 1
+      },
+      {
+        "location": "Missouri",
+        "games": 1
+      },
+      {
+        "location": "Mexico",
+        "games": 1
+      },
+      {
+        "location": "Iraq",
+        "games": 1
+      },
+      {
+        "location": "Kazakhstan",
+        "games": 1
+      },
+      {
+        "location": "Alaska",
+        "games": 1
+      },
+      {
+        "location": "Michigan",
+        "games": 1
+      },
+      {
+        "location": "DPRK",
+        "games": 1
+      },
+      {
+        "location": "India",
+        "games": 1
+      },
+      {
+        "location": "Ukraine",
+        "games": 1
+      },
+      {
+        "location": "South Carolina",
+        "games": 1
+      },
+      {
+        "location": "Antarctica",
+        "games": 1
+      },
+      {
+        "location": "Hawaii",
+        "games": 1
+      }
+    ]
+  },
+  "defenses": {
+    "teams": [
+      {
+        "defense": "Patriots",
+        "started_points": 1282.81,
+        "starts": 124,
+        "started_ppg": 10.35,
+        "roster_weeks": 146,
+        "drafted_times": 10,
+        "earliest_draft": {
+          "overall": 91,
+          "season": 2023,
+          "manager_id": "carter"
+        },
+        "waiver_adds": 21,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Ravens",
+        "started_points": 1227.21,
+        "starts": 134,
+        "started_ppg": 9.16,
+        "roster_weeks": 162,
+        "drafted_times": 12,
+        "earliest_draft": {
+          "overall": 49,
+          "season": 2013,
+          "manager_id": "kyle"
+        },
+        "waiver_adds": 22,
+        "top_waiver_manager_id": "ryan"
+      },
+      {
+        "defense": "Rams",
+        "started_points": 1223.77,
+        "starts": 142,
+        "started_ppg": 8.62,
+        "roster_weeks": 152,
+        "drafted_times": 10,
+        "earliest_draft": {
+          "overall": 63,
+          "season": 2021,
+          "manager_id": "michael"
+        },
+        "waiver_adds": 15,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Seahawks",
+        "started_points": 1011.17,
+        "starts": 100,
+        "started_ppg": 10.11,
+        "roster_weeks": 115,
+        "drafted_times": 4,
+        "earliest_draft": {
+          "overall": 21,
+          "season": 2014,
+          "manager_id": "dylan"
+        },
+        "waiver_adds": 21,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Broncos",
+        "started_points": 988.64,
+        "starts": 114,
+        "started_ppg": 8.67,
+        "roster_weeks": 133,
+        "drafted_times": 12,
+        "earliest_draft": {
+          "overall": 52,
+          "season": 2013,
+          "manager_id": "benedict"
+        },
+        "waiver_adds": 18,
+        "top_waiver_manager_id": "carter"
+      },
+      {
+        "defense": "Steelers",
+        "started_points": 962.3,
+        "starts": 115,
+        "started_ppg": 8.37,
+        "roster_weeks": 127,
+        "drafted_times": 8,
+        "earliest_draft": {
+          "overall": 94,
+          "season": 2021,
+          "manager_id": "tommy"
+        },
+        "waiver_adds": 23,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Bills",
+        "started_points": 929.84,
+        "starts": 110,
+        "started_ppg": 8.45,
+        "roster_weeks": 150,
+        "drafted_times": 10,
+        "earliest_draft": {
+          "overall": 59,
+          "season": 2015,
+          "manager_id": "dylan"
+        },
+        "waiver_adds": 19,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "49ers",
+        "started_points": 914.28,
+        "starts": 98,
+        "started_ppg": 9.33,
+        "roster_weeks": 112,
+        "drafted_times": 9,
+        "earliest_draft": {
+          "overall": 55,
+          "season": 2013,
+          "manager_id": "brice"
+        },
+        "waiver_adds": 14,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Chiefs",
+        "started_points": 903.69,
+        "starts": 88,
+        "started_ppg": 10.27,
+        "roster_weeks": 139,
+        "drafted_times": 12,
+        "earliest_draft": {
+          "overall": 6,
+          "season": 2013,
+          "manager_id": "dave"
+        },
+        "waiver_adds": 20,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Eagles",
+        "started_points": 808.0,
+        "starts": 98,
+        "started_ppg": 8.24,
+        "roster_weeks": 129,
+        "drafted_times": 10,
+        "earliest_draft": {
+          "overall": 86,
+          "season": 2023,
+          "manager_id": "michael"
+        },
+        "waiver_adds": 28,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Texans",
+        "started_points": 805.48,
+        "starts": 88,
+        "started_ppg": 9.15,
+        "roster_weeks": 107,
+        "drafted_times": 9,
+        "earliest_draft": {
+          "overall": 51,
+          "season": 2013,
+          "manager_id": "dylan"
+        },
+        "waiver_adds": 17,
+        "top_waiver_manager_id": "jason"
+      },
+      {
+        "defense": "Cowboys",
+        "started_points": 698.7,
+        "starts": 74,
+        "started_ppg": 9.44,
+        "roster_weeks": 84,
+        "drafted_times": 4,
+        "earliest_draft": {
+          "overall": 81,
+          "season": 2023,
+          "manager_id": "tommy"
+        },
+        "waiver_adds": 24,
+        "top_waiver_manager_id": "jay"
+      },
+      {
+        "defense": "Vikings",
+        "started_points": 628.0,
+        "starts": 76,
+        "started_ppg": 8.26,
+        "roster_weeks": 124,
+        "drafted_times": 8,
+        "earliest_draft": {
+          "overall": 86,
+          "season": 2018,
+          "manager_id": "tommy"
+        },
+        "waiver_adds": 16,
+        "top_waiver_manager_id": "whitaker"
+      },
+      {
+        "defense": "Packers",
+        "started_points": 616.43,
+        "starts": 84,
+        "started_ppg": 7.34,
+        "roster_weeks": 94,
+        "drafted_times": 3,
+        "earliest_draft": {
+          "overall": 152,
+          "season": 2015,
+          "manager_id": "brice"
+        },
+        "waiver_adds": 38,
+        "top_waiver_manager_id": "whitaker"
+      },
+      {
+        "defense": "Cardinals",
+        "started_points": 613.44,
+        "starts": 70,
+        "started_ppg": 8.76,
+        "roster_weeks": 88,
+        "drafted_times": 5,
+        "earliest_draft": {
+          "overall": 81,
+          "season": 2016,
+          "manager_id": "tommy"
+        },
+        "waiver_adds": 14,
+        "top_waiver_manager_id": "zac"
+      },
+      {
+        "defense": "Bears",
+        "started_points": 604.86,
+        "starts": 75,
+        "started_ppg": 8.06,
+        "roster_weeks": 84,
+        "drafted_times": 6,
+        "earliest_draft": {
+          "overall": 49,
+          "season": 2019,
+          "manager_id": "becca"
+        },
+        "waiver_adds": 10,
+        "top_waiver_manager_id": "zac"
+      },
+      {
+        "defense": "Bengals",
+        "started_points": 577.4,
+        "starts": 60,
+        "started_ppg": 9.62,
+        "roster_weeks": 72,
+        "drafted_times": 5,
+        "earliest_draft": {
+          "overall": 123,
+          "season": 2014,
+          "manager_id": "carter"
+        },
+        "waiver_adds": 29,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Dolphins",
+        "started_points": 572.0,
+        "starts": 57,
+        "started_ppg": 10.04,
+        "roster_weeks": 69,
+        "drafted_times": 4,
+        "earliest_draft": {
+          "overall": 159,
+          "season": 2024,
+          "manager_id": "tommy"
+        },
+        "waiver_adds": 25,
+        "top_waiver_manager_id": "carter"
+      },
+      {
+        "defense": "Colts",
+        "started_points": 566.41,
+        "starts": 66,
+        "started_ppg": 8.58,
+        "roster_weeks": 89,
+        "drafted_times": 4,
+        "earliest_draft": {
+          "overall": 132,
+          "season": 2022,
+          "manager_id": "carter"
+        },
+        "waiver_adds": 29,
+        "top_waiver_manager_id": "carter"
+      },
+      {
+        "defense": "Chargers",
+        "started_points": 539.0,
+        "starts": 79,
+        "started_ppg": 6.82,
+        "roster_weeks": 86,
+        "drafted_times": 7,
+        "earliest_draft": {
+          "overall": 108,
+          "season": 2018,
+          "manager_id": "michael"
+        },
+        "waiver_adds": 29,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Saints",
+        "started_points": 527.27,
+        "starts": 72,
+        "started_ppg": 7.32,
+        "roster_weeks": 81,
+        "drafted_times": 6,
+        "earliest_draft": {
+          "overall": 132,
+          "season": 2020,
+          "manager_id": "carter"
+        },
+        "waiver_adds": 27,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Buccaneers",
+        "started_points": 518.0,
+        "starts": 63,
+        "started_ppg": 8.22,
+        "roster_weeks": 70,
+        "drafted_times": 5,
+        "earliest_draft": {
+          "overall": 72,
+          "season": 2021,
+          "manager_id": "aboubacar"
+        },
+        "waiver_adds": 21,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Panthers",
+        "started_points": 506.81,
+        "starts": 53,
+        "started_ppg": 9.56,
+        "roster_weeks": 81,
+        "drafted_times": 5,
+        "earliest_draft": {
+          "overall": 79,
+          "season": 2016,
+          "manager_id": "carter"
+        },
+        "waiver_adds": 18,
+        "top_waiver_manager_id": "benedict"
+      },
+      {
+        "defense": "Browns",
+        "started_points": 449.23,
+        "starts": 54,
+        "started_ppg": 8.32,
+        "roster_weeks": 64,
+        "drafted_times": 5,
+        "earliest_draft": {
+          "overall": 85,
+          "season": 2024,
+          "manager_id": "michael"
+        },
+        "waiver_adds": 30,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Titans",
+        "started_points": 426.14,
+        "starts": 51,
+        "started_ppg": 8.36,
+        "roster_weeks": 70,
+        "drafted_times": 3,
+        "earliest_draft": {
+          "overall": 98,
+          "season": 2013,
+          "manager_id": "jay"
+        },
+        "waiver_adds": 25,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Falcons",
+        "started_points": 357.0,
+        "starts": 50,
+        "started_ppg": 7.14,
+        "roster_weeks": 52,
+        "drafted_times": 3,
+        "earliest_draft": {
+          "overall": 164,
+          "season": 2019,
+          "manager_id": "brice"
+        },
+        "waiver_adds": 20,
+        "top_waiver_manager_id": "jason"
+      },
+      {
+        "defense": "Lions",
+        "started_points": 355.5,
+        "starts": 43,
+        "started_ppg": 8.27,
+        "roster_weeks": 51,
+        "drafted_times": 2,
+        "earliest_draft": {
+          "overall": 158,
+          "season": 2025,
+          "manager_id": "jason"
+        },
+        "waiver_adds": 18,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Jaguars",
+        "started_points": 341.0,
+        "starts": 47,
+        "started_ppg": 7.26,
+        "roster_weeks": 61,
+        "drafted_times": 2,
+        "earliest_draft": {
+          "overall": 82,
+          "season": 2019,
+          "manager_id": "michael"
+        },
+        "waiver_adds": 15,
+        "top_waiver_manager_id": "zac"
+      },
+      {
+        "defense": "Jets",
+        "started_points": 281.0,
+        "starts": 43,
+        "started_ppg": 6.53,
+        "roster_weeks": 45,
+        "drafted_times": 2,
+        "earliest_draft": {
+          "overall": 79,
+          "season": 2024,
+          "manager_id": "kevin"
+        },
+        "waiver_adds": 14,
+        "top_waiver_manager_id": "brice"
+      },
+      {
+        "defense": "Raiders",
+        "started_points": 232.0,
+        "starts": 34,
+        "started_ppg": 6.82,
+        "roster_weeks": 39,
+        "drafted_times": 2,
+        "earliest_draft": {
+          "overall": 158,
+          "season": 2016,
+          "manager_id": "pb"
+        },
+        "waiver_adds": 23,
+        "top_waiver_manager_id": "ryan"
+      },
+      {
+        "defense": "Giants",
+        "started_points": 213.0,
+        "starts": 24,
+        "started_ppg": 8.88,
+        "roster_weeks": 31,
+        "drafted_times": 1,
+        "earliest_draft": {
+          "overall": 119,
+          "season": 2017,
+          "manager_id": "ryan"
+        },
+        "waiver_adds": 18,
+        "top_waiver_manager_id": "pb"
+      },
+      {
+        "defense": "Commanders",
+        "started_points": 203.0,
+        "starts": 30,
+        "started_ppg": 6.77,
+        "roster_weeks": 31,
+        "drafted_times": 2,
+        "earliest_draft": {
+          "overall": 92,
+          "season": 2021,
+          "manager_id": "jason"
+        },
+        "waiver_adds": 23,
+        "top_waiver_manager_id": "pb"
+      }
+    ],
+    "single_games": [
+      {
+        "defense": "Chiefs",
+        "season": 2013,
+        "week": 14,
+        "manager_id": "dave",
+        "points": 57.5
+      },
+      {
+        "defense": "Bengals",
+        "season": 2013,
+        "week": 11,
+        "manager_id": "dylan",
+        "points": 45.6
+      },
+      {
+        "defense": "Patriots",
+        "season": 2013,
+        "week": 16,
+        "manager_id": "whitaker",
+        "points": 42.7
+      },
+      {
+        "defense": "Bengals",
+        "season": 2013,
+        "week": 8,
+        "manager_id": "jay",
+        "points": 41.2
+      },
+      {
+        "defense": "Cowboys",
+        "season": 2023,
+        "week": 1,
+        "manager_id": "tommy",
+        "points": 38.0
+      },
+      {
+        "defense": "Panthers",
+        "season": 2013,
+        "week": 17,
+        "manager_id": "benedict",
+        "points": 37.27
+      },
+      {
+        "defense": "Patriots",
+        "season": 2019,
+        "week": 2,
+        "manager_id": "jay",
+        "points": 37.0
+      },
+      {
+        "defense": "Chiefs",
+        "season": 2016,
+        "week": 3,
+        "manager_id": "brice",
+        "points": 35.0
+      },
+      {
+        "defense": "Eagles",
+        "season": 2019,
+        "week": 5,
+        "manager_id": "ryan",
+        "points": 35.0
+      },
+      {
+        "defense": "Chiefs",
+        "season": 2013,
+        "week": 15,
+        "manager_id": "dave",
+        "points": 34.73
+      },
+      {
+        "defense": "Patriots",
+        "season": 2013,
+        "week": 9,
+        "manager_id": "whitaker",
+        "points": 34.3
+      },
+      {
+        "defense": "Seahawks",
+        "season": 2013,
+        "week": 11,
+        "manager_id": "carter",
+        "points": 34.3
+      },
+      {
+        "defense": "Bengals",
+        "season": 2013,
+        "week": 16,
+        "manager_id": "dylan",
+        "points": 33.5
+      },
+      {
+        "defense": "Bengals",
+        "season": 2013,
+        "week": 17,
+        "manager_id": "dylan",
+        "points": 33.33
+      },
+      {
+        "defense": "Cardinals",
+        "season": 2015,
+        "week": 16,
+        "manager_id": "jay",
+        "points": 33.0
+      }
+    ]
+  },
+  "trade_trees": [
+    {
+      "season": 2018,
+      "date": "Sep 27, 5:00 pm",
+      "sides": [
+        {
+          "manager_id": "kelly",
+          "players": [
+            {
+              "player": "Alshon Jeffery",
+              "first_week": 4,
+              "started_points": 145.9
+            },
+            {
+              "player": "John Brown",
+              "first_week": 4,
+              "started_points": 74.2
+            },
+            {
+              "player": "Jay Ajayi",
+              "first_week": 4,
+              "started_points": 13.5
+            },
+            {
+              "player": "Phillip Lindsay",
+              "first_week": 4,
+              "started_points": 176.6
+            }
+          ],
+          "started_points": 410.2
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Baker Mayfield",
+              "first_week": 4,
+              "started_points": 32.68
+            },
+            {
+              "player": "Royce Freeman",
+              "first_week": 4,
+              "started_points": 14.6
+            },
+            {
+              "player": "Leonard Fournette",
+              "first_week": 4,
+              "started_points": 96.4
+            }
+          ],
+          "started_points": 143.68
+        }
+      ],
+      "total_started_points": 553.88
+    },
+    {
+      "season": 2025,
+      "date": "Sep 19, 5:34 pm",
+      "sides": [
+        {
+          "manager_id": "megan",
+          "players": [
+            {
+              "player": "Jahmyr Gibbs",
+              "first_week": 3,
+              "started_points": 308.4
+            }
+          ],
+          "started_points": 308.4
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Zach Charbonnet",
+              "first_week": 3,
+              "started_points": 118.1
+            },
+            {
+              "player": "Chris Godwin Jr.",
+              "first_week": 3,
+              "started_points": 14.0
+            },
+            {
+              "player": "Zay Flowers",
+              "first_week": 3,
+              "started_points": 77.1
+            }
+          ],
+          "started_points": 209.2
+        }
+      ],
+      "total_started_points": 517.6
+    },
+    {
+      "season": 2014,
+      "date": "Sep 12, 12:44 pm",
+      "sides": [
+        {
+          "manager_id": "dylan",
+          "players": [
+            {
+              "player": "Travis Kelce",
+              "first_week": 2,
+              "started_points": 115.9
+            },
+            {
+              "player": "Maurice Jones-Drew",
+              "first_week": 2,
+              "started_points": 2.3
+            },
+            {
+              "player": "Darren McFadden",
+              "first_week": 2,
+              "started_points": 88.4
+            }
+          ],
+          "started_points": 206.6
+        },
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Greg Olsen",
+              "first_week": 2,
+              "started_points": 170.6
+            }
+          ],
+          "started_points": 170.6
+        }
+      ],
+      "total_started_points": 377.2
+    },
+    {
+      "season": 2021,
+      "date": "Oct 7, 3:23 pm",
+      "sides": [
+        {
+          "manager_id": "tommy",
+          "players": [
+            {
+              "player": "Darren Waller",
+              "first_week": 5,
+              "started_points": 65.9
+            }
+          ],
+          "started_points": 65.9
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Joe Mixon",
+              "first_week": 5,
+              "started_points": 218.3
+            }
+          ],
+          "started_points": 218.3
+        }
+      ],
+      "total_started_points": 284.2
+    },
+    {
+      "season": 2014,
+      "date": "Aug 26, 6:51 pm",
+      "sides": [
+        {
+          "manager_id": "ryan",
+          "players": [
+            {
+              "player": "Emmanuel Sanders",
+              "first_week": 1,
+              "started_points": 240.8
+            }
+          ],
+          "started_points": 240.8
+        }
+      ],
+      "total_started_points": 240.8
+    },
+    {
+      "season": 2023,
+      "date": "Oct 1, 2:13 am",
+      "sides": [
+        {
+          "manager_id": "ryan",
+          "players": [
+            {
+              "player": "Brock Purdy",
+              "first_week": 4,
+              "started_points": 238.08
+            }
+          ],
+          "started_points": 238.08
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Bills",
+              "first_week": null,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 0.0
+        }
+      ],
+      "total_started_points": 238.08
+    },
+    {
+      "season": 2014,
+      "date": "Nov 4, 1:12 pm",
+      "sides": [
+        {
+          "manager_id": "tommy",
+          "players": [
+            {
+              "player": "Demaryius Thomas",
+              "first_week": 10,
+              "started_points": 121.5
+            },
+            {
+              "player": "Vincent Jackson",
+              "first_week": 10,
+              "started_points": 55.9
+            }
+          ],
+          "started_points": 177.4
+        }
+      ],
+      "total_started_points": 177.4
+    },
+    {
+      "season": 2014,
+      "date": "Sep 12, 5:51 pm",
+      "sides": [
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Lamar Miller",
+              "first_week": 2,
+              "started_points": 163.0
+            }
+          ],
+          "started_points": 163.0
+        }
+      ],
+      "total_started_points": 163.0
+    },
+    {
+      "season": 2014,
+      "date": "Nov 22, 4:36 pm",
+      "sides": [
+        {
+          "manager_id": "benedict",
+          "players": [
+            {
+              "player": "DeAndre Hopkins",
+              "first_week": 12,
+              "started_points": 68.4
+            },
+            {
+              "player": "Alfred Blue",
+              "first_week": 12,
+              "started_points": 9.6
+            }
+          ],
+          "started_points": 78.0
+        },
+        {
+          "manager_id": "carter",
+          "players": [
+            {
+              "player": "Le'Veon Bell",
+              "first_week": 12,
+              "started_points": 84.5
+            },
+            {
+              "player": "Wes Welker",
+              "first_week": 12,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 84.5
+        }
+      ],
+      "total_started_points": 162.5
+    },
+    {
+      "season": 2023,
+      "date": "Nov 7, 2:17 am",
+      "sides": [
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Breece Hall",
+              "first_week": 10,
+              "started_points": 151.3
+            }
+          ],
+          "started_points": 151.3
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Diontae Johnson",
+              "first_week": 10,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 0.0
+        }
+      ],
+      "total_started_points": 151.3
+    },
+    {
+      "season": 2014,
+      "date": "Oct 2, 12:12 pm",
+      "sides": [
+        {
+          "manager_id": "kyle",
+          "players": [
+            {
+              "player": "Justin Forsett",
+              "first_week": 5,
+              "started_points": 143.8
+            }
+          ],
+          "started_points": 143.8
+        }
+      ],
+      "total_started_points": 143.8
+    },
+    {
+      "season": 2020,
+      "date": "Nov 13, 8:33 pm",
+      "sides": [
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Chris Carson",
+              "first_week": 10,
+              "started_points": 72.5
+            }
+          ],
+          "started_points": 72.5
+        },
+        {
+          "manager_id": "zac",
+          "players": [
+            {
+              "player": "Rob Gronkowski",
+              "first_week": 10,
+              "started_points": 57.4
+            }
+          ],
+          "started_points": 57.4
+        }
+      ],
+      "total_started_points": 129.9
+    },
+    {
+      "season": 2024,
+      "date": "Nov 8, 4:20 pm",
+      "sides": [
+        {
+          "manager_id": "megan",
+          "players": [
+            {
+              "player": "Tyrone Tracy Jr.",
+              "first_week": 10,
+              "started_points": 58.2
+            }
+          ],
+          "started_points": 58.2
+        },
+        {
+          "manager_id": "zac",
+          "players": [
+            {
+              "player": "Khalil Shakir",
+              "first_week": 10,
+              "started_points": 59.1
+            }
+          ],
+          "started_points": 59.1
+        }
+      ],
+      "total_started_points": 117.3
+    },
+    {
+      "season": 2016,
+      "date": "Sep 30, 2:23 am",
+      "sides": [
+        {
+          "manager_id": "ryan",
+          "players": [
+            {
+              "player": "James White",
+              "first_week": 4,
+              "started_points": 113.0
+            }
+          ],
+          "started_points": 113.0
+        },
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Michael Floyd",
+              "first_week": 4,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 0.0
+        }
+      ],
+      "total_started_points": 113.0
+    },
+    {
+      "season": 2018,
+      "date": "Nov 7, 10:44 am",
+      "sides": [
+        {
+          "manager_id": "benedict",
+          "players": [
+            {
+              "player": "Marvin Jones Jr.",
+              "first_week": 10,
+              "started_points": 8.5
+            }
+          ],
+          "started_points": 8.5
+        },
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Aaron Jones Sr.",
+              "first_week": 10,
+              "started_points": 94.0
+            }
+          ],
+          "started_points": 94.0
+        }
+      ],
+      "total_started_points": 102.5
+    },
+    {
+      "season": 2025,
+      "date": "Nov 11, 3:21 am",
+      "sides": [
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Cam Skattebo",
+              "first_week": 11,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 0.0
+        },
+        {
+          "manager_id": "zac",
+          "players": [
+            {
+              "player": "Zay Flowers",
+              "first_week": 11,
+              "started_points": 95.4
+            }
+          ],
+          "started_points": 95.4
+        }
+      ],
+      "total_started_points": 95.4
+    },
+    {
+      "season": 2024,
+      "date": "Oct 22, 10:13 am",
+      "sides": [
+        {
+          "manager_id": "ryan",
+          "players": [
+            {
+              "player": "Mark Andrews",
+              "first_week": 8,
+              "started_points": 23.0
+            },
+            {
+              "player": "Nick Chubb",
+              "first_week": 8,
+              "started_points": 22.3
+            }
+          ],
+          "started_points": 45.3
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Jayden Reed",
+              "first_week": 8,
+              "started_points": 44.1
+            }
+          ],
+          "started_points": 44.1
+        }
+      ],
+      "total_started_points": 89.4
+    },
+    {
+      "season": 2014,
+      "date": "Nov 9, 11:11 pm",
+      "sides": [
+        {
+          "manager_id": "carter",
+          "players": [
+            {
+              "player": "DeAndre Hopkins",
+              "first_week": 10,
+              "started_points": 13.0
+            }
+          ],
+          "started_points": 13.0
+        },
+        {
+          "manager_id": "brice",
+          "players": [
+            {
+              "player": "Fred Jackson",
+              "first_week": 10,
+              "started_points": 44.8
+            }
+          ],
+          "started_points": 44.8
+        }
+      ],
+      "total_started_points": 57.8
+    },
+    {
+      "season": 2017,
+      "date": "Oct 4, 10:36 pm",
+      "sides": [
+        {
+          "manager_id": "kelly",
+          "players": [
+            {
+              "player": "Brandon Marshall",
+              "first_week": 5,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 0.0
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Carson Palmer",
+              "first_week": 5,
+              "started_points": 41.84
+            }
+          ],
+          "started_points": 41.84
+        }
+      ],
+      "total_started_points": 41.84
+    },
+    {
+      "season": 2017,
+      "date": "Nov 1, 2:04 pm",
+      "sides": [
+        {
+          "manager_id": "carter",
+          "players": [
+            {
+              "player": "John Brown",
+              "first_week": null,
+              "started_points": 0.0
+            }
+          ],
+          "started_points": 0.0
+        },
+        {
+          "manager_id": "pb",
+          "players": [
+            {
+              "player": "Chris Ivory",
+              "first_week": 9,
+              "started_points": 13.4
+            }
+          ],
+          "started_points": 13.4
+        }
+      ],
+      "total_started_points": 13.4
+    }
+  ]
+}

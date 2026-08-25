@@ -1,171 +1,255 @@
 import { useState } from 'react'
-import { SEASONS, getManager } from '../data/league'
-import Badge from '../components/Badge'
+import { Link } from 'react-router-dom'
+import AssetImage from '../components/AssetImage'
+import {
+  EXPANDED_RECORDS, RECORD_POSITIONS, getFranchise, getManager,
+  type BowlHistoryRow, type PostseasonGame, type PostseasonRecord,
+  type RecordPosition,
+} from '../data/league'
 import { withBase } from '../lib/assetPath'
 
-const BOWLS = [
-  {
-    id: 'teremana',
-    name: 'Teremana Tequila Bowl',
-    subtitle: 'Championship',
-    rank: '1st–2nd',
-    accent: '#f1c21b',
-    description: 'The main event. The crown. Thirteen years of champions, four of them named Jay.',
-    logoPath: (year: number) => withBase(`images/BowlGame_logos/TeremanaTequilaBowl_logos/TeremanaBowl_${year}.png`),
-  },
-  {
-    id: 'tokyo',
-    name: 'Kumho Tires Tokyo Drift Bowl',
-    subtitle: '3rd Place',
-    rank: '3rd–4th',
-    accent: '#4589ff',
-    description: 'The race for bronze. More competitive than it gets credit for.',
-    logoPath: (year: number) => withBase(`images/BowlGame_logos/TokyoDriftBowl_Logos/TokyoDriftBowl_${year}.png`),
-  },
-  {
-    id: 'wing',
-    name: 'Ludacris Presents the Magic City Lemon Pepper Wing Bowl',
-    subtitle: 'Consolation',
-    rank: '5th–6th',
-    accent: '#FF832B',
-    description: 'The longest name in fantasy sports. A title worth having.',
-    logoPath: (year: number) => withBase(`images/BowlGame_logos/LemonPepperWingBowl_Logos/WingBowl_${year}.png`),
-  },
-  {
-    id: 'voltron',
-    name: 'Voltron Global Bowl Hosted by Tyrese Gibson',
-    subtitle: '9th Place',
-    rank: '9th–10th',
-    accent: '#8A3FFC',
-    description: 'Rock bottom never looked so branded.',
-    logoPath: (year: number) => withBase(`images/BowlGame_logos/VoltronGlobalBowl_Logos/VoltronGlobalBowl_${year}.png`),
-  },
-]
+const mono: React.CSSProperties = {
+  fontFamily: "'IBM Plex Mono', monospace",
+  fontVariantNumeric: 'tabular-nums',
+}
 
-const LATEST_SEASON = Math.max(...SEASONS.map(s => s.year))
+const POSITION_COLORS: Record<string, string> = {
+  QB: '#4589ff', RB: '#42be65', WR: '#f1c21b', TE: '#ff832b', DEF: '#8a3ffc', K: '#8d8d8d',
+}
 
-function BowlLogo({ src, alt, size = 64 }: { src: string; alt: string; size?: number }) {
-  const [error, setError] = useState(false)
-  if (error) {
-    return (
-      <div
-        style={{
-          width: size, height: size, display: 'flex', alignItems: 'center', justifyContent: 'center',
-          backgroundColor: '#1a1a1a', border: '1px solid #393939', flexShrink: 0, fontSize: size * 0.4,
-        }}
-        aria-hidden="true"
-      >
-        🏆
-      </div>
-    )
-  }
+const BOWL_ASSETS: Record<string, { folder: string; prefix: string; color: string }> = {
+  'Teremana Tequila Bowl': { folder: 'TeremanaTequilaBowl_logos', prefix: 'TeremanaBowl_', color: '#f1c21b' },
+  'Kumho Tires Tokyo Drift Bowl': { folder: 'TokyoDriftBowl_Logos', prefix: 'TokyoDriftBowl_', color: '#4589ff' },
+  'Ludacris Presents the Magic City Lemon Pepper Wing Bowl': { folder: 'LemonPepperWingBowl_Logos', prefix: 'WingBowl_', color: '#ff832b' },
+  'Voltron Global Bowl Hosted by Tyrese Gibson': { folder: 'VoltronGlobalBowl_Logos', prefix: 'VoltronGlobalBowl_', color: '#8a3ffc' },
+}
+
+function managerName(id: string | null | undefined): string {
+  return id ? getManager(id)?.name ?? id : '—'
+}
+
+function franchiseName(id: string | null | undefined): string {
+  return id ? getFranchise(id)?.nickname ?? id : '—'
+}
+
+function SeasonWeek({ season, week }: { season: number; week?: number }) {
   return (
-    <img
+    <Link to={`/seasons/${season}`} style={{ color: '#78a9ff', textDecoration: 'none', whiteSpace: 'nowrap', ...mono }}>
+      {season}{season === 2013 || season === 2020 ? '*' : ''}{week ? ` · W${week}` : ''}
+    </Link>
+  )
+}
+
+function Heading({ eyebrow, title, detail }: { eyebrow: string; title: string; detail: string }) {
+  return (
+    <div style={{ maxWidth: 900, marginBottom: 20 }}>
+      <div style={{ color: '#8d8d8d', fontSize: 12, lineHeight: '16px', letterSpacing: '0.16em', textTransform: 'uppercase', fontWeight: 600 }}>{eyebrow}</div>
+      <h2 style={{ margin: '8px 0', color: '#f4f4f4', fontSize: 20, lineHeight: '28px', fontWeight: 400 }}>{title}</h2>
+      <p style={{ margin: 0, color: '#a8a8a8', fontSize: 14, lineHeight: '20px' }}>{detail}</p>
+    </div>
+  )
+}
+
+function Table({ headers, children, minWidth = 720 }: { headers: string[]; children: React.ReactNode; minWidth?: number }) {
+  return (
+    <div style={{ overflowX: 'auto', border: '1px solid #393939' }}>
+      <table style={{ minWidth, width: '100%', borderCollapse: 'collapse', ...mono }}>
+        <thead><tr style={{ backgroundColor: '#262626' }}>{headers.map((header, index) => (
+          <th key={`${header}-${index}`} style={{ padding: '9px 12px', borderBottom: '1px solid #393939', color: '#8d8d8d', fontSize: 12, fontWeight: 400, textAlign: index === 0 ? 'left' : 'right', whiteSpace: 'nowrap' }}>{header}</th>
+        ))}</tr></thead>
+        <tbody>{children}</tbody>
+      </table>
+    </div>
+  )
+}
+
+const cell = (align: 'left' | 'right' = 'right'): React.CSSProperties => ({
+  padding: '10px 12px', borderBottom: '1px solid #2e2e2e', color: '#f4f4f4', fontSize: 14, lineHeight: '18px', textAlign: align, whiteSpace: 'nowrap',
+})
+
+function RecordTable({ rows, identity }: { rows: PostseasonRecord[]; identity: 'manager' | 'franchise' }) {
+  return (
+    <Table headers={[identity === 'manager' ? 'Manager' : 'Franchise', 'W–L', 'Win %', 'PPG', 'Started Points']} minWidth={560}>
+      {rows.slice(0, 12).map((row, index) => {
+        const id = identity === 'manager' ? row.manager_id : row.franchise_id
+        return <tr key={id}>
+          <td style={cell('left')}><span style={{ color: index < 3 ? '#f1c21b' : '#6f6f6f', marginRight: 10 }}>#{index + 1}</span>{identity === 'manager' ? managerName(id) : franchiseName(id)}</td>
+          <td style={cell()}>{row.w}–{row.l}{row.t ? `–${row.t}` : ''}</td>
+          <td style={cell()}>{row.win_pct.toFixed(2)}%</td>
+          <td style={cell()}>{row.ppg.toFixed(2)}</td>
+          <td style={cell()}>{row.points.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+        </tr>
+      })}
+    </Table>
+  )
+}
+
+function BowlLogo({ bowl, season }: { bowl: string; season: number }) {
+  const asset = BOWL_ASSETS[bowl]
+  const src = asset ? withBase(`images/BowlGame_logos/${asset.folder}/${asset.prefix}${season}.png`) : ''
+  return (
+    <AssetImage
       src={src}
-      alt={alt}
-      width={size}
-      height={size}
-      style={{ objectFit: 'contain', flexShrink: 0 }}
-      onError={() => setError(true)}
+      alt={`${bowl} ${season} logo`}
+      width={100}
+      height={100}
+      fallback={<div style={{ width: 100, height: 100, display: 'grid', placeItems: 'center', backgroundColor: '#262626', fontSize: 32 }}>🏆</div>}
+      style={{ objectFit: 'contain' }}
     />
   )
 }
 
-/** Bowls + bracket history, rendered inside the Records page's board layout. */
+function venue(row: BowlHistoryRow): string {
+  const location = [row.city, row.state].filter(Boolean).join(', ')
+  const attendance = row.attendance === null ? 'Attendance gap' : `${typeof row.attendance === 'number' ? row.attendance.toLocaleString() : row.attendance} attending`
+  const weather = row.indoor ? 'Indoors' : row.weather ? `${row.weather.emoji} ${row.weather.low}°F · ${row.weather.cond}` : 'Weather gap'
+  return `${row.venue ?? 'Venue gap'} · ${location || 'Location gap'} · ${attendance} · ${weather}`
+}
+
+function BowlTable({ name, rows }: { name: string; rows: BowlHistoryRow[] }) {
+  const accent = BOWL_ASSETS[name]?.color ?? '#f1c21b'
+  return (
+    <section style={{ marginBottom: 40 }}>
+      <div style={{ borderLeft: `4px solid ${accent}`, paddingLeft: 12, marginBottom: 12 }}>
+        <h3 style={{ margin: 0, color: '#f4f4f4', fontSize: 20, lineHeight: '28px', fontWeight: 400 }}>{name}</h3>
+        <div style={{ color: '#8d8d8d', fontSize: 12, lineHeight: '16px' }}>{rows.length} games · one logo per season · full venue canon</div>
+      </div>
+      <Table headers={['Logo / year', 'Champion', 'Runner-up', 'Bowl MVP', 'Stadium · location · attendance · weather']} minWidth={1240}>
+        {rows.map(row => (
+          <tr key={`${name}-${row.season}`}>
+            <td style={{ ...cell('left'), width: 132 }}><BowlLogo bowl={name} season={row.season} /><SeasonWeek season={row.season} /></td>
+            <td style={cell('left')}><strong style={{ color: getManager(row.winner_id)?.primaryColor ?? '#f4f4f4' }}>{row.winner_team}</strong><div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{managerName(row.winner_id)} · <span style={mono}>{row.winner_score.toFixed(2)}</span></div></td>
+            <td style={cell('left')}>{row.runner_up_team}<div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{managerName(row.runner_up_id)} · <span style={mono}>{row.runner_up_score.toFixed(2)}</span></div></td>
+            <td style={cell('left')}>{row.mvp ? <>{row.mvp.player}<div style={{ color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.mvp.position === 'DEF' ? 'D/ST' : row.mvp.position} · <span style={mono}>{row.mvp.points.toFixed(2)} pts</span></div></> : '—'}</td>
+            <td style={{ ...cell('left'), whiteSpace: 'normal', minWidth: 380, color: '#c6c6c6', fontFamily: "'IBM Plex Sans', sans-serif" }}>{venue(row)}</td>
+          </tr>
+        ))}
+      </Table>
+    </section>
+  )
+}
+
+function GameTable({ rows, kind }: { rows: PostseasonGame[]; kind: 'comeback' | 'margin' | 'upset' }) {
+  return (
+    <Table headers={['Game', 'Final', kind === 'comeback' ? 'Deficit erased' : kind === 'upset' ? 'Seed gap' : 'Margin', 'When']} minWidth={660}>
+      {rows.slice(0, 10).map(row => (
+        <tr key={`${row.season}-${row.week}-${row.winner_id}-${kind}`}>
+          <td style={cell('left')}>{managerName(row.winner_id)} <span style={{ color: '#6f6f6f' }}>over</span> {managerName(row.loser_id)}<div style={{ color: '#8d8d8d', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.label ?? row.bracket}</div></td>
+          <td style={cell()}>{row.winner_score.toFixed(2)}–{row.loser_score.toFixed(2)}</td>
+          <td style={cell()}>{kind === 'comeback' ? `${row.deficit?.toFixed(2)} after ${row.gate}` : kind === 'upset' ? `${row.winner_seed} over ${row.loser_seed} (+${row.seed_delta})` : row.margin?.toFixed(2)}</td>
+          <td style={cell()}><SeasonWeek season={row.season} week={row.week} /></td>
+        </tr>
+      ))}
+    </Table>
+  )
+}
+
 export default function PostseasonBoard() {
+  const post = EXPANDED_RECORDS.postseason
+  const [position, setPosition] = useState<RecordPosition>('QB')
+  const singleGames = post.single_games_by_position[position]
+
   return (
     <div>
-      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6', marginBottom: 32, maxWidth: 680 }}>
-        Four named bowls · 13 seasons of bracket history · 52 Bowl MVPs
-      </p>
+      <section style={{ border: '1px solid #393939', borderTop: '4px solid #f1c21b', backgroundColor: '#1c1c1c', padding: 24, marginBottom: 48 }}>
+        <div style={{ color: '#8d8d8d', fontSize: 12, letterSpacing: '0.16em', textTransform: 'uppercase' }}>Bracket truth · 2013–2025</div>
+        <h2 style={{ margin: '8px 0 12px', color: '#f4f4f4', fontSize: 28, lineHeight: '36px', fontWeight: 400 }}>The postseason record book, with the grudges left in.</h2>
+        <p style={{ maxWidth: 920, margin: 0, color: '#a8a8a8', fontSize: 14, lineHeight: '20px' }}>Championship and consolation brackets are tracked separately below. Player totals, opponent names, seed upsets, venue lore, and weather all come from the same games shown on the season pages.</p>
+      </section>
 
-      <div>
-        {/* Bowl overview */}
-        <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 11, letterSpacing: '0.32em', textTransform: 'uppercase', color: '#8d8d8d', marginBottom: 24, display: 'flex', alignItems: 'center', gap: 12 }}>
-          <span>The four bowls</span>
-          <div style={{ flex: 1, height: 1, backgroundColor: '#393939' }} />
+      <section style={{ marginBottom: 56 }}>
+        <Heading eyebrow="Postseason records" title="Manager and franchise W–L" detail="Win percentage includes every played bracket game. Championship and consolation paths stay separate so a consolation run cannot disguise title-bracket history." />
+        <div className="post-four-grid">
+          {(['Championship', 'Consolation'] as const).flatMap(bracket => ([
+            <section key={`${bracket}-manager`}><h3 style={{ color: '#f4f4f4', fontSize: 16, margin: '0 0 10px' }}>{bracket} · Managers</h3><RecordTable rows={post.manager_records_by_bracket[bracket]} identity="manager" /></section>,
+            <section key={`${bracket}-franchise`}><h3 style={{ color: '#f4f4f4', fontSize: 16, margin: '0 0 10px' }}>{bracket} · Franchises</h3><RecordTable rows={post.franchise_records_by_bracket[bracket]} identity="franchise" /></section>,
+          ]))}
         </div>
+      </section>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 1, backgroundColor: '#393939', border: '1px solid #393939', marginBottom: 64 }}>
-          {BOWLS.map(bowl => (
-            <div key={bowl.id} style={{ backgroundColor: '#262626', padding: 24, borderTop: `3px solid ${bowl.accent}`, display: 'flex', gap: 16 }}>
-              <BowlLogo src={bowl.logoPath(LATEST_SEASON)} alt={`${bowl.name} logo`} />
-              <div style={{ minWidth: 0 }}>
-                <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d', letterSpacing: '0.16em', textTransform: 'uppercase', marginBottom: 8 }}>
-                  {bowl.subtitle} · {bowl.rank}
-                </div>
-                <h2 style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 16, color: '#f4f4f4', margin: '0 0 12px', lineHeight: '22px' }}>
-                  {bowl.name}
-                </h2>
-                <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 13, color: '#8d8d8d', margin: 0, lineHeight: '18px' }}>
-                  {bowl.description}
-                </p>
-              </div>
+      <section style={{ marginBottom: 56 }}>
+        <Heading eyebrow="Postseason players" title="All-time totals and the single-game ceiling" detail="Started Points only. Every single-game line names the manager and opponent, because a record without the victim is wasted rivalry fuel." />
+        <div className="post-two-grid" style={{ marginBottom: 16 }}>
+          <section>
+            <h3 style={{ color: '#f4f4f4', fontSize: 16, margin: '0 0 10px' }}>All-time postseason player totals</h3>
+            <Table headers={['Player', 'Pos', 'Started Points', 'Starts', 'PPG', 'Most points with']} minWidth={720}>
+              {post.player_totals.slice(0, 20).map((row, index) => <tr key={row.player}>
+                <td style={cell('left')}><span style={{ color: index < 3 ? '#f1c21b' : '#6f6f6f', marginRight: 8 }}>#{index + 1}</span>{row.player}</td>
+                <td style={{ ...cell(), color: POSITION_COLORS[row.position] }}>{row.position === 'DEF' ? 'D/ST' : row.position}</td>
+                <td style={cell()}>{row.points.toFixed(2)}</td><td style={cell()}>{row.starts}</td><td style={cell()}>{row.ppg.toFixed(2)}</td><td style={cell('left')}>{managerName(row.top_manager_id)}</td>
+              </tr>)}
+            </Table>
+          </section>
+          <section>
+            <div style={{ display: 'flex', gap: 1, overflowX: 'auto', marginBottom: 10 }}>
+              {RECORD_POSITIONS.map(pos => <button key={pos} onClick={() => setPosition(pos)} style={{ border: '1px solid #393939', borderTop: `3px solid ${position === pos ? POSITION_COLORS[pos] : '#393939'}`, backgroundColor: position === pos ? '#262626' : '#1c1c1c', color: position === pos ? '#f4f4f4' : '#a8a8a8', padding: '9px 14px', cursor: 'pointer', fontSize: 14, ...mono }}>{pos === 'DEF' ? 'D/ST' : pos}</button>)}
             </div>
-          ))}
+            <Table headers={['Player', 'Manager', 'Opponent', 'Bracket', 'Points', 'When']} minWidth={760}>
+              {singleGames.map((row, index) => <tr key={`${row.season}-${row.week}-${row.player}-${row.manager_id}`}>
+                <td style={cell('left')}><span style={{ color: index < 3 ? '#f1c21b' : '#6f6f6f', marginRight: 8 }}>#{index + 1}</span>{row.player}</td>
+                <td style={cell('left')}>{managerName(row.manager_id)}</td><td style={cell('left')}>{managerName(row.opponent_id)}</td><td style={cell('left')}>{row.bracket}</td><td style={cell()}>{row.points.toFixed(2)}</td><td style={cell()}><SeasonWeek season={row.season} week={row.week} /></td>
+              </tr>)}
+            </Table>
+          </section>
         </div>
+      </section>
 
-        {/* Bowl history table */}
-        <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 11, letterSpacing: '0.32em', textTransform: 'uppercase', color: '#8d8d8d', marginBottom: 24, display: 'flex', alignItems: 'center', gap: 12 }}>
-          <span>Teremana Tequila Bowl history</span>
-          <div style={{ flex: 1, height: 1, backgroundColor: '#393939' }} />
+      <section style={{ marginBottom: 64 }}>
+        <Heading eyebrow="Postseason multiplier" title="Who changes when the bracket starts?" detail="Career regular-season PPG against career postseason PPG. Every listed manager has at least three postseason games; the tails show the biggest rise and fall." />
+        <div className="post-two-grid">
+          {[['Risers', post.multipliers.slice(0, 10)], ['Fallers', [...post.multipliers].reverse().slice(0, 10)]].map(([title, rows]) => <section key={String(title)}>
+            <h3 style={{ color: '#f4f4f4', fontSize: 16, margin: '0 0 10px' }}>{String(title)}</h3>
+            <Table headers={['Manager', 'Regular PPG', 'Postseason PPG', 'Delta', 'Post games']} minWidth={620}>
+              {(rows as typeof post.multipliers).map(row => <tr key={row.manager_id}><td style={cell('left')}>{managerName(row.manager_id)}</td><td style={cell()}>{row.regular_ppg.toFixed(2)}</td><td style={cell()}>{row.postseason_ppg.toFixed(2)}</td><td style={{ ...cell(), color: row.delta >= 0 ? '#42be65' : '#ff8389' }}>{row.delta > 0 ? '+' : ''}{row.delta.toFixed(2)}</td><td style={cell()}>{row.postseason_games}</td></tr>)}
+            </Table>
+          </section>)}
         </div>
+      </section>
 
-        <div style={{ overflowX: 'auto', border: '1px solid #393939' }}>
-          <table style={{ borderCollapse: 'collapse', width: '100%', minWidth: 480 }}>
-            <thead>
-              <tr style={{ backgroundColor: '#393939' }}>
-                {['Year', 'Champion', 'Runner-up', 'Points leader (Letty)', 'Notes'].map(h => (
-                  <th key={h} style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 11, color: '#c6c6c6', letterSpacing: '0.32em', textTransform: 'uppercase', padding: '10px 12px', textAlign: 'left', whiteSpace: 'nowrap' }}>
-                    {h}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {SEASONS.map(s => {
-                const champion = getManager(s.champion)
-                const runnerUp = getManager(s.runnerUp)
-                const letty = getManager(s.lettyWinner)
-                return (
-                  <tr key={s.year} style={{ borderBottom: '1px solid #393939', backgroundColor: '#262626' }}
-                    onMouseEnter={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#393939' }}
-                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#262626' }}
-                  >
-                    <td style={{ padding: '10px 12px', borderLeft: champion ? `3px solid ${champion.primaryColor}` : undefined, paddingLeft: champion ? 12 : undefined }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                        <BowlLogo src={BOWLS[0].logoPath(s.year)} alt={`Teremana Tequila Bowl ${s.year}`} size={28} />
-                        <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#f4f4f4', fontVariantNumeric: 'tabular-nums' }}>{s.year}</span>
-                        {s.asterisk && <Badge type="asterisk" size="sm" label="*" />}
-                      </div>
-                    </td>
-                    <td style={{ padding: '10px 12px' }}>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 13, color: champion?.primaryColor ?? '#f4f4f4' }}>
-                        {champion?.teamName}
-                      </div>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d' }}>{s.championTeam}</div>
-                    </td>
-                    <td style={{ padding: '10px 12px' }}>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 13, color: '#c6c6c6' }}>{runnerUp?.teamName}</div>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: '#8d8d8d' }}>{s.runnerUpTeam}</div>
-                    </td>
-                    <td style={{ padding: '10px 12px' }}>
-                      <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 13, color: '#c6c6c6' }}>{letty?.name}</div>
-                      <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#8d8d8d', fontVariantNumeric: 'tabular-nums' }}>{s.pointsLeaderPF.toFixed(2)} pts</div>
-                    </td>
-                    <td style={{ padding: '10px 12px' }}>
-                      {s.asteriskReason
-                        ? <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12, color: '#8d8d8d', fontStyle: 'italic' }}>{s.asteriskReason}</span>
-                        : <span style={{ color: '#525252' }}>—</span>
-                      }
-                    </td>
-                  </tr>
-                )
-              })}
-            </tbody>
-          </table>
+      <section style={{ marginBottom: 64 }}>
+        <Heading eyebrow="The four bowls" title="Every champion, runner-up, MVP, stadium, crowd, and forecast" detail="The 100px art is season-specific. Historical team names are preserved here—current team overrides never rewrite old bowl results." />
+        {Object.entries(post.bowls).map(([name, rows]) => <BowlTable key={name} name={name} rows={rows} />)}
+      </section>
+
+      <section style={{ marginBottom: 64 }}>
+        <Heading eyebrow="Postseason crime scenes" title="Comebacks, margins, upsets, and bad luck" detail="Comebacks use complete gate timelines only; expected wins use each manager's regular-season scoring distribution from that same season." />
+        <div className="post-two-grid">
+          <section><h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Greatest postseason comebacks</h3><GameTable rows={post.greatest_comebacks} kind="comeback" /></section>
+          <section><h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Tightest postseason games</h3><GameTable rows={post.tightest_games} kind="margin" /></section>
+          <section><h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Biggest postseason blowouts</h3><GameTable rows={post.biggest_blowouts} kind="margin" /></section>
+          <section><h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Biggest seed upsets · Giant killers</h3><GameTable rows={post.upsets} kind="upset" /></section>
+          <section>
+            <h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Most unlucky in the postseason</h3>
+            <Table headers={['Manager', 'Actual wins', 'Expected wins', 'Luck delta', 'Games']} minWidth={580}>
+              {post.unlucky.slice(0, 12).map(row => <tr key={row.manager_id}><td style={cell('left')}>{managerName(row.manager_id)}</td><td style={cell()}>{row.actual_wins}</td><td style={cell()}>{row.expected_wins.toFixed(2)}</td><td style={{ ...cell(), color: row.luck_delta < 0 ? '#ff8389' : '#42be65' }}>{row.luck_delta > 0 ? '+' : ''}{row.luck_delta.toFixed(2)}</td><td style={cell()}>{row.games}</td></tr>)}
+            </Table>
+          </section>
         </div>
-      </div>
+      </section>
+
+      <section>
+        <Heading eyebrow="Fictional meteorology department" title="Bowl climate, crowds, and host geography" detail="Indoor bowls are excluded from temperature rankings. The outdoor readings and deliberately absurd venues stay exactly as canon records them." />
+        <div className="post-four-grid">
+          {[['Coldest bowl games', post.coldest_bowls], ['Warmest bowl games', post.warmest_bowls], ['Most attended bowl games', post.most_attended_bowls]].map(([title, rows]) => <section key={String(title)}>
+            <h3 style={{ color: '#f4f4f4', fontSize: 16 }}>{String(title)}</h3>
+            <Table headers={['Bowl / year', 'Venue', String(title).includes('attended') ? 'Attendance' : 'Low']} minWidth={560}>
+              {(rows as BowlHistoryRow[]).map(row => <tr key={`${title}-${row.bowl}-${row.season}`}><td style={cell('left')}>{row.bowl}<div><SeasonWeek season={row.season} /></div></td><td style={{ ...cell('left'), whiteSpace: 'normal' }}>{row.venue}<div style={{ color: '#8d8d8d', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{row.city}, {row.state}</div></td><td style={cell()}>{String(title).includes('attended') ? (typeof row.attendance === 'number' ? row.attendance.toLocaleString() : row.attendance) : `${row.weather?.emoji ?? ''} ${row.weather?.low}°F`}</td></tr>)}
+            </Table>
+          </section>)}
+          <section>
+            <h3 style={{ color: '#f4f4f4', fontSize: 16 }}>Most frequent host states / countries</h3>
+            <Table headers={['Location', 'Bowl games']} minWidth={400}>
+              {post.host_leaders.slice(0, 12).map((row, index) => <tr key={row.location}><td style={cell('left')}><span style={{ color: index < 3 ? '#f1c21b' : '#6f6f6f', marginRight: 8 }}>#{index + 1}</span>{row.location}</td><td style={cell()}>{row.games}</td></tr>)}
+            </Table>
+          </section>
+        </div>
+      </section>
+
+      <style>{`
+        .post-two-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+        .post-four-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+        @media (max-width: 1055px) { .post-two-grid, .post-four-grid { grid-template-columns: 1fr; } }
+      `}</style>
     </div>
   )
 }

@@ -2,20 +2,16 @@ import { useState } from 'react'
 import PostseasonBoard from './Postseason'
 import LeagueRecordBook from './LeagueRecordBook'
 import {
-  MondayNightMiracleBoard, PhaseBoard, BenchBoard, NemesisBoard,
-  FandomBoard, RecruitingBoard, DefensesBoard,
+  MondayNightMiracleBoard, PhaseBoard, RecruitingBoard, DefensesBoard,
 } from './Leaderboards'
 
-// Post-season & Bowls leads, then the seven named leaderboards. This page is
+// League-wide records lead, followed by the focused boards. This page is
 // the merge of the former /postseason and /leaderboards routes.
 const BOARDS: { id: string; label: string; render: () => React.ReactNode }[] = [
   { id: 'record-book', label: 'League Record Book', render: () => <LeagueRecordBook /> },
   { id: 'postseason', label: 'Post-season & Bowls', render: () => <PostseasonBoard /> },
   { id: 'mnm', label: 'Monday Night Miracle', render: () => <MondayNightMiracleBoard /> },
   { id: 'phase', label: 'Drafter vs Closer', render: () => <PhaseBoard /> },
-  { id: 'bench', label: 'Points Left on Bench', render: () => <BenchBoard /> },
-  { id: 'nemesis', label: 'Nemesis & Rivalries', render: () => <NemesisBoard /> },
-  { id: 'fandom', label: 'Fandom Scorecard', render: () => <FandomBoard /> },
   { id: 'recruiting', label: 'Recruiting Board', render: () => <RecruitingBoard /> },
   { id: 'defenses', label: 'NFL Defenses', render: () => <DefensesBoard /> },
 ]

@@ -5,6 +5,7 @@ import {
   ALL_TIME_FRANCHISE_STANDINGS,
   ALL_TIME_STANDINGS,
   HALL_OF_FAME,
+  EXPANDED_RECORDS,
   LEAGUE_RECORD_BOOK,
   LEAGUE_STATS,
   POSITION_WHISPERERS,
@@ -23,6 +24,12 @@ import {
   type ScoreAberration,
   type StandingRow,
   type TeamGameRecord,
+  type BenchCareerRecord,
+  type BenchGameRecord,
+  type EscapeAct,
+  type ScheduleRecord,
+  type StreakRecord,
+  type TradeTree,
 } from '../data/league'
 
 const POSITION_COLORS: Record<RecordPosition, string> = {
@@ -63,6 +70,10 @@ const RECORD_GROUPS = [
   { id: 'manager-seasons', label: 'Manager seasons' },
   { id: 'players', label: 'Players' },
   { id: 'positions', label: 'By position' },
+  { id: 'streaks', label: 'Ironman & spiral' },
+  { id: 'schedule', label: 'Schedule robbery' },
+  { id: 'bench-mob', label: 'Bench Mob' },
+  { id: 'trades', label: 'Trade trees' },
 ] as const
 
 type RecordGroup = (typeof RECORD_GROUPS)[number]['id']
@@ -72,8 +83,8 @@ const mono: React.CSSProperties = {
   fontVariantNumeric: 'tabular-nums',
 }
 
-function managerName(id: string): string {
-  return getManager(id)?.name ?? id
+function managerName(id: string | null | undefined): string {
+  return id ? getManager(id)?.name ?? id : '—'
 }
 
 function franchiseName(id: string): string {
@@ -564,29 +575,139 @@ function HallOfFame() {
   )
 }
 
-const NEXT_RECORDS = [
-  { title: 'Ironman & spiral', status: 'Ready', detail: 'Longest winning and losing streaks, with the exact games that started and ended each run.' },
-  { title: 'Schedule robbery', status: 'Ready', detail: 'Actual record versus all-play and weekly-median records: who was great, and who merely had good timing.' },
-  { title: 'Bench escape acts', status: 'Ready', detail: 'Most lineup regret in a win, plus the cleanest perfect-lineup weeks.' },
-  { title: 'Postseason multiplier', status: 'Build', detail: 'Regular-season PPG versus playoff PPG, era-adjusted and minimum-sample badged.' },
-  { title: 'Trade trees', status: 'Pipeline', detail: 'Started Points gained and lost after every trade, including the player branches that followed.' },
-  { title: 'Giant killers', status: 'Build', detail: 'Largest playoff seed upsets and lowest-seeded bowl winners.' },
-]
-
-function NextRecords() {
+function StreakTables({ search }: { search: string }) {
+  const columns: Column<StreakRecord>[] = [
+    { label: 'Manager', render: row => <ManagerName id={row.manager_id} /> },
+    { label: 'Games', align: 'right', render: row => row.games },
+    { label: 'Started', align: 'right', render: row => <SeasonWeek season={row.start.season} week={row.start.week} /> },
+    { label: 'First opponent', render: row => managerName(row.start.opponent_id) },
+    { label: 'Ended', align: 'right', render: row => <SeasonWeek season={row.end.season} week={row.end.week} /> },
+    { label: 'Last opponent', render: row => managerName(row.end.opponent_id) },
+  ]
   return (
-    <section style={{ paddingTop: 64 }}>
-      <SectionHeading eyebrow="Tomorrow's tape" title="Records worth adding next" detail="The useful patterns other league-history tools emphasize, translated into Last Minute's data and lore instead of copied wholesale." />
-      <div className="next-record-grid">
-        {NEXT_RECORDS.map(item => (
-          <article key={item.title} style={{ border: '1px solid #393939', backgroundColor: '#1c1c1c', padding: 16 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'baseline', marginBottom: 8 }}>
-              <h3 style={{ margin: 0, fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 16, lineHeight: '22px', color: '#f4f4f4' }}>{item.title}</h3>
-              <span style={{ padding: '2px 6px', border: '1px solid #525252', color: item.status === 'Ready' ? '#42be65' : item.status === 'Build' ? '#78a9ff' : '#f1c21b', fontSize: 12, ...mono }}>{item.status}</span>
-            </div>
-            <p style={{ margin: 0, color: '#a8a8a8', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, lineHeight: '20px' }}>{item.detail}</p>
-          </article>
-        ))}
+    <div className="record-panel-grid">
+      <RecordPanel title="Longest winning streaks" detail="Consecutive full-season wins, including runs that cross season boundaries.">
+        <RankedTable rows={EXPANDED_RECORDS.streaks.wins.filter(row => contains(search, managerName(row.manager_id), row.games, row.start.season, row.end.season))} columns={columns} keyFor={(row, index) => `win-${row.manager_id}-${row.start.season}-${index}`} />
+      </RecordPanel>
+      <RecordPanel title="Longest losing spirals" detail="Consecutive full-season losses, with the first and last victims named.">
+        <RankedTable rows={EXPANDED_RECORDS.streaks.losses.filter(row => contains(search, managerName(row.manager_id), row.games, row.start.season, row.end.season))} columns={columns} keyFor={(row, index) => `loss-${row.manager_id}-${row.start.season}-${index}`} />
+      </RecordPanel>
+    </div>
+  )
+}
+
+function ScheduleTables({ search }: { search: string }) {
+  const rows = EXPANDED_RECORDS.schedule_robbery.filter(row => contains(search, managerName(row.manager_id), row.games, row.actual_pct, row.all_play_pct, row.schedule_delta))
+  const columns: Column<ScheduleRecord>[] = [
+    { label: 'Manager', render: row => <ManagerName id={row.manager_id} /> },
+    { label: 'Actual W–L', align: 'right', render: row => `${row.w}–${row.l}` },
+    { label: 'Actual %', align: 'right', render: row => `${row.actual_pct.toFixed(2)}%` },
+    { label: 'All-play %', align: 'right', render: row => `${row.all_play_pct.toFixed(2)}%` },
+    { label: 'Median %', align: 'right', render: row => `${row.median_pct.toFixed(2)}%` },
+    { label: 'Schedule delta', align: 'right', render: row => <span style={{ color: row.schedule_delta >= 0 ? '#42be65' : '#ff8389' }}>{row.schedule_delta > 0 ? '+' : ''}{row.schedule_delta.toFixed(2)}</span> },
+  ]
+  return (
+    <div className="record-panel-grid">
+      <RecordPanel title="Schedule beneficiaries" detail="Actual win percentage most above all-play performance.">
+        <RankedTable rows={rows.slice(0, 12)} columns={columns} keyFor={row => `lucky-${row.manager_id}`} />
+      </RecordPanel>
+      <RecordPanel title="Schedule robbery victims" detail="Actual win percentage most below all-play performance.">
+        <RankedTable rows={[...rows].sort((a, b) => a.schedule_delta - b.schedule_delta).slice(0, 12)} columns={columns} keyFor={row => `robbed-${row.manager_id}`} />
+      </RecordPanel>
+    </div>
+  )
+}
+
+function BenchMobTables({ search }: { search: string }) {
+  const bench = EXPANDED_RECORDS.bench_mob
+  const career = bench.career.filter(row => contains(search, row.player, row.position, managerName(row.top_manager_id), row.bench_points))
+  const games = bench.single_games.filter(row => contains(search, row.player, row.position, managerName(row.manager_id), managerName(row.opponent_id), row.season, row.week, row.bench_points))
+  const escapes = bench.escape_acts.filter(row => contains(search, managerName(row.manager_id), managerName(row.opponent_id), row.season, row.week, row.regret))
+  return (
+    <div className="record-panel-grid">
+      <RecordPanel title="Bench Mob · all-time totals" detail="Points scored while rostered in a bench slot; IR is excluded.">
+        <RankedTable<BenchCareerRecord> rows={career} keyFor={row => row.player} columns={[
+          { label: 'Player', render: row => row.player },
+          { label: 'Pos', render: row => <span style={{ color: POSITION_COLORS[(row.position === 'DST' ? 'DEF' : row.position) as RecordPosition] ?? '#8d8d8d' }}>{row.position === 'DEF' ? 'D/ST' : row.position}</span> },
+          { label: 'Bench Points', align: 'right', render: row => row.bench_points.toFixed(2) },
+          { label: 'Bench games', align: 'right', render: row => row.bench_games },
+          { label: 'Most with', render: row => managerName(row.top_manager_id) },
+        ]} />
+      </RecordPanel>
+      <RecordPanel title="Bench Mob · single games" detail="The most points ever left sitting, with manager and opponent included.">
+        <RankedTable<BenchGameRecord> rows={games} keyFor={(row, index) => `${row.player}-${row.season}-${row.week}-${index}`} columns={[
+          { label: 'Player', render: row => row.player },
+          { label: 'Manager', render: row => managerName(row.manager_id) },
+          { label: 'Opponent', render: row => managerName(row.opponent_id) },
+          { label: 'Bench Points', align: 'right', render: row => row.bench_points.toFixed(2) },
+          { label: 'When', align: 'right', render: row => <SeasonWeek season={row.season} week={row.week} /> },
+        ]} />
+      </RecordPanel>
+      <RecordPanel title="Bench escape acts" detail="The most lineup regret a manager survived and still won.">
+        <RankedTable<EscapeAct> rows={escapes} keyFor={(row, index) => `${row.manager_id}-${row.season}-${row.week}-${index}`} columns={[
+          { label: 'Manager', render: row => <ManagerName id={row.manager_id} /> },
+          { label: 'Opponent', render: row => managerName(row.opponent_id) },
+          { label: 'Final', align: 'right', render: row => `${row.score.toFixed(2)}–${row.opponent_score.toFixed(2)}` },
+          { label: 'Regret survived', align: 'right', render: row => row.regret.toFixed(2) },
+          { label: 'When', align: 'right', render: row => <SeasonWeek season={row.season} week={row.week} /> },
+        ]} />
+      </RecordPanel>
+      <RecordPanel title="Perfect-lineup weeks" detail="Every available point captured under the lineup optimizer.">
+        <RankedTable rows={bench.perfect_lineups.filter(row => contains(search, managerName(row.manager_id), row.perfect_weeks))} keyFor={row => row.manager_id} columns={[
+          { label: 'Manager', render: row => <ManagerName id={row.manager_id} /> },
+          { label: 'Perfect weeks', align: 'right', render: row => row.perfect_weeks },
+        ]} />
+      </RecordPanel>
+    </div>
+  )
+}
+
+function TradeTrees({ search }: { search: string }) {
+  const rows: TradeTree[] = EXPANDED_RECORDS.trade_trees.filter(row => contains(search, row.season, row.date, row.total_started_points, ...row.sides.flatMap(side => [managerName(side.manager_id), ...side.players.map(player => player.player)])))
+  return (
+    <div className="trade-tree-grid">
+      {rows.map((trade, index) => (
+        <article key={`${trade.season}-${trade.date}`} style={{ border: '1px solid #393939', borderTop: `4px solid ${index < 3 ? '#f1c21b' : '#525252'}`, backgroundColor: '#1c1c1c' }}>
+          <div style={{ padding: 16, borderBottom: '1px solid #393939', display: 'flex', justifyContent: 'space-between', gap: 16 }}>
+            <div><Eyebrow>{trade.season} · {trade.date}</Eyebrow><h3 style={{ margin: 0, color: '#f4f4f4', fontSize: 16, lineHeight: '22px' }}>Trade tree #{index + 1}</h3></div>
+            <div style={{ textAlign: 'right' }}><div style={{ color: '#8d8d8d', fontSize: 12 }}>Produced after trade</div><div style={{ color: '#f4f4f4', fontSize: 20, ...mono }}>{trade.total_started_points.toFixed(2)}</div></div>
+          </div>
+          <div className="trade-side-grid">
+            {trade.sides.map(side => (
+              <div key={side.manager_id} style={{ padding: 16, borderRight: '1px solid #393939' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', color: '#f4f4f4', marginBottom: 10 }}><ManagerName id={side.manager_id} /><span style={mono}>{side.started_points.toFixed(2)}</span></div>
+                {side.players.map(player => <div key={player.player} style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 10, padding: '6px 0', borderTop: '1px solid #2e2e2e', color: '#c6c6c6', fontSize: 12 }}><span>{player.player}{player.first_week ? ` · from W${player.first_week}` : ''}</span><span style={mono}>{player.started_points.toFixed(2)}</span></div>)}
+              </div>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+  )
+}
+
+function ExpandedRecordIntro({ title, detail, children }: { title: string; detail: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <div style={{ marginBottom: 16 }}><h3 style={{ margin: '0 0 6px', color: '#f4f4f4', fontSize: 20, lineHeight: '28px', fontWeight: 400 }}>{title}</h3><p style={{ margin: 0, color: '#8d8d8d', fontSize: 12, lineHeight: '16px' }}>{detail}</p></div>
+      {children}
+    </div>
+  )
+}
+
+function ExpandedGroup({ group, search }: { group: RecordGroup; search: string }) {
+  if (group === 'streaks') return <ExpandedRecordIntro title="Ironman & spiral" detail="The exact boundaries of the league's longest winning and losing runs."><StreakTables search={search} /></ExpandedRecordIntro>
+  if (group === 'schedule') return <ExpandedRecordIntro title="Schedule robbery" detail={EXPANDED_RECORDS.meta.schedule}><ScheduleTables search={search} /></ExpandedRecordIntro>
+  if (group === 'bench-mob') return <ExpandedRecordIntro title="Bench Mob" detail="Career and single-game bench scoring, plus the wins that survived bad lineup choices."><BenchMobTables search={search} /></ExpandedRecordIntro>
+  return <ExpandedRecordIntro title="Trade trees" detail={EXPANDED_RECORDS.meta.trade}><TradeTrees search={search} /></ExpandedRecordIntro>
+}
+
+function BuiltRecordMarker() {
+  return (
+    <section style={{ paddingTop: 48 }}>
+      <SectionHeading eyebrow="Tape processed" title="The backlog moved into the record book" detail="Ironman and spiral, schedule robbery, Bench Mob and escape acts, postseason multiplier, trade trees, and Giant Killers are now live data—not placeholders." />
+      <div style={{ border: '1px solid #393939', borderLeft: '4px solid #42be65', backgroundColor: '#1c1c1c', padding: 16, color: '#c6c6c6', fontSize: 14, lineHeight: '20px' }}>
+        Postseason multiplier and Giant Killers live on the Post-season &amp; Bowls board; the other four are lookup tabs above.
       </div>
     </section>
   )
@@ -610,6 +731,10 @@ export default function LeagueRecordBook() {
       case 'manager-seasons': return <ManagerSeasonTables search={search} />
       case 'players': return <PlayerTables search={search} />
       case 'positions': return <PositionTables search={search} />
+      case 'streaks':
+      case 'schedule':
+      case 'bench-mob':
+      case 'trades': return <ExpandedGroup group={group} search={search} />
     }
   }, [group, search])
 
@@ -713,7 +838,7 @@ export default function LeagueRecordBook() {
         </details>
       </section>
 
-      <NextRecords />
+      <BuiltRecordMarker />
       <HallOfFame />
 
       <style>{`
@@ -721,15 +846,16 @@ export default function LeagueRecordBook() {
         .oddity-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; }
         .record-panel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
         .whisperer-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
-        .next-record-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+        .trade-tree-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+        .trade-side-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .hall-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
         @media (max-width: 1055px) {
           .record-hero-stats, .oddity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
           .record-panel-grid, .whisperer-grid, .hall-grid { grid-template-columns: 1fr; }
-          .next-record-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+          .trade-tree-grid { grid-template-columns: 1fr; }
         }
         @media (max-width: 671px) {
-          .record-hero-stats, .oddity-grid, .next-record-grid { grid-template-columns: 1fr; }
+          .record-hero-stats, .oddity-grid, .trade-side-grid { grid-template-columns: 1fr; }
           .record-tools { grid-template-columns: 1fr !important; }
         }
       `}</style>

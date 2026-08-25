@@ -2,11 +2,10 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, ReferenceLine,
 } from 'recharts'
 import {
-  PHASE_SPLITS, BENCH_REGRET, MONDAY_NIGHT_MIRACLES, NEMESIS_DATA, FANDOM_DATA, getManager,
+  PHASE_SPLITS, BENCH_REGRET, MONDAY_NIGHT_MIRACLES, NEMESIS_DATA, FANDOM_DATA, EXPANDED_RECORDS, getManager,
 } from '../data/league'
 import MatchupCard from '../components/MatchupCard'
 import collegeAnalysis from '../data/processed/college_analysis.json'
-import enemiesAnalysis from '../data/processed/enemies_analysis.json'
 import { NFL_TEAM_COLORS } from '../data/build/nflTeamColors'
 
 // This module is a library of leaderboard boards, composed by pages/Records.tsx.
@@ -510,46 +509,65 @@ export function RecruitingBoard() {
 }
 
 export function DefensesBoard() {
-  const best = enemiesAnalysis.nfl_defense_scoring.single_best_game
-  const ranking = enemiesAnalysis.nfl_defense_scoring.ranking as [string, number][]
-  const defenses = ranking.slice(0, 10).map(([team, pts]) => ({
-    team,
-    pts,
-    color: NFL_TEAM_COLORS[team] ?? '#8d8d8d',
-  }))
+  const defenses = EXPANDED_RECORDS.defenses.teams
+  const best = EXPANDED_RECORDS.defenses.single_games[0]
+  const rostered = [...defenses].sort((a, b) => b.roster_weeks - a.roster_weeks)[0]
+  const earliest = defenses.filter(row => row.earliest_draft).sort((a, b) => (a.earliest_draft?.overall ?? 999) - (b.earliest_draft?.overall ?? 999))[0]
+  const waiver = [...defenses].sort((a, b) => b.waiver_adds - a.waiver_adds)[0]
   return (
     <div>
-      <div style={{ marginBottom: 32, backgroundColor: '#1a1a1a', border: '1px solid #393939', borderLeft: '3px solid #E31837', padding: '12px 16px', maxWidth: 480 }}>
-        <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 13, color: '#c6c6c6' }}>
-          Single-game record: <span style={{ fontFamily: "'IBM Plex Mono', monospace", color: '#f1c21b' }}>{best.defense} {best.pts} pts</span>
-          <span style={{ color: '#8d8d8d' }}> · {best.started_by} · {best.season} wk{best.week}</span>
-        </div>
+      <p style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6', margin: '0 0 24px', maxWidth: 760 }}>
+        All 32 NFL defenses, measured by what they produced while started and how the league acquired them. Roster weeks count a unique manager-week; Started PPG counts starts only.
+      </p>
+      <div className="defense-summary-grid" style={{ marginBottom: 32 }}>
+        {[
+          ['Single-game record', `${best.defense} · ${best.points.toFixed(2)}`, `${getManager(best.manager_id)?.name ?? best.manager_id} · ${best.season} W${best.week}`],
+          ['Rostered most often', rostered.defense, `${rostered.roster_weeks} manager-weeks`],
+          ['Earliest draft selection', earliest.defense, `#${earliest.earliest_draft?.overall} · ${earliest.earliest_draft?.season} · ${getManager(earliest.earliest_draft?.manager_id ?? '')?.name ?? earliest.earliest_draft?.manager_id}`],
+          ['Most popular waiver add', waiver.defense, `${waiver.waiver_adds} adds · most by ${getManager(waiver.top_waiver_manager_id ?? '')?.name ?? waiver.top_waiver_manager_id}`],
+        ].map(([label, value, detail]) => <article key={label} style={{ backgroundColor: '#262626', borderTop: `4px solid ${NFL_TEAM_COLORS[String(value).split(' · ')[0]] ?? '#8d8d8d'}`, padding: 16 }}>
+          <div style={{ color: '#8d8d8d', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{label}</div>
+          <div style={{ color: '#f4f4f4', fontFamily: "'IBM Plex Mono', monospace", fontSize: 20, lineHeight: '28px', fontVariantNumeric: 'tabular-nums' }}>{value}</div>
+          <div style={{ color: '#c6c6c6', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 12 }}>{detail}</div>
+        </article>)}
       </div>
       <div style={{ overflowX: 'auto', border: '1px solid #393939' }}>
-        <table style={{ borderCollapse: 'collapse', width: '100%', minWidth: 360 }}>
+        <table style={{ borderCollapse: 'collapse', width: '100%', minWidth: 1080 }}>
           <thead>
             <tr style={{ backgroundColor: '#393939' }}>
-              {['#', 'Defense', 'Total started pts'].map(h => (
+              {['#', 'Defense', 'Started Points', 'Starts', 'Started PPG', 'Roster weeks', 'Drafted', 'Earliest draft', 'Waiver adds', 'Top waiver manager'].map(h => (
                 <th key={h} style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontWeight: 600, fontSize: 11, color: '#c6c6c6', letterSpacing: '0.32em', textTransform: 'uppercase', padding: '10px 12px', textAlign: h === '#' || h === 'Defense' ? 'left' : 'right' }}>{h}</th>
               ))}
             </tr>
           </thead>
           <tbody>
             {defenses.map((d, i) => (
-              <tr key={d.team} style={{ borderBottom: '1px solid #393939', backgroundColor: '#262626' }}
+              <tr key={d.defense} style={{ borderBottom: '1px solid #393939', backgroundColor: '#262626' }}
                 onMouseEnter={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#393939' }}
                 onMouseLeave={e => { (e.currentTarget as HTMLElement).style.backgroundColor = '#262626' }}
               >
                 <td style={{ padding: '10px 12px', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#8d8d8d', width: 32 }}>{i + 1}</td>
-                <td style={{ padding: '10px 12px', borderLeft: `3px solid ${d.color}`, paddingLeft: 12 }}>
-                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#f4f4f4' }}>{d.team}</span>
+                <td style={{ padding: '10px 12px', borderLeft: `3px solid ${NFL_TEAM_COLORS[d.defense] ?? '#8d8d8d'}`, paddingLeft: 12 }}>
+                  <span style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#f4f4f4' }}>{d.defense}</span>
                 </td>
-                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#f4f4f4', fontVariantNumeric: 'tabular-nums' }}>{d.pts.toLocaleString()}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#f4f4f4', fontVariantNumeric: 'tabular-nums' }}>{d.started_points.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#c6c6c6' }}>{d.starts}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#c6c6c6' }}>{d.started_ppg.toFixed(2)}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#c6c6c6' }}>{d.roster_weeks}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#c6c6c6' }}>{d.drafted_times}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#c6c6c6' }}>{d.earliest_draft ? `#${d.earliest_draft.overall} · ${d.earliest_draft.season} · ${getManager(d.earliest_draft.manager_id)?.name ?? d.earliest_draft.manager_id}` : 'Never drafted'}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Mono', monospace", fontSize: 14, color: '#c6c6c6' }}>{d.waiver_adds}</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 14, color: '#c6c6c6' }}>{getManager(d.top_waiver_manager_id ?? '')?.name ?? d.top_waiver_manager_id ?? '—'}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <style>{`
+        .defense-summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; }
+        @media (max-width: 1055px) { .defense-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+        @media (max-width: 671px) { .defense-summary-grid { grid-template-columns: 1fr; } }
+      `}</style>
     </div>
   )
 }
@@ -566,4 +584,3 @@ export function MondayNightMiracleBoard() {
     </div>
   )
 }
-
