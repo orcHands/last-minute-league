@@ -50,7 +50,7 @@ Carbon supplies the chrome; each of the 23 managers has a **3-color palette** us
 - Jay (Jayson Margalus) — primary `#FF0055`
 - Brice (Miami Brice) — primary `#41B6E6`
 - Zac (Goffsides) — primary `#3AC6F0`
-- Patrick/pb (Las Vegas Vroom Vrooms) — primary `#9DFF00`
+- Patrick/pb (Montréal Vroom Vrooms) — primary `#9DFF00`
 
 **Contrast rule:** manager primaries are for accent bars, chips, and chart lines only. For any *text or fill that must be read* on the `#161616` background, use Carbon `text-primary`/`text-secondary` or the manager's darker companion color — never a pale primary as small text. Several primaries are light (they have a dark companion in-palette for this reason). All accents must clear WCAG AA against their background.
 
@@ -58,7 +58,7 @@ Carbon supplies the chrome; each of the 23 managers has a **3-color palette** us
 
 The two divisions have **fixed** accent colors — always these:
 
-- **Brian O'Conner Memorial Division** — `#FF3B30` (red)
+- **Brian O'Connor Memorial Division** — `#FF3B30` (red)
 - **Toretto Family Division** — `#006FFF` (blue)
 
 Use on division headers, division-split standings, the All-Division team, and paired with each division's logo. Two notes: both are fine as accent bars / large marks on `#161616` but **verify WCAG AA before using either for small text**; and keep them on *structural* accents (headers, rules, logo lockups) rather than on numbers or links — `#FF3B30` sits near the loss/error red and `#006FFF` near the link blue, so putting division color on data or links would blur win/loss and interactive meaning.
@@ -142,7 +142,7 @@ All logos are raster PNG with transparency. On the `#161616` dark background, ve
 
 **Award & division logos** (in `images/`):
 - `LettyAward_trophy.png` — the Letty Ortiz Award (season points leader). Use on Season pages, the Letty leaderboard, and winners' trophy cabinets.
-- `BrianOConnerMemorialDivision_Logo.png` + `TorettoFamilyDivision_logo.png` — the two divisions; pair each with its fixed accent color (§3.2a: O'Conner `#FF3B30`, Toretto `#006FFF`) on Season-page division headers/standings and the All-Division team.
+- `BrianOConnerMemorialDivision_Logo.png` + `TorettoFamilyDivision_logo.png` — the two divisions; pair each with its fixed accent color (§3.2a: Brian O'Connor Memorial `#FF3B30`, Toretto `#006FFF`) on Season-page division headers/standings and the All-Division team.
 
 Sizing: large logo ~ card-hero scale (e.g. 96–160px tall, keep aspect); small logo 16–24px chip; award/division logos scale to context. Don't upscale small into hero slots.
 
@@ -175,7 +175,7 @@ Ground every mockup in real league data:
 
 - **League:** 13 seasons (2013–present), 23 owners, 15 franchises. 2013 was a half-season (started NFL wk 7); 2020 was the COVID "bubble" season — both are **asterisk seasons** (badge them, don't smooth their per-season averages).
 - **Franchise nicknames:** The Dynasty (jay→kevin, 4 rings), Free Agents (benedict→aboubacar→kat→alex), The Snyder Cut (dylan→becca→megan), Moneyball (laskey→sara→jason).
-- **Manager team names:** Miami Brice, Goffsides (Zac), Touchdown(); (whitaker), The Fumblers (Michael), Bay Area Trubiskys (Ryan), Las Vegas Vroom Vrooms (pb), Tommy Turbos, Carter Air Raiders.
+- **Manager team names:** Miami Brice, Goffsides (Zac), Touchdown(); (whitaker), The Fumblers (Michael), Bay Area Trubiskys (Ryan), Montréal Vroom Vrooms (pb), Tommy Turbos, Carter Air Raiders.
 - **Bowls:** Teremana Tequila Bowl (championship; always full name), Kumho Tires Tokyo Drift Bowl (3rd), Ludacris Presents the Magic City Lemon Pepper Wing Bowl (consolation), Voltron Global Bowl Hosted by Tyrese Gibson (9th).
 - **Sample stat tiles:** "Jay — late-season +11.9 pts/wk (67% all-play), the league's clearest closer." "League leaves 16.4 pts on the bench per week." "Travis Kelce — 2,612.76 all-time started points."
 - **Sample Monday Night Miracle:** 2018 wk8 — whitaker trailed by 43.9 after Sunday night, won 116.16–116.20 (by 0.04) on Monday.

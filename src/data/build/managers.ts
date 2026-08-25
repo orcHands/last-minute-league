@@ -95,7 +95,7 @@ export const MANAGERS: Manager[] = CANONICAL_IDS.map((id): Manager => {
     divisionTitles: divisionTitleCounts.get(id) ?? 0,
     championships: championshipCounts.get(id) ?? 0,
     // Divisions are reshuffled every season — not a stable per-manager fact.
-    // Brice is the one documented exception: always Brian O'Conner Memorial.
+    // Brice is the one documented exception: always Brian O'Connor Memorial.
     division: id === 'brice' ? 'oconner' : null,
     active,
   }

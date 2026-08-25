@@ -19,13 +19,13 @@ export interface FranchiseHomeVenue {
 export interface FranchiseDetail {
   franchise: Franchise
   featuredManagerId: string
-  managerLabel: 'Current manager' | 'Final manager'
   yearsActive: number[]
   regularSeasonRecord: FranchiseRecordSplit
   playoffRecord: FranchiseRecordSplit
   homeVenue: FranchiseHomeVenue
   championshipYears: number[]
   divisionTitleYears: number[]
+  tagline: string
   headerImage: string | null
   headerPosition: string
   originalThree: boolean
@@ -38,7 +38,7 @@ const HOME_VENUES: Record<ManagerId, FranchiseHomeVenue> = {
   jay: { stadium: 'Lane Stadium', city: 'Blacksburg', state: 'VA', capacity: 65632 },
   brice: { stadium: 'Hard Rock Stadium', city: 'Miami', state: 'FL', capacity: 65326 },
   zac: { stadium: 'Soldier Field', city: 'Chicago', state: 'IL', capacity: 61500 },
-  pb: { stadium: 'Allegiant Stadium', city: 'Las Vegas', state: 'NV', capacity: 65000 },
+  pb: { stadium: 'Stade Olympique', city: 'Montréal', state: 'QC', capacity: 56040 },
   whitaker: { stadium: 'Memorial Stadium', city: 'Bloomington', state: 'IN', capacity: 52626 },
   michael: { stadium: 'Cotton Bowl', city: 'Dallas', state: 'TX', capacity: 92100 },
   ryan: { stadium: "Levi's Stadium", city: 'Santa Clara', state: 'CA', capacity: 68500 },
@@ -66,6 +66,28 @@ function managersForSeason(franchise: Franchise, year: number): Set<string> {
       .filter(stint => stint.seasons.includes(year))
       .map(stint => stint.managerId),
   )
+}
+
+const FRANCHISE_TAGLINES: Record<string, string> = {
+  carter: 'An Original 3 franchise that is also a perennial threat to win year after year.',
+  'dave-lang': 'A statistical abberation thanks to 2013. Die young and leave a beautiful corpse.',
+  zac: 'The lows are low, but the highs are very high.',
+  whitaker: 'The only Original 3 franchise to never win a title. But hope springs eternal.',
+  tommy: 'A frequent dark horse for the title.',
+  jay: 'The most decorated franchise in league history.',
+  brice: 'All Hail our Lord Commissioner.',
+  pb: 'An effort was made.',
+  ryan: "I've seen him lose. I've seen him win. I've never seen him quit.",
+  benedict: 'A once proud franchise back on track to the top under new management.',
+  michael: 'No rain, no rainbows.',
+  laskey: 'A frequent doormat turned frequent contender.',
+  'kelly-brown': 'Perfect in every possible way. Zero notes.',
+  dylan: 'In two short seasons has already claimed the mantle of "Manager with the best winning percentage."',
+  kyle: 'Look, I get him and Dylan confused sometimes, OK?',
+}
+
+function franchiseTagline(franchise: Franchise): string {
+  return FRANCHISE_TAGLINES[franchise.id] ?? 'A resilient franchise with its best football ahead.'
 }
 
 function buildPlayoffRecord(franchise: Franchise): FranchiseRecordSplit {
@@ -113,13 +135,13 @@ function buildDetail(franchise: Franchise): FranchiseDetail | null {
   return {
     franchise,
     featuredManagerId,
-    managerLabel: franchise.active ? 'Current manager' : 'Final manager',
     yearsActive,
     regularSeasonRecord: franchise.allTimeRecord,
     playoffRecord: buildPlayoffRecord(franchise),
     homeVenue,
     championshipYears: franchise.championshipYears,
     divisionTitleYears: franchise.divisionTitleYears,
+    tagline: franchiseTagline(franchise),
     headerImage: withBase(`images/franchise_backgrounds/${franchise.id}.jpg`),
     headerPosition: franchise.id === 'brice'
       ? 'center 14%'

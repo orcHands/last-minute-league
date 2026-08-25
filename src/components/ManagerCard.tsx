@@ -193,7 +193,7 @@ export default function ManagerCard({ manager, compact = false }: ManagerCardPro
                 paddingLeft: 6,
               }}
             >
-              {manager.division === 'oconner' ? "Brian O'Conner Div." : 'Toretto Family Div.'}
+              {manager.division === 'oconner' ? "Brian O'Connor Memorial Division" : 'Toretto Family Division'}
             </span>
           </div>
         )}

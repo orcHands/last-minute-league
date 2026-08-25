@@ -1,0 +1,1136 @@
+{
+  "generated": "2026-08-24",
+  "source": "ring_of_honor.json statistical selections plus owner-canonical legacy inductions",
+  "rule": {
+    "baseline": "S-tier outlier player-seasons from ring_of_honor.json",
+    "owner_additions": "Authoritative legacy inductions supplied 2026-08-24",
+    "stats": "Games started and Started Points per game only for the listed franchise lineage, across LMFL regular season and playoffs",
+    "legacy_nfl_career_exceptions": "Roger Craig and Frank Gore use full NFL regular-season Games Played and Yahoo default half-PPR PPG per owner request 2026-08-24",
+    "yahoo_half_ppr": "0.1 per rushing/receiving yard; 6 per rushing/receiving/return/offensive fumble-return TD; 0.5 per reception; 2 per two-point conversion; -2 per fumble lost",
+    "colors": "Single-manager franchises use that manager; inherited franchises use the first recorded drafter within that franchise lineage"
+  },
+  "franchises": {
+    "brice": {
+      "honorees": [
+        {
+          "player": "Tyreek Hill",
+          "position": "WR",
+          "uniform_number": "10",
+          "drafted_by": "Brice",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 36,
+          "career_games_played": null,
+          "ppg": 18.75,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "tyreek-hill.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Miami Dolphins"
+          ],
+          "best_z": 2.36
+        },
+        {
+          "player": "David Johnson",
+          "position": "RB",
+          "uniform_number": "28",
+          "drafted_by": "Brice",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 39,
+          "career_games_played": null,
+          "ppg": 20.44,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "david-johnson.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Arizona Cardinals"
+          ],
+          "best_z": 2.88
+        },
+        {
+          "player": "Travis Kelce",
+          "position": "TE",
+          "uniform_number": "87",
+          "drafted_by": "Brice",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 40,
+          "career_games_played": null,
+          "ppg": 13.48,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "travis-kelce.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Kansas City Chiefs"
+          ],
+          "best_z": 2.38
+        },
+        {
+          "player": "Dan Marino",
+          "position": "QB",
+          "uniform_number": "13",
+          "drafted_by": "Brice",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": null,
+          "career_games_played": null,
+          "ppg": null,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "dan-marino.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Miami Dolphins"
+          ],
+          "best_z": null
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "uniform_number": "23",
+          "drafted_by": "Brice",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 16,
+          "career_games_played": null,
+          "ppg": 24.71,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "christian-mccaffrey.png",
+          "image_available": false,
+          "uniform_teams": [
+            "San Francisco 49ers"
+          ],
+          "best_z": 3.49
+        },
+        {
+          "player": "Tua Tagovailoa",
+          "position": "QB",
+          "uniform_number": "1",
+          "drafted_by": "Brice",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 3,
+          "career_games_played": null,
+          "ppg": 11.79,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "tua-tagovailoa.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Miami Dolphins"
+          ],
+          "best_z": null
+        }
+      ],
+      "plaque_count": 6
+    },
+    "carter": {
+      "honorees": [
+        {
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "uniform_number": "1",
+          "drafted_by": "Carter",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 24.41,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "ja-marr-chase.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Cincinnati Bengals"
+          ],
+          "best_z": 3.27
+        },
+        {
+          "player": "Rob Gronkowski",
+          "position": "TE",
+          "uniform_number": "87",
+          "drafted_by": "Carter",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 13,
+          "career_games_played": null,
+          "ppg": 18.78,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "rob-gronkowski.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New England Patriots"
+          ],
+          "best_z": 2.29
+        },
+        {
+          "player": "Travis Kelce",
+          "position": "TE",
+          "uniform_number": "87",
+          "drafted_by": "Carter",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 87,
+          "career_games_played": null,
+          "ppg": 15.92,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "travis-kelce.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Kansas City Chiefs"
+          ],
+          "best_z": 2.69
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "uniform_number": "23",
+          "drafted_by": "Carter",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 26.01,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "christian-mccaffrey.png",
+          "image_available": false,
+          "uniform_teams": [
+            "San Francisco 49ers"
+          ],
+          "best_z": 2.54
+        }
+      ],
+      "plaque_count": 4
+    },
+    "whitaker": {
+      "honorees": [
+        {
+          "player": "Davante Adams",
+          "position": "WR",
+          "uniform_number": "17",
+          "drafted_by": "whitaker",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 29,
+          "career_games_played": null,
+          "ppg": 22.43,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "davante-adams.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Las Vegas Raiders"
+          ],
+          "best_z": 2.3
+        },
+        {
+          "player": "Tyreek Hill",
+          "position": "WR",
+          "uniform_number": "10",
+          "drafted_by": "whitaker",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 24.31,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "tyreek-hill.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Miami Dolphins"
+          ],
+          "best_z": 2.46
+        },
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "uniform_number": "41",
+          "drafted_by": "whitaker",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 28,
+          "career_games_played": null,
+          "ppg": 17.45,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "alvin-kamara.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New Orleans Saints"
+          ],
+          "best_z": 2.39
+        },
+        {
+          "player": "Younghoe Koo",
+          "position": "K",
+          "uniform_number": "37",
+          "drafted_by": "whitaker",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 5,
+          "career_games_played": null,
+          "ppg": 5.9,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "younghoe-koo.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Atlanta Falcons"
+          ],
+          "best_z": 2.44
+        },
+        {
+          "player": "Cooper Kupp",
+          "position": "WR",
+          "uniform_number": "10",
+          "drafted_by": "whitaker",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 16,
+          "career_games_played": null,
+          "ppg": 26.34,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "cooper-kupp.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Los Angeles Rams"
+          ],
+          "best_z": 3.09
+        },
+        {
+          "player": "Michael Thomas",
+          "position": "WR",
+          "uniform_number": "13",
+          "drafted_by": "whitaker",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 28,
+          "career_games_played": null,
+          "ppg": 22.17,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "michael-thomas.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New Orleans Saints"
+          ],
+          "best_z": 2.64
+        }
+      ],
+      "plaque_count": 6
+    },
+    "jay": {
+      "honorees": [
+        {
+          "player": "Antonio Brown",
+          "position": "WR",
+          "uniform_number": "81",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2015",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 24.63,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "antonio-brown.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Pittsburgh Steelers"
+          ],
+          "best_z": 2.27
+        },
+        {
+          "player": "Jimmy Graham",
+          "position": "TE",
+          "uniform_number": "80",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2013",
+          "franchise_starts": 10,
+          "career_games_played": null,
+          "ppg": 17.42,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "jimmy-graham.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New Orleans Saints"
+          ],
+          "best_z": 2.32
+        },
+        {
+          "player": "Rob Gronkowski",
+          "position": "TE",
+          "uniform_number": "87",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2014",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 17.83,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "rob-gronkowski.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New England Patriots"
+          ],
+          "best_z": 2.57
+        },
+        {
+          "player": "Todd Gurley",
+          "position": "RB",
+          "uniform_number": "21",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2015",
+          "franchise_starts": 60,
+          "career_games_played": null,
+          "ppg": 20.04,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "todd-gurley.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Los Angeles Rams"
+          ],
+          "best_z": 2.84
+        },
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "uniform_number": "41",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2018",
+          "franchise_starts": 26,
+          "career_games_played": null,
+          "ppg": 22.76,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "alvin-kamara.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New Orleans Saints"
+          ],
+          "best_z": 2.43
+        },
+        {
+          "player": "Travis Kelce",
+          "position": "TE",
+          "uniform_number": "87",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2018",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 19.03,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "travis-kelce.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Kansas City Chiefs"
+          ],
+          "best_z": 2.89
+        },
+        {
+          "player": "Trey McBride",
+          "position": "TE",
+          "uniform_number": "85",
+          "drafted_by": "Kevin",
+          "draft_source": "first recorded draft into this franchise, 2024",
+          "franchise_starts": 29,
+          "career_games_played": null,
+          "ppg": 17.37,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "trey-mcbride.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Arizona Cardinals"
+          ],
+          "best_z": 3.04
+        },
+        {
+          "player": "Cam Newton",
+          "position": "QB",
+          "uniform_number": "1",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2015",
+          "franchise_starts": 33,
+          "career_games_played": null,
+          "ppg": 21.43,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "cam-newton.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Carolina Panthers"
+          ],
+          "best_z": 2.29
+        },
+        {
+          "player": "Patriots - DEF",
+          "position": "DEF",
+          "uniform_number": "D/ST",
+          "drafted_by": "Jay",
+          "draft_source": "first recorded draft into this franchise, 2019",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 15.47,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "patriots-def.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New England Patriots"
+          ],
+          "best_z": 2.85
+        }
+      ],
+      "plaque_count": 9
+    },
+    "benedict": {
+      "honorees": [
+        {
+          "player": "Le'Veon Bell",
+          "position": "RB",
+          "uniform_number": "6",
+          "drafted_by": "Benedict",
+          "draft_source": "first recorded draft into this franchise, 2014",
+          "franchise_starts": 28,
+          "career_games_played": null,
+          "ppg": 20.33,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "le-veon-bell.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Pittsburgh Steelers"
+          ],
+          "best_z": 2.3
+        },
+        {
+          "player": "Austin Ekeler",
+          "position": "RB",
+          "uniform_number": "30",
+          "drafted_by": "Kat",
+          "draft_source": "first recorded draft into this franchise, 2022",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 22.17,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "austin-ekeler.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Los Angeles Chargers"
+          ],
+          "best_z": 2.35
+        },
+        {
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "uniform_number": "15",
+          "drafted_by": "Benedict",
+          "draft_source": "first recorded draft into this franchise, 2018",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 28.43,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "patrick-mahomes.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Kansas City Chiefs"
+          ],
+          "best_z": 2.37
+        },
+        {
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "uniform_number": "11",
+          "drafted_by": "Kat",
+          "draft_source": "first recorded draft into this franchise, 2024",
+          "franchise_starts": 27,
+          "career_games_played": null,
+          "ppg": 19.76,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "jaxon-smith-njigba.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Seattle Seahawks"
+          ],
+          "best_z": 2.43
+        },
+        {
+          "player": "Texans - DEF",
+          "position": "DEF",
+          "uniform_number": "D/ST",
+          "drafted_by": "Benedict",
+          "draft_source": "first recorded draft into this franchise, 2014",
+          "franchise_starts": 31,
+          "career_games_played": null,
+          "ppg": 11.26,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "texans-def.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Houston Texans"
+          ],
+          "best_z": 2.54
+        }
+      ],
+      "plaque_count": 5
+    },
+    "dylan": {
+      "honorees": [
+        {
+          "player": "Josh Allen",
+          "position": "QB",
+          "uniform_number": "17",
+          "drafted_by": "Megan",
+          "draft_source": "first recorded draft into this franchise, 2025",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 24.14,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "josh-allen.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Buffalo Bills"
+          ],
+          "best_z": 2.42
+        },
+        {
+          "player": "Khalil Mack",
+          "position": "LB",
+          "uniform_number": "52",
+          "drafted_by": "Megan",
+          "draft_source": "current franchise palette fallback",
+          "franchise_starts": null,
+          "career_games_played": null,
+          "ppg": null,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "khalil-mack.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Chicago Bears",
+            "Los Angeles Chargers"
+          ],
+          "best_z": null
+        }
+      ],
+      "plaque_count": 2
+    },
+    "pb": {
+      "honorees": [
+        {
+          "player": "Mike Alstott",
+          "position": "RB",
+          "uniform_number": "40",
+          "drafted_by": "pb",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": null,
+          "career_games_played": null,
+          "ppg": null,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "mike-alstott.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Tampa Bay Buccaneers"
+          ],
+          "best_z": null
+        },
+        {
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "uniform_number": "18",
+          "drafted_by": "pb",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 24.29,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "justin-jefferson.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Minnesota Vikings"
+          ],
+          "best_z": 2.84
+        },
+        {
+          "player": "Julio Jones",
+          "position": "WR",
+          "uniform_number": "80",
+          "drafted_by": "pb",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 23.75,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "julio-jones.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Atlanta Falcons"
+          ],
+          "best_z": 2.41
+        },
+        {
+          "player": "Demaryius Thomas",
+          "position": "WR",
+          "uniform_number": "18",
+          "drafted_by": "pb",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 19,
+          "career_games_played": null,
+          "ppg": 18.16,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "demaryius-thomas.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Denver Broncos"
+          ],
+          "best_z": 2.3
+        },
+        {
+          "player": "Darren Waller",
+          "position": "TE",
+          "uniform_number": "83",
+          "drafted_by": "pb",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 27,
+          "career_games_played": null,
+          "ppg": 14.8,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "darren-waller.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Las Vegas Raiders"
+          ],
+          "best_z": 2.39
+        }
+      ],
+      "plaque_count": 5
+    },
+    "michael": {
+      "honorees": [
+        {
+          "player": "Antonio Brown",
+          "position": "WR",
+          "uniform_number": "81",
+          "drafted_by": "Michael",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 24.15,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "antonio-brown.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Pittsburgh Steelers"
+          ],
+          "best_z": 2.71
+        },
+        {
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "uniform_number": "88",
+          "drafted_by": "Michael",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 16,
+          "career_games_played": null,
+          "ppg": 23.17,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "ceedee-lamb.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Dallas Cowboys"
+          ],
+          "best_z": 2.53
+        }
+      ],
+      "plaque_count": 2
+    },
+    "ryan": {
+      "honorees": [
+        {
+          "player": "Roger Craig",
+          "position": "RB",
+          "uniform_number": "33",
+          "drafted_by": "Ryan",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": null,
+          "career_games_played": 165,
+          "ppg": 12.01,
+          "career_half_ppr_points": 1981.0,
+          "games_rostered": null,
+          "image_file": "roger-craig.png",
+          "image_available": true,
+          "uniform_teams": [
+            "San Francisco 49ers"
+          ],
+          "best_z": null
+        },
+        {
+          "player": "Josh Gordon",
+          "position": "WR",
+          "uniform_number": "12",
+          "drafted_by": "Ryan",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": null,
+          "career_games_played": null,
+          "ppg": null,
+          "career_half_ppr_points": null,
+          "games_rostered": 43,
+          "image_file": "josh-gordon.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Cleveland Browns",
+            "Kansas City Chiefs",
+            "New England Patriots",
+            "Seattle Seahawks"
+          ],
+          "best_z": null
+        },
+        {
+          "player": "Frank Gore",
+          "position": "RB",
+          "uniform_number": "21",
+          "drafted_by": "Ryan",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": null,
+          "career_games_played": 241,
+          "ppg": 11.55,
+          "career_half_ppr_points": 2782.5,
+          "games_rostered": null,
+          "image_file": "frank-gore.png",
+          "image_available": true,
+          "uniform_teams": [
+            "San Francisco 49ers"
+          ],
+          "best_z": null
+        },
+        {
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "uniform_number": "8",
+          "drafted_by": "Ryan",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 20,
+          "career_games_played": null,
+          "ppg": 26.14,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "lamar-jackson.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Baltimore Ravens"
+          ],
+          "best_z": 2.32
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "uniform_number": "23",
+          "drafted_by": "Ryan",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 15,
+          "career_games_played": null,
+          "ppg": 25.63,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "christian-mccaffrey.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Carolina Panthers"
+          ],
+          "best_z": 2.74
+        },
+        {
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "uniform_number": "28",
+          "drafted_by": "Ryan",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 16,
+          "career_games_played": null,
+          "ppg": 22.59,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "jonathan-taylor.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Indianapolis Colts"
+          ],
+          "best_z": 2.25
+        }
+      ],
+      "plaque_count": 6
+    },
+    "tommy": {
+      "honorees": [
+        {
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "uniform_number": "26",
+          "drafted_by": "Tommy",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 31,
+          "career_games_played": null,
+          "ppg": 18.83,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "saquon-barkley.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Philadelphia Eagles"
+          ],
+          "best_z": 2.25
+        },
+        {
+          "player": "Travis Kelce",
+          "position": "TE",
+          "uniform_number": "87",
+          "drafted_by": "Tommy",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 20.51,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "travis-kelce.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Kansas City Chiefs"
+          ],
+          "best_z": 3.23
+        },
+        {
+          "player": "Adrian Peterson",
+          "position": "RB",
+          "uniform_number": "21",
+          "drafted_by": "Tommy",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 30,
+          "career_games_played": null,
+          "ppg": 14.23,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "adrian-peterson.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Minnesota Vikings"
+          ],
+          "best_z": 2.45
+        },
+        {
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "uniform_number": "28",
+          "drafted_by": "Tommy",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 40,
+          "career_games_played": null,
+          "ppg": 18.24,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "jonathan-taylor.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Indianapolis Colts"
+          ],
+          "best_z": 2.37
+        }
+      ],
+      "plaque_count": 4
+    },
+    "laskey": {
+      "honorees": [
+        {
+          "player": "Dalvin Cook",
+          "position": "RB",
+          "uniform_number": "20",
+          "drafted_by": "Jason",
+          "draft_source": "first recorded draft into this franchise, 2017",
+          "franchise_starts": 17,
+          "career_games_played": null,
+          "ppg": 22.73,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "dalvin-cook.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Minnesota Vikings"
+          ],
+          "best_z": 2.34
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "uniform_number": "23",
+          "drafted_by": "Jason",
+          "draft_source": "first recorded draft into this franchise, 2019",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 30.56,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "christian-mccaffrey.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Carolina Panthers"
+          ],
+          "best_z": 3.06
+        },
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "uniform_number": "12",
+          "drafted_by": "Jason",
+          "draft_source": "first recorded draft into this franchise, 2025",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 24.09,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "puka-nacua.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Los Angeles Rams"
+          ],
+          "best_z": 2.71
+        },
+        {
+          "player": "Greg Zuerlein",
+          "position": "K",
+          "uniform_number": "9",
+          "drafted_by": "Jason",
+          "draft_source": "first recorded draft into this franchise, 2021",
+          "franchise_starts": 7,
+          "career_games_played": null,
+          "ppg": 6.89,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "greg-zuerlein.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Los Angeles Rams"
+          ],
+          "best_z": 2.3
+        }
+      ],
+      "plaque_count": 4
+    },
+    "zac": {
+      "honorees": [
+        {
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "uniform_number": "26",
+          "drafted_by": "Zac",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 30,
+          "career_games_played": null,
+          "ppg": 21.28,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "saquon-barkley.png",
+          "image_available": false,
+          "uniform_teams": [
+            "New York Giants"
+          ],
+          "best_z": 2.38
+        },
+        {
+          "player": "Antonio Brown",
+          "position": "WR",
+          "uniform_number": "81",
+          "drafted_by": "Zac",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 13,
+          "career_games_played": null,
+          "ppg": 21.77,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "antonio-brown.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Pittsburgh Steelers"
+          ],
+          "best_z": 2.28
+        },
+        {
+          "player": "Devin Hester",
+          "position": "WR",
+          "uniform_number": "23",
+          "drafted_by": "Zac",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": null,
+          "career_games_played": null,
+          "ppg": null,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "devin-hester.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Chicago Bears"
+          ],
+          "best_z": null
+        }
+      ],
+      "plaque_count": 3
+    },
+    "kyle": {
+      "honorees": [
+        {
+          "player": "Zach Ertz",
+          "position": "TE",
+          "uniform_number": "86",
+          "drafted_by": "Kyle",
+          "draft_source": "single-manager franchise palette",
+          "franchise_starts": 40,
+          "career_games_played": null,
+          "ppg": 13.73,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "zach-ertz.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Philadelphia Eagles"
+          ],
+          "best_z": 2.26
+        }
+      ],
+      "plaque_count": 1
+    },
+    "kelly-brown": {
+      "honorees": [
+        {
+          "player": "DeMarco Murray",
+          "position": "RB",
+          "uniform_number": "29",
+          "drafted_by": "Kelly Brown",
+          "draft_source": "first recorded acquisition in this franchise lineage",
+          "franchise_starts": 14,
+          "career_games_played": null,
+          "ppg": 22.94,
+          "career_half_ppr_points": null,
+          "games_rostered": null,
+          "image_file": "demarco-murray.png",
+          "image_available": false,
+          "uniform_teams": [
+            "Dallas Cowboys"
+          ],
+          "best_z": 2.39
+        }
+      ],
+      "plaque_count": 1
+    },
+    "dave-lang": {
+      "honorees": [],
+      "plaque_count": 0
+    }
+  }
+}

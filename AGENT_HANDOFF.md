@@ -108,7 +108,7 @@ Import from `../data/league`, never from a JSON path directly.
 | `season_details/{2013..2025}.json` | Per-season: standings, bowls, brackets, All-Division, 18 awards |
 | `franchises.json` | 15 franchises, owner lineage |
 | `franchise_records.json` | All-time W/L/PF per franchise |
-| `franchise_ring_of_honor.json` | Per-franchise Ring of Honor |
+| `franchise_ring_of_honor.json` | Per-franchise Ring of Honor: 58 plaques from the statistical baseline plus owner-canonical legacy inductions, jersey numbers, franchise-lineage drafter, selective franchise-only starts and Started Points PPG, uniform references, and portrait filenames |
 | `honors.json` | Per-season podium, division winners, Letty points leader, bowl venues |
 | `aggregations.json` | `leaderboard_started`, `leaderboard_bench`, `leaderboard_combined`, `seasons_played`, `waiver_value` |
 | `manager_phase_splits.json` | Early/mid/late scoring per manager |
@@ -162,8 +162,9 @@ later."*
 
 **Buildable today, no new data:** logo, name and owner lineage
 (`franchises.json`); combined W/L, PF, PA, playoff appearances, titles, best
-finish (`franchise_records.json`); Ring of Honor honorees with position,
-seasons, started points and how they were acquired
+finish (`franchise_records.json`); Ring of Honor honorees with jersey number,
+franchise-lineage drafter, selective franchise-only starts and Started Points
+PPG, uniform references, and portrait filename
 (`franchise_ring_of_honor.json`); **top 5 rivals (`rivalries.json`)**.
 
 **Not buildable — needs a pipeline run, so ask:** regular-vs-playoff split
@@ -175,10 +176,23 @@ waiver value; rookie seasons; points-by-position per season; and located-in /
 stadium / capacity, which lives only in `scripts/season_detail/stadiums.py` and
 has never been exported to JSON.
 
-**Not defined anywhere yet:** first/second All-Time Franchise teams; Ring of
-Honor jersey numbers and photos; most-drafted colleges and conferences (there
+**Not defined anywhere yet:** first/second All-Time Franchise teams; most-drafted colleges and conferences (there
 is no current-conference map, and realignment means a 2013 pick's conference is
 not its 2026 conference).
+
+Ring of Honor portrait slots are defined for 45 unique subjects. Roger Craig and
+Frank Gore have landed; the remaining 43 portraits use the fixed 69×50 initials
+fallback. Asset status,
+uniform references, and destination filenames live in the project-root
+`PLAYER_IMAGE_PUNCHLIST.md`. Single-manager franchises use that manager's
+palette for every plaque. In inherited franchises, a plaque uses the first
+manager in that same franchise lineage who drafted the player; unrelated
+league managers must never supply Ring colors.
+
+Ring stats normally count only Games Started and Started Points PPG for the
+displayed franchise lineage. Owner-canonical exceptions Roger Craig and Frank
+Gore use full NFL regular-season Games Played and Yahoo default half-PPR PPG;
+their inputs and scoring formula live in `scripts/build_franchise_ring_of_honor.py`.
 
 #### `rivalries.json`
 

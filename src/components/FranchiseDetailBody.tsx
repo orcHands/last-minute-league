@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import AssetImage from './AssetImage'
-import { getFranchiseDetail, getManager, type FranchiseRecordSplit } from '../data/league'
+import FranchiseHonors from './FranchiseHonors'
+import FranchiseRingOfHonor from './FranchiseRingOfHonor'
+import { getFranchiseDetail, getFranchiseHonors, getFranchiseRingOfHonor, getManager, type FranchiseRecordSplit } from '../data/league'
 
 function percent(record: FranchiseRecordSplit): string {
   const games = record.w + record.l + record.t
@@ -31,6 +33,15 @@ function compactYears(years: number[]): string {
   }
   ranges.push(start === end ? String(start) : `${start}–${end}`)
   return ranges.join(', ')
+}
+
+function ordinal(rank: number): string {
+  const mod100 = rank % 100
+  if (mod100 >= 11 && mod100 <= 13) return `${rank}th`
+  if (rank % 10 === 1) return `${rank}st`
+  if (rank % 10 === 2) return `${rank}nd`
+  if (rank % 10 === 3) return `${rank}rd`
+  return `${rank}th`
 }
 
 function managerGradient(managerIds: string[]): string {
@@ -147,12 +158,23 @@ export default function FranchiseDetailBody({ franchiseId }: { franchiseId: stri
   const championships = detail.championshipYears.length > 0
     ? detail.championshipYears.join(', ')
     : 'None'
+  const championshipStat = detail.championshipYears.length > 0
+    ? { label: 'Championships', value: championships }
+    : {
+        label: 'Highest finish',
+        value: franchise.bestFinish
+          ? `${ordinal(franchise.bestFinish.rank)} · ${franchise.bestFinish.season}`
+          : '—',
+      }
   const divisionTitles = detail.divisionTitleYears.length > 0
     ? detail.divisionTitleYears.join(', ')
     : 'None'
+  const honors = getFranchiseHonors(franchise.id)
+  const ringOfHonor = getFranchiseRingOfHonor(franchise.id)
 
   return (
-    <article style={{ border: '1px solid #393939', backgroundColor: '#1c1c1c' }}>
+    <>
+      <article style={{ border: '1px solid #393939', backgroundColor: '#1c1c1c' }}>
       <div aria-hidden="true" style={{ height: 4, background: managerGradient(franchise.managers) }} />
 
       <div
@@ -202,7 +224,7 @@ export default function FranchiseDetailBody({ franchiseId }: { franchiseId: stri
               color: '#8d8d8d',
               marginBottom: 8,
             }}>
-              Franchise · {detail.managerLabel}
+              {detail.tagline}
             </div>
             <h2 style={{
               fontFamily: "'IBM Plex Sans', sans-serif",
@@ -264,7 +286,7 @@ export default function FranchiseDetailBody({ franchiseId }: { franchiseId: stri
         <Stat label="Years active" value={compactYears(detail.yearsActive)} />
         <Stat label="Regular season W–L" value={recordLabel(detail.regularSeasonRecord)} />
         <Stat label="Playoff W–L" value={recordLabel(detail.playoffRecord)} />
-        <Stat label="Championships" value={championships} />
+        <Stat label={championshipStat.label} value={championshipStat.value} />
         <Stat label="Division titles" value={divisionTitles} />
       </div>
 
@@ -326,6 +348,16 @@ export default function FranchiseDetailBody({ franchiseId }: { franchiseId: stri
           }
         }
       `}</style>
-    </article>
+      </article>
+      <FranchiseHonors
+        honors={honors}
+        stadiumName={homeVenue.stadium}
+        currentManagerId={detail.featuredManagerId}
+      />
+      <FranchiseRingOfHonor
+        currentManagerId={detail.featuredManagerId}
+        entries={ringOfHonor}
+      />
+    </>
   )
 }

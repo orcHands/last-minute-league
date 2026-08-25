@@ -1,5 +1,5 @@
 import type { StandingRowDetail } from '../data/league'
-import { getManager } from '../data/league'
+import { divisionKey, getManager } from '../data/league'
 import AssetImage from './AssetImage'
 
 interface SeasonDivisionStandingsProps {
@@ -46,7 +46,7 @@ const COLS: { label: string; render: (r: StandingRowDetail) => React.ReactNode }
 ]
 
 function DivisionTable({ name, rows }: { name: string; rows: StandingRowDetail[] }) {
-  const accent = name.includes('O’Conner') || name.includes('O\'Conner') ? '#FF3B30' : '#006FFF'
+  const accent = divisionKey(name) === 'oconnor' ? '#FF3B30' : '#006FFF'
   return (
     <div style={{ backgroundColor: '#262626', border: '1px solid #393939', minWidth: 0, flex: '1 1 480px' }}>
       <div style={{ padding: '14px 16px', borderTop: `3px solid ${accent}`, borderBottom: '1px solid #393939' }}>
@@ -100,9 +100,9 @@ function DivisionTable({ name, rows }: { name: string; rows: StandingRowDetail[]
 
 export default function SeasonDivisionStandings({ divisions }: SeasonDivisionStandingsProps) {
   const names = Object.keys(divisions)
-  // O'Conner first, Toretto second, whatever else falls through stays in place
+  // Brian O'Connor Memorial first, Toretto Family second.
   names.sort((a, b) => {
-    const rank = (n: string) => (n.includes('O’Conner') || n.includes('O\'Conner') ? 0 : n.includes('Toretto') ? 1 : 2)
+    const rank = (n: string) => (divisionKey(n) === 'oconnor' ? 0 : divisionKey(n) === 'toretto' ? 1 : 2)
     return rank(a) - rank(b)
   })
   return (

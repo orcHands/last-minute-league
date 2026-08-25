@@ -67,7 +67,7 @@ export function buildChampionshipCounts(): Map<ManagerId, number> {
   return counts
 }
 
-/** Count of division titles (O'Conner Memorial or Toretto Family) per manager, across every season. */
+/** Count of division titles (Brian O'Connor Memorial or Toretto Family) per manager, across every season. */
 export function buildDivisionTitleCounts(): Map<ManagerId, number> {
   const counts = new Map<ManagerId, number>()
   for (const season of Object.values(honorsData.seasons)) {

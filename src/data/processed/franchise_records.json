@@ -1,10 +1,10 @@
 {
   "generated": "2026-07-18",
-  "notes": "Aggregated by franchises.json chains from league.json standings + honors.json. Trophy names per league canon (Teremana Tequila Bowl podium, Brian O'Conner / Toretto Family division trophies, Han Lue Tokyo Drift Classic consolation, Letty Ortiz points award). 2013 is a half season (week 7 start, 8 teams) and 2020 is the COVID season \u2014 both carry the league's standard asterisk. Ring plaque counts include Josh Gordon's league-lore induction (Ryan franchise).",
+  "notes": "Aggregated by franchises.json chains from league.json standings + honors.json. Trophy names per league canon (Teremana Tequila Bowl podium, Brian O'Connor Memorial / Toretto Family division wins, Han Lue Tokyo Drift Classic consolation, Letty Ortiz points award). 2013 is a half season (week 7 start, 8 teams) and 2020 is the COVID season — both carry the league's standard asterisk. Ring plaque counts include Josh Gordon's league-lore induction (Ryan franchise).",
   "franchises": [
     {
       "id": "jay",
-      "label": "Jay \u2192 Kevin",
+      "label": "Jay → Kevin",
       "status": "active",
       "seasons": 13,
       "games": 169,
@@ -122,7 +122,7 @@
         "rank": 1,
         "season": 2019
       },
-      "ring_of_honor_plaques": 2
+      "ring_of_honor_plaques": 3
     },
     {
       "id": "tommy",
@@ -195,11 +195,11 @@
         "rank": 1,
         "season": 2023
       },
-      "ring_of_honor_plaques": 4
+      "ring_of_honor_plaques": 6
     },
     {
       "id": "benedict",
-      "label": "Benedict \u2192 Aboubacar \u2192 Kat \u2192 Alex",
+      "label": "Benedict → Aboubacar → Kat → Alex",
       "status": "active",
       "seasons": 13,
       "games": 169,
@@ -363,7 +363,7 @@
         "rank": 2,
         "season": 2015
       },
-      "ring_of_honor_plaques": 4
+      "ring_of_honor_plaques": 5
     },
     {
       "id": "ryan",
@@ -397,11 +397,11 @@
         "rank": 2,
         "season": 2025
       },
-      "ring_of_honor_plaques": 4
+      "ring_of_honor_plaques": 6
     },
     {
       "id": "laskey",
-      "label": "Laskey \u2192 Sara \u2192 Jason",
+      "label": "Laskey → Sara → Jason",
       "status": "active",
       "seasons": 12,
       "games": 161,
@@ -465,7 +465,7 @@
     },
     {
       "id": "dylan",
-      "label": "Dylan \u2192 becca \u2192 Megan",
+      "label": "Dylan → becca → Megan",
       "status": "active",
       "seasons": 13,
       "games": 169,
@@ -493,7 +493,7 @@
         "rank": 3,
         "season": 2025
       },
-      "ring_of_honor_plaques": 1
+      "ring_of_honor_plaques": 2
     },
     {
       "id": "kyle",

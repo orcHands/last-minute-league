@@ -14,6 +14,9 @@ export type { FranchisePowerSeries, PowerRankPoint, PowerRankWeekLabel, PowerRan
 export type { DraftPosition, DraftPick, DraftPositionResult, DraftManagerValue, DraftReport } from './build/draftReports'
 export type { ManagerSkillPoint, ManagerSkillMatrix } from './build/managerSkillMatrix'
 export type { FranchiseDetail, FranchiseHomeVenue, FranchiseRecordSplit } from './build/franchiseDetails'
+export type { FranchiseHonor, FranchiseHonorKind } from './build/franchiseHonors'
+export type { FranchiseRingOfHonorEntry } from './build/franchiseRingOfHonor'
+export type { DivisionKey } from './divisionCanon'
 
 export interface LeaderboardEntry {
   rank: number
@@ -34,5 +37,8 @@ export { getSeasonPowerRanking } from './build/powerRankings'
 export { DRAFT_POSITIONS, DRAFT_REPORT_YEARS, getDraftReport } from './build/draftReports'
 export { MANAGER_SKILL_MATRIX } from './build/managerSkillMatrix'
 export { getFranchiseDetail } from './build/franchiseDetails'
+export { FRANCHISE_HONORS, getFranchiseHonors } from './build/franchiseHonors'
+export { FRANCHISE_RING_OF_HONOR, getFranchiseRingOfHonor } from './build/franchiseRingOfHonor'
+export { DIVISION_NAMES, canonicalDivisionName, divisionKey } from './divisionCanon'
 export { getSeasonDetail, SEASON_DETAIL_YEARS } from './build/seasonDetail'
 export type { SeasonDetail, StandingRowDetail, BowlCard, BowlMvp, Bracket, BracketRound, BracketEntry, BracketWeather, AwardFinalist, AllDivision, AllDivisionTeam, AllDivisionSlot } from './build/seasonDetail'

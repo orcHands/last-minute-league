@@ -6,7 +6,7 @@
   "caveat": "Yahoo projections assume draft-day rosters; over/underperformance mixes draft luck with in-season management",
   "2013": "Consolation structure differs in 2013 (see seasons.2013.consolation_winner.note)",
   "lore": {
-   "divisions": "Yahoo division names kept as historical record; canonical league names: first listed each season = O'Conner Memorial Division (winner: Brian O'Conner Trophy), second = Toretto Family Division (winner: Toretto Family Division Trophy).",
+   "divisions": "Yahoo division names kept as historical record; canonical league names: first listed each season = Brian O'Connor Memorial Division (winner: Brian O'Connor Memorial Division Winner), second = Toretto Family Division (winner: Toretto Family Division Winner).",
    "championship": "Champion wins the Teremana Añejo trophy, runner-up the Teremana Blanco. The Teremana Reposado was RETIRED in the 2026-07-18 lore drop (Teremana branding is now championship-exclusive). Venue rotation and attendance are league canon per seasons.<yr>.championship; only repeat host is Hard Rock Stadium (2013, and the 2020 LMFL Bubble that hosted every postseason game).",
    "consolation": "Ludacris Presents the Magic City Lemon Pepper Wing Bowl — the consolation bracket championship, hosted in Atlanta (Bobby Dodd 2013, The Georgia Dome 2014-2016, Mercedes-Benz Stadium 2017+; 2020 in the LMFL Bubble). Decided by the 7th Place Game (5th Place Game in 2013's 8-team year). Supersedes the Han Lue Tokyo Drift Classic-at-Tokyo-Dome consolation canon of 2026-07-12.",
    "points_leader": "Letty Ortiz Award for Excellence in Roster Management.",
@@ -46,8 +46,8 @@
      "manager": "Lang",
      "overall_wlt": "6-2-0",
      "division_wlt": "4-1-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Division 2",
@@ -56,7 +56,7 @@
      "overall_wlt": "6-2-0",
      "division_wlt": "4-1-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -86,7 +86,7 @@
    },
    "divisions": {
     "Division 1": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Beep Burpips",
@@ -283,8 +283,8 @@
      "manager": "whitaker",
      "overall_wlt": "10-3-0",
      "division_wlt": "9-2-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Division 3 With A Twist",
@@ -293,7 +293,7 @@
      "overall_wlt": "10-3-0",
      "division_wlt": "9-2-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -322,7 +322,7 @@
    },
    "divisions": {
     "The Buttercup Gang": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Magnetron",
@@ -602,8 +602,8 @@
      "manager": "Benedict",
      "overall_wlt": "9-4-0",
      "division_wlt": "7-2-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "The Jay Division",
@@ -612,7 +612,7 @@
      "overall_wlt": "10-3-0",
      "division_wlt": "6-3-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -641,7 +641,7 @@
    },
    "divisions": {
     "Jay Division": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Benny Football",
@@ -894,8 +894,8 @@
      "manager": "Michael",
      "overall_wlt": "9-4-0",
      "division_wlt": "5-4-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Still The Jay Division",
@@ -904,7 +904,7 @@
      "overall_wlt": "8-5-0",
      "division_wlt": "6-3-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -933,7 +933,7 @@
    },
    "divisions": {
     "FumbleSeed": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "The Fumblers",
@@ -1185,8 +1185,8 @@
      "manager": "Kelly Brown",
      "overall_wlt": "7-6-0",
      "division_wlt": "7-4-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Division By Zero",
@@ -1195,7 +1195,7 @@
      "overall_wlt": "12-1-0",
      "division_wlt": "11-1-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -1224,7 +1224,7 @@
    },
    "divisions": {
     "Skull Squadron": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Spicy Meatballs",
@@ -1505,8 +1505,8 @@
      "manager": "Carter",
      "overall_wlt": "9-4-0",
      "division_wlt": "7-4-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Division By Zero",
@@ -1515,7 +1515,7 @@
      "overall_wlt": "9-4-0",
      "division_wlt": "8-3-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -1544,7 +1544,7 @@
    },
    "divisions": {
     "Skull Squadron": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Bortles' Burgers",
@@ -1824,8 +1824,8 @@
      "manager": "Zac",
      "overall_wlt": "8-5-0",
      "division_wlt": "6-3-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "uo!s!ʌ!p",
@@ -1834,7 +1834,7 @@
      "overall_wlt": "9-4-0",
      "division_wlt": "6-3-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -1863,7 +1863,7 @@
    },
    "divisions": {
     "Hnnnnng": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Goffsides",
@@ -2116,8 +2116,8 @@
      "manager": "Tommy",
      "overall_wlt": "9-4-0",
      "division_wlt": "7-2-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "The Denver Boncos",
@@ -2126,7 +2126,7 @@
      "overall_wlt": "11-2-0",
      "division_wlt": "9-0-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -2155,7 +2155,7 @@
    },
    "divisions": {
     "Presented by Teremana Blanco": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Tommy's Turbos",
@@ -2408,8 +2408,8 @@
      "manager": "Brice",
      "overall_wlt": "10-4-0",
      "division_wlt": "8-2-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Jerry Jones' Salted McGriddle",
@@ -2418,7 +2418,7 @@
      "overall_wlt": "10-4-0",
      "division_wlt": "7-3-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -2447,7 +2447,7 @@
    },
    "divisions": {
     "Presented by Teremana Blanco": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "No",
@@ -2699,8 +2699,8 @@
      "manager": "Carter",
      "overall_wlt": "10-4-0",
      "division_wlt": "9-1-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Jerry Jones' Salted McGriddle",
@@ -2709,7 +2709,7 @@
      "overall_wlt": "11-3-0",
      "division_wlt": "9-1-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -2738,7 +2738,7 @@
    },
    "divisions": {
     "Presented by Teremana Blanco": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Amon-Ra St. Patrick Brown",
@@ -2990,8 +2990,8 @@
      "manager": "Carter",
      "overall_wlt": "9-5-0",
      "division_wlt": "7-3-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Jerry Jones' Salted McGriddle",
@@ -3000,7 +3000,7 @@
      "overall_wlt": "11-3-0",
      "division_wlt": "8-2-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -3029,7 +3029,7 @@
    },
    "divisions": {
     "Presented by Teremana Blanco": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Tu-jitsu",
@@ -3282,8 +3282,8 @@
      "manager": "Kevin",
      "overall_wlt": "10-4-0",
      "division_wlt": "7-3-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Jerry Jones' Salted McGriddle",
@@ -3292,7 +3292,7 @@
      "overall_wlt": "10-4-0",
      "division_wlt": "8-2-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -3321,7 +3321,7 @@
    },
    "divisions": {
     "Presented by Teremana Blanco": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Justin Fields of Dreams",
@@ -3574,8 +3574,8 @@
      "manager": "Carter",
      "overall_wlt": "11-3-0",
      "division_wlt": "7-3-0",
-     "canonical_division": "O'Conner Memorial Division",
-     "trophy": "Brian O'Conner Trophy"
+     "canonical_division": "Brian O'Connor Memorial Division",
+     "trophy": "Brian O'Connor Memorial Division Winner"
     },
     {
      "division": "Jerry Jones' Salted McGriddle",
@@ -3584,7 +3584,7 @@
      "overall_wlt": "11-3-0",
      "division_wlt": "9-1-0",
      "canonical_division": "Toretto Family Division",
-     "trophy": "Toretto Family Division Trophy"
+     "trophy": "Toretto Family Division Winner"
     }
    ],
    "consolation_winner": {
@@ -3613,7 +3613,7 @@
    },
    "divisions": {
     "Presented by Teremana Blanco": {
-     "canonical_name": "O'Conner Memorial Division",
+     "canonical_name": "Brian O'Connor Memorial Division",
      "teams": [
       {
        "team": "Arc the Ladd McConkey",

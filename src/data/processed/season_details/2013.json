@@ -68,7 +68,7 @@
       "playoffs": true,
       "wlt": "3-5-0",
       "division_wlt": "3-2-0",
-      "division": "O'Conner Memorial Division",
+      "division": "Brian O'Connor Memorial Division",
       "pf_total": 1036.5,
       "pf_avg": 129.56,
       "pa_total": 1081.01,
@@ -83,7 +83,7 @@
       "playoffs": true,
       "wlt": "5-3-0",
       "division_wlt": "2-3-0",
-      "division": "O'Conner Memorial Division",
+      "division": "Brian O'Connor Memorial Division",
       "pf_total": 1082.47,
       "pf_avg": 135.31,
       "pa_total": 1114.2,
@@ -98,7 +98,7 @@
       "playoffs": true,
       "wlt": "2-6-0",
       "division_wlt": "1-4-0",
-      "division": "O'Conner Memorial Division",
+      "division": "Brian O'Connor Memorial Division",
       "pf_total": 1112.22,
       "pf_avg": 139.03,
       "pa_total": 1194.38,
@@ -113,7 +113,7 @@
       "playoffs": true,
       "wlt": "6-2-0",
       "division_wlt": "4-1-0",
-      "division": "O'Conner Memorial Division",
+      "division": "Brian O'Connor Memorial Division",
       "pf_total": 1278.71,
       "pf_avg": 159.84,
       "pa_total": 1136.64,
@@ -185,7 +185,7 @@
         "regret_avg": 26.07
       }
     ],
-    "O'Conner Memorial Division": [
+    "Brian O'Connor Memorial Division": [
       {
         "rank": 5,
         "team": "Beep Burpips",
@@ -193,7 +193,7 @@
         "playoffs": true,
         "wlt": "3-5-0",
         "division_wlt": "3-2-0",
-        "division": "O'Conner Memorial Division",
+        "division": "Brian O'Connor Memorial Division",
         "pf_total": 1036.5,
         "pf_avg": 129.56,
         "pa_total": 1081.01,
@@ -208,7 +208,7 @@
         "playoffs": true,
         "wlt": "5-3-0",
         "division_wlt": "2-3-0",
-        "division": "O'Conner Memorial Division",
+        "division": "Brian O'Connor Memorial Division",
         "pf_total": 1082.47,
         "pf_avg": 135.31,
         "pa_total": 1114.2,
@@ -223,7 +223,7 @@
         "playoffs": true,
         "wlt": "2-6-0",
         "division_wlt": "1-4-0",
-        "division": "O'Conner Memorial Division",
+        "division": "Brian O'Connor Memorial Division",
         "pf_total": 1112.22,
         "pf_avg": 139.03,
         "pa_total": 1194.38,
@@ -238,7 +238,7 @@
         "playoffs": true,
         "wlt": "6-2-0",
         "division_wlt": "4-1-0",
-        "division": "O'Conner Memorial Division",
+        "division": "Brian O'Connor Memorial Division",
         "pf_total": 1278.71,
         "pf_avg": 159.84,
         "pa_total": 1136.64,
@@ -1350,7 +1350,7 @@
   },
   "all_division": {
     "oconner": {
-      "label": "Brian O'Conner Memorial Division",
+      "label": "Brian O'Connor Memorial Division",
       "managers": [
         "Brice",
         "Lang",

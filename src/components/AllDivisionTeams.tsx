@@ -1,12 +1,12 @@
 import type { AllDivision, AllDivisionSlot } from '../data/league'
-import { getManager } from '../data/league'
+import { DIVISION_NAMES, getManager } from '../data/league'
 
 interface AllDivisionTeamsProps {
   allDivision: AllDivision
 }
 
 // Round 5 (2026-08-23), Hoss's call: the top border carries the DIVISION
-// accent (both O'Conner columns red, both Toretto columns blue) so the
+// accent (both Brian O'Connor Memorial columns red, both Toretto columns blue) so the
 // column reads as "which division" at a glance, and the title text carries
 // the TEAM TIER -- gold for first team, silver for second. Two independent
 // signals instead of four arbitrary colors.
@@ -21,10 +21,10 @@ const COLUMNS: {
   key: 'oconnerFirst' | 'oconnerSecond' | 'torettoFirst' | 'torettoSecond'
   title: string; accent: string; titleColor: string
 }[] = [
-  { key: 'oconnerFirst', title: "First Team All O'Conner", accent: DIVISION_ACCENT.oconner, titleColor: TIER_TEXT.first },
-  { key: 'oconnerSecond', title: "Second Team All O'Conner", accent: DIVISION_ACCENT.oconner, titleColor: TIER_TEXT.second },
-  { key: 'torettoFirst', title: 'First Team All Toretto', accent: DIVISION_ACCENT.toretto, titleColor: TIER_TEXT.first },
-  { key: 'torettoSecond', title: 'Second Team All Toretto', accent: DIVISION_ACCENT.toretto, titleColor: TIER_TEXT.second },
+  { key: 'oconnerFirst', title: `${DIVISION_NAMES.oconnor} · First Team`, accent: DIVISION_ACCENT.oconner, titleColor: TIER_TEXT.first },
+  { key: 'oconnerSecond', title: `${DIVISION_NAMES.oconnor} · Second Team`, accent: DIVISION_ACCENT.oconner, titleColor: TIER_TEXT.second },
+  { key: 'torettoFirst', title: `${DIVISION_NAMES.toretto} · First Team`, accent: DIVISION_ACCENT.toretto, titleColor: TIER_TEXT.first },
+  { key: 'torettoSecond', title: `${DIVISION_NAMES.toretto} · Second Team`, accent: DIVISION_ACCENT.toretto, titleColor: TIER_TEXT.second },
 ]
 
 function TeamColumn({ title, accent, titleColor, slots }: { title: string; accent: string; titleColor: string; slots: AllDivisionSlot[] }) {

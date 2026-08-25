@@ -1,62 +1,83 @@
-# Seasons page design QA
+# Franchise honors design QA
 
 ## Evidence
 
-- Source visual truth:
-  - `/Users/pbmarken/Desktop/Screenshot 2026-08-24 at 11.46.33 AM.png` — VisualLeague draft-board reference, 3694 × 2194 px.
-  - `/Users/pbmarken/Desktop/Screenshot 2026-08-24 at 11.46.14 AM.png` — VisualLeague pick/value-analysis reference, 5320 × 2350 px.
-- Browser-rendered implementation:
-  - `/private/tmp/lmfl-season-qa/implementation-draft-board-desktop.png` — 1440 × 2583 px capture from a 1440 × 1000 CSS viewport at density 1.
-  - `/private/tmp/lmfl-season-qa/implementation-draft-value-desktop.png` — 1440 × 1000 px capture from a 1440 × 1000 CSS viewport at density 1.
-  - `/private/tmp/lmfl-season-qa/implementation-power-ranking-desktop.png` — 1440 × 1000 px capture from a 1440 × 1000 CSS viewport at density 1.
-  - `/private/tmp/lmfl-season-qa/implementation-draft-board-mobile.png` — 390 × 844 px capture from a 390 × 844 CSS viewport at density 1.
-- Same-input comparisons:
-  - `/private/tmp/lmfl-season-qa/qa-draft-board-comparison.png` — source board and implementation normalized to 1000 px high and placed side by side.
-  - `/private/tmp/lmfl-season-qa/qa-draft-analysis-comparison.png` — source analysis region and implementation normalized to 1000 px high and placed side by side.
-- State: 2025 season selected; Carbon dark theme; full draft report populated. The reference is an inspiration target rather than an LMFL state, so comparison is structural and visual-language based rather than pick-for-pick.
+- Source visual truth: `/Users/pbmarken/.codex/generated_images/01a035a0-fc78-72f2-b123-f066d4822033/exec-6d1096f7-ca5e-44c5-9947-e19d6ad43647.png`
+- Additional source truth for Carter's hero: `/Users/pbmarken/Desktop/Screenshot 2026-08-24 at 4.43.37 PM.png`
+- Browser-rendered implementation: `/var/folders/m8/p8ppw5ss1hg8hw_cnbd2nyrr0000gn/T/franchise-honors-final-1440.png`
+- Combined comparison: `/var/folders/m8/p8ppw5ss1hg8hw_cnbd2nyrr0000gn/T/franchise-honors-final-design-comparison.png`
+- Viewport and state: Carter franchise detail, Carbon dark theme, `1440 × 1024` CSS px, device pixel ratio `1`.
+- Source pixels: `1487 × 1058`, normalized to `1440 × 1024` for the comparison. Implementation pixels: `1440 × 1024`.
 
 ## Full-view comparison
 
-- The implementation preserves the reference's dense team-column board, round rows, position color coding, compact cards, best/worst positional analysis, and horizontal value visualization.
-- Intentional differences are correct for the product: IBM Carbon surfaces and typography replace VisualLeague styling; player photos and NFL logos are omitted per request; canonical manager names/logos replace third-party handles/avatars; square corners and LMFL spacing/tokens are retained.
-- The redundant summary bar is absent. The selected season array flows directly into the four bowl cards.
+The final browser render preserves the selected compact vertical silhouette: straight cloth body, white field, Carter-red side bands, dark top mount and weighted footer, centered logo/name/year hierarchy, and the uncontained Carbon page surface. The user-requested multi-banner system is an intentional expansion from the single-banner mock. Carter's supplied tortilla-toss photo is now the hero background with the existing dark readability overlay intact.
 
-## Focused-region comparison
+## Focused banner comparison
 
-- Draft board: all six requested position colors are present; manager columns and round labels remain legible; the board owns its horizontal overflow on narrow screens.
-- Bowl cards: all four logo image boxes measure 300–319 px high. At 390 px viewport the square logos receive 340 px of available width, enough to preserve the 300 px visible-art target without overrun.
-- Draft analysis: best/worst cards preserve the position color as the strongest categorical cue, while green/red rules and signed values distinguish the result. The diverging stacked bar chart communicates both positive and negative positional value more clearly than the source's one-direction bars.
-- Weekly ranking: the line chart resets at Week 1, uses canonical manager colors, offers hover tooltips, and lets mouse/keyboard/touch users persist a manager selection.
+The original-resolution comparison and the `1440 × 1024` implementation capture were inspected for the banner hardware, fabric texture, logo scale, stitched-color treatment, name wrapping, and year hierarchy. Division and Letty art remain at their reduced optical scales. Bowl-family scales are now Voltron `0.60`, Tokyo Drift `0.75`, and Lemon Pepper Wing `0.50`; 2020 bowl art overrides the family scale at `1.00` so it matches the Teremana logo height.
 
 ## Required fidelity surfaces
 
-- Fonts and typography: IBM Plex Sans is used for copy and IBM Plex Mono for rounds, picks, values, ranks, weeks, and scores. New type uses only the allowed 12/14/16/20 px scale with tabular numerals.
-- Spacing and layout rhythm: 48 px section rhythm matches the existing season detail page. Dense board cards use compact internal spacing; analytical cards have clearer 16 px padding. All corners remain square and elevation comes from Carbon layers/borders.
-- Colors and tokens: Carbon Gray 100 surfaces are preserved. Position mapping is pink QB, mint RB, baby-blue WR, orange TE, purple D/ST, and light-gray K. Manager series use manager-canon colors.
-- Image quality and asset fidelity: real per-season bowl art and manager logos are used. No player photos, NFL logos, generated placeholders, custom SVGs, or CSS illustrations were introduced. Every image retains the existing fallback behavior.
-- Copy and content: “Started Points” is used consistently. The methodology states that the report uses full-season Started Points produced for the drafting manager and defines positional expectation; no league fact was invented.
-- Accessibility and behavior: focus rings remain global; ranking legend controls are semantic buttons with `aria-pressed`; board/position legends are labeled; internal scroll frames are keyboard-focusable; the document itself has no horizontal overflow at 390 px.
+- Fonts and typography: IBM Plex Sans is used for section and award copy; IBM Plex Mono with tabular numerals is used for seasons. Sizes remain on the project's 12/14/16/20/28/32 scale, with banner award names and seasons both at weight `700`.
+- Spacing and layout rhythm: banner aspect, hardware, internal spacing, and section rhythm match the selected direction. Responsive grid checks passed at 1904/1440/1056/800/600/390px with 6/5/4/3/2/1 columns and no horizontal overflow.
+- Colors and tokens: each honor resolves the winning manager for that season. Their primary fills the cloth, secondary normally supplies text and borders, and tertiary supplies the top and weighted-bottom bars. Brice, Whitaker, and Kyle use white text for contrast; PB uses their super-dark indigo tertiary as the banner border. Kevin's secondary is Steelers black `#000000` and tertiary is white; Jay's historic banners remain bright pink with deep-indigo text and borders.
+- Image quality and asset fidelity: real season-specific bowl logos, both real division logos, the real Letty trophy art, the supplied Carter background, and a project-local woven cloth texture are used. Division marks receive a subtle light halo and dark drop shadow for same-hue backgrounds. No image failures were observed.
+- Copy and content: all bowl and award names come from `honors.json`. Division banners read “Brian O'Connor Memorial Division Winner” or “Toretto Family Division Winner,” and the canonical division names now flow through season standings and All-Division teams. The 2013 asterisk treatment is retained.
+
+## Interaction and accessibility checks
+
+- Pointer motion feeds a pinned-top spring chain across 12 cloth bands, producing a traveling ripple that settles through neighbor constraints. Pointer position also moves the highlight and shadow across the weave.
+- A 140px scroll impulse produced a restrained `1.35deg` sway and settled to `0.03deg` after 1.3 seconds; the lower weight counter-rotates.
+- `prefers-reduced-motion` disables cloth, footer, and ripple transforms.
+- The stadium-specific heading and keyboard-accessible Show/Hide control remain available when the banner grid is collapsed.
+- Semantic section/article headings and descriptive banner labels are present.
+- Browser console: no warnings or errors. Failed images: none.
 
 ## Comparison history
 
-1. P2 — Season awards forced document-level mobile overflow.
-   - Evidence: at a 390 px viewport, the document measured 476 px wide because award cards had a hard 460 px minimum.
-   - Fix: changed the awards grid minimum to `min(100%, 460px)`.
-   - Post-fix evidence: document client width and scroll width both measure 390 px; the draft board remains independently scrollable at 356 px client / 2180 px content.
-2. P2 — Bowl-card horizontal padding constrained square logo art below the intended visible-height target on mobile.
-   - Evidence: at 390 px the logo box had only 308 px of available width.
-   - Fix: reduced only horizontal logo-region padding from 24 px to 8 px while retaining 24 px vertical breathing room.
-   - Post-fix evidence: mobile image boxes measure 340 px wide and 300–319 px high inside 356 px cards, with no page overflow.
+1. Initial pass found two P2 visual differences: division/Letty artwork occupied more area than the Teremana logo, and the year lacked the mock's display emphasis.
+2. Applied optical logo scales (`0.76` division, `0.52` Letty) and increased the year to the approved 32/40 type token.
+3. Reduced the division and Letty marks by a further 33% (`0.51` and `0.35`), added constraint-inspired cloth motion and reactive shading, and added the stadium heading row with its Show/Hide control.
+4. Added bowl-family and 2020 optical scales, per-winning-manager palettes, canonical division-winner copy, removed the center rule, and replaced the generic franchise status line with a positive data-derived tagline.
+5. Matched 2020 bowl art to Teremana height, strengthened award/year weights, added same-hue division-logo contrast, and applied the requested Brice/Whitaker/Kyle, Kevin, and PB color overrides. No actionable P0/P1/P2 issues remain.
 
-## Primary interactions tested
+## Findings
 
-- Loaded `#/seasons/2025` at desktop and mobile viewport widths.
-- Selected a manager in the weekly ranking; `aria-pressed` changed to `true` and the line focus persisted.
-- Scrolled the draft board horizontally while the page width remained fixed.
-- Checked desktop and mobile browser logs after interaction: no errors or warnings.
+No actionable P0/P1/P2 findings remain.
 
-## Follow-up polish
+## Open questions
 
-- P3: the full static data bundle is now about 557 kB gzip and still triggers the existing Vite chunk-size warning. Per-season code splitting would improve first load but is outside this visual change.
+None.
+
+## Implementation checklist
+
+- [x] Real franchise honors derived outside the component and re-exported through `league.ts`.
+- [x] Four-to-six-column desktop behavior plus tablet/mobile fallbacks.
+- [x] Constraint-inspired pointer ripple, reactive shading, damped scroll sway, weighted footer, and reduced-motion mode.
+- [x] Stadium-specific heading and Show/Hide control.
+- [x] Title-less franchise fallback displays recorded highest finish and season.
+- [x] Per-winning-manager historical banner palettes and updated Kevin black.
+- [x] Bowl-family plus Teremana-height 2020 logo scaling and center-rule removal.
+- [x] Division-logo halo/shadow, heavier banner copy, and manager-specific contrast overrides.
+- [x] Canonical division names across standings, manager cards, All-Division teams, and banners.
+- [x] Positive, data-derived franchise taglines replace the generic status line.
+- [x] Carter background and optical logo sizing updated from user feedback.
+- [x] PB franchise-home canon moved to Montréal and Stade Olympique across the app and season-detail pipeline.
+- [x] TypeScript, production build, responsive layouts, assets, overflow, console, and interactions verified.
+
+## Ring of Honor follow-up
+
+- Source truth: `/Users/pbmarken/Desktop/MikeAlstott.png` (168×174 reference card).
+- Implementation capture: `/var/folders/m8/p8ppw5ss1hg8hw_cnbd2nyrr0000gn/T/lmfl-ring-of-honor-pb.png` at the 1280×720 browser viewport.
+- Combined comparison: `/private/tmp/lmfl-ring-card-comparison.png`; reference 168×174 beside the 152×172 live Mike Alstott plaque.
+- The live card matches the supplied number/portrait/name/stat hierarchy, 2px manager-secondary border, rounded card silhouette, and manager-primary body while remaining slightly narrower. Mike Alstott's explicitly suppressed statistics correctly leave the lower region open.
+- The complete statistical baseline and eight owner-canonical legacy additions now produce 58 plaques across the 15 franchise pages. Whitaker's six earlier selections are restored; Christian Okoye was subsequently removed from Patrick's Ring by owner request.
+- All 45 unique portrait subjects use an exact 69×50 image or initials slot and are tracked alphabetically with every needed NFL uniform in `PLAYER_IMAGE_PUNCHLIST.md`.
+- Palette attribution is franchise-local: single-manager franchises use one standard palette across the row; inherited franchises use the first manager in that same lineage who drafted the player. A data audit found zero out-of-lineage managers.
+- Ring statistics are also franchise-local: Games Started counts only starts by managers in the displayed franchise lineage, and PPG is Started Points divided by those same starts. A player honored by multiple franchises therefore has a separate stat line on each page.
+- Owner-canonical legacy exceptions Roger Craig and Frank Gore display full NFL regular-season Games Played plus calculated Yahoo default half-PPR PPG. Their supplied transparent 69×50 portraits render in the same fixed image slots; the punchlist marks both Ready.
+- The Ring Show/Hide control follows Carbon's default 48×24 track and 18×18 handle dimensions, exposes `role="switch"`, `aria-checked`, `aria-expanded`, and an explicit On/Off state, and uses the current manager's primary color when On.
+- At 1280px, Patrick's six 152px cards fit on one row with no page or section overflow. The control was verified On, Off, hidden, restored, and keyboard-focusable.
 
 final result: passed
